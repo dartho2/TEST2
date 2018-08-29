@@ -1,0 +1,22 @@
+<p>
+  section works!
+</p>
+
+<div *ngFor="let p of portals">
+  {{p.name}}
+  <div *ngFor="let pa of p.sections">
+<a routerLink="/{{p.name}}/{{pa.name}}">{{pa.name}}</a>
+
+  </div>
+</div>
+
+<div *ngFor="let p of portals">
+  {{p.name}}
+  <div *ngFor="let pa of p.sections">
+
+    <div *ngFor="let pa of pa.data">
+{{pa.type}}
+    </div>
+
+  </div>
+</div>

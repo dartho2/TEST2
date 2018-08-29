@@ -7,12 +7,14 @@ import { AppRoutingModule } from './app.routing';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { PortalComponent } from './portal/portal.component';
+import { SectionComponent } from './section/section.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    PortalComponent
+    PortalComponent,
+    SectionComponent
   ],
   imports: [
     BrowserModule,

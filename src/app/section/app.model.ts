@@ -1,14 +1,14 @@
-export interface AppModel {
+export interface SectionModel {
     yoga: {
         yoga: {
             labels: string,
-            sections: {
+            sections: [{
                 name: string,
                 label: string,
                 data: [{
                     type: string
                 }]
-            }
+            }]
         },
         fitness: {
             labels: string,
@@ -20,7 +20,6 @@ export interface AppModel {
                 }]
             }]
         },
-        
         id: string
     }
 }

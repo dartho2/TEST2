@@ -21,7 +21,7 @@ export class PortalComponent implements OnInit {
     this.router.paramMap.subscribe(
       params => {
               this.portalId = params.get('portal');
-              console.log(this.portalId)
+              console.log("portal>", this.portalId)
       }
     )
     this.portalService.getPortals()

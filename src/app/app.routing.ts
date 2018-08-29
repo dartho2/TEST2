@@ -1,14 +1,15 @@
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
 import { HomeComponent } from "./home/home.component";
-import { PortalComponent} from "./portal/portal.component"
+import { PortalComponent} from "./portal/portal.component";
+import { SectionComponent } from "./section/section.component";
 
 const routes: Routes = [
     // Home page for first Page as 
     // { path: '', component: AppComponent, data: { title: 'Home' }},
     { path: '', component: HomeComponent, data: { title: 'Home' }},
     { path: ':portal', component: PortalComponent, data: { title: 'Portal' }},
-    { path: ':portal/:section', component: PortalComponent, data: { title: 'sekcja' }}
+    { path: ':portal/:section', component: SectionComponent, data: { title: 'sekcja' }}
    
 ];
 
