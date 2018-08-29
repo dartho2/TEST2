@@ -1,4 +1,4 @@
-export interface App {
+export interface AppModel {
     yoga: {
         yoga: {
             labels: string,

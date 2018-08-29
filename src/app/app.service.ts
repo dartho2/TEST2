@@ -10,14 +10,15 @@ import { Router } from '@angular/router';
 export class AppService
  {
     private portals: AppModel[] = [];
-    // private portalsUpdated = new Subject<AppModel[]>();
 
     constructor(private _http: HttpClient, private router: Router) { }
 
     getPortals() {
         return this._http.get("https://yoga-server.herokuapp.com/api/portals")
     }
-   
+    getSectionData(sectionName) {
+      console.log("sekcja")
+    }
 
 
 }

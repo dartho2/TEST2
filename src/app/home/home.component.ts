@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Router } from '@angular/router';
 import { AppService } from '../app.service';
 import { Subscription } from 'rxjs';
 import { AppModel } from '../app.model';
@@ -12,14 +12,19 @@ import { AppModel } from '../app.model';
 export class HomeComponent implements OnInit {
   
   portals: AppModel[] = []
-  private yogasSub: Subscription;
+  // private yogasSub: Subscription;
 
-  constructor(public yogasService: AppService) { }
+  constructor(
+              public portalService: AppService,
+              private router: Router) { }
 
   ngOnInit() {
 
-    this.yogasService.getPortals().subscribe((data: AppModel[]) => {
+    this.portalService.getPortals()
+    .subscribe((data: AppModel[]) => {
+      
       this.portals = data;
+      
     })
   }
 }
