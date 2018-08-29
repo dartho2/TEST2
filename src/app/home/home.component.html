@@ -1,3 +1,5 @@
-<p>
-  home works!
-</p>
+<p>Home Page</p>
+
+<div *ngFor="let portal of portals">
+  <a routerLink="{{portal.name}}">{{portal.label}}</a><br><br>
+</div>

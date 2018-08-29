@@ -14,7 +14,7 @@ export class AppService
 
     constructor(private _http: HttpClient, private router: Router) { }
 
-    getYogas() {
+    getPortals() {
         return this._http.get("https://yoga-server.herokuapp.com/api/portals")
     }
    

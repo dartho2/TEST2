@@ -10,7 +10,7 @@ import { AppModel } from '../app.model';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  contentYoga: any;
+  
   portals: AppModel[] = []
   private yogasSub: Subscription;
 
@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
 
-    this.yogasService.getYogas().subscribe((data: AppModel[]) => {
+    this.yogasService.getPortals().subscribe((data: AppModel[]) => {
       this.portals = data;
     })
   }
