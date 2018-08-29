@@ -24,6 +24,12 @@ export class PortalComponent implements OnInit {
               console.log(this.portalId)
       }
     )
+    this.portalService.getPortals()
+    .subscribe((data: AppModel[]) => {
+      
+      this.portals = data.filter(data => data['name'] == this.portalId);
+      console.log(this.portals)
+    })
         
   }
 
