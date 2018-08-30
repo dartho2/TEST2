@@ -2,12 +2,16 @@ export interface AppModel {
 
     name: string,
     labels: string,
-    sections: {
+    sections: [{
         name: string,
         label: string,
         data: [{
             type: string
+            content: [{
+                title: string
+            }]
         }]
-    }
+    }]
+
 
 }

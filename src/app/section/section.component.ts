@@ -11,7 +11,7 @@ import { SectionModel } from './section.model';
 })
 export class SectionComponent implements OnInit {
   portalId: string;
-  sectionn: any;
+  sectionn;
   sectionId: string;
   sekcja: SectionModel[] = [];
   portals: AppModel[] = [];
