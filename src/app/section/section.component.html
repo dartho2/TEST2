@@ -1,29 +1,22 @@
+<hr>
 <p>
-  section works!
+  sekcja work
 </p>
 
+
 <div *ngFor="let p of sectionn ">
-  {{p.name}}
-{{p.label}}
+  <h2>Sekcja Name</h2>
+  <p> {{p.name}} </p>
+  <h2>Sekcja label</h2>
+  <p> {{p.label}} </p>
 
-<div *ngFor="let pa of p.data ">
-   - {{pa.type}}
-   
-<div *ngFor="let pas of pa.content ">
-  s
-</div>
-  
-</div>
- 
-</div>
-
-<!-- <div *ngFor="let p of portals">
-  {{p.name}}
-  <div *ngFor="let pa of p.sections">
-
-    <div *ngFor="let pa of pa.data">
-{{pa.type}}
-    </div>
+  <div *ngFor="let pa of p.data ">
+    <h2>Sekcja data title</h2>
+    <p> - {{pa.content.title}}</p>
+    <h2>Sekcja data lead</h2>
+    <p> - {{pa.content.lead}}</p>
+    <h2>Sekcja data text</h2>
+    <p> - {{pa.content.text}}</p>
 
   </div>
-</div> -->
+</div>

@@ -9,7 +9,7 @@ const routes: Routes = [
     // { path: '', component: AppComponent, data: { title: 'Home' }},
     { path: '', component: HomeComponent, data: { title: 'Home' }},
     { path: ':portal', component: PortalComponent, data: { title: 'Portal' }},
-    { path: ':portal/:section', component: SectionComponent, data: { title: 'sekcja' }}
+    { path: ':portal/:section', component: PortalComponent, data: { title: 'sekcja' }}
    
 ];
 
