@@ -3,9 +3,14 @@
 </p>
 <div *ngFor="let p of portals">
   {{p.name}}
+  <img src="{{p.image_top}}">
   <div *ngFor="let pa of p.sections">
     <a routerLink="/{{p.name}}/{{pa.name}}">{{pa.name}}</a>
 
   </div>
+</div>
+<hr>
+<div *ngFor="let all of portalsAll">
+    <a routerLink="/{{all.name}}">{{all.name}}</a>
 </div>
 <app-section></app-section>

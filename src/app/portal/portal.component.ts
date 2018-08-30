@@ -10,6 +10,7 @@ import { AppService } from '../app.service';
 })
 export class PortalComponent implements OnInit {
   portalId: string;
+  portalsAll: any;
   portals: AppModel[] = []
   constructor(
     private portalService: AppService,
@@ -23,6 +24,7 @@ export class PortalComponent implements OnInit {
         this.portalService.getPortals()
           .subscribe((data: AppModel[]) => {
             this.portals = data.filter(data => data['name'] == this.portalId);
+            this.portalsAll = data;
           })
       }
     )
