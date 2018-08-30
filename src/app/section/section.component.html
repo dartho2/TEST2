@@ -2,15 +2,18 @@
   section works!
 </p>
 
-<div *ngFor="let p of portals">
+<div *ngFor="let p of sectionn ">
   {{p.name}}
-  <div *ngFor="let pa of p.sections">
-<a routerLink="/{{p.name}}/{{pa.name}}">{{pa.name}}</a>
+{{p.label}}
 
-  </div>
+<div *ngFor="let pa of p.data ">
+   - {{pa.type}}
+  
+</div>
+ 
 </div>
 
-<div *ngFor="let p of portals">
+<!-- <div *ngFor="let p of portals">
   {{p.name}}
   <div *ngFor="let pa of p.sections">
 
@@ -19,4 +22,4 @@
     </div>
 
   </div>
-</div>
+</div> -->
