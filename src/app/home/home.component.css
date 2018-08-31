@@ -5193,7 +5193,7 @@ body {
 }
 
 .global-nav__hit-area:hover~.h-logo:not(.h-logo--opened) {
-	background-color: #EA178C
+	/* background-color: #EA178C */
 }
 
 .global-nav__hit-area:hover~.h-logo:not(.h-logo--opened) .h-logo__path {

@@ -82,11 +82,13 @@ h6 {
 .navbar[_ngcontent-c1]:not(.top-nav-collapse) {
     background-color: white !important;
     opacity:0.8;
+    box-shadow: 0px 5px 10px;
 }
 }
 @media (max-width: 991px) {
   .navbar[_ngcontent-c1]:not(.top-nav-collapse) {
       background-color: white !important;
+      box-shadow: 0px 5px 10px;
      
   }
   }
@@ -94,8 +96,16 @@ h6 {
   .navbar[_ngcontent-c2]:not(.top-nav-collapse) {
     background: #ffffff8f !important;
     background-color: white;
+    box-shadow: 0px 5px 10px;
 }
 
 .navbar-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+h1.h1-responsive.font-weight-bold.wow.fadeInLeft {
+  text-shadow: 2px 3px 6px white, 4px 6px 6px black;
+  padding-top: 50px;
+}
+.mb-5 {
+  margin-bottom: 1rem !important;
 }

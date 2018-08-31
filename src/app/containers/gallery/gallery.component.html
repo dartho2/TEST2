@@ -1,4 +1,4 @@
-<div *ngFor="let gallery of sectiongallery">
+<div style="margin-left: 50px;margin-right: 50px;" *ngFor="let gallery of sectiongallery">
  <h1> {{gallery.content.title}} </h1>
     <div *ngFor="let content of gallery.content.images">
       <img src = "{{content.url}}">

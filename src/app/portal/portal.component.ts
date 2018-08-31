@@ -38,10 +38,10 @@ export class PortalComponent implements OnInit {
           .subscribe((data: AppModel[]) => {
             this.portals = data.filter(data => data.name == this.portalId)
             this.sectionn = this.portals[0].sections.filter(sections => sections.name == this.sectionId);
-            // this.sectiontype = this.portalService.checkType(this.sectionn[0].data);
-            // this.sectiontext = this.sectionn[0].data.filter(sectionn => sectionn.type == 'text');
-            // this.sectiontextimage = this.sectionn[0].data.filter(sectionn => sectionn.type == 'text_and_image');
-            // this.sectiongallery = this.sectionn[0].data.filter(sectionn => sectionn.type == 'gallery');
+            this.sectiontype = this.portalService.checkType(this.sectionn[0].data);
+            this.sectiontext = this.sectionn[0].data.filter(sectionn => sectionn.type == 'text');
+            this.sectiontextimage = this.sectionn[0].data.filter(sectionn => sectionn.type == 'text_and_image');
+            this.sectiongallery = this.sectionn[0].data.filter(sectionn => sectionn.type == 'gallery');
             console.log("section text" ,this.sectiontext)
             console.log("sectionn" ,this.sectionn)
           })
