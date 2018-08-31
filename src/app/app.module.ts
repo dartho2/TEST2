@@ -8,13 +8,19 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { PortalComponent } from './portal/portal.component';
 import { SectionComponent } from './section/section.component';
+import { TextComponent } from './containers/text/text.component';
+import { TextimagesComponent } from './containers/textimages/textimages.component';
+import { GalleryComponent } from './containers/gallery/gallery.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     PortalComponent,
-    SectionComponent
+    SectionComponent,
+    TextComponent,
+    TextimagesComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,

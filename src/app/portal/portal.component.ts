@@ -28,8 +28,8 @@ export class PortalComponent implements OnInit {
           .subscribe((data: AppModel[]) => {
             this.portals = data.filter(data => data['name'] == this.portalId);
             // this.portalsAll = data;
-            this.sectionn = this.portals[0].sections[0].name;
-            console.log(this.sectionn)
+            
+            // console.log(this.sectionn)
           })
       }
     )

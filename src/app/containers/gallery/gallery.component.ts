@@ -1,20 +1,19 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { AppModel } from '../app.model';
-import { AppService } from '../app.service';
+import { AppModel } from '../../app.model';
+import { AppService } from '../../app.service';
 import { Router, ActivatedRoute } from '@angular/router';
-import { SectionModel } from './section.model';
+import { SectionModel } from '../../section/section.model';
+
 
 @Component({
-  selector: 'app-section',
-  templateUrl: './section.component.html',
-  styleUrls: ['./section.component.css']
+  selector: 'app-gallery',
+  templateUrl: './gallery.component.html',
+  styleUrls: ['./gallery.component.css']
 })
-export class SectionComponent implements OnInit {
+export class GalleryComponent implements OnInit {
   
   portalId: string;
-  sectiontext;
   sectiongallery;
-  sectiontextimage;
   sectiontype;
   sectionn;
   sectionId: string;
@@ -40,11 +39,9 @@ export class SectionComponent implements OnInit {
             this.portals = data.filter(data => data.name == this.portalId)
             this.sectionn = this.portals[0].sections.filter(sections => sections.name == this.sectionId);
             this.sectiontype = this.portalService.checkType(this.sectionn[0].data);
-            this.sectiontext = this.sectionn[0].data.filter(sectionn => sectionn.type == 'text');
-            this.sectiontextimage = this.sectionn[0].data.filter(sectionn => sectionn.type == 'text_and_image');
             this.sectiongallery = this.sectionn[0].data.filter(sectionn => sectionn.type == 'gallery');
-            console.log("section text" ,this.sectiontext)
-            console.log("sectionn" ,this.sectionn)
+           
+            
           })
       });
   

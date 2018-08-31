@@ -1,0 +1,8 @@
+<div *ngFor="let gallery of sectiongallery">
+ <h1> {{gallery.content.title}} </h1>
+    <div *ngFor="let content of gallery.content.images">
+      <img src = "{{content.url}}">
+
+    </div>
+
+</div>
