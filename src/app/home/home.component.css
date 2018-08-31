@@ -5053,7 +5053,7 @@ body {
 }
 
 .h-logo {
-	background-color: #fff;
+	background-color: #f4f4f400;
 	border: none;
 	box-shadow: none;
 	cursor: pointer;
@@ -5073,7 +5073,7 @@ body {
 
 .h-logo:hover,
 .h-logo:focus {
-	background-color: #EA178C
+	/* background-color: #EA178C */
 }
 
 .h-logo--white {
@@ -5082,12 +5082,12 @@ body {
 
 .h-logo--white:hover,
 .h-logo--white:focus {
-	background-color: #fff
+	/* background-color: #fff */
 }
 
 .h-logo--black:hover,
 .h-logo--black:focus {
-	background-color: #000
+	/* background-color: #000 */
 }
 
 .h-logo--opened,
@@ -5132,6 +5132,7 @@ body {
 
 @media only screen and (min-width: 768px) {
 	.h-logo {
+		/* background: url('/assets/images/Yin_Yang_Cat_1024x1024.png'); */
 		height: 74px;
 		top: 50px;
 		width: 74px

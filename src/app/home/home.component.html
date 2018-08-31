@@ -4,7 +4,8 @@
       <div
         aria-atomic="true" aria-live="polite" class="a11y-hint" role="status"></div>
         
-        <button (click)="myFunc()" class="h-logo h-logo--magenta">
+        <button (click)="myFunc()" class="h-logo">
+          <img src="assets/images/Yin_Yang_Cat_1024x1024.png" style="height:100px;">
         
           </button>
       <div class="global-content-vertical-fix homepage">
@@ -17,7 +18,7 @@
       <div class="global-nav-wrapper global-nav-wrapper--">
         <nav aria-hidden="true" class="global-nav global-nav">
           
-          <a *ngFor="let portal of portals" class="global-nav-item" routerLink="{{portal.name}}"><div class="global-nav-item__label">{{portal.label}}</div>
+          <a *ngFor="let portal of portals" class="global-nav-item" routerLink="{{portal.name}}/{{portal.sections[0].name}}"><div class="global-nav-item__label">{{portal.label}}</div>
             
             
           </a>

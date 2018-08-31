@@ -19,7 +19,7 @@ export class AppService {
                 case 'text_and_image':
                     return portalsData
                 default:
-                    return portalsData
+                    return
             }
         })
 

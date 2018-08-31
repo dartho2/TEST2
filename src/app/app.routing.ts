@@ -2,7 +2,7 @@ import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
 import { HomeComponent } from "./home/home.component";
 import { PortalComponent} from "./portal/portal.component";
-import { SectionComponent } from "./section/section.component";
+// import { SectionComponent } from "./section/section.component";
 
 const routes: Routes = [
     // Home page for first Page as 
