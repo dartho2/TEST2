@@ -13,10 +13,19 @@ export class HomeComponent implements OnInit {
   
   portals: AppModel[] = []
   // private yogasSub: Subscription;
-
+  public clickClose = "open";
   constructor(
               public portalService: AppService,
               private router: Router) { }
+              myFunc() {
+                if (this.clickClose =="close")
+                { 
+                  return this.clickClose = "open"
+                } else {
+                  return this.clickClose = "close"
+                }
+        
+              }
 
   ngOnInit() {
 
@@ -24,7 +33,8 @@ export class HomeComponent implements OnInit {
     .subscribe((data: AppModel[]) => {
       
       this.portals = data;
-      
+     
     })
+  
   }
 }

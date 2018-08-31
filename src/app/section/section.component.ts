@@ -11,6 +11,7 @@ import { SectionModel } from './section.model';
 })
 export class SectionComponent implements OnInit {
   portalId: string;
+  sectiontype;
   sectionn;
   sectionId: string;
   sekcja: SectionModel[] = [];
@@ -30,6 +31,8 @@ export class SectionComponent implements OnInit {
           .subscribe((data: AppModel[]) => {
             this.portals = data.filter(data => data.name == this.portalId)
             this.sectionn = this.portals[0].sections.filter(sections => sections.name == this.sectionId);
+            this.sectiontype = this.portalService.checkType(this.sectionn[0].data);
+            console.log("section type" ,this.sectiontype)
           })
       });
   }

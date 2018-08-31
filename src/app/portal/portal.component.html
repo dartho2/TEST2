@@ -1,7 +1,62 @@
-<p>
-  portal works!
-</p>
-<div *ngFor="let p of portals">
+<!-- Main navigation -->
+<header id="header">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-nav  fixed-top scrolling-navbar" *ngFor="let p of portals">
+      <div class="container">
+        <a class="navbar-brand" routerLink="/">
+          <strong>{{p.label}}</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item" *ngFor="let pa of p.sections">
+              <a class="nav-link" routerLink="/{{p.name}}/{{pa.name}}">{{pa.label}}</a>
+            </li>
+            
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+    <!-- Full Page Intro -->
+    <div class="view" *ngFor="let p of portals" [ngStyle]="{'background-image':'url('+p.image_top+')'}" style="background-repeat: no-repeat; background-size: cover; background-position: center center;">
+      <!-- Mask & flexbox options-->
+      <div class="mask rgba-gradient d-flex justify-content-center align-items-center">
+        <!-- Content -->
+        <div class="container">
+          <!--Grid row-->
+          <div class="row mt-5">
+            <!--Grid column-->
+            <div class="col-md-6 mb-5 mt-md-0 mt-5 white-text text-center text-md-left">
+              <h1 class="h1-responsive font-weight-bold wow fadeInLeft" data-wow-delay="0.3s">{{p.label}}</h1>
+              <hr class="hr-light wow fadeInLeft" data-wow-delay="0.3s">
+              <h6 class="mb-3 wow fadeInLeft" data-wow-delay="0.3s">DEscriptions</h6>
+              
+            </div>
+            <!--Grid column-->
+            <!--Grid column-->
+            <div class="col-md-6 col-xl-5 mb-4">
+              <!--Form-->
+              
+              <!--/.Form-->
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Content -->
+      </div>
+      <!-- Mask & flexbox options-->
+    </div>
+    <!-- Full Page Intro -->
+  </header>
+  <!-- Main navigation -->
+
+
+<!-- <div *ngFor="let p of portals">
   {{p.name}}
   <img src="{{p.image_top}}">
   <div *ngFor="let pa of p.sections">
@@ -11,6 +66,6 @@
 </div>
 <hr>
 <div *ngFor="let all of portalsAll">
-    <a routerLink="/{{all.name}}">{{all.name}}</a>
-</div>
+  <a routerLink="/{{all.name}}">{{all.name}}</a>
+</div> -->
 <app-section></app-section>

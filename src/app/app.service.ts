@@ -11,5 +11,16 @@ export class AppService
     getPortals() {
         return this._http.get("https://yoga-server.herokuapp.com/api/portals")
     }
+    checkType(portalsData){
+        console.log(portalsData)
+        portalsData.map(portalsData => {
+            switch (portalsData.type) {
+                case 'text' :
+                    return portalsData
+                
+            }
+        })
+        
+    }
 
 }
