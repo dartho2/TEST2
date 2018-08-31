@@ -20,8 +20,13 @@ export class SectionComponent implements OnInit {
     private portalService: AppService,
     private route: Router,
     private router: ActivatedRoute) {
-  }
+  }  
+  // istnieje(a) {
+  //   return a= 1
+  // }
+ 
   ngOnInit() {
+    
     this.router.paramMap
     .subscribe(
       params => {
@@ -35,5 +40,7 @@ export class SectionComponent implements OnInit {
             console.log("section type" ,this.sectiontype)
           })
       });
-  }
+  
+      
+    }
 }

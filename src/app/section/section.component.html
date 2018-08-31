@@ -1,8 +1,42 @@
 <hr>
+<div *ngFor="let p of sectiontype"
+    [ngSwitch]="p.type">
+    <li *ngSwitchCase="'text'" 
+    class="text-success">text 
+</li>
+
+<li *ngSwitchCase="'text_and_image'" 
+class="text-success">text_and_image 
+</li>
+<li *ngSwitchCase="'gallery'" 
+class="text-success">gallery 
+</li>
+<li *ngSwitchDefault 
+      class="text-warning">inny
+  </li>
 
 
-<div *ngFor="let p of sectiontype">
-  <h2>a</h2>
+  <!-- <div *ngIf="istnieje(p)?.length > 0">
+    <div *ngIf="p.content.image?.length >  0">
+      <img [ngStyle]="{'image-align':'+p.style.image_align+'}" src="{{p.content.image}}">
+      <p [ngStyle]="{'image-align':'+p.style.image_align+'}"></p>
+{{p.style.image_align}}
+    </div>
+  </div> -->
+
+
+<!-- 
+
+
+
+  <h2 *ngIf="p.content.lead">{{p.content.lead}}</h2>
+  <p *ngIf="p.content.text">{{p.content.text}}</p>
+
+ -->
+
+
+
+
   <!-- <div *ngFor="let pa of p.content">
     d
   </div> -->
@@ -16,4 +50,5 @@
     <p> - {{pa.content.text}}</p>
 
   </div> -->
+
 </div>

@@ -3,24 +3,28 @@ import { HttpClient } from '@angular/common/http';
 
 
 @Injectable({ providedIn: 'root' })
-export class AppService
- {
+export class AppService {
 
     constructor(private _http: HttpClient) { }
 
     getPortals() {
         return this._http.get("https://yoga-server.herokuapp.com/api/portals")
     }
-    checkType(portalsData){
+    checkType(portalsData) {
         console.log(portalsData)
-        portalsData.map(portalsData => {
+        return portalsData.map(portalsData => {
             switch (portalsData.type) {
-                case 'text' :
+                case 'text':
                     return portalsData
-                
+                case 'text_and_image':
+                    return portalsData
+                default:
+                    return portalsData
             }
         })
-        
-    }
 
+    }
+    
+  
+    
 }
