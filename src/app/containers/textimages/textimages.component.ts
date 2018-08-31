@@ -40,9 +40,9 @@ export class TextimagesComponent implements OnInit {
             this.sectionn = this.portals[0].sections.filter(sections => sections.name == this.sectionId);
             this.sectiontype = this.portalService.checkType(this.sectionn[0].data);
             this.sectiontextimage = this.sectionn[0].data.filter(sectionn => sectionn.type == 'text_and_image');
-            this.style = this.sectiontextimage.filter(sectiontextimage => sectiontextimage.style )
-            console.log("style" , this.sectiontextimage)
-            console.log("style1" , this.style)
+            // this.style = this.sectiontextimage.filter(sectiontextimage => sectiontextimage.style )
+            // console.log("style" , this.sectiontextimage)
+            // console.log("style1" , this.style)
             
           })
       });
