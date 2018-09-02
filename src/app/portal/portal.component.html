@@ -1,18 +1,18 @@
 
 <header id="header">
 
-    <nav class="navbar navbar-expand-lg navbar-nav  fixed-top scrolling-navbar" *ngFor="let p of portals">
+    <nav class="navbar navbar-expand-lg navbar-nav  fixed-top scrolling-navbar" >
       <div class="container">
         <a class="navbar-brand" routerLink="/">
-          <strong>{{p.label}}</strong>
+          <strong></strong>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item" *ngFor="let pa of p.sections">
-              <a class="nav-link" routerLink="/{{p.name}}/{{pa.name}}">{{pa.label}}</a>
+            <li class="nav-item" *ngFor="let pa of portals">
+              <a class="nav-link" routerLink="/{{portalId}}/{{pa.name}}">{{pa.label}}</a>
             </li>
             
           </ul>
@@ -21,32 +21,5 @@
       </div>
     </nav>
  
-    <div class="view" *ngFor="let p of portals" [ngStyle]="{'background-image':'url('+p.image_top+')'}" style="background-repeat: no-repeat; background-size: cover; background-position: center center;">
-  
-      <div class="mask rgba-gradient d-flex justify-content-center align-items-center">
- 
-        <div class="container">
- 
-          <div class="row mt-5">
-    
-            <div class="col-md-6 mb-5 mt-md-0 mt-5 white-text text-center text-md-left">
-              <h1 class="h1-responsive font-weight-bold wow fadeInLeft" *ngFor="let name of sectionn" data-wow-delay="0.3s">{{p.label}}</h1>
-              <hr class="hr-light wow fadeInLeft" data-wow-delay="0.3s">
-              <h6 class="mb-3 wow fadeInLeft" *ngFor="let name of sectionn" data-wow-delay="0.3s">{{name.label}}</h6>
-              
-            </div>
-         
-            <div class="col-md-6 col-xl-5 mb-4">
-             
-            </div>
-        
-          </div>
-       
-        </div>
-    
-      </div>
-    </div>
   
   </header>
-
-<app-section></app-section>

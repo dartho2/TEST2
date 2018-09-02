@@ -1,30 +1,17 @@
-<div data-ui-role="content">
-  <div class="wrapper" id="wrapper" data-reactroot="" data-browser="chrome" data-browser-version="68" data-os="windows">
-    <div class="global-nav-background global-nav-background--{{clickClose}}"><button aria-hidden="true" class="global-nav__hit-area" tabindex="-1"></button>
-      <div
-        aria-atomic="true" aria-live="polite" class="a11y-hint" role="status"></div>
-        
-        <button (click)="myFunc()" class="h-logo">
-          <img src="assets/images/Yin_Yang_Cat_1024x1024.png" style="height:100px;">
-        
-          </button>
-      <div class="global-content-vertical-fix homepage">
-        <!-- <div _ngcontent-c1="" class="global-content-wrapper"
-          id="global-content-wrapper">
-          <main _ngcontent-c1="" class="main home-page"></main>
-        </div> -->
-      </div>
-      
-      <div class="global-nav-wrapper global-nav-wrapper--">
-        <nav aria-hidden="true" class="global-nav global-nav">
-          
-          <a *ngFor="let portal of portals" class="global-nav-item" routerLink="{{portal.name}}/{{portal.sections[0].name}}"><div class="global-nav-item__label">{{portal.label}}</div>
-            
-            
-          </a>
-          </nav>
-      </div>
-      <div class="framebox"></div>
-    </div>
+<div *ngIf="portalId; else home">
+  <div *ngIf="exists(portalId); else home">
+    <app-portal [data]='portals'></app-portal>
   </div>
-</div>
+  </div>
+  
+  <ng-template #home>
+   <div *ngFor="let a of portals">
+      <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/{{a.name}}">{{a.label}}</a>
+          </li>
+          
+        </ul>
+        
+   </div>
+  </ng-template>
