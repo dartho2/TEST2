@@ -14,6 +14,7 @@ import { PortalComponent} from '../portal/portal.component'
 export class HomeComponent implements OnInit {
   portalId;
   portal;
+  data;
   portals: AppModel[] = []
   // private yogasSub: Subscription;
   public clickClose = "open";
@@ -43,21 +44,29 @@ export class HomeComponent implements OnInit {
 
 
   ngOnInit() {
-    
-    this.portalService.getPortals()
-      .subscribe((data: AppModel[]) => {
-        this.portals = data;
-        console.log("data", data)    
+   
+    this.router.paramMap
+    .subscribe(
+      params => {
+        this.portalId = params.get
+        ('portal');
+        
+      })
+     
 
-        this.router.paramMap
-          .subscribe(
-            params => {
-              this.portalId = params.get('portal');
-              
-            })
+    this.portalService.getPortals()
+    .subscribe(data =>
+       this.portals = data
+      
+    );
+    
+        
+
+        
 
 
       }
-      )
+   
+      
   }
-}
+

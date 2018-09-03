@@ -1,5 +1,30 @@
 <!-- <app-text></app-text>
 <app-gallery></app-gallery> -->
-<div *ngFor="let a of sections"
->
-{{a.label}}</div>
+
+<br>
+<br>
+<br>
+
+<div *ngFor="let a of sections">
+    <h1>{{a.name}}<small> - {{a.label}} </small></h1>
+    <hr>
+    <div *ngFor="let b of a.data">
+        <div *ngIf="b.type == 'text'">
+            <h1>{{b.type}}</h1>
+            {{b.content.text}}
+        </div>
+        <div *ngIf="b.type == 'text_and_image'">
+            <h1>{{b.type}}</h1>
+            {{b.content.text}}
+        </div>
+        <div *ngIf="b.type == 'gallery'">
+            <h1>{{b.type}}</h1>
+            <h5>{{b.content.title}}</h5>
+        </div>
+      
+       <div *ngFor="let x of b.content.images">
+           {{x.url}}
+           </div>
+    </div>
+</div>
+

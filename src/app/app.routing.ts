@@ -6,11 +6,14 @@ import { PortalComponent} from "./portal/portal.component";
 
 const routes: Routes = [
     // Home page for first Page as 
-    // { path: '', component: AppComponent, data: { title: 'Home' }},
     { path: '', component: HomeComponent, data: { title: 'Home' }},
     { path: ':portal', component: HomeComponent, data: { title: 'Portal' }},
     { path: ':portal/:section', component: HomeComponent, data: { title: 'sekcja' }}
-   
+    // { path: '', component: HomeComponent,
+    //     children: [
+    //         {path: ':portal', component: HomeComponent}
+    //     ]}
+    
 ];
 
 @NgModule({
