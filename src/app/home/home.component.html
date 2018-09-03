@@ -1,5 +1,6 @@
 <div *ngIf="portalId; else home">
   <div *ngIf="exists(portalId); else home">
+    
     <app-portal [data]='portals'></app-portal>
   </div>
   </div>
@@ -8,7 +9,7 @@
    <div *ngFor="let a of portals">
       <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" routerLink="/{{a.name}}">{{a.label}}</a>
+            <a class="nav-link" routerLink="/{{a.name}}" >{{a.label}}</a>
           </li>
           
         </ul>

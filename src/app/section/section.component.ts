@@ -1,8 +1,8 @@
-import { Component, OnInit, OnChanges, SimpleChange, Input } from '@angular/core';
-import { AppModel } from '../app.model';
+import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
+import { AppModel, Sections } from '../app.model';
+import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import { AppService } from '../app.service';
-import { Router, ActivatedRoute } from '@angular/router';
-import { SectionModel } from './section.model';
+import { SectionModel } from '../section/section.model';
 import { BehaviorSubject } from 'rxjs';
 
 @Component({
@@ -11,17 +11,19 @@ import { BehaviorSubject } from 'rxjs';
   styleUrls: ['./section.component.css']
 })
 export class SectionComponent implements OnInit {
-private _data = new  BehaviorSubject<AppModel[]>([])
-dupa: AppModel[] = [];
-  @Input() 
-  set data(value){
-    this._data.next(value)
-  }
-  get data(){
-    
-    return this._data.getValue();
-    
-  }
+private _data = new BehaviorSubject<AppModel[]>([])
+sections;
+portals;
+
+
+@Input()
+set data(value) {
+  this._data.next(value)
+}
+get data() {
+  return this._data.getValue();
+
+}
   
  
   constructor(
@@ -31,13 +33,34 @@ dupa: AppModel[] = [];
   }  
  
   ngOnInit() {
-    this._data.subscribe(x => {
-      this.dupa = this.data
-      console.log(this.dupa)
-    })
-  
-
+   
+    this.router.paramMap
+    .subscribe(
+      params => {
+        const sectionId = params.get('section');
+        console.log("this_data ->", this._data)
+        this._data
+          .subscribe(x => {
+          
+            this.sections = this.sectionCategory(this.data, sectionId)
       
+          })
+
+      });
+     
+    
+    
+    
+    
+      }
+      sectionCategory(data: AppModel[], section) {
+        const result = data.filter(data => data.name == section)
+        console.log(result)
+        
+        
+    
+        return result
+
     }
     
 }

@@ -1,13 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Injectable } from '@angular/core';
 import { Router, ParamMap, ActivatedRoute } from '@angular/router';
 import { AppService } from '../app.service';
 import { Subscription } from 'rxjs';
 import { AppModel } from '../app.model';
+import { PortalComponent} from '../portal/portal.component'
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  styleUrls: ['./home.component.css'],
+
 })
 export class HomeComponent implements OnInit {
   portalId;
@@ -31,6 +33,7 @@ export class HomeComponent implements OnInit {
   }
   exists(portalId) {
    const portal = this.portals.filter(data => data.name === portalId)
+
   if (portal.length > 0) {
     return true;
   } else {
@@ -40,10 +43,11 @@ export class HomeComponent implements OnInit {
 
 
   ngOnInit() {
-
+    
     this.portalService.getPortals()
       .subscribe((data: AppModel[]) => {
         this.portals = data;
+        console.log("data", data)    
 
         this.router.paramMap
           .subscribe(
