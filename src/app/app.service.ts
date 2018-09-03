@@ -16,7 +16,11 @@ export class AppService {
       
     }
 
-
+    setImages(result, portal) {
+        const image = result.filter(data => data.name == portal)
+        
+        return image[0].image_top
+    }
     checkType(portalsData) {
       
         return portalsData.map(portalsData => {

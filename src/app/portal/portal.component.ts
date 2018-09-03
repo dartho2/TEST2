@@ -13,6 +13,7 @@ import { BehaviorSubject } from 'rxjs';
 export class PortalComponent implements OnInit {
   private _data = new BehaviorSubject<AppModel[]>([])
   portals;
+  setImageData;
   // pcategory: Sections[];
 
   @Input()
@@ -51,7 +52,7 @@ export class PortalComponent implements OnInit {
   }
   portalCategory(data: AppModel[], portal, section) {
     const result = data.filter(data => data.name == portal)
-    console.log(result)
+    this.setImageData = this.portalService.setImages(result, portal);
     const resultSection = result[0].sections.filter(sections => sections.name)
     
 

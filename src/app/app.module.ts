@@ -11,7 +11,8 @@ import { SectionComponent } from './section/section.component';
 import { TextComponent } from './containers/text/text.component';
 import { TextimagesComponent } from './containers/textimages/textimages.component';
 import { GalleryComponent } from './containers/gallery/gallery.component';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatMenuModule} from '@angular/material/menu'
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +27,9 @@ import { GalleryComponent } from './containers/gallery/gallery.component';
     BrowserModule,
     RouterModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

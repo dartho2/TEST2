@@ -2,3 +2,37 @@
 /* @import '~bootstrap/dist/css/bootstrap.min.css'; */
 @import "~bootstrap/dist/css/bootstrap.css";
 @import "~font-awesome/css/font-awesome.css";
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Roboto', sans-serif; }
+a,h1,p,h5,span
+{
+  font-family: 'Copernicus';
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+h2{
+  font-family: 'HUGE';
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Huge';
+	src: url("/assets/fonts/huge_agb_v5-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/huge_agb_v5-webfont.woff") format("woff"), url("/assets/fonts/huge_agb_v5-webfont.ttf") format("truetype"), url("/assets/fonts/huge_agb_v5-webfont.svg#svgFontName") format("svg")
+}
+
+@font-face {
+	font-family: 'Copernicus';
+	font-weight: normal;
+	font-style: normal;
+	src: url("/assets/fonts/GalaxieCopernicus-Book.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/GalaxieCopernicus-Book.woff") format("woff"), url("/assets/fonts/GalaxieCopernicus-Book.ttf") format("truetype"), url("/assets/fonts/GalaxieCopernicus-Book.svg#svgFontName") format("svg")
+}
+
+@font-face {
+	font-family: 'Copernicus';
+	font-weight: normal;
+	font-style: italic;
+	src: url("/assets/fonts/GalaxieCopernicus-BookItalic.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/GalaxieCopernicus-BookItalic.woff") format("woff"), url("/assets/fonts/GalaxieCopernicus-BookItalic.ttf") format("truetype"), url("/assets/fonts/GalaxieCopernicus-BookItalic.svg#svgFontName") format("svg")
+}
+
