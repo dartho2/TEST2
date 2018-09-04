@@ -2,14 +2,16 @@
 <app-gallery></app-gallery> -->
 <div class="container marketing" *ngFor="let a of sections">
 
-    
-
+  
+<h2>{{a.label}}</h2>
 
     <!-- START THE FEATURETTES -->
 
-    <hr class="featurette-divider">
+    
 <div *ngFor="let b of a.data">
+        <hr class="featurette-divider">
     <div class="row featurette" *ngIf="b.type == 'text'">
+        
       <div class="col-md-12">
         <h2 class="featurette-heading">{{b.type}} <span class="text-muted">{{b.content.lead}} </span></h2>
         <p class="lead">{{b.content.text}}</p>
@@ -17,9 +19,10 @@
       
     </div>
 
-    <hr class="featurette-divider">
+    
 
     <div class="row featurette" *ngIf="b.type == 'text_and_image'">
+            <hr class="featurette-divider">
       <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading">{{b.type}} <span class="text-muted">{{b.content.lead}} </span></h2>
         <p class="lead">{{b.content.text}}</p>
@@ -29,9 +32,10 @@
       </div>
     </div>
 
-    <hr class="featurette-divider">
+   
 
     <div class="row featurette" *ngIf="b.type == 'gallery'">
+            <hr class="featurette-divider">
       <div class="col-md-12">
         <h2 class="featurette-heading">{{b.type}} <span class="text-muted">{{b.type}} </span></h2>
         <p class="lead">{{b.content.title}}</p>
@@ -45,7 +49,7 @@
 
     <hr class="featurette-divider">
 
-    <!-- /END THE FEATURETTES -->
+  
 
   </div>
 <!-- <div *ngFor="let a of sections">
