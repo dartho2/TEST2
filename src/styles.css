@@ -2,25 +2,51 @@
 /* @import '~bootstrap/dist/css/bootstrap.min.css'; */
 @import "~bootstrap/dist/css/bootstrap.css";
 @import "~font-awesome/css/font-awesome.css";
-html, body { height: 100%; }
-body { margin: 0; font-family: 'Roboto', sans-serif; }
-h1,p,h5,span
+main {
+	background-color: #f3f3f3;
+}
+html, 
+body { 
+	height: 100%; 
+}
+body { 
+	margin: 0; 
+	font-family: 'Copernicus', sans-serif; 
+}
+h1,
+p,
+h5
 {
-  font-family: 'Copernicus';
+  	font-family: 'Copernicus';
 	font-weight: normal;
+	font-style: normal;
+}
+*, *::before, *::after {
+    box-sizing: content-box;
+}
+span
+{
+  	font-family: 'Montserrat';
+	font-weight: normal;
+	font-size: 12px;
 	font-style: normal;
 }
 a {
     font-family: 'Montserrat';
 	font-weight: normal;
+	font-size: 14px;
 	font-style: normal;
 }
 
-
 h2{
-  font-family: 'HUGE';
+  	font-family: 'HUGE';
+	font-weight: normal;
 	font-weight: normal;
 	font-style: normal;
+}
+a#dropdown01{
+	font-family: 'Montserrat';
+	font-size:12px;
 }
 @font-face {
 	font-family: 'Huge';
@@ -53,4 +79,14 @@ h2{
          url('/assets/fonts/montserrat-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
          url('/assets/fonts/montserrat-v12-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
   }
-
+/* MAT */
+.mat-menu-panel {
+	margin-top: 32px;
+}
+.mat-menu-content {
+	display: table-caption;
+}
+button.button-top-mat.mat-button {
+	color: rgba(255, 255, 255, 0.62);
+}
+/* MAT */
