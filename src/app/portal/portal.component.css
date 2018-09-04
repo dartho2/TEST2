@@ -420,6 +420,8 @@ li.list-inline-item a {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  z-index: 1035;
+ 
 }
 .navbar-dark .navbar-nav .nav-link:hover {
   color:white;

@@ -1,8 +1,14 @@
-<div style="margin-left: 50px;margin-right: 50px;" *ngFor="let gallery of sectiongallery">
- <h1> {{gallery.content.title}} </h1>
-    <div *ngFor="let content of gallery.content.images">
-      <img src = "{{content.url}}">
+<div *ngFor="let b of data">
 
+    <div class="row featurette" *ngIf="b.type == 'gallery'">
+        <hr class="featurette-divider">
+        <div class="col-md-12">
+            <h2 class="featurette-heading">{{b.type}} <span class="text-muted">{{b.type}} </span></h2>
+            <p class="lead">{{b.content.title}}</p>
+        </div>
+        <div class="col-md-6" *ngFor="let x of b.content.images">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="{{x.url}}" data-holder-rendered="true"
+                style="width: 500px; height: 500px;">
+        </div>
+        <hr>
     </div>
-
-</div>

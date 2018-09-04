@@ -1,6 +1,12 @@
-<!-- <div style="margin-left: 50px;margin-right: 50px;" *ngFor="let text of sectiontext">
-    <h1>{{text.content.lead}}</h1>
-  <p>{{text.content.text}}</p>
+<div *ngFor="let b of data">
+    <hr class="featurette-divider">
+<div class="row featurette" *ngIf="b.type == 'text'">
+    
+  <div class="col-md-12">
+    <h2 class="featurette-heading">{{b.type}} <span class="text-muted">{{b.content.lead}} </span></h2>
+    <p class="lead">{{b.content.text}}</p>
+  </div>
+  
 </div>
- -->
-dupa
+
+</div>

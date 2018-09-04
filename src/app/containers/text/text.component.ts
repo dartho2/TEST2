@@ -3,6 +3,8 @@ import { AppModel } from '../../app.model';
 import { AppService } from '../../app.service';
 import { Router, ActivatedRoute } from '@angular/router';
 import { SectionModel } from '../../section/section.model';
+import { BehaviorSubject } from 'rxjs';
+
 
 @Component({
   selector: 'app-text',
@@ -10,41 +12,28 @@ import { SectionModel } from '../../section/section.model';
   styleUrls: ['./text.component.css']
 })
 export class TextComponent implements OnInit {
-  
-  // portalId: string;
-  // sectiontext;
-  // sectiontype;
-  // sectionn;
-  // sectionId: string;
-  // sekcja: SectionModel[] = [];
-  // portals: AppModel[] = [];
-  // constructor(
-  //   private portalService: AppService,
-  //   private route: Router,
-  //   private router: ActivatedRoute) {
-  // }  
-  // istnieje(a) {
-  //   return a= 1
-  // }
+  private _data = new BehaviorSubject<AppModel[]>([])
+  textData;
+  portals;
+
+  @Input()
+  set data(value) {
+    this._data.next(value)
+  }
+  get data() {
+    return this._data.getValue();
+  }
+
+  constructor(
+    private portalService: AppService,
+    private route: Router,
+    private router: ActivatedRoute) {
+  }
+
   ngOnInit() {
-    
-    // this.router.paramMap
-    // .subscribe(
-    //   params => {
-    //     this.sectionId = params.get('section');
-    //     this.portalId = params.get('portal');
-    //     this.portalService.getPortals()
-    //       .subscribe((data: AppModel[]) => {
-    //         this.portals = data.filter(data => data.name == this.portalId)
-    //         this.sectionn = this.portals[0].sections.filter(sections => sections.name == this.sectionId);
-    //         this.sectiontype = this.portalService.checkType(this.sectionn[0].data);
-    //         this.sectiontext = this.sectionn[0].data.filter(sectionn => sectionn.type == 'text');
-    //         console.log("section text" ,this.sectiontext)
-            
-    //       })
-    //   });
-  
-      
-    }
-    
+          this._data
+            .subscribe(x => {
+              this.textData = this.data
+            })   
+  }
 }
