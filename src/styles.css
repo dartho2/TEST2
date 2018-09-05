@@ -87,4 +87,10 @@ a#dropdown01{
 button.button-top-mat.mat-button {
 	color: rgba(255, 255, 255, 0.62);
 }
+.cdk-overlay-container {
+	position: absolute;
+}
+div#cdk-overlay-0 {
+	top:0px !important;
+}
 /* MAT */
