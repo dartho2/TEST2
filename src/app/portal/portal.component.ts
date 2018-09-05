@@ -15,6 +15,7 @@ export class PortalComponent implements OnInit {
   portals;
   setImageData;
   style;
+  hover;
   // pcategory: Sections[];
 
   @Input()
