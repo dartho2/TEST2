@@ -414,12 +414,15 @@ li.list-inline-item a {
   right: 0;
  
 }
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 .navbar-dark .navbar-toggler {
 
     border-color: #268a26;
 }
 .navbar {
-  position: fixed;
+  position: relative;
   /* display: flex; */
   flex-wrap: wrap;
   top: 0px;
