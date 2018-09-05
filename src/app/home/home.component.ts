@@ -1,9 +1,7 @@
-import { Component, OnInit, Injectable } from '@angular/core';
-import { Router, ParamMap, ActivatedRoute } from '@angular/router';
-import { AppService } from '../app.service';
-import { Subscription } from 'rxjs';
-import { AppModel } from '../app.model';
-import { PortalComponent} from '../portal/portal.component'
+import {Component, OnInit, Injectable} from '@angular/core';
+import {ActivatedRoute} from '@angular/router';
+import {AppService} from '../app.service';
+import {AppModel} from '../app.model';
 
 @Component({
   selector: 'app-home',
@@ -15,58 +13,35 @@ export class HomeComponent implements OnInit {
   portalId;
   portal;
   data;
-  portals: AppModel[] = []
-  // private yogasSub: Subscription;
-  public clickClose = "open";
-  constructor(
-    private portalService: AppService,
-    private route: Router,
-    private router: ActivatedRoute) {
+  portals: AppModel[] = [];
+  public clickClose = 'open';
+
+  constructor(private portalService: AppService,
+              private router: ActivatedRoute) {
   }
 
   myFunc() {
-    if (this.clickClose == "close") {
-      return this.clickClose = "open"
-    } else {
-      return this.clickClose = "close"
-    }
-
+    this.clickClose = this.clickClose === 'close' ? 'open' : 'close';
   }
+
   exists(portalId) {
-   const portal = this.portals.filter(data => data.name === portalId)
-
-  if (portal.length > 0) {
-    return true;
-  } else {
-    return false;
-  }
+    return this.portals.filter(data => data.name === portalId).length > 0;
   }
 
 
   ngOnInit() {
-   
+
     this.router.paramMap
-    .subscribe(
-      params => {
-        this.portalId = params.get
-        ('portal');
-        
-      })
-     
+      .subscribe(
+        params => {
+          this.portalId = params.get
+          ('portal');
+
+        });
+
 
     this.portalService.getPortals()
-    .subscribe(data =>
-       this.portals = data
-      
-    );
-    
-        
-
-        
-
-
-      }
-   
-      
+      .subscribe(data => this.portals = data);
   }
+}
 
