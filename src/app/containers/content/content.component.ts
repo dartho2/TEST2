@@ -48,7 +48,8 @@ export class ContentComponent implements OnInit {
               console.log(this.textData)
               
             })
-     
+            console.log("style",this.textData)
+  
   }
 
  

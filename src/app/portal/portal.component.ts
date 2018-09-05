@@ -14,6 +14,7 @@ export class PortalComponent implements OnInit {
   private _data = new BehaviorSubject<AppModel[]>([])
   portals;
   setImageData;
+  style;
   // pcategory: Sections[];
 
   @Input()
@@ -44,7 +45,8 @@ export class PortalComponent implements OnInit {
             .subscribe(x => {
             
               this.portals = this.portalCategory(this.data, this.portalId, sectionId)
-        
+              this.style = this.portalStyle(this.data, this.portalId)
+              console.log("style",this.style)
             })
 
         });
@@ -54,13 +56,23 @@ export class PortalComponent implements OnInit {
     const result = data.filter(data => data.name == portal)
     this.setImageData = this.portalService.setImages(result, portal);
     const resultSection = result[0].sections.filter(sections => sections.name)
-    
-
     return resultSection
 
+  }
+  portalStyle(data: AppModel[], portal) {
+    const result = data.filter(data => data.name == portal)
+    return result
 
-
-
+  }
+  setColor(event) {
+    console.log(event.type)
+  }
+  getColors(portalID) {
+    const result = this.style.filter(data => data.name == portalID)
+    // console.log("a",result)
+    // const colors = result.filter(style => style.style.colors.primary == primary)
+    // console.log(colors)
+  return result[0].style.colors.primary
   }
 }
 

@@ -357,7 +357,7 @@ li.list-inline-item a {
     ::placeholder {
         font-size: 10px;
     }
-  
+   
     .scroll-down {
         position: absolute;
         left: 50%;
@@ -395,6 +395,7 @@ li.list-inline-item a {
     .navbar-dark .navbar-toggler-icon {
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(38, 138, 38, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
       }
+      
 }
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.62);
@@ -413,6 +414,13 @@ li.list-inline-item a {
   background-color:black;
   right: 0;
  
+}
+
+
+.navbar-header-top {
+    background-color: #268a26;
+    height: 16px;
+    display: none;
 }
 *, *::before, *::after {
     box-sizing: border-box;
@@ -456,6 +464,7 @@ a.nav-link {
   /* box-shadow: 0px 5px 10px; */
  
 }
+
 
 
 nav.navbar.navbar-expand-md.navbar-dark.bg-dark {
@@ -529,3 +538,4 @@ span.span-header {
     .carousel-control-next-icon {
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23268a26' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
     }
+   

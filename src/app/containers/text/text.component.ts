@@ -31,9 +31,12 @@ export class TextComponent implements OnInit {
   }
 
   ngOnInit() {
-          this._data
-            .subscribe(x => {
-              this.textData = this.data
-            })   
+    this._data
+      .subscribe(x => {
+        this.textData = this.data
+      })
+      console.log("text decortac",this.textData)
+
   }
+
 }

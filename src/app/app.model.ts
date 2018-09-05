@@ -5,6 +5,7 @@ export interface AppModel {
     sections: Sections[]
     type: string;
     data: Data[];
+    style: Style[]
     
 
 }
@@ -17,4 +18,12 @@ export interface Data{
     name: string;
     type: string;
     
+}
+export interface Style{
+    color: Colors[];
+    colors: string;
+}
+export interface Colors {
+    primary: string;
+    secondary: string;
 }

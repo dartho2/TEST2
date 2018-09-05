@@ -93,4 +93,10 @@ button.button-top-mat.mat-button {
 div#cdk-overlay-0 {
 	top:0px !important;
 }
+@media screen and (max-width: 767px) {
+.mat-menu-panel {
+	display: none;
+	
+}
+}
 /* MAT */

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-dark navbar-header-top">
+<nav class="navbar navbar-expand-md navbar-dark navbar-header-top" [ngStyle]="{'background-color':getColors(portalId)}">
   <div class="container">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
       aria-expanded="false" aria-label="Toggle navigation">
@@ -9,9 +9,11 @@
 
       <ul class="navbar-nav ml-auto">
         <span class="span-header">wybierz portal:</span>
-        <button mat-button class="button-top-mat" [matMenuTriggerFor]="menu">{{portalId}}</button>
+        <button mat-button class="button-top-mat" [matMenuTriggerFor]="menu" (mouseout)="hover =false" (mouseover)="hover =true"
+          [ngStyle]="hover ? {'background-color':getColors(portalId)} : {}">{{portalId}}</button>
         <mat-menu #menu="matMenu">
-          <a mat-button *ngFor="let portal of data" routerLink="/{{portal.name}}/{{portal.sections[0].name}}">{{portal.name}}</a>
+          <a mat-button *ngFor="let portal of data" (mouseout)="portal.hover =false" (mouseover)="portal.hover =true" [ngStyle]="portal.hover ? {'background-color':getColors(portalId)} : {}"
+            routerLink="/{{portal.name}}/{{portal.sections[0].name}}">{{portal.name}}</a>
         </mat-menu>
       </ul>
     </div>
@@ -19,7 +21,7 @@
 </nav>
 <nav class="navbar navbar-expand-md navbar-dark navbar-header-bot">
   <div class="container">
-    <a class="navbar-brand" routerLink="/">{{portalId}}</a>
+    <a class="navbar-brand" [ngStyle]="{'color':getColors(portalId)}" routerLink="/">{{portalId}}</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
       aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -30,8 +32,10 @@
 
         <li class="nav-item" *ngFor="let pa of portals">
 
-          <a mat-button routerLink="/{{portalId}}/{{pa.name}}">{{pa.label}}</a>
+          <a mat-button [ngClass]="{'mat-button:hover' : true}" (mouseout)="pa.hover =false" (mouseover)="pa.hover =true" [ngStyle]="pa.hover ? {'background-color':getColors(portalId)} : {}"
+            routerLink="/{{portalId}}/{{pa.name}}">{{pa.label}}</a>
           <!-- <a class="nav-link" routerLink="/{{portalId}}/{{pa.name}}">{{pa.label}}</a> -->
+
         </li>
 
 
@@ -85,5 +89,8 @@
   <!--/.Controls-->
 </div>
 
-
+<!-- <div *ngFor="let r of style "> -->
+<!-- <li [ngStyle]="{'color':getColors(portalId)}"></li> -->
+<!-- {{ r.style.colors.primary }}  -->
+<!-- </div> -->
 <app-section [data]='portals'></app-section>
