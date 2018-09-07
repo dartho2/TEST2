@@ -1,9 +1,8 @@
-import { Component, OnInit, Injectable } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router, ParamMap, ActivatedRoute } from '@angular/router';
 import { AppService } from '../app.service';
 import { Subscription } from 'rxjs';
 import { AppModel } from '../app.model';
-import { PortalComponent} from '../portal/portal.component'
 
 @Component({
   selector: 'app-home',
@@ -12,17 +11,16 @@ import { PortalComponent} from '../portal/portal.component'
 
 })
 export class HomeComponent implements OnInit {
-  portalId;
+  portalData;
   portal;
-  data;
-  portals: AppModel[] = []
+  portals: AppModel[] = [];
+
   // private yogasSub: Subscription;
   public clickClose = "open";
   constructor(
     private portalService: AppService,
     private route: Router,
-    private router: ActivatedRoute) {
-  }
+    private router: ActivatedRoute) { }
 
   myFunc() {
     if (this.clickClose == "close") {
@@ -31,42 +29,40 @@ export class HomeComponent implements OnInit {
       return this.clickClose = "close"
     }
 
-  }
-  exists(portalId) {
-   const portal = this.portals.filter(data => data.name === portalId)
+  };
 
-  if (portal.length > 0) {
-    return true;
-  } else {
-    return false;
-  }
-  }
+  exists(portalName) {
+    const portal = this.portals.filter(portalData => portalData.name === portalName)
+    if (portal.length > 0) {
+      return true;
+    } else {
+      return false;
+    }
+  };
 
 
   ngOnInit() {
-   
+
     this.router.paramMap
-    .subscribe(
-      params => {
-        this.portalId = params.get
-        ('portal');
-        
-      })
-     
+      .subscribe(
+        params => {
+          this.portalData = params.get
+            ('portal');
+        });
+
 
     this.portalService.getPortals()
-    .subscribe(data =>
-       this.portals = data
-      
-    );
-    
-        
-
-        
+      .subscribe(data =>
+        this.portals = data
+      );
 
 
-      }
-   
-      
+
+
+
+
   }
+
+
+}
 
