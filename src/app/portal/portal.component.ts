@@ -2,7 +2,7 @@ import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/cor
 import { AppModel } from '../app.model';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import { AppService } from '../app.service';
-import { PortalService } from '../portal/portal.service';
+import { HomeComponent } from '../home/home.component';
 import { BehaviorSubject } from 'rxjs';
 
 @Component({
@@ -19,7 +19,7 @@ export class PortalComponent implements OnInit {
   portalName;
   // style;
   // hover;
-  
+
   @Input()
   set portalData(value) {
     this._data.next(value)
@@ -30,25 +30,25 @@ export class PortalComponent implements OnInit {
   }
 
   constructor(
-    private router: ActivatedRoute) {
+    private router: ActivatedRoute,
+    private paramsPortal: HomeComponent) {
   }
 
   ngOnInit() {
-    this.router.paramMap
-      .subscribe(
-        params => {
-          this.sectionName = params.get('section');
-          this.portalName = params.get('portal');
-          this._data
-            .subscribe(x => {
-              const portal = this.portalData.filter(data => data.name == this.portalName)
-              this.sectionData = portal[0].sections.filter(sections => sections.name)
-              // const section = this.sectionData.filter(data => data.name == this.sectionName)
-              this.imageUrl = portal[0].image_top;
-              this.portalColor = portal[0].style.colors.primary
-            })
 
-        });
+    this.portalName = this.paramsPortal.portalUrlName;
+    this.sectionName = this.paramsPortal.sectionUrlName;
+    this._data
+      .subscribe(x => {
+        const portal = this.portalData.filter(data => data.name == this.portalName)
+        this.sectionData = portal[0].sections.filter(sections => this.sectionName)
+        // przekazanie parametru wybranej sekcji
+        // this.sectionData = portal[0].sections.filter(sections => sections.name == this.sectionName)
+
+        // const section = this.sectionData.filter(data => data.name == this.sectionName)
+        this.imageUrl = portal[0].image_top;
+        this.portalColor = portal[0].style.colors.primary
+      })
   }
 
 }

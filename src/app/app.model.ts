@@ -1,5 +1,8 @@
 export interface AppModel {
-
+    data: [{
+        type:string;
+    }];
+    type: string;
     name: string;
     image: string;
     image_top: string;
