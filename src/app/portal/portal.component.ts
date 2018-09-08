@@ -2,7 +2,7 @@ import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/cor
 import { AppModel, Sections } from '../app.model';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import { AppService } from '../app.service';
-import { SectionModel } from '../section/section.model';
+import { PortalService } from '../portal/portal.service';
 import { BehaviorSubject } from 'rxjs';
 
 @Component({
@@ -30,6 +30,7 @@ export class PortalComponent implements OnInit {
   portalId: string;
 
   constructor(
+    private portalsService: PortalService,
     private portalService: AppService,
     private route: Router,
     private router: ActivatedRoute) {
@@ -55,7 +56,7 @@ export class PortalComponent implements OnInit {
   }
   portalCategory(data: AppModel[], portal, section) {
     const result = data.filter(data => data.name == portal)
-    this.setImageData = this.portalService.setImages(result, portal);
+    this.setImageData = this.portalsService.setImages(result, portal);
     const resultSection = result[0].sections.filter(sections => sections.name)
     return resultSection
 

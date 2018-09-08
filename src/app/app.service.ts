@@ -16,25 +16,25 @@ export class AppService {
       
     }
 
-    setImages(result, portal) {
-        const image = result.filter(data => data.name == portal)
+    // setImages(result, portal) {
+    //     const image = result.filter(data => data.name == portal)
         
-        return image[0].image_top
-    }
-    checkType(portalsData) {
+    //     return image[0].image_top
+    // }
+    // checkType(portalsData) {
       
-        return portalsData.map(portalsData => {
-            switch (portalsData.type) {
-                case 'text':
-                    return portalsData
-                case 'text_and_image':
-                    return portalsData
-                default:
-                    return
-            }
-        })
+    //     return portalsData.map(portalsData => {
+    //         switch (portalsData.type) {
+    //             case 'text':
+    //                 return portalsData
+    //             case 'text_and_image':
+    //                 return portalsData
+    //             default:
+    //                 return
+    //         }
+    //     })
 
-    }
+    // }
     
   
     
