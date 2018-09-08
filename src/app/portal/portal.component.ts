@@ -19,11 +19,10 @@ export class PortalComponent implements OnInit {
   // pcategory: Sections[];
 
   @Input()
-  set data(value) {
+  set portalData(value) {
     this._data.next(value)
-    console.log("serrr data " ,  this._data)
   }
-  get data() {
+  get portalData() {
     return this._data.getValue();
 
   }
@@ -45,9 +44,8 @@ export class PortalComponent implements OnInit {
           console.log("this_data ->", this._data)
           this._data
             .subscribe(x => {
-            
-              this.portals = this.portalCategory(this.data, this.portalId, sectionId)
-              this.style = this.portalStyle(this.data, this.portalId)
+              this.portals = this.portalCategory(this.portalData, this.portalId, sectionId)
+              this.style = this.portalStyle(this.portalData, this.portalId)
               console.log("style",this.style)
             })
 

@@ -12,8 +12,8 @@
         <button mat-button class="button-top-mat" [matMenuTriggerFor]="menu" (mouseout)="hover =false" (mouseover)="hover =true"
           [ngStyle]="hover ? {'background-color':getColors(portalId)} : {}">{{portalId}}</button>
         <mat-menu #menu="matMenu">
-          <a mat-button *ngFor="let portal of data" (mouseout)="portal.hover =false" (mouseover)="portal.hover =true" [ngStyle]="portal.hover ? {'background-color':getColors(portalId)} : {}"
-            routerLink="/{{portal.name}}/{{portal.sections[0].name}}">{{portal.name}}</a>
+          <a mat-button *ngFor="let portals of portalData" (mouseout)="portals.hover =false" (mouseover)="portals.hover =true" [ngStyle]="portals.hover ? {'background-color':getColors(portalId)} : {}"
+            routerLink="/{{portals.name}}/{{portals.sections[0].name}}">{{portals.name}}</a>
         </mat-menu>
       </ul>
     </div>

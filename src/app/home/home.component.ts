@@ -11,9 +11,9 @@ import { AppModel } from '../app.model';
 
 })
 export class HomeComponent implements OnInit {
-  portalData;
+  portalUrlName;
   portal;
-  portals: AppModel[] = [];
+  portalsData: AppModel[] = [];
 
   // private yogasSub: Subscription;
   public clickClose = "open";
@@ -32,7 +32,7 @@ export class HomeComponent implements OnInit {
   };
 
   exists(portalName) {
-    const portal = this.portals.filter(portalData => portalData.name === portalName)
+    const portal = this.portalsData.filter(portalData => portalData.name === portalName)
     if (portal.length > 0) {
       return true;
     } else {
@@ -46,14 +46,14 @@ export class HomeComponent implements OnInit {
     this.router.paramMap
       .subscribe(
         params => {
-          this.portalData = params.get
+          this.portalUrlName = params.get
             ('portal');
         });
 
 
     this.portalService.getPortals()
       .subscribe(data =>
-        this.portals = data
+        this.portalsData = data
       );
 
 
