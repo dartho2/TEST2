@@ -1,5 +1,5 @@
 import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
-import { AppModel, Sections } from '../app.model';
+import { AppModel } from '../app.model';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import { AppService } from '../app.service';
 import { PortalService } from '../portal/portal.service';
@@ -17,10 +17,9 @@ export class PortalComponent implements OnInit {
   imageUrl;
   sectionName;
   portalName;
-  style;
-  hover;
-  // pcategory: Sections[];
-
+  // style;
+  // hover;
+  
   @Input()
   set portalData(value) {
     this._data.next(value)
@@ -31,9 +30,6 @@ export class PortalComponent implements OnInit {
   }
 
   constructor(
-    private portalsService: PortalService,
-    private portalService: AppService,
-    private route: Router,
     private router: ActivatedRoute) {
   }
 
