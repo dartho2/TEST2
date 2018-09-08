@@ -1,97 +1,90 @@
-{{portals|json}}
-<nav class="navbar navbar-expand-md navbar-dark navbar-header-top" [ngStyle]="{'background-color':getColors(portalId)}">
-  <div class="container">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-
-      <ul class="navbar-nav ml-auto">
-        <span class="span-header">wybierz portal:</span>
-        <button mat-button class="button-top-mat" [matMenuTriggerFor]="menu" (mouseout)="hover =false" (mouseover)="hover =true"
-          [ngStyle]="hover ? {'background-color':getColors(portalId)} : {}">{{portalId}}</button>
-        <mat-menu #menu="matMenu">
-          <a mat-button *ngFor="let portals of portalData" (mouseout)="portals.hover =false" (mouseover)="portals.hover =true" [ngStyle]="portals.hover ? {'background-color':getColors(portalId)} : {}"
-            routerLink="/{{portals.name}}/{{portals.sections[0].name}}">{{portals.name}}</a>
-        </mat-menu>
-      </ul>
+<nav class="navbar navbar-expand-md navbar-dark navbar-header-top" [ngStyle]="{'background-color':portalColor}">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+  
+        <ul class="navbar-nav ml-auto">
+          <span class="span-header">wybierz portal:</span>
+          <button mat-button class="button-top-mat" [matMenuTriggerFor]="menu" (mouseout)="hover =false" (mouseover)="hover =true"
+            [ngStyle]="hover ? {'background-color':portalColor} : {}">{{portalName}}</button>
+          <mat-menu #menu="matMenu">
+            <a mat-button *ngFor="let portals of portalData" (mouseout)="portals.hover =false" (mouseover)="portals.hover =true" [ngStyle]="portals.hover ? {'background-color':portalColor} : {}"
+              routerLink="/{{portals.name}}/{{portals.sections[0].name}}">{{portals.name}}</a>
+          </mat-menu>
+        </ul>
+      </div>
     </div>
+  </nav>
+  <nav class="navbar navbar-expand-md navbar-dark navbar-header-bot">
+    <div class="container">
+      <a class="navbar-brand" [ngStyle]="{'color':portalColor}" routerLink="/">{{portalName}}</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+  
+          <li class="nav-item" *ngFor="let section of sectionData">
+  
+            <a mat-button [ngClass]="{'mat-button:hover' : true}" (mouseout)="section.hover =false" (mouseover)="section.hover =true" [ngStyle]="section.hover ? {'background-color':portalColor} : {}"
+              routerLink="/{{portalName}}/{{section.name}}">{{section.label}}</a>
+       
+          </li>
+  
+  
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-2" data-slide-to="1" class=""></li>
+  
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <div class="view">
+          <img class="d-block w-100" src="{{imageUrl}}" alt="First slide">
+          <div class="mask rgba-black-light"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">Light mask</h3>
+          <p>First text</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="view">
+          <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg" alt="Second slide">
+          <div class="mask rgba-black-strong"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">Strong mask</h3>
+          <p>Secondary text</p>
+        </div>
+      </div>
+  
+    </div>
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+   
   </div>
-</nav>
-<nav class="navbar navbar-expand-md navbar-dark navbar-header-bot">
-  <div class="container">
-    <a class="navbar-brand" [ngStyle]="{'color':getColors(portalId)}" routerLink="/">{{portalId}}</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      <ul class="navbar-nav mr-auto">
-
-        <li class="nav-item" *ngFor="let section of sectionData">
-
-          <a mat-button [ngClass]="{'mat-button:hover' : true}" (mouseout)="section.hover =false" (mouseover)="section.hover =true" [ngStyle]="section.hover ? {'background-color':getColors(portalId)} : {}"
-            routerLink="/{{portalId}}/{{section.name}}">{{section.label}}</a>
-          <!-- <a class="nav-link" routerLink="/{{portalId}}/{{pa.name}}">{{pa.label}}</a> -->
-
-        </li>
-
-
-      </ul>
-    </div>
-  </div>
-</nav>
-<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
-  <!--Indicators-->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-2" data-slide-to="1" class=""></li>
-
-  </ol>
-  <!--/.Indicators-->
-  <!--Slides-->
-  <div class="carousel-inner" role="listbox">
-    <div class="carousel-item active">
-      <div class="view">
-        <img class="d-block w-100" src="{{setImageData}}" alt="First slide">
-        <div class="mask rgba-black-light"></div>
-      </div>
-      <div class="carousel-caption">
-        <h3 class="h3-responsive">Light mask</h3>
-        <p>First text</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <!--Mask color-->
-      <div class="view">
-        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg" alt="Second slide">
-        <div class="mask rgba-black-strong"></div>
-      </div>
-      <div class="carousel-caption">
-        <h3 class="h3-responsive">Strong mask</h3>
-        <p>Secondary text</p>
-      </div>
-    </div>
-
-  </div>
-  <!--/.Slides-->
-  <!--Controls-->
-  <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-  <!--/.Controls-->
-</div>
-
-<!-- <div *ngFor="let r of style "> -->
-<!-- <li [ngStyle]="{'color':getColors(portalId)}"></li> -->
-<!-- {{ r.style.colors.primary }}  -->
-<!-- </div> -->
-<!-- <app-section [data]='portals'></app-section> -->
+  
+  <!-- <div *ngFor="let r of style "> -->
+  <!-- <li [ngStyle]="{'color':getColors(portalId)}"></li> -->
+  <!-- {{ r.style.colors.primary }}  -->
+  <!-- </div> -->
+  <!-- <app-section [data]='portals'></app-section> -->

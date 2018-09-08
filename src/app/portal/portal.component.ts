@@ -13,7 +13,10 @@ import { BehaviorSubject } from 'rxjs';
 export class PortalComponent implements OnInit {
   private _data = new BehaviorSubject<AppModel[]>([])
   sectionData;
-  setImageData;
+  portalColor;
+  imageUrl;
+  sectionName;
+  portalName;
   style;
   hover;
   // pcategory: Sections[];
@@ -26,7 +29,6 @@ export class PortalComponent implements OnInit {
     return this._data.getValue();
 
   }
-  portalId: string;
 
   constructor(
     private portalsService: PortalService,
@@ -39,40 +41,19 @@ export class PortalComponent implements OnInit {
     this.router.paramMap
       .subscribe(
         params => {
-          const sectionId = params.get('section');
-          this.portalId = params.get('portal');
-          console.log("this_data ->", this._data)
+          this.sectionName = params.get('section');
+          this.portalName = params.get('portal');
           this._data
             .subscribe(x => {
-              this.sectionData = this.portalCategory(this.portalData, this.portalId, sectionId)
-              this.style = this.portalStyle(this.portalData, this.portalId)
-              console.log("style",this.style)
+              const portal = this.portalData.filter(data => data.name == this.portalName)
+              this.sectionData = portal[0].sections.filter(sections => sections.name)
+              // const section = this.sectionData.filter(data => data.name == this.sectionName)
+              this.imageUrl = portal[0].image_top;
+              this.portalColor = portal[0].style.colors.primary
             })
 
         });
+  }
 
-  }
-  portalCategory(data: AppModel[], portal, section) {
-    const result = data.filter(data => data.name == portal)
-    this.setImageData = this.portalsService.setImages(result, portal);
-    const resultSection = result[0].sections.filter(sections => sections.name)
-    return resultSection
-
-  }
-  portalStyle(data: AppModel[], portal) {
-    const result = data.filter(data => data.name == portal)
-    return result
-
-  }
-  setColor(event) {
-    console.log(event.type)
-  }
-  getColors(portalID) {
-    const result = this.style.filter(data => data.name == portalID)
-    // console.log("a",result)
-    // const colors = result.filter(style => style.style.colors.primary == primary)
-    // console.log(colors)
-  return result[0].style.colors.primary
-  }
 }
 

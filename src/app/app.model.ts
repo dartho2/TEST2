@@ -5,9 +5,9 @@ export interface AppModel {
     sections: Sections[]
     type: string;
     data: Data[];
+    image_top: string;
     style: Style[]
     
-
 }
 export interface Sections{
     name: string;
@@ -17,11 +17,10 @@ export interface Sections{
 export interface Data{
     name: string;
     type: string;
-    
+
 }
 export interface Style{
-    color: Colors[];
-    colors: string;
+    colors: Colors[];
 }
 export interface Colors {
     primary: string;
