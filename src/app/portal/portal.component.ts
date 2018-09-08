@@ -12,7 +12,7 @@ import { BehaviorSubject } from 'rxjs';
 })
 export class PortalComponent implements OnInit {
   private _data = new BehaviorSubject<AppModel[]>([])
-  portals;
+  sectionData;
   setImageData;
   style;
   hover;
@@ -44,7 +44,7 @@ export class PortalComponent implements OnInit {
           console.log("this_data ->", this._data)
           this._data
             .subscribe(x => {
-              this.portals = this.portalCategory(this.portalData, this.portalId, sectionId)
+              this.sectionData = this.portalCategory(this.portalData, this.portalId, sectionId)
               this.style = this.portalStyle(this.portalData, this.portalId)
               console.log("style",this.style)
             })

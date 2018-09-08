@@ -1,3 +1,4 @@
+{{portals|json}}
 <nav class="navbar navbar-expand-md navbar-dark navbar-header-top" [ngStyle]="{'background-color':getColors(portalId)}">
   <div class="container">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
@@ -30,10 +31,10 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav mr-auto">
 
-        <li class="nav-item" *ngFor="let pa of portals">
+        <li class="nav-item" *ngFor="let section of sectionData">
 
-          <a mat-button [ngClass]="{'mat-button:hover' : true}" (mouseout)="pa.hover =false" (mouseover)="pa.hover =true" [ngStyle]="pa.hover ? {'background-color':getColors(portalId)} : {}"
-            routerLink="/{{portalId}}/{{pa.name}}">{{pa.label}}</a>
+          <a mat-button [ngClass]="{'mat-button:hover' : true}" (mouseout)="section.hover =false" (mouseover)="section.hover =true" [ngStyle]="section.hover ? {'background-color':getColors(portalId)} : {}"
+            routerLink="/{{portalId}}/{{section.name}}">{{section.label}}</a>
           <!-- <a class="nav-link" routerLink="/{{portalId}}/{{pa.name}}">{{pa.label}}</a> -->
 
         </li>
@@ -93,4 +94,4 @@
 <!-- <li [ngStyle]="{'color':getColors(portalId)}"></li> -->
 <!-- {{ r.style.colors.primary }}  -->
 <!-- </div> -->
-<app-section [data]='portals'></app-section>
+<!-- <app-section [data]='portals'></app-section> -->
