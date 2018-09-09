@@ -42,7 +42,7 @@ export class PortalComponent implements OnInit {
         this.sectionName = params.get('section');
     this._data
       .subscribe(x => {
-        const portal = this.portalData.filter(data => data.name == this.portalName)
+        const portal = this.portalData.filter(portal => portal.name == this.portalName)
         this.sectionData = portal[0].sections.filter(sections => this.sectionName)
         this.imageUrl = portal[0].image_top;
         this.portalColor = portal[0].style.colors.primary

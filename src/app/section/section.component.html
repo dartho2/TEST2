@@ -1,7 +1,7 @@
-{{data|json}}
+
 <div class="container marketing">
-  <div *ngFor="let a of sections">
-    <h2>{{a.label}}</h2>
+  <div *ngFor="let data of sections">
+    <h2>{{data.label}}</h2>
   </div>
   <app-content [data]="category"></app-content>
 </div>

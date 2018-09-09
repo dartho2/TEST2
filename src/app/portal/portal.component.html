@@ -13,7 +13,7 @@
             [ngStyle]="hover ? {'background-color':portalColor} : {}">{{portalName}}</button>
           <mat-menu #menu="matMenu">
             <a mat-button *ngFor="let portals of portalData" (mouseout)="portals.hover =false" (mouseover)="portals.hover =true" [ngStyle]="portals.hover ? {'background-color':portalColor} : {}"
-              routerLink="/{{portals.name}}/{{portals.sections[1].name}}">{{portals.name}}</a>
+              routerLink="/{{portals.name}}/{{portals.sections[0].name}}">{{portals.name}}</a>
           </mat-menu>
         </ul>
       </div>

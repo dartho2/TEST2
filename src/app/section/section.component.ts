@@ -39,7 +39,6 @@ export class SectionComponent implements OnInit {
       .subscribe(
         params => {
           const sectionId = params.get('section');
-          console.log("this_data ->", this._data)
           this._data
             .subscribe(x => {
               this.sections = this.sectionCategory(this.data, sectionId)
