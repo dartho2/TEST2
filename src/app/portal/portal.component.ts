@@ -17,7 +17,7 @@ export class PortalComponent implements OnInit {
   imageUrl;
   sectionName;
   portalName;
-
+  hover;
   @Input()
   set portalData(value) {
     this._data.next(value)
