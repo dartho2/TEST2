@@ -33,7 +33,7 @@
           <li class="nav-item" *ngFor="let section of sectionData">
   
             <a mat-button [ngClass]="{'mat-button:hover' : true}" (mouseout)="section.hover =false" (mouseover)="section.hover =true" [ngStyle]="section.hover ? {'background-color':portalColor} : {}"
-              routerLink="/{{portalName}}/{{section.name}}">{{section.label}}</a>
+              routerLink="/{{paramsPortal.portalUrlName}}/{{section.name}}">{{section.label}}</a>
        
           </li>
   
@@ -82,4 +82,5 @@
     </a>
    
   </div>
+ 
   <app-section [data]='sectionData'></app-section>
