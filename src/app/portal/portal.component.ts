@@ -35,21 +35,19 @@ export class PortalComponent implements OnInit {
   }
 
   ngOnInit() {
-
-    this.portalName = this.paramsPortal.portalUrlName;
-    this.sectionName = this.paramsPortal.sectionUrlName;
+    this.router.paramMap
+    .subscribe(
+      params => {
+        this.portalName = params.get('portal');
+        this.sectionName = params.get('section');
     this._data
       .subscribe(x => {
         const portal = this.portalData.filter(data => data.name == this.portalName)
         this.sectionData = portal[0].sections.filter(sections => this.sectionName)
-        // przekazanie parametru wybranej sekcji
-        // this.sectionData = portal[0].sections.filter(sections => sections.name == this.sectionName)
-
-        // const section = this.sectionData.filter(data => data.name == this.sectionName)
         this.imageUrl = portal[0].image_top;
         this.portalColor = portal[0].style.colors.primary
       })
+    });
   }
-
-}
+ }
 
