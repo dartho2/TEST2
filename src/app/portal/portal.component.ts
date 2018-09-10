@@ -1,8 +1,8 @@
 import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
-import { AppModel } from '../app.model';
+import { AppModel, Sections } from '../app.model';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import { AppService } from '../app.service';
-import { HomeComponent } from '../home/home.component';
+import { SectionModel } from '../section/section.model';
 import { BehaviorSubject } from 'rxjs';
 
 @Component({
@@ -12,43 +12,68 @@ import { BehaviorSubject } from 'rxjs';
 })
 export class PortalComponent implements OnInit {
   private _data = new BehaviorSubject<AppModel[]>([])
-  sectionData;
-  portalColor;
-  imageUrl;
-  sectionName;
-  portalName;
+  portals;
+  setImageData;
+  style;
   hover;
+  // pcategory: Sections[];
 
   @Input()
-  set portalData(value) {
+  set data(value) {
     this._data.next(value)
+    console.log("serrr data " ,  this._data)
   }
-  get portalData() {
+  get data() {
     return this._data.getValue();
 
   }
+  portalId: string;
 
   constructor(
-    private router: ActivatedRoute,
-    private paramsPortal: HomeComponent) {
+    private portalService: AppService,
+    private route: Router,
+    private router: ActivatedRoute) {
   }
 
   ngOnInit() {
     this.router.paramMap
       .subscribe(
         params => {
-          // this.portalName = params.get('portal');
-          // this.sectionName = params.get('section');
-          this.portalName = this.paramsPortal.portalUrlName
-          this.sectionName = this.paramsPortal.sectionUrlName
+          const sectionId = params.get('section');
+          this.portalId = params.get('portal');
+          console.log("this_data ->", this._data)
           this._data
             .subscribe(x => {
-              const portal = this.portalData.filter(portal => portal.name == this.paramsPortal.portalUrlName)
-              this.sectionData = portal[0].sections.filter(sections => this.paramsPortal.sectionUrlName)
-              this.imageUrl = portal[0].image_top;
-              this.portalColor = portal[0].style.colors.primary
+            
+              this.portals = this.portalCategory(this.data, this.portalId, sectionId)
+              this.style = this.portalStyle(this.data, this.portalId)
+              console.log("style",this.style)
             })
+
         });
+
+  }
+  portalCategory(data: AppModel[], portal, section) {
+    const result = data.filter(data => data.name == portal)
+    this.setImageData = this.portalService.setImages(result, portal);
+    const resultSection = result[0].sections.filter(sections => sections.name)
+    return resultSection
+
+  }
+  portalStyle(data: AppModel[], portal) {
+    const result = data.filter(data => data.name == portal)
+    return result
+
+  }
+  setColor(event) {
+    console.log(event.type)
+  }
+  getColors(portalID) {
+    const result = this.style.filter(data => data.name == portalID)
+    // console.log("a",result)
+    // const colors = result.filter(style => style.style.colors.primary == primary)
+    // console.log(colors)
+  return result[0].style.colors.primary
   }
 }
 

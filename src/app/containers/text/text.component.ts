@@ -35,6 +35,8 @@ export class TextComponent implements OnInit {
       .subscribe(x => {
         this.textData = this.data
       })
+      console.log("text decortac",this.textData)
+
   }
 
 }

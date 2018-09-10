@@ -1,5 +1,5 @@
 import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
-import { AppModel } from '../../app.model';
+import { AppModel, Sections } from '../../app.model';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import { AppService } from '../../app.service';
 import { SectionModel } from '../../section/section.model';
@@ -25,6 +25,7 @@ export class ContentComponent implements OnInit {
     this._data.next(value)
   }
   get data() {
+    console.log("", this._data.getValue())
     return this._data.getValue();
   }
 
@@ -35,12 +36,21 @@ export class ContentComponent implements OnInit {
   }
 
   ngOnInit() {
+
+  
           this._data
             .subscribe(x => {
               this.sections = this.data
               this.galleryData = this.data.filter(type => type.type == 'gallery')
               this.textData = this.data.filter(type => type.type == 'text')
               this.imageData = this.data.filter(type => type.type == 'text_and_image')
+
+              console.log(this.textData)
+              
             })
+            console.log("style",this.textData)
+  
   }
+
+ 
 }

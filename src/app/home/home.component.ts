@@ -11,26 +11,56 @@ import { AppModel } from '../app.model';
 
 })
 export class HomeComponent implements OnInit {
-  portalUrlName;
-  sectionUrlName;
+  portalName;
+  portal;
   portalsData: AppModel[] = [];
 
+  // private yogasSub: Subscription;
+  public clickClose = "open";
   constructor(
     private portalService: AppService,
     private route: Router,
     private router: ActivatedRoute) { }
 
+  // myFunc() {
+  //   if (this.clickClose == "close") {
+  //     return this.clickClose = "open"
+  //   } else {
+  //     return this.clickClose = "close"
+  //   }
+  // };
+
+    exists(portalName) {
+      const portal = this.portalsData.filter(portal => portal.name === portalName)
+      if (portal.length > 0) {
+        return true;
+      } else {
+        return false;
+      }
+    };
+
+
   ngOnInit() {
+
     this.router.paramMap
       .subscribe(
         params => {
-          this.portalUrlName = params.get('portal');
-          this.sectionUrlName = params.get('section');
+          this.portalName = params.get('portal');
         });
+
+
     this.portalService.getPortals()
       .subscribe(data =>
         this.portalsData = data
       );
+
+
+
+
+
+
   }
+
+
 }
 

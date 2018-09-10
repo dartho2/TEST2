@@ -1,13 +1,15 @@
 <main role="main">
-  <div *ngIf="portalUrlName; else home">
-      <app-portal [portalData]='portalsData'></app-portal>  
+  <div *ngIf="portalName; else home">
+    <div *ngIf="exists(portalName); else home">
+      <app-portal [data]='portalsData'></app-portal>
+    </div>
   </div>
 
   <ng-template #home>
     <div *ngFor="let portal of portalsData">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" routerLink="/{{portalUrlName}}/{{sectionUrlName}}">{{portal.label}}</a>
+          <a class="nav-link" routerLink="/{{portal.name}}/{{portal.sections[0].name}}">{{portal.label}}</a>
         </li>
       </ul>
     </div>
