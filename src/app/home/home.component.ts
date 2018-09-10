@@ -32,14 +32,5 @@ export class HomeComponent implements OnInit {
         this.portalsData = data
       );
   }
-  exists(portalName) {
-    const portal = this.portalsData.filter(portalData => portalData.name === portalName)
-    if (portal.length > 0) {
-      return true;
-    } else {
-      return false;
-    }
-  };
-
 }
 

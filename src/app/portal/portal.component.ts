@@ -18,6 +18,7 @@ export class PortalComponent implements OnInit {
   sectionName;
   portalName;
   hover;
+
   @Input()
   set portalData(value) {
     this._data.next(value)
@@ -34,20 +35,20 @@ export class PortalComponent implements OnInit {
 
   ngOnInit() {
     this.router.paramMap
-    .subscribe(
-      params => {
-        // this.portalName = params.get('portal');
-        // this.sectionName = params.get('section');
-        this.portalName = this.paramsPortal.portalUrlName
-        this.sectionName = this.paramsPortal.sectionUrlName
-    this._data
-      .subscribe(x => {
-        const portal = this.portalData.filter(portal => portal.name == this.paramsPortal.portalUrlName)
-        this.sectionData = portal[0].sections.filter(sections => this.paramsPortal.sectionUrlName)
-        this.imageUrl = portal[0].image_top;
-        this.portalColor = portal[0].style.colors.primary
-      })
-    });
+      .subscribe(
+        params => {
+          // this.portalName = params.get('portal');
+          // this.sectionName = params.get('section');
+          this.portalName = this.paramsPortal.portalUrlName
+          this.sectionName = this.paramsPortal.sectionUrlName
+          this._data
+            .subscribe(x => {
+              const portal = this.portalData.filter(portal => portal.name == this.paramsPortal.portalUrlName)
+              this.sectionData = portal[0].sections.filter(sections => this.paramsPortal.sectionUrlName)
+              this.imageUrl = portal[0].image_top;
+              this.portalColor = portal[0].style.colors.primary
+            })
+        });
   }
- }
+}
 
