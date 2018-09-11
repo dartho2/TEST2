@@ -100,3 +100,7 @@ div#cdk-overlay-0 {
 }
 }
 /* MAT */
+.carousel-caption {
+	z-index: 1040;
+	top: 10px;
+}
