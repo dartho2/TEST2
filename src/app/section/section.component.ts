@@ -1,7 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {AppModel} from '../app.model';
-import {ActivatedRoute, Router} from '@angular/router';
-import {AppService} from '../app.service';
+import {ActivatedRoute} from '@angular/router';
 import {BehaviorSubject} from 'rxjs';
 
 @Component({
@@ -10,34 +9,28 @@ import {BehaviorSubject} from 'rxjs';
 })
 
 export class SectionComponent implements OnInit {
-  private _data = new BehaviorSubject<AppModel[]>([])
-  // sections;
-  // portals;
+  private _data = new BehaviorSubject<AppModel[]>([]);
   category;
 
   @Input()
   set data(value) {
-    this._data.next(value)
+    this._data.next(value);
   }
 
   get data() {
     return this._data.getValue();
   }
 
-  constructor(private portalService: AppService,
-              private route: Router,
-              private router: ActivatedRoute) {
+  constructor(private router: ActivatedRoute) {
   }
 
   ngOnInit() {
-
     this.router.paramMap
       .subscribe(
-        params => {
-          this._data
-            .subscribe(x => {
-              this.category = this.data[0].data.filter(data => data.type)
-            })
+        () => {
+          this._data.subscribe(() => {
+            this.category = this.data[0].data.filter(data => data.type);
+          });
         });
   }
 }

@@ -14,7 +14,7 @@ import {ContentComponent} from './containers/content/content.component';
 import {TextimagesComponent} from './containers/textimages/textimages.component';
 import {GalleryComponent} from './containers/gallery/gallery.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {TextComponent} from './containers/text/text.component'
+import {TextComponent} from './containers/text/text.component';
 
 
 @NgModule({

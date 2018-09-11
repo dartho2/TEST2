@@ -10,10 +10,9 @@ import {BehaviorSubject} from 'rxjs';
   styleUrls: ['./portal.component.css']
 })
 export class PortalComponent implements OnInit {
-  private _data = new BehaviorSubject<AppModel[]>([])
+  private _data = new BehaviorSubject<AppModel[]>([]);
 
   hover;
-  //
   portalName;
   portalColor;
   imagePortal;
@@ -22,7 +21,7 @@ export class PortalComponent implements OnInit {
 
   @Input()
   set data(value) {
-    this._data.next(value)
+    this._data.next(value);
   }
 
   get data() {
@@ -30,9 +29,7 @@ export class PortalComponent implements OnInit {
 
   }
 
-  constructor(private portalService: AppService,
-              private route: Router,
-              private router: ActivatedRoute) {
+  constructor(private router: ActivatedRoute) {
   }
 
   ngOnInit() {
@@ -43,15 +40,13 @@ export class PortalComponent implements OnInit {
           this.portalName = params.get('portal');
           this._data
             .subscribe(x => {
-              const portal = this.data.filter(data => data.name == this.portalName)
-              this.sectionsData = portal[0].sections.filter(sections => sections.name)
-              this.sectionData = portal[0].sections.filter(sections => sections.name == sectionName)
-              this.portalColor = portal[0].style.colors.primary
-              this.imagePortal = portal[0].image_top
-            })
-
+              const portal = this.data.filter(data => data.name === this.portalName);
+              this.sectionsData = portal[0].sections.filter(sections => sections.name);
+              this.sectionData = portal[0].sections.filter(sections => sections.name === sectionName);
+              this.portalColor = portal[0].style.colors.primary;
+              this.imagePortal = portal[0].image_top;
+            });
         });
-
   }
 }
 
