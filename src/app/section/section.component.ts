@@ -17,7 +17,7 @@ export class SectionComponent implements OnInit {
   private _data = new BehaviorSubject<AppModel[]>([])
   sections;
   portals;
-  category: AppModel[] = [];
+  category;
 
   @Input()
   set data(value) {
@@ -43,21 +43,12 @@ export class SectionComponent implements OnInit {
             .subscribe(x => {
               // this.sections = this.sectionCategory(this.data, sectionId)
               // this.category = this.sectionType(this.data)
-              let category = this.data[0].data.filter(data => data.type)
+               this.category = this.data[0].data.filter(data => data.type)
+              
               console.log("dd",this.category)
 
             })
         });
   }
-
-  // sectionCategory(data: AppModel[], section) {
-  //   const result = data.filter(data => data.name == section)
-  //   const resultSection = result[0].data.filter(data => data.type)
-    
-  //   return result
-  // }
-  // sectionType(data: AppModel[]) {
-  //   const result = this.sections[0].data.filter(data => data.type)
-  //   return result
   }
-}
+
