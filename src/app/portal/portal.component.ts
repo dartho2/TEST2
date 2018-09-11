@@ -1,8 +1,8 @@
-import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
-import { AppModel } from '../app.model';
-import { Router, ActivatedRoute, ParamMap } from '@angular/router';
-import { AppService } from '../app.service';
-import { BehaviorSubject } from 'rxjs';
+import {Component, Input, OnInit} from '@angular/core';
+import {AppModel} from '../app.model';
+import {ActivatedRoute, Router} from '@angular/router';
+import {AppService} from '../app.service';
+import {BehaviorSubject} from 'rxjs';
 
 @Component({
   selector: 'app-portal',
@@ -24,15 +24,15 @@ export class PortalComponent implements OnInit {
   set data(value) {
     this._data.next(value)
   }
+
   get data() {
     return this._data.getValue();
 
   }
 
-  constructor(
-    private portalService: AppService,
-    private route: Router,
-    private router: ActivatedRoute) {
+  constructor(private portalService: AppService,
+              private route: Router,
+              private router: ActivatedRoute) {
   }
 
   ngOnInit() {

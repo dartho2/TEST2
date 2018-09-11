@@ -1,11 +1,8 @@
-import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
-import { AppModel } from '../app.model';
-import { Router, ActivatedRoute, ParamMap } from '@angular/router';
-import { AppService } from '../app.service';
-import { SectionModel } from '../section/section.model';
-import { BehaviorSubject } from 'rxjs';
-import { renderComponent } from '@angular/core/src/render3';
-import { HtmlParser } from '@angular/compiler';
+import {Component, Input, OnInit} from '@angular/core';
+import {AppModel} from '../app.model';
+import {ActivatedRoute, Router} from '@angular/router';
+import {AppService} from '../app.service';
+import {BehaviorSubject} from 'rxjs';
 
 @Component({
   selector: 'app-section',
@@ -22,14 +19,14 @@ export class SectionComponent implements OnInit {
   set data(value) {
     this._data.next(value)
   }
+
   get data() {
     return this._data.getValue();
   }
 
-  constructor(
-    private portalService: AppService,
-    private route: Router,
-    private router: ActivatedRoute) {
+  constructor(private portalService: AppService,
+              private route: Router,
+              private router: ActivatedRoute) {
   }
 
   ngOnInit() {

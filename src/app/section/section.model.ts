@@ -1,9 +1,9 @@
 export interface SectionModel {
-    sections: {
-        name: string,
-        label: string,
-        data: [{
-            type: string
-        }]
-}
+  sections: {
+    name: string,
+    label: string,
+    data: [{
+      type: string
+    }]
+  }
 }

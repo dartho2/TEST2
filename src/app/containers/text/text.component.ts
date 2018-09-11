@@ -1,9 +1,8 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { AppModel } from '../../app.model';
-import { AppService } from '../../app.service';
-import { Router, ActivatedRoute } from '@angular/router';
-import { SectionModel } from '../../section/section.model';
-import { BehaviorSubject } from 'rxjs';
+import {Component, Input, OnInit} from '@angular/core';
+import {AppModel} from '../../app.model';
+import {AppService} from '../../app.service';
+import {ActivatedRoute, Router} from '@angular/router';
+import {BehaviorSubject} from 'rxjs';
 
 
 @Component({
@@ -19,14 +18,14 @@ export class TextComponent implements OnInit {
   set data(value) {
     this._data.next(value)
   }
+
   get data() {
     return this._data.getValue();
   }
 
-  constructor(
-    private portalService: AppService,
-    private route: Router,
-    private router: ActivatedRoute) {
+  constructor(private portalService: AppService,
+              private route: Router,
+              private router: ActivatedRoute) {
   }
 
   ngOnInit() {
@@ -34,7 +33,7 @@ export class TextComponent implements OnInit {
       .subscribe(x => {
         this.textData = this.data
       })
-      console.log("text decortac",this.textData)
+    console.log("text decortac", this.textData)
 
   }
 

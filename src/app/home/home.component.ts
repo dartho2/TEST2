@@ -1,8 +1,7 @@
-import { Component, OnInit } from '@angular/core';
-import { Router, ParamMap, ActivatedRoute } from '@angular/router';
-import { AppService } from '../app.service';
-import { Subscription } from 'rxjs';
-import { AppModel } from '../app.model';
+import {Component, OnInit} from '@angular/core';
+import {ActivatedRoute, Router} from '@angular/router';
+import {AppService} from '../app.service';
+import {AppModel} from '../app.model';
 
 @Component({
   selector: 'app-home',
@@ -16,10 +15,11 @@ export class HomeComponent implements OnInit {
   portalsData: AppModel[] = [];
 
   public clickClose = "open";
-  constructor(
-    private portalService: AppService,
-    private route: Router,
-    private router: ActivatedRoute) { }
+
+  constructor(private portalService: AppService,
+              private route: Router,
+              private router: ActivatedRoute) {
+  }
 
   myFunc() {
     if (this.clickClose == "close") {
