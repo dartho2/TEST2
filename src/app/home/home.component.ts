@@ -22,22 +22,23 @@ export class HomeComponent implements OnInit {
     private route: Router,
     private router: ActivatedRoute) { }
 
-  // myFunc() {
-  //   if (this.clickClose == "close") {
-  //     return this.clickClose = "open"
-  //   } else {
-  //     return this.clickClose = "close"
-  //   }
-  // };
+  myFunc() {
+    if (this.clickClose == "close") {
+      return this.clickClose = "open"
+    } else {
+      return this.clickClose = "close"
+    }
 
-    exists(portalName) {
-      const portal = this.portalsData.filter(portal => portal.name === portalName)
-      if (portal.length > 0) {
-        return true;
-      } else {
-        return false;
-      }
-    };
+  };
+
+  exists(portalName) {
+    const portal = this.portalsData.filter(portal => portal.name === portalName)
+    if (portal.length > 0) {
+      return true;
+    } else {
+      return false;
+    }
+  };
 
 
   ngOnInit() {
@@ -48,19 +49,9 @@ export class HomeComponent implements OnInit {
           this.portalName = params.get('portal');
         });
 
-
     this.portalService.getPortals()
-      .subscribe(data =>
-        this.portalsData = data
+      .subscribe(data => this.portalsData = data
       );
-
-
-
-
-
-
   }
-
-
 }
 

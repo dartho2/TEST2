@@ -1,29 +1,33 @@
 export interface AppModel {
 
-    name: string,
-    label: string,
-    sections: Sections[]
-    type: string;
-    data: Data[];
-    style: Style[]
-    
-
-}
-export interface Sections{
+    data: [{
+        type: string;
+    }];
+    // type: string;
     name: string;
-    appmodel: AppModel[];
-    data: Data[];
-}
-export interface Data{
-    name: string;
-    type: string;
-    
-}
-export interface Style{
-    color: Colors[];
-    colors: string;
-}
-export interface Colors {
-    primary: string;
-    secondary: string;
+    image: string;
+    image_top: string;
+    label: string;
+    style: {
+        colors: {
+            primary: string;
+            secondary: string;
+        }
+    };
+    sections: [{
+        name: string;
+        label: string;
+        data: [{
+            type: string;
+            styles: [{
+                image_right: string;
+                image_small: string;
+            }],
+            content: {
+                title: string;
+                lead: string;
+                text: string;
+            }
+        }]
+    }];
 }

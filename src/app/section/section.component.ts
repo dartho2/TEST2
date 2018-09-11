@@ -1,5 +1,5 @@
 import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
-import { AppModel, Sections } from '../app.model';
+import { AppModel } from '../app.model';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import { AppService } from '../app.service';
 import { SectionModel } from '../section/section.model';
@@ -39,24 +39,25 @@ export class SectionComponent implements OnInit {
       .subscribe(
         params => {
           const sectionId = params.get('section');
-          console.log("this_data ->", this._data)
           this._data
             .subscribe(x => {
-              this.sections = this.sectionCategory(this.data, sectionId)
-              this.category = this.sectionType(this.data)
+              // this.sections = this.sectionCategory(this.data, sectionId)
+              // this.category = this.sectionType(this.data)
+              let category = this.data[0].data.filter(data => data.type)
+              console.log("dd",this.category)
 
             })
         });
   }
 
-  sectionCategory(data: AppModel[], section) {
-    const result = data.filter(data => data.name == section)
-    const resultSection = result[0].data.filter(data => data.type)
+  // sectionCategory(data: AppModel[], section) {
+  //   const result = data.filter(data => data.name == section)
+  //   const resultSection = result[0].data.filter(data => data.type)
     
-    return result
-  }
-  sectionType(data: AppModel[]) {
-    const result = this.sections[0].data.filter(data => data.type)
-    return result
+  //   return result
+  // }
+  // sectionType(data: AppModel[]) {
+  //   const result = this.sections[0].data.filter(data => data.type)
+  //   return result
   }
 }

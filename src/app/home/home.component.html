@@ -3,6 +3,7 @@
     <div *ngIf="exists(portalName); else home">
       <app-portal [data]='portalsData'></app-portal>
     </div>
+    {{portalData | json}}
   </div>
 
   <ng-template #home>
