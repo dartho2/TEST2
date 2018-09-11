@@ -9,8 +9,7 @@ import { HtmlParser } from '@angular/compiler';
 
 @Component({
   selector: 'app-section',
-  templateUrl: './section.component.html',
-  styleUrls: ['./section.component.css']
+  templateUrl: './section.component.html'
 })
 
 export class SectionComponent implements OnInit {

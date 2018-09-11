@@ -8,8 +8,7 @@ import { BehaviorSubject } from 'rxjs';
 
 @Component({
   selector: 'app-gallery',
-  templateUrl: './gallery.component.html',
-  styleUrls: ['./gallery.component.css']
+  templateUrl: './gallery.component.html'
 })
 export class GalleryComponent implements OnInit {
   private _data = new BehaviorSubject<AppModel[]>([])
@@ -34,6 +33,6 @@ export class GalleryComponent implements OnInit {
           this._data
             .subscribe(x => {
               this.gallery = this.data
-            })   
+            })
   }
 }

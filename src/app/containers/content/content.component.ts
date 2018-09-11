@@ -6,8 +6,7 @@ import { BehaviorSubject } from 'rxjs';
 
 @Component({
   selector: 'app-content',
-  templateUrl: './content.component.html',
-  styleUrls: ['./content.component.css']
+  templateUrl: './content.component.html'
 })
 
 export class ContentComponent implements OnInit {
@@ -34,15 +33,15 @@ export class ContentComponent implements OnInit {
 
   ngOnInit() {
 
-  
+
           this._data
             .subscribe(x => {
               this.sections = this.data
               this.galleryData = this.data.filter(type => type.type == 'gallery')
               this.textData = this.data.filter(type => type.type == 'text')
               this.imageData = this.data.filter(type => type.type == 'text_and_image')
-            })  
+            })
   }
 
- 
+
 }

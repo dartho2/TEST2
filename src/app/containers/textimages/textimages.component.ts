@@ -8,8 +8,7 @@ import { BehaviorSubject } from 'rxjs';
 
 @Component({
   selector: 'app-textimages',
-  templateUrl: './textimages.component.html',
-  styleUrls: ['./textimages.component.css']
+  templateUrl: './textimages.component.html'
 })
 export class TextimagesComponent implements OnInit {
   private _data = new BehaviorSubject<AppModel[]>([])
@@ -34,6 +33,6 @@ export class TextimagesComponent implements OnInit {
           this._data
             .subscribe(x => {
               this.textimages = this.data
-            })   
+            })
   }
 }
