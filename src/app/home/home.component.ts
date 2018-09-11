@@ -15,7 +15,6 @@ export class HomeComponent implements OnInit {
   portal;
   portalsData: AppModel[] = [];
 
-  // private yogasSub: Subscription;
   public clickClose = "open";
   constructor(
     private portalService: AppService,

@@ -15,8 +15,8 @@ import { HtmlParser } from '@angular/compiler';
 
 export class SectionComponent implements OnInit {
   private _data = new BehaviorSubject<AppModel[]>([])
-  sections;
-  portals;
+  // sections;
+  // portals;
   category;
 
   @Input()
@@ -38,17 +38,11 @@ export class SectionComponent implements OnInit {
     this.router.paramMap
       .subscribe(
         params => {
-          const sectionId = params.get('section');
           this._data
             .subscribe(x => {
-              // this.sections = this.sectionCategory(this.data, sectionId)
-              // this.category = this.sectionType(this.data)
-               this.category = this.data[0].data.filter(data => data.type)
-              
-              console.log("dd",this.category)
-
+              this.category = this.data[0].data.filter(data => data.type)
             })
         });
   }
-  }
+}
 
