@@ -1,5 +1,5 @@
 import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
-import { AppModel, Sections } from '../../app.model';
+import { AppModel } from '../../app.model';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import { AppService } from '../../app.service';
 import { SectionModel } from '../../section/section.model';
