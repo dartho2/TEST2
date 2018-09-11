@@ -8,9 +8,9 @@ body {
 .navbar-default .navbar-toggle .icon-bar {
   background-color: black;
 }
-.icon-bar {
+/* .icon-bar {
   background-color:#FF0000 !important;
-}
+} */
 .navbar-shrink{
     padding-top: 0;
     padding-bottom: 0;
@@ -498,6 +498,7 @@ span.span-header {
     .mat-button {
         color: black;
         text-decoration: none;
+        display:block;
     }
     .mat-button:hover {
         background-color: #268a26;
@@ -532,10 +533,50 @@ span.span-header {
     
     
     .carousel-control-prev-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23268a26' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+        margin-right: -11px;
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
     }
     
     .carousel-control-next-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23268a26' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+        margin-left: -11px;
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
     }
-   
+    span.carousel-control-next-icon ,
+    span.carousel-control-prev-icon {
+        /* margin: 0 auto; */
+        bottom: 0px;
+        height: 100%;
+        top: 0px;
+        height: 100%;
+        /* display: block; */
+        /* position: relative; */
+        left: 0px;
+        right: 0px;
+    }
+    .carousel-control-rc {
+        
+        /* margin-left: 0px; */
+        height: 50px;
+        right: 0px;
+        position: absolute;
+        width: 80px;
+    }
+    .carousel-control-lc {
+        
+        /* margin-left: 0px; */
+        height: 50px;
+        left: 0px;
+        position: absolute;
+        width: 80px;
+    }
+  
+    .carousel-control-lc {
+        border-bottom-right-radius: 7px;
+        border-top-right-radius: 7px;
+        box-shadow: 1px 1px 2px black;
+    }
+    .carousel-control-rc {
+        border-bottom-left-radius: 7px;
+        border-top-left-radius: 7px;
+        box-shadow: -1px 1px 2px black;
+    }
