@@ -1,8 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {AppModel} from '../app.model';
-import {ActivatedRoute, Router} from '@angular/router';
-import {AppService} from '../app.service';
-import {BehaviorSubject} from 'rxjs';
+import {ActivatedRoute} from '@angular/router';
 
 @Component({
   selector: 'app-portal',
@@ -10,43 +7,30 @@ import {BehaviorSubject} from 'rxjs';
   styleUrls: ['./portal.component.css']
 })
 export class PortalComponent implements OnInit {
-  private _data = new BehaviorSubject<AppModel[]>([]);
+  @Input()
+  portals;
 
   hover;
-  portalName;
-  portalColor;
-  imagePortal;
-  sectionData;
-  sectionsData;
-
-  @Input()
-  set data(value) {
-    this._data.next(value);
-  }
-
-  get data() {
-    return this._data.getValue();
-
-  }
+  portal;
+  activeSection;
 
   constructor(private router: ActivatedRoute) {
   }
 
   ngOnInit() {
-    this.router.paramMap
-      .subscribe(
-        params => {
-          const sectionName = params.get('section');
-          this.portalName = params.get('portal');
-          this._data
-            .subscribe(x => {
-              const portal = this.data.filter(data => data.name === this.portalName);
-              this.sectionsData = portal[0].sections.filter(sections => sections.name);
-              this.sectionData = portal[0].sections.filter(sections => sections.name === sectionName);
-              this.portalColor = portal[0].style.colors.primary;
-              this.imagePortal = portal[0].image_top;
-            });
-        });
+    this.router.paramMap.subscribe(params => {
+      this.portal = this.portals.find(portal => portal.name === params.get('portal'));
+      this.setCurrentSection(params.get('section'));
+    });
+  }
+
+  private setCurrentSection(sectionName) {
+    if (this.portal && this.portal.sections.length > 0) {
+      this.activeSection = this.portal.sections.find(section => section.name === sectionName);
+      if (!this.activeSection) {
+        this.activeSection = this.portal.sections[0];
+      }
+    }
   }
 }
 

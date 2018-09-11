@@ -9,12 +9,12 @@ import {AppRoutingModule} from './app.routing';
 import {AppComponent} from './app.component';
 import {HomeComponent} from './home/home.component';
 import {PortalComponent} from './portal/portal.component';
-import {SectionComponent} from './section/section.component';
-import {ContentComponent} from './containers/content/content.component';
-import {TextimagesComponent} from './containers/textimages/textimages.component';
-import {GalleryComponent} from './containers/gallery/gallery.component';
+import {SectionComponent} from './portal/section/section.component';
+import {ContentComponent} from './portal/section/content/content.component';
+import {TextimagesComponent} from './portal/section/content/content_item/textimages/textimages.component';
+import {GalleryComponent} from './portal/section/content/content_item/gallery/gallery.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {TextComponent} from './containers/text/text.component';
+import {TextComponent} from './portal/section/content/content_item/text/text.component';
 
 
 @NgModule({
