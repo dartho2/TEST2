@@ -1,7 +1,7 @@
 <main role="main">
   <div *ngIf="portalName; else home">
     <div *ngIf="exists(portalName); else home">
-      <app-portal [data]='portalsData'></app-portal>
+      <app-portal [portals]='portalsData'></app-portal>
     </div>
   </div>
 

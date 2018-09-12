@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <nav class="navbar navbar-expand-md navbar-dark navbar-header-top" [ngStyle]="{'background-color': 'black'}">
+=======
+<nav class="navbar navbar-expand-md navbar-dark navbar-header-top" [ngStyle]="{'background-color':portal.style.colors.primary}">
+>>>>>>> 05f8ef44f35e490b7d44ef793d32a8e0bb0a8ee3
   <div class="container">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
             aria-controls="navbarsExampleDefault"
@@ -10,11 +14,11 @@
         <span class="span-header">wybierz portal:</span>
         <button mat-button class="button-top-mat" [matMenuTriggerFor]="menu" (mouseout)="hover =false"
                 (mouseover)="hover =true"
-                [ngStyle]="hover ? {'background-color':portalColor} : {}">{{portalName}}
+                [ngStyle]="hover ? {'background-color':portal.style.colors.primary} : {}">{{portal.name}}
         </button>
         <mat-menu #menu="matMenu">
-          <a mat-button *ngFor="let portal of data" (mouseout)="portal.hover =false" (mouseover)="portal.hover =true"
-             [ngStyle]="portal.hover ? {'background-color':portalColor} : {}"
+          <a mat-button *ngFor="let portal of portals" (mouseout)="portal.hover =false" (mouseover)="portal.hover =true"
+             [ngStyle]="portal.hover ? {'background-color':portal.style.colors.primary} : {}"
              routerLink="/{{portal.name}}/{{portal.sections[0].name}}">{{portal.name}}</a>
         </mat-menu>
       </ul>
@@ -23,24 +27,20 @@
 </nav>
 <nav class="navbar navbar-expand-md navbar-dark navbar-header-bot">
   <div class="container">
-    <a class="navbar-brand" [ngStyle]="{'color':portalColor}" routerLink="/">{{portalName}}</a>
-    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button> -->
-    <button type="button" [ngStyle]="{'color': portalColor}" class="navbar-toggle" data-toggle="collapse"
+    <a class="navbar-brand" [ngStyle]="{'color':portal.style.colors.primary}" routerLink="/">{{portal.name}}</a>
+    <button type="button" [ngStyle]="{'color': portal.style.colors.primary}" class="navbar-toggle" data-toggle="collapse"
             data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
             aria-expanded="false" aria-label="Toggle navigation">
-      <span class="icon-bar" [ngStyle]="{'background-color': portalColor}"></span>
-      <span class="icon-bar" [ngStyle]="{'background-color': portalColor}"></span>
-      <span class="icon-bar" [ngStyle]="{'background-color': portalColor}"></span>
+      <span class="icon-bar" [ngStyle]="{'background-color': portal.style.colors.primary}"></span>
+      <span class="icon-bar" [ngStyle]="{'background-color': portal.style.colors.primary}"></span>
+      <span class="icon-bar" [ngStyle]="{'background-color': portal.style.colors.primary}"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item" *ngFor="let pa of sectionsData">
-          <a mat-button [ngClass]="{'mat-button:hover' : true}" (mouseout)="pa.hover =false"
-             (mouseover)="pa.hover =true" [ngStyle]="pa.hover ? {'background-color':portalColor} : {}"
-             routerLink="/{{portalName}}/{{pa.name}}">{{pa.label}}</a>
+        <li class="nav-item" *ngFor="let section of portal.sections">
+          <a mat-button [ngClass]="{'mat-button:hover' : true}" (mouseout)="section.hover =false"
+             (mouseover)="section.hover =true" [ngStyle]="section.hover ? {'background-color':portal.style.colors.primary} : {}"
+             routerLink="/{{portal.name}}/{{section.name}}">{{section.label}}</a>
         </li>
       </ul>
     </div>
@@ -55,12 +55,17 @@
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
       <div class="view">
-        <img class="d-block w-100" src="{{imagePortal}}" alt="First slide">
+        <img class="d-block w-100" src="{{portal.image_top}}" alt="First slide">
         <div class="mask rgba-black-light"></div>
       </div>
       <div class="carousel-caption">
+<<<<<<< HEAD
         <h3 class="h3-responsive">{{portalName}}</h3>
         <p class="xxxx">{{sectionData[0].label}}</p>
+=======
+        <h3 class="h3-responsive">{{portal.name}}</h3>
+        <p>{{activeSection.label}}</p>
+>>>>>>> 05f8ef44f35e490b7d44ef793d32a8e0bb0a8ee3
       </div>
     </div>
     <div class="carousel-item">
@@ -69,19 +74,24 @@
         <div class="mask rgba-black-strong"></div>
       </div>
       <div class="carousel-caption">
+<<<<<<< HEAD
         <h3 class="h3-responsive">{{portalName}}</h3>
         <p class="xxxx">{{sectionData[0].label}}</p>
+=======
+        <h3 class="h3-responsive">{{portal.name}}</h3>
+        <p>{{activeSection.label}}</p>
+>>>>>>> 05f8ef44f35e490b7d44ef793d32a8e0bb0a8ee3
       </div>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
-    <div class="carousel-control-lc" [ngStyle]="{'background-color': portalColor}">
+    <div class="carousel-control-lc" [ngStyle]="{'background-color': portal.style.colors.primary}">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span></div>
   </a>
   <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
-    <div class="carousel-control-rc" [ngStyle]="{'background-color': portalColor}">
+    <div class="carousel-control-rc" [ngStyle]="{'background-color': portal.style.colors.primary}">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
@@ -90,6 +100,7 @@
 </div>
 </div>
 
+<<<<<<< HEAD
 <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
       <li class="breadcrumb-item"><a href="#">Home</a></li>
@@ -99,3 +110,7 @@
   
   
 <app-section [data]='sectionData'></app-section>
+=======
+
+<app-section [section]="activeSection"></app-section>
+>>>>>>> 05f8ef44f35e490b7d44ef793d32a8e0bb0a8ee3
