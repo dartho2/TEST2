@@ -1,7 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute} from '@angular/router';
 import {AppService} from '../app.service';
-import {AppModel} from '../app.model';
 
 @Component({
   selector: 'app-home',
@@ -10,32 +9,21 @@ import {AppModel} from '../app.model';
 
 })
 export class HomeComponent implements OnInit {
-  portalName;
-  portal;
-  portalsData: AppModel[] = [];
+  activePortal;
+  portals = [];
 
 
   constructor(private portalService: AppService,
               private router: ActivatedRoute) {
   }
 
-  exists(portalName) {
-    const portal = this.portalsData.filter(portal => portal.name === portalName);
-    return portal.length > 0;
+  isActivePortalValid() {
+    return this.portals.find(portal => portal.name === this.activePortal) != null;
   }
 
-
   ngOnInit() {
-
-    this.router.paramMap
-      .subscribe(
-      params => {
-        this.portalName = params.get('portal');
-      });
-
-    this.portalService.getPortals()
-      .subscribe(data => this.portalsData = data
-      );
+    this.router.paramMap.subscribe(params => this.activePortal = params.get('portal'));
+    this.portalService.getPortals().subscribe(portals => this.portals = portals);
   }
 }
 

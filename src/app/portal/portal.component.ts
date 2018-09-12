@@ -9,8 +9,6 @@ import {ActivatedRoute} from '@angular/router';
 export class PortalComponent implements OnInit {
   @Input()
   portals;
-
-  slider;
   hover;
   portal;
   activeSection;
@@ -18,11 +16,21 @@ export class PortalComponent implements OnInit {
   constructor(private router: ActivatedRoute) {
   }
 
+  isActiveSectionMainSection() {
+    if (this.portal.sections.length === 0) {
+      return true;
+    }
+
+    console.log(this.portal.sections);
+    console.log(this.activeSection);
+
+    return this.portal.sections[0].name === this.activeSection.name;
+  }
+
   ngOnInit() {
     this.router.paramMap.subscribe(params => {
       this.portal = this.portals.find(portal => portal.name === params.get('portal'));
       this.setCurrentSection(params.get('section'));
-      this.slider = params.get('section');
     });
   }
 
