@@ -9,7 +9,8 @@
     <div *ngFor="let portal of portalsData">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" routerLink="/{{portal.name}}/{{portal.sections[0].name}}">{{portal.label}}</a>
+            <a class="nav-link" routerLink="/{{portal.name}}">{{portal.label}}</a>
+            <!-- <a class="nav-link" routerLink="/{{portal.name}}/{{portal.sections[0].name}}">{{portal.label}}</a> -->
         </li>
       </ul>
     </div>

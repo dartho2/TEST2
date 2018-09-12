@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-dark navbar-header-top" [ngStyle]="{'background-color':portalColor}">
+<nav class="navbar navbar-expand-md navbar-dark navbar-header-top" [ngStyle]="{'background-color': 'black'}">
   <div class="container">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
             aria-controls="navbarsExampleDefault"
@@ -46,6 +46,7 @@
     </div>
   </div>
 </nav>
+<div *ngIf="!sectionName">
 <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
@@ -59,7 +60,7 @@
       </div>
       <div class="carousel-caption">
         <h3 class="h3-responsive">{{portalName}}</h3>
-        <p>{{sectionData[0].label}}</p>
+        <p class="xxxx">{{sectionData[0].label}}</p>
       </div>
     </div>
     <div class="carousel-item">
@@ -69,7 +70,7 @@
       </div>
       <div class="carousel-caption">
         <h3 class="h3-responsive">{{portalName}}</h3>
-        <p>{{sectionData[0].label}}</p>
+        <p class="xxxx">{{sectionData[0].label}}</p>
       </div>
     </div>
   </div>
@@ -87,6 +88,14 @@
     </div>
   </a>
 </div>
+</div>
 
-
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Library</li>
+    </ol>
+  </nav>
+  
+  
 <app-section [data]='sectionData'></app-section>

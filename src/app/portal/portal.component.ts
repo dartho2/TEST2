@@ -18,6 +18,7 @@ export class PortalComponent implements OnInit {
   imagePortal;
   sectionData;
   sectionsData;
+  sectionName;
 
   @Input()
   set data(value) {
@@ -36,13 +37,13 @@ export class PortalComponent implements OnInit {
     this.router.paramMap
       .subscribe(
         params => {
-          const sectionName = params.get('section');
+          this.sectionName = params.get('section');
           this.portalName = params.get('portal');
           this._data
             .subscribe(x => {
               const portal = this.data.filter(data => data.name === this.portalName);
               this.sectionsData = portal[0].sections.filter(sections => sections.name);
-              this.sectionData = portal[0].sections.filter(sections => sections.name === sectionName);
+              this.sectionData = portal[0].sections.filter(sections => sections.name === this.sectionName);
               this.portalColor = portal[0].style.colors.primary;
               this.imagePortal = portal[0].image_top;
             });
