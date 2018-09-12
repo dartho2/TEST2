@@ -10,6 +10,7 @@ export class PortalComponent implements OnInit {
   @Input()
   portals;
 
+  slider;
   hover;
   portal;
   activeSection;
@@ -21,6 +22,7 @@ export class PortalComponent implements OnInit {
     this.router.paramMap.subscribe(params => {
       this.portal = this.portals.find(portal => portal.name === params.get('portal'));
       this.setCurrentSection(params.get('section'));
+      this.slider = params.get('section');
     });
   }
 
