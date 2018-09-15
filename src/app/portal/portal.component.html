@@ -56,9 +56,9 @@
     </ol>
     <div class="carousel-inner" role="listbox">
       
-      <div *ngFor="let p of portal.images_top; index as i" [ngClass]="i == 0 ? 'carousel-item active':'carousel-item'">
+      <div *ngFor="let image of portal.images_top; index as i" [ngClass]="i == 0 ? 'carousel-item active':'carousel-item'">
         <div class="view">
-          <img class="d-block w-100" src="{{p}}" alt="">
+          <img class="d-block w-100" src="{{image}}" alt="">
           <div class="mask rgba-black-light"></div>
         </div>
         <div class="carousel-caption">
