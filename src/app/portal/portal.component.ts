@@ -21,9 +21,6 @@ export class PortalComponent implements OnInit {
       return true;
     }
 
-    console.log(this.portal.sections);
-    console.log(this.activeSection);
-
     return this.portal.sections[0].name === this.activeSection.name;
   }
 

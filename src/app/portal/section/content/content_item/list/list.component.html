@@ -1,0 +1,11 @@
+<div class="row featurette">
+  <hr class="featurette-divider">
+  <div class="col-md-7 order-md-2">
+    {{data.content.title}}
+    <ul *ngIf="data.content.items.length > 0">
+      <li *ngFor="let item of data.content.items">{{item}}</li>
+    </ul>
+  </div>
+
+</div>
+<hr class="featurette-divider">
