@@ -15,6 +15,7 @@ import {TextimagesComponent} from './portal/section/content/content_item/textima
 import {GalleryComponent} from './portal/section/content/content_item/gallery/gallery.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {TextComponent} from './portal/section/content/content_item/text/text.component';
+import {ListComponent} from './portal/section/content/content_item/list/list.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import {TextComponent} from './portal/section/content/content_item/text/text.com
     ContentComponent,
     TextimagesComponent,
     GalleryComponent,
-    TextComponent
+    TextComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule,
