@@ -427,13 +427,13 @@ li.list-inline-item a {
   color: rgba(255, 255, 255, 0.62);
 }
 
-.carousel {
+/* .carousel {
   height: 400px;
 }
 
 .carousel-inner {
   height: 400px;
-}
+} */
 
 @media screen and (max-width: 767px) {
   .fixed-top {

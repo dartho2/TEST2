@@ -1,15 +1,15 @@
 <div class="row featurette card">
-    <h2 style="padding-left: 1.25rem;padding-top: 1.25rem;" class="featurette-heading">{{data.content.title}} <span class="text-muted">{{data.content.lead}} </span></h2>
-    <div class="card-body row">
+  <div class="card-body row">
     <div class="col-md-7 order-md-2" [ngStyle]="{'order': data.style.order}">
+      <h2 style="padding-left: 1.25rem;padding-top: 1.25rem;" class="featurette-heading">{{data.content.title}} <span
+          class="text-muted">{{data.content.lead}} </span></h2>
       <p class="lead">{{data.content.text}}</p>
       <app-list *ngIf="data.content.items" [data]="data"></app-list>
     </div>
     <div class="col-md-5 order-md-1">
-      <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
-           src="{{data.content.image}}"
-           data-holder-rendered="true" style="width: 500px; height: 500px;">
+      <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="{{data.content.image}}"
+        data-holder-rendered="true">
     </div>
   </div>
-  </div>
-  
+</div>
+<hr>

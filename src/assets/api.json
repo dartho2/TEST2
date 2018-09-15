@@ -289,8 +289,9 @@
   "name": "7mepoty",
   "image": "http://www.7mepoty.pl/images/trening_personalny.jpg",
   "images_top": [
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThZl-AltaReoUG4mgcDzu0q0VJqJgJyRam-yPOxsPu9_XSTawP",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThZl-AltaReoUG4mgcDzu0q0VJqJgJyRam-yPOxsPu9_XSTawP"
+    "assets/images/type_classes/slider1.png",
+    "assets/images/type_classes/slider2.png",
+    "assets/images/type_classes/slider3.png"
   ],
   "label": "7mepoty Centrum Treningowe",
   "style": {
@@ -626,7 +627,7 @@
         {
           "type": "text_and_image",
           "style": {
-            "order": 1,
+            "order": 2,
             "image_align": "left",
             "image_size": 1,
             "justify_content": false,
@@ -656,9 +657,9 @@
       "data": [{
           "type": "text",
           "content": {
-            "title": "",
+            "title": "Nasze solarium",
             "lead": "",
-            "text": "Nasze solarium - Tuba Opal Fitness – jest wyposażone w lampy o wysokim współczynniku opalania. Przed każdym seansem skonsultuj się z obsługą, która pomoże dobrać Ci odpowiednią ilość minut i doradzi jaki krem do opalania w solarium będzie dla Ciebie najlepszy. Dbałość o dobrej jakości lampy gwarantuje szybką i głęboką opaleniznę w kolorze słonecznego brązu, pamiętaj jednak, żeby proces opalania w solarium zacząć ostrożnie i dać czas swojej skórze na przyzwyczajenie się do nowego światła. Pomocą będą dla naszych klientów specjalistyczne kremy chroniące przed wysuszeniem i zaopatrujące w dużą dawkę witamin i antyoksydantów, a dla klientów zaawansowanych – specjalne bronzery, które w różnym stopniu przyspieszają opalanie."
+            "text": "Tuba Opal Fitness – jest wyposażone w lampy o wysokim współczynniku opalania. Przed każdym seansem skonsultuj się z obsługą, która pomoże dobrać Ci odpowiednią ilość minut i doradzi jaki krem do opalania w solarium będzie dla Ciebie najlepszy. Dbałość o dobrej jakości lampy gwarantuje szybką i głęboką opaleniznę w kolorze słonecznego brązu, pamiętaj jednak, żeby proces opalania w solarium zacząć ostrożnie i dać czas swojej skórze na przyzwyczajenie się do nowego światła. Pomocą będą dla naszych klientów specjalistyczne kremy chroniące przed wysuszeniem i zaopatrujące w dużą dawkę witamin i antyoksydantów, a dla klientów zaawansowanych – specjalne bronzery, które w różnym stopniu przyspieszają opalanie."
           }
         },
         {
@@ -673,7 +674,7 @@
           "content": {
             "title": "Czy solarium jest zdrowe?",
             "lead": "",
-            "image": "assets/images/solarium/solarium.jpg",
+            "image": "assets/images/solarium/opalo.jpg",
             "text": "Najlepszą odpowiedzią na to pytanie, będą z życia wzięte Wasze przykłady. Całkiem sporo klientów trafiło do nas po zaleceniu… lekarza. Okazuje się bowiem, że szybkie i mocne dawki ciepła są bardzo pomocne w terapiach związanych ze stawami. Również i dermatolodzy wysyłali swoich pacjentów do solarium, po to, żeby wysuszyć niedoskonałości skórne. I wreszcie, solarium zapobiega niedoborom witaminy D uznawanej za witaminę życia. Jak widzicie, solarium też może być lekarstwem. W odpowiedniej dawce. W nadmiarze, jak doskonale wiecie, szkodzi wszystko."
           }
         }

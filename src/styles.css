@@ -6,8 +6,16 @@
 main {
   background-color: #f3f3f3;
 }
+li.ng-star-inserted {
+  font-size: 14px;
+}
+/* .w-100 {
+  margin:0 auto;
+  width: auto !important;
+} */
 .card-body {
   padding-top: 0px;
+  padding-bottom: 0px;
 }
 html,
 body {
@@ -20,6 +28,11 @@ body {
 }
 .lead {
   font-size: 14px;
+}
+.card {
+  
+  background-color: transparent;
+  border: none;
 }
 
 h1,
