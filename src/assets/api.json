@@ -319,29 +319,6 @@
       "name": "trening",
       "label": "Trening personalny",
       "data": [{
-          "type": "list",
-          "content": {
-            "title": "Oferta obejmuje:",
-            "items": [
-              "pomiary i testy kinezjologiczne",
-              "analizę dziennika żywieniowego",
-              "ustalenie programu treningowego",
-              "asysta i wsparcie treningowe"
-            ]
-          }
-        },
-        {
-          "type": "list",
-          "content": {
-            "title": "Profil treningowy:",
-            "items": [
-              "fizjoterapeutyczny",
-              "odchudzający",
-              "funkcjonalny"
-            ]
-          }
-        },
-        {
           "type": "text",
           "content": {
             "title": "Ile trwa trening personalny?",
@@ -421,6 +398,7 @@
       "data": [{
           "type": "text_and_image",
           "style": {
+            "order": 1,
             "image_align": "left",
             "image_size": 1,
             "justify_content": false,
@@ -437,6 +415,7 @@
         {
           "type": "text_and_image",
           "style": {
+            "order": 2,
             "image_align": "left",
             "image_size": 1,
             "justify_content": false,
@@ -453,6 +432,7 @@
         {
           "type": "text_and_image",
           "style": {
+            "order": 1,
             "image_align": "left",
             "image_size": 1,
             "justify_content": false,
@@ -469,6 +449,7 @@
         {
           "type": "text_and_image",
           "style": {
+            "order": 2,
             "image_align": "left",
             "image_size": 1,
             "justify_content": false,
@@ -493,6 +474,7 @@
         {
           "type": "text_and_image",
           "style": {
+            "order": 1,
             "image_align": "left",
             "image_size": 1,
             "justify_content": false,
@@ -509,6 +491,7 @@
         {
           "type": "text_and_image",
           "style": {
+            "order": 2,
             "image_align": "left",
             "image_size": 1,
             "justify_content": false,
@@ -525,6 +508,7 @@
         {
           "type": "text_and_image",
           "style": {
+            "order": 1,
             "image_align": "left",
             "image_size": 1,
             "justify_content": false,
@@ -642,6 +626,7 @@
         {
           "type": "text_and_image",
           "style": {
+            "order": 1,
             "image_align": "left",
             "image_size": 1,
             "justify_content": false,
@@ -695,35 +680,40 @@
       ]
     },
     {
-      "name": "callendar",
-      "label": "kalendarz",
+      "name": "price_list",
+      "label": "cennik",
       "data": [{
-          "type": "text",
-          "content": {
-            "title": "Jakis tam naglowek paragrafu",
-            "lead": "Jakis tam lead",
-            "text": "The final thing we need to do is to tell Angular where we want the ArtistTrackListComponent and ArtistAlbumListComponent components to be injected into the page, we do that by adding in another router-outlet directive in our Artist template like so:"
-          }
+        "type": "text_and_image",
+        "style": {
+          "image_align": "left",
+          "image_size": 1,
+          "justify_content": false,
+          "indent_paragraph": false,
+          "margin": 1
         },
-        {
-          "type": "gallery",
-          "content": {
-            "title": "Galeria obrazow z dupeczkami",
-            "images": [{
-                "url": "https://www.wykop.pl/cdn/c3201142/comment_gUPKVZh9BWqVXPhMsba0biTQ8Ug7Ihn2,w400.jpg",
-                "title": "fajna dupeczka 1"
-              },
-              {
-                "url": "https://www.wykop.pl/cdn/c3201142/comment_gUPKVZh9BWqVXPhMsba0biTQ8Ug7Ihn2,w400.jpg",
-                "title": "fajna dupeczka 2"
-              },
-              {
-                "url": "https://www.wykop.pl/cdn/c3201142/comment_gUPKVZh9BWqVXPhMsba0biTQ8Ug7Ihn2,w400.jpg",
-                "title": "fajna dupeczka 3"
-              }
-            ]
-          }
+        "content": {
+          "title": "Cennik",
+          "lead": "",
+          "image": "assets/images/solarium/solarium.jpg",
+          "text": "Pobierz"
         }
+      },
+      {
+        "type": "text_and_image",
+        "style": {
+          "image_align": "left",
+          "image_size": 1,
+          "justify_content": false,
+          "indent_paragraph": false,
+          "margin": 1
+        },
+        "content": {
+          "title": "Karnet",
+          "lead": "",
+          "image": "assets/images/solarium/solarium.jpg",
+          "text": "Pobierz"
+        }
+      }
       ]
     }
   ]
