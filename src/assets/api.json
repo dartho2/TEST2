@@ -2,8 +2,7 @@
     "name": "gabinet_p_dtr",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThZl-AltaReoUG4mgcDzu0q0VJqJgJyRam-yPOxsPu9_XSTawP",
     "images_top": [
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThZl-AltaReoUG4mgcDzu0q0VJqJgJyRam-yPOxsPu9_XSTawP",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThZl-AltaReoUG4mgcDzu0q0VJqJgJyRam-yPOxsPu9_XSTawP"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThZl-AltaReoUG4mgcDzu0q0VJqJgJyRam-yPOxsPu9_XSTawP"    
     ],
     "label": "Gabinet P-DTR",
     "style": {
@@ -365,7 +364,7 @@
               "lead": "",
               "text": "Zanim trener zacznie realizować cele treningowe, musi uzyskać szereg informacji o podopiecznym. Wszystko to dzieje się na pierwszym spotkaniu, podczas którego jest przeprowadzany szczegółowy wywiad (wypełnienie ankiety informacyjnej, kwestionariusza medycznego, określenie celów treningowych oraz rozmowa o motywacji), testy kwalifikujące do treningu personalnego oraz pomiary. Przeważnie podczas drugiego spotkania jest omawiany sposób odżywiania podopiecznego. Na podstawie uzyskanych informacji, trener może zająć się przygotowaniem planu treningowego i zaleceń dietetycznych, które korespondują ze stylem życia tego konkretnego podopiecznego."
             }
-          },  
+          },
           {
             "type": "text",
             "content": {
@@ -373,7 +372,7 @@
               "lead": "",
               "text": "Wywiad składa się z kilku części. Po pierwsze jest to zwykła rozmowa zapoznawcza przeprowadzana w życzliwej i przyjaznej atmosferze; rozmowa o stylu życia, planach na przyszłość, marzeniach… Podczas niej, określane są Twoje oczekiwania w stosunku do treningów personalnych oraz poziom Twojej motywacji i gotowości do działania. Po drugie, otrzymujesz ankietę informacyjną oraz kwestionariusz medyczny i zostaniesz poproszona o szczegółowe wypełnienie. Z reguły zajmuje to ok. 20 minut."
             }
-          },    
+          },
           {
             "type": "text",
             "content": {
@@ -381,7 +380,7 @@
               "lead": "",
               "text": "Pomiary obwodowe są wykonywane cykliczne i służą do oceny efektów. Podobnie – BMI oraz WHR. W zależności od celu podopiecznego, formą pomiarów są też testy wytrzymałościowe, testy siłowe i testy gibkościowe powtarzane raz na kilka tygodni."
             }
-          },   
+          },
           {
             "type": "text",
             "content": {
@@ -389,7 +388,7 @@
               "lead": "",
               "text": "Przemyślany i idealnie dopasowany do Ciebie plan treningowy sprawi, że szybko osiągniesz swoje cele bez marnotrawstwa czasu i pieniędzy. Zanim jednak taki plan zostanie przygotowany, musimy dowiedzieć się więcej o stanie Twojego układu ruchu i do tego celu służą nam TESTY KWALIFIKUJĄCE DO TRENINGU PERSONALNEGO. W czasie ich wykonywania, dowiesz się czy trzymasz prawidłową postawę lub jeśli nie – jakie masz wady postawy, gdzie leży problem i nad czym trzeba popracować. Szczegółowej obserwacji poddawany jest kręgosłup, którego mobilność jest badana w odcinkach: szyjnym, piersiowym i lędźwiowym w zgięciu, wyproście skłonach bocznych i skręcie. A na koniec jeszcze test zakresu ruchów w stawach kończyn górnych i dolnych i ocena elastyczności mięśni, a co za tym idzie – zlokalizowanie skróconych lub przykurczonych mięśni."
             }
-          },    
+          },
           {
             "type": "text",
             "content": {
@@ -397,7 +396,7 @@
               "lead": "",
               "text": "Testy kwalifikujące do treningu personalnego to ocena sprawności układu ruchu, która pozwoli na optymalne dobranie zestawu ćwiczeń. W określonych sytuacjach, kiedy stan zdrowia podopiecznego wymaga pilnej pomocy lekarskiej lub rehabilitacyjnej, trener personalny może odmówić prowadzenia treningów personalnych do czasu poprawy stanu zdrowia. Sytuacje te są jednak bardzo rzadkie."
             }
-          },   
+          },
           {
             "type": "text",
             "content": {
@@ -413,36 +412,81 @@
               "lead": "",
               "text": "Ustalenie terminu treningu personalnego odbywa się indywidualnie z trenerem. Treningi są prowadzone zarówno w godzinach porannych jak i wieczornych. Aby ustalić termin, skontaktuj się z trenerem telefonicznie dzwoniąc pod numer podany na stronie lub wysyłając sms-a, a odzwonimy do Ciebie z propozycją możliwie najszybciej dostępnego terminu. Jeśli masz pytania dotyczące treningu personalnego, planu treningowego lub planu żywieniowego, możesz bezpłatnie umówić się na konsultacje trenerskie. Odpowiemy na Twoje pytania i chętnie udzielimy rad, które zgodnie z naszą wiedzą i holistycznym podejściem do człowieka pomogą Ci osiągnąć sukces."
             }
-          }            
+          }
         ]
       },
       {
-        "name": "lessons",
-        "label": "zajecia",
+        "name": "gym_cardio",
+        "label": "Strefa siłowa & kardio",
         "data": [{
-            "type": "text",
+            "type": "text_and_image",
+            "style": {
+              "image_align": "left",
+              "image_size": 1,
+              "justify_content": false,
+              "indent_paragraph": false,
+              "margin": 1
+            },
             "content": {
-              "title": "Jakis tam naglowek paragrafu",
-              "lead": "Jakis tam lead",
-              "text": "The final thing we need to do is to tell Angular where we want the ArtistTrackListComponent and ArtistAlbumListComponent components to be injected into the page, we do that by adding in another router-outlet directive in our Artist template like so:"
+              "title": "Body Space ®",
+              "lead": "",
+              "image": "assets/images/gym/body_space.jpg",
+              "text": "Kardio połączone z treningiem próżniowym – efekt już po 2 tygodniach! Zmiana jakości sylwetki i utrata wagi dają jednak tylko systematycznie treningi. Zacznij od 3 seansów w tygodniu, a kiedy ciało zacznie się widocznie zmieniać, możesz – jeśli chcesz – ćwiczyć tylko 2 razy w tygodniu. Nie zapomnij jednak o siłowni! 30 minut pracy w Body Space to dość mało do osiągnięcia spektakularnych efektów, ale jeśli trening przedłużysz o godzinę lub więcej, masz duże szanse, żeby w ciągu miesiąca lub dwóch stracić 2 rozmiary!"
             }
           },
           {
-            "type": "gallery",
+            "type": "text_and_image",
+            "style": {
+              "image_align": "left",
+              "image_size": 1,
+              "justify_content": false,
+              "indent_paragraph": false,
+              "margin": 1
+            },
             "content": {
-              "title": "Galeria obrazow z dupeczkami",
-              "images": [{
-                  "url": "https://www.wykop.pl/cdn/c3201142/comment_gUPKVZh9BWqVXPhMsba0biTQ8Ug7Ihn2,w400.jpg",
-                  "title": "fajna dupeczka 1"
-                },
-                {
-                  "url": "https://www.wykop.pl/cdn/c3201142/comment_gUPKVZh9BWqVXPhMsba0biTQ8Ug7Ihn2,w400.jpg",
-                  "title": "fajna dupeczka 2"
-                },
-                {
-                  "url": "https://www.wykop.pl/cdn/c3201142/comment_gUPKVZh9BWqVXPhMsba0biTQ8Ug7Ihn2,w400.jpg",
-                  "title": "fajna dupeczka 3"
-                }
+              "title": "Rollmasaż",
+              "lead": "",
+              "image": "assets/images/gym/rollingstars.png",
+              "text": "Po każdym treningu polegającym na pracy koncentryczno-ekscentrycznej, mięśniom należy się krótki relaks i rozluźnienie. Rollmasaż doskonale się do tego nadaje! Zacznij od kończyn dolnych (najlepiej od stóp) i powoli przesuwaj się ku górze. W zależności od pozycji, możesz wymasować każdą cześć ciała. Masz do dyspozycji dwie pufy i silne ramy urządzenia, na których możesz się opierać. Masowanie za pomocą tych bambusowych rolek, nie tylko jest przyjemne, ale też niezwykle zdrowe. Rollmasaż korzystnie wpływa na układ mięśniowy, krwionośny, nerwowy, limfatyczny, rozbija i przyspiesza utratę tkanki tłuszczowej, silnie ujędrnia i uelastycznia ciało. Doskonały jako kuracja antycellulitowa! W naszym centrum treningowym znajduję się tabliczka informująca o prawidłowym przebiegu masażu."
+            }
+          },
+          {
+            "type": "text_and_image",
+            "style": {
+              "image_align": "left",
+              "image_size": 1,
+              "justify_content": false,
+              "indent_paragraph": false,
+              "margin": 1
+            },
+            "content": {
+              "title": "Rowerek i bieżnia",
+              "lead": "",
+              "image": "assets/images/gym/bieznia.jpg",
+              "text": "Za utratę tkanki tłuszczowej podczas ćwiczeń odpowiadają tlenowe procesy spalania czyli tzw. aeroby. Już po około 15 minutach jazdy na rowerze lub marszu na bieżni energia zmagazynowana w postaci tkanki tłuszczowej zaczyna być uwalniania. Musisz jednak wiedzieć, że aby wejść w tlenowe procesy spalania nie wolno Ci przekroczyć tętna powyżej 70-75% Twojego HRMax. Jak to obliczyć i co to oznacza? HRMax (heart rate maximum) to Twoje maksymalne dopuszczalne tętno. Żeby je obliczyć odejmij od 220 swój wiek i teraz oblicz 75% z tej wartości. Dla przykładu, HRMax kobiety w wieku 40 lat wynosi 180 uderzeń serca na minutę, a intensywność pracy jej serca nie powinna przekraczać 135 uderzeń na minutę (75%HRMax), jeśli celem naszej przykładowej bohaterki jest utrata wagi.Jeśli masz jakiegokolwiek wątpliwości lub pytania, obsługa 7mych potów (Karmy Zdrowia) z chęcią na nie odpowie."
+            }
+          },
+          {
+            "type": "text_and_image_list",
+            "style": {
+              "image_align": "left",
+              "image_size": 1,
+              "justify_content": false,
+              "indent_paragraph": false,
+              "margin": 1
+            },
+            "content": {
+              "title": "Orbitrek",
+              "lead": "",
+              "image": "assets/images/gym/orbitek.jpg",
+              "text": "Znane jest też pod nazwą: rower eliptyczny, trenażer eliptyczny i cross-trainer. Można go określić jako 3 w 1, bo łączy zalety steppera, bieżni i roweru stacjonarnego. Dlaczego warto wybrać orbit rek? Orbitrek ma wiele zalet, które warto wykorzystać nie tylko dla spalania kalorii, ale także aby poprawić kondycję. Najważniejsze z nich:",
+              "items": [
+                "w czasie ćwiczeń nogi poruszają się ruchem owalnym, co przypomina ruch podczas biegu narciarskiego,",
+                "znacznie zmniejszone są obciążenia – stawy i ścięgna są dużo mniej obciążone niż podczas tradycyjnego biegania,",
+                "spalanie kalorii jest dużo bardziej efektywne niż na bieżni czy rowerku stacjonarnym. Pracuje całe ciało",
+                "ćwiczenia bez rączek pozwalają wzmocnić mięśnie brzucha,",
+                "wzmacniają się i kształtują mięśnie ud i podudzi,",
+                "można ćwiczyć z różną prędkością, co jest szczególnie ważne dla osób, które dopiero rozpoczynają ćwiczenia."
               ]
             }
           }
