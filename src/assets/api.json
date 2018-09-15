@@ -416,7 +416,7 @@
         {
           "type": "text_and_image",
           "style": {
-            "order": 2,
+            "order": 1,
             "image_align": "left",
             "image_size": 1,
             "justify_content": false,
@@ -450,7 +450,7 @@
         {
           "type": "text_and_image",
           "style": {
-            "order": 2,
+            "order": 1,
             "image_align": "left",
             "image_size": 1,
             "justify_content": false,
@@ -492,7 +492,7 @@
         {
           "type": "text_and_image",
           "style": {
-            "order": 2,
+            "order": 1,
             "image_align": "left",
             "image_size": 1,
             "justify_content": false,
@@ -627,7 +627,7 @@
         {
           "type": "text_and_image",
           "style": {
-            "order": 2,
+            "order": 1,
             "image_align": "left",
             "image_size": 1,
             "justify_content": false,
@@ -700,7 +700,7 @@
         }
       },
       {
-        "type": "text_and_image",
+        "type": "box",
         "style": {
           "image_align": "left",
           "image_size": 1,

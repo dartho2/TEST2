@@ -447,7 +447,7 @@ li.list-inline-item a {
 
   .navbar-header-top {
     background-color: #268a26;
-    height: 16px;
+    height: 30px;
     display: none;
   }
 
@@ -557,7 +557,7 @@ span.span-header {
 
 .navbar-header-top {
   background-color: #268a26;
-  height: 16px;
+  height: 30px;
 }
 
 .navbar-brand {
