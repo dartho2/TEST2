@@ -1,8 +1,9 @@
 <div class="row featurette">
   <hr class="featurette-divider">
   <div class="col-md-7 order-md-2">
-    <h2 class="featurette-heading">{{data.type}} <span class="text-muted">{{data.content.lead}} </span></h2>
+    <h2 class="featurette-heading">{{data.content.title}} <span class="text-muted">{{data.content.lead}} </span></h2>
     <p class="lead">{{data.content.text}}</p>
+    <app-list *ngIf="data.content.items" [data]="data"></app-list>
   </div>
   <div class="col-md-5 order-md-1">
     <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
