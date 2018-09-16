@@ -22,7 +22,7 @@
 </nav>
 <nav class="navbar navbar-expand-md navbar-dark navbar-header-bot">
   <div class="container">
-    <a class="navbar-brand" [ngStyle]="{'color':portal.style.colors.primary}" routerLink="/"></a>
+      <a class="navbar-brand navbar-visible" [ngStyle]="{'color': portal.style.colors.primary}" routerLink="/">{{portal.label}}</a>
     <button type="button" [ngStyle]="{'color': portal.style.colors.primary}" class="navbar-toggle" data-toggle="collapse"
       data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="icon-bar" [ngStyle]="{'background-color': portal.style.colors.primary}"></span>
