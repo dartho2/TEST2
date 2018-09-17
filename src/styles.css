@@ -272,7 +272,9 @@ div#cdk-overlay-0 {
 .news-box {
     width: 100%;
 }
-
+.row.content-row.ng-star-inserted {
+  float: none !important;
+}
 .news-box:nth-child(2n) .news-info {
   float: left;
 }
@@ -309,4 +311,8 @@ table, th, td {
 th, td {
   padding: 5px;
   text-align: left;    
+}
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
 }

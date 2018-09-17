@@ -1,6 +1,5 @@
 
-<div class="row featurette card">
-
+<div class="row featurette card" [ngStyle]="{'background': portal.activeSection.style.background, 'border': portal.activeSection.style.border}">
   <div class="col-md-12">
     <h2 class="featurette-heading">{{data.content.title}} <span class="text-muted">{{data.content.lead}} </span></h2>
     <p class="lead">{{data.content.text}}</p>

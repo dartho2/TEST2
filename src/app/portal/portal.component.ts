@@ -1,6 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {ActivatedRoute} from '@angular/router';
-
+import { FacebookService, InitParams } from 'ngx-facebook';
 @Component({
   selector: 'app-portal',
   templateUrl: './portal.component.html',
@@ -12,8 +12,25 @@ export class PortalComponent implements OnInit {
   hover;
   portal;
   activeSection;
+  initParams: InitParams = {
+    xfbml: true,
+    status: true, 
+    cookie: true,
+    version: 'v3.1'
+  };
 
-  constructor(private router: ActivatedRoute) {
+  constructor(private router: ActivatedRoute,
+    public fb: FacebookService) {
+
+    //  initParams: InitParams = {
+    //   xfbml: true,
+    //   status: true, 
+    //   cookie: true,
+    //   version: 'v3.1'
+    // };
+
+    
+
   }
 
   isActiveSectionMainSection() {
@@ -23,9 +40,12 @@ export class PortalComponent implements OnInit {
 
     return this.portal.sections[0].name === this.activeSection.name;
   }
-
+  
+  
   ngOnInit() {
     this.router.paramMap.subscribe(params => {
+      console.log("FB connect")
+      this.fb.init(this.initParams);
       this.portal = this.portals.find(portal => portal.name === params.get('portal'));
       this.setCurrentSection(params.get('section'));
     });

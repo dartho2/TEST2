@@ -377,7 +377,9 @@ li.list-inline-item a {
   /* .navbar-visible {
     display: block;
   } */
-
+  .row.content-row.ng-star-inserted {
+    float: none !important;
+}
   .scroll-down {
     position: absolute;
     left: 50%;
@@ -411,7 +413,7 @@ li.list-inline-item a {
   .btn-login {
     width: 100%;
   }
-
+ 
   .btn-register {
     width: 100%;
   }
@@ -447,6 +449,7 @@ li.list-inline-item a {
     right: 0;
 
   }
+  
   .navbar-visible img {
     height: 46px;
   } 
@@ -511,6 +514,7 @@ li.list-inline-item a {
     /* box-shadow: 0px 5px 10px; */
 
   }
+ 
   .navbar-visible img {
     height: 46px;
   } 
