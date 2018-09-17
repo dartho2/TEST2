@@ -24,15 +24,15 @@ body {
 
 body {
   margin: 0;
-  font-family: 'Copernicus', sans-serif;
+  font-family:'robotlight','Copernicus', sans-serif;
 }
 .lead {
   font-size: 14px;
 }
 .card {
   
-  background-color: transparent;
-  border: none;
+  /* background-color: transparent;
+  border: none; */
 }
 
 h1,
@@ -295,4 +295,18 @@ div#cdk-overlay-0 {
 .news-box .news-image {
   display: none;
 }
+}
+.row.featurette.card:hover {
+  /* background-color: red; */
+  -webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.75);
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;    
 }

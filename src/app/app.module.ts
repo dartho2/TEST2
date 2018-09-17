@@ -16,7 +16,7 @@ import {GalleryComponent} from './portal/section/content/content_item/gallery/ga
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {TextComponent} from './portal/section/content/content_item/text/text.component';
 import {ListComponent} from './portal/section/content/content_item/list/list.component';
-
+import {TableComponent} from './portal/section/content/content_item/table/table.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +28,8 @@ import {ListComponent} from './portal/section/content/content_item/list/list.com
     TextimagesComponent,
     GalleryComponent,
     TextComponent,
-    ListComponent
+    ListComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,
