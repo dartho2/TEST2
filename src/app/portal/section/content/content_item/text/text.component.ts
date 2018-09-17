@@ -9,7 +9,8 @@ import {PortalComponent} from '../../../../portal.component';
 export class TextComponent implements OnInit {
   @Input()
   data;
-  constructor(private portal: PortalComponent) {}
+  portals = this.portal;
+  constructor(public portal: PortalComponent) {}
   ngOnInit() {
   }
 }
