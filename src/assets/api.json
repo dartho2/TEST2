@@ -305,7 +305,8 @@
         "label": "Aktualności",
         "style": {
           "background": "transparent",
-          "border": "none"
+          "border": "none",
+          "shadow": "none"
         },
         "data": [{
           "type": "fb",
@@ -338,7 +339,8 @@
         "label": "Trening personalny",
         "style": {
           "background": "transparent",
-          "border": "none"
+          "border": "none",
+          "shadow":"none"
         },
         "data": [{
             "type": "text",
@@ -677,7 +679,8 @@
         "label": "Solarium",
         "style": {
           "background": "transparent",
-          "border": "none"
+          "border": "none",
+          "shadow":"none"
         },
         "data": [{
             "type": "text",

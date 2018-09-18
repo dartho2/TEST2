@@ -6,9 +6,11 @@
 main {
   background-color: #f3f3f3;
 }
+
 li.ng-star-inserted {
   font-size: 14px;
 }
+
 /* .w-100 {
   margin:0 auto;
   width: auto !important;
@@ -17,6 +19,7 @@ li.ng-star-inserted {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+
 html,
 body {
   height: 100%;
@@ -24,13 +27,15 @@ body {
 
 body {
   margin: 0;
-  font-family:'robotlight','Copernicus', sans-serif;
+  font-family: 'robotlight', 'Copernicus', sans-serif;
 }
+
 .lead {
   font-size: 14px;
 }
+
 .card {
-  
+
   /* background-color: transparent;
   border: none; */
 }
@@ -42,9 +47,11 @@ h5 {
   font-weight: normal;
   font-style: normal;
 }
+
 .card {
   margin-bottom: 10px;
 }
+
 span {
   font-family: 'Montserrat';
   font-weight: normal;
@@ -86,27 +93,47 @@ a#dropdown01 {
   font-style: italic;
   src: url("/assets/fonts/GalaxieCopernicus-BookItalic.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/GalaxieCopernicus-BookItalic.woff") format("woff"), url("/assets/fonts/GalaxieCopernicus-BookItalic.ttf") format("truetype"), url("/assets/fonts/GalaxieCopernicus-BookItalic.svg#svgFontName") format("svg")
 }
+
 @font-face {
   font-family: 'Beaufort-Bold';
   font-style: bold;
   font-weight: 400;
-  src: url('/assets/fonts/Beaufort-Bold.eot'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/Beaufort-Bold.eot');
+  /* IE9 Compat Modes */
   src: local('Beaufort-Bold'), local('Beaufort-Bold'),
-  url('/assets/fonts/Beaufort-Bold.woff2') format('woff2'), /* Super Modern Browsers */ url('/assets/fonts/Beaufort-Bold.woff') format('woff'), /* Modern Browsers */ url('/assets/fonts/Beaufort-Bold.ttf') format('truetype'), /* Safari, Android, iOS */ 
+    url('/assets/fonts/Beaufort-Bold.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('/assets/fonts/Beaufort-Bold.woff') format('woff'),
+    /* Modern Browsers */
+    url('/assets/fonts/Beaufort-Bold.ttf') format('truetype'),
+    /* Safari, Android, iOS */
 }
+
 /* montserrat-regular - latin */
 @font-face {
   font-family: 'robotlight';
   src: url('/assets/fonts/Roboto-Light.ttf')
 }
+
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  src: url('/assets/fonts/montserrat-v12-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/montserrat-v12-latin-regular.eot');
+  /* IE9 Compat Modes */
   src: local('Montserrat Regular'), local('Montserrat-Regular'),
-  url('/assets/fonts/montserrat-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('/assets/fonts/montserrat-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */ url('/assets/fonts/montserrat-v12-latin-regular.woff') format('woff'), /* Modern Browsers */ url('/assets/fonts/montserrat-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */ url('/assets/fonts/montserrat-v12-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+    url('/assets/fonts/montserrat-v12-latin-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('/assets/fonts/montserrat-v12-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('/assets/fonts/montserrat-v12-latin-regular.woff') format('woff'),
+    /* Modern Browsers */
+    url('/assets/fonts/montserrat-v12-latin-regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('/assets/fonts/montserrat-v12-latin-regular.svg#Montserrat') format('svg');
+  /* Legacy iOS */
 }
+
 .ng-star-inserted {
   /* max-height: 400px; */
 }
@@ -119,18 +146,22 @@ a#dropdown01 {
 .mat-menu-content {
   display: table-caption;
 }
+
 a.mat-button.mat-button:hover {
   background-color: transparent;
   color: black;
 }
+
 ul.navbar-nav.mr-auto {
   margin: 0 auto;
 }
-a.navbar-brand {   
+
+a.navbar-brand {
   color: white;
   text-shadow: 2px 1px black;
 
 }
+
 button.button-top-mat.mat-button {
   color: rgba(255, 255, 255, 0.62);
   border: 1px solid white;
@@ -185,7 +216,7 @@ div#cdk-overlay-0 {
     border-radius: 4px;
   }
 
-  .navbar-toggle .icon-bar + .icon-bar {
+  .navbar-toggle .icon-bar+.icon-bar {
     margin-top: 4px;
   }
 }
@@ -211,11 +242,13 @@ div#cdk-overlay-0 {
 #news .news-box .news-info {
   float: left !important;
 }
-.abs_news_box{
+
+.abs_news_box {
   position: absolute;
   margin-top: -20px;
   width: 100%;
 }
+
 .news-box .news-info {
   padding: 27px 27px 60px 27px;
   height: 250px;
@@ -223,10 +256,12 @@ div#cdk-overlay-0 {
   position: relative;
   /* width: 50%; */
 }
+
 .news-box a>div {
   /* width: 50%; */
   float: left;
 }
+
 .news-box .news-info .more {
   position: absolute;
   color: #fff;
@@ -235,10 +270,12 @@ div#cdk-overlay-0 {
   bottom: 20px;
   left: 27px;
 }
+
 .news-box:nth-child(3n+2) {
   background: #00b4cb;
   margin-left: 10px;
 }
+
 .news-box {
   float: left;
   width: 20%;
@@ -246,14 +283,17 @@ div#cdk-overlay-0 {
   background: #00b4cb;
   color: #fff;
 }
+
 #news .news-header {
   width: 100%;
   float: left;
 }
+
 .news-box a {
   color: #fff;
   text-decoration: none !important;
 }
+
 .news-box .news-info {
   padding: 27px 27px 60px 27px;
   height: 250px;
@@ -261,6 +301,7 @@ div#cdk-overlay-0 {
   position: relative;
   /* width: 50%; */
 }
+
 .news-box .news-image {
   background-repeat: no-repeat !important;
   background-position: center center !important;
@@ -268,51 +309,70 @@ div#cdk-overlay-0 {
   height: 280px;
   /* width: 50%; */
 }
-@media (max-width: 991px){
-.news-box {
-    width: 100%;
-}
-.row.content-row.ng-star-inserted {
-  float: none !important;
-}
-.news-box:nth-child(2n) .news-info {
-  float: left;
-}
-.news-box:nth-child(2n) .news-image {
-  float: right;
 
+@media (max-width: 991px) {
+  .news-box {
+    width: 100%;
+  }
+
+  .row.content-row.ng-star-inserted {
+    float: none !important;
+  }
+
+  .news-box:nth-child(2n) .news-info {
+    float: left;
+  }
+
+  .news-box:nth-child(2n) .news-image {
+    float: right;
+
+  }
 }
-}
-@media (max-width: 479px){
-.news-box .news-info {
+
+@media (max-width: 479px) {
+  .news-box .news-info {
     width: 100% !important;
+  }
+
+  .abs_news_box {
+    position: relative;
+    margin-top: 2px;
+  }
+
+  .news-box a>div {
+    width: 100%;
+  }
+
+  .news-box .news-image {
+    display: none;
+  }
 }
-.abs_news_box{
-  position: relative;
-  margin-top: 2px;
-}
-.news-box a>div {
-  width: 100%;
-}
-.news-box .news-image {
-  display: none;
-}
-}
+
 .row.featurette.card:hover {
   /* background-color: red; */
-  -webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.75);
 }
-table, th, td {
+
+table,
+th,
+td {
   border: 1px solid black;
   border-collapse: collapse;
 }
-th, td {
+
+th,
+td {
   padding: 5px;
-  text-align: left;    
+  text-align: left;
 }
+
 .row {
   margin-left: 0px;
   margin-right: 0px;
+}
+
+app-table.ng-star-inserted {
+  margin: 0 auto;
 }
