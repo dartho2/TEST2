@@ -650,7 +650,7 @@
           {
             "type": "text_and_image",
             "style": {
-              "order": 1,
+              "order": 2,
               "image_align": "left",
               "image_size": 1,
               "justify_content": false,
@@ -693,7 +693,7 @@
           {
             "type": "text_and_image",
             "style": {
-              "image_align": "left",
+              "image_align": "right",
               "image_size": 1,
               "justify_content": false,
               "indent_paragraph": false,
