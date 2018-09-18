@@ -8,7 +8,6 @@ import {FacebookService, InitParams} from 'ngx-facebook';
 export class PortalComponent implements OnInit {
   @Input()
   portals;
-  hover;
   portal;
   activeSection;
   initParams: InitParams = {
@@ -20,16 +19,6 @@ export class PortalComponent implements OnInit {
 
   constructor(private router: ActivatedRoute,
     public fb: FacebookService) {
-
-    //  initParams: InitParams = {
-    //   xfbml: true,
-    //   status: true, 
-    //   cookie: true,
-    //   version: 'v3.1'
-    // };
-
-    
-
   }
 
   isActiveSectionMainSection() {
@@ -43,7 +32,6 @@ export class PortalComponent implements OnInit {
   
   ngOnInit() {
     this.router.paramMap.subscribe(params => {
-      console.log("FB connect")
       this.fb.init(this.initParams);
       this.portal = this.portals.find(portal => portal.name === params.get('portal'));
       this.setCurrentSection(params.get('section'));

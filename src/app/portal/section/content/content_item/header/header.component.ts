@@ -9,6 +9,7 @@ import {PortalComponent} from '../../../../portal.component';
 export class HeaderComponent implements OnInit {
   @Input()
   portal;
+  hover;
   service = this.portals;
   constructor(public portals: PortalComponent) {}
 
