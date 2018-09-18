@@ -20,6 +20,7 @@ import {TableComponent} from './portal/section/content/content_item/table/table.
 import {FacebookModule} from 'ngx-facebook';
 import {FbComponent} from '../app/portal/section/content/content_item/fb/fb.component';
 import {FooterComponent} from '../app/portal/section/content/content_item/footer/footer.component';
+import {HeaderComponent} from './portal/section/content/content_item/header/header.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import {FooterComponent} from '../app/portal/section/content/content_item/footer
     ListComponent,
     TableComponent,
     FbComponent,
-    FooterComponent
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

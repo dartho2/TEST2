@@ -710,7 +710,7 @@
       },
       {
         "name": "price_list",
-        "label": "cennik",
+        "label": "Cennik",
         "style": {
           "background": "transparent",
           "border": "none"

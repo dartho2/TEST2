@@ -1,10 +1,9 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {ActivatedRoute} from '@angular/router';
-import { FacebookService, InitParams } from 'ngx-facebook';
+import {FacebookService, InitParams} from 'ngx-facebook';
 @Component({
   selector: 'app-portal',
-  templateUrl: './portal.component.html',
-  styleUrls: ['./portal.component.css']
+  templateUrl: './portal.component.html'
 })
 export class PortalComponent implements OnInit {
   @Input()
