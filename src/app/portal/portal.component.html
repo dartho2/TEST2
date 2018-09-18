@@ -1,5 +1,25 @@
 <nav class="navbar navbar-expand-md navbar-dark navbar-header-top" [ngStyle]="{'background-image': 'linear-gradient(to right,'+portal.style.colors.primary+','+portal.style.colors.secondary+')'}">
   <div class="container">
+     <!-- Facebook -->
+     <a class="fb-ic" >
+        <i class="fa fa-facebook white-text mr-4"> </i>
+      </a>
+      <!-- Twitter -->
+      <a class="tw-ic">
+        <i class="fa fa-twitter white-text mr-4"> </i>
+      </a>
+      <!-- Google +-->
+      <a class="gplus-ic">
+        <i class="fa fa-google-plus white-text mr-4"> </i>
+      </a>
+      <!--Linkedin -->
+      <a class="li-ic">
+        <i class="fa fa-linkedin white-text mr-4"> </i>
+      </a>
+      <!--Instagram-->
+      <a class="ins-ic">
+        <i class="fa fa-instagram white-text"> </i>
+      </a>
       <a class="navbar-brand" [ngStyle]="{'color':'white;'}" routerLink="/"></a>
       <!-- #TODO usunac -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
@@ -120,3 +140,4 @@
 
 
 <app-section [section]="activeSection"></app-section>
+<app-footer [portal]="portal"></app-footer>

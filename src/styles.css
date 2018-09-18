@@ -376,3 +376,6 @@ td {
 app-table.ng-star-inserted {
   margin: 0 auto;
 }
+.container {
+  overflow: auto;
+}

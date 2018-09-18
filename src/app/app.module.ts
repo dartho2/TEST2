@@ -18,7 +18,8 @@ import {TextComponent} from './portal/section/content/content_item/text/text.com
 import {ListComponent} from './portal/section/content/content_item/list/list.component';
 import {TableComponent} from './portal/section/content/content_item/table/table.component';
 import {FacebookModule} from 'ngx-facebook';
-import {FbComponent} from '../app/portal/section/content/content_item/fb/fb.component'
+import {FbComponent} from '../app/portal/section/content/content_item/fb/fb.component';
+import {FooterComponent} from '../app/portal/section/content/content_item/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import {FbComponent} from '../app/portal/section/content/content_item/fb/fb.comp
     TextComponent,
     ListComponent,
     TableComponent,
-    FbComponent
+    FbComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
