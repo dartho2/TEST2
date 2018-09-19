@@ -36,8 +36,8 @@ body {
 
 .card {
 
-  /* background-color: transparent;
-  border: none; */
+  background-color: transparent;
+  border: none;
 }
 
 h1,
@@ -350,18 +350,23 @@ div#cdk-overlay-0 {
 
 .row.featurette.card:hover {
   /* background-color: red; */
-  -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.75);
+  /* -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.75); */
 }
 
 table,
 th,
 td {
-  border: 1px solid black;
+  border-bottom: 1px solid #bfbdbd;
   border-collapse: collapse;
 }
-
+tr:nth-child(odd) {
+background-color: transparent;
+}
+tr:nth-child(even) {
+  background-color: #ececec;
+}
 th,
 td {
   padding: 5px;
@@ -378,4 +383,32 @@ app-table.ng-star-inserted {
 }
 .container {
   overflow: auto;
+}
+
+nav.navbar.navbar-expand-md.navbar-dark.navbar-header-bot{
+  display: block;
+}
+li.nav-item.ng-star-inserted {
+  display: inline-block;
+}
+ul.navbar-nav.mr-auto {
+  display: inline-block;
+}
+
+@media (max-width: 767px) {
+  nav.navbar.navbar-expand-md.navbar-dark.navbar-header-bot{
+    display: flex;
+  }
+  li.nav-item.ng-star-inserted {
+    display: inline-block;
+  }
+  ul.navbar-nav.mr-auto {
+    display: flex;
+  }
+  }
+  .col {
+    flex-basis: unset;
+  }
+  .row.content-row.ng-star-inserted {
+    display: block;
 }

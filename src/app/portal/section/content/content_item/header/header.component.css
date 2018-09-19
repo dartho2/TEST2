@@ -255,7 +255,7 @@ body {
   
   .card:hover {
     color: #222 !important;
-    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    /* box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5; */
   }
   
   .card-block {
@@ -264,7 +264,7 @@ body {
     margin: 0;
     padding: 1em;
     border: none !important;
-    border-top: 1px solid rgba(34, 36, 38, .1);
+    /* border-top: 1px solid rgba(34, 36, 38, .1); */
     box-shadow: none;
   }
   

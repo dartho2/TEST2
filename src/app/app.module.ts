@@ -5,6 +5,7 @@ import {RouterModule} from '@angular/router';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
+import {FormsModule}   from '@angular/forms';
 import {AppRoutingModule} from './app.routing';
 import {AppComponent} from './app.component';
 import {HomeComponent} from './home/home.component';
@@ -21,6 +22,8 @@ import {FacebookModule} from 'ngx-facebook';
 import {FbComponent} from '../app/portal/section/content/content_item/fb/fb.component';
 import {FooterComponent} from '../app/portal/section/content/content_item/footer/footer.component';
 import {HeaderComponent} from './portal/section/content/content_item/header/header.component';
+import {ContactComponent} from './portal/section/content/content_item/contact/contact.component';
+import { BoxComponent } from './portal/section/content/content_item/box/box.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +39,9 @@ import {HeaderComponent} from './portal/section/content/content_item/header/head
     TableComponent,
     FbComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    ContactComponent,
+    BoxComponent
   ],
   imports: [
     BrowserModule,
@@ -47,6 +52,7 @@ import {HeaderComponent} from './portal/section/content/content_item/header/head
     MatMenuModule,
     MatButtonModule,
     MatIconModule,
+    FormsModule,
     FacebookModule.forRoot()
   ],
   providers: [],

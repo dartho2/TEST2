@@ -5,4 +5,6 @@
   <app-gallery *ngIf="contentItem.type === 'gallery'" [data]="contentItem"></app-gallery>
   <app-list *ngIf="contentItem.type === 'list'" [data]="contentItem"></app-list>
   <app-table *ngIf="contentItem.type === 'table'" [data]="contentItem"></app-table>
+  <app-contact *ngIf="contentItem.type === 'contact'" [data]="contentItem"></app-contact>
+  <app-box *ngIf="contentItem.type === 'box'" [data]="contentItem"></app-box>
 </div>

@@ -1,0 +1,26 @@
+<h2 class="featurette-heading">{{data.content.title}}</h2>
+<div class="asdasdas" *ngIf="!portalFilter(service.portals[0].sections)">
+  <div *ngFor="let classes of typeClasses.data">
+    <div class="col-lg-offset-2 col-lg-12">
+      <div class="row" style="display:block">
+        <div class="col-sm-4" style="padding: 5px">
+          <br>
+          <div style="position: relative">
+            <a routerLink="/{{service.portal.name}}/{{typeClasses.name}}%23{{classes.content.title}}" class=""> <img style="position: relative; width: 100%; height: 200px" src="{{classes.content.image}}"
+                class="img-responsive">
+            </a>
+            <p class="fit-p-on-image">{{classes.content.title}}
+            </p>
+          </div>
+          <br>
+          <div class="simple-box">
+            <!-- <span class="sb-title">{{classes.content.title}}</span> -->
+            <!-- <span class="pull-right">
+              <a href="" class="btn btn-sm btn-default btn-pink">więcej &gt;</a>
+            </span> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
