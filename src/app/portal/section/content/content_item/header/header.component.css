@@ -447,6 +447,9 @@ body {
       right: 0;
   
     }
+    div#carousel-example-2 {
+      display: none;
+  }
     
     .navbar-visible img {
       height: 46px;
@@ -512,6 +515,7 @@ body {
       /* box-shadow: 0px 5px 10px; */
   
     }
+    
    
     .navbar-visible img {
       height: 46px;

@@ -1,400 +1,276 @@
 [{
-  "name": "7mepoty",
-  "image": "assets/logo/7me_logo.png",
-  "images_top": [
-    "assets/images/type_classes/slider1.png",
-    "assets/images/type_classes/slider2.png",
-    "assets/images/type_classes/slider3.png"
-  ],
-  "label": "7mepoty Centrum Treningowe",
-  "style": {
-    "colors": {
-      "primary": "#db6fc5",
-      "secondary": "#7d0474"
-    }
-  },
-  "sections": [{
-      "name": "news",
-      "label": "Aktualności",
-      "data": [{
-        "type": "fb",
-        "float": "left",
-        "styles": [
-          "image_right",
-          "image_small"
-        ],
-        "content": {
-          "title": "",
-          "lead": "",
-          "text": ""
-        }
+    "name": "joga",
+    "image": "assets/logo/studio_yogi_logo.png",
+    "images_top": [
+      "assets/images/joga/slider1.png",
+      "assets/images/joga/slider2.png"
+    ],
+    "label": "Studio jogi",
+    "style": {
+      "colors": {
+        "primary": "#800080",
+        "secondary": "#e3c8e3"
+      }
+    },
+    "sections": [{
+        "name": "news",
+        "label": "Aktualności",
+        "data": [{
+            "type": "fb",
+            "float": "left",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "",
+              "lead": "",
+              "text": ""
+            }
+          },
+          {
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "O Nas",
+              "lead": "Do czego tego użyć?",
+              "text": "Ogólnie znana teza głosi, iż użytkownika może rozpraszać zrozumiała zawartość strony, kiedy ten chce zobaczyć sam jej wygląd. Jedną z mocnych stron używania Lorem Ipsum jest to, że ma wiele różnych „kombinacji” zdań, słów i akapitów, w przeciwieństwie do zwykłego: „tekst, tekst, tekst”, sprawiającego, że wygląda to „zbyt czytelnie” po polsku. Wielu webmasterów i designerów używa Lorem Ipsum jako domyślnego modelu tekstu i wpisanie w internetowej wyszukiwarce ‘lorem ipsum’ spowoduje znalezienie bardzo wielu stron, które wciąż są w budowie. Wiele wersji tekstu ewoluowało i zmieniało się przez lata, czasem przez przypadek, czasem specjalnie (humorystyczne wstawki itd)."
+            }
+          }
+        ]
       },
       {
+        "name": "what_is_yoga",
+        "label": "Czym jest joga?",
+        "data": [{
           "type": "text",
+          "float": "left",
           "styles": [
             "image_right",
             "image_small"
           ],
           "content": {
-            "title": "O Nas",
-            "lead": "7me poty",
-            "text": "Nasze centrum treningowe obejmuje strefę kardio, treningi wyszczuplające Body Space, zajęcia grupowe z instruktorami fitness, treningi personalne oraz konsultacje żywieniowe. Znajdziesz u nas wykwalifikowaną kadrę, kameralną i przyjazną atmosferę, estetyczne wnętrza, ale przede wszystkim spełnione oczekiwania oraz lepszą i zdrowszą wersje samej siebie. 7mepoty to miejsce stworzone dla kobiet! 7mepoty to miejsce stworzone dla kobiet Z nami osiągniesz swój cel!"
+            "title": "Czym jest joga?",
+            "lead": "",
+            "text": "Joga to najstarsza gimnastyka świata. Jest praktykowana od wielu tysięcy lat, a jej najważniejszym źródłem są spisane między 3 a 6 wiekiem przed naszą erą Jogasutry autorstwa Patańdżalego, ajurwedyjskiego lekarza. Joga może być rozumiana na dwa sposoby. Może być postrzegana jako system światopoglądowy, filozofię czy nawet religię oraz jako aktywność ruchowa. W cywilizacji zachodniej, dużo częściej jogę kojarzy się z praktyką asan. Również i w naszym studio, joga jest wolna od światopoglądu i jest nauczana tylko i wyłącznie jako aktywność fizyczna. Niezaprzeczalnym faktem jest jednak jej znamienny wpływ na jasność myślenia, uspokojenie umysłu i zharmonizowanie pracy narządów wewnętrznych. Praktyka asan – czyli pozycji jogi - ma charakter terapeutyczny. Ich wykonywanie przynosi ulgę narządowi ruchu i znacząco wpływa na witalność regularnie ćwiczącego"
           }
-        },
-        {
-          "type": "box",
-          "styles": [
-            "image_right",
-            "image_small"
-          ],
-          "data":{
-            "number": 1
+        }]
+      },
+      {
+        "name": "types_yoga",
+        "label": "Rodzaje jogi",
+        "data": [{
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "",
+              "lead": "",
+              "text": "Jest wiele rodzajów jogi. W naszym studio skupiamy się głownie na 3 z nich:"
+            }
           },
-          "content": {
-            "title": "Nasze Zajęcia:",
-            "lead": "7me poty",
-            "text": "Nasze centrum treningowe obejmuje strefę kardio, treningi wyszczuplające Body Space, zajęcia grupowe z instruktorami fitness, treningi personalne oraz konsultacje żywieniowe. Znajdziesz u nas wykwalifikowaną kadrę, kameralną i przyjazną atmosferę, estetyczne wnętrza, ale przede wszystkim spełnione oczekiwania oraz lepszą i zdrowszą wersje samej siebie. 7mepoty to miejsce stworzone dla kobiet! 7mepoty to miejsce stworzone dla kobiet Z nami osiągniesz swój cel!"
-          }
-        }
-       ]
-    },
-    {
-      "name": "trening",
-      "label": "Trening personalny",
-      "data": [{
-          "type": "text",
-          "content": {
-            "title": "Ile trwa trening personalny?",
-            "lead": "",
-            "text": "Przeważnie około godziny, nie wliczając w to rozgrzewki, którą podopieczny wykonuje sam na siłowni."
-          }
-        },
-        {
-          "type": "text",
-          "content": {
-            "title": "Jak wygląda trening personalny?",
-            "lead": "",
-            "text": "To zależy do kogo jest adresowany. Każdy człowiek jest inny: ma inne cele treningowe, możliwości fizyczne, preferencje, dlatego zgodnie z naszym standardem każdy ma inną organizację treningu. To co łączy wszystkie treningi, to rozgrzewka, którą podopieczny wykonuje sam na siłowni przez ok. 10-15 minut przed umówioną godziną treningu oraz stretching i relaksacja pod koniec treningu. Część główna treningu, która trwa ok. 45 minut dla każdego jest inna."
-          }
-        },
-        {
-          "type": "text",
-          "content": {
-            "title": "Indywidualnie dopasowany program treningowy – co to oznacza?",
-            "lead": "",
-            "text": "Zanim trener zacznie realizować cele treningowe, musi uzyskać szereg informacji o podopiecznym. Wszystko to dzieje się na pierwszym spotkaniu, podczas którego jest przeprowadzany szczegółowy wywiad (wypełnienie ankiety informacyjnej, kwestionariusza medycznego, określenie celów treningowych oraz rozmowa o motywacji), testy kwalifikujące do treningu personalnego oraz pomiary. Przeważnie podczas drugiego spotkania jest omawiany sposób odżywiania podopiecznego. Na podstawie uzyskanych informacji, trener może zająć się przygotowaniem planu treningowego i zaleceń dietetycznych, które korespondują ze stylem życia tego konkretnego podopiecznego."
-          }
-        },
-        {
-          "type": "text",
-          "content": {
-            "title": "Na czym polega wywiad podczas I spotkania z trenerem personalnym?",
-            "lead": "",
-            "text": "Wywiad składa się z kilku części. Po pierwsze jest to zwykła rozmowa zapoznawcza przeprowadzana w życzliwej i przyjaznej atmosferze; rozmowa o stylu życia, planach na przyszłość, marzeniach… Podczas niej, określane są Twoje oczekiwania w stosunku do treningów personalnych oraz poziom Twojej motywacji i gotowości do działania. Po drugie, otrzymujesz ankietę informacyjną oraz kwestionariusz medyczny i zostaniesz poproszona o szczegółowe wypełnienie. Z reguły zajmuje to ok. 20 minut."
-          }
-        },
-        {
-          "type": "text",
-          "content": {
-            "title": "Czy trener personalny wykonuje jakieś pomiary?",
-            "lead": "",
-            "text": "Pomiary obwodowe są wykonywane cykliczne i służą do oceny efektów. Podobnie – BMI oraz WHR. W zależności od celu podopiecznego, formą pomiarów są też testy wytrzymałościowe, testy siłowe i testy gibkościowe powtarzane raz na kilka tygodni."
-          }
-        },
-        {
-          "type": "text",
-          "content": {
-            "title": "Co to są testy kwalifikujące do treningu personalnego?",
-            "lead": "",
-            "text": "Przemyślany i idealnie dopasowany do Ciebie plan treningowy sprawi, że szybko osiągniesz swoje cele bez marnotrawstwa czasu i pieniędzy. Zanim jednak taki plan zostanie przygotowany, musimy dowiedzieć się więcej o stanie Twojego układu ruchu i do tego celu służą nam TESTY KWALIFIKUJĄCE DO TRENINGU PERSONALNEGO. W czasie ich wykonywania, dowiesz się czy trzymasz prawidłową postawę lub jeśli nie – jakie masz wady postawy, gdzie leży problem i nad czym trzeba popracować. Szczegółowej obserwacji poddawany jest kręgosłup, którego mobilność jest badana w odcinkach: szyjnym, piersiowym i lędźwiowym w zgięciu, wyproście skłonach bocznych i skręcie. A na koniec jeszcze test zakresu ruchów w stawach kończyn górnych i dolnych i ocena elastyczności mięśni, a co za tym idzie – zlokalizowanie skróconych lub przykurczonych mięśni."
-          }
-        },
-        {
-          "type": "text",
-          "content": {
-            "title": "Czy mogę nie zaliczyć testów kwalifikujących do treningu personalnego?",
-            "lead": "",
-            "text": "Testy kwalifikujące do treningu personalnego to ocena sprawności układu ruchu, która pozwoli na optymalne dobranie zestawu ćwiczeń. W określonych sytuacjach, kiedy stan zdrowia podopiecznego wymaga pilnej pomocy lekarskiej lub rehabilitacyjnej, trener personalny może odmówić prowadzenia treningów personalnych do czasu poprawy stanu zdrowia. Sytuacje te są jednak bardzo rzadkie."
-          }
-        },
-        {
-          "type": "text",
-          "content": {
-            "title": "Co to jest próbny trening podczas I spotkania?",
-            "lead": "",
-            "text": "Próbny trening jest dopełnieniem pierwszego spotkania. Podczas niego, trener ma szanse zaobserwować mechanikę Twojego ruchu i na podstawie tego oraz wywiadu, testów i pomiarów ułoży plan treningowy dopasowany do Ciebie. Trening próbny to też sprawdzenie w jakich ćwiczeniach czujesz się dobrze, a jakie są Twoją słabą stroną."
-          }
-        },
-        {
-          "type": "text",
-          "content": {
-            "title": "Jak umówić się trening?",
-            "lead": "",
-            "text": "Ustalenie terminu treningu personalnego odbywa się indywidualnie z trenerem. Treningi są prowadzone zarówno w godzinach porannych jak i wieczornych. Aby ustalić termin, skontaktuj się z trenerem telefonicznie dzwoniąc pod numer podany na stronie lub wysyłając sms-a, a odzwonimy do Ciebie z propozycją możliwie najszybciej dostępnego terminu. Jeśli masz pytania dotyczące treningu personalnego, planu treningowego lub planu żywieniowego, możesz bezpłatnie umówić się na konsultacje trenerskie. Odpowiemy na Twoje pytania i chętnie udzielimy rad, które zgodnie z naszą wiedzą i holistycznym podejściem do człowieka pomogą Ci osiągnąć sukces."
-          }
-        }
-      ]
-    },
-    {
-      "name": "gym_cardio",
-      "label": "Strefa siłowa & kardio",
-      "data": [{
-          "type": "text_and_image",
-          "style": {
-            "order": 1
+          {
+            "type": "list",
+            "content": {
+              "title": "Oferta obejmuje:",
+              "items": ["Joga od podstaw", "Hatha Joga", "Vinyasa Jog"]
+            }
           },
-          "content": {
-            "title": "Body Space ®",
-            "lead": "",
-            "image": "assets/images/gym/body_space.jpg",
-            "text": "Kardio połączone z treningiem próżniowym – efekt już po 2 tygodniach! Zmiana jakości sylwetki i utrata wagi dają jednak tylko systematycznie treningi. Zacznij od 3 seansów w tygodniu, a kiedy ciało zacznie się widocznie zmieniać, możesz – jeśli chcesz – ćwiczyć tylko 2 razy w tygodniu. Nie zapomnij jednak o siłowni! 30 minut pracy w Body Space to dość mało do osiągnięcia spektakularnych efektów, ale jeśli trening przedłużysz o godzinę lub więcej, masz duże szanse, żeby w ciągu miesiąca lub dwóch stracić 2 rozmiary!"
-          }
-        },
-        {
-          "type": "text_and_image",
-          "style": {
-            "order": 1
+          {
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "Joga od podstaw",
+              "lead": "",
+              "text": "Kurs dla osób początkujących. Program ponad 30 podstawowych asan, relaksacja i nauka świadomego oddechu, terapia ruchem i profilaktyka chorób układu ruchu, dla kobiet i mężczyzn w każdym wieku."
+            }
           },
-          "content": {
-            "title": "Rollmasaż",
-            "lead": "",
-            "image": "assets/images/gym/rollingstars.png",
-            "text": "Po każdym treningu polegającym na pracy koncentryczno-ekscentrycznej, mięśniom należy się krótki relaks i rozluźnienie. Rollmasaż doskonale się do tego nadaje! Zacznij od kończyn dolnych (najlepiej od stóp) i powoli przesuwaj się ku górze. W zależności od pozycji, możesz wymasować każdą cześć ciała. Masz do dyspozycji dwie pufy i silne ramy urządzenia, na których możesz się opierać. Masowanie za pomocą tych bambusowych rolek, nie tylko jest przyjemne, ale też niezwykle zdrowe. Rollmasaż korzystnie wpływa na układ mięśniowy, krwionośny, nerwowy, limfatyczny, rozbija i przyspiesza utratę tkanki tłuszczowej, silnie ujędrnia i uelastycznia ciało. Doskonały jako kuracja antycellulitowa! W naszym centrum treningowym znajduję się tabliczka informująca o prawidłowym przebiegu masażu."
-          }
-        },
-        {
-          "type": "text_and_image",
-          "style": {
-            "order": 1
+          {
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "Hatha Joga",
+              "lead": "",
+              "text": "Nazwa Hatha wywodzi się z sanskrytu i składa z dwóch słów: „ha”, czyli słońce oraz „tha”, czyli księżyc. Jogini owe słońce i księżyc porównują do dwóch nozdrzy, co ma przypominać o funkcji prawidłowego oddychania podczas ćwiczeń oraz symbolizować pozytywne (słońce) i negatywne (księżyc) emocje, myśli, odczucia i zachowania. W praktyce więc Hatha Joga polega na odpowiednim balansowaniu oddechem w połączeniu z ruchem ciała i stanem umysłu. Przez to właśnie Hatha Joga jest statyczna, figury wykonuje się powoli i dokładnie kontroluje oddech."
+            }
           },
-          "content": {
-            "title": "Rowerek i bieżnia",
-            "lead": "",
-            "image": "assets/images/gym/bieznia.jpg",
-            "text": "Za utratę tkanki tłuszczowej podczas ćwiczeń odpowiadają tlenowe procesy spalania czyli tzw. aeroby. Już po około 15 minutach jazdy na rowerze lub marszu na bieżni energia zmagazynowana w postaci tkanki tłuszczowej zaczyna być uwalniania. Musisz jednak wiedzieć, że aby wejść w tlenowe procesy spalania nie wolno Ci przekroczyć tętna powyżej 70-75% Twojego HRMax. Jak to obliczyć i co to oznacza? HRMax (heart rate maximum) to Twoje maksymalne dopuszczalne tętno. Żeby je obliczyć odejmij od 220 swój wiek i teraz oblicz 75% z tej wartości. Dla przykładu, HRMax kobiety w wieku 40 lat wynosi 180 uderzeń serca na minutę, a intensywność pracy jej serca nie powinna przekraczać 135 uderzeń na minutę (75%HRMax), jeśli celem naszej przykładowej bohaterki jest utrata wagi.Jeśli masz jakiegokolwiek wątpliwości lub pytania, obsługa 7mych potów (Karmy Zdrowia) z chęcią na nie odpowie."
-          }
-        },
-        {
-          "type": "text_and_image",
-          "style": {
-            "order": 1
+          {
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "Vinyasa Joga",
+              "lead": "",
+              "text": "Vinyasa natomiast oznacza dynamiczną, skoncentrowaną postawę. Klasyczne i statyczne asany są tutaj wykonywane dynamicznie wraz z oddechem. Kluczową sprawą w tej odmianie jogi jest więc oddychanie w trakcie wykonywania ćwiczeń. Duży nacisk jest także kładziony na to, co dzieje się pomiędzy figurami, na płynne przejścia od jednej figury do drugiej, podczas gdy w Hatha Jodze liczą się tylko poszczególne figury, bez zwracania uwagi na przejścia. Vinyasa posiada więc sześć figur, które płynnie rozwijają się od pierwszej do ostatniej."
+            }
           },
-          "content": {
-            "title": "Orbitrek",
-            "lead": "",
-            "image": "assets/images/gym/orbitek.jpg",
-            "text": "Znane jest też pod nazwą: rower eliptyczny, trenażer eliptyczny i cross-trainer. Można go określić jako 3 w 1, bo łączy zalety steppera, bieżni i roweru stacjonarnego. Dlaczego warto wybrać orbit rek? Orbitrek ma wiele zalet, które warto wykorzystać nie tylko dla spalania kalorii, ale także aby poprawić kondycję. Najważniejsze z nich:",
-            "items": [
-              "w czasie ćwiczeń nogi poruszają się ruchem owalnym, co przypomina ruch podczas biegu narciarskiego,",
-              "znacznie zmniejszone są obciążenia – stawy i ścięgna są dużo mniej obciążone niż podczas tradycyjnego biegania,",
-              "spalanie kalorii jest dużo bardziej efektywne niż na bieżni czy rowerku stacjonarnym. Pracuje całe ciało",
-              "ćwiczenia bez rączek pozwalają wzmocnić mięśnie brzucha,",
-              "wzmacniają się i kształtują mięśnie ud i podudzi,",
-              "można ćwiczyć z różną prędkością, co jest szczególnie ważne dla osób, które dopiero rozpoczynają ćwiczenia."
+          {
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "Jaka jest różnica pomiędzy Hatha a Vinyasa?",
+              "lead": "",
+              "text": "Hatha Joga powstała dużo wcześniej, natomiast bez niej nie byłoby Vinyasa Jogi, która ewoluowała właśnie z Hatha. Asany jednak oraz sama praktyka przebiega już w obu odmianach inaczej. I mimo, że cel mają ten sam – ćwiczenie ciała i umysłu, to jednak osiągają go innymi drogami."
+            }
+          },
+          {
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "",
+              "lead": "",
+              "text": "Ćwiczenia Vinyasa wykonywane są szybciej, w Hatha wolniej. Statyczna Hatha nie pozwala na płynne przechodzenie z asany do asany, rozwijanie jednej postawy w drugą, Vinyasa jest więc bardzo podobna do tak zwanego „Sun Salutation” Surya Namaskara. Jej niepodważalną zaletą jest też fakt, że system połączonych i szybko wykonywanych ruchów ma zdecydowanie lepszy wpływ na system krążenia, w przeciwieństwie do Hatha Jogi."
+            }
+          },
+          {
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "",
+              "lead": "",
+              "text": "Stopień trudności jest jednak wyższy w Vinyasa Jodze niż w Hatha. Dlatego ta druga jest polecana dla początkujących, ponieważ łatwiej jest w niej skupić się na prawidłowym wykonywaniu figur, co przecież dla jogi jest bardzo ważne. Technika oddychania jest również tutaj łatwiejsza. Stąd też kiedy dobrze już pozna się Hatha Jogę, można przejść do Vinyasa Jogi, żeby podnieść sobie poprzeczkę, można więc traktować Vinyasę jako zaawansowaną odmianę tradycyjnej jogi."
+            }
+          },
+          {
+            "name": "types_yoga",
+            "label": "Rodzaje jogi",
+            "data": [{
+                "type": "text",
+                "styles": [
+                  "image_right",
+                  "image_small"
+                ],
+                "content": {
+                  "title": "",
+                  "lead": "",
+                  "text": "Jest wiele rodzajów jogi. W naszym studio skupiamy się głownie na 3 z nich:"
+                }
+              },
+              {
+                "type": "list",
+                "content": {
+                  "title": "Oferta obejmuje:",
+                  "items": ["Joga od podstaw", "Hatha Joga", "Vinyasa Jog"]
+                }
+              },
+              {
+                "type": "text",
+                "styles": [
+                  "image_right",
+                  "image_small"
+                ],
+                "content": {
+                  "title": "Joga od podstaw",
+                  "lead": "",
+                  "text": "Kurs dla osób początkujących. Program ponad 30 podstawowych asan, relaksacja i nauka świadomego oddechu, terapia ruchem i profilaktyka chorób układu ruchu, dla kobiet i mężczyzn w każdym wieku."
+                }
+              },
+              {
+                "type": "text",
+                "styles": [
+                  "image_right",
+                  "image_small"
+                ],
+                "content": {
+                  "title": "Hatha Joga",
+                  "lead": "",
+                  "text": "Nazwa Hatha wywodzi się z sanskrytu i składa z dwóch słów: „ha”, czyli słońce oraz „tha”, czyli księżyc. Jogini owe słońce i księżyc porównują do dwóch nozdrzy, co ma przypominać o funkcji prawidłowego oddychania podczas ćwiczeń oraz symbolizować pozytywne (słońce) i negatywne (księżyc) emocje, myśli, odczucia i zachowania. W praktyce więc Hatha Joga polega na odpowiednim balansowaniu oddechem w połączeniu z ruchem ciała i stanem umysłu. Przez to właśnie Hatha Joga jest statyczna, figury wykonuje się powoli i dokładnie kontroluje oddech."
+                }
+              },
+              {
+                "type": "text",
+                "styles": [
+                  "image_right",
+                  "image_small"
+                ],
+                "content": {
+                  "title": "Vinyasa Joga",
+                  "lead": "",
+                  "text": "Vinyasa natomiast oznacza dynamiczną, skoncentrowaną postawę. Klasyczne i statyczne asany są tutaj wykonywane dynamicznie wraz z oddechem. Kluczową sprawą w tej odmianie jogi jest więc oddychanie w trakcie wykonywania ćwiczeń. Duży nacisk jest także kładziony na to, co dzieje się pomiędzy figurami, na płynne przejścia od jednej figury do drugiej, podczas gdy w Hatha Jodze liczą się tylko poszczególne figury, bez zwracania uwagi na przejścia. Vinyasa posiada więc sześć figur, które płynnie rozwijają się od pierwszej do ostatniej."
+                }
+              },
+              {
+                "type": "text",
+                "styles": [
+                  "image_right",
+                  "image_small"
+                ],
+                "content": {
+                  "title": "Jaka jest różnica pomiędzy Hatha a Vinyasa?",
+                  "lead": "",
+                  "text": "Hatha Joga powstała dużo wcześniej, natomiast bez niej nie byłoby Vinyasa Jogi, która ewoluowała właśnie z Hatha. Asany jednak oraz sama praktyka przebiega już w obu odmianach inaczej. I mimo, że cel mają ten sam – ćwiczenie ciała i umysłu, to jednak osiągają go innymi drogami."
+                }
+              },
+              {
+                "type": "text",
+                "styles": [
+                  "image_right",
+                  "image_small"
+                ],
+                "content": {
+                  "title": "",
+                  "lead": "",
+                  "text": "Ćwiczenia Vinyasa wykonywane są szybciej, w Hatha wolniej. Statyczna Hatha nie pozwala na płynne przechodzenie z asany do asany, rozwijanie jednej postawy w drugą, Vinyasa jest więc bardzo podobna do tak zwanego „Sun Salutation” Surya Namaskara. Jej niepodważalną zaletą jest też fakt, że system połączonych i szybko wykonywanych ruchów ma zdecydowanie lepszy wpływ na system krążenia, w przeciwieństwie do Hatha Jogi."
+                }
+              },
+              {
+                "type": "text",
+                "styles": [
+                  "image_right",
+                  "image_small"
+                ],
+                "content": {
+                  "title": "",
+                  "lead": "",
+                  "text": "Stopień trudności jest jednak wyższy w Vinyasa Jodze niż w Hatha. Dlatego ta druga jest polecana dla początkujących, ponieważ łatwiej jest w niej skupić się na prawidłowym wykonywaniu figur, co przecież dla jogi jest bardzo ważne. Technika oddychania jest również tutaj łatwiejsza. Stąd też kiedy dobrze już pozna się Hatha Jogę, można przejść do Vinyasa Jogi, żeby podnieść sobie poprzeczkę, można więc traktować Vinyasę jako zaawansowaną odmianę tradycyjnej jogi."
+                }
+              }
             ]
           }
-        },
-        {
+        ]
+      },
+      {
+        "name": "advantages",
+        "label": "Zalety jogi",
+        "data": [{
           "type": "text_and_image",
           "style": {
             "order": 1
           },
           "content": {
-            "title": "Platforma wibracyjna",
+            "title": "Jak joga zmienia Twoje ciało – po zajęciach, miesiącach, latach…?",
             "lead": "",
-            "image": "assets/images/gym/platforma_wibracyjna.jpg",
-            "text": "Treningi na platformie wibracyjnej są idealnym połączeniem przyjemnego z pożytecznym. Zalety treningów z wykorzystaniem platform wibracyjnych są takie, że bez większego wysiłku będziemy w stanie kształtować naszą sylwetkę, budować masę mięśniową czy też spalać niepotrzebny tłuszcz. Standardowy trening wykorzystuje około 50% mięśni, a dzięki temu, że wibracyjne drgania podczas ćwiczeń na platformie pobudzają wszystkie mięśnie do mimowolnego skurczu, sprawia to że wszystkie mięśnie zostają zaangażowane w trening."
+            "image": "assets/images/joga/zalety.png",
+            "text": "Na pewno zastanawiałeś się, jak joga wpływa na funkcjonowanie Twojego organizmu. Ta prosta grafika ułatwi Ci dostrzec natychmiastowe korzyści, które osiągniesz już zaraz po zejściu z maty, jak i efekty dłuższej, regularnej praktyki."
           }
-        },
-        {
-          "type": "text_and_image",
-          "style": {
-            "order": 1
-          },
-          "content": {
-            "title": "Suwnica Smitha",
-            "lead": "",
-            "image": "assets/images/gym/suwnica.jpg",
-            "text": "Konstrukcja Suwnicy Smitha wprowadza zupełnie nowe możliwości do treningu siłowego. Dzieje się tak przede wszystkim za sprawą zespolenia mechanizmu przesuwnego z gryfem oraz systemem asekuracji. Zapewnia to stabilność i płynność ruchów użytkownika w obu kierunkach, zarówno w pozycji stojącej, siedzącej, jak i leżącej. Takie rozwiązanie uczyniło suwnicę prawdziwie uniwersalnym urządzeniem, łączącym w sobie zalety ćwiczeń z wolną sztangą i atlasem. Swoboda wyboru pozycji ciała, bezpieczeństwo, pełna kontrola ruchów i komfortu – to efekty tego aliansu. Suwnica uwalnia też użytkownika od konieczności udziału osób trzecich w treningu, aczkolwiek nic nie stoi na przeszkodzie aby ćwiczyć z partnerem. W naszym centrum treningowym znajduję się tabliczka z przykładowymi ćwiczeniami na urządzeniu."
-          }
-        },
-        {
-          "type": "text_and_image",
-          "style": {
-            "order": 1
-          },
-          "content": {
-            "title": "Brama narożna",
-            "lead": "",
-            "image": "assets/images/gym/brama.jpg",
-            "text": "Brama Narożna to wszechstronne urządzenie pozwalające na wykonanie bardzo wielu ćwiczeń na wszystkie partie ciała. W naszym centrum treningowym znajduję się tabliczka z przykładowymi ćwiczeniami na urządzeniu."
-          }
-        }
-      ]
-    },
-    {
-      "name": "types_classes",
-      "label": "Rodzaje zajęć",
-      "data": [{
-          "type": "text_and_image",
-          "style": {
-            "order": 1
-          },
-          "content": {
-            "title": "Interval",
-            "lead": "",
-            "image": "assets/images/type_classes/interval.jpg",
-            "text": "Interwały to treningi metaboliczne, uchodzące za najbardziej skuteczne w procesie odchudzania. Treningi są intensywne. Zawierają zarówno ćwiczenie siłowe oraz eksplozywne (wszelkie wyskoki i biegi), dlatego interwałom towarzyszy dość długa lista przeciwwskazań, niemniej jednak osobom dobrze do nich przygotowanych, taki trening przyniesie najwięcej korzyści i widocznie przyczyni się do zrzucenia zbędnych kilogramów. Przed przystąpieniem do zajęć, wskazana konsultacja z trenerem."
-          }
-        },
-        {
-          "type": "text_and_image",
-          "style": {
-            "order": 1
-          },
-          "content": {
-            "title": "Shape",
-            "lead": "",
-            "image": "assets/images/type_classes/shape.jpg",
-            "text": "Ogólnorozwojowy trening kształtujący ciało – brzuch, uda, pośladki, ramiona"
-          }
-        },
-        {
-          "type": "text_and_image",
-          "style": {
-            "order": 1
-          },
-          "content": {
-            "title": "Deep WORK",
-            "lead": "",
-            "image": "assets/images/type_classes/deep_work.jpg",
-            "text": "Program treningowy inspirowany filozofią i energetyką Dalekiego Wschodu oparty na koncepcji Yin i Yang. Początek lekcji to subtelne pobudzenie mięśni i stawów przypominające Jogę oraz Body Art. Wchodząc jednak dalej w trening, musisz stawić czoło swoim słabościom i pokonać własne ograniczenia. Deep WORK ® to wyjątkowy trening funkcjonalny, który nie tylko ćwiczy ciało, ale też i umysł. Stworzony przez fachowców najwyższej klasy dla osób lubiących wyzwania i otwartych na nowe koncepty."
-          }
-        },
-        {
-          "type": "text_and_image",
-          "style": {
-            "order": 1
-          },
-          "content": {
-            "title": "Functional Flow",
-            "lead": "",
-            "image": "assets/images/type_classes/flow.png",
-            "text": "Functional Flow to zupełnie nowa odsłona treningu funkcjonalnego. Ci którzy oczekują po treningu uczucia przyjemnej wolności i luzu w ciele, nie zawiodą się. Functional Flow zmusza do globalnej pracy mięśnie posturalne, buduje siłę od środka i trenuje zakres ruchu bez przeciążania stawów. To również trening powięzi eliminujący sztywność w ciele, a przy tym bardzo trudno się nie zmęczyć. Spalanie kalorii gwarantowane, a wcale nie trzeba skakać."
-          }
-        },
-        {
-          "type": "text_and_image",
-          "style": {
-            "order": 1
-          },
-          "content": {
-            "title": "Pilates",
-            "lead": "",
-            "image": "assets/images/type_classes/pilates.jpg",
-            "text": "Zajęcia prozdrowotne z nurtu mentalnych. Mają za zadanie aktywację mięśni pilates był stosowany jako forma rehabilitacji, obecnie, jako forma zajęć grupowych, doskonale się sprawdza jako profilaktyka przed dysfunkcjami układu ruchu jak i w niektórych przypadkach leczeniu, np. problemy z nietrzymaniem moczu. Pilates korzystnie wpływa na kondycję kręgosłupa, ruchomość stawów, gibkość czy siłę mięśni (zwłaszcza mięśnie tłoczni brzusznej, prostowniki kręgosłupa oraz mięśnie obręczy biodrowej)."
-          }
-        },
-        {
-          "type": "text_and_image",
-          "style": {
-            "order": 1
-          },
-          "content": {
-            "title": "Zdrowy kręgosłup",
-            "lead": "",
-            "image": "assets/images/type_classes/kregoslup.jpg",
-            "text": "Zajęcia prozdrowotne, łączące w sobie cechy pilatesa oraz fitnessu. Ich głównym zadaniem jest profilaktyka schorzeń kręgosłupa, ale nie należy ich jednak mylić z treningiem pleców. Na zajęciach zdrowy kręgosłup, ćwiczone są wszystkie grupy mięśniowe ciała, ponieważ każda jedna dysfunkcja danej części ciała (np. stopy) może negatywnie oddziaływać na stan kręgosłupa. Zestaw ćwiczeń obejmuje: wzmocnienie, stabilizacje, mobilizację oraz gibkość. Zajęcia odbywają się głównie z pomocą przyborów takich jak: piłki gimnastyczne, taśmy elastyczne, hantle, dyski powietrzne."
-          }
-        },
-        {
-          "type": "text_and_image",
-          "style": {
-            "order": 1
-          },
-          "content": {
-            "title": "Joga",
-            "lead": "",
-            "image": "assets/images/type_classes/joga.jpg",
-            "text": "Joga to najstarsza gimnastyka świata. Jest praktykowana od wielu tysięcy lat, a jej najważniejszym źródłem są spisane między 3 a 6 wiekiem przed naszą erą Jogasutry autorstwa Patańdżalego, ajurwedyjskiego lekarza. Joga może być rozumiana na dwa sposoby. Może być postrzegana jako system światopoglądowy, filozofię czy nawet religię oraz jako aktywność ruchowa. W cywilizacji zachodniej, dużo częściej jogę kojarzy się z praktyką asan. Również i w naszym klubie, joga jest wolna od światopoglądu i jest nauczana tylko i wyłącznie jako aktywność fizyczna. Niezaprzeczalnym faktem jest jednak jej znamienny wpływ na jasność myślenia, uspokojenie umysłu i zharmonizowanie pracy narządów wewnętrznych. Praktyka asan – czyli pozycji jogi - ma charakter terapeutyczny. Ich wykonywanie przynosi ulgę narządowi ruchu i znacząco wpływa na witalność regularnie ćwiczącego. Spośród najbardziej znanych korzyści praktykowania jogi, należy wymienić:",
-            "items": [
-              "spowolnienie procesów starzenia,",
-              "profilaktyka chorób kręgosłupa,",
-              "lepsze radzenie sobie ze stresem,",
-              "spokojny sen,",
-              "uspokojenie układu hormonalnego",
-              "wyższa tolerancja na obciążenie intelektualne."
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "name": "solarium",
-      "label": "Solarium",
-      "data": [{
-          "type": "text",
-          "content": {
-            "title": "Nasze solarium",
-            "lead": "",
-            "text": "Tuba Opal Fitness – jest wyposażone w lampy o wysokim współczynniku opalania. Przed każdym seansem skonsultuj się z obsługą, która pomoże dobrać Ci odpowiednią ilość minut i doradzi jaki krem do opalania w solarium będzie dla Ciebie najlepszy. Dbałość o dobrej jakości lampy gwarantuje szybką i głęboką opaleniznę w kolorze słonecznego brązu, pamiętaj jednak, żeby proces opalania w solarium zacząć ostrożnie i dać czas swojej skórze na przyzwyczajenie się do nowego światła. Pomocą będą dla naszych klientów specjalistyczne kremy chroniące przed wysuszeniem i zaopatrujące w dużą dawkę witamin i antyoksydantów, a dla klientów zaawansowanych – specjalne bronzery, które w różnym stopniu przyspieszają opalanie."
-          }
-        },
-        {
-          "type": "text_and_image",
-          "style": {
-            "order": 1
-          },
-          "content": {
-            "title": "Czy solarium jest zdrowe?",
-            "lead": "",
-            "image": "assets/images/solarium/opalo.jpg",
-            "text": "Najlepszą odpowiedzią na to pytanie, będą z życia wzięte Wasze przykłady. Całkiem sporo klientów trafiło do nas po zaleceniu… lekarza. Okazuje się bowiem, że szybkie i mocne dawki ciepła są bardzo pomocne w terapiach związanych ze stawami. Również i dermatolodzy wysyłali swoich pacjentów do solarium, po to, żeby wysuszyć niedoskonałości skórne. I wreszcie, solarium zapobiega niedoborom witaminy D uznawanej za witaminę życia. Jak widzicie, solarium też może być lekarstwem. W odpowiedniej dawce. W nadmiarze, jak doskonale wiecie, szkodzi wszystko."
-          }
-        },
-        {
-          "type": "text",
-          "content": {
-            "title": "",
-            "lead": "",
-            "text": "Zakaz udostępniania solarium osobom, które nie ukończyły 18. roku życia (art. 5 ust. 1 ustawy z dnia 15 września 2017 r. o ochronie zdrowia przed następstwami korzystania z solarium)."
-          }
-        }
-      ]
-    },
-    {
-      "name": "treners",
-      "label": "Nasi Trenerzy",
-      "data": [{
-          "type": "text_and_image",
-          "style": {
-            "order": 1
-          },
-          "content": {
-            "title": "Maja Bednarczyk",
-            "lead": "",
-            "image": "assets/images/treners/Maja.jpg",
-            "text": "Specjalista metody P-DTR, trener personalny z wieloletnim doświadczeniem, dyplomowany nauczyciel jogi, Od lat jestem zainteresowana holistycznym podejściem do zdrowia fizycznego i psychicznego człowieka. Zaowocowało to ukończeniem kilkudziesięciu kursów i szkoleń z zakresu dietetyki, fizjologii, anatomii, systemów treningowych oraz niekonwencjonalnych metod. Pracę z klientem indywidualnym zaczęłam jako trener personalny w 2013 roku prowadząc w większości osoby z problemami zdrowotnymi. W tym samym czasie rozwijałam się na polu nauczyciela jogi o specjalizacji Hatha Yoga, oraz prowadziłam zajęcia grupowe takie jak Zdrowy Kręgosłup, Pilates i Trening Funkcjonalny. Szczególnie mocno skupiłam się w tym czasie na treningach funkcjonalnych i miałam przyjemność stanąć dwukrotnie na Konwencji Fitness jako Prezenter i Szkoleniowiec w Euro Fitness School z Bielska Białej w 2016 roku obok wielu świetnych Trenerów z Polski i z Europy. Rok później podobną współpracę zaczęłam ze Szkołą Instruktorów Fitness w Krakowie. Szkolenie młodych instruktorów fitness sprawiało mi dużą frajdę i dało wiele ciekawych doświadczeń oraz lekcji – tym razem to ja miałam przekazywać wiedzę, a nie ją brać. Ta zmiana perspektywy dużo mnie nauczyła. Po kilku latach pracy w zawodzie trenera personalnego i instruktora fitness, trafiłam przypadkiem na P-DTR czyli proprioceptywną terapię odruchową. Pierwsze wrażenie jakie zrobiła na mnie ta metoda było piorunujące – istna magia na dodatek z natychmiastowym efektem! Parę miesięcy później siedziałam już jako student na pierwszym module rocznego szkolenia u twórcy metody dr Jose Palomara (Meksyk). Sądzę, że już wtedy przeczuwałam, że P-DTR zmieni moje życie. Z bycia trenerem i promotorem zdrowego jedzenia i aktywnego stylu życia, stałam się Praktykiem metody P-DTR na poziomie zaawansowanym, aktywnie zainteresowaną neurologią, psychosomatyką i kinezjologią. Dawne zainteresowania i praca trenera oraz prowadzącego lekcje grupowe zmieniły kontekst i nabrały nowej jakości. Dzisiaj z ogromną przyjemnością dzielę potencjał metody P-DTR ze swoimi Klientami i samodzielnie rozwijam własne narzędzia w poszukiwaniu priorytetowych dysfunkcji receptorów w układzie nerwowym, pomagając w takich dolegliwościach jak: bóle, ograniczenia ruchowe, stany napięciowe pochodzenia emocjonalnego, problemy psychosomatyczne i inne. Prowadzę treningi personalne mając nowe spojrzenie na ludzkie ciało i jego potrzeby, rozpisuję diety indywidualnie dobrane na podstawie testów żywieniowych i uczę jogi na kilku poziomach trudności. Moja droga nie była najkrótszą z możliwych, ale mam wrażenie, że najlepszą z możliwych. Zapraszam serdeczne!"
-          }
-        },
-        {
-          "type": "text_and_image",
-          "style": {
-            "order": 1
-          },
-          "content": {
-            "title": "Sylwia Lorenc",
-            "lead": "",
-            "image": "assets/images/brak.png",
-            "text": "Absolwentka i doktorantka Akademii Górniczo-Hutniczej w Krakowie. Ze sportem związana od dziecka, w szkole średniej trenująca siatkówkę oraz biegi. Instruktor fitness od 2013 roku, a od 2016 również trener zajęć Pilates. Bierze udział w konwencjach fitness oraz różnego rodzaju szkoleniach i warsztatach, gdzie rozwija swoje umiejętności. Interesuje się zdrowym, świadomym odżywianiem i wpływem pożywienia na samopoczucie i emocje. Głęboko wierzy w myśl, że \" jesteś tym co jesz\". Zapalona podróżniczka, która nie potrafi usiedzieć na miejscu. Miłośniczka włoskiej kawy i dobrego jedzenia. Stale stawia sobie nowe cele, a poprzeczkę podnosi coraz wyżej. Obecnie jej sportowym celem jest przebiec Runmageddon."
-          }
-        }
-      ]
-    },
-    {
-      "name": "price_list",
-      "label": "Cennik",
-      "data": [{
+        }]
+      },
+      {
+        "name": "curiosities",
+        "label": "Ciekawostki",
+        "data": [{
           "type": "table",
           "style": {
             "order": 1
@@ -404,22 +280,55 @@
             "lead": "",
             "image": "assets/images/solarium/solarium.jpg",
             "thead": [{
-              "title": "CENNIK WEJŚĆ JEDNORAZOWYCH",
-              "style": {
-                "colspan": "2"
+                "title": "CECHY",
+                "style": {
+                  "colspan": ""
+                }
+              },
+              {
+                "title": "VATA",
+                "style": {
+                  "colspan": ""
+                }
+              },
+              {
+                "title": "PITTA",
+                "style": {
+                  "colspan": ""
+                }
+              },
+              {
+                "title": "KAPHA",
+                "style": {
+                  "colspan": ""
+                }
               }
-            }],
+            ],
             "columns": [
               [
                 [{
-                    "title": "SOLARIUM"
+                    "title": "Wzrost"
                   },
                   {
-                    "subtitle": "1 minuta"
+                    "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "1,30 zł"
+                    "title": "Wysoki albo niski"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Średni"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Zwykle niski, ale może być wysoki"
                   },
                   {
                     "subtitle": ""
@@ -428,14 +337,28 @@
               ],
               [
                 [{
-                    "title": "SIŁOWNIA"
+                    "title": "Budowa"
                   },
                   {
-                    "subtitle": "Jednorazowy wstęp bez ograniczeń czasowych"
+                    "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "15 zł"
+                    "title": "Szczupła, koścista, mięśnie dobrze widoczne"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Średnia, dobrze rozwinięta muskulatura"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Solidnie, dobrze zbudowany"
                   },
                   {
                     "subtitle": ""
@@ -444,14 +367,28 @@
               ],
               [
                 [{
-                    "title": "BODY SPACE (VACU)"
+                    "title": "Masa ciała"
                   },
                   {
-                    "subtitle": "30 minut treningu w kapsule podciśnieniowej"
+                    "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "20 zł"
+                    "title": "Niska, trudno przybiera na wadze"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Umiarkowana"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Ciężka, trudno traci na wadze"
                   },
                   {
                     "subtitle": ""
@@ -460,14 +397,28 @@
               ],
               [
                 [{
-                    "title": "ZAJĘCIA GRUPOWE"
+                    "title": "Wygląd skóry"
                   },
                   {
-                    "subtitle": "Zajęcia grupowe z instruktorem"
+                    "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "25 zł"
+                    "title": "Matowa, ciemna"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Błyszcząca, rumiana"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Jasna, blada"
                   },
                   {
                     "subtitle": ""
@@ -476,14 +427,28 @@
               ],
               [
                 [{
-                    "title": "OPEN JEDNORAZOWE"
+                    "title": "Oczy"
                   },
                   {
-                    "subtitle": "Wejście 3 w 1 (siłownia, vacu, zajęcia grupowe)"
+                    "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "35 zł"
+                    "title": "Małe, nerwowe"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Przeszywające, skłonność do zapaleń"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Wielkie, białe"
                   },
                   {
                     "subtitle": ""
@@ -492,14 +457,28 @@
               ],
               [
                 [{
-                    "title": "ROZPISANIE DIETY"
+                    "title": "Włosy"
                   },
                   {
-                    "subtitle": "Indywidualnie dopasowanej w oparciu o wywiad oraz ankietę żywieniową"
+                    "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "99 zł"
+                    "title": "Suche, cienkie"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Cienkie, przetłuszczające się"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Grube, falowane, przetłuszczające się"
                   },
                   {
                     "subtitle": ""
@@ -508,14 +487,28 @@
               ],
               [
                 [{
-                    "title": "TRENING PERSONALNY, 1 h."
+                    "title": "Żęby"
                   },
                   {
-                    "subtitle": "Trening jeden na jeden z trenerem personalnym"
+                    "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "70 zł"
+                    "title": "Nierówne, słabo uformowan"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Umiarkowane, krwawiące dziąsła"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Wielkie, dobrze uformowane"
                   },
                   {
                     "subtitle": ""
@@ -524,14 +517,28 @@
               ],
               [
                 [{
-                    "title": "TOUCH FOR HEALTH, 45-60 min."
+                    "title": "Paznokcie"
                   },
                   {
-                    "subtitle": "Metoda w Kinezjologii Stosowanej przywracająca równowagę ogólnoustrojową"
+                    "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "45 zł"
+                    "title": "Szorstkie, łamliwe"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Delikatne, różowe"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Delikatne, białe"
                   },
                   {
                     "subtitle": ""
@@ -540,14 +547,628 @@
               ],
               [
                 [{
-                    "title": "P-DTR"
+                    "title": "Stawy"
                   },
                   {
-                    "subtitle": "Funkcjonalna analiza układu nerwowego za pomocą testów mięśniowych"
+                    "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "80 zł"
+                    "title": "Sztywne, strzelające"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Luźne"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Mocne, stabilne, duże"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ]
+              ],
+              [
+                [{
+                    "title": "Apetyt"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Zmienny, nerwowy, emocjonalny"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Duży, nadmierny"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Umiarkowany, ale stały"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ]
+              ],
+              [
+                [{
+                    "title": "Pragnienie"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Niewielkie"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Duże"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Umiarkowane"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ]
+              ],
+              [
+                [{
+                    "title": "Pocenie się"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Słabe"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "obfite, nie nadmierne"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Trudne do wywołania, ale obfite"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ]
+              ],
+              [
+                [{
+                    "title": "Stolec"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Twardy, suchy"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Miękki, luźny"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Normalny"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ]
+              ],
+              [
+                [{
+                    "title": "Mocz"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Niewiele"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Obfity, żółty"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Umiarkowany, przejrzysty"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ]
+              ],
+              [
+                [{
+                    "title": "Wrażliwość na"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Zimno, suchość, wiatr"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Gorąco, promienie słoneczne, ogień"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Zimno, wilgoć"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ]
+              ],
+              [
+                [{
+                    "title": "System odpornościowy"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Słaby"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Umiarkowany, wrażliwy na ciepło"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Silny"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ]
+              ],
+              [
+                [{
+                    "title": "Skłonność do chorób"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Ból, zapalenia"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Gorączka, wypryski"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Przekrwienie"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ]
+              ],
+              [
+                [{
+                    "title": "Podatność na choroby"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Układ nerwowy"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Krew, wątroba"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Śluz, płuca"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ]
+              ],
+              [
+                [{
+                    "title": "Aktywność życiow"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Wysoka, niespokojna"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Umiarkowana"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Niska, powolne poruszanie się"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ]
+              ],
+              [
+                [{
+                    "title": "Wytrzymałość"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Słaba, szybko się męcz"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Umiarkowana, ale skoncentrowana"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Wysoka"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ]
+              ],
+              [
+                [{
+                    "title": "Sen"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Słaby, przerywany"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Zmienny"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Nadmierny"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ]
+              ],
+              [
+                [{
+                    "title": "Marzenia senne"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Częste, kolorowe"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Umiarkowane, romantyczne"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Nieczęste, przerywana"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ]
+              ],
+              [
+                [{
+                    "title": "Pamięć"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Szybko się uczy, ale łatwo zapomina"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Szybko się uczy i dobrze pamięta"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Wolno się uczy, ale długo pamięta"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ]
+              ],
+              [
+                [{
+                    "title": "Mowa"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Szybka, częsta"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Ostra, tnąca"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Wolna, melodyjna"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ]
+              ],
+              [
+                [{
+                    "title": "Temperament"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Nerwowy, zmienny"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Zmotywowany"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Zadowolony, konserwatywny"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ]
+              ],
+              [
+                [{
+                    "title": "Pozytywne emocje"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Łatwość adaptacji"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Odwaga"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Miłość"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ]
+              ],
+              [
+                [{
+                    "title": "Negatywne emocj"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Strach"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Gniew"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Przywiązanie"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ]
+              ],
+              [
+                [{
+                    "title": "Wiara"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Zmienna"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Silna, zdeterminowana"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Stała, trudna do zmiany"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ]
+              ],
+              [
+                [{
+                    "title": "WYNIK"
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": ""
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": ""
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": ""
                   },
                   {
                     "subtitle": ""
@@ -556,55 +1177,12 @@
               ]
             ]
           }
-
-        },
-        {
-          "type": "text",
-          "content": {
-            "title": "",
-            "lead": "",
-            "text": "Przed skorzystaniem z usług, zapoznaj się z regulaminem Klubu.Zanim przystąpisz do ćwiczeń upewnij się, że aktywność fizyczna nie zagraża Twojemu stanu zdrowia."
-          }
-        },
-        {
-          "type": "table",
-          "style": {
-            "order": 1
-          },
-          "content": {
-            "title": "CENNIK WEJŚĆ JEDNORAZOWYCH",
-            "lead": "",
-            "image": "assets/images/solarium/solarium.jpg",
-            "thead": [{
-              "title": "CENNIK WEJŚĆ JEDNORAZOWYCH",
-              "style": {
-                "colspan": "1"
-              }
-            }],
-            "columns": [
-              [
-                [{
-                    "title": "KARTA STAŁEGO KLIENTA SOLARIUM JUŻ DOSTĘPNA!!"
-                  },
-                  {
-                    "subtitle": "Odbierz kartę w recepcji 7mepoty za 0 zł. Zbieraj minuty opalania, a po uzbieraniu określonej liczby minut na swojej karcie wymień je na jeden z poniższych gratisów:",
-                    "list": [
-                      "75 minut - wybrany krem do opalania GRATIS;",
-                      "100 minut - dodatkowe 15 minut opalania dla Ciebie - GRATIS;",
-                      "500 minut - dodatkowe 150 minut opalania dla Ciebie - GRATIS;"
-                    ]
-                  }
-                ]
-              ]
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "name": "contact",
-      "label": "Kontakt",
-      "data": [{
+        }]
+      },
+      {
+        "name": "contact",
+        "label": "Kontakt",
+        "data": [{
           "type": "contact",
           "style": {
             "order": 2
@@ -616,9 +1194,630 @@
             "image": "",
             "text": ""
           }
-        }
-      ]
-    }
-  ]
-}
+        }]
+      }
+    ]
+  },
+  {
+    "name": "7mepoty",
+    "image": "assets/logo/7me_logo.png",
+    "images_top": [
+      "assets/images/type_classes/slider1.png",
+      "assets/images/type_classes/slider2.png",
+      "assets/images/type_classes/slider3.png"
+    ],
+    "label": "7mepoty Centrum Treningowe",
+    "style": {
+      "colors": {
+        "primary": "#ea00ea",
+        "secondary": "#fac4fa"
+      }
+    },
+    "sections": [{
+        "name": "news",
+        "label": "Aktualności",
+        "data": [{
+            "type": "fb",
+            "float": "left",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "",
+              "lead": "",
+              "text": ""
+            }
+          },
+          {
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "O Nas",
+              "lead": "7me poty",
+              "text": "Nasze centrum treningowe obejmuje strefę kardio, treningi wyszczuplające Body Space, zajęcia grupowe z instruktorami fitness, treningi personalne oraz konsultacje żywieniowe. Znajdziesz u nas wykwalifikowaną kadrę, kameralną i przyjazną atmosferę, estetyczne wnętrza, ale przede wszystkim spełnione oczekiwania oraz lepszą i zdrowszą wersje samej siebie. 7mepoty to miejsce stworzone dla kobiet! 7mepoty to miejsce stworzone dla kobiet Z nami osiągniesz swój cel!"
+            }
+          },
+          {
+            "type": "box",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "data": {
+              "number": 1
+            },
+            "content": {
+              "title": "Nasze Zajęcia:",
+              "lead": "7me poty",
+              "text": "Nasze centrum treningowe obejmuje strefę kardio, treningi wyszczuplające Body Space, zajęcia grupowe z instruktorami fitness, treningi personalne oraz konsultacje żywieniowe. Znajdziesz u nas wykwalifikowaną kadrę, kameralną i przyjazną atmosferę, estetyczne wnętrza, ale przede wszystkim spełnione oczekiwania oraz lepszą i zdrowszą wersje samej siebie. 7mepoty to miejsce stworzone dla kobiet! 7mepoty to miejsce stworzone dla kobiet Z nami osiągniesz swój cel!"
+            }
+          }
+        ]
+      },
+      {
+        "name": "trening",
+        "label": "Trening personalny",
+        "data": [{
+            "type": "text",
+            "content": {
+              "title": "Ile trwa trening personalny?",
+              "lead": "",
+              "text": "Przeważnie około godziny, nie wliczając w to rozgrzewki, którą podopieczny wykonuje sam na siłowni."
+            }
+          },
+          {
+            "type": "text",
+            "content": {
+              "title": "Jak wygląda trening personalny?",
+              "lead": "",
+              "text": "To zależy do kogo jest adresowany. Każdy człowiek jest inny: ma inne cele treningowe, możliwości fizyczne, preferencje, dlatego zgodnie z naszym standardem każdy ma inną organizację treningu. To co łączy wszystkie treningi, to rozgrzewka, którą podopieczny wykonuje sam na siłowni przez ok. 10-15 minut przed umówioną godziną treningu oraz stretching i relaksacja pod koniec treningu. Część główna treningu, która trwa ok. 45 minut dla każdego jest inna."
+            }
+          },
+          {
+            "type": "text",
+            "content": {
+              "title": "Indywidualnie dopasowany program treningowy – co to oznacza?",
+              "lead": "",
+              "text": "Zanim trener zacznie realizować cele treningowe, musi uzyskać szereg informacji o podopiecznym. Wszystko to dzieje się na pierwszym spotkaniu, podczas którego jest przeprowadzany szczegółowy wywiad (wypełnienie ankiety informacyjnej, kwestionariusza medycznego, określenie celów treningowych oraz rozmowa o motywacji), testy kwalifikujące do treningu personalnego oraz pomiary. Przeważnie podczas drugiego spotkania jest omawiany sposób odżywiania podopiecznego. Na podstawie uzyskanych informacji, trener może zająć się przygotowaniem planu treningowego i zaleceń dietetycznych, które korespondują ze stylem życia tego konkretnego podopiecznego."
+            }
+          },
+          {
+            "type": "text",
+            "content": {
+              "title": "Na czym polega wywiad podczas I spotkania z trenerem personalnym?",
+              "lead": "",
+              "text": "Wywiad składa się z kilku części. Po pierwsze jest to zwykła rozmowa zapoznawcza przeprowadzana w życzliwej i przyjaznej atmosferze; rozmowa o stylu życia, planach na przyszłość, marzeniach… Podczas niej, określane są Twoje oczekiwania w stosunku do treningów personalnych oraz poziom Twojej motywacji i gotowości do działania. Po drugie, otrzymujesz ankietę informacyjną oraz kwestionariusz medyczny i zostaniesz poproszona o szczegółowe wypełnienie. Z reguły zajmuje to ok. 20 minut."
+            }
+          },
+          {
+            "type": "text",
+            "content": {
+              "title": "Czy trener personalny wykonuje jakieś pomiary?",
+              "lead": "",
+              "text": "Pomiary obwodowe są wykonywane cykliczne i służą do oceny efektów. Podobnie – BMI oraz WHR. W zależności od celu podopiecznego, formą pomiarów są też testy wytrzymałościowe, testy siłowe i testy gibkościowe powtarzane raz na kilka tygodni."
+            }
+          },
+          {
+            "type": "text",
+            "content": {
+              "title": "Co to są testy kwalifikujące do treningu personalnego?",
+              "lead": "",
+              "text": "Przemyślany i idealnie dopasowany do Ciebie plan treningowy sprawi, że szybko osiągniesz swoje cele bez marnotrawstwa czasu i pieniędzy. Zanim jednak taki plan zostanie przygotowany, musimy dowiedzieć się więcej o stanie Twojego układu ruchu i do tego celu służą nam TESTY KWALIFIKUJĄCE DO TRENINGU PERSONALNEGO. W czasie ich wykonywania, dowiesz się czy trzymasz prawidłową postawę lub jeśli nie – jakie masz wady postawy, gdzie leży problem i nad czym trzeba popracować. Szczegółowej obserwacji poddawany jest kręgosłup, którego mobilność jest badana w odcinkach: szyjnym, piersiowym i lędźwiowym w zgięciu, wyproście skłonach bocznych i skręcie. A na koniec jeszcze test zakresu ruchów w stawach kończyn górnych i dolnych i ocena elastyczności mięśni, a co za tym idzie – zlokalizowanie skróconych lub przykurczonych mięśni."
+            }
+          },
+          {
+            "type": "text",
+            "content": {
+              "title": "Czy mogę nie zaliczyć testów kwalifikujących do treningu personalnego?",
+              "lead": "",
+              "text": "Testy kwalifikujące do treningu personalnego to ocena sprawności układu ruchu, która pozwoli na optymalne dobranie zestawu ćwiczeń. W określonych sytuacjach, kiedy stan zdrowia podopiecznego wymaga pilnej pomocy lekarskiej lub rehabilitacyjnej, trener personalny może odmówić prowadzenia treningów personalnych do czasu poprawy stanu zdrowia. Sytuacje te są jednak bardzo rzadkie."
+            }
+          },
+          {
+            "type": "text",
+            "content": {
+              "title": "Co to jest próbny trening podczas I spotkania?",
+              "lead": "",
+              "text": "Próbny trening jest dopełnieniem pierwszego spotkania. Podczas niego, trener ma szanse zaobserwować mechanikę Twojego ruchu i na podstawie tego oraz wywiadu, testów i pomiarów ułoży plan treningowy dopasowany do Ciebie. Trening próbny to też sprawdzenie w jakich ćwiczeniach czujesz się dobrze, a jakie są Twoją słabą stroną."
+            }
+          },
+          {
+            "type": "text",
+            "content": {
+              "title": "Jak umówić się trening?",
+              "lead": "",
+              "text": "Ustalenie terminu treningu personalnego odbywa się indywidualnie z trenerem. Treningi są prowadzone zarówno w godzinach porannych jak i wieczornych. Aby ustalić termin, skontaktuj się z trenerem telefonicznie dzwoniąc pod numer podany na stronie lub wysyłając sms-a, a odzwonimy do Ciebie z propozycją możliwie najszybciej dostępnego terminu. Jeśli masz pytania dotyczące treningu personalnego, planu treningowego lub planu żywieniowego, możesz bezpłatnie umówić się na konsultacje trenerskie. Odpowiemy na Twoje pytania i chętnie udzielimy rad, które zgodnie z naszą wiedzą i holistycznym podejściem do człowieka pomogą Ci osiągnąć sukces."
+            }
+          }
+        ]
+      },
+      {
+        "name": "gym_cardio",
+        "label": "Strefa siłowa & kardio",
+        "data": [{
+            "type": "text_and_image",
+            "style": {
+              "order": 1
+            },
+            "content": {
+              "title": "Body Space ®",
+              "lead": "",
+              "image": "assets/images/gym/body_space.jpg",
+              "text": "Kardio połączone z treningiem próżniowym – efekt już po 2 tygodniach! Zmiana jakości sylwetki i utrata wagi dają jednak tylko systematycznie treningi. Zacznij od 3 seansów w tygodniu, a kiedy ciało zacznie się widocznie zmieniać, możesz – jeśli chcesz – ćwiczyć tylko 2 razy w tygodniu. Nie zapomnij jednak o siłowni! 30 minut pracy w Body Space to dość mało do osiągnięcia spektakularnych efektów, ale jeśli trening przedłużysz o godzinę lub więcej, masz duże szanse, żeby w ciągu miesiąca lub dwóch stracić 2 rozmiary!"
+            }
+          },
+          {
+            "type": "text_and_image",
+            "style": {
+              "order": 1
+            },
+            "content": {
+              "title": "Rollmasaż",
+              "lead": "",
+              "image": "assets/images/gym/rollingstars.png",
+              "text": "Po każdym treningu polegającym na pracy koncentryczno-ekscentrycznej, mięśniom należy się krótki relaks i rozluźnienie. Rollmasaż doskonale się do tego nadaje! Zacznij od kończyn dolnych (najlepiej od stóp) i powoli przesuwaj się ku górze. W zależności od pozycji, możesz wymasować każdą cześć ciała. Masz do dyspozycji dwie pufy i silne ramy urządzenia, na których możesz się opierać. Masowanie za pomocą tych bambusowych rolek, nie tylko jest przyjemne, ale też niezwykle zdrowe. Rollmasaż korzystnie wpływa na układ mięśniowy, krwionośny, nerwowy, limfatyczny, rozbija i przyspiesza utratę tkanki tłuszczowej, silnie ujędrnia i uelastycznia ciało. Doskonały jako kuracja antycellulitowa! W naszym centrum treningowym znajduję się tabliczka informująca o prawidłowym przebiegu masażu."
+            }
+          },
+          {
+            "type": "text_and_image",
+            "style": {
+              "order": 1
+            },
+            "content": {
+              "title": "Rowerek i bieżnia",
+              "lead": "",
+              "image": "assets/images/gym/bieznia.jpg",
+              "text": "Za utratę tkanki tłuszczowej podczas ćwiczeń odpowiadają tlenowe procesy spalania czyli tzw. aeroby. Już po około 15 minutach jazdy na rowerze lub marszu na bieżni energia zmagazynowana w postaci tkanki tłuszczowej zaczyna być uwalniania. Musisz jednak wiedzieć, że aby wejść w tlenowe procesy spalania nie wolno Ci przekroczyć tętna powyżej 70-75% Twojego HRMax. Jak to obliczyć i co to oznacza? HRMax (heart rate maximum) to Twoje maksymalne dopuszczalne tętno. Żeby je obliczyć odejmij od 220 swój wiek i teraz oblicz 75% z tej wartości. Dla przykładu, HRMax kobiety w wieku 40 lat wynosi 180 uderzeń serca na minutę, a intensywność pracy jej serca nie powinna przekraczać 135 uderzeń na minutę (75%HRMax), jeśli celem naszej przykładowej bohaterki jest utrata wagi.Jeśli masz jakiegokolwiek wątpliwości lub pytania, obsługa 7mych potów (Karmy Zdrowia) z chęcią na nie odpowie."
+            }
+          },
+          {
+            "type": "text_and_image",
+            "style": {
+              "order": 1
+            },
+            "content": {
+              "title": "Orbitrek",
+              "lead": "",
+              "image": "assets/images/gym/orbitek.jpg",
+              "text": "Znane jest też pod nazwą: rower eliptyczny, trenażer eliptyczny i cross-trainer. Można go określić jako 3 w 1, bo łączy zalety steppera, bieżni i roweru stacjonarnego. Dlaczego warto wybrać orbit rek? Orbitrek ma wiele zalet, które warto wykorzystać nie tylko dla spalania kalorii, ale także aby poprawić kondycję. Najważniejsze z nich:",
+              "items": [
+                "w czasie ćwiczeń nogi poruszają się ruchem owalnym, co przypomina ruch podczas biegu narciarskiego,",
+                "znacznie zmniejszone są obciążenia – stawy i ścięgna są dużo mniej obciążone niż podczas tradycyjnego biegania,",
+                "spalanie kalorii jest dużo bardziej efektywne niż na bieżni czy rowerku stacjonarnym. Pracuje całe ciało",
+                "ćwiczenia bez rączek pozwalają wzmocnić mięśnie brzucha,",
+                "wzmacniają się i kształtują mięśnie ud i podudzi,",
+                "można ćwiczyć z różną prędkością, co jest szczególnie ważne dla osób, które dopiero rozpoczynają ćwiczenia."
+              ]
+            }
+          },
+          {
+            "type": "text_and_image",
+            "style": {
+              "order": 1
+            },
+            "content": {
+              "title": "Platforma wibracyjna",
+              "lead": "",
+              "image": "assets/images/gym/platforma_wibracyjna.jpg",
+              "text": "Treningi na platformie wibracyjnej są idealnym połączeniem przyjemnego z pożytecznym. Zalety treningów z wykorzystaniem platform wibracyjnych są takie, że bez większego wysiłku będziemy w stanie kształtować naszą sylwetkę, budować masę mięśniową czy też spalać niepotrzebny tłuszcz. Standardowy trening wykorzystuje około 50% mięśni, a dzięki temu, że wibracyjne drgania podczas ćwiczeń na platformie pobudzają wszystkie mięśnie do mimowolnego skurczu, sprawia to że wszystkie mięśnie zostają zaangażowane w trening."
+            }
+          },
+          {
+            "type": "text_and_image",
+            "style": {
+              "order": 1
+            },
+            "content": {
+              "title": "Suwnica Smitha",
+              "lead": "",
+              "image": "assets/images/gym/suwnica.jpg",
+              "text": "Konstrukcja Suwnicy Smitha wprowadza zupełnie nowe możliwości do treningu siłowego. Dzieje się tak przede wszystkim za sprawą zespolenia mechanizmu przesuwnego z gryfem oraz systemem asekuracji. Zapewnia to stabilność i płynność ruchów użytkownika w obu kierunkach, zarówno w pozycji stojącej, siedzącej, jak i leżącej. Takie rozwiązanie uczyniło suwnicę prawdziwie uniwersalnym urządzeniem, łączącym w sobie zalety ćwiczeń z wolną sztangą i atlasem. Swoboda wyboru pozycji ciała, bezpieczeństwo, pełna kontrola ruchów i komfortu – to efekty tego aliansu. Suwnica uwalnia też użytkownika od konieczności udziału osób trzecich w treningu, aczkolwiek nic nie stoi na przeszkodzie aby ćwiczyć z partnerem. W naszym centrum treningowym znajduję się tabliczka z przykładowymi ćwiczeniami na urządzeniu."
+            }
+          },
+          {
+            "type": "text_and_image",
+            "style": {
+              "order": 1
+            },
+            "content": {
+              "title": "Brama narożna",
+              "lead": "",
+              "image": "assets/images/gym/brama.jpg",
+              "text": "Brama Narożna to wszechstronne urządzenie pozwalające na wykonanie bardzo wielu ćwiczeń na wszystkie partie ciała. W naszym centrum treningowym znajduję się tabliczka z przykładowymi ćwiczeniami na urządzeniu."
+            }
+          }
+        ]
+      },
+      {
+        "name": "types_classes",
+        "label": "Rodzaje zajęć",
+        "data": [{
+            "type": "text_and_image",
+            "style": {
+              "order": 1
+            },
+            "content": {
+              "title": "Interval",
+              "lead": "",
+              "image": "assets/images/type_classes/interval.jpg",
+              "text": "Interwały to treningi metaboliczne, uchodzące za najbardziej skuteczne w procesie odchudzania. Treningi są intensywne. Zawierają zarówno ćwiczenie siłowe oraz eksplozywne (wszelkie wyskoki i biegi), dlatego interwałom towarzyszy dość długa lista przeciwwskazań, niemniej jednak osobom dobrze do nich przygotowanych, taki trening przyniesie najwięcej korzyści i widocznie przyczyni się do zrzucenia zbędnych kilogramów. Przed przystąpieniem do zajęć, wskazana konsultacja z trenerem."
+            }
+          },
+          {
+            "type": "text_and_image",
+            "style": {
+              "order": 1
+            },
+            "content": {
+              "title": "Shape",
+              "lead": "",
+              "image": "assets/images/type_classes/shape.jpg",
+              "text": "Ogólnorozwojowy trening kształtujący ciało – brzuch, uda, pośladki, ramiona"
+            }
+          },
+          {
+            "type": "text_and_image",
+            "style": {
+              "order": 1
+            },
+            "content": {
+              "title": "Deep WORK",
+              "lead": "",
+              "image": "assets/images/type_classes/deep_work.jpg",
+              "text": "Program treningowy inspirowany filozofią i energetyką Dalekiego Wschodu oparty na koncepcji Yin i Yang. Początek lekcji to subtelne pobudzenie mięśni i stawów przypominające Jogę oraz Body Art. Wchodząc jednak dalej w trening, musisz stawić czoło swoim słabościom i pokonać własne ograniczenia. Deep WORK ® to wyjątkowy trening funkcjonalny, który nie tylko ćwiczy ciało, ale też i umysł. Stworzony przez fachowców najwyższej klasy dla osób lubiących wyzwania i otwartych na nowe koncepty."
+            }
+          },
+          {
+            "type": "text_and_image",
+            "style": {
+              "order": 1
+            },
+            "content": {
+              "title": "Functional Flow",
+              "lead": "",
+              "image": "assets/images/type_classes/flow.png",
+              "text": "Functional Flow to zupełnie nowa odsłona treningu funkcjonalnego. Ci którzy oczekują po treningu uczucia przyjemnej wolności i luzu w ciele, nie zawiodą się. Functional Flow zmusza do globalnej pracy mięśnie posturalne, buduje siłę od środka i trenuje zakres ruchu bez przeciążania stawów. To również trening powięzi eliminujący sztywność w ciele, a przy tym bardzo trudno się nie zmęczyć. Spalanie kalorii gwarantowane, a wcale nie trzeba skakać."
+            }
+          },
+          {
+            "type": "text_and_image",
+            "style": {
+              "order": 1
+            },
+            "content": {
+              "title": "Pilates",
+              "lead": "",
+              "image": "assets/images/type_classes/pilates.jpg",
+              "text": "Zajęcia prozdrowotne z nurtu mentalnych. Mają za zadanie aktywację mięśni pilates był stosowany jako forma rehabilitacji, obecnie, jako forma zajęć grupowych, doskonale się sprawdza jako profilaktyka przed dysfunkcjami układu ruchu jak i w niektórych przypadkach leczeniu, np. problemy z nietrzymaniem moczu. Pilates korzystnie wpływa na kondycję kręgosłupa, ruchomość stawów, gibkość czy siłę mięśni (zwłaszcza mięśnie tłoczni brzusznej, prostowniki kręgosłupa oraz mięśnie obręczy biodrowej)."
+            }
+          },
+          {
+            "type": "text_and_image",
+            "style": {
+              "order": 1
+            },
+            "content": {
+              "title": "Zdrowy kręgosłup",
+              "lead": "",
+              "image": "assets/images/type_classes/kregoslup.jpg",
+              "text": "Zajęcia prozdrowotne, łączące w sobie cechy pilatesa oraz fitnessu. Ich głównym zadaniem jest profilaktyka schorzeń kręgosłupa, ale nie należy ich jednak mylić z treningiem pleców. Na zajęciach zdrowy kręgosłup, ćwiczone są wszystkie grupy mięśniowe ciała, ponieważ każda jedna dysfunkcja danej części ciała (np. stopy) może negatywnie oddziaływać na stan kręgosłupa. Zestaw ćwiczeń obejmuje: wzmocnienie, stabilizacje, mobilizację oraz gibkość. Zajęcia odbywają się głównie z pomocą przyborów takich jak: piłki gimnastyczne, taśmy elastyczne, hantle, dyski powietrzne."
+            }
+          },
+          {
+            "type": "text_and_image",
+            "style": {
+              "order": 1
+            },
+            "content": {
+              "title": "Joga",
+              "lead": "",
+              "image": "assets/images/type_classes/joga.jpg",
+              "text": "Joga to najstarsza gimnastyka świata. Jest praktykowana od wielu tysięcy lat, a jej najważniejszym źródłem są spisane między 3 a 6 wiekiem przed naszą erą Jogasutry autorstwa Patańdżalego, ajurwedyjskiego lekarza. Joga może być rozumiana na dwa sposoby. Może być postrzegana jako system światopoglądowy, filozofię czy nawet religię oraz jako aktywność ruchowa. W cywilizacji zachodniej, dużo częściej jogę kojarzy się z praktyką asan. Również i w naszym klubie, joga jest wolna od światopoglądu i jest nauczana tylko i wyłącznie jako aktywność fizyczna. Niezaprzeczalnym faktem jest jednak jej znamienny wpływ na jasność myślenia, uspokojenie umysłu i zharmonizowanie pracy narządów wewnętrznych. Praktyka asan – czyli pozycji jogi - ma charakter terapeutyczny. Ich wykonywanie przynosi ulgę narządowi ruchu i znacząco wpływa na witalność regularnie ćwiczącego. Spośród najbardziej znanych korzyści praktykowania jogi, należy wymienić:",
+              "items": [
+                "spowolnienie procesów starzenia,",
+                "profilaktyka chorób kręgosłupa,",
+                "lepsze radzenie sobie ze stresem,",
+                "spokojny sen,",
+                "uspokojenie układu hormonalnego",
+                "wyższa tolerancja na obciążenie intelektualne."
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "solarium",
+        "label": "Solarium",
+        "data": [{
+            "type": "text",
+            "content": {
+              "title": "Nasze solarium",
+              "lead": "",
+              "text": "Tuba Opal Fitness – jest wyposażone w lampy o wysokim współczynniku opalania. Przed każdym seansem skonsultuj się z obsługą, która pomoże dobrać Ci odpowiednią ilość minut i doradzi jaki krem do opalania w solarium będzie dla Ciebie najlepszy. Dbałość o dobrej jakości lampy gwarantuje szybką i głęboką opaleniznę w kolorze słonecznego brązu, pamiętaj jednak, żeby proces opalania w solarium zacząć ostrożnie i dać czas swojej skórze na przyzwyczajenie się do nowego światła. Pomocą będą dla naszych klientów specjalistyczne kremy chroniące przed wysuszeniem i zaopatrujące w dużą dawkę witamin i antyoksydantów, a dla klientów zaawansowanych – specjalne bronzery, które w różnym stopniu przyspieszają opalanie."
+            }
+          },
+          {
+            "type": "text_and_image",
+            "style": {
+              "order": 1
+            },
+            "content": {
+              "title": "Czy solarium jest zdrowe?",
+              "lead": "",
+              "image": "assets/images/solarium/opalo.jpg",
+              "text": "Najlepszą odpowiedzią na to pytanie, będą z życia wzięte Wasze przykłady. Całkiem sporo klientów trafiło do nas po zaleceniu… lekarza. Okazuje się bowiem, że szybkie i mocne dawki ciepła są bardzo pomocne w terapiach związanych ze stawami. Również i dermatolodzy wysyłali swoich pacjentów do solarium, po to, żeby wysuszyć niedoskonałości skórne. I wreszcie, solarium zapobiega niedoborom witaminy D uznawanej za witaminę życia. Jak widzicie, solarium też może być lekarstwem. W odpowiedniej dawce. W nadmiarze, jak doskonale wiecie, szkodzi wszystko."
+            }
+          },
+          {
+            "type": "text",
+            "content": {
+              "title": "",
+              "lead": "",
+              "text": "Zakaz udostępniania solarium osobom, które nie ukończyły 18. roku życia (art. 5 ust. 1 ustawy z dnia 15 września 2017 r. o ochronie zdrowia przed następstwami korzystania z solarium)."
+            }
+          }
+        ]
+      },
+      {
+        "name": "treners",
+        "label": "Nasi Trenerzy",
+        "data": [{
+            "type": "text_and_image",
+            "style": {
+              "order": 1
+            },
+            "content": {
+              "title": "Maja Bednarczyk",
+              "lead": "",
+              "image": "assets/images/treners/Maja.jpg",
+              "text": "Specjalista metody P-DTR, trener personalny z wieloletnim doświadczeniem, dyplomowany nauczyciel jogi, Od lat jestem zainteresowana holistycznym podejściem do zdrowia fizycznego i psychicznego człowieka. Zaowocowało to ukończeniem kilkudziesięciu kursów i szkoleń z zakresu dietetyki, fizjologii, anatomii, systemów treningowych oraz niekonwencjonalnych metod. Pracę z klientem indywidualnym zaczęłam jako trener personalny w 2013 roku prowadząc w większości osoby z problemami zdrowotnymi. W tym samym czasie rozwijałam się na polu nauczyciela jogi o specjalizacji Hatha Yoga, oraz prowadziłam zajęcia grupowe takie jak Zdrowy Kręgosłup, Pilates i Trening Funkcjonalny. Szczególnie mocno skupiłam się w tym czasie na treningach funkcjonalnych i miałam przyjemność stanąć dwukrotnie na Konwencji Fitness jako Prezenter i Szkoleniowiec w Euro Fitness School z Bielska Białej w 2016 roku obok wielu świetnych Trenerów z Polski i z Europy. Rok później podobną współpracę zaczęłam ze Szkołą Instruktorów Fitness w Krakowie. Szkolenie młodych instruktorów fitness sprawiało mi dużą frajdę i dało wiele ciekawych doświadczeń oraz lekcji – tym razem to ja miałam przekazywać wiedzę, a nie ją brać. Ta zmiana perspektywy dużo mnie nauczyła. Po kilku latach pracy w zawodzie trenera personalnego i instruktora fitness, trafiłam przypadkiem na P-DTR czyli proprioceptywną terapię odruchową. Pierwsze wrażenie jakie zrobiła na mnie ta metoda było piorunujące – istna magia na dodatek z natychmiastowym efektem! Parę miesięcy później siedziałam już jako student na pierwszym module rocznego szkolenia u twórcy metody dr Jose Palomara (Meksyk). Sądzę, że już wtedy przeczuwałam, że P-DTR zmieni moje życie. Z bycia trenerem i promotorem zdrowego jedzenia i aktywnego stylu życia, stałam się Praktykiem metody P-DTR na poziomie zaawansowanym, aktywnie zainteresowaną neurologią, psychosomatyką i kinezjologią. Dawne zainteresowania i praca trenera oraz prowadzącego lekcje grupowe zmieniły kontekst i nabrały nowej jakości. Dzisiaj z ogromną przyjemnością dzielę potencjał metody P-DTR ze swoimi Klientami i samodzielnie rozwijam własne narzędzia w poszukiwaniu priorytetowych dysfunkcji receptorów w układzie nerwowym, pomagając w takich dolegliwościach jak: bóle, ograniczenia ruchowe, stany napięciowe pochodzenia emocjonalnego, problemy psychosomatyczne i inne. Prowadzę treningi personalne mając nowe spojrzenie na ludzkie ciało i jego potrzeby, rozpisuję diety indywidualnie dobrane na podstawie testów żywieniowych i uczę jogi na kilku poziomach trudności. Moja droga nie była najkrótszą z możliwych, ale mam wrażenie, że najlepszą z możliwych. Zapraszam serdeczne!"
+            }
+          },
+          {
+            "type": "text_and_image",
+            "style": {
+              "order": 1
+            },
+            "content": {
+              "title": "Sylwia Lorenc",
+              "lead": "",
+              "image": "assets/images/brak.png",
+              "text": "Absolwentka i doktorantka Akademii Górniczo-Hutniczej w Krakowie. Ze sportem związana od dziecka, w szkole średniej trenująca siatkówkę oraz biegi. Instruktor fitness od 2013 roku, a od 2016 również trener zajęć Pilates. Bierze udział w konwencjach fitness oraz różnego rodzaju szkoleniach i warsztatach, gdzie rozwija swoje umiejętności. Interesuje się zdrowym, świadomym odżywianiem i wpływem pożywienia na samopoczucie i emocje. Głęboko wierzy w myśl, że \" jesteś tym co jesz\". Zapalona podróżniczka, która nie potrafi usiedzieć na miejscu. Miłośniczka włoskiej kawy i dobrego jedzenia. Stale stawia sobie nowe cele, a poprzeczkę podnosi coraz wyżej. Obecnie jej sportowym celem jest przebiec Runmageddon."
+            }
+          }
+        ]
+      },
+      {
+        "name": "price_list",
+        "label": "Cennik",
+        "data": [{
+            "type": "table",
+            "style": {
+              "order": 1
+            },
+            "content": {
+              "title": "CENNIK WEJŚĆ JEDNORAZOWYCH",
+              "lead": "",
+              "image": "assets/images/solarium/solarium.jpg",
+              "thead": [{
+                "title": "CENNIK WEJŚĆ JEDNORAZOWYCH",
+                "style": {
+                  "colspan": "2"
+                }
+              }],
+              "columns": [
+                [
+                  [{
+                      "title": "SOLARIUM"
+                    },
+                    {
+                      "subtitle": "1 minuta"
+                    }
+                  ],
+                  [{
+                      "title": "1,30 zł"
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "SIŁOWNIA"
+                    },
+                    {
+                      "subtitle": "Jednorazowy wstęp bez ograniczeń czasowych"
+                    }
+                  ],
+                  [{
+                      "title": "15 zł"
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "BODY SPACE (VACU)"
+                    },
+                    {
+                      "subtitle": "30 minut treningu w kapsule podciśnieniowej"
+                    }
+                  ],
+                  [{
+                      "title": "20 zł"
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "ZAJĘCIA GRUPOWE"
+                    },
+                    {
+                      "subtitle": "Zajęcia grupowe z instruktorem"
+                    }
+                  ],
+                  [{
+                      "title": "25 zł"
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "OPEN JEDNORAZOWE"
+                    },
+                    {
+                      "subtitle": "Wejście 3 w 1 (siłownia, vacu, zajęcia grupowe)"
+                    }
+                  ],
+                  [{
+                      "title": "35 zł"
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "ROZPISANIE DIETY"
+                    },
+                    {
+                      "subtitle": "Indywidualnie dopasowanej w oparciu o wywiad oraz ankietę żywieniową"
+                    }
+                  ],
+                  [{
+                      "title": "99 zł"
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "TRENING PERSONALNY, 1 h."
+                    },
+                    {
+                      "subtitle": "Trening jeden na jeden z trenerem personalnym"
+                    }
+                  ],
+                  [{
+                      "title": "70 zł"
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "TOUCH FOR HEALTH, 45-60 min."
+                    },
+                    {
+                      "subtitle": "Metoda w Kinezjologii Stosowanej przywracająca równowagę ogólnoustrojową"
+                    }
+                  ],
+                  [{
+                      "title": "45 zł"
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "P-DTR"
+                    },
+                    {
+                      "subtitle": "Funkcjonalna analiza układu nerwowego za pomocą testów mięśniowych"
+                    }
+                  ],
+                  [{
+                      "title": "80 zł"
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ]
+              ]
+            }
+
+          },
+          {
+            "type": "text",
+            "content": {
+              "title": "",
+              "lead": "",
+              "text": "Przed skorzystaniem z usług, zapoznaj się z regulaminem Klubu.Zanim przystąpisz do ćwiczeń upewnij się, że aktywność fizyczna nie zagraża Twojemu stanu zdrowia."
+            }
+          },
+          {
+            "type": "table",
+            "style": {
+              "order": 1
+            },
+            "content": {
+              "title": "CENNIK WEJŚĆ JEDNORAZOWYCH",
+              "lead": "",
+              "image": "assets/images/solarium/solarium.jpg",
+              "thead": [{
+                "title": "CENNIK WEJŚĆ JEDNORAZOWYCH",
+                "style": {
+                  "colspan": ""
+                }
+              }],
+              "columns": [
+                [
+                  [{
+                      "title": "KARTA STAŁEGO KLIENTA SOLARIUM JUŻ DOSTĘPNA!!"
+                    },
+                    {
+                      "subtitle": "Odbierz kartę w recepcji 7mepoty za 0 zł. Zbieraj minuty opalania, a po uzbieraniu określonej liczby minut na swojej karcie wymień je na jeden z poniższych gratisów:",
+                      "list": [
+                        "75 minut - wybrany krem do opalania GRATIS;",
+                        "100 minut - dodatkowe 15 minut opalania dla Ciebie - GRATIS;",
+                        "500 minut - dodatkowe 150 minut opalania dla Ciebie - GRATIS;"
+                      ]
+                    }
+                  ]
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "contact",
+        "label": "Kontakt",
+        "data": [{
+          "type": "contact",
+          "style": {
+            "order": 2
+          },
+          "content": {
+            "title": "Napisz Do Nas",
+            "email": "",
+            "lead": "",
+            "image": "",
+            "text": ""
+          }
+        }]
+      }
+    ]
+  }
 ]

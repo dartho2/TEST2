@@ -10,13 +10,16 @@ export class BoxComponent implements OnInit {
   @Input()
   data;
   typeClasses;
+  section
   service = this.portals;
-  constructor(public portals: PortalComponent) {}
-
-  
-  portalFilter(section) {
-    this.typeClasses = section.find(section => section.name === 'types_classes');
+  constructor(public portals: PortalComponent) {
+    
   }
+  portalFilter(portal) {
+    this.typeClasses = portal.sections.find(section => section.name === 'types_classes');
+     }
+  
+ 
   ngOnInit() {
     
     

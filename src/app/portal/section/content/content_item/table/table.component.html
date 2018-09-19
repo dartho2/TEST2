@@ -1,11 +1,13 @@
 <div class="row justify-content-md-center">
   <div class="col-md-auto">
     <table>
-      <thead *ngFor="let thead of data.content.thead; index as a">
-        <th [attr.colspan]="thead.style.colspan">{{thead.title}}</th>
+      <thead>
+        <th scope="col" *ngFor="let thead of data.content.thead" [attr.colspan]="thead.style.colspan">{{thead.title}}</th>
+       
       </thead>
+    
       <tr *ngFor="let tables of data.content.columns; index as i">
-        <td *ngFor="let table of data.content.columns[i]">
+        <td class="center-table" *ngFor="let table of data.content.columns[i]; index as c" [attr.data-label]="table[0].title ? data.content.thead[c] ? data.content.thead[c].title : '' : ''">
           {{table[0].title}} <span *ngIf="table[1].subtitle"><br>{{table[1].subtitle}}</span>
           <ul *ngIf="table[1].list">
             <li *ngFor="let item of table[1].list">{{item}}</li>
