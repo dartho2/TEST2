@@ -308,58 +308,32 @@
             "columns": [
               [
                 [{
-                    "title": "Wzrost"
+                    "title": "Wzrost",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Wysoki albo niski"
+                    "title": "Wysoki albo niski",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Średni"
+                    "title": "Średni",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Zwykle niski, ale może być wysoki"
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "Budowa"
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Szczupła, koścista, mięśnie dobrze widoczne"
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Średnia, dobrze rozwinięta muskulatura"
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Solidnie, dobrze zbudowany"
+                    "title": "Zwykle niski, ale może być wysoki",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
@@ -368,58 +342,32 @@
               ],
               [
                 [{
-                    "title": "Masa ciała"
+                    "title": "Budowa",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Niska, trudno przybiera na wadze"
+                    "title": "Szczupła, koścista, mięśnie dobrze widoczne",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Umiarkowana"
+                    "title": "Średnia, dobrze rozwinięta muskulatura",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Ciężka, trudno traci na wadze"
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "Wygląd skóry"
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Matowa, ciemna"
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Błyszcząca, rumiana"
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Jasna, blada"
+                    "title": "Solidnie, dobrze zbudowany",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
@@ -428,58 +376,32 @@
               ],
               [
                 [{
-                    "title": "Oczy"
+                    "title": "Masa ciała",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Małe, nerwowe"
+                    "title": "Niska, trudno przybiera na wadze",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Przeszywające, skłonność do zapaleń"
+                    "title": "Umiarkowana",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Wielkie, białe"
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "Włosy"
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Suche, cienkie"
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Cienkie, przetłuszczające się"
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Grube, falowane, przetłuszczające się"
+                    "title": "Ciężka, trudno traci na wadze",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
@@ -488,58 +410,32 @@
               ],
               [
                 [{
-                    "title": "Żęby"
+                    "title": "Wygląd skóry",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Nierówne, słabo uformowan"
+                    "title": "Matowa, ciemna",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Umiarkowane, krwawiące dziąsła"
+                    "title": "Błyszcząca, rumiana",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Wielkie, dobrze uformowane"
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "Paznokcie"
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Szorstkie, łamliwe"
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Delikatne, różowe"
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Delikatne, białe"
+                    "title": "Jasna, blada",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
@@ -548,28 +444,32 @@
               ],
               [
                 [{
-                    "title": "Stawy"
+                    "title": "Oczy",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Sztywne, strzelające"
+                    "title": "Małe, nerwowe",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Luźne"
+                    "title": "Przeszywające, skłonność do zapaleń",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Mocne, stabilne, duże"
+                    "title": "Wielkie, białe",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
@@ -578,28 +478,32 @@
               ],
               [
                 [{
-                    "title": "Apetyt"
+                    "title": "Włosy",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Zmienny, nerwowy, emocjonalny"
+                    "title": "Suche, cienkie",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Duży, nadmierny"
+                    "title": "Cienkie, przetłuszczające się",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Umiarkowany, ale stały"
+                    "title": "Grube, falowane, przetłuszczające się",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
@@ -608,28 +512,32 @@
               ],
               [
                 [{
-                    "title": "Pragnienie"
+                    "title": "Żęby",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Niewielkie"
+                    "title": "Nierówne, słabo uformowan",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Duże"
+                    "title": "Umiarkowane, krwawiące dziąsła",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Umiarkowane"
+                    "title": "Wielkie, dobrze uformowane",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
@@ -638,28 +546,32 @@
               ],
               [
                 [{
-                    "title": "Pocenie się"
+                    "title": "Paznokcie",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Słabe"
+                    "title": "Szorstkie, łamliwe",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "obfite, nie nadmierne"
+                    "title": "Delikatne, różowe",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Trudne do wywołania, ale obfite"
+                    "title": "Delikatne, białe",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
@@ -668,28 +580,32 @@
               ],
               [
                 [{
-                    "title": "Stolec"
+                    "title": "Stawy",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Twardy, suchy"
+                    "title": "Sztywne, strzelające",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Miękki, luźny"
+                    "title": "Luźne",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Normalny"
+                    "title": "Mocne, stabilne, duże",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
@@ -698,28 +614,32 @@
               ],
               [
                 [{
-                    "title": "Mocz"
+                    "title": "Apetyt",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Niewiele"
+                    "title": "Zmienny, nerwowy, emocjonalny",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Obfity, żółty"
+                    "title": "Duży, nadmierny",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Umiarkowany, przejrzysty"
+                    "title": "Umiarkowany, ale stały",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
@@ -728,28 +648,32 @@
               ],
               [
                 [{
-                    "title": "Wrażliwość na"
+                    "title": "Pragnienie",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Zimno, suchość, wiatr"
+                    "title": "Niewielkie",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Gorąco, promienie słoneczne, ogień"
+                    "title": "Duże",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Zimno, wilgoć"
+                    "title": "Umiarkowane",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
@@ -758,28 +682,32 @@
               ],
               [
                 [{
-                    "title": "System odpornościowy"
+                    "title": "Pocenie się",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Słaby"
+                    "title": "Słabe",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Umiarkowany, wrażliwy na ciepło"
+                    "title": "obfite, nie nadmierne",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Silny"
+                    "title": "Trudne do wywołania, ale obfite",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
@@ -788,28 +716,32 @@
               ],
               [
                 [{
-                    "title": "Skłonność do chorób"
+                    "title": "Stolec",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Ból, zapalenia"
+                    "title": "Twardy, suchy",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Gorączka, wypryski"
+                    "title": "Miękki, luźny",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Przekrwienie"
+                    "title": "Normalny",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
@@ -818,28 +750,32 @@
               ],
               [
                 [{
-                    "title": "Podatność na choroby"
+                    "title": "Mocz",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Układ nerwowy"
+                    "title": "Niewiele",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Krew, wątroba"
+                    "title": "Obfity, żółty",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Śluz, płuca"
+                    "title": "Umiarkowany, przejrzysty",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
@@ -848,28 +784,32 @@
               ],
               [
                 [{
-                    "title": "Aktywność życiow"
+                    "title": "Wrażliwość na",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Wysoka, niespokojna"
+                    "title": "Zimno, suchość, wiatr",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Umiarkowana"
+                    "title": "Gorąco, promienie słoneczne, ogień",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Niska, powolne poruszanie się"
+                    "title": "Zimno, wilgoć",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
@@ -878,28 +818,32 @@
               ],
               [
                 [{
-                    "title": "Wytrzymałość"
+                    "title": "System odpornościowy",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Słaba, szybko się męcz"
+                    "title": "Słaby",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Umiarkowana, ale skoncentrowana"
+                    "title": "Umiarkowany, wrażliwy na ciepło",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Wysoka"
+                    "title": "Silny",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
@@ -908,28 +852,32 @@
               ],
               [
                 [{
-                    "title": "Sen"
+                    "title": "Skłonność do chorób",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Słaby, przerywany"
+                    "title": "Ból, zapalenia",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Zmienny"
+                    "title": "Gorączka, wypryski",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Nadmierny"
+                    "title": "Przekrwienie",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
@@ -938,28 +886,32 @@
               ],
               [
                 [{
-                    "title": "Marzenia senne"
+                    "title": "Podatność na choroby",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Częste, kolorowe"
+                    "title": "Układ nerwowy",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Umiarkowane, romantyczne"
+                    "title": "Krew, wątroba",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Nieczęste, przerywana"
+                    "title": "Śluz, płuca",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
@@ -968,28 +920,32 @@
               ],
               [
                 [{
-                    "title": "Pamięć"
+                    "title": "Aktywność życiow",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Szybko się uczy, ale łatwo zapomina"
+                    "title": "Wysoka, niespokojna",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Szybko się uczy i dobrze pamięta"
+                    "title": "Umiarkowana",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Wolno się uczy, ale długo pamięta"
+                    "title": "Niska, powolne poruszanie się",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
@@ -998,28 +954,32 @@
               ],
               [
                 [{
-                    "title": "Mowa"
+                    "title": "Wytrzymałość",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Szybka, częsta"
+                    "title": "Słaba, szybko się męcz",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Ostra, tnąca"
+                    "title": "Umiarkowana, ale skoncentrowana",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Wolna, melodyjna"
+                    "title": "Wysoka",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
@@ -1028,28 +988,32 @@
               ],
               [
                 [{
-                    "title": "Temperament"
+                    "title": "Sen",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Nerwowy, zmienny"
+                    "title": "Słaby, przerywany",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Zmotywowany"
+                    "title": "Zmienny",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Zadowolony, konserwatywny"
+                    "title": "Nadmierny",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
@@ -1058,28 +1022,32 @@
               ],
               [
                 [{
-                    "title": "Pozytywne emocje"
+                    "title": "Marzenia senne",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Łatwość adaptacji"
+                    "title": "Częste, kolorowe",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Odwaga"
+                    "title": "Umiarkowane, romantyczne",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Miłość"
+                    "title": "Nieczęste, przerywana",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
@@ -1088,28 +1056,32 @@
               ],
               [
                 [{
-                    "title": "Negatywne emocj"
+                    "title": "Pamięć",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Strach"
+                    "title": "Szybko się uczy, ale łatwo zapomina",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Gniew"
+                    "title": "Szybko się uczy i dobrze pamięta",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Przywiązanie"
+                    "title": "Wolno się uczy, ale długo pamięta",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
@@ -1118,28 +1090,32 @@
               ],
               [
                 [{
-                    "title": "Wiara"
+                    "title": "Mowa",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Zmienna"
+                    "title": "Szybka, częsta",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Silna, zdeterminowana"
+                    "title": "Ostra, tnąca",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
                   }
                 ],
                 [{
-                    "title": "Stała, trudna do zmiany"
+                    "title": "Wolna, melodyjna",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""
@@ -1148,7 +1124,144 @@
               ],
               [
                 [{
-                    "title": "WYNIK"
+                    "title": "Temperament",
+                    "dialog": 0
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Nerwowy, zmienny",
+                    "dialog": 0
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Zmotywowany",
+                    "dialog": 0
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Zadowolony, konserwatywny",
+                    "dialog": 0
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ]
+              ],
+              [
+                [{
+                    "title": "Pozytywne emocje",
+                    "dialog": 0
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Łatwość adaptacji",
+                    "dialog": 0
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Odwaga",
+                    "dialog": 0
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Miłość",
+                    "dialog": 0
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ]
+              ],
+              [
+                [{
+                    "title": "Negatywne emocj",
+                    "dialog": 0
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Strach",
+                    "dialog": 0
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Gniew",
+                    "dialog": 0
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Przywiązanie",
+                    "dialog": 0
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ]
+              ],
+              [
+                [{
+                    "title": "Wiara",
+                    "dialog": 0
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Zmienna",
+                    "dialog": 0
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Silna, zdeterminowana",
+                    "dialog": 0
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Stała, trudna do zmiany",
+                    "dialog": 0
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ]
+              ],
+              [
+                [{
+                    "title": "WYNIK",
+                    "dialog": 0
                   },
                   {
                     "subtitle": ""

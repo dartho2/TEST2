@@ -542,3 +542,15 @@ table th {
     max-width: none;
 }
 }
+.cdk-global-overlay-wrapper {
+  display: flex;
+  position: fixed;
+  z-index: 1040;
+}
+.cdk-overlay-container {
+  z-index: 1040;
+}
+.cdk-overlay-backdrop {
+  position: fixed;
+  z-index: 1040;
+}
