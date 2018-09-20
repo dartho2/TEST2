@@ -6,9 +6,9 @@
         <div class="col-sm-4" style="padding: 5px">
           <br>
           <div style="position: relative">
-            <a routerLink="/{{service.portal.name}}/{{typeClasses.name}}" class=""> <img style="position: relative; width: 100%; height: 200px" src="{{classes.content.image}}"
+              <a style="cursor:pointer;" (click)="openDialog(classes.content.title)"><img style="position: relative; width: 100%; height: 200px" src="{{classes.content.image}}"
                 class="img-responsive box-image">
-            </a>
+              </a>  
             <p class="fit-p-on-image">{{classes.content.title}}
             </p>
           </div>

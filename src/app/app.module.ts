@@ -23,7 +23,7 @@ import {FbComponent} from '../app/portal/section/content/content_item/fb/fb.comp
 import {FooterComponent} from '../app/portal/section/content/content_item/footer/footer.component';
 import {HeaderComponent} from './portal/section/content/content_item/header/header.component';
 import {ContactComponent} from './portal/section/content/content_item/contact/contact.component';
-import {BoxComponent} from './portal/section/content/content_item/box/box.component';
+import {BoxComponent,DialogContentBoxDialog} from './portal/section/content/content_item/box/box.component';
 import {MatDialogModule} from '@angular/material/dialog';
 
 @NgModule({
@@ -43,7 +43,8 @@ import {MatDialogModule} from '@angular/material/dialog';
     HeaderComponent,
     ContactComponent,
     BoxComponent,
-    DialogContentExampleDialog
+    DialogContentExampleDialog,
+    DialogContentBoxDialog
   ],
   imports: [
     BrowserModule,
@@ -59,7 +60,8 @@ import {MatDialogModule} from '@angular/material/dialog';
     FacebookModule.forRoot()
   ],
   entryComponents: [
-    DialogContentExampleDialog
+    DialogContentExampleDialog,
+    DialogContentBoxDialog
   ],
   providers: [],
   bootstrap: [AppComponent]

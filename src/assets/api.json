@@ -1786,7 +1786,7 @@
             },
             "content": {
               "title": "Functional Flow",
-              "description": ["Function Flow"],
+              "description": ["Functional Flow"],
               "lead": "",
               "image": "assets/images/type_classes/flow.png",
               "text": "Functional Flow to zupełnie nowa odsłona treningu funkcjonalnego. Ci którzy oczekują po treningu uczucia przyjemnej wolności i luzu w ciele, nie zawiodą się. Functional Flow zmusza do globalnej pracy mięśnie posturalne, buduje siłę od środka i trenuje zakres ruchu bez przeciążania stawów. To również trening powięzi eliminujący sztywność w ciele, a przy tym bardzo trudno się nie zmęczyć. Spalanie kalorii gwarantowane, a wcale nie trzeba skakać."
@@ -2180,7 +2180,7 @@
                   }
                 ],
                 [{
-                    "title": "Function Flow",
+                    "title": "Functional Flow",
                     "color": "#eef94d",
                     "dialog": 1
                   },
