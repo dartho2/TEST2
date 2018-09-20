@@ -1,5 +1,5 @@
-<!-- <h2 class="featurette-heading">{{data.content.title}}</h2>
-<div class="asdasdas" *ngIf="!portalFilter(portals.portal)">
+<h2 class="featurette-heading">{{data.content.title}}</h2>
+<div class="box-category" *ngIf="!portalFilter(portals.portal)">
   <div *ngFor="let classes of typeClasses.data">
     <div class="col-lg-offset-2 col-lg-12">
       <div class="row" style="display:block">
@@ -7,20 +7,20 @@
           <br>
           <div style="position: relative">
             <a routerLink="/{{service.portal.name}}/{{typeClasses.name}}" class=""> <img style="position: relative; width: 100%; height: 200px" src="{{classes.content.image}}"
-                class="img-responsive">
+                class="img-responsive box-image">
             </a>
             <p class="fit-p-on-image">{{classes.content.title}}
             </p>
           </div>
           <br>
           <div class="simple-box">
-            <span class="sb-title">{{classes.content.title}}</span>
+            <!-- <span class="sb-title">{{classes.content.title}}</span>
             <span class="pull-right">
               <a href="" class="btn btn-sm btn-default btn-pink">więcej &gt;</a>
-            </span>
+            </span> -->
           </div>
         </div>
       </div>
     </div>
   </div>
-   -->
+  

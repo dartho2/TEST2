@@ -31,7 +31,7 @@ body {
 }
 
 .lead {
-  font-size: 14px;
+  font-size: 17px;
 }
 
 .card {
@@ -67,7 +67,7 @@ a {
 }
 
 h2 {
-  font-family: 'robotlight','Beaufort-Bold'
+  font-family: 'robotlight', 'Beaufort-Bold'
 }
 
 a#dropdown01 {
@@ -424,7 +424,6 @@ ul.navbar-nav.mr-auto {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
   line-height: 1.25;
 }
 
@@ -515,42 +514,51 @@ table th {
     text-align: center;
     display: block;
     float: none;
-    color:#a5a5a5;
+    color: #a5a5a5;
     /* clear: both; */
     text-transform: uppercase;
   }
+
   ul.ng-star-inserted {
     text-align: justify;
     font-family: 'robotlight';
     font-weight: normal;
     font-size: 14px;
     font-style: normal;
-}
+  }
+
   table {
     border: 0;
     margin: 0 auto;
     width: 100%;
-}
+  }
+
   td.center-table {
     text-align: center;
   }
 }
-@media (min-width: 768px){
-.col-md-auto {
+
+@media (min-width: 768px) {
+  .col-md-auto {
     flex: unset;
     width: auto;
     max-width: none;
+  }
 }
-}
+
 .cdk-global-overlay-wrapper {
   display: flex;
   position: fixed;
   z-index: 1040;
 }
-.cdk-overlay-container {
-  z-index: 1040;
-}
-.cdk-overlay-backdrop {
-  position: fixed;
-  z-index: 1040;
+
+@media (max-width: 768px) {
+  .cdk-overlay-container {
+    z-index: 1040;
+  }
+
+  .cdk-overlay-backdrop {
+    position: fixed;
+    z-index: 1040;
+  }
 }

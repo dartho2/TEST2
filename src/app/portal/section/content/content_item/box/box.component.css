@@ -14,3 +14,10 @@ p.fit-p-on-image {
   position: absolute;
   bottom: -10px;
 }
+
+.box-image:hover {
+  box-shadow: 2px 2px 5px black;
+  padding-right: 1px;
+  background-color: black;
+  padding-bottom: 1px;
+}

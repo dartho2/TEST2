@@ -71,4 +71,5 @@ th {
 button.btn.btn-light {
     height: 100%;
     width: 100%;
+    font-weight: 600;
 }

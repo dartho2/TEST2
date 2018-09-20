@@ -1990,6 +1990,7 @@
                 ],
                 [{
                     "title": "Function Flow",
+                    "color": "#eef94d",
                     "dialog": 1
                   },
                   {
@@ -1998,6 +1999,7 @@
                 ],
                 [{
                     "title": "Interval",
+                    "color": "#6849e0",
                     "dialog": 1
                   },
                   {
@@ -2006,6 +2008,7 @@
                 ],
                 [{
                     "title": "Pilates & Zdrowy Kręgosłup",
+                    "color": "#17bd24",
                     "dialog": 1
                   },
                   {
@@ -2014,6 +2017,7 @@
                 ],
                 [{
                     "title": "Joga od podstaw",
+                    "color": "#de62d5",
                     "dialog": 1
                   },
                   {
@@ -2022,6 +2026,7 @@
                 ],
                 [{
                     "title": "Deep Work",
+                    "color": "#e65f5f",
                     "dialog": 1
                   },
                   {
@@ -2040,6 +2045,7 @@
                 ],
                 [{
                     "title": "Joga",
+                    "color": "#de62d5",
                     "dialog": 1
                   },
                   {
@@ -2062,6 +2068,7 @@
                 ],
                 [{
                     "title": "Shape",
+                    "color": "#5fe0e6",
                     "dialog": 1
                   },
                   {
@@ -2070,6 +2077,7 @@
                 ],
                 [{
                     "title": "Joga",
+                    "color": "#de62d5",
                     "dialog": 1
                   },
                   {
