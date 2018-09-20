@@ -46,18 +46,31 @@
         "name": "what_is_yoga",
         "label": "Czym jest joga?",
         "data": [{
-          "type": "text",
-          "float": "left",
-          "styles": [
-            "image_right",
-            "image_small"
-          ],
-          "content": {
-            "title": "Czym jest joga?",
-            "lead": "",
-            "text": "Joga to najstarsza gimnastyka świata. Jest praktykowana od wielu tysięcy lat, a jej najważniejszym źródłem są spisane między 3 a 6 wiekiem przed naszą erą Jogasutry autorstwa Patańdżalego, ajurwedyjskiego lekarza. Joga może być rozumiana na dwa sposoby. Może być postrzegana jako system światopoglądowy, filozofię czy nawet religię oraz jako aktywność ruchowa. W cywilizacji zachodniej, dużo częściej jogę kojarzy się z praktyką asan. Również i w naszym studio, joga jest wolna od światopoglądu i jest nauczana tylko i wyłącznie jako aktywność fizyczna. Niezaprzeczalnym faktem jest jednak jej znamienny wpływ na jasność myślenia, uspokojenie umysłu i zharmonizowanie pracy narządów wewnętrznych. Praktyka asan – czyli pozycji jogi - ma charakter terapeutyczny. Ich wykonywanie przynosi ulgę narządowi ruchu i znacząco wpływa na witalność regularnie ćwiczącego"
+            "type": "text",
+            "float": "",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "Czym jest joga?",
+              "lead": "",
+              "text": "Joga to najstarsza gimnastyka świata. Jest praktykowana od wielu tysięcy lat, a jej najważniejszym źródłem są spisane między 3 a 6 wiekiem przed naszą erą Jogasutry autorstwa Patańdżalego, ajurwedyjskiego lekarza. Joga może być rozumiana na dwa sposoby. Może być postrzegana jako system światopoglądowy, filozofię czy nawet religię oraz jako aktywność ruchowa. W cywilizacji zachodniej, dużo częściej jogę kojarzy się z praktyką asan. Również i w naszym studio, joga jest wolna od światopoglądu i jest nauczana tylko i wyłącznie jako aktywność fizyczna. Niezaprzeczalnym faktem jest jednak jej znamienny wpływ na jasność myślenia, uspokojenie umysłu i zharmonizowanie pracy narządów wewnętrznych. Praktyka asan – czyli pozycji jogi - ma charakter terapeutyczny. Ich wykonywanie przynosi ulgę narządowi ruchu i znacząco wpływa na witalność regularnie ćwiczącego"
+            }
+          },
+          {
+            "type": "text_and_image",
+            "style": {
+              "order": ""
+            },
+            "content": {
+              "title": "Jogasutry Patańdżalego",
+              "lead": "",
+              "image": "assets/images/joga/yogasutry.jpg",
+              "text": "System jogi klasycznej został zebrany i opracowany w Jogasutrach powstałych w III w. p.n.e., przypisywanych mędrcowi Patańdżalemu. Jogasutry to pierwszy jednolity tekst o jodze składający się ze 195 sutr - aforyzmów. Stamtąd pochodzą podstawy filozoficzne jogi."
+            }
           }
-        }]
+        ]
       },
       {
         "name": "types_yoga",
@@ -1292,6 +1305,48 @@
             ]
           }
         }]
+      },{
+        "name": "gallery",
+        "label": "Galeria",
+        "data": [{
+          "type": "gallery",
+          "content": {
+            "title": "Galeria",
+            "images": [{
+                "url": "assets/images/joga/gallery/gallery1.jpg",
+                "title": ""
+              },
+              {
+                "url": "assets/images/joga/gallery/gallery2.jpg",
+                "title": ""
+              },
+              {
+                "url": "assets/images/joga/gallery/gallery3.jpg",
+                "title": ""
+              },
+              {
+                "url": "assets/images/joga/gallery/gallery4.jpg",
+                "title": ""
+              },
+              {
+                "url": "assets/images/joga/gallery/gallery5.jpg",
+                "title": ""
+              },
+              {
+                "url": "assets/images/joga/gallery/gallery6.jpg",
+                "title": ""
+              },
+              {
+                "url": "assets/images/joga/gallery/gallery7.jpg",
+                "title": ""
+              },
+              {
+                "url": "assets/images/joga/gallery/gallery8.jpg",
+                "title": ""
+              }
+            ]
+          }
+        }]
       },
       {
         "name": "contact",
@@ -1312,6 +1367,7 @@
       }
     ]
   },
+  
   {
     "name": "7mepoty",
     "image": "assets/logo/7me_logo.png",
@@ -1929,11 +1985,11 @@
         ]
       },
       {
-        "name": "schedule", 
+        "name": "schedule",
         "label": "Grafik",
         "data": [{
           "type": "table",
-          "class": "schedule", 
+          "class": "schedule",
           "style": {
             "order": 1
           },
@@ -2085,6 +2141,49 @@
                   }
                 ]
               ]
+            ]
+          }
+        }]
+      },
+      {
+        "name": "gallery",
+        "label": "Galeria",
+        "data": [{
+          "type": "gallery",
+          "content": {
+            "title": "Galeria",
+            "images": [{
+                "url": "assets/images/7me_poty/gallery/gallery1.jpg",
+                "title": ""
+              },
+              {
+                "url": "assets/images/7me_poty/gallery/gallery2.jpg",
+                "title": ""
+              },
+              {
+                "url": "assets/images/7me_poty/gallery/gallery3.jpg",
+                "title": ""
+              },
+              {
+                "url": "assets/images/7me_poty/gallery/gallery4.jpg",
+                "title": ""
+              },
+              {
+                "url": "assets/images/7me_poty/gallery/gallery5.jpg",
+                "title": ""
+              },
+              {
+                "url": "assets/images/7me_poty/gallery/gallery6.jpg",
+                "title": ""
+              },
+              {
+                "url": "assets/images/7me_poty/gallery/gallery7.jpg",
+                "title": ""
+              },
+              {
+                "url": "assets/images/7me_poty/gallery/gallery8.jpg",
+                "title": ""
+              }
             ]
           }
         }]

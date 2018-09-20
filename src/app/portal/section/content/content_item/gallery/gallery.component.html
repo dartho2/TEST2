@@ -1,11 +1,13 @@
 <div class="row featurette">
   <hr class="featurette-divider">
   <div class="col-md-12">
-    <h2 class="featurette-heading">{{data.type}} <span class="text-muted">{{data.type}} </span></h2>
-    <p class="lead">{{data.content.title}}</p>
+    <h2 class="featurette-heading">{{data.content.title}} <span class="text-muted">{{data.type}} </span></h2>
+    <p class="lead">
+      
+    </p>
   </div>
-  <div class="col-md-6" *ngFor="let x of data.content.images">
-    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="{{x.url}}"
+  <div class="col-md-6" *ngFor="let image of data.content.images">
+    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="{{image.url}}"
          data-holder-rendered="true"
          style="width: 500px; height: 500px;">
   </div>
