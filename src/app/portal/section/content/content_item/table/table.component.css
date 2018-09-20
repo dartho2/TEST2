@@ -2,11 +2,18 @@
   table td::before {
       font-weight: bold;
       text-align: center;
-      display: block;
+      display: contents;
+    max-width: none;
       /* margin: auto; */
       /* clear: both; */
       text-transform: uppercase;
   }
+  .first-dialog {
+    font-size: 16px;
+}
+td.normal {
+    display: block;
+}
   td.schedule[_ngcontent-c5] {
     /* padding: 5px; */
     text-align: center;
@@ -15,6 +22,8 @@
 }
   td.schedule {
     /* padding: 5px; */
+    
+    display: initial;
     text-align: center;
     padding: none;
     max-width: none;
@@ -22,6 +31,7 @@
 td{
     /* padding: 5px; */
     text-align: center;
+    width: 100%;
 }
   }
   td.schedule {

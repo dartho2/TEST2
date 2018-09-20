@@ -272,7 +272,7 @@
         "label": "Ciekawostki",
         "data": [{
           "type": "table",
-          "class": "", 
+          "class": "normal",
           "style": {
             "order": 1
           },
@@ -1704,7 +1704,7 @@
         "label": "Cennik",
         "data": [{
             "type": "table",
-            "class": "",
+            "class": "normal",
             "style": {
               "order": 1
             },

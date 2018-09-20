@@ -488,7 +488,7 @@ table th {
 
   table td {
     border-bottom: 1px solid #ddd;
-    display: block;
+    display: table-cell;
     font-size: .8em;
     text-align: right;
   }
