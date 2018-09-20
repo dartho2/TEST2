@@ -30,12 +30,12 @@
         <ul class="navbar-nav ml-auto">
           <span class="span-header">wybierz portal:</span>
           <button mat-button class="button-top-mat" [matMenuTriggerFor]="menu" (mouseout)="hover =false" (mouseover)="hover =true"
-            [ngStyle]="hover ? {'background-color':portal.style.colors.primary} : {}">{{portal.name}}
+            [ngStyle]="hover ? {'background-color':portal.style.colors.primary} : {}">{{portal.label}}
           </button>
           <mat-menu #menu="matMenu">
             <a mat-button *ngFor="let portal of service.portals" (mouseout)="portal.hover =false" (mouseover)="portal.hover =true"
               [ngStyle]="portal.hover ? {'background-color': portal.style.colors.primary} : {}"
-              routerLink="/{{portal.name}}/{{portal.sections[0].name}}">{{portal.name}}</a>
+              routerLink="/{{portal.name}}/{{portal.sections[0].name}}">{{portal.label}}</a>
           </mat-menu>
         </ul>
       </div>

@@ -1,4 +1,137 @@
 [{
+    "name": "pdtr",
+    "image": "assets/logo/pdtr_logo.png",
+    "images_top": [
+
+    ],
+    "label": "Gabinet P-DTR",
+    "style": {
+      "colors": {
+        "primary": "#0a6996",
+        "secondary": "white"
+      }
+    },
+    "sections": [{
+        "name": "news",
+        "label": "Aktualności",
+        "data": [{
+            "type": "fb",
+            "category": "page",
+            "float": "left",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "",
+              "lead": "",
+              "text": ""
+            }
+          },
+          {
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "Cyceron",
+              "lead": "de Finibus Bonorum et Malorum",
+              "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+            }
+          }
+        ]
+      },
+      {
+        "name": "method",
+        "label": "O metodzie",
+        "data": [{
+          "type": "text_and_image",
+          "style": {
+            "order": "1"
+          },
+          "content": {
+            "title": "Jogasutry Patańdżalego",
+            "lead": "",
+            "image": "assets/images/pdtr/o_metodzie.jpg",
+            "text": "P-DTR to jedna z najskuteczniejszych metod modulacji pracy układu nerwowego opisana przez lekarza Jose Palomara. Jest nieinwazyjna, bezpieczna i najważniejsze - przynosi natychmiastowy efekt. Jej holistyczne podejście do zdrowia i uwzględnienie takich czynników jak wpływ żywienia, chemii czy emocji infekujących ciało zdecydowanie wyróżnia ją na tle innych metod. Jako jedyni w okolicy, działamy w oparciu o protokół metody P-DTR w ramach indywidualnych spotkań i treningów personalnych usprawniając naszych Podopiecznych i realizując ich cele w ekspresowym tempie. Ciało człowieka zawiera olbrzymią liczbę receptorów odbierających rozmaite informacje ze świata zewnętrznego. Jedne reagują na ucisk tkanki, inne na temperaturę otoczenia, a kolejne na chemiczne substancje znajdujące się w bliskim kontakcie (np. z pożywienia czy z kremu do rąk, który właśnie nakładasz), itd. Receptory działają jak niewidzialne kamery, które nieustannie monitorują Twoje otoczenia w celu identyfikacji potencjalnych zagrożeń. Są oknem na świat naszego najważniejszego organu - mózgu - który zarządza całym organizmem. Po otrzymaniu informacji zebranych przez receptory, ośrodkowy układ nerwowy (na który składa się mózg oraz rdzeń kręgowy) wydaje dyspozycje do układów narządów ciała adekwatne do jakości tychże informacji, sterując takimi mechanizmami jak: napięcie mięśniowe, wydzielanie wewnętrzne, odczuwanie bólu czy nastrój emocjonalny. Dobre informacje na wejściu są gwarancją dobrych reakcji na wyjściu. Ta zasada stanowi fundament metody P-DTR: 95% nieprawidłowych odpowiedzi układu nerwowego, które interpretujemy jako ból czy ograniczenia ruchowe wynika z nieprawidłowej pracy receptorów \"popsutych\" w wyniku wypadku, kontuzji, złych nawyków, odżywiania, chemii, traumy emocjonalnej i chronicznego stresu."
+          }
+        }]
+      },
+      {
+        "name": "gallery",
+        "label": "Galeria",
+        "data": [{
+          "type": "text",
+          "styles": [
+            "image_right",
+            "image_small"
+          ],
+          "content": {
+            "title": "",
+            "lead": "",
+            "text": "Naszym zadaniem było uśmierzyć ból pojawiający się w czasie wchodzenia i schodzenia ze schodów. Jedna korekcja bazująca na układzie nerwowym znacząco zmieniła jakość ruchu i odczucie bólu naszej Klientki. Po raz kolejny ludzkie ciało udowodniło jak wielkie ma zdolności do powrotu do równowagi i jak niewiele trzeba, aby obniżyć sygnał bólowy."
+          }
+        },
+        {
+          "type": "fb",
+          "float": "unset",
+          "category": "video",
+          "styles": [
+            "image_right",
+            "image_small"
+          ],
+          "content": {
+            "title": "",
+            "url": "https://www.facebook.com/250111271792298/videos/1312892432180838/"
+          }
+        },
+        {
+          "type": "text",
+          "styles": [
+            "image_right",
+            "image_small"
+          ],
+          "content": {
+            "title": "",
+            "lead": "",
+            "text": "Elastyczność mięśni to nie tylko efekt ćwiczeń rozciągających, lecz wypadkowa tego jak wydolny jest układ nerwowy i czy obecne są w nim mechanizmy obronne. Na dowód tego przesyłamy Wam 2 zdjęcia zrobione dokładnie w odstępie 8 minut. Pani ze zdjęcia zgłosiła się do nas z powodu bólu kręgosłupa w trakcie schylania się. Z powodu podrażnień w obrębie miednicy jej zakres ruchu w skłonie do przodu wyglądał jak na pierwszym zdjęciu. Po prostej korekcji układu nerwowego w okolicach miednicy, nasza Podopieczna bez problemu dotknęła palcami do podłogi, a jej subiektywna skala bólu z 10 spadła do poziomu między 2 a 3. Należy dodać, że Pani nie uczęszcza na zajęcia sportowe."
+          }
+        },
+        {
+          "type": "gallery",
+          "content": {
+            "title": "Galeria",
+            "images": [{
+              "url": "assets/images/pdtr/gallery/1.jpg",
+              "title": ""
+            },
+            {
+              "url": "assets/images/pdtr/gallery/2.jpg",
+              "title": ""
+            }]
+          }
+        }]
+      },
+      {
+        "name": "references",
+        "label": "Referencje",
+        "data": [{
+          "type": "text_and_image",
+          "style": {
+            "order": "1"
+          },
+          "content": {
+            "title": "",
+            "lead": "",
+            "image": "assets/images/pdtr/references/Ewa.jpg",
+            "text": "\"Po dwóch długich sesjach P-DTR z p. Mają, dolegliwości moje ustąpiły, jakość mojego poruszania zdecydowanie się polepszyła. Cenę usługi uważam za rozsądną mając w pamięci ceny wizyt u specjalistów, leków i rehabilitacji. Namówiłam na sesję u p. Mai zięcia i kuzyna i na razie po 1 spotkaniu prognozy są obiecujące. Uważam, że p. Maja jest osobą bardzo ciepłą, posiadającą dużą wiedzę, którą potrafi wykorzystać przynosząc ulgę w dolegliwościach bólowych. Polecam!!!\""
+          }
+        }]
+      }
+    ]
+  },
+  {
     "name": "joga",
     "image": "assets/logo/studio_yogi_logo.png",
     "images_top": [
@@ -18,6 +151,7 @@
         "data": [{
             "type": "fb",
             "float": "left",
+            "category": "page",
             "styles": [
               "image_right",
               "image_small"
@@ -1305,7 +1439,7 @@
             ]
           }
         }]
-      },{
+      }, {
         "name": "gallery",
         "label": "Galeria",
         "data": [{
@@ -1367,7 +1501,7 @@
       }
     ]
   },
-  
+
   {
     "name": "7mepoty",
     "image": "assets/logo/7me_logo.png",
@@ -1388,6 +1522,7 @@
         "label": "Aktualności",
         "data": [{
             "type": "fb",
+            "category": "page",
             "float": "left",
             "styles": [
               "image_right",
