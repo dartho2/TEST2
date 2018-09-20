@@ -272,6 +272,7 @@
         "label": "Ciekawostki",
         "data": [{
           "type": "table",
+          "class": "", 
           "style": {
             "order": 1
           },
@@ -1442,6 +1443,7 @@
             },
             "content": {
               "title": "Interval",
+              "description": ["Interval"],
               "lead": "",
               "image": "assets/images/type_classes/interval.jpg",
               "text": "Interwały to treningi metaboliczne, uchodzące za najbardziej skuteczne w procesie odchudzania. Treningi są intensywne. Zawierają zarówno ćwiczenie siłowe oraz eksplozywne (wszelkie wyskoki i biegi), dlatego interwałom towarzyszy dość długa lista przeciwwskazań, niemniej jednak osobom dobrze do nich przygotowanych, taki trening przyniesie najwięcej korzyści i widocznie przyczyni się do zrzucenia zbędnych kilogramów. Przed przystąpieniem do zajęć, wskazana konsultacja z trenerem."
@@ -1454,6 +1456,7 @@
             },
             "content": {
               "title": "Shape",
+              "description": ["Shape"],
               "lead": "",
               "image": "assets/images/type_classes/shape.jpg",
               "text": "Ogólnorozwojowy trening kształtujący ciało – brzuch, uda, pośladki, ramiona"
@@ -1465,7 +1468,8 @@
               "order": 1
             },
             "content": {
-              "title": "Deep WORK",
+              "title": "Deep Work",
+              "description": ["Deep Work"],
               "lead": "",
               "image": "assets/images/type_classes/deep_work.jpg",
               "text": "Program treningowy inspirowany filozofią i energetyką Dalekiego Wschodu oparty na koncepcji Yin i Yang. Początek lekcji to subtelne pobudzenie mięśni i stawów przypominające Jogę oraz Body Art. Wchodząc jednak dalej w trening, musisz stawić czoło swoim słabościom i pokonać własne ograniczenia. Deep WORK ® to wyjątkowy trening funkcjonalny, który nie tylko ćwiczy ciało, ale też i umysł. Stworzony przez fachowców najwyższej klasy dla osób lubiących wyzwania i otwartych na nowe koncepty."
@@ -1478,6 +1482,7 @@
             },
             "content": {
               "title": "Functional Flow",
+              "description": ["Function Flow"],
               "lead": "",
               "image": "assets/images/type_classes/flow.png",
               "text": "Functional Flow to zupełnie nowa odsłona treningu funkcjonalnego. Ci którzy oczekują po treningu uczucia przyjemnej wolności i luzu w ciele, nie zawiodą się. Functional Flow zmusza do globalnej pracy mięśnie posturalne, buduje siłę od środka i trenuje zakres ruchu bez przeciążania stawów. To również trening powięzi eliminujący sztywność w ciele, a przy tym bardzo trudno się nie zmęczyć. Spalanie kalorii gwarantowane, a wcale nie trzeba skakać."
@@ -1489,22 +1494,11 @@
               "order": 1
             },
             "content": {
-              "title": "Pilates",
+              "title": "Pilates & Zdrowy Kręgosłup",
+              "description": ["Pilates & Zdrowy Kręgosłup"],
               "lead": "",
               "image": "assets/images/type_classes/pilates.jpg",
-              "text": "Zajęcia prozdrowotne z nurtu mentalnych. Mają za zadanie aktywację mięśni pilates był stosowany jako forma rehabilitacji, obecnie, jako forma zajęć grupowych, doskonale się sprawdza jako profilaktyka przed dysfunkcjami układu ruchu jak i w niektórych przypadkach leczeniu, np. problemy z nietrzymaniem moczu. Pilates korzystnie wpływa na kondycję kręgosłupa, ruchomość stawów, gibkość czy siłę mięśni (zwłaszcza mięśnie tłoczni brzusznej, prostowniki kręgosłupa oraz mięśnie obręczy biodrowej)."
-            }
-          },
-          {
-            "type": "text_and_image",
-            "style": {
-              "order": 1
-            },
-            "content": {
-              "title": "Zdrowy kręgosłup",
-              "lead": "",
-              "image": "assets/images/type_classes/kregoslup.jpg",
-              "text": "Zajęcia prozdrowotne, łączące w sobie cechy pilatesa oraz fitnessu. Ich głównym zadaniem jest profilaktyka schorzeń kręgosłupa, ale nie należy ich jednak mylić z treningiem pleców. Na zajęciach zdrowy kręgosłup, ćwiczone są wszystkie grupy mięśniowe ciała, ponieważ każda jedna dysfunkcja danej części ciała (np. stopy) może negatywnie oddziaływać na stan kręgosłupa. Zestaw ćwiczeń obejmuje: wzmocnienie, stabilizacje, mobilizację oraz gibkość. Zajęcia odbywają się głównie z pomocą przyborów takich jak: piłki gimnastyczne, taśmy elastyczne, hantle, dyski powietrzne."
+              "text": "Zajęcia prozdrowotne z nurtu mentalnych. Niegdyś, pilates był stosowany jako forma rehabilitacji, obecnie, jako forma zajęć grupowych, doskonale się sprawdza jako profilaktyka przed dysfunkcjami układu ruchu jak i w niektórych przypadkach leczenia, np. problemy z nietrzymaniem moczu. Pilates korzystnie wpływa na kondycję kręgosłupa, ruchomość stawów, gibkość czy siłę mięśni (zwłaszcza mięśnie tłoczni brzusznej, prostowniki kręgosłupa oraz mięśnie obręczy biodrowej). Na zajęciach zdrowy kręgosłup  głównym zadaniem jest profilaktyka schorzeń kręgosłupa, ale nie należy ich jednak mylić z treningiem pleców. Ćwiczone są wszystkie grupy mięśniowe ciała, ponieważ każda jedna dysfunkcja danej części ciała (np. stopy) może negatywnie oddziaływać na stan kręgosłupa. Zestaw ćwiczeń obejmuje: wzmocnienie, stabilizacje, mobilizację oraz gibkość. Połączenie tych zajęć to najlepszy wybór dla Twojego kręgosłupa! Zajęcia są skierowane dla osób w każdym wieku i o każdym poziomie zaawansowania."
             }
           },
           {
@@ -1514,6 +1508,7 @@
             },
             "content": {
               "title": "Joga",
+              "description": ["Joga", "Joga od podstaw"],
               "lead": "",
               "image": "assets/images/type_classes/joga.jpg",
               "text": "Joga to najstarsza gimnastyka świata. Jest praktykowana od wielu tysięcy lat, a jej najważniejszym źródłem są spisane między 3 a 6 wiekiem przed naszą erą Jogasutry autorstwa Patańdżalego, ajurwedyjskiego lekarza. Joga może być rozumiana na dwa sposoby. Może być postrzegana jako system światopoglądowy, filozofię czy nawet religię oraz jako aktywność ruchowa. W cywilizacji zachodniej, dużo częściej jogę kojarzy się z praktyką asan. Również i w naszym klubie, joga jest wolna od światopoglądu i jest nauczana tylko i wyłącznie jako aktywność fizyczna. Niezaprzeczalnym faktem jest jednak jej znamienny wpływ na jasność myślenia, uspokojenie umysłu i zharmonizowanie pracy narządów wewnętrznych. Praktyka asan – czyli pozycji jogi - ma charakter terapeutyczny. Ich wykonywanie przynosi ulgę narządowi ruchu i znacząco wpływa na witalność regularnie ćwiczącego. Spośród najbardziej znanych korzyści praktykowania jogi, należy wymienić:",
@@ -1596,6 +1591,7 @@
         "label": "Cennik",
         "data": [{
             "type": "table",
+            "class": "",
             "style": {
               "order": 1
             },
@@ -1612,14 +1608,16 @@
               "columns": [
                 [
                   [{
-                      "title": "SOLARIUM"
+                      "title": "SOLARIUM",
+                      "dialog": 0
                     },
                     {
                       "subtitle": "1 minuta"
                     }
                   ],
                   [{
-                      "title": "1,30 zł"
+                      "title": "1,30 zł",
+                      "dialog": 0
                     },
                     {
                       "subtitle": ""
@@ -1628,14 +1626,16 @@
                 ],
                 [
                   [{
-                      "title": "SIŁOWNIA"
+                      "title": "SIŁOWNIA",
+                      "dialog": 0
                     },
                     {
                       "subtitle": "Jednorazowy wstęp bez ograniczeń czasowych"
                     }
                   ],
                   [{
-                      "title": "15 zł"
+                      "title": "15 zł",
+                      "dialog": 0
                     },
                     {
                       "subtitle": ""
@@ -1644,14 +1644,16 @@
                 ],
                 [
                   [{
-                      "title": "BODY SPACE (VACU)"
+                      "title": "BODY SPACE (VACU)",
+                      "dialog": 0
                     },
                     {
                       "subtitle": "30 minut treningu w kapsule podciśnieniowej"
                     }
                   ],
                   [{
-                      "title": "20 zł"
+                      "title": "20 zł",
+                      "dialog": 0
                     },
                     {
                       "subtitle": ""
@@ -1660,14 +1662,16 @@
                 ],
                 [
                   [{
-                      "title": "ZAJĘCIA GRUPOWE"
+                      "title": "ZAJĘCIA GRUPOWE",
+                      "dialog": 0
                     },
                     {
                       "subtitle": "Zajęcia grupowe z instruktorem"
                     }
                   ],
                   [{
-                      "title": "25 zł"
+                      "title": "25 zł",
+                      "dialog": 0
                     },
                     {
                       "subtitle": ""
@@ -1676,14 +1680,16 @@
                 ],
                 [
                   [{
-                      "title": "OPEN JEDNORAZOWE"
+                      "title": "OPEN JEDNORAZOWE",
+                      "dialog": 0
                     },
                     {
                       "subtitle": "Wejście 3 w 1 (siłownia, vacu, zajęcia grupowe)"
                     }
                   ],
                   [{
-                      "title": "35 zł"
+                      "title": "35 zł",
+                      "dialog": 0
                     },
                     {
                       "subtitle": ""
@@ -1692,14 +1698,16 @@
                 ],
                 [
                   [{
-                      "title": "ROZPISANIE DIETY"
+                      "title": "ROZPISANIE DIETY",
+                      "dialog": 0
                     },
                     {
                       "subtitle": "Indywidualnie dopasowanej w oparciu o wywiad oraz ankietę żywieniową"
                     }
                   ],
                   [{
-                      "title": "99 zł"
+                      "title": "99 zł",
+                      "dialog": 0
                     },
                     {
                       "subtitle": ""
@@ -1708,14 +1716,16 @@
                 ],
                 [
                   [{
-                      "title": "TRENING PERSONALNY, 1 h."
+                      "title": "TRENING PERSONALNY, 1 h.",
+                      "dialog": 0
                     },
                     {
                       "subtitle": "Trening jeden na jeden z trenerem personalnym"
                     }
                   ],
                   [{
-                      "title": "70 zł"
+                      "title": "70 zł",
+                      "dialog": 0
                     },
                     {
                       "subtitle": ""
@@ -1724,14 +1734,16 @@
                 ],
                 [
                   [{
-                      "title": "TOUCH FOR HEALTH, 45-60 min."
+                      "title": "TOUCH FOR HEALTH, 45-60 min.",
+                      "dialog": 0
                     },
                     {
                       "subtitle": "Metoda w Kinezjologii Stosowanej przywracająca równowagę ogólnoustrojową"
                     }
                   ],
                   [{
-                      "title": "45 zł"
+                      "title": "45 zł",
+                      "dialog": 0
                     },
                     {
                       "subtitle": ""
@@ -1740,14 +1752,16 @@
                 ],
                 [
                   [{
-                      "title": "P-DTR"
+                      "title": "P-DTR",
+                      "dialog": 0
                     },
                     {
                       "subtitle": "Funkcjonalna analiza układu nerwowego za pomocą testów mięśniowych"
                     }
                   ],
                   [{
-                      "title": "80 zł"
+                      "title": "80 zł",
+                      "dialog": 0
                     },
                     {
                       "subtitle": ""
@@ -1800,6 +1814,159 @@
             }
           }
         ]
+      },
+      {
+        "name": "schedule", 
+        "label": "Grafik",
+        "data": [{
+          "type": "table",
+          "class": "schedule", 
+          "style": {
+            "order": 1
+          },
+          "content": {
+            "title": "Grafik",
+            "lead": "",
+            "image": "assets/images/solarium/solarium.jpg",
+            "thead": [{
+                "title": "",
+                "style": {
+                  "colspan": ""
+                }
+              },
+              {
+                "title": "poniedziałek",
+                "style": {
+                  "colspan": ""
+                }
+              },
+              {
+                "title": "wtorek",
+                "style": {
+                  "colspan": ""
+                }
+              },
+              {
+                "title": "środa",
+                "style": {
+                  "colspan": ""
+                }
+              },
+              {
+                "title": "czwartek",
+                "style": {
+                  "colspan": ""
+                }
+              },
+              {
+                "title": "piątek",
+                "style": {
+                  "colspan": ""
+                }
+              }
+            ],
+            "columns": [
+              [
+                [{
+                    "title": "18:30",
+                    "dialog": 0
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Function Flow",
+                    "dialog": 1
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Interval",
+                    "dialog": 1
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Pilates & Zdrowy Kręgosłup",
+                    "dialog": 1
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Joga od podstaw",
+                    "dialog": 1
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Deep Work",
+                    "dialog": 1
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ]
+              ],
+              [
+                [{
+                    "title": "19:30",
+                    "dialog": 0
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Joga",
+                    "dialog": 1
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": ""
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": ""
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Shape",
+                    "dialog": 1
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ],
+                [{
+                    "title": "Joga",
+                    "dialog": 1
+                  },
+                  {
+                    "subtitle": ""
+                  }
+                ]
+              ]
+            ]
+          }
+        }]
       },
       {
         "name": "contact",

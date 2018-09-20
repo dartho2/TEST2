@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px){
   table td::before {
       font-weight: bold;
       text-align: center;
@@ -7,4 +7,58 @@
       /* clear: both; */
       text-transform: uppercase;
   }
+  td.schedule[_ngcontent-c5] {
+    /* padding: 5px; */
+    text-align: center;
+    padding: none;
+    max-width: none;
+}
+  td.schedule {
+    /* padding: 5px; */
+    text-align: center;
+    padding: none;
+    max-width: none;
+}
+td{
+    /* padding: 5px; */
+    text-align: center;
+}
   }
+  td.schedule {
+    /* padding: 5px;
+    text-align: left;
+    padding: 16px;
+    max-width: 200px; */
+    padding: 5px;
+    text-align: left;
+    /* padding: 16px; */
+    max-width: 140px;
+    height: 100px;
+    /* position: relative; */
+    /* max-height: 209px; */
+}
+th {
+    text-align: center;
+}
+.cdk-overlay-container {
+    position: fixed;
+    bottom: 0px;
+    top: 0px;
+    margin: 0 auto;
+}
+.btn {
+    white-space: normal;
+}
+
+.dialog-button{
+    height: 100%;
+    /* display: block; */
+}
+.dialog-button {
+    height: 100%;
+    /* display: block; */
+}
+button.btn.btn-light {
+    height: 100%;
+    width: 100%;
+}

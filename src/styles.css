@@ -460,7 +460,7 @@ table th {
   text-transform: uppercase;
 } */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   table {
     border: 0;
   }
@@ -509,7 +509,7 @@ table th {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   table td::before {
     font-weight: bold;
     text-align: center;
