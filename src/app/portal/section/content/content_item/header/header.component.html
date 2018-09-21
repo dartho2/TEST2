@@ -53,10 +53,12 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item" *ngFor="let section of service.portal.sections">
+            <div *ngIf="section.active > 0">
             <a mat-button [ngClass]="{'mat-button:hover' : true}" (mouseout)="section.hover =false" (mouseover)="section.hover =true"
               [ngStyle]="section.hover || section.name === service.activeSection.name ? {'border-bottom': '1px solid' + portal.style.colors.primary} : {}"
               routerLink="/{{portal.name}}/{{section.name}}">{{section.label}}</a>
-          </li>
+            </div>
+            </li>
         </ul>
       </div>
     </div>

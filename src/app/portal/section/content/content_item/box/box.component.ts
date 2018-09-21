@@ -19,13 +19,17 @@ export class BoxComponent implements OnInit {
     public portals: PortalComponent) { }
   
     openDialog(nameClass) {
-      let types = this.service.portal.sections.filter(sections => sections.name === 'types_classes')
+      let types = this.service.portal.sections.filter(sections => sections.name === this.data.data[0].shared)
+      // let types = this.portals.shared.filter(sections => sections.name === this.data.data[0].shared)
+      console.log("type", types)
       const dialogRef = this.dialog.open(DialogComponent, {
         data: {data: types, type_class: nameClass}
     })
   }
   portalFilter(portal) {
-    this.typeClasses = portal.sections.find(section => section.name === 'types_classes');
+    console.log("data",this.data)
+    console.log("portal",portal)
+    this.typeClasses = portal.sections.find(section => section.name === this.data.data[0].shared);
      }
   ngOnInit() {
   }
