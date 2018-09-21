@@ -17,14 +17,15 @@ import {GalleryComponent} from './portal/section/content/content_item/gallery/ga
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {TextComponent} from './portal/section/content/content_item/text/text.component';
 import {ListComponent} from './portal/section/content/content_item/list/list.component';
-import {TableComponent, DialogContentExampleDialog} from './portal/section/content/content_item/table/table.component';
+import {TableComponent} from './portal/section/content/content_item/table/table.component';
 import {FacebookModule} from 'ngx-facebook';
 import {FbComponent} from '../app/portal/section/content/content_item/fb/fb.component';
 import {FooterComponent} from '../app/portal/section/content/content_item/footer/footer.component';
 import {HeaderComponent} from './portal/section/content/content_item/header/header.component';
 import {ContactComponent} from './portal/section/content/content_item/contact/contact.component';
-import {BoxComponent,DialogContentBoxDialog} from './portal/section/content/content_item/box/box.component';
+import {BoxComponent} from './portal/section/content/content_item/box/box.component';
 import {MatDialogModule} from '@angular/material/dialog';
+import {DialogComponent} from './portal/section/content/content_item/dialog/dialog.component';
 
 @NgModule({
   declarations: [
@@ -43,8 +44,7 @@ import {MatDialogModule} from '@angular/material/dialog';
     HeaderComponent,
     ContactComponent,
     BoxComponent,
-    DialogContentExampleDialog,
-    DialogContentBoxDialog
+    DialogComponent
   ],
   imports: [
     BrowserModule,
@@ -57,11 +57,11 @@ import {MatDialogModule} from '@angular/material/dialog';
     MatIconModule,
     FormsModule,
     MatDialogModule,
+    HttpClientModule,
     FacebookModule.forRoot()
   ],
   entryComponents: [
-    DialogContentExampleDialog,
-    DialogContentBoxDialog
+    DialogComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
