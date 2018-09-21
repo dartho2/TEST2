@@ -168,7 +168,7 @@
     "style": {
       "colors": {
         "primary": "#800080",
-        "secondary": "#e3c8e3"
+        "secondary": "white"
       }
     },
     "sections": [{
@@ -1540,7 +1540,7 @@
     "style": {
       "colors": {
         "primary": "#ea00ea",
-        "secondary": "#fac4fa"
+        "secondary": "white"
       }
     },
     "sections": [{
@@ -1582,10 +1582,8 @@
               "number": 1
             },
             "content": {
-              "title": "Nasze Zajęcia:",
-              "lead": "7me poty",
-              "text": "Nasze centrum treningowe obejmuje strefę kardio, treningi wyszczuplające Body Space, zajęcia grupowe z instruktorami fitness, treningi personalne oraz konsultacje żywieniowe. Znajdziesz u nas wykwalifikowaną kadrę, kameralną i przyjazną atmosferę, estetyczne wnętrza, ale przede wszystkim spełnione oczekiwania oraz lepszą i zdrowszą wersje samej siebie. 7mepoty to miejsce stworzone dla kobiet! 7mepoty to miejsce stworzone dla kobiet Z nami osiągniesz swój cel!"
-            }
+              "title": "Nasze Zajęcia:"
+             }
           }
         ]
       },

@@ -5,6 +5,7 @@
   "data": [{
     "type": "table",
     "class": "schedule",
+    "class_shared":"types_classes",
     "style": {
       "order": 1
     },
@@ -160,6 +161,7 @@
     }
   }]
 },
+
   {
     "name": "price_list",
     "type": "table",
@@ -389,5 +391,97 @@
       }
     }
   ]
+  },
+  {
+    "name": "types_classes",
+    "label": "Rodzaje zajęć",
+    "data": [{
+        "type": "text_and_image",
+        "style": {
+          "order": 1
+        },
+        "content": {
+          "title": "Interval",
+          "description": ["Interval"],
+          "lead": "",
+          "image": "assets/images/type_classes/interval.jpg",
+          "text": "Interwały to treningi metaboliczne, uchodzące za najbardziej skuteczne w procesie odchudzania. Treningi są intensywne. Zawierają zarówno ćwiczenie siłowe oraz eksplozywne (wszelkie wyskoki i biegi), dlatego interwałom towarzyszy dość długa lista przeciwwskazań, niemniej jednak osobom dobrze do nich przygotowanych, taki trening przyniesie najwięcej korzyści i widocznie przyczyni się do zrzucenia zbędnych kilogramów. Przed przystąpieniem do zajęć, wskazana konsultacja z trenerem."
+        }
+      },
+      {
+        "type": "text_and_image",
+        "style": {
+          "order": 1
+        },
+        "content": {
+          "title": "Shape",
+          "description": ["Shape"],
+          "lead": "",
+          "image": "assets/images/type_classes/shape.jpg",
+          "text": "Ogólnorozwojowy trening kształtujący ciało – brzuch, uda, pośladki, ramiona"
+        }
+      },
+      {
+        "type": "text_and_image",
+        "style": {
+          "order": 1
+        },
+        "content": {
+          "title": "Deep Work",
+          "description": ["Deep Work"],
+          "lead": "",
+          "image": "assets/images/type_classes/deep_work.jpg",
+          "text": "Program treningowy inspirowany filozofią i energetyką Dalekiego Wschodu oparty na koncepcji Yin i Yang. Początek lekcji to subtelne pobudzenie mięśni i stawów przypominające Jogę oraz Body Art. Wchodząc jednak dalej w trening, musisz stawić czoło swoim słabościom i pokonać własne ograniczenia. Deep WORK ® to wyjątkowy trening funkcjonalny, który nie tylko ćwiczy ciało, ale też i umysł. Stworzony przez fachowców najwyższej klasy dla osób lubiących wyzwania i otwartych na nowe koncepty."
+        }
+      },
+      {
+        "type": "text_and_image",
+        "style": {
+          "order": 1
+        },
+        "content": {
+          "title": "Functional Flow",
+          "description": ["Functional Flow"],
+          "lead": "",
+          "image": "assets/images/type_classes/flow.png",
+          "text": "Functional Flow to zupełnie nowa odsłona treningu funkcjonalnego. Ci którzy oczekują po treningu uczucia przyjemnej wolności i luzu w ciele, nie zawiodą się. Functional Flow zmusza do globalnej pracy mięśnie posturalne, buduje siłę od środka i trenuje zakres ruchu bez przeciążania stawów. To również trening powięzi eliminujący sztywność w ciele, a przy tym bardzo trudno się nie zmęczyć. Spalanie kalorii gwarantowane, a wcale nie trzeba skakać."
+        }
+      },
+      {
+        "type": "text_and_image",
+        "style": {
+          "order": 1
+        },
+        "content": {
+          "title": "Pilates & Zdrowy Kręgosłup",
+          "description": ["Pilates & Zdrowy Kręgosłup"],
+          "lead": "",
+          "image": "assets/images/type_classes/pilates.jpg",
+          "text": "Zajęcia prozdrowotne z nurtu mentalnych. Niegdyś, pilates był stosowany jako forma rehabilitacji, obecnie, jako forma zajęć grupowych, doskonale się sprawdza jako profilaktyka przed dysfunkcjami układu ruchu jak i w niektórych przypadkach leczenia, np. problemy z nietrzymaniem moczu. Pilates korzystnie wpływa na kondycję kręgosłupa, ruchomość stawów, gibkość czy siłę mięśni (zwłaszcza mięśnie tłoczni brzusznej, prostowniki kręgosłupa oraz mięśnie obręczy biodrowej). Na zajęciach zdrowy kręgosłup  głównym zadaniem jest profilaktyka schorzeń kręgosłupa, ale nie należy ich jednak mylić z treningiem pleców. Ćwiczone są wszystkie grupy mięśniowe ciała, ponieważ każda jedna dysfunkcja danej części ciała (np. stopy) może negatywnie oddziaływać na stan kręgosłupa. Zestaw ćwiczeń obejmuje: wzmocnienie, stabilizacje, mobilizację oraz gibkość. Połączenie tych zajęć to najlepszy wybór dla Twojego kręgosłupa! Zajęcia są skierowane dla osób w każdym wieku i o każdym poziomie zaawansowania."
+        }
+      },
+      {
+        "type": "text_and_image",
+        "style": {
+          "order": 1
+        },
+        "content": {
+          "title": "Joga",
+          "description": ["Joga", "Joga od podstaw"],
+          "lead": "",
+          "image": "assets/images/type_classes/joga.jpg",
+          "text": "Joga to najstarsza gimnastyka świata. Jest praktykowana od wielu tysięcy lat, a jej najważniejszym źródłem są spisane między 3 a 6 wiekiem przed naszą erą Jogasutry autorstwa Patańdżalego, ajurwedyjskiego lekarza. Joga może być rozumiana na dwa sposoby. Może być postrzegana jako system światopoglądowy, filozofię czy nawet religię oraz jako aktywność ruchowa. W cywilizacji zachodniej, dużo częściej jogę kojarzy się z praktyką asan. Również i w naszym klubie, joga jest wolna od światopoglądu i jest nauczana tylko i wyłącznie jako aktywność fizyczna. Niezaprzeczalnym faktem jest jednak jej znamienny wpływ na jasność myślenia, uspokojenie umysłu i zharmonizowanie pracy narządów wewnętrznych. Praktyka asan – czyli pozycji jogi - ma charakter terapeutyczny. Ich wykonywanie przynosi ulgę narządowi ruchu i znacząco wpływa na witalność regularnie ćwiczącego. Spośród najbardziej znanych korzyści praktykowania jogi, należy wymienić:",
+          "items": [
+            "spowolnienie procesów starzenia,",
+            "profilaktyka chorób kręgosłupa,",
+            "lepsze radzenie sobie ze stresem,",
+            "spokojny sen,",
+            "uspokojenie układu hormonalnego",
+            "wyższa tolerancja na obciążenie intelektualne."
+          ]
+        }
+      }
+    ]
   }
+  
 ]
