@@ -11,6 +11,7 @@ import {AppService} from '../app.service';
 export class HomeComponent implements OnInit {
   activePortal;
   portals = [];
+  shared = [];
 
 
   constructor(private portalService: AppService,
@@ -24,6 +25,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
     this.router.paramMap.subscribe(params => this.activePortal = params.get('portal'));
     this.portalService.getPortals().subscribe(portals => this.portals = portals);
+    this.portalService.getShared().subscribe(shared => this.shared = shared);;
   }
 }
 

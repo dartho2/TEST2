@@ -3,8 +3,8 @@
     <table id="{{data.id}}">
       <thead>
         <th scope="col" *ngFor="let thead of data.content.thead" [attr.colspan]="thead.style.colspan">{{thead.title}}</th>
-      </thead>
-      <tr *ngFor="let tables of data.content.columns; index as i">
+      </thead> 
+  <tr *ngFor="let tables of data.content.columns; index as i">
         <td class="table-content" [class]="data.class" *ngFor="let table of data.content.columns[i]; index as c" [attr.data-label]="table[0].title ? data.content.thead[c] ? data.content.thead[c].title : '' : ''">
           <div class ="dialog-button" *ngIf="table[0].dialog > 0"> <button [ngStyle]="{'background-color': table[0].color}"  class="btn btn-light" (click)="openDialog(table[0].title)">{{table[0].title}}</button></div>
           <div class="first-dialog" *ngIf="table[0].dialog == 0">{{table[0].title}} </div>

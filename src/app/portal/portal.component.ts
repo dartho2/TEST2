@@ -8,6 +8,8 @@ import {FacebookService, InitParams} from 'ngx-facebook';
 export class PortalComponent implements OnInit {
   @Input()
   portals;
+  @Input()
+  shared;
   portal;
   activeSection;
   initParams: InitParams = {

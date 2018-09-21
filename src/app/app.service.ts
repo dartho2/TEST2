@@ -1,6 +1,7 @@
 import {Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {AppModel} from './app.model';
+import {SharedModel} from './shared.model';
 import {Observable} from 'rxjs';
 
 
@@ -12,6 +13,9 @@ export class AppService {
 
   getPortals(): Observable<AppModel[]> {
     return this._http.get<AppModel[]>('assets/api.json');
+  }
+  getShared(): Observable<SharedModel[]> {
+    return this._http.get<SharedModel[]>('assets/shared.json');
   }
 
   setImages(result, portal) {
