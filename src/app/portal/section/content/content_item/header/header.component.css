@@ -425,6 +425,7 @@ body {
     }
   
   }
+ 
   
   .navbar-dark .navbar-nav .nav-link {
     color: rgba(255, 255, 255, 0.62);
@@ -550,7 +551,6 @@ body {
   }
   
   span.span-header {
-    color: rgba(255, 255, 255, 0.62);
     text-align: center;
     padding-right: 5px;
     margin: auto;

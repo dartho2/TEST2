@@ -73,6 +73,7 @@ h2 {
 a#dropdown01 {
   font-family: 'robotlight';
   font-size: 12px;
+  text-align: center;
 }
 
 @font-face {
@@ -561,4 +562,91 @@ table th {
     position: fixed;
     z-index: 1040;
   }
+}
+
+/* /. Long menu./ */
+ul.navbar-l-menu {
+  display: inline-block;
+}
+
+li.nav-items-l {
+  display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+  .row.featurette.card {
+    display: block;
+  }
+
+  .row.content-row {
+    display: block;
+    float: none !important;
+  }
+
+  .social-links {
+    display: none;
+  }
+
+  li.nav-li-top {
+    margin: 0 auto;
+  }
+}
+
+.container.top.ml-md-auto {
+  overflow: unset;
+}
+
+@media screen and (min-width: 768px) {
+  li.nav-item.nav-li-top.dropdown {
+    color: rgba(255, 255, 255, .62);
+    border: 1px solid #fff;
+    padding: 1px 10px;
+    line-height: 21px;
+  }
+}
+
+.navbar {
+  padding: 0.3rem 1rem;
+}
+
+li.nav-item.nav-li-top {
+  margin: auto;
+}
+
+.nav-link {
+  padding: 0.1rem 1rem;
+}
+
+a#dropdown01 {
+  font-weight: 600;
+}
+
+app-table {
+  margin: 0 auto;
+}
+
+.btn:focus,
+.btn.focus {
+  outline: 0;
+  box-shadow: unset;
+}
+
+a.mat-button.btn.mat-button {
+  font-family: robotlight;
+  font-weight: 600;
+  font-size: 14px;
+  font-style: normal;
+}
+
+a.mat-button.btn.mat-button:hover {
+  background-color: #dedede;
+}
+
+/* /. Long menu./ */
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+span.span-header {
+  color: black;
+  font-size:12px;
 }
