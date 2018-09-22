@@ -1,4 +1,421 @@
 [{
+    "name": "counseling",
+    "image": "assets/logo/consulting_logo.png",
+    "images_top": [
+
+    ],
+    "label": "Doradztwo żywieniowe",
+    "style": {
+      "colors": {
+        "primary": "#28a745",
+        "secondary": "white"
+      }
+    },
+    "sections": [{
+        "name": "news",
+        "label": "Aktualności",
+        "active": "1",
+        "data": [{
+            "type": "fb",
+            "category": "page",
+            "float": "left",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "",
+              "lead": "",
+              "text": ""
+            }
+          },
+          {
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "Cyceron",
+              "lead": "de Finibus Bonorum et Malorum",
+              "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+            }
+          }
+        ]
+      },
+      {
+        "name": "how_are_we_doing",
+        "label": "Jak działamy",
+        "active": "1",
+        "data": [{
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "",
+              "lead": "",
+              "text": "Nasze konsultacje żywieniowe składają się z 3 etapów i są to kolejno: WYWIAD, ANKIETA ŻYWIENIOWA oraz TESTY ŻYWIENIOWE. Po przejściu wszystkich etapów, w terminie do 7 dni, przesyłamy Państwu gotowe zalecenia żywieniowe. Ale po kolei: czego należy się spodziewać w czasie wyżej wymienionych etapów?"
+            }
+          },
+          {
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "1. WYWIAD",
+              "lead": "",
+              "text": "W czasie trwania wywiadu zostaną zadane pytania dotyczące stanu zdrowia, poziomu aktywności fizycznej, ogólnego zarysu obecnego sposobu odżywiania oraz ewentualnych doświadczeń z dietami w przeszłości, poziomu stresu w życiu zawodowym i prywatnym. Najważniejszą kwestią jest jednak ustalenie oczekiwań i potrzeb Podopiecznego. Jeśli cel zostanie odpowiednio „podlany” dobrą motywacją, połowę sukcesu mamy już za sobą!"
+            }
+          },
+          {
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "2. ANKIETA ŻYWIENIOWA",
+              "lead": "",
+              "text": "To złożony z kilku stron zestaw pytań dotyczących nawyków żywieniowych i preferencji. Jej wypełnienie zajmuje z reguły około 1 godziny. Podopieczny otrzymuje ją do rąk własnych, aby w wolnym czasie i bez pośpiechu odpowiedzieć na pytania. Wypełnioną ankietę dostarcza z reguły na drugim spotkaniu, w czasie którego wykonywane są testy żywieniowe."
+            }
+          },
+          {
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "3. TESTY ŻYWIENIOWE",
+              "lead": "",
+              "text": "Obejmują testy żywieniowe metodą P-DTR kilku grup produktów spożywczych w celu ustalenia obecności produktów powodujących nadwrażliwość pokarmową. Najczęściej są to takie produkty jak pełne ziarna, nabiał, warzywa psiankowate czy orzechy, choć zdarzają się również i takie produkty jak banany, jabłka czy cytrusy, niemniej jednak każdy jest inny i u każdej osoby ten zestaw produktów wygląda inaczej. Dzięki testom przeprowadzonym zgodnie z protokołem P-DTR, produkty, które upośledzaną działanie narządów wewnętrznych zostają zidentyfikowane i wykluczone z diety."
+            }
+          },
+          {
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "",
+              "lead": "",
+              "text": "Po przejściu wszystkich części złożonych na konsultacje żywieniowe, w terminie do 7 dni zostaną przygotowane do odebrania (lub wysłania) zalecenia żywieniowe korespondujące z ankietą i testami."
+            }
+          }
+        ]
+      },
+      {
+        "name": "how_to_prepare",
+        "label": "Jak się przygotować?",
+        "active": "1",
+        "data": [{
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "Testy żywieniowe P-DTR",
+              "lead": "",
+              "text": "Testowane produkty zapakuj w osobne opakowania w ilości, która zmieści się w łyżeczce od herbaty. Produktu powinny być w postaci czystej, przygotowanej do spożycia (np. UGOTOWANY makaron) i bez dodatków (np. makaron bez sosu). Zabierz ze sobą butelkę wody do picia."
+            }
+          },
+          {
+            "type": "list",
+            "content": {
+              "title": "Grupy produktów do testów:",
+              "items": ["Gluten – chleb pszenny, chleb pełnoziarnisty, chleb żytni na zakwasie, makaron pszenny i inne",
+                "Nabiał- mleko, jogurt, kefir, ser żółty, ser pleśniowy, ser biały i inne",
+                "Orzechy – ziemnie, migdały, nerkowce, laskowe, włoskie, brazylijskie i inne",
+                "Orzechy – ziemnie, migdały, nerkowce, laskowe, włoskie, brazylijskie i inne",
+                "Warzywa psiankowate – papryka, ziemniak, pomidor, bakłażan, pieprz",
+                "Warzywa i przyprawy – cebula, czosnek, seler, rzodkiewka, koperek, kapusta, oregano, brokuł, sałata i inne.",
+                "Ulubione dodatki do potraw – majonez, ketchup, musztarda, gotowe przyprawy i inne.",
+                "Owoce- jabłko, pomarańcza, śliwka, brzoskwinia, awokado, winogrono i inne.",
+                "Pseudozboża – ryż, kasza jaglana, gryczana, amarantu, komosa ryżowa i inne.",
+                "Strączki – groszek, fasola, ciecierzyca, soczewica, soja i inne",
+                "Jaja (na twardo)",
+                "Zażywane suplementy lub lekarstwa"
+              ]
+            }
+          },
+          {
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "",
+              "lead": "",
+              "text": "Kieruj się zasadą: testuję tylko to, co jem. Jeśli nie jadasz np. orzechów laskowych (bo nie lubisz), nie ma konieczności ich testowania."
+            }
+          }
+        ]
+      },
+      {
+        "name": "supplements",
+        "label": "Jak się przygotować?",
+        "active": "1",
+        "data": [{
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "",
+              "lead": "",
+              "text": "W naszej ofercie znajdują się również suplementy, które odpowiednio dobrane optymalizują pracę organizmu nasycając potrzebnymi substancjami."
+            }
+          },
+          {
+            "type": "list",
+            "content": {
+              "title": "Na co to?",
+              "items": ["wspomaganie odchudzania,",
+                "wspomaganie przekaźnictwa nerwowego,",
+                "wspomaganie odtruwania metalami ciężkimi,",
+                "regulacja stresu,",
+                "wsparcie snu i procesu regeneracji,",
+                "zachowanie młodości i jasności umysłu.",
+                "Zażywane suplementy lub lekarstwa"
+              ]
+            }
+          },
+          {
+
+            "type": "text_and_image",
+            "style": {
+              "order": "1"
+            },
+            "content": {
+              "title": "",
+              "lead": "",
+              "image": "assets/images/counseling/supplements.jpg",
+              "text": "Zapraszamy na testy za pomocą metody P-DTR, które pozwolą Ci dobrać odpowiednie dla Ciebie suplementy."
+            }
+
+          }
+        ]
+      },
+      {
+        "name": "curiosities",
+        "label": "Ciekawostki",
+        "active": "1",
+        "data": [{
+          "type": "list",
+          "content": {
+            "title": "MAGNEZ",
+            "items": ["******TEKST******JSON ADD******",
+              "problemy ze snem,",
+              "drganie i skurcze mięśni,",
+              "zespół napięcia przedmiesiączkowego,",
+              "zespół niespokojnych nóg,",
+              "kołatanie serca,",
+              "pogorszenie nastroju,",
+              "drażliwość,",
+              "stany lękowe,",
+              "bóle głowy i migreny,",
+              "choroba refluksowa przełyku,",
+              "zaparcia,",
+              "nadwrażliwość na hałasy"
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "styles": [
+            "image_right",
+            "image_small"
+          ],
+          "content": {
+            "title": "",
+            "lead": "",
+            "text": "Magnez to minerał odgrywający również bardzo ważną rolę w usuwaniu toksyn. Jest niezbędny do odtruwania wątroby."
+          }
+        },
+        {
+          "type": "list",
+          "content": {
+            "title": "RTĘĆ I KRÓTKA HISTORIA POWSTAWANIA PASKUDNYCH CHORÓB",
+            "items": ["******TEKST******JSON ADD******",
+              "Amalgamaty - plomby uzupełniające ubytki w zębach. Amalgamaty możemy wdychać i w tej sytuacji rtęć osiada w płucach i stamtąd przenika do krwi lub możemy połykać - tutaj rtęć wędruje do jelit, gdzie każda postać choroby autoimmunizacyjnej bierze swój początek. Rtęć w jelitach zaburza mikroflorę jelitową co doprowadza do dysbiozy i w konsekwencji do niedoborów witamin z grupy B, które sa produkowane przez zdrową mikroflorę bakterii jelitowych. Jelito cienkie i jego bakteryjne otoczenie decyduje co i ile wątroba może detoksykować. Rtęć w jelicie zrywa komunikację jelito cienkie-wątroba. Nasz organizm traci możliwość detoksykacji i następuje kumulowanie metali ciężkich. Niewydolna wątroba i nieprzyjazne bakterie mobilizują układ odpornościowy do walki produkując przeciwciała, które później krzyżowo wchodzą w reakcje z tkankami naszego ciała.",
+              "Szczepionki zanieczyszczone rtęcią i ponownie blokowanie detoksykacji i zaburzanie metylacji"
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "styles": [
+            "image_right",
+            "image_small"
+          ],
+          "content": {
+            "title": "",
+            "lead": "",
+            "text": "Metale ciężkie są usuwane przez wątrobę. Najważniejszym antyoksydantem eliminującym je jest glutation. Niski poziom glutationu powoduje nadekspresje przeciwciał przyczyniając sie do alergii pokarmowych a później też do problemów autoimmunizacyjnych. Dlaczego jednak tak się dzieję, że tak inteligentny system ludzkiego organizmu pozwala na podatność na zatrucie metalami ciężkimi? Przyczyn tego immunolodzy dopatrują się w zaburzonej mineralizacji. Krótko mówiąc - mamy niedobory minerałów z powodu złej diety lub zespołu złego wchłaniania albo nadmiar stresu zużywa nasz rezurwuar enzymów degradujących działania hormonów stresu. A skoro enzymy, to minerały (zwłaszcza cynk i magnez). Morałem tej krótkiej historii powstawania paskudnych chorób jest jakże banalny przekaz: jedz zdrowo i unikaj stresu, a metale ciężkie będą miały dużo trudniej żeby wniknąć"
+          }
+        },
+        {
+          "type": "text",
+          "styles": [
+            "image_right",
+            "image_small"
+          ],
+          "content": {
+            "title": "TARCZYCA - 22 SYMPTOMY DYSFUKCYJNEJ PRACY GRUCZOŁU TARCZOWEGO",
+            "lead": "",
+            "text": "To jeden z ważnych graczy biorących udział w przemianie materii. Jego hormony wpływają na przyspieszenie spalania wewnątrzkomórkowego (wytwarzanie ciepła), przemianę wodno-mineralną (wydalanie z organizmu wody i soli mineralnych np. jonów sodu) i wiele innych. Zanim wyniki badań hormonów tarczycy z krwi pokażą nieprawidłowości, często objawy dysfunkcji tarczycy są już obecne od dłuższego czasu."
+          }
+        },
+        {
+          "type": "list",
+          "content": {
+            "title": "Jakie to objawy?",
+            "items": ["******TEKST******JSON ADD******",
+              "Nadwaga, trudności z rzuceniem wagi",
+              "Potrzeba dłuższego snu",
+              "Płaczliwość, słaba wola, depresja",
+              "Zaparcia",
+              "Płytki oddech",
+              "Bolesne miesiączki",
+              "Zimne dłonie i stopy",
+              "Łamliwe i wypadające włosy",
+              "Łamliwe paznokcie",
+              "Spierzchnięte usta",
+              "Łuszczące się, pękające stopy (pięty) lub dłonie",
+              "Zmniejszona odporność na infekcje",
+              "Kurcze mięśniowe",
+              "Tendencja do zatrzymywania wody",
+              "Przewlekłe zmęczenie, wyczerpane nadnercza"
+            ]
+          }
+        },
+        {
+          "type": "list",
+          "content": {
+            "title": "NADCZYNNOŚĆ TARCZYCY",
+            "items": ["Problemy z przytyciem, niedowaga",
+              "Pocenie się",
+              "Biegunki, rozwolnienia",
+              "Nerwowość, niepokój, zamartwianie się",
+              "Trudności z zasypianiem, pobudzenie",
+              "Drżenie rąk",
+              "Protruzja gałek ocznych (wytrzeszcz oczu) - w stanach zaawansowanych"
+            ]
+          }
+        },
+        {
+
+          "type": "text_and_image",
+          "style": {
+            "order": "1"
+          },
+          "content": {
+            "title": "LEPTYNOOPORNOŚĆ",
+            "lead": "CZYLI DLACZEGO NIE POTRAFIĘ OPANOWAĆ WILCZEGO GŁODU",
+            "image": "assets/images/counseling/leptynoopornosc.jpg",
+            "text": "Leptyna to hormon produkowany w białej tkance tłuszczowej (tak, tej na brzuchu i udach). Najprościej mówiąc, to hormon sytości. Wraz z krwią jest transportowany do podwzgórza, gdzie znajdują się ośrodki koordynujące nasze behawioralne reakcje na głód. A wszystko co związane z głodem to rzecz jasna związane z przetrwaniem. Ważne jest, aby nie tylko znać definicje i pojęcia, ale rozumieć wzajemne relacje i nie opierać się na dosłownych interpretacjach, bo te często prowadzą do działania objawowego (np. dużo cholesterolu? Podajmy statyny, aby go obniżyć! I po co pytać o przyczyny tego stanu...?) Wobec przetrwania wszystko inne jest kwestią drugorzędową, dlatego leptyna w potężny sposób wpływa na nasze emocje, zachowanie i zachcianki i koordynuje metaboliczne oraz hormonalne reakcje na głód. Im więcej posiadamy białej tkanki tłuszczowej, tym więcej wydziela się leptyny. Leptyna docierając do podwzgórza daje sygnał, aby zatrzymać uczucie głodu i przestać jeść. Niestety, taki przewlekły stan doprowadza do podobnej sytuacji, którą opisywaliśmy w poście INSULINOOPORNOŚĆ CZYLI DLACZEGO NIE POTRAFIĘ SCHUDNĄĆ. Organizmy osób z nadmiarem tkanki tłuszczowej, spożywających zbyt dużo pożywienia reagują opornością na produkowany hormon. Sygnał sytości nie dociera! Ciało człowieka zamienia się w maszynę do zaspokajania głodu. Leptyna to prozapalna cytokina, odgrywająca istotną rolę w inicjowaniu procesów zapalnych zachodzących w organizmie. To właśnie dlatego osoby z nadwagą i otyłe są bardziej podatne na powstawanie procesów zapalnych. Następnymi ofiarami leptyny są nadnercza, tarczyca i hormony płciowe. Zaczyna się prawdziwy chaos."
+          }
+
+        },
+        {
+          "type": "list",
+          "content": {
+            "title": "Skąd masz wiedzieć czy jesteś leptyooporny?",
+            "items": ["********TEKST******JSON****",
+              "nadwaga,",
+              "zmęczenie po posiłkach,",
+              "\"uchwyty miłości\" – boczki,",
+              "niepohamowany apetyt na jedzenie poprawiające nastrój,",
+              "ciągłe odczuwanie niepokoju i stresu,",
+              "ciągły głód,",
+              "odczucie głodu w godzinach późnonocnych,",
+              "osteoporoza,",
+              "trudnością z utratą wagi i jej utrzymaniem na prawidłowym poziomie,",
+              "pragnienie słodyczy lub stymulantów (kawa),",
+              "tendencja do podjadania po posiłku,",
+              "problem z zasypianiem lub spaniem,",
+              "mimo ćwiczeń, Twoje ciało się nie zmienia,",
+              "wysoki poziom trójglicerydów na czczo."
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "styles": [
+            "image_right",
+            "image_small"
+          ],
+          "content": {
+            "title": "INSULINOOPORNOŚĆ",
+            "lead": "CZYLI DLACZEGO NIE MOGĘ SCHUDNĄĆ?",
+            "text": "Z insulinoopornością mamy do czynienia wówczas, gdy niebezpiecznie wzrasta poziom insuliny we krwi, całkowicie blokując hormon antagonistyczny glukagon, co w praktyce uniemożliwia schudnięcie. Organizm zmienia się w maszynę do odkładania tkanki tłuszczowej. Insulinooporność pojawia się w odpowiedzi na stany zapalne. Kolejną najczęstszą przyczyną IO jest nadmiar węglowodanów albo białka w diecie i/lub zbyt częste jedzenie."
+          }
+        },
+        {
+          "type": "list",
+          "content": {
+            "title": "Jakie są najczęstsze objawy insulinooporności?",
+            "items": ["senność po posiłkach,",
+              "spadki cukru,",
+              "drżenie rąk,",
+              "zaburzenia koncentracji,",
+              "zimne poty,",
+              "częste podjadanie,",
+              "otyłość,",
+              "brak efektów treningowych,",
+              "duże ramiona lub uda,",
+              "dysproporcje w budowie sylwetki,",
+              "PCOS - zespół policystycznych jajników,",
+              "hirsuityzm - nadmierne owłosienie u kobiet,",
+              "wysoki poziom testosteronu u kobiet,",
+              "niski poziom testosteronu u mężczyzn,",
+              "biust u mężczyzn"
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "styles": [
+            "image_right",
+            "image_small"
+          ],
+          "content": {
+            "title": "Jaki jest schemat postępowania?",
+            "lead": "",
+            "text": "Przyczyną insulinooporności są nieprawidłowe produkty jedzone w nieodpowiednich ilościach, dlatego jedynym słusznym podejściem jest zmiana sposobu odżywiania. Istnieją 2 możliwe schematy postępowania: natychmiastowa redukcja węglowodanów w diecie do ok 50-80 g na dobę i po kilku miesiącach stopniowe zwiększanie lub metoda małych kroków - podaż węglowodanów szacowana na ok 200-250 g ulega zmniejszaniu co miesiąc o 50 g. Dopóki waga spada nie są konieczne dalsze restrykcje."
+          }
+        },
+        {
+          "type": "list",
+          "content": {
+            "title": "Co jeszcze może pomóc?",
+            "items": ["*******TEKST****NEWTYPE***JSON",
+              "śniadania z węglowodanami,",
+              "soki owocowe ,",
+              "smażenie - ze względu na stan zapalny,",
+              "zboża glutenowe,",
+              "alkohol,",
+              "nabiał,",
+              "buraki, dynia, marchewki,",
+              "syrop glukozowo-fruktozowy,",
+              "słodziki,",
+              "słodkości...i wyobraźnia na temat słodkości (efekt placebo)."
+            ]
+          }
+        }
+      ]
+      }
+    ]
+  },
+  {
     "name": "pdtr",
     "image": "assets/logo/pdtr_logo.png",
     "images_top": [
