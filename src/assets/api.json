@@ -160,7 +160,7 @@
       },
       {
         "name": "supplements",
-        "label": "Jak się przygotować?",
+        "label": "Suplementy",
         "active": "1",
         "data": [{
             "type": "text",
@@ -412,6 +412,46 @@
           }
         }
       ]
+      },
+      {
+        "name": "price_list",
+        "label": "Cennik",
+        "active": "1",
+        "data": [{
+          "type": "table",
+          "shared": "price_list",
+          "class": "normal",
+          "style": {
+            "order": 1
+          }
+        }]
+      },
+      {
+        "name": "schedule",
+        "label": "Grafik",
+        "active": "1",
+        "data": [{
+          "type": "table",
+          "shared": "schedule",
+          "class": "schedule",
+          "style": {
+            "order": 1
+          }
+        }]
+      },
+      {
+        "name": "contact",
+        "label": "Kontakt",
+        "active": "1",
+        "data": [{
+          "type": "contact",
+          "style": {
+            "order": 2
+          },
+          "content": {
+            "title": "Napisz Do Nas"
+          }
+        }]
       }
     ]
   },
@@ -480,6 +520,7 @@
       {
         "name": "gallery",
         "label": "Galeria",
+        "active":"1",
         "data": [{
             "type": "text",
             "styles": [
@@ -731,6 +772,7 @@
       {
         "name": "schedule",
         "label": "Grafik",
+        "active": "1",
         "data": [{
           "type": "table",
           "shared": "schedule",
@@ -1043,6 +1085,54 @@
             "text": "Na pewno zastanawiałeś się, jak joga wpływa na funkcjonowanie Twojego organizmu. Ta prosta grafika ułatwi Ci dostrzec natychmiastowe korzyści, które osiągniesz już zaraz po zejściu z maty, jak i efekty dłuższej, regularnej praktyki."
           }
         }]
+      },
+      {
+        "name": "buy",
+        "label": "Do kupienia",
+        "active": "1",
+        "data": [
+        {
+          "type": "list",
+          "content": {
+            "title": "W naszej ofercie znajdują się wyłącznie sprawdzone produkty:",
+            "items": ["profesjonalne maty do jogi,", "pokrowce,", "odzież (skarpety, spodnie, bluzy, biustonosze sportowe itp.)","i inne akcesoria."]
+          }
+        },
+        {
+          "type": "text",
+          "styles": [
+            "image_right",
+            "image_small"
+          ],
+          "content": {
+            "title": "",
+            "lead": "",
+            "text": "Katalog produktów dostępny w recepcji."
+          }
+        },
+        {
+          "type": "gallery",
+          "content": {
+            "title": "Galeria",
+            "images": [{
+                "url": "assets/images/joga/buy/1.jpg",
+                "title": ""
+              },
+              {
+                "url": "assets/images/joga/buy/2.jpg",
+                "title": ""
+              },
+              {
+                "url": "assets/images/joga/buy/3.jpg",
+                "title": ""
+              },
+              {
+                "url": "assets/images/joga/buy/4.jpg",
+                "title": ""
+              }]
+            }
+          }
+      ]
       },
       {
         "name": "curiosities",
@@ -2115,6 +2205,32 @@
         }]
       },
       {
+        "name": "price_list",
+        "label": "Cennik",
+        "active": "1",
+        "data": [{
+          "type": "table",
+          "shared": "price_list",
+          "class": "normal",
+          "style": {
+            "order": 1
+          }
+        }]
+      },
+      {
+        "name": "schedule",
+        "label": "Grafik",
+        "active": "1",
+        "data": [{
+          "type": "table",
+          "shared": "schedule",
+          "class": "schedule",
+          "style": {
+            "order": 1
+          }
+        }]
+      },
+      {
         "name": "contact",
         "label": "Kontakt",
         "active": "1",
@@ -2578,6 +2694,32 @@
                 "title": ""
               }
             ]
+          }
+        }]
+      },
+      {
+        "name": "price_list",
+        "label": "Cennik",
+        "active": "1",
+        "data": [{
+          "type": "table",
+          "shared": "price_list",
+          "class": "normal",
+          "style": {
+            "order": 1
+          }
+        }]
+      },
+      {
+        "name": "schedule",
+        "label": "Grafik",
+        "active": "1",
+        "data": [{
+          "type": "table",
+          "shared": "schedule",
+          "class": "schedule",
+          "style": {
+            "order": 1
           }
         }]
       },
