@@ -1,6 +1,9 @@
-<div class="row featurette">
-  <div class="order-md-2">
-    {{data.content.title}}
+<div class="row featurette card card-body">
+  <div class="col-md-12 order-md-2">
+    <b>{{data.content.title}}</b>
+    <div *ngIf="data.content.text.length > 0">
+      <p class="lead">{{data.content.text}}</p>
+    </div>
     <ul *ngIf="data.content.items.length > 0">
       <li *ngFor="let item of data.content.items">{{item}}</li>
     </ul>

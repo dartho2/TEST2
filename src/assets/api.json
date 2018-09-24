@@ -129,6 +129,7 @@
             "type": "list",
             "content": {
               "title": "Grupy produktów do testów:",
+              "text": "",
               "items": ["Gluten – chleb pszenny, chleb pełnoziarnisty, chleb żytni na zakwasie, makaron pszenny i inne",
                 "Nabiał- mleko, jogurt, kefir, ser żółty, ser pleśniowy, ser biały i inne",
                 "Orzechy – ziemnie, migdały, nerkowce, laskowe, włoskie, brazylijskie i inne",
@@ -178,6 +179,7 @@
             "type": "list",
             "content": {
               "title": "Na co to?",
+              "text": "",
               "items": ["wspomaganie odchudzania,",
                 "wspomaganie przekaźnictwa nerwowego,",
                 "wspomaganie odtruwania metalami ciężkimi,",
@@ -212,7 +214,8 @@
           "type": "list",
           "content": {
             "title": "MAGNEZ",
-            "items": ["******TEKST******JSON ADD******",
+            "text": "Niedobór magnezu jest bardzo powszechny na całym świecie - może występować nawet u 70% osób. Niektóre jego objawy to:",
+            "items": [
               "problemy ze snem,",
               "drganie i skurcze mięśni,",
               "zespół napięcia przedmiesiączkowego,",
@@ -244,7 +247,8 @@
           "type": "list",
           "content": {
             "title": "RTĘĆ I KRÓTKA HISTORIA POWSTAWANIA PASKUDNYCH CHORÓB",
-            "items": ["******TEKST******JSON ADD******",
+            "text": "Jednym z głównych powodów zapadania na choroby autoimmunizacyjne (rodzaj chorób, w którym ciało atakuje swoje komórki jak np. hashimoto, cukrzyca, astma, reumatoidalne zapalenie stawów, autyzm, atopia) jest zatrucie metalami ciężkimi takimi jak aluminium, kadm, arsen i rtęć. Ten ostatni najczęściej można spotkać w dwóch źródłach:",
+            "items": [
               "Amalgamaty - plomby uzupełniające ubytki w zębach. Amalgamaty możemy wdychać i w tej sytuacji rtęć osiada w płucach i stamtąd przenika do krwi lub możemy połykać - tutaj rtęć wędruje do jelit, gdzie każda postać choroby autoimmunizacyjnej bierze swój początek. Rtęć w jelitach zaburza mikroflorę jelitową co doprowadza do dysbiozy i w konsekwencji do niedoborów witamin z grupy B, które sa produkowane przez zdrową mikroflorę bakterii jelitowych. Jelito cienkie i jego bakteryjne otoczenie decyduje co i ile wątroba może detoksykować. Rtęć w jelicie zrywa komunikację jelito cienkie-wątroba. Nasz organizm traci możliwość detoksykacji i następuje kumulowanie metali ciężkich. Niewydolna wątroba i nieprzyjazne bakterie mobilizują układ odpornościowy do walki produkując przeciwciała, które później krzyżowo wchodzą w reakcje z tkankami naszego ciała.",
               "Szczepionki zanieczyszczone rtęcią i ponownie blokowanie detoksykacji i zaburzanie metylacji"
             ]
@@ -263,22 +267,11 @@
           }
         },
         {
-          "type": "text",
-          "styles": [
-            "image_right",
-            "image_small"
-          ],
-          "content": {
-            "title": "TARCZYCA - 22 SYMPTOMY DYSFUKCYJNEJ PRACY GRUCZOŁU TARCZOWEGO",
-            "lead": "",
-            "text": "To jeden z ważnych graczy biorących udział w przemianie materii. Jego hormony wpływają na przyspieszenie spalania wewnątrzkomórkowego (wytwarzanie ciepła), przemianę wodno-mineralną (wydalanie z organizmu wody i soli mineralnych np. jonów sodu) i wiele innych. Zanim wyniki badań hormonów tarczycy z krwi pokażą nieprawidłowości, często objawy dysfunkcji tarczycy są już obecne od dłuższego czasu."
-          }
-        },
-        {
           "type": "list",
           "content": {
-            "title": "Jakie to objawy?",
-            "items": ["******TEKST******JSON ADD******",
+            "title": "TARCZYCA - 22 SYMPTOMY DYSFUKCYJNEJ PRACY GRUCZOŁU TARCZOWEGO",
+            "text": "To jeden z ważnych graczy biorących udział w przemianie materii. Jego hormony wpływają na przyspieszenie spalania wewnątrzkomórkowego (wytwarzanie ciepła), przemianę wodno-mineralną (wydalanie z organizmu wody i soli mineralnych np. jonów sodu) i wiele innych. Zanim wyniki badań hormonów tarczycy z krwi pokażą nieprawidłowości, często objawy dysfunkcji tarczycy są już obecne od dłuższego czasu. Jakie to objawy?",
+            "items": [
               "Nadwaga, trudności z rzuceniem wagi",
               "Potrzeba dłuższego snu",
               "Płaczliwość, słaba wola, depresja",
@@ -301,6 +294,7 @@
           "type": "list",
           "content": {
             "title": "NADCZYNNOŚĆ TARCZYCY",
+            "text": "",
             "items": ["Problemy z przytyciem, niedowaga",
               "Pocenie się",
               "Biegunki, rozwolnienia",
@@ -329,7 +323,8 @@
           "type": "list",
           "content": {
             "title": "Skąd masz wiedzieć czy jesteś leptyooporny?",
-            "items": ["********TEKST******JSON****",
+            "text": "Jeśli, część z poniższych objawów wydaje Ci się znajoma, może to sugerować, że jesteś oporny na leptynę:",
+            "items": [
               "nadwaga,",
               "zmęczenie po posiłkach,",
               "\"uchwyty miłości\" – boczki,",
@@ -363,6 +358,7 @@
           "type": "list",
           "content": {
             "title": "Jakie są najczęstsze objawy insulinooporności?",
+            "text": "",
             "items": ["senność po posiłkach,",
               "spadki cukru,",
               "drżenie rąk,",
@@ -382,22 +378,11 @@
           }
         },
         {
-          "type": "text",
-          "styles": [
-            "image_right",
-            "image_small"
-          ],
-          "content": {
-            "title": "Jaki jest schemat postępowania?",
-            "lead": "",
-            "text": "Przyczyną insulinooporności są nieprawidłowe produkty jedzone w nieodpowiednich ilościach, dlatego jedynym słusznym podejściem jest zmiana sposobu odżywiania. Istnieją 2 możliwe schematy postępowania: natychmiastowa redukcja węglowodanów w diecie do ok 50-80 g na dobę i po kilku miesiącach stopniowe zwiększanie lub metoda małych kroków - podaż węglowodanów szacowana na ok 200-250 g ulega zmniejszaniu co miesiąc o 50 g. Dopóki waga spada nie są konieczne dalsze restrykcje."
-          }
-        },
-        {
           "type": "list",
           "content": {
-            "title": "Co jeszcze może pomóc?",
-            "items": ["*******TEKST****NEWTYPE***JSON",
+            "title": "Jaki jest schemat postępowania?",
+            "text": "Przyczyną insulinooporności są nieprawidłowe produkty jedzone w nieodpowiednich ilościach, dlatego jedynym słusznym podejściem jest zmiana sposobu odżywiania. Istnieją 2 możliwe schematy postępowania: natychmiastowa redukcja węglowodanów w diecie do ok 50-80 g na dobę i po kilku miesiącach stopniowe zwiększanie lub metoda małych kroków - podaż węglowodanów szacowana na ok 200-250 g ulega zmniejszaniu co miesiąc o 50 g. Dopóki waga spada nie są konieczne dalsze restrykcje. Co jeszcze może pomóc? Unikanie takich produktów lub czynności jak:",
+            "items": [
               "śniadania z węglowodanami,",
               "soki owocowe ,",
               "smażenie - ze względu na stan zapalny,",
@@ -894,7 +879,8 @@
           {
             "type": "list",
             "content": {
-              "title": "Oferta obejmuje:",
+              "title": "",
+              "text": "Oferta obejmuje:",
               "items": ["Joga od podstaw", "Hatha Joga", "Vinyasa Jog"]
             }
           },
@@ -990,6 +976,7 @@
                 "type": "list",
                 "content": {
                   "title": "Oferta obejmuje:",
+                  "text": "",
                   "items": ["Joga od podstaw", "Hatha Joga", "Vinyasa Jog"]
                 }
               },
@@ -1095,6 +1082,7 @@
           "type": "list",
           "content": {
             "title": "W naszej ofercie znajdują się wyłącznie sprawdzone produkty:",
+            "text": "",
             "items": ["profesjonalne maty do jogi,", "pokrowce,", "odzież (skarpety, spodnie, bluzy, biustonosze sportowe itp.)","i inne akcesoria."]
           }
         },
