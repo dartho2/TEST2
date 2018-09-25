@@ -14,10 +14,7 @@ export class AppService {
   getPortals(): Observable<AppModel[]> {
     return this._http.get<AppModel[]>('assets/api.json');
   }
-  getShared(): Observable<SharedModel[]> {
-    return this._http.get<SharedModel[]>('assets/shared.json');
-  }
-
+  
   setImages(result, portal) {
     const image = result.filter(data => data.name === portal);
 

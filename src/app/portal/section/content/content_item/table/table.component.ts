@@ -12,8 +12,7 @@ import {DialogComponent} from '../dialog/dialog.component';
 export class TableComponent {
   @Input()
   data;
-  // types;
-  // service = this.portals;
+
   fileNameDialogRef: MatDialogRef<DialogComponent>;
   
   constructor(
@@ -21,8 +20,7 @@ export class TableComponent {
     public portals: PortalComponent) { }
   
     openDialog(nameClass) {
-      // let types = this.portals.shared.filter(sections => sections.name === 'types_classes')
-      let types = this.portals.shared.filter(sections => sections.name === this.data.class_shared)
+      let types = this.portals.portal.sections.filter(sections => sections.name === this.data.class_shared)
       const dialogRef = this.dialog.open(DialogComponent, {
         data: {data: types, type_class: nameClass}
     })
