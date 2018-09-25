@@ -45,7 +45,7 @@
       },
       {
         "name": "how_are_we_doing",
-        "label": "Jak działamy",
+        "label": "Jak działamy ?",
         "active": "1",
         "data": [{
             "type": "text",
@@ -156,6 +156,21 @@
               "lead": "",
               "text": "Kieruj się zasadą: testuję tylko to, co jem. Jeśli nie jadasz np. orzechów laskowych (bo nie lubisz), nie ma konieczności ich testowania."
             }
+          },
+          {
+            "type": "gallery",
+            "content": {
+              "title": "Przykłady zapakowania produktów:",
+              "images": [{
+                  "url": "assets/images/counseling/20180306_083620.jpg",
+                  "title": ""
+                },
+                {
+                  "url": "assets/images/counseling/20180122_153352.jpg",
+                  "title": ""
+                }
+              ]
+            }
           }
         ]
       },
@@ -211,209 +226,220 @@
         "label": "Ciekawostki",
         "active": "1",
         "data": [{
-          "type": "list",
-          "content": {
-            "title": "MAGNEZ",
-            "text": "Niedobór magnezu jest bardzo powszechny na całym świecie - może występować nawet u 70% osób. Niektóre jego objawy to:",
-            "items": [
-              "problemy ze snem,",
-              "drganie i skurcze mięśni,",
-              "zespół napięcia przedmiesiączkowego,",
-              "zespół niespokojnych nóg,",
-              "kołatanie serca,",
-              "pogorszenie nastroju,",
-              "drażliwość,",
-              "stany lękowe,",
-              "bóle głowy i migreny,",
-              "choroba refluksowa przełyku,",
-              "zaparcia,",
-              "nadwrażliwość na hałasy"
-            ]
-          }
-        },
-        {
-          "type": "text",
-          "styles": [
-            "image_right",
-            "image_small"
-          ],
-          "content": {
-            "title": "",
-            "lead": "",
-            "text": "Magnez to minerał odgrywający również bardzo ważną rolę w usuwaniu toksyn. Jest niezbędny do odtruwania wątroby."
-          }
-        },
-        {
-          "type": "list",
-          "content": {
-            "title": "RTĘĆ I KRÓTKA HISTORIA POWSTAWANIA PASKUDNYCH CHORÓB",
-            "text": "Jednym z głównych powodów zapadania na choroby autoimmunizacyjne (rodzaj chorób, w którym ciało atakuje swoje komórki jak np. hashimoto, cukrzyca, astma, reumatoidalne zapalenie stawów, autyzm, atopia) jest zatrucie metalami ciężkimi takimi jak aluminium, kadm, arsen i rtęć. Ten ostatni najczęściej można spotkać w dwóch źródłach:",
-            "items": [
-              "Amalgamaty - plomby uzupełniające ubytki w zębach. Amalgamaty możemy wdychać i w tej sytuacji rtęć osiada w płucach i stamtąd przenika do krwi lub możemy połykać - tutaj rtęć wędruje do jelit, gdzie każda postać choroby autoimmunizacyjnej bierze swój początek. Rtęć w jelitach zaburza mikroflorę jelitową co doprowadza do dysbiozy i w konsekwencji do niedoborów witamin z grupy B, które sa produkowane przez zdrową mikroflorę bakterii jelitowych. Jelito cienkie i jego bakteryjne otoczenie decyduje co i ile wątroba może detoksykować. Rtęć w jelicie zrywa komunikację jelito cienkie-wątroba. Nasz organizm traci możliwość detoksykacji i następuje kumulowanie metali ciężkich. Niewydolna wątroba i nieprzyjazne bakterie mobilizują układ odpornościowy do walki produkując przeciwciała, które później krzyżowo wchodzą w reakcje z tkankami naszego ciała.",
-              "Szczepionki zanieczyszczone rtęcią i ponownie blokowanie detoksykacji i zaburzanie metylacji"
-            ]
-          }
-        },
-        {
-          "type": "text",
-          "styles": [
-            "image_right",
-            "image_small"
-          ],
-          "content": {
-            "title": "",
-            "lead": "",
-            "text": "Metale ciężkie są usuwane przez wątrobę. Najważniejszym antyoksydantem eliminującym je jest glutation. Niski poziom glutationu powoduje nadekspresje przeciwciał przyczyniając sie do alergii pokarmowych a później też do problemów autoimmunizacyjnych. Dlaczego jednak tak się dzieję, że tak inteligentny system ludzkiego organizmu pozwala na podatność na zatrucie metalami ciężkimi? Przyczyn tego immunolodzy dopatrują się w zaburzonej mineralizacji. Krótko mówiąc - mamy niedobory minerałów z powodu złej diety lub zespołu złego wchłaniania albo nadmiar stresu zużywa nasz rezurwuar enzymów degradujących działania hormonów stresu. A skoro enzymy, to minerały (zwłaszcza cynk i magnez). Morałem tej krótkiej historii powstawania paskudnych chorób jest jakże banalny przekaz: jedz zdrowo i unikaj stresu, a metale ciężkie będą miały dużo trudniej żeby wniknąć"
-          }
-        },
-        {
-          "type": "list",
-          "content": {
-            "title": "TARCZYCA - 22 SYMPTOMY DYSFUKCYJNEJ PRACY GRUCZOŁU TARCZOWEGO",
-            "text": "To jeden z ważnych graczy biorących udział w przemianie materii. Jego hormony wpływają na przyspieszenie spalania wewnątrzkomórkowego (wytwarzanie ciepła), przemianę wodno-mineralną (wydalanie z organizmu wody i soli mineralnych np. jonów sodu) i wiele innych. Zanim wyniki badań hormonów tarczycy z krwi pokażą nieprawidłowości, często objawy dysfunkcji tarczycy są już obecne od dłuższego czasu. Jakie to objawy?",
-            "items": [
-              "Nadwaga, trudności z rzuceniem wagi",
-              "Potrzeba dłuższego snu",
-              "Płaczliwość, słaba wola, depresja",
-              "Zaparcia",
-              "Płytki oddech",
-              "Bolesne miesiączki",
-              "Zimne dłonie i stopy",
-              "Łamliwe i wypadające włosy",
-              "Łamliwe paznokcie",
-              "Spierzchnięte usta",
-              "Łuszczące się, pękające stopy (pięty) lub dłonie",
-              "Zmniejszona odporność na infekcje",
-              "Kurcze mięśniowe",
-              "Tendencja do zatrzymywania wody",
-              "Przewlekłe zmęczenie, wyczerpane nadnercza"
-            ]
-          }
-        },
-        {
-          "type": "list",
-          "content": {
-            "title": "NADCZYNNOŚĆ TARCZYCY",
-            "text": "",
-            "items": ["Problemy z przytyciem, niedowaga",
-              "Pocenie się",
-              "Biegunki, rozwolnienia",
-              "Nerwowość, niepokój, zamartwianie się",
-              "Trudności z zasypianiem, pobudzenie",
-              "Drżenie rąk",
-              "Protruzja gałek ocznych (wytrzeszcz oczu) - w stanach zaawansowanych"
-            ]
-          }
-        },
-        {
-
-          "type": "text_and_image",
-          "style": {
-            "order": "1"
+            "type": "list",
+            "content": {
+              "title": "MAGNEZ",
+              "text": "Niedobór magnezu jest bardzo powszechny na całym świecie - może występować nawet u 70% osób. Niektóre jego objawy to:",
+              "items": [
+                "problemy ze snem,",
+                "drganie i skurcze mięśni,",
+                "zespół napięcia przedmiesiączkowego,",
+                "zespół niespokojnych nóg,",
+                "kołatanie serca,",
+                "pogorszenie nastroju,",
+                "drażliwość,",
+                "stany lękowe,",
+                "bóle głowy i migreny,",
+                "choroba refluksowa przełyku,",
+                "zaparcia,",
+                "nadwrażliwość na hałasy"
+              ]
+            }
           },
-          "content": {
-            "title": "LEPTYNOOPORNOŚĆ",
-            "lead": "CZYLI DLACZEGO NIE POTRAFIĘ OPANOWAĆ WILCZEGO GŁODU",
-            "image": "assets/images/counseling/leptynoopornosc.jpg",
-            "text": "Leptyna to hormon produkowany w białej tkance tłuszczowej (tak, tej na brzuchu i udach). Najprościej mówiąc, to hormon sytości. Wraz z krwią jest transportowany do podwzgórza, gdzie znajdują się ośrodki koordynujące nasze behawioralne reakcje na głód. A wszystko co związane z głodem to rzecz jasna związane z przetrwaniem. Ważne jest, aby nie tylko znać definicje i pojęcia, ale rozumieć wzajemne relacje i nie opierać się na dosłownych interpretacjach, bo te często prowadzą do działania objawowego (np. dużo cholesterolu? Podajmy statyny, aby go obniżyć! I po co pytać o przyczyny tego stanu...?) Wobec przetrwania wszystko inne jest kwestią drugorzędową, dlatego leptyna w potężny sposób wpływa na nasze emocje, zachowanie i zachcianki i koordynuje metaboliczne oraz hormonalne reakcje na głód. Im więcej posiadamy białej tkanki tłuszczowej, tym więcej wydziela się leptyny. Leptyna docierając do podwzgórza daje sygnał, aby zatrzymać uczucie głodu i przestać jeść. Niestety, taki przewlekły stan doprowadza do podobnej sytuacji, którą opisywaliśmy w poście INSULINOOPORNOŚĆ CZYLI DLACZEGO NIE POTRAFIĘ SCHUDNĄĆ. Organizmy osób z nadmiarem tkanki tłuszczowej, spożywających zbyt dużo pożywienia reagują opornością na produkowany hormon. Sygnał sytości nie dociera! Ciało człowieka zamienia się w maszynę do zaspokajania głodu. Leptyna to prozapalna cytokina, odgrywająca istotną rolę w inicjowaniu procesów zapalnych zachodzących w organizmie. To właśnie dlatego osoby z nadwagą i otyłe są bardziej podatne na powstawanie procesów zapalnych. Następnymi ofiarami leptyny są nadnercza, tarczyca i hormony płciowe. Zaczyna się prawdziwy chaos."
-          }
+          {
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "",
+              "lead": "",
+              "text": "Magnez to minerał odgrywający również bardzo ważną rolę w usuwaniu toksyn. Jest niezbędny do odtruwania wątroby."
+            }
+          },
+          {
+            "type": "list",
+            "content": {
+              "title": "RTĘĆ I KRÓTKA HISTORIA POWSTAWANIA PASKUDNYCH CHORÓB",
+              "text": "Jednym z głównych powodów zapadania na choroby autoimmunizacyjne (rodzaj chorób, w którym ciało atakuje swoje komórki jak np. hashimoto, cukrzyca, astma, reumatoidalne zapalenie stawów, autyzm, atopia) jest zatrucie metalami ciężkimi takimi jak aluminium, kadm, arsen i rtęć. Ten ostatni najczęściej można spotkać w dwóch źródłach:",
+              "items": [
+                "Amalgamaty - plomby uzupełniające ubytki w zębach. Amalgamaty możemy wdychać i w tej sytuacji rtęć osiada w płucach i stamtąd przenika do krwi lub możemy połykać - tutaj rtęć wędruje do jelit, gdzie każda postać choroby autoimmunizacyjnej bierze swój początek. Rtęć w jelitach zaburza mikroflorę jelitową co doprowadza do dysbiozy i w konsekwencji do niedoborów witamin z grupy B, które sa produkowane przez zdrową mikroflorę bakterii jelitowych. Jelito cienkie i jego bakteryjne otoczenie decyduje co i ile wątroba może detoksykować. Rtęć w jelicie zrywa komunikację jelito cienkie-wątroba. Nasz organizm traci możliwość detoksykacji i następuje kumulowanie metali ciężkich. Niewydolna wątroba i nieprzyjazne bakterie mobilizują układ odpornościowy do walki produkując przeciwciała, które później krzyżowo wchodzą w reakcje z tkankami naszego ciała.",
+                "Szczepionki zanieczyszczone rtęcią i ponownie blokowanie detoksykacji i zaburzanie metylacji"
+              ]
+            }
+          },
+          {
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "",
+              "lead": "",
+              "text": "Metale ciężkie są usuwane przez wątrobę. Najważniejszym antyoksydantem eliminującym je jest glutation. Niski poziom glutationu powoduje nadekspresje przeciwciał przyczyniając sie do alergii pokarmowych a później też do problemów autoimmunizacyjnych. Dlaczego jednak tak się dzieję, że tak inteligentny system ludzkiego organizmu pozwala na podatność na zatrucie metalami ciężkimi? Przyczyn tego immunolodzy dopatrują się w zaburzonej mineralizacji. Krótko mówiąc - mamy niedobory minerałów z powodu złej diety lub zespołu złego wchłaniania albo nadmiar stresu zużywa nasz rezurwuar enzymów degradujących działania hormonów stresu. A skoro enzymy, to minerały (zwłaszcza cynk i magnez). Morałem tej krótkiej historii powstawania paskudnych chorób jest jakże banalny przekaz: jedz zdrowo i unikaj stresu, a metale ciężkie będą miały dużo trudniej żeby wniknąć"
+            }
+          },
+          {
+            "type": "list",
+            "content": {
+              "title": "TARCZYCA - 22 SYMPTOMY DYSFUKCYJNEJ PRACY GRUCZOŁU TARCZOWEGO",
+              "text": "To jeden z ważnych graczy biorących udział w przemianie materii. Jego hormony wpływają na przyspieszenie spalania wewnątrzkomórkowego (wytwarzanie ciepła), przemianę wodno-mineralną (wydalanie z organizmu wody i soli mineralnych np. jonów sodu) i wiele innych. Zanim wyniki badań hormonów tarczycy z krwi pokażą nieprawidłowości, często objawy dysfunkcji tarczycy są już obecne od dłuższego czasu. Jakie to objawy?",
+              "items": [
+                "Nadwaga, trudności z rzuceniem wagi",
+                "Potrzeba dłuższego snu",
+                "Płaczliwość, słaba wola, depresja",
+                "Zaparcia",
+                "Płytki oddech",
+                "Bolesne miesiączki",
+                "Zimne dłonie i stopy",
+                "Łamliwe i wypadające włosy",
+                "Łamliwe paznokcie",
+                "Spierzchnięte usta",
+                "Łuszczące się, pękające stopy (pięty) lub dłonie",
+                "Zmniejszona odporność na infekcje",
+                "Kurcze mięśniowe",
+                "Tendencja do zatrzymywania wody",
+                "Przewlekłe zmęczenie, wyczerpane nadnercza"
+              ]
+            }
+          },
+          {
+            "type": "list",
+            "content": {
+              "title": "NADCZYNNOŚĆ TARCZYCY",
+              "text": "",
+              "items": ["Problemy z przytyciem, niedowaga",
+                "Pocenie się",
+                "Biegunki, rozwolnienia",
+                "Nerwowość, niepokój, zamartwianie się",
+                "Trudności z zasypianiem, pobudzenie",
+                "Drżenie rąk",
+                "Protruzja gałek ocznych (wytrzeszcz oczu) - w stanach zaawansowanych"
+              ]
+            }
+          },
+          {
+            "type": "gallery",
+            "content": {
+              "title": "",
+              "images": [{
+                "url": "assets/images/counseling/leptynoopornosc.jpg",
+                "title": ""
+              }]
+            }
+          },
+          {
 
-        },
-        {
-          "type": "list",
-          "content": {
-            "title": "Skąd masz wiedzieć czy jesteś leptyooporny?",
-            "text": "Jeśli, część z poniższych objawów wydaje Ci się znajoma, może to sugerować, że jesteś oporny na leptynę:",
-            "items": [
-              "nadwaga,",
-              "zmęczenie po posiłkach,",
-              "\"uchwyty miłości\" – boczki,",
-              "niepohamowany apetyt na jedzenie poprawiające nastrój,",
-              "ciągłe odczuwanie niepokoju i stresu,",
-              "ciągły głód,",
-              "odczucie głodu w godzinach późnonocnych,",
-              "osteoporoza,",
-              "trudnością z utratą wagi i jej utrzymaniem na prawidłowym poziomie,",
-              "pragnienie słodyczy lub stymulantów (kawa),",
-              "tendencja do podjadania po posiłku,",
-              "problem z zasypianiem lub spaniem,",
-              "mimo ćwiczeń, Twoje ciało się nie zmienia,",
-              "wysoki poziom trójglicerydów na czczo."
-            ]
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "LEPTYNOOPORNOŚĆ",
+              "lead": "CZYLI DLACZEGO NIE POTRAFIĘ OPANOWAĆ WILCZEGO GŁODU",
+              "text": "Leptyna to hormon produkowany w białej tkance tłuszczowej (tak, tej na brzuchu i udach). Najprościej mówiąc, to hormon sytości. Wraz z krwią jest transportowany do podwzgórza, gdzie znajdują się ośrodki koordynujące nasze behawioralne reakcje na głód. A wszystko co związane z głodem to rzecz jasna związane z przetrwaniem. Ważne jest, aby nie tylko znać definicje i pojęcia, ale rozumieć wzajemne relacje i nie opierać się na dosłownych interpretacjach, bo te często prowadzą do działania objawowego (np. dużo cholesterolu? Podajmy statyny, aby go obniżyć! I po co pytać o przyczyny tego stanu...?) Wobec przetrwania wszystko inne jest kwestią drugorzędową, dlatego leptyna w potężny sposób wpływa na nasze emocje, zachowanie i zachcianki i koordynuje metaboliczne oraz hormonalne reakcje na głód. Im więcej posiadamy białej tkanki tłuszczowej, tym więcej wydziela się leptyny. Leptyna docierając do podwzgórza daje sygnał, aby zatrzymać uczucie głodu i przestać jeść. Niestety, taki przewlekły stan doprowadza do podobnej sytuacji, którą opisywaliśmy w poście INSULINOOPORNOŚĆ CZYLI DLACZEGO NIE POTRAFIĘ SCHUDNĄĆ. Organizmy osób z nadmiarem tkanki tłuszczowej, spożywających zbyt dużo pożywienia reagują opornością na produkowany hormon. Sygnał sytości nie dociera! Ciało człowieka zamienia się w maszynę do zaspokajania głodu. Leptyna to prozapalna cytokina, odgrywająca istotną rolę w inicjowaniu procesów zapalnych zachodzących w organizmie. To właśnie dlatego osoby z nadwagą i otyłe są bardziej podatne na powstawanie procesów zapalnych. Następnymi ofiarami leptyny są nadnercza, tarczyca i hormony płciowe. Zaczyna się prawdziwy chaos."
+            }
+
+          },
+          {
+            "type": "list",
+            "content": {
+              "title": "Skąd masz wiedzieć czy jesteś leptyooporny?",
+              "text": "Jeśli, część z poniższych objawów wydaje Ci się znajoma, może to sugerować, że jesteś oporny na leptynę:",
+              "items": [
+                "nadwaga,",
+                "zmęczenie po posiłkach,",
+                "\"uchwyty miłości\" – boczki,",
+                "niepohamowany apetyt na jedzenie poprawiające nastrój,",
+                "ciągłe odczuwanie niepokoju i stresu,",
+                "ciągły głód,",
+                "odczucie głodu w godzinach późnonocnych,",
+                "osteoporoza,",
+                "trudnością z utratą wagi i jej utrzymaniem na prawidłowym poziomie,",
+                "pragnienie słodyczy lub stymulantów (kawa),",
+                "tendencja do podjadania po posiłku,",
+                "problem z zasypianiem lub spaniem,",
+                "mimo ćwiczeń, Twoje ciało się nie zmienia,",
+                "wysoki poziom trójglicerydów na czczo."
+              ]
+            }
+          },
+          {
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "INSULINOOPORNOŚĆ",
+              "lead": "CZYLI DLACZEGO NIE MOGĘ SCHUDNĄĆ?",
+              "text": "Z insulinoopornością mamy do czynienia wówczas, gdy niebezpiecznie wzrasta poziom insuliny we krwi, całkowicie blokując hormon antagonistyczny glukagon, co w praktyce uniemożliwia schudnięcie. Organizm zmienia się w maszynę do odkładania tkanki tłuszczowej. Insulinooporność pojawia się w odpowiedzi na stany zapalne. Kolejną najczęstszą przyczyną IO jest nadmiar węglowodanów albo białka w diecie i/lub zbyt częste jedzenie."
+            }
+          },
+          {
+            "type": "list",
+            "content": {
+              "title": "Jakie są najczęstsze objawy insulinooporności?",
+              "text": "",
+              "items": ["senność po posiłkach,",
+                "spadki cukru,",
+                "drżenie rąk,",
+                "zaburzenia koncentracji,",
+                "zimne poty,",
+                "częste podjadanie,",
+                "otyłość,",
+                "brak efektów treningowych,",
+                "duże ramiona lub uda,",
+                "dysproporcje w budowie sylwetki,",
+                "PCOS - zespół policystycznych jajników,",
+                "hirsuityzm - nadmierne owłosienie u kobiet,",
+                "wysoki poziom testosteronu u kobiet,",
+                "niski poziom testosteronu u mężczyzn,",
+                "biust u mężczyzn"
+              ]
+            }
+          },
+          {
+            "type": "list",
+            "content": {
+              "title": "Jaki jest schemat postępowania?",
+              "text": "Przyczyną insulinooporności są nieprawidłowe produkty jedzone w nieodpowiednich ilościach, dlatego jedynym słusznym podejściem jest zmiana sposobu odżywiania. Istnieją 2 możliwe schematy postępowania: natychmiastowa redukcja węglowodanów w diecie do ok 50-80 g na dobę i po kilku miesiącach stopniowe zwiększanie lub metoda małych kroków - podaż węglowodanów szacowana na ok 200-250 g ulega zmniejszaniu co miesiąc o 50 g. Dopóki waga spada nie są konieczne dalsze restrykcje. Co jeszcze może pomóc? Unikanie takich produktów lub czynności jak:",
+              "items": [
+                "śniadania z węglowodanami,",
+                "soki owocowe ,",
+                "smażenie - ze względu na stan zapalny,",
+                "zboża glutenowe,",
+                "alkohol,",
+                "nabiał,",
+                "buraki, dynia, marchewki,",
+                "syrop glukozowo-fruktozowy,",
+                "słodziki,",
+                "słodkości...i wyobraźnia na temat słodkości (efekt placebo)."
+              ]
+            }
           }
-        },
-        {
-          "type": "text",
-          "styles": [
-            "image_right",
-            "image_small"
-          ],
-          "content": {
-            "title": "INSULINOOPORNOŚĆ",
-            "lead": "CZYLI DLACZEGO NIE MOGĘ SCHUDNĄĆ?",
-            "text": "Z insulinoopornością mamy do czynienia wówczas, gdy niebezpiecznie wzrasta poziom insuliny we krwi, całkowicie blokując hormon antagonistyczny glukagon, co w praktyce uniemożliwia schudnięcie. Organizm zmienia się w maszynę do odkładania tkanki tłuszczowej. Insulinooporność pojawia się w odpowiedzi na stany zapalne. Kolejną najczęstszą przyczyną IO jest nadmiar węglowodanów albo białka w diecie i/lub zbyt częste jedzenie."
-          }
-        },
-        {
-          "type": "list",
-          "content": {
-            "title": "Jakie są najczęstsze objawy insulinooporności?",
-            "text": "",
-            "items": ["senność po posiłkach,",
-              "spadki cukru,",
-              "drżenie rąk,",
-              "zaburzenia koncentracji,",
-              "zimne poty,",
-              "częste podjadanie,",
-              "otyłość,",
-              "brak efektów treningowych,",
-              "duże ramiona lub uda,",
-              "dysproporcje w budowie sylwetki,",
-              "PCOS - zespół policystycznych jajników,",
-              "hirsuityzm - nadmierne owłosienie u kobiet,",
-              "wysoki poziom testosteronu u kobiet,",
-              "niski poziom testosteronu u mężczyzn,",
-              "biust u mężczyzn"
-            ]
-          }
-        },
-        {
-          "type": "list",
-          "content": {
-            "title": "Jaki jest schemat postępowania?",
-            "text": "Przyczyną insulinooporności są nieprawidłowe produkty jedzone w nieodpowiednich ilościach, dlatego jedynym słusznym podejściem jest zmiana sposobu odżywiania. Istnieją 2 możliwe schematy postępowania: natychmiastowa redukcja węglowodanów w diecie do ok 50-80 g na dobę i po kilku miesiącach stopniowe zwiększanie lub metoda małych kroków - podaż węglowodanów szacowana na ok 200-250 g ulega zmniejszaniu co miesiąc o 50 g. Dopóki waga spada nie są konieczne dalsze restrykcje. Co jeszcze może pomóc? Unikanie takich produktów lub czynności jak:",
-            "items": [
-              "śniadania z węglowodanami,",
-              "soki owocowe ,",
-              "smażenie - ze względu na stan zapalny,",
-              "zboża glutenowe,",
-              "alkohol,",
-              "nabiał,",
-              "buraki, dynia, marchewki,",
-              "syrop glukozowo-fruktozowy,",
-              "słodziki,",
-              "słodkości...i wyobraźnia na temat słodkości (efekt placebo)."
-            ]
-          }
-        }
-      ]
+        ]
       },
       {
         "name": "treners",
         "label": "Nasz konsultant",
         "active": "1",
         "data": [{
-            "type": "text_and_image",
-            "style": {
-              "order": 1
-            },
-            "content": {
-              "title": "Maja Bednarczyk",
-              "lead": "",
-              "image": "assets/images/treners/Maja.jpg",
-              "text": "Specjalista metody P-DTR, trener personalny z wieloletnim doświadczeniem, dyplomowany nauczyciel jogi, Od lat jestem zainteresowana holistycznym podejściem do zdrowia fizycznego i psychicznego człowieka. Zaowocowało to ukończeniem kilkudziesięciu kursów i szkoleń z zakresu dietetyki, fizjologii, anatomii, systemów treningowych oraz niekonwencjonalnych metod. Pracę z klientem indywidualnym zaczęłam jako trener personalny w 2013 roku prowadząc w większości osoby z problemami zdrowotnymi. W tym samym czasie rozwijałam się na polu nauczyciela jogi o specjalizacji Hatha Yoga, oraz prowadziłam zajęcia grupowe takie jak Zdrowy Kręgosłup, Pilates i Trening Funkcjonalny. Szczególnie mocno skupiłam się w tym czasie na treningach funkcjonalnych i miałam przyjemność stanąć dwukrotnie na Konwencji Fitness jako Prezenter i Szkoleniowiec w Euro Fitness School z Bielska Białej w 2016 roku obok wielu świetnych Trenerów z Polski i z Europy. Rok później podobną współpracę zaczęłam ze Szkołą Instruktorów Fitness w Krakowie. Szkolenie młodych instruktorów fitness sprawiało mi dużą frajdę i dało wiele ciekawych doświadczeń oraz lekcji – tym razem to ja miałam przekazywać wiedzę, a nie ją brać. Ta zmiana perspektywy dużo mnie nauczyła. Po kilku latach pracy w zawodzie trenera personalnego i instruktora fitness, trafiłam przypadkiem na P-DTR czyli proprioceptywną terapię odruchową. Pierwsze wrażenie jakie zrobiła na mnie ta metoda było piorunujące – istna magia na dodatek z natychmiastowym efektem! Parę miesięcy później siedziałam już jako student na pierwszym module rocznego szkolenia u twórcy metody dr Jose Palomara (Meksyk). Sądzę, że już wtedy przeczuwałam, że P-DTR zmieni moje życie. Z bycia trenerem i promotorem zdrowego jedzenia i aktywnego stylu życia, stałam się Praktykiem metody P-DTR na poziomie zaawansowanym, aktywnie zainteresowaną neurologią, psychosomatyką i kinezjologią. Dawne zainteresowania i praca trenera oraz prowadzącego lekcje grupowe zmieniły kontekst i nabrały nowej jakości. Dzisiaj z ogromną przyjemnością dzielę potencjał metody P-DTR ze swoimi Klientami i samodzielnie rozwijam własne narzędzia w poszukiwaniu priorytetowych dysfunkcji receptorów w układzie nerwowym, pomagając w takich dolegliwościach jak: bóle, ograniczenia ruchowe, stany napięciowe pochodzenia emocjonalnego, problemy psychosomatyczne i inne. Prowadzę treningi personalne mając nowe spojrzenie na ludzkie ciało i jego potrzeby, rozpisuję diety indywidualnie dobrane na podstawie testów żywieniowych i uczę jogi na kilku poziomach trudności. Moja droga nie była najkrótszą z możliwych, ale mam wrażenie, że najlepszą z możliwych. Zapraszam serdeczne!"
-            }
-          }]},
+          "type": "text_and_image",
+          "style": {
+            "order": 1
+          },
+          "content": {
+            "title": "Maja Bednarczyk",
+            "lead": "",
+            "image": "assets/images/treners/Maja.jpg",
+            "text": "Specjalista metody P-DTR, trener personalny z wieloletnim doświadczeniem, dyplomowany nauczyciel jogi, Od lat jestem zainteresowana holistycznym podejściem do zdrowia fizycznego i psychicznego człowieka. Zaowocowało to ukończeniem kilkudziesięciu kursów i szkoleń z zakresu dietetyki, fizjologii, anatomii, systemów treningowych oraz niekonwencjonalnych metod. Pracę z klientem indywidualnym zaczęłam jako trener personalny w 2013 roku prowadząc w większości osoby z problemami zdrowotnymi. W tym samym czasie rozwijałam się na polu nauczyciela jogi o specjalizacji Hatha Yoga, oraz prowadziłam zajęcia grupowe takie jak Zdrowy Kręgosłup, Pilates i Trening Funkcjonalny. Szczególnie mocno skupiłam się w tym czasie na treningach funkcjonalnych i miałam przyjemność stanąć dwukrotnie na Konwencji Fitness jako Prezenter i Szkoleniowiec w Euro Fitness School z Bielska Białej w 2016 roku obok wielu świetnych Trenerów z Polski i z Europy. Rok później podobną współpracę zaczęłam ze Szkołą Instruktorów Fitness w Krakowie. Szkolenie młodych instruktorów fitness sprawiało mi dużą frajdę i dało wiele ciekawych doświadczeń oraz lekcji – tym razem to ja miałam przekazywać wiedzę, a nie ją brać. Ta zmiana perspektywy dużo mnie nauczyła. Po kilku latach pracy w zawodzie trenera personalnego i instruktora fitness, trafiłam przypadkiem na P-DTR czyli proprioceptywną terapię odruchową. Pierwsze wrażenie jakie zrobiła na mnie ta metoda było piorunujące – istna magia na dodatek z natychmiastowym efektem! Parę miesięcy później siedziałam już jako student na pierwszym module rocznego szkolenia u twórcy metody dr Jose Palomara (Meksyk). Sądzę, że już wtedy przeczuwałam, że P-DTR zmieni moje życie. Z bycia trenerem i promotorem zdrowego jedzenia i aktywnego stylu życia, stałam się Praktykiem metody P-DTR na poziomie zaawansowanym, aktywnie zainteresowaną neurologią, psychosomatyką i kinezjologią. Dawne zainteresowania i praca trenera oraz prowadzącego lekcje grupowe zmieniły kontekst i nabrały nowej jakości. Dzisiaj z ogromną przyjemnością dzielę potencjał metody P-DTR ze swoimi Klientami i samodzielnie rozwijam własne narzędzia w poszukiwaniu priorytetowych dysfunkcji receptorów w układzie nerwowym, pomagając w takich dolegliwościach jak: bóle, ograniczenia ruchowe, stany napięciowe pochodzenia emocjonalnego, problemy psychosomatyczne i inne. Prowadzę treningi personalne mając nowe spojrzenie na ludzkie ciało i jego potrzeby, rozpisuję diety indywidualnie dobrane na podstawie testów żywieniowych i uczę jogi na kilku poziomach trudności. Moja droga nie była najkrótszą z możliwych, ale mam wrażenie, że najlepszą z możliwych. Zapraszam serdeczne!"
+          }
+        }]
+      },
       {
         "name": "price_list",
         "label": "Cennik",
@@ -493,22 +519,75 @@
         "label": "O metodzie",
         "active": "1",
         "data": [{
-          "type": "text_and_image",
-          "style": {
-            "order": "1"
+            "type": "text_and_image",
+            "style": {
+              "order": "1"
+            },
+            "content": {
+              "title": "Jogasutry Patańdżalego",
+              "lead": "",
+              "image": "assets/images/pdtr/o_metodzie.jpg",
+              "text": "P-DTR to jedna z najskuteczniejszych metod modulacji pracy układu nerwowego opisana przez lekarza Jose Palomara. Jest nieinwazyjna, bezpieczna i najważniejsze - przynosi natychmiastowy efekt. Jej holistyczne podejście do zdrowia i uwzględnienie takich czynników jak wpływ żywienia, chemii czy emocji infekujących ciało zdecydowanie wyróżnia ją na tle innych metod. Jako jedyni w okolicy, działamy w oparciu o protokół metody P-DTR w ramach indywidualnych spotkań i treningów personalnych usprawniając naszych Podopiecznych i realizując ich cele w ekspresowym tempie. Ciało człowieka zawiera olbrzymią liczbę receptorów odbierających rozmaite informacje ze świata zewnętrznego. Jedne reagują na ucisk tkanki, inne na temperaturę otoczenia, a kolejne na chemiczne substancje znajdujące się w bliskim kontakcie (np. z pożywienia czy z kremu do rąk, który właśnie nakładasz), itd. Receptory działają jak niewidzialne kamery, które nieustannie monitorują Twoje otoczenia w celu identyfikacji potencjalnych zagrożeń. Są oknem na świat naszego najważniejszego organu - mózgu - który zarządza całym organizmem. Po otrzymaniu informacji zebranych przez receptory, ośrodkowy układ nerwowy (na który składa się mózg oraz rdzeń kręgowy) wydaje dyspozycje do układów narządów ciała adekwatne do jakości tychże informacji, sterując takimi mechanizmami jak: napięcie mięśniowe, wydzielanie wewnętrzne, odczuwanie bólu czy nastrój emocjonalny. Dobre informacje na wejściu są gwarancją dobrych reakcji na wyjściu. Ta zasada stanowi fundament metody P-DTR: 95% nieprawidłowych odpowiedzi układu nerwowego, które interpretujemy jako ból czy ograniczenia ruchowe wynika z nieprawidłowej pracy receptorów \"popsutych\" w wyniku wypadku, kontuzji, złych nawyków, odżywiania, chemii, traumy emocjonalnej i chronicznego stresu."
+            }
           },
-          "content": {
-            "title": "Jogasutry Patańdżalego",
-            "lead": "",
-            "image": "assets/images/pdtr/o_metodzie.jpg",
-            "text": "P-DTR to jedna z najskuteczniejszych metod modulacji pracy układu nerwowego opisana przez lekarza Jose Palomara. Jest nieinwazyjna, bezpieczna i najważniejsze - przynosi natychmiastowy efekt. Jej holistyczne podejście do zdrowia i uwzględnienie takich czynników jak wpływ żywienia, chemii czy emocji infekujących ciało zdecydowanie wyróżnia ją na tle innych metod. Jako jedyni w okolicy, działamy w oparciu o protokół metody P-DTR w ramach indywidualnych spotkań i treningów personalnych usprawniając naszych Podopiecznych i realizując ich cele w ekspresowym tempie. Ciało człowieka zawiera olbrzymią liczbę receptorów odbierających rozmaite informacje ze świata zewnętrznego. Jedne reagują na ucisk tkanki, inne na temperaturę otoczenia, a kolejne na chemiczne substancje znajdujące się w bliskim kontakcie (np. z pożywienia czy z kremu do rąk, który właśnie nakładasz), itd. Receptory działają jak niewidzialne kamery, które nieustannie monitorują Twoje otoczenia w celu identyfikacji potencjalnych zagrożeń. Są oknem na świat naszego najważniejszego organu - mózgu - który zarządza całym organizmem. Po otrzymaniu informacji zebranych przez receptory, ośrodkowy układ nerwowy (na który składa się mózg oraz rdzeń kręgowy) wydaje dyspozycje do układów narządów ciała adekwatne do jakości tychże informacji, sterując takimi mechanizmami jak: napięcie mięśniowe, wydzielanie wewnętrzne, odczuwanie bólu czy nastrój emocjonalny. Dobre informacje na wejściu są gwarancją dobrych reakcji na wyjściu. Ta zasada stanowi fundament metody P-DTR: 95% nieprawidłowych odpowiedzi układu nerwowego, które interpretujemy jako ból czy ograniczenia ruchowe wynika z nieprawidłowej pracy receptorów \"popsutych\" w wyniku wypadku, kontuzji, złych nawyków, odżywiania, chemii, traumy emocjonalnej i chronicznego stresu."
+          {
+            "type": "list",
+            "content": {
+              "title": "",
+              "text": "P-DTR to metoda z działu funkcjonalnej neurologii stosowana w fizjoterapii, usprawnianiu sportowców i przywracaniu zdrowia oraz równowagi w organizmie. Jej zastosowanie pomoże w:",
+              "items": [
+                "dolegliwościach bólowych kręgosłupa,",
+                "bólach stawowych",
+                "ograniczeniach ruchowych i dysbalansach mięśniowych,",
+                "przywracaniu efektywności treningowej,",
+                "przywracaniu sprawności pourazowej,",
+                "identyfikacji czynników nietolerowanych przez organizm (nietolerancje żywieniowe i chemiczne),",
+                "chronicznym stresie i problemach na tle emocjonalnym."
+              ]
+            }
+          },
+          {
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "",
+              "lead": "",
+              "text": "Praca metodą P-DTR nie naraża Klientów na nieprzyjemne lub bolesne doświadczenia. Klienci w sposób aktywny uczestniczą w terapii i mają szanse przyjrzeć się reakcją swojego ciała. Każdej sesji towarzyszą testy diagnostyczne dzięki którym poznasz faktyczny stan swojego zdrowia."
+            }
+          },
+          {
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "",
+              "lead": "",
+              "text": "Przyjdź, skorzystaj, sprawdź możliwości tej innowacyjnej metody i ciesz się swoim zdrowiem!"
+            }
+          },
+          {
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "",
+              "lead": "",
+              "text": "Spotkania prowadzi -> specjalista metody P-DTR <- (przejście do Praktyk P-DTR) w stopniu ADVANCED (zaawansowany): mgr Maja Bednarczyk #TODO"
+            }
           }
-        }]
+        ]
       },
       {
         "name": "gallery",
         "label": "Galeria",
-        "active":"1",
+        "active": "1",
         "data": [{
             "type": "text",
             "styles": [
@@ -551,11 +630,11 @@
             "content": {
               "title": "Galeria",
               "images": [{
-                  "url": "assets/images/pdtr/gallery/1.jpg",
+                  "url": "assets/images/pdtr/gallery/2.jpg",
                   "title": ""
                 },
                 {
-                  "url": "assets/images/pdtr/gallery/2.jpg",
+                  "url": "assets/images/pdtr/gallery/1.jpg",
                   "title": ""
                 }
               ]
@@ -749,17 +828,18 @@
         "label": "Praktyk P-DTR",
         "active": "1",
         "data": [{
-            "type": "text_and_image",
-            "style": {
-              "order": 1
-            },
-            "content": {
-              "title": "Maja Bednarczyk",
-              "lead": "",
-              "image": "assets/images/treners/Maja.jpg",
-              "text": "Specjalista metody P-DTR, trener personalny z wieloletnim doświadczeniem, dyplomowany nauczyciel jogi, Od lat jestem zainteresowana holistycznym podejściem do zdrowia fizycznego i psychicznego człowieka. Zaowocowało to ukończeniem kilkudziesięciu kursów i szkoleń z zakresu dietetyki, fizjologii, anatomii, systemów treningowych oraz niekonwencjonalnych metod. Pracę z klientem indywidualnym zaczęłam jako trener personalny w 2013 roku prowadząc w większości osoby z problemami zdrowotnymi. W tym samym czasie rozwijałam się na polu nauczyciela jogi o specjalizacji Hatha Yoga, oraz prowadziłam zajęcia grupowe takie jak Zdrowy Kręgosłup, Pilates i Trening Funkcjonalny. Szczególnie mocno skupiłam się w tym czasie na treningach funkcjonalnych i miałam przyjemność stanąć dwukrotnie na Konwencji Fitness jako Prezenter i Szkoleniowiec w Euro Fitness School z Bielska Białej w 2016 roku obok wielu świetnych Trenerów z Polski i z Europy. Rok później podobną współpracę zaczęłam ze Szkołą Instruktorów Fitness w Krakowie. Szkolenie młodych instruktorów fitness sprawiało mi dużą frajdę i dało wiele ciekawych doświadczeń oraz lekcji – tym razem to ja miałam przekazywać wiedzę, a nie ją brać. Ta zmiana perspektywy dużo mnie nauczyła. Po kilku latach pracy w zawodzie trenera personalnego i instruktora fitness, trafiłam przypadkiem na P-DTR czyli proprioceptywną terapię odruchową. Pierwsze wrażenie jakie zrobiła na mnie ta metoda było piorunujące – istna magia na dodatek z natychmiastowym efektem! Parę miesięcy później siedziałam już jako student na pierwszym module rocznego szkolenia u twórcy metody dr Jose Palomara (Meksyk). Sądzę, że już wtedy przeczuwałam, że P-DTR zmieni moje życie. Z bycia trenerem i promotorem zdrowego jedzenia i aktywnego stylu życia, stałam się Praktykiem metody P-DTR na poziomie zaawansowanym, aktywnie zainteresowaną neurologią, psychosomatyką i kinezjologią. Dawne zainteresowania i praca trenera oraz prowadzącego lekcje grupowe zmieniły kontekst i nabrały nowej jakości. Dzisiaj z ogromną przyjemnością dzielę potencjał metody P-DTR ze swoimi Klientami i samodzielnie rozwijam własne narzędzia w poszukiwaniu priorytetowych dysfunkcji receptorów w układzie nerwowym, pomagając w takich dolegliwościach jak: bóle, ograniczenia ruchowe, stany napięciowe pochodzenia emocjonalnego, problemy psychosomatyczne i inne. Prowadzę treningi personalne mając nowe spojrzenie na ludzkie ciało i jego potrzeby, rozpisuję diety indywidualnie dobrane na podstawie testów żywieniowych i uczę jogi na kilku poziomach trudności. Moja droga nie była najkrótszą z możliwych, ale mam wrażenie, że najlepszą z możliwych. Zapraszam serdeczne!"
-            }
-          }]},
+          "type": "text_and_image",
+          "style": {
+            "order": 1
+          },
+          "content": {
+            "title": "Maja Bednarczyk",
+            "lead": "",
+            "image": "assets/images/treners/Maja.jpg",
+            "text": "Specjalista metody P-DTR, trener personalny z wieloletnim doświadczeniem, dyplomowany nauczyciel jogi, Od lat jestem zainteresowana holistycznym podejściem do zdrowia fizycznego i psychicznego człowieka. Zaowocowało to ukończeniem kilkudziesięciu kursów i szkoleń z zakresu dietetyki, fizjologii, anatomii, systemów treningowych oraz niekonwencjonalnych metod. Pracę z klientem indywidualnym zaczęłam jako trener personalny w 2013 roku prowadząc w większości osoby z problemami zdrowotnymi. W tym samym czasie rozwijałam się na polu nauczyciela jogi o specjalizacji Hatha Yoga, oraz prowadziłam zajęcia grupowe takie jak Zdrowy Kręgosłup, Pilates i Trening Funkcjonalny. Szczególnie mocno skupiłam się w tym czasie na treningach funkcjonalnych i miałam przyjemność stanąć dwukrotnie na Konwencji Fitness jako Prezenter i Szkoleniowiec w Euro Fitness School z Bielska Białej w 2016 roku obok wielu świetnych Trenerów z Polski i z Europy. Rok później podobną współpracę zaczęłam ze Szkołą Instruktorów Fitness w Krakowie. Szkolenie młodych instruktorów fitness sprawiało mi dużą frajdę i dało wiele ciekawych doświadczeń oraz lekcji – tym razem to ja miałam przekazywać wiedzę, a nie ją brać. Ta zmiana perspektywy dużo mnie nauczyła. Po kilku latach pracy w zawodzie trenera personalnego i instruktora fitness, trafiłam przypadkiem na P-DTR czyli proprioceptywną terapię odruchową. Pierwsze wrażenie jakie zrobiła na mnie ta metoda było piorunujące – istna magia na dodatek z natychmiastowym efektem! Parę miesięcy później siedziałam już jako student na pierwszym module rocznego szkolenia u twórcy metody dr Jose Palomara (Meksyk). Sądzę, że już wtedy przeczuwałam, że P-DTR zmieni moje życie. Z bycia trenerem i promotorem zdrowego jedzenia i aktywnego stylu życia, stałam się Praktykiem metody P-DTR na poziomie zaawansowanym, aktywnie zainteresowaną neurologią, psychosomatyką i kinezjologią. Dawne zainteresowania i praca trenera oraz prowadzącego lekcje grupowe zmieniły kontekst i nabrały nowej jakości. Dzisiaj z ogromną przyjemnością dzielę potencjał metody P-DTR ze swoimi Klientami i samodzielnie rozwijam własne narzędzia w poszukiwaniu priorytetowych dysfunkcji receptorów w układzie nerwowym, pomagając w takich dolegliwościach jak: bóle, ograniczenia ruchowe, stany napięciowe pochodzenia emocjonalnego, problemy psychosomatyczne i inne. Prowadzę treningi personalne mając nowe spojrzenie na ludzkie ciało i jego potrzeby, rozpisuję diety indywidualnie dobrane na podstawie testów żywieniowych i uczę jogi na kilku poziomach trudności. Moja droga nie była najkrótszą z możliwych, ale mam wrażenie, że najlepszą z możliwych. Zapraszam serdeczne!"
+          }
+        }]
+      },
       {
         "name": "price_list",
         "label": "Cennik",
@@ -862,6 +942,214 @@
               "lead": "",
               "image": "assets/images/joga/yogasutry.jpg",
               "text": "System jogi klasycznej został zebrany i opracowany w Jogasutrach powstałych w III w. p.n.e., przypisywanych mędrcowi Patańdżalemu. Jogasutry to pierwszy jednolity tekst o jodze składający się ze 195 sutr - aforyzmów. Stamtąd pochodzą podstawy filozoficzne jogi."
+            }
+          },
+          {
+            "type": "text",
+            "float": "",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "",
+              "lead": "",
+              "text": "Klasyczna joga opisana przez Patańdżalego ma osiem stopni. Dwa pierwsze stopnie są praktykami wstępnymi, przygotowującymi do właściwej praktyki - yamy i niyamy pomagają opanować namiętności i kontrolować emocje, a także zachować harmonię ze wszechświatem. Trzy kolejne związane są z poszukiwaniami zewnętrznymi - asany oddziaływają na ciało, tworząc je silnym i zdrowym, pranayama i pratyahara uczą regulacji oddechu, a przez to kontroli zmysłów i umysłu. Dharana, dhyana oraz samadhi to praktyki wewnętrzne - poszukiwania duszy, pozwalające na odnalezienie harmonii ze sobą i światem."
+            }
+          },
+          {
+            "type": "list",
+            "content": {
+              "title": "Podstawy ośmiostopniowej ścieżki jogi Patańdżalego",
+              "text": "",
+              "items": ["Yamy - uniwersalne przykazania moralne: niekrzywdzenie, prawda, niekradzenie, wstrzemięźliwość, niezachłanność",
+                "Niyamy - zasady postępowania: czystość, zadowolenie, zapał, poznawanie samego siebie, poświęcenie się.",
+                "Asany – pozycje jogi. Przywracają ciało do stanu zdrowia i witalności, rozwijają sprawność i wytrzymałość, wpływają na pracę mięśni, stawów, nerwów i gruczołów wewnętrznych.",
+                "Pranayama – kontrola energii życiowej (prana) poprzez regulację oddechu. Utrzymanie pełnego, stabilnego oddechu pozwala wyciszyć i skoncentrować umysł.",
+                "Pratyahara - wycofanie uwagi ze świata zewnetrznego poprzez rozlużnienie zmysłów i skierowanie uwagi do wnętrza.",
+                "Dharana – stan koncentracji osiągnięty dzięki opanowaniu ciała przez asany, umysłu przez pranayamę, a zmysłów przez pratyaharę.",
+                "Dhyana – kontemplacja, która powstaje w wyniku długotrwałej koncentracji. Ciało, umysł, zmysły, intelekt i ego są zintegrowane z obiektem medytacji.",
+                "Samadhi – ostateczny cel jogi i innych systemów rozwoju. Stan w którym ciało i zmysły odpoczywają jak w śnie głębokim, a władze umysłu i intelektu pozostają w stanie czuwania. Stan ten charakteryzuje się odczuwaniem głębokiego spokoju, totalnej świadomości tego co jest tu i teraz oraz doświadczeniem braku podziałów na “ja” i świat zewnętrzny."
+              ]
+            }
+          },
+          {
+            "type": "text",
+            "float": "",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "Pozycje jogi:",
+              "lead": "",
+              "text": ""
+            }
+          },
+          {
+            "type": "text",
+            "float": "",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "Pozycje stojące",
+              "lead": "",
+              "text": "Najważniejsza grupa asan dla osób dopiero zaczynających praktykę, przygotowuje do dalszej praktyki. Sprawiają że stajemy się silniejsi i bardziej elastyczni. Mają bardzo szeroki zakres działania: zwalczają sztywność nóg i bioder, korygują lekkie wady nóg i umożliwiają ich symetryczny rozwój, uśmierzają bóle pleców, tonizują narządy jamy brzusznej, wzmacniają okolicę kostek, dają uziemienie pozycji. Ponadto rozwijają klatkę piersiową, dzięki czemu są pomocne również w pranajamie. Pozycje stojące rozgrzewają ciało na początku ćwiczeń. Często wymagają zaangażowania całego ciała, stabilnej postawy. Pozycje stojące zawierają elementy wszystkich innych pozycji, przygotowują ciało do trudniejszych asan"
+            }
+          },
+          {
+            "type": "text",
+            "float": "",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "Pozycje siedzące",
+              "lead": "",
+              "text": "Bardzo często wymagają wcześniejszego przygotowania w pozycjach stojących. Pomagają rozluźnić ciało, zmniejszają napięcie mięśni. Aby wykonać je prawidłowo kręgosłup musi być mocno wyciągnięty do góry. Pozycje te wzmacniają kręgosłup, usprawniają krążenie krwi - ułatwiają dopływ krwi do mózgu co ma istotne znaczenie w praktyce medytacji. A także to że przynoszą spokój, pomagają pozbyć się stresu. Dodatkowo tonizują narządy jamy brzusznej i klatki piersiowej. Są istotne zwłaszcza dla kobiet, gdyż uelastyczniają biodra i mięśnie dna miednicy a co za tym idzie: ułatwiają naturalny poród, zmniejszają napięcia i bóle."
+            }
+          },
+          {
+            "type": "text",
+            "float": "",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "Wygięcia do przodu",
+              "lead": "",
+              "text": "Tonizują narządy brzucha, podnoszą tonus nerek, regenerują kręgosłup i polepszają trawienie, rozciągają tył ciała, wyciszają umysł."
+            }
+          },
+          {
+            "type": "text",
+            "float": "",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "Wygięcia do tyłu",
+              "lead": "",
+              "text": "intensywnie otwierają okolicę mostka, rozciągają klatkę piersiową oraz mięśnie brzucha, wzmacniają kręgosłup - plecy stają się mocne i pełne życia, asany te dodają energii i pewności siebie"
+            }
+          },
+          {
+            "type": "text",
+            "float": "",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "Pozycje odwrócone",
+              "lead": "",
+              "text": "To kluczowe pozycje w jodze. Wymagają stabilności ciała i umysłu. Wykonuje się je zwykle pod koniec sesji, kiedy ciało jest już dobrze rozgrzane. Mają szerokie działanie prozdrowotne: zwiększają dopływ czystej, utlenionej krwi do komórek mózgowych, co zwiększa moc intelektu i jasność myślenia. Poprawiają krążenie limfatyczne i żylne. Poprawiają pracę serca, stymulują system immunologiczny. Regulują gospodarkę hormonalną i przemianę materii, wykorzeniają przeziębienia i dolegliwości górnych dróg oddechowych. Leczą astmę i zapalenie zatok. Odmładzają i regenerują skórę twarzy. Umożliwiają samo oczyszczenie się organizmu, pomagają usuwać toksyny. Usuwają bóle głowy. Działają odprężająco na układ nerwowy. Gwarantują dobry sen. Uspokajają, pomagają pozbyć się lęków i depresji, spojrzeć na wszystko z innej stronya jednocześnie energetyzują ciało."
+            }
+          },
+          {
+            "type": "text",
+            "float": "",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "Skręty",
+              "lead": "",
+              "text": "Uelastyczniają i wzmacniają kręgosłup, biodra i barki. Oczyszczają i regenerują wewnętrzne narządy brzucha. Przywracają witalność."
+            }
+          },
+          {
+            "type": "text",
+            "float": "",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "Pozycje balansujące",
+              "lead": "",
+              "text": "Przeważnie należą do nich pozycje zaawansowane, dosyć trudne do wykonania dla osoby początkującej. Pozycje te bardzo dobrze wpływają na zdrowie: wzmacniają i uelastyczniają całe ciało. Zapewniają wysoką sprawność fizyczną, dają siłę. Pozycje balansujące wzmacniają ręce i barki. Poprawiają poczucie równowagi. Stymulują do pracy wszystkie narządy jamy brzusznej. Masują komory serca, ćwiczą płuca i klatkę piersiową, zwiększają pobór tlenu. Są to pozycje energetyzujące. Oprócz siły fizycznej, dają również siłę duchową."
+            }
+          },
+          {
+            "type": "text",
+            "float": "",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "Dynamiczne sekwencje",
+              "lead": "",
+              "text": "Dają siłę i wytrzymałość. Bardzo szybko ożywiają i rozgrzewają nawet głębokie warstwy ciała."
+            }
+          },
+          {
+            "type": "text",
+            "float": "",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "Pozycje leżące",
+              "lead": "",
+              "text": "Dają ujście stresom i zmęczeniu, ułatwiają spokojny, stabilny oddech. Rozciągają i wzmacniają kończyny dolne. Rozluźniają dolną część pleców, przynoszą ulgę w bólu. Pozycje te otwierają biodra, poprawiają funkcjonowanie organów rozrodczych, poprawiają trawienie. Regenerują i odżywiają ciało."
+            }
+          },
+          {
+            "type": "text",
+            "float": "",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "Relaks",
+              "lead": "",
+              "text": "Pozwala doświadczyć stanu całkowitego rozluźnienia ciała ( jak w czasie snu głębokiego) przy zachowaniu pełnej świadomości. Daje uwagę i wrażliwość potrzebną do pracy z oddechem."
+            }
+          },
+          {
+            "type": "text",
+            "float": "",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "Ćwiczenia oddechowe",
+              "lead": "",
+              "text": "Pełny i świadomy oddech dostarcza organizmowi niezbędnej energii, prowadzi do koncentracji i kontaktu z najgłębszymi pokładami nas samych. Zmiana sposobu oddychania pozytywnie wpływa na stan emocjonalny."
+            }
+          },
+          {
+            "type": "gallery",
+            "content": {
+              "title": "",
+              "images": [{
+                "url": "assets/images/joga/yoga-153436_1280.png",
+                "title": ""
+              }]
+            }
+          },
+          {
+            "type": "text",
+            "float": "",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "",
+              "lead": "",
+              "text": ",,Joga jest dziedziną wieloaspektową. Celem i kulminacją praktyki jogi jest poznanie duszy, jednak po drodze pojawia się mnóstwo korzystnych efektów ubocznych, na przykład zdrowie, szczęście, spokój i równowaga. W tym sensie jogę można nazwać terapią.”"
             }
           }
         ]
@@ -1083,1078 +1371,1152 @@
         "name": "buy",
         "label": "Do kupienia",
         "active": "1",
-        "data": [
-        {
-          "type": "list",
-          "content": {
-            "title": "W naszej ofercie znajdują się wyłącznie sprawdzone produkty:",
-            "text": "",
-            "items": ["profesjonalne maty do jogi,", "pokrowce,", "odzież (skarpety, spodnie, bluzy, biustonosze sportowe itp.)","i inne akcesoria."]
-          }
-        },
-        {
-          "type": "text",
-          "styles": [
-            "image_right",
-            "image_small"
-          ],
-          "content": {
-            "title": "",
-            "lead": "",
-            "text": "Katalog produktów dostępny w recepcji."
-          }
-        },
-        {
-          "type": "gallery",
-          "content": {
-            "title": "Galeria",
-            "images": [{
-                "url": "assets/images/joga/buy/1.jpg",
-                "title": ""
-              },
-              {
-                "url": "assets/images/joga/buy/2.jpg",
-                "title": ""
-              },
-              {
-                "url": "assets/images/joga/buy/3.jpg",
-                "title": ""
-              },
-              {
-                "url": "assets/images/joga/buy/4.jpg",
-                "title": ""
-              }]
+        "data": [{
+            "type": "list",
+            "content": {
+              "title": "W naszej ofercie znajdują się wyłącznie sprawdzone produkty:",
+              "text": "",
+              "items": ["profesjonalne maty do jogi,", "pokrowce,", "odzież (skarpety, spodnie, bluzy, biustonosze sportowe itp.)", "i inne akcesoria."]
+            }
+          },
+          {
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "",
+              "lead": "",
+              "text": "Katalog produktów dostępny w recepcji."
+            }
+          },
+          {
+            "type": "gallery",
+            "content": {
+              "title": "Galeria",
+              "images": [{
+                  "url": "assets/images/joga/buy/1.jpg",
+                  "title": ""
+                },
+                {
+                  "url": "assets/images/joga/buy/2.jpg",
+                  "title": ""
+                },
+                {
+                  "url": "assets/images/joga/buy/3.jpg",
+                  "title": ""
+                },
+                {
+                  "url": "assets/images/joga/buy/4.jpg",
+                  "title": ""
+                }
+              ]
             }
           }
-      ]
+        ]
       },
       {
         "name": "curiosities",
         "label": "Ciekawostki",
         "active": "1",
         "data": [{
-          "type": "table",
-          "class": "normal",
-          "style": {
-            "order": 1
-          },
-          "content": {
-            "title": "",
-            "lead": "",
-            "image": "assets/images/solarium/solarium.jpg",
-            "thead": [{
-                "title": "CECHY",
-                "style": {
-                  "colspan": ""
-                }
-              },
-              {
-                "title": "VATA",
-                "style": {
-                  "colspan": ""
-                }
-              },
-              {
-                "title": "PITTA",
-                "style": {
-                  "colspan": ""
-                }
-              },
-              {
-                "title": "KAPHA",
-                "style": {
-                  "colspan": ""
-                }
-              }
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
             ],
-            "columns": [
-              [
-                [{
-                    "title": "Wzrost",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
+            "content": {
+              "title": "LUDZIE KAPHA",
+              "lead": "",
+              "text": "To osoby o solidnej i mocnej budowie ciała. Ich kości są grube i mocne, mają dużo tkanki mięśniowej, ale słabo widocznej lub w ogóle niewidocznej, ponieważ przykrywa je dość obfita tkanka tłuszczowa. Są to osoby najczęściej bardzo silne, ale powolne. Mimo takiej solidnej struktury mogą mieć okresowo chłodne stopy i dłonie, jeśli jest zimno i wilgotno. Źle się czują w okresie jesienno-zimowym (podobnie jak vata), a zwłaszcza gdy jest mokro i wilgotnie, co silnie obciąża ich doszę. Mają raczej dobry apetyt, ale ponieważ trawią powoli, może on się rozregulować, szczególnie gdy się przejadają. Pocą się zazwyczaj umiarkowanie, chyba że cierpią na nadwagę, co stanowi charakterystyczną cechę rozregulowanego kapha. Stolec jest raczej luźny, ale wydalany powoli. Kapha to osoby o największej wytrzymałości i witalności spośród wszystkich typów. Zwykle cechuje ich zrelaksowanie i spokój. Bardzo rzadko wybuchają gniewem. Gdy nie są w równowadze, mają tendencję do zawiści, zachłanności, żądzy, ospałości i lenistwa. Dominanta elementu wody i ziemi sprawia, że jej głównymi cechami jest stałości i stabilność. Tak więc podstawowym zaleceniem zdrowotnym dla tej doszy musi być ruch i aktywność na każdym poziomie, co ludziom kapha doskonale wychodzi na zdrowie."
+            }
+          },
+          {
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "PRAKTYKA ASAN",
+              "lead": "",
+              "text": "Niezależnie od wzrostu, kości kapha są grube i masywne, a także krótsze niż u innych typów konstytucyjnych. Z tego powodu często nie mogą wykonywać asan, które z łatwością wychodzą długonogim vata i elastycznym pitta. Tendencja do odkładania się tkanki tłuszczowej na brzuchu i udach również stanowi czasami ograniczenie w codziennej praktyce. Kapha mają słabą obręcz barkową. Ludzie kapha powinni prowadzić aktywną i intensywniejszą praktykę asan niż pozostałe typy, aby stymulować metabolizm i krążenie. Korzystne asany: pozycje stojące, otwarcia klatki piersiowej, wyprosty kręgosłupa Niekorzystne asany: pozycje siedzące, względnie – skłony do przodu Medytacja: Dzięki medytacji, ludzie kapha mogą pokonać mentalną stagnację i wrodzoną tendencję do przywiązania emocjonalnego. Medytacja jednak przychodzi im z trudem i zmiany zachodzą powoli. Podobnie jak u vaty, wskazana jest medytacja z nasieniem czyli z mantrą lub wizualizacją trenującą koncentrację."
+            }
+          },
+          {
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "LUDZIE PITTA",
+              "lead": "",
+              "text": "To osoby o średniej budowie. Odznaczają się solidniejszą budową niż vata. Ich kości są grubsze, mają więcej tkanki mięśniowej o dość dobrze widocznej rzeźbie. Pitta charakteryzują się stosunkowo dużą siłą fizyczną. Są to ludzie, którym zawsze gorąco, a więc mają prawie zawsze ciepłe dłonie i stopy. Wykazują tendencję do przegrzewania się, dlatego najlepiej się czują, gdy jest chłodno. Gorące lato może być dla nich koszmarem.Mają wilczy apetyt i bardzo dobre trawienie, którego jednak często nadużywają, co prowadzi u nich do problemów gastrycznych. Pitta pocą się obficie i wydzielają dużo moczu, nie miewają kłopotów z wypróżnieniem.To ludzie bardzo inteligentni, szybcy i przedsiębiorczy, często o wielkim talencie oratorskim. Wszystko co robią, starają się wykonać perfekcyjnie, jednak gdy nie są w równowadze mają tendencję do gniewu, impulsywności i nienawiści.Dominanta elementu ognia w tej konstytucji sprawia, że jej główną cechą jest intensywność dlatego podstawowym zaleceniem zdrowotnym dla tej doszy powinno być umiarkowanie w każdej sferze życia."
+            }
+          },
+          {
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "PRAKTYKA JOGI",
+              "lead": "",
+              "text": "Ludzie pitta zazwyczaj mają dobrze rozwiniętą muskulaturę ciała i elastyczność w związku z dobrym krążeniem oraz smarowaniem stawów. Osoby te powinny uważać, aby na skutek zbyt nadmiernej i forsownej praktyki asan nie rozluźnić zbytnio stawów. Ćwicząc jogę, pitta częściej niż inni doprowadzają swoje stawy do hipermobilności, a należy pamiętać iż znacznie łatwiej usunąć jest sztywność niż ustabilizować rozchwiany staw. Pitta mają tendencję do współzawodnictwa, więc element umiaru w praktyce asan jest bardzo ważny.Korzystne asany: świeca, pług (przywracające balans energii), świerszcz, kobra, aktywne wygięcia do tyłu, zgięcia kręgosłupa (działają ochładzająco)Niekorzystne asany: stanie na głowie (z powodu dużej mocy rozgrzewającej)Medytacja: Dzięki niej, osoby pitta mają możliwość rozładować złość i agresję, a także odpuszczenie sobie w tych sprawach, które chcą za wszelką cenę kontrolować. Raczej nie mają problemów z koncentracją i łatwiej im się medytuje niż vata i kapha, jednak muszą zwrócić uwagę, aby nie zamienić medytacji w kolejną formę zawodów i rywalizacji (często z samym sobą). Zaleca się również techniki rozluźniające, które pomogą w akceptacji siebie i świata takim jakimi są. Miłość i akceptacja są tym, co pozwala typom pitta zakończyć medytację spokojnie, z uczuciem przyjemnego schłodzenia na poziomie serca i emocji"
+            }
+          },
+          {
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "LUDZIE VATA",
+              "lead": "",
+              "text": "To osoby szczupłe, o lekkiej budowie. Ich kości są cienkie i długie, a mięśnie, ścięgna i żyły najczęściej bardzo dobrze widoczne. Mogą być albo bardzo wysocy, albo bardzo niscy. Dłonie i stopy są u nich najczęściej zimne. Osoby te mają ogólną tendencję do szybkiego wychładzania organizmu, dlatego źle się czują w chłodnym klimacie, zwłaszcza gdy jest on dodatkowo wietrzny i suchy.Osoby te cechuje zmienny apetyt i zmienne trawienie. Jest jednak jedyny typ konstytucyjny, który może jeść wszystko i nie przybierać na wadze. Ludzie vata wydzielają stosunkowo mało moczu, również stolec nie jest zbyt obfity. Pocą się najmniej ze wszystkich typów konstytucyjnych. Charakterystyczną cechą jest tendencja do zaparć, często chronicznych.Są to ludzie twórczy, czujni i aktywni, a gdy trwają w pełnej równowadze – zawsze radośni, pełni entuzjazmu i energiczni. Szybko mówią, szybko chodzą i szybko się męczą.Charakteryzuje ich zdolność łatwego rozumienia, kojarzenia faktów i zapamiętywania, ale ich pamięć jest krótka. Przy braku równowagi tendencja vata do impulsywności powoduje, że tacy ludzie przepracowują się, podekscytowanie zamienia się w zmęczenie, a następnie w chroniczne wyczerpanie, co najczęściej prowadzi do depresji. Wtedy mogą być nerwowi, nieufni i nieśmiali.Dominanta powietrza i eteru sprawia, że mają bardzo zmienną naturę, dlatego podstawowym zaleceniem dla tego typu jest uregulowany tryb życia, regeneracja i dostateczny wypoczynek na co dzień."
+            }
+          },
+          {
+            "type": "text",
+            "styles": [
+              "image_right",
+              "image_small"
+            ],
+            "content": {
+              "title": "PRAKTYKA JOGI",
+              "lead": "",
+              "text": "Osoby typu vata są zazwyczaj elastyczne i zwinne za młodu, jednak często brakuje im energii i wytrzymałości. Z wiekiem ich ciała sztywnieją w związku z czym cierpią z powodu zmian zwyrodnieniowych stawów, mają słabe krążenie i strzelające stawy. Dominanta eteru i powietrzu sprawia, że ludzie vata są nerwowi, wrażliwi i często bojaźliwi co przejawia się zapadnięciem klatki piersiowej i napięciem obręczy barkowej. Mają skłonność do skoliozy.Praktyka asan powinna być rozgrzewająca i ukierunkowana przede wszystkim na miednicę i okolicę okrężnicy – główne umiejscowienie doszy. Należy dążyć do zmniejszenia napięcia i odblokowania stawów w odcinku kręgosłupa lędźwiowego.Korzystne asany: otwarcia bioder, wygięcia do przodu i tyłu, skręty kręgosłupa, zwłaszcza w dolnym kręgosłupie.Niekorzystne asany: pozycje, gdzie występuje duża kompresja na stawy (np. świeca, stanie na głowie) z powodu kruchości kościMedytacja: Koniecznie w savasanie i koniecznie po każdej lekcji jogi. Osoby te mają tendencje do „odlatywania” w czasie medytacji, dlatego powinna być stosowana tzw. medytacja z nasieniem. Chodzi o praktykowanie medytacji z dodatkowym narzędziem w postaci mantry, czy wizualizacji, która pozwoli zająć i uziemić rozedrgany umysł vata. Szczególnie ważnie jest wzmacnianie zdolności koncentracyjnych w asanach i prana jamie, aby słaby układ nerwowy vata był w stanie znieść obciążenie medytacji."
+            }
+          },
+          {
+            "type": "table",
+            "class": "normal",
+            "style": {
+              "order": 1
+            },
+            "content": {
+              "title": "",
+              "lead": "",
+              "image": "assets/images/solarium/solarium.jpg",
+              "thead": [{
+                  "title": "CECHY",
+                  "style": {
+                    "colspan": ""
                   }
-                ],
-                [{
-                    "title": "Wysoki albo niski",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
+                },
+                {
+                  "title": "VATA",
+                  "style": {
+                    "colspan": ""
                   }
-                ],
-                [{
-                    "title": "Średni",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
+                },
+                {
+                  "title": "PITTA",
+                  "style": {
+                    "colspan": ""
                   }
-                ],
-                [{
-                    "title": "Zwykle niski, ale może być wysoki",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
+                },
+                {
+                  "title": "KAPHA",
+                  "style": {
+                    "colspan": ""
                   }
-                ]
+                }
               ],
-              [
-                [{
-                    "title": "Budowa",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Szczupła, koścista, mięśnie dobrze widoczne",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Średnia, dobrze rozwinięta muskulatura",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Solidnie, dobrze zbudowany",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "Masa ciała",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Niska, trudno przybiera na wadze",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Umiarkowana",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Ciężka, trudno traci na wadze",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "Wygląd skóry",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Matowa, ciemna",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Błyszcząca, rumiana",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Jasna, blada",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "Oczy",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Małe, nerwowe",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Przeszywające, skłonność do zapaleń",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Wielkie, białe",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "Włosy",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Suche, cienkie",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Cienkie, przetłuszczające się",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Grube, falowane, przetłuszczające się",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "Żęby",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Nierówne, słabo uformowan",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Umiarkowane, krwawiące dziąsła",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Wielkie, dobrze uformowane",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "Paznokcie",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Szorstkie, łamliwe",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Delikatne, różowe",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Delikatne, białe",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "Stawy",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Sztywne, strzelające",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Luźne",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Mocne, stabilne, duże",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "Apetyt",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Zmienny, nerwowy, emocjonalny",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Duży, nadmierny",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Umiarkowany, ale stały",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "Pragnienie",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Niewielkie",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Duże",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Umiarkowane",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "Pocenie się",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Słabe",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "obfite, nie nadmierne",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Trudne do wywołania, ale obfite",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "Stolec",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Twardy, suchy",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Miękki, luźny",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Normalny",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "Mocz",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Niewiele",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Obfity, żółty",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Umiarkowany, przejrzysty",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "Wrażliwość na",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Zimno, suchość, wiatr",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Gorąco, promienie słoneczne, ogień",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Zimno, wilgoć",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "System odpornościowy",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Słaby",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Umiarkowany, wrażliwy na ciepło",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Silny",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "Skłonność do chorób",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Ból, zapalenia",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Gorączka, wypryski",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Przekrwienie",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "Podatność na choroby",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Układ nerwowy",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Krew, wątroba",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Śluz, płuca",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "Aktywność życiow",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Wysoka, niespokojna",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Umiarkowana",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Niska, powolne poruszanie się",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "Wytrzymałość",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Słaba, szybko się męcz",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Umiarkowana, ale skoncentrowana",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Wysoka",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "Sen",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Słaby, przerywany",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Zmienny",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Nadmierny",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "Marzenia senne",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Częste, kolorowe",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Umiarkowane, romantyczne",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Nieczęste, przerywana",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "Pamięć",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Szybko się uczy, ale łatwo zapomina",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Szybko się uczy i dobrze pamięta",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Wolno się uczy, ale długo pamięta",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "Mowa",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Szybka, częsta",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Ostra, tnąca",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Wolna, melodyjna",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "Temperament",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Nerwowy, zmienny",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Zmotywowany",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Zadowolony, konserwatywny",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "Pozytywne emocje",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Łatwość adaptacji",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Odwaga",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Miłość",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "Negatywne emocj",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Strach",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Gniew",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Przywiązanie",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "Wiara",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Zmienna",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Silna, zdeterminowana",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": "Stała, trudna do zmiany",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
-              ],
-              [
-                [{
-                    "title": "WYNIK",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": ""
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": ""
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ],
-                [{
-                    "title": ""
-                  },
-                  {
-                    "subtitle": ""
-                  }
+              "columns": [
+                [
+                  [{
+                      "title": "Wzrost",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Wysoki albo niski",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Średni",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Zwykle niski, ale może być wysoki",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "Budowa",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Szczupła, koścista, mięśnie dobrze widoczne",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Średnia, dobrze rozwinięta muskulatura",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Solidnie, dobrze zbudowany",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "Masa ciała",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Niska, trudno przybiera na wadze",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Umiarkowana",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Ciężka, trudno traci na wadze",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "Wygląd skóry",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Matowa, ciemna",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Błyszcząca, rumiana",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Jasna, blada",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "Oczy",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Małe, nerwowe",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Przeszywające, skłonność do zapaleń",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Wielkie, białe",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "Włosy",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Suche, cienkie",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Cienkie, przetłuszczające się",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Grube, falowane, przetłuszczające się",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "Żęby",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Nierówne, słabo uformowan",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Umiarkowane, krwawiące dziąsła",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Wielkie, dobrze uformowane",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "Paznokcie",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Szorstkie, łamliwe",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Delikatne, różowe",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Delikatne, białe",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "Stawy",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Sztywne, strzelające",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Luźne",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Mocne, stabilne, duże",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "Apetyt",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Zmienny, nerwowy, emocjonalny",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Duży, nadmierny",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Umiarkowany, ale stały",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "Pragnienie",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Niewielkie",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Duże",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Umiarkowane",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "Pocenie się",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Słabe",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "obfite, nie nadmierne",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Trudne do wywołania, ale obfite",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "Stolec",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Twardy, suchy",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Miękki, luźny",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Normalny",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "Mocz",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Niewiele",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Obfity, żółty",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Umiarkowany, przejrzysty",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "Wrażliwość na",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Zimno, suchość, wiatr",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Gorąco, promienie słoneczne, ogień",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Zimno, wilgoć",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "System odpornościowy",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Słaby",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Umiarkowany, wrażliwy na ciepło",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Silny",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "Skłonność do chorób",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Ból, zapalenia",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Gorączka, wypryski",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Przekrwienie",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "Podatność na choroby",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Układ nerwowy",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Krew, wątroba",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Śluz, płuca",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "Aktywność życiow",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Wysoka, niespokojna",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Umiarkowana",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Niska, powolne poruszanie się",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "Wytrzymałość",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Słaba, szybko się męcz",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Umiarkowana, ale skoncentrowana",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Wysoka",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "Sen",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Słaby, przerywany",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Zmienny",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Nadmierny",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "Marzenia senne",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Częste, kolorowe",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Umiarkowane, romantyczne",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Nieczęste, przerywana",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "Pamięć",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Szybko się uczy, ale łatwo zapomina",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Szybko się uczy i dobrze pamięta",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Wolno się uczy, ale długo pamięta",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "Mowa",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Szybka, częsta",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Ostra, tnąca",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Wolna, melodyjna",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "Temperament",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Nerwowy, zmienny",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Zmotywowany",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Zadowolony, konserwatywny",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "Pozytywne emocje",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Łatwość adaptacji",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Odwaga",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Miłość",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "Negatywne emocj",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Strach",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Gniew",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Przywiązanie",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "Wiara",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Zmienna",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Silna, zdeterminowana",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": "Stała, trudna do zmiany",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
+                ],
+                [
+                  [{
+                      "title": "WYNIK",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": ""
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": ""
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ],
+                  [{
+                      "title": ""
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
                 ]
               ]
-            ]
+            }
           }
-        }]
-      }, {
+        ]
+      },
+      {
         "name": "gallery",
         "label": "Galeria",
         "active": "1",
@@ -2203,17 +2565,18 @@
         "label": "Nasz Nauczyciel",
         "active": "1",
         "data": [{
-            "type": "text_and_image",
-            "style": {
-              "order": 1
-            },
-            "content": {
-              "title": "Maja Bednarczyk",
-              "lead": "",
-              "image": "assets/images/treners/Maja.jpg",
-              "text": "Specjalista metody P-DTR, trener personalny z wieloletnim doświadczeniem, dyplomowany nauczyciel jogi, Od lat jestem zainteresowana holistycznym podejściem do zdrowia fizycznego i psychicznego człowieka. Zaowocowało to ukończeniem kilkudziesięciu kursów i szkoleń z zakresu dietetyki, fizjologii, anatomii, systemów treningowych oraz niekonwencjonalnych metod. Pracę z klientem indywidualnym zaczęłam jako trener personalny w 2013 roku prowadząc w większości osoby z problemami zdrowotnymi. W tym samym czasie rozwijałam się na polu nauczyciela jogi o specjalizacji Hatha Yoga, oraz prowadziłam zajęcia grupowe takie jak Zdrowy Kręgosłup, Pilates i Trening Funkcjonalny. Szczególnie mocno skupiłam się w tym czasie na treningach funkcjonalnych i miałam przyjemność stanąć dwukrotnie na Konwencji Fitness jako Prezenter i Szkoleniowiec w Euro Fitness School z Bielska Białej w 2016 roku obok wielu świetnych Trenerów z Polski i z Europy. Rok później podobną współpracę zaczęłam ze Szkołą Instruktorów Fitness w Krakowie. Szkolenie młodych instruktorów fitness sprawiało mi dużą frajdę i dało wiele ciekawych doświadczeń oraz lekcji – tym razem to ja miałam przekazywać wiedzę, a nie ją brać. Ta zmiana perspektywy dużo mnie nauczyła. Po kilku latach pracy w zawodzie trenera personalnego i instruktora fitness, trafiłam przypadkiem na P-DTR czyli proprioceptywną terapię odruchową. Pierwsze wrażenie jakie zrobiła na mnie ta metoda było piorunujące – istna magia na dodatek z natychmiastowym efektem! Parę miesięcy później siedziałam już jako student na pierwszym module rocznego szkolenia u twórcy metody dr Jose Palomara (Meksyk). Sądzę, że już wtedy przeczuwałam, że P-DTR zmieni moje życie. Z bycia trenerem i promotorem zdrowego jedzenia i aktywnego stylu życia, stałam się Praktykiem metody P-DTR na poziomie zaawansowanym, aktywnie zainteresowaną neurologią, psychosomatyką i kinezjologią. Dawne zainteresowania i praca trenera oraz prowadzącego lekcje grupowe zmieniły kontekst i nabrały nowej jakości. Dzisiaj z ogromną przyjemnością dzielę potencjał metody P-DTR ze swoimi Klientami i samodzielnie rozwijam własne narzędzia w poszukiwaniu priorytetowych dysfunkcji receptorów w układzie nerwowym, pomagając w takich dolegliwościach jak: bóle, ograniczenia ruchowe, stany napięciowe pochodzenia emocjonalnego, problemy psychosomatyczne i inne. Prowadzę treningi personalne mając nowe spojrzenie na ludzkie ciało i jego potrzeby, rozpisuję diety indywidualnie dobrane na podstawie testów żywieniowych i uczę jogi na kilku poziomach trudności. Moja droga nie była najkrótszą z możliwych, ale mam wrażenie, że najlepszą z możliwych. Zapraszam serdeczne!"
-            }
-          }]},
+          "type": "text_and_image",
+          "style": {
+            "order": 1
+          },
+          "content": {
+            "title": "Maja Bednarczyk",
+            "lead": "",
+            "image": "assets/images/treners/Maja.jpg",
+            "text": "Specjalista metody P-DTR, trener personalny z wieloletnim doświadczeniem, dyplomowany nauczyciel jogi, Od lat jestem zainteresowana holistycznym podejściem do zdrowia fizycznego i psychicznego człowieka. Zaowocowało to ukończeniem kilkudziesięciu kursów i szkoleń z zakresu dietetyki, fizjologii, anatomii, systemów treningowych oraz niekonwencjonalnych metod. Pracę z klientem indywidualnym zaczęłam jako trener personalny w 2013 roku prowadząc w większości osoby z problemami zdrowotnymi. W tym samym czasie rozwijałam się na polu nauczyciela jogi o specjalizacji Hatha Yoga, oraz prowadziłam zajęcia grupowe takie jak Zdrowy Kręgosłup, Pilates i Trening Funkcjonalny. Szczególnie mocno skupiłam się w tym czasie na treningach funkcjonalnych i miałam przyjemność stanąć dwukrotnie na Konwencji Fitness jako Prezenter i Szkoleniowiec w Euro Fitness School z Bielska Białej w 2016 roku obok wielu świetnych Trenerów z Polski i z Europy. Rok później podobną współpracę zaczęłam ze Szkołą Instruktorów Fitness w Krakowie. Szkolenie młodych instruktorów fitness sprawiało mi dużą frajdę i dało wiele ciekawych doświadczeń oraz lekcji – tym razem to ja miałam przekazywać wiedzę, a nie ją brać. Ta zmiana perspektywy dużo mnie nauczyła. Po kilku latach pracy w zawodzie trenera personalnego i instruktora fitness, trafiłam przypadkiem na P-DTR czyli proprioceptywną terapię odruchową. Pierwsze wrażenie jakie zrobiła na mnie ta metoda było piorunujące – istna magia na dodatek z natychmiastowym efektem! Parę miesięcy później siedziałam już jako student na pierwszym module rocznego szkolenia u twórcy metody dr Jose Palomara (Meksyk). Sądzę, że już wtedy przeczuwałam, że P-DTR zmieni moje życie. Z bycia trenerem i promotorem zdrowego jedzenia i aktywnego stylu życia, stałam się Praktykiem metody P-DTR na poziomie zaawansowanym, aktywnie zainteresowaną neurologią, psychosomatyką i kinezjologią. Dawne zainteresowania i praca trenera oraz prowadzącego lekcje grupowe zmieniły kontekst i nabrały nowej jakości. Dzisiaj z ogromną przyjemnością dzielę potencjał metody P-DTR ze swoimi Klientami i samodzielnie rozwijam własne narzędzia w poszukiwaniu priorytetowych dysfunkcji receptorów w układzie nerwowym, pomagając w takich dolegliwościach jak: bóle, ograniczenia ruchowe, stany napięciowe pochodzenia emocjonalnego, problemy psychosomatyczne i inne. Prowadzę treningi personalne mając nowe spojrzenie na ludzkie ciało i jego potrzeby, rozpisuję diety indywidualnie dobrane na podstawie testów żywieniowych i uczę jogi na kilku poziomach trudności. Moja droga nie była najkrótszą z możliwych, ale mam wrażenie, że najlepszą z możliwych. Zapraszam serdeczne!"
+          }
+        }]
+      },
       {
         "name": "price_list",
         "label": "Cennik",
@@ -2310,6 +2673,31 @@
         "label": "Trening personalny",
         "active": "1",
         "data": [{
+            "type": "list",
+            "content": {
+              "title": "Oferta obejmuje:",
+              "text": "",
+              "items": [
+                "pomiary i testy kinezjologiczne,",
+                "analizę dziennika żywieniowego,",
+                "ustalenie programu treningowego,",
+                "asysta i wsparcie treningowe."
+              ]
+            }
+          },
+          {
+            "type": "list",
+            "content": {
+              "title": "Profil treningowy:",
+              "text": "",
+              "items": [
+                "fizjoterapeutyczny,",
+                "odchudzający,",
+                "funkcjonalny."
+              ]
+            }
+          },
+          {
             "type": "text",
             "content": {
               "title": "Ile trwa trening personalny?",
