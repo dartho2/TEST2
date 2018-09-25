@@ -428,19 +428,6 @@
         }]
       },
       {
-        "name": "schedule",
-        "label": "Grafik",
-        "active": "1",
-        "data": [{
-          "type": "table",
-          "shared": "schedule",
-          "class": "schedule",
-          "style": {
-            "order": 1
-          }
-        }]
-      },
-      {
         "name": "contact",
         "label": "Kontakt",
         "active": "1",
@@ -781,19 +768,6 @@
           "type": "table",
           "shared": "price_list",
           "class": "normal",
-          "style": {
-            "order": 1
-          }
-        }]
-      },
-      {
-        "name": "schedule",
-        "label": "Grafik",
-        "active": "1",
-        "data": [{
-          "type": "table",
-          "shared": "schedule",
-          "class": "schedule",
           "style": {
             "order": 1
           }
