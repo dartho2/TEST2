@@ -1,396 +1,902 @@
 [{
-  "name": "schedule",
-  "type": "table",
-  "label": "",
-  "data": [{
+    "name": "schedule",
     "type": "table",
-    "class": "schedule",
-    "class_shared":"types_classes",
-    "style": {
-      "order": 1
-    },
-    "content": {
-      "title": "Grafik",
-      "lead": "",
-      "image": "assets/images/solarium/solarium.jpg",
-      "thead": [{
-          "title": "",
-          "style": {
-            "colspan": ""
-          }
-        },
-        {
-          "title": "poniedziałek",
-          "style": {
-            "colspan": ""
-          }
-        },
-        {
-          "title": "wtorek",
-          "style": {
-            "colspan": ""
-          }
-        },
-        {
-          "title": "środa",
-          "style": {
-            "colspan": ""
-          }
-        },
-        {
-          "title": "czwartek",
-          "style": {
-            "colspan": ""
-          }
-        },
-        {
-          "title": "piątek",
-          "style": {
-            "colspan": ""
-          }
-        }
-      ],
-      "columns": [
-        [
-          [{
-              "title": "18:30",
-              "dialog": 0
-            },
-            {
-              "subtitle": ""
+    "label": "",
+    "data": [{
+      "type": "table",
+      "class": "schedule",
+      "class_shared": "types_classes",
+      "style": {
+        "order": 1
+      },
+      "content": {
+        "title": "Grafik",
+        "lead": "",
+        "image": "assets/images/solarium/solarium.jpg",
+        "thead": [{
+            "title": "",
+            "style": {
+              "colspan": ""
             }
-          ],
-          [{
-              "title": "Functional Flow",
-              "color": "#eef94d",
-              "dialog": 1
-            },
-            {
-              "subtitle": ""
+          },
+          {
+            "title": "poniedziałek",
+            "style": {
+              "colspan": ""
             }
-          ],
-          [{
-              "title": "Interval",
-              "color": "#6849e0",
-              "dialog": 1
-            },
-            {
-              "subtitle": ""
+          },
+          {
+            "title": "wtorek",
+            "style": {
+              "colspan": ""
             }
-          ],
-          [{
-              "title": "Pilates & Zdrowy Kręgosłup",
-              "color": "#17bd24",
-              "dialog": 1
-            },
-            {
-              "subtitle": ""
+          },
+          {
+            "title": "środa",
+            "style": {
+              "colspan": ""
             }
-          ],
-          [{
-              "title": "Joga od podstaw",
-              "color": "#de62d5",
-              "dialog": 1
-            },
-            {
-              "subtitle": ""
+          },
+          {
+            "title": "czwartek",
+            "style": {
+              "colspan": ""
             }
-          ],
-          [{
-              "title": "Deep Work",
-              "color": "#e65f5f",
-              "dialog": 1
-            },
-            {
-              "subtitle": ""
+          },
+          {
+            "title": "piątek",
+            "style": {
+              "colspan": ""
             }
-          ]
+          }
         ],
-        [
-          [{
-              "title": "19:30",
-              "dialog": 0
-            },
-            {
-              "subtitle": ""
-            }
+        "columns": [
+          [
+            [{
+                "title": "18:30",
+                "dialog": 0
+              },
+              {
+                "subtitle": ""
+              }
+            ],
+            [{
+                "title": "Functional Flow",
+                "color": "#eef94d",
+                "dialog": 1
+              },
+              {
+                "subtitle": ""
+              }
+            ],
+            [{
+                "title": "Interval",
+                "color": "#6849e0",
+                "dialog": 1
+              },
+              {
+                "subtitle": ""
+              }
+            ],
+            [{
+                "title": "Pilates & Zdrowy Kręgosłup",
+                "color": "#17bd24",
+                "dialog": 1
+              },
+              {
+                "subtitle": ""
+              }
+            ],
+            [{
+                "title": "Joga od podstaw",
+                "color": "#de62d5",
+                "dialog": 1
+              },
+              {
+                "subtitle": ""
+              }
+            ],
+            [{
+                "title": "Deep Work",
+                "color": "#e65f5f",
+                "dialog": 1
+              },
+              {
+                "subtitle": ""
+              }
+            ]
           ],
-          [{
-              "title": "Joga",
-              "color": "#de62d5",
-              "dialog": 1
-            },
-            {
-              "subtitle": ""
-            }
-          ],
-          [{
-              "title": ""
-            },
-            {
-              "subtitle": ""
-            }
-          ],
-          [{
-              "title": ""
-            },
-            {
-              "subtitle": ""
-            }
-          ],
-          [{
-              "title": "Shape",
-              "color": "#5fe0e6",
-              "dialog": 1
-            },
-            {
-              "subtitle": ""
-            }
-          ],
-          [{
-              "title": "Joga",
-              "color": "#de62d5",
-              "dialog": 1
-            },
-            {
-              "subtitle": ""
-            }
+          [
+            [{
+                "title": "19:30",
+                "dialog": 0
+              },
+              {
+                "subtitle": ""
+              }
+            ],
+            [{
+                "title": "Joga",
+                "color": "#de62d5",
+                "dialog": 1
+              },
+              {
+                "subtitle": ""
+              }
+            ],
+            [{
+                "title": ""
+              },
+              {
+                "subtitle": ""
+              }
+            ],
+            [{
+                "title": ""
+              },
+              {
+                "subtitle": ""
+              }
+            ],
+            [{
+                "title": "Shape",
+                "color": "#5fe0e6",
+                "dialog": 1
+              },
+              {
+                "subtitle": ""
+              }
+            ],
+            [{
+                "title": "Joga",
+                "color": "#de62d5",
+                "dialog": 1
+              },
+              {
+                "subtitle": ""
+              }
+            ]
           ]
         ]
-      ]
-    }
-  }]
-},
+      }
+    }]
+  },
 
   {
     "name": "price_list",
     "type": "table",
     "label": "",
     "data": [{
-      "type": "table",
-      "class": "normal",
-      "style": {
-        "order": 1
-      },
-      "content": {
-        "title": "CENNIK WEJŚĆ JEDNORAZOWYCH",
-        "lead": "",
-        "image": "assets/images/solarium/solarium.jpg",
-        "thead": [{
+        "type": "table",
+        "class": "normal",
+        "style": {
+          "order": 1
+        },
+        "content": {
           "title": "CENNIK WEJŚĆ JEDNORAZOWYCH",
-          "style": {
-            "colspan": "2"
-          }
-        }],
-        "columns": [
-          [
-            [{
-                "title": "SOLARIUM",
-                "dialog": 0
-              },
-              {
-                "subtitle": "1 minuta"
-              }
+          "lead": "",
+          "image": "assets/images/solarium/solarium.jpg",
+          "thead": [{
+            "title": "CENNIK WEJŚĆ JEDNORAZOWYCH",
+            "style": {
+              "colspan": "2"
+            }
+          }],
+          "columns": [
+            [
+              [{
+                  "title": "SOLARIUM",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": "1 minuta"
+                }
+              ],
+              [{
+                  "title": "1,30 zł",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ]
             ],
-            [{
-                "title": "1,30 zł",
-                "dialog": 0
-              },
-              {
-                "subtitle": ""
-              }
-            ]
-          ],
-          [
-            [{
-                "title": "SIŁOWNIA",
-                "dialog": 0
-              },
-              {
-                "subtitle": "Jednorazowy wstęp bez ograniczeń czasowych"
-              }
+            [
+              [{
+                  "title": "SIŁOWNIA",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": "Jednorazowy wstęp bez ograniczeń czasowych"
+                }
+              ],
+              [{
+                  "title": "15 zł",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ]
             ],
-            [{
-                "title": "15 zł",
-                "dialog": 0
-              },
-              {
-                "subtitle": ""
-              }
-            ]
-          ],
-          [
-            [{
-                "title": "BODY SPACE (VACU)",
-                "dialog": 0
-              },
-              {
-                "subtitle": "30 minut treningu w kapsule podciśnieniowej"
-              }
+            [
+              [{
+                  "title": "BODY SPACE (VACU)",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": "30 minut treningu w kapsule podciśnieniowej"
+                }
+              ],
+              [{
+                  "title": "20 zł",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ]
             ],
-            [{
-                "title": "20 zł",
-                "dialog": 0
-              },
-              {
-                "subtitle": ""
-              }
-            ]
-          ],
-          [
-            [{
-                "title": "ZAJĘCIA GRUPOWE",
-                "dialog": 0
-              },
-              {
-                "subtitle": "Zajęcia grupowe z instruktorem"
-              }
+            [
+              [{
+                  "title": "ZAJĘCIA GRUPOWE",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": "Zajęcia grupowe z instruktorem"
+                }
+              ],
+              [{
+                  "title": "25 zł",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ]
             ],
-            [{
-                "title": "25 zł",
-                "dialog": 0
-              },
-              {
-                "subtitle": ""
-              }
-            ]
-          ],
-          [
-            [{
-                "title": "OPEN JEDNORAZOWE",
-                "dialog": 0
-              },
-              {
-                "subtitle": "Wejście 3 w 1 (siłownia, vacu, zajęcia grupowe)"
-              }
+            [
+              [{
+                  "title": "OPEN JEDNORAZOWE",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": "Wejście 3 w 1 (siłownia, vacu, zajęcia grupowe)"
+                }
+              ],
+              [{
+                  "title": "35 zł",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ]
             ],
-            [{
-                "title": "35 zł",
-                "dialog": 0
-              },
-              {
-                "subtitle": ""
-              }
-            ]
-          ],
-          [
-            [{
-                "title": "ROZPISANIE DIETY",
-                "dialog": 0
-              },
-              {
-                "subtitle": "Indywidualnie dopasowanej w oparciu o wywiad oraz ankietę żywieniową"
-              }
+            [
+              [{
+                  "title": "ROZPISANIE DIETY",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": "Indywidualnie dopasowanej w oparciu o wywiad oraz ankietę żywieniową"
+                }
+              ],
+              [{
+                  "title": "99 zł",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ]
             ],
-            [{
-                "title": "99 zł",
-                "dialog": 0
-              },
-              {
-                "subtitle": ""
-              }
-            ]
-          ],
-          [
-            [{
-                "title": "TRENING PERSONALNY, 1 h.",
-                "dialog": 0
-              },
-              {
-                "subtitle": "Trening jeden na jeden z trenerem personalnym"
-              }
+            [
+              [{
+                  "title": "TRENING PERSONALNY, 1 h.",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": "Trening jeden na jeden z trenerem personalnym"
+                }
+              ],
+              [{
+                  "title": "70 zł",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ]
             ],
-            [{
-                "title": "70 zł",
-                "dialog": 0
-              },
-              {
-                "subtitle": ""
-              }
-            ]
-          ],
-          [
-            [{
-                "title": "TOUCH FOR HEALTH, 45-60 min.",
-                "dialog": 0
-              },
-              {
-                "subtitle": "Metoda w Kinezjologii Stosowanej przywracająca równowagę ogólnoustrojową"
-              }
+            [
+              [{
+                  "title": "TOUCH FOR HEALTH, 45-60 min.",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": "Metoda w Kinezjologii Stosowanej przywracająca równowagę ogólnoustrojową"
+                }
+              ],
+              [{
+                  "title": "45 zł",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ]
             ],
-            [{
-                "title": "45 zł",
-                "dialog": 0
-              },
-              {
-                "subtitle": ""
-              }
-            ]
-          ],
-          [
-            [{
-                "title": "P-DTR",
-                "dialog": 0
-              },
-              {
-                "subtitle": "Funkcjonalna analiza układu nerwowego za pomocą testów mięśniowych"
-              }
-            ],
-            [{
-                "title": "80 zł",
-                "dialog": 0
-              },
-              {
-                "subtitle": ""
-              }
+            [
+              [{
+                  "title": "P-DTR",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": "Funkcjonalna analiza układu nerwowego za pomocą testów mięśniowych"
+                }
+              ],
+              [{
+                  "title": "80 zł",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ]
             ]
           ]
-        ]
-      }
+        }
 
-    },
-    {
-      "type": "text",
-      "content": {
-        "title": "",
-        "lead": "",
-        "text": "Przed skorzystaniem z usług, zapoznaj się z regulaminem Klubu.Zanim przystąpisz do ćwiczeń upewnij się, że aktywność fizyczna nie zagraża Twojemu stanu zdrowia."
-      }
-    },
-    {
-      "type": "table",
-      "style": {
-        "order": 1
       },
-      "content": {
-        "title": "CENNIK WEJŚĆ JEDNORAZOWYCH",
-        "lead": "",
-        "image": "assets/images/solarium/solarium.jpg",
-        "thead": [{
+      {
+        "type": "text",
+        "content": {
+          "title": "",
+          "lead": "",
+          "text": "Przed skorzystaniem z usług, zapoznaj się z regulaminem Klubu.Zanim przystąpisz do ćwiczeń upewnij się, że aktywność fizyczna nie zagraża Twojemu stanu zdrowia."
+        }
+      },
+      {
+        "type": "table",
+        "style": {
+          "order": 1
+        },
+        "content": {
           "title": "CENNIK WEJŚĆ JEDNORAZOWYCH",
-          "style": {
-            "colspan": ""
-          }
-        }],
-        "columns": [
-          [
-            [{
-                "title": "KARTA STAŁEGO KLIENTA SOLARIUM JUŻ DOSTĘPNA!!"
-              },
-              {
-                "subtitle": "Odbierz kartę w recepcji 7mepoty za 0 zł. Zbieraj minuty opalania, a po uzbieraniu określonej liczby minut na swojej karcie wymień je na jeden z poniższych gratisów:",
-                "list": [
-                  "75 minut - wybrany krem do opalania GRATIS;",
-                  "100 minut - dodatkowe 15 minut opalania dla Ciebie - GRATIS;",
-                  "500 minut - dodatkowe 150 minut opalania dla Ciebie - GRATIS;"
-                ]
-              }
+          "lead": "",
+          "image": "assets/images/solarium/solarium.jpg",
+          "thead": [{
+            "title": "CENNIK WEJŚĆ JEDNORAZOWYCH",
+            "style": {
+              "colspan": ""
+            }
+          }],
+          "columns": [
+            [
+              [{
+                  "title": "KARTA STAŁEGO KLIENTA SOLARIUM JUŻ DOSTĘPNA!!"
+                },
+                {
+                  "subtitle": "Odbierz kartę w recepcji 7mepoty za 0 zł. Zbieraj minuty opalania, a po uzbieraniu określonej liczby minut na swojej karcie wymień je na jeden z poniższych gratisów:",
+                  "list": [
+                    "75 minut - wybrany krem do opalania GRATIS;",
+                    "100 minut - dodatkowe 15 minut opalania dla Ciebie - GRATIS;",
+                    "500 minut - dodatkowe 150 minut opalania dla Ciebie - GRATIS;"
+                  ]
+                }
+              ]
             ]
           ]
-        ]
+        }
+      },
+      {
+        "type": "table",
+        "class": "normal",
+        "style": {
+          "order": 1
+        },
+        "content": {
+          "title": "KARNETY OPEN",
+          "lead": "",
+          "thead": [{
+            "title": "KARNETY OPEN",
+            "style": {
+              "colspan": "4"
+            }
+          }],
+          "columns": [
+            [
+              [{
+                  "title": "",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "1 miesiąc",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "3 miesiące",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "6 miesięcy",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ]
+            ],
+            [
+              [{
+                  "title": "SIŁOWNIA",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "99 zł",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "84 zł / msc",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "59 zł / msc",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ]
+            ],
+            [
+              [{
+                  "title": "VACU",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "109 zł",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "92 zł / msc",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "65 zł / msc",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ]
+            ],
+            [
+              [{
+                  "title": "SIŁOWNIA + VACU",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "139 zł",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "118 zł / msc",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "83 zł / msc",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ]
+            ],
+            [
+              [{
+                  "title": "ZAJĘCIA GRUPOWE",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "139 zł",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "118 zł / msc",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "83 zł / msc",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "class": "normal",
+        "style": {
+          "order": 1
+        },
+        "content": {
+          "title": "KARNETY ILOŚCIOWE",
+          "lead": "",
+          "thead": [{
+            "title": "KARNETY ILOŚCIOWE",
+            "style": {
+              "colspan": "3"
+            }
+          }],
+          "columns": [
+            [
+              [{
+                  "title": "",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "CENA",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "OKRES OBOWIĄZYWANIA",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ]
+            ],
+            [
+              [{
+                  "title": "4 WEJŚCIA",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "60 zł",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "1 miesiąc",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ]
+            ],
+            [
+              [{
+                  "title": "8 WEJŚĆ",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "115 zł",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "1 miesiąc",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ]
+            ],
+            [
+              [{
+                  "title": "12 WEJŚĆ",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "149 zł",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "2 miesiące",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "class": "normal",
+        "style": {
+          "order": 1
+        },
+        "content": {
+          "title": "TRENINGI PERSONALNE",
+          "lead": "",
+          "thead": [{
+            "title": "TRENINGI PERSONALNE",
+            "style": {
+              "colspan": "3"
+            }
+          }],
+          "columns": [
+            [
+              [{
+                  "title": "",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "CENA",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "OKRES OBOWIĄZYWANIA",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ]
+            ],
+            [
+              [{
+                  "title": "10 x TRENING PERSONALNY",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "700 zł",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                "title": "6 miesięcy",
+                "dialog": 0
+              },
+              {
+                "subtitle": ""
+              }
+            ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "table",
+        "class": "normal",
+        "style": {
+          "order": 1
+        },
+        "content": {
+          "title": "SOLARIUM",
+          "lead": "",
+          "thead": [{
+            "title": "SOLARIUM",
+            "style": {
+              "colspan": "3"
+            }
+          }],
+          "columns": [
+            [
+              [{
+                  "title": "",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "CENA",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "OKRES OBOWIĄZYWANIA",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ]
+            ],
+            [
+              [{
+                  "title": "200 minut solarium",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "200 zł",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "6 miesiąc",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ]
+            ],
+            [
+              [{
+                  "title": "120 minut solarium",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "132 zł",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "3 miesiąc",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ]
+            ],
+            [
+              [{
+                  "title": "60 minut solarium",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "72 zł",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ],
+              [{
+                  "title": "2 miesiące",
+                  "dialog": 0
+                },
+                {
+                  "subtitle": ""
+                }
+              ]
+            ]
+          ]
+        }
       }
-    }
-  ]
+    ]
   },
   {
     "name": "types_classes",
@@ -483,5 +989,5 @@
       }
     ]
   }
-  
+
 ]
