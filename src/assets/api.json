@@ -399,6 +399,22 @@
       ]
       },
       {
+        "name": "treners",
+        "label": "Nasz konsultant",
+        "active": "1",
+        "data": [{
+            "type": "text_and_image",
+            "style": {
+              "order": 1
+            },
+            "content": {
+              "title": "Maja Bednarczyk",
+              "lead": "",
+              "image": "assets/images/treners/Maja.jpg",
+              "text": "Specjalista metody P-DTR, trener personalny z wieloletnim doświadczeniem, dyplomowany nauczyciel jogi, Od lat jestem zainteresowana holistycznym podejściem do zdrowia fizycznego i psychicznego człowieka. Zaowocowało to ukończeniem kilkudziesięciu kursów i szkoleń z zakresu dietetyki, fizjologii, anatomii, systemów treningowych oraz niekonwencjonalnych metod. Pracę z klientem indywidualnym zaczęłam jako trener personalny w 2013 roku prowadząc w większości osoby z problemami zdrowotnymi. W tym samym czasie rozwijałam się na polu nauczyciela jogi o specjalizacji Hatha Yoga, oraz prowadziłam zajęcia grupowe takie jak Zdrowy Kręgosłup, Pilates i Trening Funkcjonalny. Szczególnie mocno skupiłam się w tym czasie na treningach funkcjonalnych i miałam przyjemność stanąć dwukrotnie na Konwencji Fitness jako Prezenter i Szkoleniowiec w Euro Fitness School z Bielska Białej w 2016 roku obok wielu świetnych Trenerów z Polski i z Europy. Rok później podobną współpracę zaczęłam ze Szkołą Instruktorów Fitness w Krakowie. Szkolenie młodych instruktorów fitness sprawiało mi dużą frajdę i dało wiele ciekawych doświadczeń oraz lekcji – tym razem to ja miałam przekazywać wiedzę, a nie ją brać. Ta zmiana perspektywy dużo mnie nauczyła. Po kilku latach pracy w zawodzie trenera personalnego i instruktora fitness, trafiłam przypadkiem na P-DTR czyli proprioceptywną terapię odruchową. Pierwsze wrażenie jakie zrobiła na mnie ta metoda było piorunujące – istna magia na dodatek z natychmiastowym efektem! Parę miesięcy później siedziałam już jako student na pierwszym module rocznego szkolenia u twórcy metody dr Jose Palomara (Meksyk). Sądzę, że już wtedy przeczuwałam, że P-DTR zmieni moje życie. Z bycia trenerem i promotorem zdrowego jedzenia i aktywnego stylu życia, stałam się Praktykiem metody P-DTR na poziomie zaawansowanym, aktywnie zainteresowaną neurologią, psychosomatyką i kinezjologią. Dawne zainteresowania i praca trenera oraz prowadzącego lekcje grupowe zmieniły kontekst i nabrały nowej jakości. Dzisiaj z ogromną przyjemnością dzielę potencjał metody P-DTR ze swoimi Klientami i samodzielnie rozwijam własne narzędzia w poszukiwaniu priorytetowych dysfunkcji receptorów w układzie nerwowym, pomagając w takich dolegliwościach jak: bóle, ograniczenia ruchowe, stany napięciowe pochodzenia emocjonalnego, problemy psychosomatyczne i inne. Prowadzę treningi personalne mając nowe spojrzenie na ludzkie ciało i jego potrzeby, rozpisuję diety indywidualnie dobrane na podstawie testów żywieniowych i uczę jogi na kilku poziomach trudności. Moja droga nie była najkrótszą z możliwych, ale mam wrażenie, że najlepszą z możliwych. Zapraszam serdeczne!"
+            }
+          }]},
+      {
         "name": "price_list",
         "label": "Cennik",
         "active": "1",
@@ -741,6 +757,22 @@
           }
         ]
       },
+      {
+        "name": "treners",
+        "label": "Praktyk P-DTR",
+        "active": "1",
+        "data": [{
+            "type": "text_and_image",
+            "style": {
+              "order": 1
+            },
+            "content": {
+              "title": "Maja Bednarczyk",
+              "lead": "",
+              "image": "assets/images/treners/Maja.jpg",
+              "text": "Specjalista metody P-DTR, trener personalny z wieloletnim doświadczeniem, dyplomowany nauczyciel jogi, Od lat jestem zainteresowana holistycznym podejściem do zdrowia fizycznego i psychicznego człowieka. Zaowocowało to ukończeniem kilkudziesięciu kursów i szkoleń z zakresu dietetyki, fizjologii, anatomii, systemów treningowych oraz niekonwencjonalnych metod. Pracę z klientem indywidualnym zaczęłam jako trener personalny w 2013 roku prowadząc w większości osoby z problemami zdrowotnymi. W tym samym czasie rozwijałam się na polu nauczyciela jogi o specjalizacji Hatha Yoga, oraz prowadziłam zajęcia grupowe takie jak Zdrowy Kręgosłup, Pilates i Trening Funkcjonalny. Szczególnie mocno skupiłam się w tym czasie na treningach funkcjonalnych i miałam przyjemność stanąć dwukrotnie na Konwencji Fitness jako Prezenter i Szkoleniowiec w Euro Fitness School z Bielska Białej w 2016 roku obok wielu świetnych Trenerów z Polski i z Europy. Rok później podobną współpracę zaczęłam ze Szkołą Instruktorów Fitness w Krakowie. Szkolenie młodych instruktorów fitness sprawiało mi dużą frajdę i dało wiele ciekawych doświadczeń oraz lekcji – tym razem to ja miałam przekazywać wiedzę, a nie ją brać. Ta zmiana perspektywy dużo mnie nauczyła. Po kilku latach pracy w zawodzie trenera personalnego i instruktora fitness, trafiłam przypadkiem na P-DTR czyli proprioceptywną terapię odruchową. Pierwsze wrażenie jakie zrobiła na mnie ta metoda było piorunujące – istna magia na dodatek z natychmiastowym efektem! Parę miesięcy później siedziałam już jako student na pierwszym module rocznego szkolenia u twórcy metody dr Jose Palomara (Meksyk). Sądzę, że już wtedy przeczuwałam, że P-DTR zmieni moje życie. Z bycia trenerem i promotorem zdrowego jedzenia i aktywnego stylu życia, stałam się Praktykiem metody P-DTR na poziomie zaawansowanym, aktywnie zainteresowaną neurologią, psychosomatyką i kinezjologią. Dawne zainteresowania i praca trenera oraz prowadzącego lekcje grupowe zmieniły kontekst i nabrały nowej jakości. Dzisiaj z ogromną przyjemnością dzielę potencjał metody P-DTR ze swoimi Klientami i samodzielnie rozwijam własne narzędzia w poszukiwaniu priorytetowych dysfunkcji receptorów w układzie nerwowym, pomagając w takich dolegliwościach jak: bóle, ograniczenia ruchowe, stany napięciowe pochodzenia emocjonalnego, problemy psychosomatyczne i inne. Prowadzę treningi personalne mając nowe spojrzenie na ludzkie ciało i jego potrzeby, rozpisuję diety indywidualnie dobrane na podstawie testów żywieniowych i uczę jogi na kilku poziomach trudności. Moja droga nie była najkrótszą z możliwych, ale mam wrażenie, że najlepszą z możliwych. Zapraszam serdeczne!"
+            }
+          }]},
       {
         "name": "price_list",
         "label": "Cennik",
@@ -2193,6 +2225,22 @@
         }]
       },
       {
+        "name": "treners",
+        "label": "Nasz Nauczyciel",
+        "active": "1",
+        "data": [{
+            "type": "text_and_image",
+            "style": {
+              "order": 1
+            },
+            "content": {
+              "title": "Maja Bednarczyk",
+              "lead": "",
+              "image": "assets/images/treners/Maja.jpg",
+              "text": "Specjalista metody P-DTR, trener personalny z wieloletnim doświadczeniem, dyplomowany nauczyciel jogi, Od lat jestem zainteresowana holistycznym podejściem do zdrowia fizycznego i psychicznego człowieka. Zaowocowało to ukończeniem kilkudziesięciu kursów i szkoleń z zakresu dietetyki, fizjologii, anatomii, systemów treningowych oraz niekonwencjonalnych metod. Pracę z klientem indywidualnym zaczęłam jako trener personalny w 2013 roku prowadząc w większości osoby z problemami zdrowotnymi. W tym samym czasie rozwijałam się na polu nauczyciela jogi o specjalizacji Hatha Yoga, oraz prowadziłam zajęcia grupowe takie jak Zdrowy Kręgosłup, Pilates i Trening Funkcjonalny. Szczególnie mocno skupiłam się w tym czasie na treningach funkcjonalnych i miałam przyjemność stanąć dwukrotnie na Konwencji Fitness jako Prezenter i Szkoleniowiec w Euro Fitness School z Bielska Białej w 2016 roku obok wielu świetnych Trenerów z Polski i z Europy. Rok później podobną współpracę zaczęłam ze Szkołą Instruktorów Fitness w Krakowie. Szkolenie młodych instruktorów fitness sprawiało mi dużą frajdę i dało wiele ciekawych doświadczeń oraz lekcji – tym razem to ja miałam przekazywać wiedzę, a nie ją brać. Ta zmiana perspektywy dużo mnie nauczyła. Po kilku latach pracy w zawodzie trenera personalnego i instruktora fitness, trafiłam przypadkiem na P-DTR czyli proprioceptywną terapię odruchową. Pierwsze wrażenie jakie zrobiła na mnie ta metoda było piorunujące – istna magia na dodatek z natychmiastowym efektem! Parę miesięcy później siedziałam już jako student na pierwszym module rocznego szkolenia u twórcy metody dr Jose Palomara (Meksyk). Sądzę, że już wtedy przeczuwałam, że P-DTR zmieni moje życie. Z bycia trenerem i promotorem zdrowego jedzenia i aktywnego stylu życia, stałam się Praktykiem metody P-DTR na poziomie zaawansowanym, aktywnie zainteresowaną neurologią, psychosomatyką i kinezjologią. Dawne zainteresowania i praca trenera oraz prowadzącego lekcje grupowe zmieniły kontekst i nabrały nowej jakości. Dzisiaj z ogromną przyjemnością dzielę potencjał metody P-DTR ze swoimi Klientami i samodzielnie rozwijam własne narzędzia w poszukiwaniu priorytetowych dysfunkcji receptorów w układzie nerwowym, pomagając w takich dolegliwościach jak: bóle, ograniczenia ruchowe, stany napięciowe pochodzenia emocjonalnego, problemy psychosomatyczne i inne. Prowadzę treningi personalne mając nowe spojrzenie na ludzkie ciało i jego potrzeby, rozpisuję diety indywidualnie dobrane na podstawie testów żywieniowych i uczę jogi na kilku poziomach trudności. Moja droga nie była najkrótszą z możliwych, ale mam wrażenie, że najlepszą z możliwych. Zapraszam serdeczne!"
+            }
+          }]},
+      {
         "name": "price_list",
         "label": "Cennik",
         "active": "1",
@@ -2614,32 +2662,6 @@
             }
           }
         ]
-      },
-      {
-        "name": "price_list",
-        "label": "Cennik",
-        "active": "1",
-        "data": [{
-          "type": "table",
-          "shared": "price_list",
-          "class": "normal",
-          "style": {
-            "order": 1
-          }
-        }]
-      },
-      {
-        "name": "schedule",
-        "label": "Grafik",
-        "active": "1",
-        "data": [{
-          "type": "table",
-          "shared": "schedule",
-          "class": "schedule",
-          "style": {
-            "order": 1
-          }
-        }]
       },
       {
         "name": "gallery",
