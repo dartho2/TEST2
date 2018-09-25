@@ -1,4 +1,4 @@
-<hr>
+<!-- <hr>
 <div class="row featurette card">
   <div class="card-body row">
     <div class="col-md-7 order-md-2" [ngStyle]="{'order': data.style.order}">
@@ -16,7 +16,14 @@
         data-holder-rendered="true">
     </div>
   </div>
+</div> -->
+
+<div class="feature-wrapper">
+  <div class="feature-img-wrapper twelve-col" [ngStyle]="{'background-image':'url('+data.content.image+')'}"></div>
+  <div class="feature-card" data-color="explore">
+    <div class="feature-text">
+      <h2><span data-color="explore">{{data.content.title}}</span></h2>
+      <p>{{data.content.text}}</p>
+    </div>
+  </div>
 </div>
-
-
-

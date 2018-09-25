@@ -20,8 +20,8 @@ import {ListComponent} from './portal/section/content/content_item/list/list.com
 import {TableComponent} from './portal/section/content/content_item/table/table.component';
 import {FacebookModule} from 'ngx-facebook';
 import {FbComponent} from '../app/portal/section/content/content_item/fb/fb.component';
-import {FooterComponent} from '../app/portal/section/content/content_item/footer/footer.component';
-import {HeaderComponent} from './portal/section/content/content_item/header/header.component';
+import {FooterComponent} from './layout/footer/footer.component';
+import {HeaderComponent} from './layout/header/header.component';
 import {ContactComponent} from './portal/section/content/content_item/contact/contact.component';
 import {BoxComponent} from './portal/section/content/content_item/box/box.component';
 import {MatDialogModule} from '@angular/material/dialog';

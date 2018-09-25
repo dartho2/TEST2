@@ -650,3 +650,96 @@ span.span-header {
   color: black;
   font-size:12px;
 }
+
+.feature-wrapper {
+  margin-bottom: 60px;
+  text-align: center;
+}
+.feature-wrapper .feature-img-wrapper {
+  background-position: center;
+}
+.feature-wrapper .twelve-col {
+  position: relative;
+}
+.feature-wrapper .feature-img-wrapper {
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 2px 2px 24px 0 rgba(0,0,0,.1);
+  overflow: hidden;
+  position: relative;
+}
+.feature-wrapper .twelve-col:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 33.3333333333%;
+}
+.feature-wrapper .feature-img-wrapper:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 50%;
+}
+.feature-wrapper .feature-card {
+  background: #FFF;
+  box-shadow: 2px 2px 24px 0 rgba(0,0,0,.1);
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: -132px;
+  padding: 24px 33px 0;
+  text-align: left;
+  width: 75%;
+}
+.feature-wrapper .feature-card, .feature-wrapper .feature-img-wrapper {
+  position: relative;
+}
+.feature-wrapper .feature-card .category-date p {
+  display: inline-block;
+}
+.feature-wrapper .feature-card .category-date p.date {
+  float: right;
+  position: relative;
+}
+.feature-wrapper .feature-card .feature-text {
+  margin-bottom: 42px;
+}
+.menu-padding {
+  position: absolute;
+  margin-top: -175px;
+}
+@media (min-width: 1200px){
+h2 {
+    font-size: 50px;
+    line-height: 54px;
+}}
+.feature-wrapper .feature-card .feature-text h1 span[data-color=explore], .feature-wrapper .feature-card .feature-text h2 span[data-color=explore], .feature-wrapper .feature-card .feature-text h3 span[data-color=explore] {
+  border-bottom-color: #EB9532;
+}
+.vc_column-inner::after, .vc_column-inner::before {
+  content: " ";
+  display: table;
+}
+@media (max-width: 767px){
+.feature-wrapper .twelve-col {
+    position: relative;
+}}
+@media (max-width: 767px){
+.feature-wrapper .twelve-col:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 50.7253728315%;
+}
+.feature-wrapper .feature-card {
+  margin-top: 0;
+  width: 100%;
+}
+}
+@media (max-width: 991px){
+.feature-wrapper .feature-card {
+    margin-top: -60px;
+}
+}
+app-textimages {
+  width:100%;
+}

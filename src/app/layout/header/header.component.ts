@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {PortalComponent} from '../../../../portal.component';
+import {PortalComponent} from '../../portal/portal.component';
 
 @Component({
   selector: 'app-header',
