@@ -626,7 +626,7 @@
                 ]
               ]
             }
-    
+
           },
           {
             "type": "text",
@@ -1041,13 +1041,13 @@
                     }
                   ],
                   [{
-                    "title": "6 miesięcy",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
+                      "title": "6 miesięcy",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
                 ]
               ]
             }
@@ -1188,6 +1188,19 @@
           },
           "content": {
             "title": "Napisz Do Nas"
+          }
+        }]
+      },
+      {
+        "name": "regulamin",
+        "label": "Regulamin",
+        "active": "0",
+        "data": [{
+          "type": "text",
+          "content": {
+            "title": "REGULAMIN",
+            "lead": "",
+            "text": "Każdy klient ma obowiązek zapoznania się z niniejszym regulaminem i jego przestrzegania.2. W związku z rozpoczęciem stosowania z dniem 25 maja 2018 r. Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych, dalej: RODO) informujemy iż: 2.1. Administratorem Państwa danych osobowych jest RADEAL Radosław Chwast z siedzibą w Nowej Górze 295, 32-065 Krzeszowice, NIP: 5130170364, REGON: 122977430, zwany dalej „Karma Zdrowia”.2.2. Kontakt z Administratorem możliwy jest na wskazany wyżej adres oraz pod numerem telefonu 500-424-737 i adresem e-mail 7mepoty@gmail.com. 2.3. Przetwarzane przez Administratora dane osobowe to: imię, nazwisko, numer telefonu, data urodzenia.2.4. Państwa dane osobowe przetwarzane są przez Administratora w celu świadczenia usług związanych z poprawą zdrowia, kondycji fizycznej, doradztwem żywieniowym i/lub solarium oraz w jego własnych celach marketingowych - a podanie danych jest dobrowolne i nie jest niezbędne dla zawarcia i wykonania umów z Administratorem, lecz niezbędne do otrzymywania informacji o aktualnych ofertach i promocjach.2.5. Dodatkowo, Państwa dane przetwarzane są w celu świadczenia usługi newslettera na podstawie art. 6 ust. 1 lit. a RODO. Newsletter wysyłany jest w formie wiadomości SMS na podany przez Państwa numer telefonu i zawiera informacje dotyczące: wydarzeń w Karma Zdrowia a także akcji promocyjnych przygotowanych przez Karma Zdrowia.2.6. Państwa dane bez uprzedniego wyrażenia zgody nie są przekazywane osobom trzecim.2.7. Administrator zobowiązuje się do zabezpieczenia przetwarzanych Państwa danych osobowych przed dostępem osób nieupoważnionych.2.8. Przysługuje Państwu prawo dostępu do treści danych, prawo do ich sprostowania, usunięcia lub ograniczenia przetwarzania, prawo żądania zaprzestania przetwarzania i prawo przenoszenia danych, a także prawo do wniesienia skargi do organu nadzorczego tj. Prezesa Urzędu Ochrony Danych Osobowych. 2.9. Mogą Państwo wycofać zgodę na przetwarzanie Państwa danych w dowolnym momencie, co nie będzie miało jednak wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie zgody przed jej cofnięciem. Zgodę można wycofać kontaktując się z Administratorem w sposób wskazany w punkcie 2.2. 2.10. Mogą Państwo w dowolnym momencie wnieść sprzeciw wobec przetwarzania Państwa danych na potrzeby marketingu bezpośredniego, a Państwa dane nie będą więcej wykorzystywane w tym celu.2.11. Dane osobowe będą przetwarzane do czasu cofnięcia przez Państwa udzielonej zgody.3. Karma Zdrowia jest obiektem świadczącym usługi z zakresu: P-DTR, solarium, siłownia, body space, zajęcia grupowe fitness, zajęcia grupowe jogi, treningi personalne, porady żywieniowe, warsztaty oraz okazjonalne event’y sportowe. Wszystkie wyżej wymienione usługi są ujęte w cenniku klubu.4. Z usług mogą korzystać osoby pełnoletnie lub niepełnoletnie w obecności opiekunów prawnych. Zakaz udostępniania solarium osobom, które nie ukończyły 18. roku życia (art. 5 ust. 1 ustawy z dnia 15 września 2017 r. o ochronie zdrowia przed następstwami korzystania z solarium).5. Dla obsługi obiektu korzystanie z usług sportowych i solarium jest jednoznaczne z tym, iż klient nie ma żadnych przeciwwskazań lekarskich do wykonywaniu wysiłku fizycznego oraz opalania, jest onświadomy swojego stanu zdrowia oraz korzysta z usług z zachowaniem ostrożności i troski o swoje zdrowie. Z tego powodu zalecamy wykonywanie profilaktycznie badań lekarskich przynajmniej raz w roku. Wszelkie bieżące urazy lub stany chorobowe należy niezwłocznie zgłaszać obsłudze oraz trenerom. W przypadku pojawienia się zawrotów głowy lub innych nienormalnych objawów należy to natychmiast sygnalizować i przerwać ćwiczenie. Jeśli stan zdrowia danej osoby budzi wątpliwości obsługi klubu, Karma Zdrowia odmówi zrealizowania usługi do momentu dostarczenia kserokopii oświadczenia lekarskiego ze zgodą na wykonywanie ćwiczeń.6. Każdy klient jest zobowiązany do nienaruszania spokoju i porządku w obiekcie oraz niezakłócania innym klientom możliwości korzystania z usług. Zabrania się na terenie obiektu palenia papierosów i spożywania alkoholu.7. Każdy klient jest zobowiązany do korzystania z pomieszczeń i urządzeń zgodnie z ich przeznaczeniem, nie narażając ich na uszkodzenia. W przypadku spowodowania poważnej wady urządzenia, klient odpowiada finansowo.8. Każdy klient jest zobowiązany do zmiany obuwia z czystą podeszwą przed wejściem na salę ćwiczeń.9. Klub nie ponosi odpowiedzialności za pozostawione rzeczy w szatni, toalecie, przebieralni, poczekalni lub sali ćwiczeń. Prosimy o zachowanie uwagi i pilnowanie przedmiotów cennych.10. Klient ma prawo do dokonania rezerwacji na zajęcia grupowe oraz Body Space. W przypadku nie anulowania rezerwacji i nie pojawienia się na czas wejście zostaje odnotowane, co skutkuje utratą treningu przez klienta. W przypadku powtarzania się takich sytuacji, klient może stracić prawo do rezerwacji miejsca.11. Minimalna ilość osób na zajęciach grupowych wynosi 5. W przypadku nieuzbierania się wystarczającej ilości chętnych, obiekt zastrzega sobie prawo do odwołania zajęć o czym niezwłocznie powiadomi poprzez sms lub rozmowę telefoniczną osoby, które miały dokonaną rezerwację. Podobnie awaria Body Space skutkuje niezwłocznym powiadomieniem.12. Obiekt zastrzega sobie prawo do wykonywania zdjęć i filmów do celów promocyjnych i umieszczaniu ich na stronie internetowej klubu.13. Opłata za karnet/pakiet jest opłatą bezzwrotną. Każdy karnet/pakiet jest przypisany do jednej osoby i upoważnia do korzystania z określonych usług po promocyjnej cenie w określonym terminie ważności.W razie jakichkolwiek dodatkowych pytań pozostajemy do Państwa dyspozycji.Karma Zdrowia"
           }
         }]
       }
@@ -1750,7 +1763,7 @@
                 ]
               ]
             }
-    
+
           },
           {
             "type": "text",
@@ -2165,13 +2178,13 @@
                     }
                   ],
                   [{
-                    "title": "6 miesięcy",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
+                      "title": "6 miesięcy",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
                 ]
               ]
             }
@@ -2314,6 +2327,19 @@
             "title": "Napisz Do Nas"
           }
         }]
+      },
+      {
+        "name": "regulamin",
+        "label": "Regulamin",
+        "active": "0",
+        "data": [{
+          "type": "text",
+          "content": {
+            "title": "REGULAMIN",
+            "lead": "",
+            "text": "Każdy klient ma obowiązek zapoznania się z niniejszym regulaminem i jego przestrzegania.2. W związku z rozpoczęciem stosowania z dniem 25 maja 2018 r. Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych, dalej: RODO) informujemy iż: 2.1. Administratorem Państwa danych osobowych jest RADEAL Radosław Chwast z siedzibą w Nowej Górze 295, 32-065 Krzeszowice, NIP: 5130170364, REGON: 122977430, zwany dalej „Karma Zdrowia”.2.2. Kontakt z Administratorem możliwy jest na wskazany wyżej adres oraz pod numerem telefonu 500-424-737 i adresem e-mail 7mepoty@gmail.com. 2.3. Przetwarzane przez Administratora dane osobowe to: imię, nazwisko, numer telefonu, data urodzenia.2.4. Państwa dane osobowe przetwarzane są przez Administratora w celu świadczenia usług związanych z poprawą zdrowia, kondycji fizycznej, doradztwem żywieniowym i/lub solarium oraz w jego własnych celach marketingowych - a podanie danych jest dobrowolne i nie jest niezbędne dla zawarcia i wykonania umów z Administratorem, lecz niezbędne do otrzymywania informacji o aktualnych ofertach i promocjach.2.5. Dodatkowo, Państwa dane przetwarzane są w celu świadczenia usługi newslettera na podstawie art. 6 ust. 1 lit. a RODO. Newsletter wysyłany jest w formie wiadomości SMS na podany przez Państwa numer telefonu i zawiera informacje dotyczące: wydarzeń w Karma Zdrowia a także akcji promocyjnych przygotowanych przez Karma Zdrowia.2.6. Państwa dane bez uprzedniego wyrażenia zgody nie są przekazywane osobom trzecim.2.7. Administrator zobowiązuje się do zabezpieczenia przetwarzanych Państwa danych osobowych przed dostępem osób nieupoważnionych.2.8. Przysługuje Państwu prawo dostępu do treści danych, prawo do ich sprostowania, usunięcia lub ograniczenia przetwarzania, prawo żądania zaprzestania przetwarzania i prawo przenoszenia danych, a także prawo do wniesienia skargi do organu nadzorczego tj. Prezesa Urzędu Ochrony Danych Osobowych. 2.9. Mogą Państwo wycofać zgodę na przetwarzanie Państwa danych w dowolnym momencie, co nie będzie miało jednak wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie zgody przed jej cofnięciem. Zgodę można wycofać kontaktując się z Administratorem w sposób wskazany w punkcie 2.2. 2.10. Mogą Państwo w dowolnym momencie wnieść sprzeciw wobec przetwarzania Państwa danych na potrzeby marketingu bezpośredniego, a Państwa dane nie będą więcej wykorzystywane w tym celu.2.11. Dane osobowe będą przetwarzane do czasu cofnięcia przez Państwa udzielonej zgody.3. Karma Zdrowia jest obiektem świadczącym usługi z zakresu: P-DTR, solarium, siłownia, body space, zajęcia grupowe fitness, zajęcia grupowe jogi, treningi personalne, porady żywieniowe, warsztaty oraz okazjonalne event’y sportowe. Wszystkie wyżej wymienione usługi są ujęte w cenniku klubu.4. Z usług mogą korzystać osoby pełnoletnie lub niepełnoletnie w obecności opiekunów prawnych. Zakaz udostępniania solarium osobom, które nie ukończyły 18. roku życia (art. 5 ust. 1 ustawy z dnia 15 września 2017 r. o ochronie zdrowia przed następstwami korzystania z solarium).5. Dla obsługi obiektu korzystanie z usług sportowych i solarium jest jednoznaczne z tym, iż klient nie ma żadnych przeciwwskazań lekarskich do wykonywaniu wysiłku fizycznego oraz opalania, jest onświadomy swojego stanu zdrowia oraz korzysta z usług z zachowaniem ostrożności i troski o swoje zdrowie. Z tego powodu zalecamy wykonywanie profilaktycznie badań lekarskich przynajmniej raz w roku. Wszelkie bieżące urazy lub stany chorobowe należy niezwłocznie zgłaszać obsłudze oraz trenerom. W przypadku pojawienia się zawrotów głowy lub innych nienormalnych objawów należy to natychmiast sygnalizować i przerwać ćwiczenie. Jeśli stan zdrowia danej osoby budzi wątpliwości obsługi klubu, Karma Zdrowia odmówi zrealizowania usługi do momentu dostarczenia kserokopii oświadczenia lekarskiego ze zgodą na wykonywanie ćwiczeń.6. Każdy klient jest zobowiązany do nienaruszania spokoju i porządku w obiekcie oraz niezakłócania innym klientom możliwości korzystania z usług. Zabrania się na terenie obiektu palenia papierosów i spożywania alkoholu.7. Każdy klient jest zobowiązany do korzystania z pomieszczeń i urządzeń zgodnie z ich przeznaczeniem, nie narażając ich na uszkodzenia. W przypadku spowodowania poważnej wady urządzenia, klient odpowiada finansowo.8. Każdy klient jest zobowiązany do zmiany obuwia z czystą podeszwą przed wejściem na salę ćwiczeń.9. Klub nie ponosi odpowiedzialności za pozostawione rzeczy w szatni, toalecie, przebieralni, poczekalni lub sali ćwiczeń. Prosimy o zachowanie uwagi i pilnowanie przedmiotów cennych.10. Klient ma prawo do dokonania rezerwacji na zajęcia grupowe oraz Body Space. W przypadku nie anulowania rezerwacji i nie pojawienia się na czas wejście zostaje odnotowane, co skutkuje utratą treningu przez klienta. W przypadku powtarzania się takich sytuacji, klient może stracić prawo do rezerwacji miejsca.11. Minimalna ilość osób na zajęciach grupowych wynosi 5. W przypadku nieuzbierania się wystarczającej ilości chętnych, obiekt zastrzega sobie prawo do odwołania zajęć o czym niezwłocznie powiadomi poprzez sms lub rozmowę telefoniczną osoby, które miały dokonaną rezerwację. Podobnie awaria Body Space skutkuje niezwłocznym powiadomieniem.12. Obiekt zastrzega sobie prawo do wykonywania zdjęć i filmów do celów promocyjnych i umieszczaniu ich na stronie internetowej klubu.13. Opłata za karnet/pakiet jest opłatą bezzwrotną. Każdy karnet/pakiet jest przypisany do jednej osoby i upoważnia do korzystania z określonych usług po promocyjnej cenie w określonym terminie ważności.W razie jakichkolwiek dodatkowych pytań pozostajemy do Państwa dyspozycji.Karma Zdrowia"
+          }
+        }]
       }
     ]
   },
@@ -2331,8 +2357,7 @@
         "secondary": "white"
       }
     },
-    "sections": [
-    {
+    "sections": [{
         "name": "news",
         "label": "Aktualności",
         "active": "1",
@@ -4304,7 +4329,6 @@
                 ]
               ]
             }
-    
           },
           {
             "type": "text",
@@ -4719,13 +4743,13 @@
                     }
                   ],
                   [{
-                    "title": "6 miesięcy",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
+                      "title": "6 miesięcy",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
                 ]
               ]
             }
@@ -5032,9 +5056,23 @@
             "title": "Napisz Do Nas"
           }
         }]
+      },
+      {
+        "name": "regulamin",
+        "label": "Regulamin",
+        "active": "0",
+        "data": [{
+          "type": "text",
+          "content": {
+            "title": "REGULAMIN",
+            "lead": "",
+            "text": "Każdy klient ma obowiązek zapoznania się z niniejszym regulaminem i jego przestrzegania.2. W związku z rozpoczęciem stosowania z dniem 25 maja 2018 r. Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych, dalej: RODO) informujemy iż: 2.1. Administratorem Państwa danych osobowych jest RADEAL Radosław Chwast z siedzibą w Nowej Górze 295, 32-065 Krzeszowice, NIP: 5130170364, REGON: 122977430, zwany dalej „Karma Zdrowia”.2.2. Kontakt z Administratorem możliwy jest na wskazany wyżej adres oraz pod numerem telefonu 500-424-737 i adresem e-mail 7mepoty@gmail.com. 2.3. Przetwarzane przez Administratora dane osobowe to: imię, nazwisko, numer telefonu, data urodzenia.2.4. Państwa dane osobowe przetwarzane są przez Administratora w celu świadczenia usług związanych z poprawą zdrowia, kondycji fizycznej, doradztwem żywieniowym i/lub solarium oraz w jego własnych celach marketingowych - a podanie danych jest dobrowolne i nie jest niezbędne dla zawarcia i wykonania umów z Administratorem, lecz niezbędne do otrzymywania informacji o aktualnych ofertach i promocjach.2.5. Dodatkowo, Państwa dane przetwarzane są w celu świadczenia usługi newslettera na podstawie art. 6 ust. 1 lit. a RODO. Newsletter wysyłany jest w formie wiadomości SMS na podany przez Państwa numer telefonu i zawiera informacje dotyczące: wydarzeń w Karma Zdrowia a także akcji promocyjnych przygotowanych przez Karma Zdrowia.2.6. Państwa dane bez uprzedniego wyrażenia zgody nie są przekazywane osobom trzecim.2.7. Administrator zobowiązuje się do zabezpieczenia przetwarzanych Państwa danych osobowych przed dostępem osób nieupoważnionych.2.8. Przysługuje Państwu prawo dostępu do treści danych, prawo do ich sprostowania, usunięcia lub ograniczenia przetwarzania, prawo żądania zaprzestania przetwarzania i prawo przenoszenia danych, a także prawo do wniesienia skargi do organu nadzorczego tj. Prezesa Urzędu Ochrony Danych Osobowych. 2.9. Mogą Państwo wycofać zgodę na przetwarzanie Państwa danych w dowolnym momencie, co nie będzie miało jednak wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie zgody przed jej cofnięciem. Zgodę można wycofać kontaktując się z Administratorem w sposób wskazany w punkcie 2.2. 2.10. Mogą Państwo w dowolnym momencie wnieść sprzeciw wobec przetwarzania Państwa danych na potrzeby marketingu bezpośredniego, a Państwa dane nie będą więcej wykorzystywane w tym celu.2.11. Dane osobowe będą przetwarzane do czasu cofnięcia przez Państwa udzielonej zgody.3. Karma Zdrowia jest obiektem świadczącym usługi z zakresu: P-DTR, solarium, siłownia, body space, zajęcia grupowe fitness, zajęcia grupowe jogi, treningi personalne, porady żywieniowe, warsztaty oraz okazjonalne event’y sportowe. Wszystkie wyżej wymienione usługi są ujęte w cenniku klubu.4. Z usług mogą korzystać osoby pełnoletnie lub niepełnoletnie w obecności opiekunów prawnych. Zakaz udostępniania solarium osobom, które nie ukończyły 18. roku życia (art. 5 ust. 1 ustawy z dnia 15 września 2017 r. o ochronie zdrowia przed następstwami korzystania z solarium).5. Dla obsługi obiektu korzystanie z usług sportowych i solarium jest jednoznaczne z tym, iż klient nie ma żadnych przeciwwskazań lekarskich do wykonywaniu wysiłku fizycznego oraz opalania, jest onświadomy swojego stanu zdrowia oraz korzysta z usług z zachowaniem ostrożności i troski o swoje zdrowie. Z tego powodu zalecamy wykonywanie profilaktycznie badań lekarskich przynajmniej raz w roku. Wszelkie bieżące urazy lub stany chorobowe należy niezwłocznie zgłaszać obsłudze oraz trenerom. W przypadku pojawienia się zawrotów głowy lub innych nienormalnych objawów należy to natychmiast sygnalizować i przerwać ćwiczenie. Jeśli stan zdrowia danej osoby budzi wątpliwości obsługi klubu, Karma Zdrowia odmówi zrealizowania usługi do momentu dostarczenia kserokopii oświadczenia lekarskiego ze zgodą na wykonywanie ćwiczeń.6. Każdy klient jest zobowiązany do nienaruszania spokoju i porządku w obiekcie oraz niezakłócania innym klientom możliwości korzystania z usług. Zabrania się na terenie obiektu palenia papierosów i spożywania alkoholu.7. Każdy klient jest zobowiązany do korzystania z pomieszczeń i urządzeń zgodnie z ich przeznaczeniem, nie narażając ich na uszkodzenia. W przypadku spowodowania poważnej wady urządzenia, klient odpowiada finansowo.8. Każdy klient jest zobowiązany do zmiany obuwia z czystą podeszwą przed wejściem na salę ćwiczeń.9. Klub nie ponosi odpowiedzialności za pozostawione rzeczy w szatni, toalecie, przebieralni, poczekalni lub sali ćwiczeń. Prosimy o zachowanie uwagi i pilnowanie przedmiotów cennych.10. Klient ma prawo do dokonania rezerwacji na zajęcia grupowe oraz Body Space. W przypadku nie anulowania rezerwacji i nie pojawienia się na czas wejście zostaje odnotowane, co skutkuje utratą treningu przez klienta. W przypadku powtarzania się takich sytuacji, klient może stracić prawo do rezerwacji miejsca.11. Minimalna ilość osób na zajęciach grupowych wynosi 5. W przypadku nieuzbierania się wystarczającej ilości chętnych, obiekt zastrzega sobie prawo do odwołania zajęć o czym niezwłocznie powiadomi poprzez sms lub rozmowę telefoniczną osoby, które miały dokonaną rezerwację. Podobnie awaria Body Space skutkuje niezwłocznym powiadomieniem.12. Obiekt zastrzega sobie prawo do wykonywania zdjęć i filmów do celów promocyjnych i umieszczaniu ich na stronie internetowej klubu.13. Opłata za karnet/pakiet jest opłatą bezzwrotną. Każdy karnet/pakiet jest przypisany do jednej osoby i upoważnia do korzystania z określonych usług po promocyjnej cenie w określonym terminie ważności.W razie jakichkolwiek dodatkowych pytań pozostajemy do Państwa dyspozycji.Karma Zdrowia"
+          }
+        }]
       }
     ]
   },
+
 
   {
     "name": "7mepoty",
@@ -5084,6 +5122,7 @@
           }
         ]
       },
+
       {
         "name": "trening",
         "label": "Trening personalny",
@@ -5671,7 +5710,7 @@
                 ]
               ]
             }
-    
+
           },
           {
             "type": "text",
@@ -6086,13 +6125,13 @@
                     }
                   ],
                   [{
-                    "title": "6 miesięcy",
-                    "dialog": 0
-                  },
-                  {
-                    "subtitle": ""
-                  }
-                ]
+                      "title": "6 miesięcy",
+                      "dialog": 0
+                    },
+                    {
+                      "subtitle": ""
+                    }
+                  ]
                 ]
               ]
             }
@@ -6397,6 +6436,19 @@
           },
           "content": {
             "title": "Napisz Do Nas"
+          }
+        }]
+      },
+      {
+        "name": "regulamin",
+        "label": "Regulamin",
+        "active": "0",
+        "data": [{
+          "type": "text",
+          "content": {
+            "title": "REGULAMIN",
+            "lead": "",
+            "text": "Każdy klient ma obowiązek zapoznania się z niniejszym regulaminem i jego przestrzegania.2. W związku z rozpoczęciem stosowania z dniem 25 maja 2018 r. Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych, dalej: RODO) informujemy iż: 2.1. Administratorem Państwa danych osobowych jest RADEAL Radosław Chwast z siedzibą w Nowej Górze 295, 32-065 Krzeszowice, NIP: 5130170364, REGON: 122977430, zwany dalej „Karma Zdrowia”.2.2. Kontakt z Administratorem możliwy jest na wskazany wyżej adres oraz pod numerem telefonu 500-424-737 i adresem e-mail 7mepoty@gmail.com. 2.3. Przetwarzane przez Administratora dane osobowe to: imię, nazwisko, numer telefonu, data urodzenia.2.4. Państwa dane osobowe przetwarzane są przez Administratora w celu świadczenia usług związanych z poprawą zdrowia, kondycji fizycznej, doradztwem żywieniowym i/lub solarium oraz w jego własnych celach marketingowych - a podanie danych jest dobrowolne i nie jest niezbędne dla zawarcia i wykonania umów z Administratorem, lecz niezbędne do otrzymywania informacji o aktualnych ofertach i promocjach.2.5. Dodatkowo, Państwa dane przetwarzane są w celu świadczenia usługi newslettera na podstawie art. 6 ust. 1 lit. a RODO. Newsletter wysyłany jest w formie wiadomości SMS na podany przez Państwa numer telefonu i zawiera informacje dotyczące: wydarzeń w Karma Zdrowia a także akcji promocyjnych przygotowanych przez Karma Zdrowia.2.6. Państwa dane bez uprzedniego wyrażenia zgody nie są przekazywane osobom trzecim.2.7. Administrator zobowiązuje się do zabezpieczenia przetwarzanych Państwa danych osobowych przed dostępem osób nieupoważnionych.2.8. Przysługuje Państwu prawo dostępu do treści danych, prawo do ich sprostowania, usunięcia lub ograniczenia przetwarzania, prawo żądania zaprzestania przetwarzania i prawo przenoszenia danych, a także prawo do wniesienia skargi do organu nadzorczego tj. Prezesa Urzędu Ochrony Danych Osobowych. 2.9. Mogą Państwo wycofać zgodę na przetwarzanie Państwa danych w dowolnym momencie, co nie będzie miało jednak wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie zgody przed jej cofnięciem. Zgodę można wycofać kontaktując się z Administratorem w sposób wskazany w punkcie 2.2. 2.10. Mogą Państwo w dowolnym momencie wnieść sprzeciw wobec przetwarzania Państwa danych na potrzeby marketingu bezpośredniego, a Państwa dane nie będą więcej wykorzystywane w tym celu.2.11. Dane osobowe będą przetwarzane do czasu cofnięcia przez Państwa udzielonej zgody.3. Karma Zdrowia jest obiektem świadczącym usługi z zakresu: P-DTR, solarium, siłownia, body space, zajęcia grupowe fitness, zajęcia grupowe jogi, treningi personalne, porady żywieniowe, warsztaty oraz okazjonalne event’y sportowe. Wszystkie wyżej wymienione usługi są ujęte w cenniku klubu.4. Z usług mogą korzystać osoby pełnoletnie lub niepełnoletnie w obecności opiekunów prawnych. Zakaz udostępniania solarium osobom, które nie ukończyły 18. roku życia (art. 5 ust. 1 ustawy z dnia 15 września 2017 r. o ochronie zdrowia przed następstwami korzystania z solarium).5. Dla obsługi obiektu korzystanie z usług sportowych i solarium jest jednoznaczne z tym, iż klient nie ma żadnych przeciwwskazań lekarskich do wykonywaniu wysiłku fizycznego oraz opalania, jest onświadomy swojego stanu zdrowia oraz korzysta z usług z zachowaniem ostrożności i troski o swoje zdrowie. Z tego powodu zalecamy wykonywanie profilaktycznie badań lekarskich przynajmniej raz w roku. Wszelkie bieżące urazy lub stany chorobowe należy niezwłocznie zgłaszać obsłudze oraz trenerom. W przypadku pojawienia się zawrotów głowy lub innych nienormalnych objawów należy to natychmiast sygnalizować i przerwać ćwiczenie. Jeśli stan zdrowia danej osoby budzi wątpliwości obsługi klubu, Karma Zdrowia odmówi zrealizowania usługi do momentu dostarczenia kserokopii oświadczenia lekarskiego ze zgodą na wykonywanie ćwiczeń.6. Każdy klient jest zobowiązany do nienaruszania spokoju i porządku w obiekcie oraz niezakłócania innym klientom możliwości korzystania z usług. Zabrania się na terenie obiektu palenia papierosów i spożywania alkoholu.7. Każdy klient jest zobowiązany do korzystania z pomieszczeń i urządzeń zgodnie z ich przeznaczeniem, nie narażając ich na uszkodzenia. W przypadku spowodowania poważnej wady urządzenia, klient odpowiada finansowo.8. Każdy klient jest zobowiązany do zmiany obuwia z czystą podeszwą przed wejściem na salę ćwiczeń.9. Klub nie ponosi odpowiedzialności za pozostawione rzeczy w szatni, toalecie, przebieralni, poczekalni lub sali ćwiczeń. Prosimy o zachowanie uwagi i pilnowanie przedmiotów cennych.10. Klient ma prawo do dokonania rezerwacji na zajęcia grupowe oraz Body Space. W przypadku nie anulowania rezerwacji i nie pojawienia się na czas wejście zostaje odnotowane, co skutkuje utratą treningu przez klienta. W przypadku powtarzania się takich sytuacji, klient może stracić prawo do rezerwacji miejsca.11. Minimalna ilość osób na zajęciach grupowych wynosi 5. W przypadku nieuzbierania się wystarczającej ilości chętnych, obiekt zastrzega sobie prawo do odwołania zajęć o czym niezwłocznie powiadomi poprzez sms lub rozmowę telefoniczną osoby, które miały dokonaną rezerwację. Podobnie awaria Body Space skutkuje niezwłocznym powiadomieniem.12. Obiekt zastrzega sobie prawo do wykonywania zdjęć i filmów do celów promocyjnych i umieszczaniu ich na stronie internetowej klubu.13. Opłata za karnet/pakiet jest opłatą bezzwrotną. Każdy karnet/pakiet jest przypisany do jednej osoby i upoważnia do korzystania z określonych usług po promocyjnej cenie w określonym terminie ważności.W razie jakichkolwiek dodatkowych pytań pozostajemy do Państwa dyspozycji.Karma Zdrowia"
           }
         }]
       }
