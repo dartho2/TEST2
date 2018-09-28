@@ -728,7 +728,7 @@ span.span-header {
 }
 @media (min-width: 1200px){
 h2 {
-    font-size: 50px;
+    font-size: 29px;
     line-height: 54px;
 }}
 .feature-wrapper .feature-card .feature-text h1 span[data-color=explore], .feature-wrapper .feature-card .feature-text h2 span[data-color=explore], .feature-wrapper .feature-card .feature-text h3 span[data-color=explore] {
@@ -770,4 +770,7 @@ app-textimages {
 }
 .mat-button {
   color:black !important;
+}
+.text-black-50 {
+  background: #00000070;
 }

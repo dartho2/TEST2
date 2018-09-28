@@ -1,10 +1,11 @@
 <app-header [portal]="portal"></app-header>
-<div class="row content-header" style="background:white;border-bottom:1px solid #cecece">
+<div class="row content-header" [ngStyle]="{'background': portal.style.colors.primary}" style="color:white;border-bottom:1px solid #cecece">
         <div class="container">
             <h1 class="fit-content-header" style="font-family: Oswald;
             bottom: 0px;
+            text-align: center;
             text-transform: uppercase;
-            font-size: 37px;">{{activeSection.label}}</h1>
+            font-size: 30px;">{{activeSection.label}}</h1>
         </div>
     </div>
 <app-section [section]="activeSection"></app-section>

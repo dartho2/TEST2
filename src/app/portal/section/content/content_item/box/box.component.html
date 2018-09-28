@@ -1,23 +1,25 @@
-<h2 class="featurette-heading">{{data.content.title}}</h2>
 <div class="box-category" *ngIf="!portalFilter(portals.portal)">
-  <div *ngFor="let classes of typeClasses.data">
-    <div class="col-lg-offset-2 col-lg-12">
-      <div class="row" style="display:block">
-        <div class="col-sm-4" style="padding: 5px">
-          <br>
-          <div style="position: relative">
-              <a style="cursor:pointer;" (click)="openDialog(classes.content.title)"><img style="position: relative; width: 100%; height: 200px" src="{{classes.content.image}}"
-                class="img-responsive box-image">
-              </a>  
-            <p class="fit-p-on-image">{{classes.content.title}}
-            </p>
-          </div>
-          <br>
-          <div class="simple-box">
-        
+  <div class="row featurette card card-body">
+    <div class="col-md-12">
+      <h2 class="featurette-heading" style="padding-left: 1.25rem;padding-top: 1.25rem;">{{data.content.title}}</h2>
+      <div *ngFor="let classes of typeClasses.data">
+        <div class="col-lg-offset-2 col-lg-12">
+          <div class="row" style="display:block">
+            <div class="col-sm-4" style="padding: 5px">
+              <br>
+              <div style="position: relative">
+                <a style="cursor:pointer;" (click)="openDialog(classes.content.title)"><img style="position: relative; width: 100%; height: 200px"
+                    src="{{classes.content.image}}" class="img-responsive box-image">
+                </a>
+                <p class="fit-p-on-image">{{classes.content.title}}
+                </p>
+              </div>
+              <br>
+              <div class="simple-box">
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  
