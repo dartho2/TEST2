@@ -82,30 +82,14 @@
        </div>
       </div>
     </nav> -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light rounded" [ngStyle]="{'background-image': 'linear-gradient(to right,'+service.portal.style.colors.secondary+','+service.portal.style.colors.primary+')'}">
+<nav class="navbar navbar-expand-lg navbar-light navbar-top rounded" >
      <div class="container top ml-md-auto">
        <div class="social-links">
-        <a class="fb-ic" >
-            <i class="fa fa-facebook white-text mr-4"> </i>
-          </a>
        
-          <a class="tw-ic">
-            <i class="fa fa-twitter white-text mr-4"> </i>
-          </a>
-        
-          <a class="gplus-ic">
-            <i class="fa fa-google-plus white-text mr-4"> </i>
-          </a>
-       
-          <a class="li-ic">
-            <i class="fa fa-linkedin white-text mr-4"> </i>
-          </a>
-          <a class="ins-ic">
-            <i class="fa fa-instagram white-text"> </i>
-          </a>
+        <a class="navbar-brand navbar-visible" [ngStyle]="{'color': portal.style.colors.primary}" routerLink="/"><img src="{{portal.image}}"></a>
         </div>
-        <div class="navbar-collapse collapse show" id="navbarsTop" style="">
-            
+        <div class="collapse show" id="navbarsTop" style="">
+              
           <ul class="navbar-nav ml-auto">
               <li class="nav-item nav-li-top  "> <span class="span-header">wybierz portal:</span></li>
               <li class="nav-item nav-li-top dropdown">
@@ -124,7 +108,7 @@
       </nav>
 <nav class="navbar navbar-expand-md navbar-dark navbar-header-bot" >
   <div class="container">
-    <a class="navbar-brand navbar-visible" [ngStyle]="{'color': portal.style.colors.primary}" routerLink="/"><img src="{{portal.image}}"></a>
+    <a class="navbar-brand navbar-visible visible-bot" [ngStyle]="{'color': portal.style.colors.primary}" routerLink="/"><img src="{{portal.image}}"></a>
     <button type="button" [ngStyle]="{'color': portal.style.colors.primary}" class="navbar-toggle" data-toggle="collapse"
       data-target="#navbarsBottom" aria-controls="navbarsBottom" aria-expanded="false" aria-label="Toggle navigation">
       <span class="icon-bar" [ngStyle]="{'background-color': portal.style.colors.primary}"></span>
@@ -150,7 +134,7 @@
 
 
 
-<div *ngIf="service.isActiveSectionMainSection()">
+<!-- <div *ngIf="service.isActiveSectionMainSection()"> -->
   <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
     <ol class="carousel-indicators">
       <div *ngFor="let p of service.portal.images_top; index as i">
@@ -167,13 +151,21 @@
           <div class="mask rgba-black-light"></div>
         </div>
         <div class="carousel-caption">
-          <h3 class="h3-responsive">{{portal.name}}</h3>
-          <p>{{service.activeSection.label}}</p>
+          <!-- <h3 class="h3-responsive">{{portal.name}}</h3> -->
+          <p  style="font-family: Oswald;
+          bottom: 0px;
+          text-transform: uppercase;
+          /* left: 0px; */
+          /* right: 0px; */
+          background: rgba(0, 0, 0, 0.32);
+          position: absolute;
+          font-size: 64px;">{{portal.label}}</p>
         </div>
 
       </div>
     </div>
-    <div *ngIf="service.portal.images_top.length > 1">
+    <!-- </div> -->
+    <!-- <div *ngIf="service.portal.images_top.length > 1">
       <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
         <div class="carousel-control-lc" [ngStyle]="{'background-color': portal.style.colors.primary}">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -187,6 +179,16 @@
           <span class="sr-only">Next</span>
         </div>
       </a>
-    </div>
+    </div> -->
   </div>
-</div>
+<!-- </div> -->
+<div class="slideout-widget widget-facebook">
+    <div class="slideout-widget-handler">
+        <a class="fb-ic"><i class="fa fa-facebook white-text mr-4"></i></a>
+    </div>
+    <div class="slideout-widget-content">
+        <fb-page data-tabs="timeline, events, messages" data-width="290" data-height="400" href="https://www.facebook.com/7mepoty-Centrum-fitness-250111271792298/"></fb-page>
+    </div>
+   </div>
+  
+   

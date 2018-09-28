@@ -115,6 +115,10 @@ a#dropdown01 {
   font-family: 'robotlight';
   src: url('/assets/fonts/Roboto-Light.ttf')
 }
+@font-face {
+  font-family: 'Oswald';
+  src: url('/assets/fonts/Oswald-Bold.ttf')
+}
 
 @font-face {
   font-family: 'Montserrat';
@@ -572,11 +576,18 @@ ul.navbar-l-menu {
 li.nav-items-l {
   display: inline-block;
 }
-
+@media screen and (min-width: 768px) {
+  a.navbar-brand.navbar-visible.visible-bot {
+    display: none;
+}
+}
 @media screen and (max-width: 768px) {
   .row.featurette.card {
     display: block;
   }
+  a.navbar-brand.navbar-visible.visible-bot {
+    display: block;
+}
 
   .row.content-row {
     display: block;
@@ -590,6 +601,10 @@ li.nav-items-l {
   li.nav-li-top {
     margin: 0 auto;
   }
+  div#navbarsTop {
+    margin: 0 auto;
+    color: black;
+}
 }
 
 .container.top.ml-md-auto {
@@ -600,13 +615,16 @@ li.nav-items-l {
   li.nav-item.nav-li-top.dropdown {
     color: rgba(255, 255, 255, .62);
     border: 1px solid #fff;
+    background: #ffffff4f;
     padding: 1px 10px;
     line-height: 21px;
   }
+  
 }
 
 .navbar {
-  padding: 0.3rem 1rem;
+  /* padding: 0.3rem 1rem; */
+  padding: 0px;
 }
 
 li.nav-item.nav-li-top {
@@ -645,6 +663,7 @@ a.mat-button.btn.mat-button:hover {
 /* /. Long menu./ */
 .navbar-light .navbar-nav .nav-link {
   color: black;
+
 }
 span.span-header {
   color: black;
@@ -742,4 +761,13 @@ h2 {
 }
 app-textimages {
   width:100%;
+}
+
+@media screen and (max-width: 767px) {
+  .mat-button {
+    color:black !important;
+  }
+}
+.mat-button {
+  color:black !important;
 }

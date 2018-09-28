@@ -1,7 +1,7 @@
 [{
     "name": "counseling",
     "image": "assets/logo/consulting_logo.png",
-    "images_top": [
+    "images_top": ["assets/images/type_classes/slider5.png"
 
     ],
     "label": "Doradztwo żywieniowe",
@@ -1209,7 +1209,7 @@
   {
     "name": "pdtr",
     "image": "assets/logo/pdtr_logo.png",
-    "images_top": [
+    "images_top": ["assets/images/type_classes/slider3.png"
 
     ],
     "label": "Gabinet P-DTR",
@@ -2819,27 +2819,22 @@
                   "lead": "",
                   "text": "Stopień trudności jest jednak wyższy w Vinyasa Jodze niż w Hatha. Dlatego ta druga jest polecana dla początkujących, ponieważ łatwiej jest w niej skupić się na prawidłowym wykonywaniu figur, co przecież dla jogi jest bardzo ważne. Technika oddychania jest również tutaj łatwiejsza. Stąd też kiedy dobrze już pozna się Hatha Jogę, można przejść do Vinyasa Jogi, żeby podnieść sobie poprzeczkę, można więc traktować Vinyasę jako zaawansowaną odmianę tradycyjnej jogi."
                 }
+              },
+              {
+                "type": "text_and_image",
+                "style": {
+                  "order": 1
+                },
+                "content": {
+                  "title": "Jak joga zmienia Twoje ciało – po zajęciach, miesiącach, latach…?",
+                  "lead": "",
+                  "image": "assets/images/joga/zalety.png",
+                  "text": "Na pewno zastanawiałeś się, jak joga wpływa na funkcjonowanie Twojego organizmu. Ta prosta grafika ułatwi Ci dostrzec natychmiastowe korzyści, które osiągniesz już zaraz po zejściu z maty, jak i efekty dłuższej, regularnej praktyki."
+                }
               }
             ]
           }
         ]
-      },
-      {
-        "name": "advantages",
-        "label": "Zalety jogi",
-        "active": "1",
-        "data": [{
-          "type": "text_and_image",
-          "style": {
-            "order": 1
-          },
-          "content": {
-            "title": "Jak joga zmienia Twoje ciało – po zajęciach, miesiącach, latach…?",
-            "lead": "",
-            "image": "assets/images/joga/zalety.png",
-            "text": "Na pewno zastanawiałeś się, jak joga wpływa na funkcjonowanie Twojego organizmu. Ta prosta grafika ułatwi Ci dostrzec natychmiastowe korzyści, które osiągniesz już zaraz po zejściu z maty, jak i efekty dłuższej, regularnej praktyki."
-          }
-        }]
       },
       {
         "name": "buy",
@@ -5101,7 +5096,7 @@
           {
             "type": "text",
             "content": {
-              "title": "7mepoty. Centrum Treningowe",
+              "title": "Centrum Treningowe",
               "lead": "",
               "text": "Treningi personalne, zajęcia fitness pod okiem wykwalifikowanych instruktorów, strefa do samodzielnego treningu w profesjonalnych wnętrzach oferująca również specjalistyczne sprzęty do ujędrniania i wyszczuplania sylwetki."
             }
