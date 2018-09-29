@@ -82,33 +82,35 @@
        </div>
       </div>
     </nav> -->
-<nav class="navbar navbar-expand-lg navbar-light navbar-top rounded" >
-     <div class="container top ml-md-auto">
-       <div class="social-links">
-       
-        <a class="navbar-brand navbar-visible" [ngStyle]="{'color': portal.style.colors.primary}" routerLink="/"><img src="{{portal.image}}"></a>
-        </div>
-        <div class="collapse show" id="navbarsTop" style="">
-              
-          <ul class="navbar-nav ml-auto">
-              <li class="nav-item nav-li-top  "> <span class="span-header">wybierz portal:</span></li>
-              <li class="nav-item nav-li-top dropdown">
-                  <a class="nav-link dropdown-toggle nav-top-link" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> {{portal.label}}</a>
-                  <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a *ngFor="let portal of service.portals" class="dropdown-item" href="#" [ngStyle]="portal.hover ? {'background-color': portal.style.colors.primary} : {}"
-                    routerLink="/{{portal.name}}/{{portal.sections[0].name}}">{{portal.label}}</a>
-                   
-                  </div>
-                </li>
-          </ul>
-          
-       
-      </div>
+<nav class="navbar navbar-expand-lg navbar-light navbar-top rounded">
+  <div class="container top ml-md-auto">
+    <div class="social-links">
+
+      <a class="navbar-brand navbar-visible" [ngStyle]="{'color': portal.style.colors.primary}" routerLink="/"><img src="{{portal.image}}"></a>
     </div>
-      </nav>
+    <div class="collapse show" id="navbarsTop" style="">
+
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item nav-li-top  "> <span class="span-header">wybierz portal:</span></li>
+        <li class="nav-item nav-li-top dropdown">
+          <a class="nav-link dropdown-toggle nav-top-link" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false"> {{portal.label}}</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+            <a *ngFor="let portal of service.portals" class="dropdown-item" href="#" [ngStyle]="portal.hover ? {'background-color': portal.style.colors.primary} : {}"
+              routerLink="/{{portal.name}}/{{portal.sections[0].name}}">{{portal.label}}</a>
+
+          </div>
+        </li>
+      </ul>
+
+
+    </div>
+  </div>
+</nav>
 <nav class="navbar navbar-expand-md navbar-dark navbar-header-bot">
   <div class="container">
-    <a class="navbar-brand navbar-visible visible-bot" [ngStyle]="{'color': portal.style.colors.primary}" routerLink="/"><img src="{{portal.image}}"></a>
+    <a class="navbar-brand navbar-visible visible-bot" [ngStyle]="{'color': portal.style.colors.primary}" routerLink="/"><img
+        src="{{portal.image}}"></a>
     <button type="button" [ngStyle]="{'color': portal.style.colors.primary}" class="navbar-toggle" data-toggle="collapse"
       data-target="#navbarsBottom" aria-controls="navbarsBottom" aria-expanded="false" aria-label="Toggle navigation">
       <span class="icon-bar" [ngStyle]="{'background-color': portal.style.colors.primary}"></span>
@@ -119,9 +121,9 @@
       <ul class="navbar-nav nabar-l-menu mr-auto">
         <li class="nav-item nav-items-l" *ngFor="let section of service.portal.sections">
           <div *ngIf="section.active > 0">
-           
-              <a button class="mat-button btn" [ngClass]="{'mat-button:hover' : true}" (mouseout)="section.hover =false" (mouseover)="section.hover =true"
-              [ngStyle]="section.hover || section.name === service.activeSection.name ? {'border-bottom': '1px solid' + portal.style.colors.primary} : {}"
+
+            <a button class="mat-button btn" [ngClass]="{'mat-button:hover' : true}" (mouseout)="section.hover =false"
+              (mouseover)="section.hover =true" [ngStyle]="section.hover || section.name === service.activeSection.name ? {'border-bottom': '1px solid' + portal.style.colors.primary} : {}"
               routerLink="/{{portal.name}}/{{section.name}}">{{section.label}}</a>
           </div>
         </li>
@@ -144,7 +146,6 @@
       </div>
     </ol>
     <div class="carousel-inner" role="listbox">
-
       <div *ngFor="let image of service.portal.images_top; index as i" [ngClass]="i == 0 ? 'carousel-item active':'carousel-item'">
         <div class="view">
           <img class="d-block w-100" src="{{image}}" alt="">
@@ -157,7 +158,9 @@
             right: 0px;
             /* height: 100%; */
             top: 0px;
-            position: absolute;"src="{{portal.image}}" alt=""></h3>
+            opacity: 1;
+            position: absolute;"
+              src="{{portal.image}}" alt=""></h3>
           <p [ngStyle]="{'color': portal.style.colors.primary}" style="font-family: Oswald;
           bottom: 0px;
           text-transform: uppercase;
@@ -170,31 +173,29 @@
 
       </div>
     </div>
-    </div>
-    <div *ngIf="service.portal.images_top.length > 1">
-      <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
-        <div class="carousel-control-lc" [ngStyle]="{'background-color': portal.style.colors.primary}">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span></div>
-      </a>
-      <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
-        <div class="carousel-control-rc" [ngStyle]="{'background-color': portal.style.colors.primary}">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </div>
-      </a>
-    </div>
   </div>
+  <div class="carousel-control-visible" *ngIf="service.portal.images_top.length > 1">
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+      <div class="carousel-control-lc" [ngStyle]="{'background-color': portal.style.colors.primary}">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span></div>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+      <div class="carousel-control-rc" [ngStyle]="{'background-color': portal.style.colors.primary}">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </div>
+    </a>
+  </div>
+</div>
 <!-- </div> -->
 <div class="slideout-widget widget-facebook">
-    <div class="slideout-widget-handler">
-        <a class="fb-ic"><i class="fa fa-facebook white-text mr-4"></i></a>
-    </div>
-    <div class="slideout-widget-content">
-        <fb-page data-tabs="timeline, events, messages" data-width="290" data-height="400" href="https://www.facebook.com/7mepoty-Centrum-fitness-250111271792298/"></fb-page>
-    </div>
-   </div>
-  
-   
+  <div class="slideout-widget-handler">
+    <a class="fb-ic"><i class="fa fa-facebook white-text mr-4"></i></a>
+  </div>
+  <div class="slideout-widget-content">
+    <fb-page data-tabs="timeline, events, messages" data-width="290" data-height="400" href="https://www.facebook.com/7mepoty-Centrum-fitness-250111271792298/"></fb-page>
+  </div>
+</div>
