@@ -151,8 +151,14 @@
           <div class="mask rgba-black-light"></div>
         </div>
         <div class="carousel-caption">
-          <!-- <h3 class="h3-responsive">{{portal.name}}</h3> -->
-          <p  style="font-family: Oswald;
+          <h3 class="h3-responsive"><img class="d-block w-100 logo" style="    max-width: 300px;
+            /* margin: 0 auto; */
+            bottom: 0px;
+            right: 0px;
+            /* height: 100%; */
+            top: 0px;
+            position: absolute;"src="{{portal.image}}" alt=""></h3>
+          <p [ngStyle]="{'color': portal.style.colors.primary}" style="font-family: Oswald;
           bottom: 0px;
           text-transform: uppercase;
           /* left: 0px; */
@@ -165,7 +171,7 @@
       </div>
     </div>
     </div>
-    <!-- <div *ngIf="service.portal.images_top.length > 1">
+    <div *ngIf="service.portal.images_top.length > 1">
       <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
         <div class="carousel-control-lc" [ngStyle]="{'background-color': portal.style.colors.primary}">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -179,7 +185,7 @@
           <span class="sr-only">Next</span>
         </div>
       </a>
-    </div> -->
+    </div>
   </div>
 <!-- </div> -->
 <div class="slideout-widget widget-facebook">
