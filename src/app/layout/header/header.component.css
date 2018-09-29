@@ -285,7 +285,9 @@ body {
     margin-top: .5em;
     color: rgba(0, 0, 0, .68);
   }
-  
+  .navbar-nav .dropdown-menu {
+    position: absolute;
+}
   .card-footer {
     font-size: 1em;
     position: static;

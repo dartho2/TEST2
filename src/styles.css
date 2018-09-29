@@ -396,6 +396,7 @@ app-table.ng-star-inserted {
 
 nav.navbar.navbar-expand-md.navbar-dark.navbar-header-bot {
   display: block;
+  padding: 20px;
 }
 
 li.nav-item.ng-star-inserted {
