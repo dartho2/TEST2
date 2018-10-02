@@ -1,5 +1,5 @@
 <main role="main">
-  <app-portal *ngIf="isActivePortalValid()" [shared]='shared' [portals]='portals'></app-portal>
+  <app-portal *ngIf="isActivePortalValid()" [portals]='portals'></app-portal>
   <div *ngIf="!isActivePortalValid()">
     <div *ngFor="let portal of portals">
       <ul class="navbar-nav mr-auto">

@@ -1384,25 +1384,6 @@
         "active": "1",
         "label": "Referencje",
         "data": [{
-          "type": "box",
-          "data": [{
-            "type": "table",
-            "shared": "references_box",
-            "class": "schedule",
-            "style": {
-              "order": 1
-            }
-          }],
-          "content": {
-            "title": "Nasze Referencje:"
-          }
-        }]
-      },
-      {
-        "name": "references_box",
-        "active": "0",
-        "label": "Referencje",
-        "data": [{
             "type": "text_and_image",
             "style": {
               "order": 1
@@ -5099,6 +5080,20 @@
               "title": "Centrum Treningowe",
               "lead": "",
               "text": "Treningi personalne, zajęcia fitness pod okiem wykwalifikowanych instruktorów, strefa do samodzielnego treningu w profesjonalnych wnętrzach oferująca również specjalistyczne sprzęty do ujędrniania i wyszczuplania sylwetki."
+            }
+          },
+          {
+            "type": "box-link",
+            "data": [{
+              "style": {
+                "order": 1
+              },
+              "link": ["price_list","schedule"],
+              "color": ["#00b4cb","#76be40"]
+            }],
+            "content": {
+              "title": "",
+              "text": ["Aktualny cennik","Aktualny Grafik"]
             }
           },
           {

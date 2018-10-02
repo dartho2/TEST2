@@ -1,9 +1,10 @@
-
 <div class="row featurette card card-body">
   <div class="col-md-12">
-      <h2 *ngIf="data.content.title" style="padding-left: 1.25rem;padding-top: 1.25rem;" class="featurette-heading">{{data.content.title}} <br><span
-        class="text-muted">{{data.content.lead}} </span></h2> <p class="lead">{{data.content.text}}</p>
+    <div class="col-md-12" style="margin:0 auto">
+      <h2 *ngIf="data.content.title" class="featurette-heading" style="padding-left: 1.25rem;padding-top: 1.25rem;">{{data.content.title}}
+        <br><span class="text-muted">{{data.content.lead}} </span></h2>
+      <p class="lead">{{data.content.text}}</p>
+    </div>
   </div>
 </div>
-<div style="clear: both;"></div> 
-
+<div style="clear: both;"></div>

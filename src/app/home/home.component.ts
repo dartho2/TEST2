@@ -11,7 +11,6 @@ import {AppService} from '../app.service';
 export class HomeComponent implements OnInit {
   activePortal;
   portals = [];
-  shared = [];
 
 
   constructor(private portalService: AppService,

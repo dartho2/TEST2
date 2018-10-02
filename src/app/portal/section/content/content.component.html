@@ -1,10 +1,11 @@
 <div class="row content-row" [ngStyle]="{'float': contentItem.float}" *ngFor="let contentItem of contentItems">
   <!-- <app-fb *ngIf="contentItem.type === 'fb'" [data]="contentItem"></app-fb> -->
-  <app-text *ngIf="contentItem.type === 'text'" [data]="contentItem"></app-text>
-  <app-textimages *ngIf="contentItem.type === 'text_and_image'" [data]="contentItem"></app-textimages>
-  <app-gallery *ngIf="contentItem.type === 'gallery'" [data]="contentItem"></app-gallery>
-  <app-list *ngIf="contentItem.type === 'list'" [data]="contentItem"></app-list>
-  <app-table *ngIf="contentItem.type === 'table'" [data]="contentItem"></app-table>
-  <app-contact *ngIf="contentItem.type === 'contact'" [data]="contentItem"></app-contact>
-  <app-box *ngIf="contentItem.type === 'box'" [data]="contentItem"></app-box>
+  <app-text class="col-md-12" *ngIf="contentItem.type === 'text'" [data]="contentItem"></app-text>
+  <app-textimages class="col-md-12" *ngIf="contentItem.type === 'text_and_image'" [data]="contentItem"></app-textimages>
+  <app-gallery class="col-md-12" *ngIf="contentItem.type === 'gallery'" [data]="contentItem"></app-gallery>
+  <app-list class="col-md-12"*ngIf="contentItem.type === 'list'" [data]="contentItem"></app-list>
+  <app-table class="col-md-12" *ngIf="contentItem.type === 'table'" [data]="contentItem"></app-table>
+  <app-contact class="col-md-12" *ngIf="contentItem.type === 'contact'" [data]="contentItem"></app-contact>
+  <app-box-link class="col-md-12" *ngIf="contentItem.type === 'box-link'" [data]="contentItem"></app-box-link>
+  <app-box class="col-md-12" *ngIf="contentItem.type === 'box'" [data]="contentItem"></app-box>
 </div>

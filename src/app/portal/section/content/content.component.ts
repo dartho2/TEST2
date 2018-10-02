@@ -15,10 +15,6 @@ export class ContentComponent implements OnChanges {
 
 
   ngOnChanges(){
-    if (this.contentItems[0].shared) {
-      let shared = this.portals.shared.filter(x => x.name === this.contentItems[0].shared);     
-      this.contentItems = shared[0].data
-      return [...this.contentItems]
-    }
+    
   }
 }

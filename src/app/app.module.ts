@@ -24,6 +24,7 @@ import {FooterComponent} from './layout/footer/footer.component';
 import {HeaderComponent} from './layout/header/header.component';
 import {ContactComponent} from './portal/section/content/content_item/contact/contact.component';
 import {BoxComponent} from './portal/section/content/content_item/box/box.component';
+import {BoxLinkComponent} from './portal/section/content/content_item/box_link/box_link.component';
 import {MatDialogModule} from '@angular/material/dialog';
 import {DialogComponent} from './portal/section/content/content_item/dialog/dialog.component';
 
@@ -44,7 +45,8 @@ import {DialogComponent} from './portal/section/content/content_item/dialog/dial
     HeaderComponent,
     ContactComponent,
     BoxComponent,
-    DialogComponent
+    DialogComponent,
+    BoxLinkComponent
   ],
   imports: [
     BrowserModule,
