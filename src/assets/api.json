@@ -127,6 +127,7 @@
           },
           {
             "type": "list",
+            "list_type": "normal",
             "content": {
               "title": "Grupy produktów do testów:",
               "text": "",
@@ -192,6 +193,7 @@
           },
           {
             "type": "list",
+            "list_type": "normal",
             "content": {
               "title": "Na co to?",
               "text": "",
@@ -227,6 +229,7 @@
         "active": "1",
         "data": [{
             "type": "list",
+            "list_type": "normal",
             "content": {
               "title": "MAGNEZ",
               "text": "Niedobór magnezu jest bardzo powszechny na całym świecie - może występować nawet u 70% osób. Niektóre jego objawy to:",
@@ -260,6 +263,7 @@
           },
           {
             "type": "list",
+            "list_type": "normal",
             "content": {
               "title": "RTĘĆ I KRÓTKA HISTORIA POWSTAWANIA PASKUDNYCH CHORÓB",
               "text": "Jednym z głównych powodów zapadania na choroby autoimmunizacyjne (rodzaj chorób, w którym ciało atakuje swoje komórki jak np. hashimoto, cukrzyca, astma, reumatoidalne zapalenie stawów, autyzm, atopia) jest zatrucie metalami ciężkimi takimi jak aluminium, kadm, arsen i rtęć. Ten ostatni najczęściej można spotkać w dwóch źródłach:",
@@ -283,6 +287,7 @@
           },
           {
             "type": "list",
+            "list_type": "normal",
             "content": {
               "title": "TARCZYCA - 22 SYMPTOMY DYSFUKCYJNEJ PRACY GRUCZOŁU TARCZOWEGO",
               "text": "To jeden z ważnych graczy biorących udział w przemianie materii. Jego hormony wpływają na przyspieszenie spalania wewnątrzkomórkowego (wytwarzanie ciepła), przemianę wodno-mineralną (wydalanie z organizmu wody i soli mineralnych np. jonów sodu) i wiele innych. Zanim wyniki badań hormonów tarczycy z krwi pokażą nieprawidłowości, często objawy dysfunkcji tarczycy są już obecne od dłuższego czasu. Jakie to objawy?",
@@ -307,6 +312,7 @@
           },
           {
             "type": "list",
+            "list_type": "normal",
             "content": {
               "title": "NADCZYNNOŚĆ TARCZYCY",
               "text": "",
@@ -345,7 +351,8 @@
 
           },
           {
-            "type": "list",
+            "type": "list",            
+            "list_type": "normal",
             "content": {
               "title": "Skąd masz wiedzieć czy jesteś leptyooporny?",
               "text": "Jeśli, część z poniższych objawów wydaje Ci się znajoma, może to sugerować, że jesteś oporny na leptynę:",
@@ -381,6 +388,7 @@
           },
           {
             "type": "list",
+            "list_type": "normal",
             "content": {
               "title": "Jakie są najczęstsze objawy insulinooporności?",
               "text": "",
@@ -404,6 +412,7 @@
           },
           {
             "type": "list",
+            "list_type": "normal",
             "content": {
               "title": "Jaki jest schemat postępowania?",
               "text": "Przyczyną insulinooporności są nieprawidłowe produkty jedzone w nieodpowiednich ilościach, dlatego jedynym słusznym podejściem jest zmiana sposobu odżywiania. Istnieją 2 możliwe schematy postępowania: natychmiastowa redukcja węglowodanów w diecie do ok 50-80 g na dobę i po kilku miesiącach stopniowe zwiększanie lub metoda małych kroków - podaż węglowodanów szacowana na ok 200-250 g ulega zmniejszaniu co miesiąc o 50 g. Dopóki waga spada nie są konieczne dalsze restrykcje. Co jeszcze może pomóc? Unikanie takich produktów lub czynności jak:",
@@ -1248,6 +1257,18 @@
               "lead": "",
               "text": "Uwalnianie od bólu, regulacja pracy mięśni i stawów, wygaszanie napięć fizycznych i psychosomatycznych w przestymulowanym układzie nerwowym za pomocą proprioceptywnej terapii odruchowej – innowacyjne metody pracy z układem nerwowym. Dla dorosłych i dzieci."
             }
+          },
+          {
+            "type": "box",
+            "data": [{
+              "shared": "references",
+              "style": {
+                "order": 1
+              }
+            }],
+            "content": {
+              "title": "Referencje:"
+            }
           }
         ]
       },
@@ -1268,7 +1289,8 @@
             }
           },
           {
-            "type": "list",
+            "type": "list",            
+            "list_type": "normal",
             "content": {
               "title": "",
               "text": "P-DTR to metoda z działu funkcjonalnej neurologii stosowana w fizjoterapii, usprawnianiu sportowców i przywracaniu zdrowia oraz równowagi w organizmie. Jej zastosowanie pomoże w:",
@@ -2414,6 +2436,7 @@
           },
           {
             "type": "list",
+            "list_type": "normal",
             "content": {
               "title": "Podstawy ośmiostopniowej ścieżki jogi Patańdżalego",
               "text": "",
@@ -2626,7 +2649,8 @@
             }
           },
           {
-            "type": "list",
+            "type": "list", 
+            "list_type": "normal",
             "content": {
               "title": "",
               "text": "Oferta obejmuje:",
@@ -2723,6 +2747,7 @@
               },
               {
                 "type": "list",
+                "list_type": "normal",
                 "content": {
                   "title": "Oferta obejmuje:",
                   "text": "",
@@ -2823,6 +2848,7 @@
         "active": "1",
         "data": [{
             "type": "list",
+            "list_type": "normal",
             "content": {
               "title": "W naszej ofercie znajdują się wyłącznie sprawdzone produkty:",
               "text": "",
@@ -5112,13 +5138,13 @@
           }
         ]
       },
-
       {
         "name": "trening",
         "label": "Trening personalny",
         "active": "1",
         "data": [{
             "type": "list",
+            "list_type": "stepper",
             "content": {
               "title": "Oferta obejmuje:",
               "text": "",
@@ -5132,6 +5158,7 @@
           },
           {
             "type": "list",
+            "list_type": "stepper",
             "content": {
               "title": "Profil treningowy:",
               "text": "",
@@ -5223,6 +5250,7 @@
         "data": [{
             "type": "text_and_image",
             "style": {
+              "text_type": "block_box",
               "order": 1
             },
             "content": {
@@ -5235,6 +5263,7 @@
           {
             "type": "text_and_image",
             "style": {
+              "text_type": "block_box",
               "order": 1
             },
             "content": {
@@ -5247,6 +5276,7 @@
           {
             "type": "text_and_image",
             "style": {
+              "text_type": "block_box",
               "order": 1
             },
             "content": {
@@ -5259,6 +5289,7 @@
           {
             "type": "text_and_image",
             "style": {
+              "text_type": "block_box",
               "order": 1
             },
             "content": {
@@ -5279,6 +5310,7 @@
           {
             "type": "text_and_image",
             "style": {
+              "text_type": "block_box",
               "order": 1
             },
             "content": {
@@ -5291,6 +5323,7 @@
           {
             "type": "text_and_image",
             "style": {
+              "text_type": "block_box",
               "order": 1
             },
             "content": {
@@ -5303,6 +5336,7 @@
           {
             "type": "text_and_image",
             "style": {
+              "text_type": "block_box",
               "order": 1
             },
             "content": {
@@ -5321,6 +5355,7 @@
         "data": [{
             "type": "text_and_image",
             "style": {
+              "text_type": "block_box",
               "order": 1
             },
             "content": {
@@ -5334,6 +5369,7 @@
           {
             "type": "text_and_image",
             "style": {
+              "text_type": "block_box",
               "order": 1
             },
             "content": {
@@ -5347,6 +5383,7 @@
           {
             "type": "text_and_image",
             "style": {
+              "text_type": "block_box",
               "order": 1
             },
             "content": {
@@ -5360,6 +5397,7 @@
           {
             "type": "text_and_image",
             "style": {
+              "text_type": "block_box",
               "order": 1
             },
             "content": {
@@ -5373,6 +5411,7 @@
           {
             "type": "text_and_image",
             "style": {
+              "text_type": "block_box",
               "order": 1
             },
             "content": {
@@ -5386,6 +5425,7 @@
           {
             "type": "text_and_image",
             "style": {
+              "text_type": "block_box",
               "order": 1
             },
             "content": {

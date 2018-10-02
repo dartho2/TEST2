@@ -1,14 +1,9 @@
 <app-header [portal]="portal"></app-header>
-<div class="row content-header" style="color:black;border-bottom:1px solid rgb(212, 208, 212); border-top:1px solid rgb(212, 208, 212)">
-        <div class="container">
-            <h1 class="fit-content-header" style="font-family: 'robotlight';
-            font-size: 12px;
-            padding: 15px 0px;
-            margin: 0px;
-            font-weight: bold;
-            text-transform: uppercase;
-            ">{{portal.name}} > {{activeSection.label}}</h1>
-        </div>
-    </div>
+<div class="row content-header" style="color:black; border-bottom:1px solid rgb(212, 208, 212); border-top:1px solid rgb(212, 208, 212)">
+  <div class="container">
+    <h1 class="fit-content-header">{{portal.name}}
+      > {{activeSection.label}}</h1>
+  </div>
+</div>
 <app-section [section]="activeSection"></app-section>
 <app-footer [portal]="portal"></app-footer>

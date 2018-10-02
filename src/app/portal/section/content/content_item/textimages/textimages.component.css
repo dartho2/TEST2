@@ -1,0 +1,119 @@
+.card-img-top {
+  width: 100%;
+  height: 100%;
+}
+
+.col-sm-4 {
+  float: left;
+}
+
+p.fit-p-on-image {
+  /* opacity: 0.6; */
+  /* background-color: #000; */
+  color: #fff;
+  font-size: 24px;
+  padding: 10px;
+  width: 100%;
+  /* position: absolute; */
+  /* bottom: -10px; */
+}
+
+.box-image:hover {
+  box-shadow: 2px 2px 5px black;
+  padding-right: 1px;
+  background-color: black;
+  padding-bottom: 1px;
+}
+
+.image-box-s {
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  height:400px;
+  width: 50%;
+}
+
+/* .box-news {
+  color:red
+}
+.box-news:nth-child(2n+0) {
+  color:palevioletred;
+  float: left;
+}
+.box-news:nth-child(3n+0) {
+  color:rgb(243, 12, 12);
+  float: right !important;
+} */
+/* .asd:nth-child(4n) .image-box-t,
+.asd:nth-child(4n+1) .image-box-t {
+  float: right !important;
+} */
+.asd:nth-child(1n+1) .image-box-s {
+  float: right !important;
+}
+.asd:nth-child(2n+1) .image-box-t {
+  float: right !important;
+}
+.fit-p-on-title {
+  color:white;
+  padding: 10px;
+}
+.fit-p-on-text {
+  
+    color: #fff;
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+}
+
+.asd:nth-child(1n+0).image-box-t {
+  background: rgb(84, 175, 84);
+}
+
+.asd:nth-child(2n+1) .image-box-t {
+  background: rgb(219, 219, 81);
+}
+.asd:nth-child(4n+1) .image-box-t {
+  background: rgb(81, 95, 219);
+}
+
+.asd:nth-child(5n+1) .image-box-t {
+  background: rgb(202, 90, 90);
+}
+
+.image-box-t {
+  float: left;
+}
+.col-sm-6.box-news-content:hover {
+  z-index: 1;
+  box-shadow: 0px 0px 5px black;
+}
+.asd .image-box-t {
+  min-height: 400px;
+  height: 100%;
+}
+.image-box-s {
+  min-height: 400px;
+  height: 100%;
+  /* position: absolute; */
+  width: 100%;
+}
+.fit-p-on-text {
+  color: black;
+  font-family: 'robotlight';
+  font-size: 15px;
+  font-weight: 300;
+}
+.fit-p-on-title {
+  color: black;
+}
+.block_box {
+  color: white;
+}
+.block_box.lead {
+  padding: 10px;
+}
+.block_box:nth-child(1n+1).image-box-t {
+  background: green;
+  min-height: 400px;
+}

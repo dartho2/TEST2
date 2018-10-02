@@ -7,6 +7,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import {FormsModule}   from '@angular/forms';
 import {AppRoutingModule} from './app.routing';
+import {MatStepperModule} from '@angular/material/stepper';
 import {AppComponent} from './app.component';
 import {HomeComponent} from './home/home.component';
 import {PortalComponent} from './portal/portal.component';
@@ -60,6 +61,7 @@ import {DialogComponent} from './portal/section/content/content_item/dialog/dial
     FormsModule,
     MatDialogModule,
     HttpClientModule,
+    MatStepperModule,
     FacebookModule.forRoot()
   ],
   entryComponents: [

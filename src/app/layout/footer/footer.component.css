@@ -1,0 +1,26 @@
+footer {
+  background: black;
+  margin-top:60px;
+  color: white;
+  font-family: 'robotlight';
+    font-weight: normal;
+    font-size: 14px;
+    font-style: normal;
+    text-decoration: none;
+}
+footer a {
+  color: white;
+}
+.text-black-50 {
+  color:white !important;
+}
+/* .p-hr-s {
+border-left:1px solid white;
+border-right:1px solid white;
+}
+.p-hr-l {
+  border-right:1px solid white;
+}
+.p-hr-f {
+  border-left:1px solid white;
+} */

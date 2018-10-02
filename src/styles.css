@@ -775,8 +775,13 @@ app-textimages {
 .mat-button {
   color:black !important;
 }
-.text-black-50 {
-  background: #00000070;
+.fit-content-header {
+  font-family: 'robotlight';
+  font-size: 12px;
+  padding: 15px 0px;
+  margin: 0px;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 .more::after {
   border: 1px solid white;
@@ -809,3 +814,9 @@ a:hover {
   color: unset;
   text-decoration: none;
 }
+span {
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+}
+
