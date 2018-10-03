@@ -34,7 +34,7 @@
           <div [ngClass]="data.style.text_type" class="col-sm-12 box-news-content" style="float:left;padding: 0px;">
            
               <div [ngClass]="data.style.text_type" class="col-sm-6 box-news image-box-t" style="width: 100; height: 100%; padding-left: 0px">
-                <h3 [ngClass]="data.style.text_type"  class="fit-p-on-title">{{data.content.title}}</h3>
+                  <h2 *ngIf="data.content.title" class="featurette-heading" style="padding-top: 1.25rem;" [ngClass]="data.style.text_type"  class="fit-p-on-title">{{data.content.title}}</h2>
                 <p [ngClass]="data.style.text_type"  class="lead">
                     {{data.content.text}} </p>
                     <ul *ngIf="data.content.items">

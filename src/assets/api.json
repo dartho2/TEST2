@@ -1410,7 +1410,7 @@
               "float": "unset"
             },
             "content": {
-              "title": "Galeria",
+              "title": "",
               "images": [{
                   "url": "assets/images/pdtr/gallery/2.jpg",
                   "title": ""
@@ -2778,7 +2778,7 @@
               "float": "unset"
             },
             "content": {
-              "title": "Galeria",
+              "title": "",
               "images": [{
                   "url": "assets/images/joga/buy/1.jpg",
                   "title": ""
@@ -3904,7 +3904,7 @@
             "float": "unset"
           },
           "content": {
-            "title": "Galeria",
+            "title": "",
             "images": [{
                 "url": "assets/images/joga/gallery/gallery1.jpg",
                 "title": ""
@@ -5488,7 +5488,7 @@
             "float": "unset"
           },
           "content": {
-            "title": "Galeria",
+            "title": "",
             "images": [{
                 "url": "assets/images/7me_poty/gallery/gallery1.jpg",
                 "title": ""
