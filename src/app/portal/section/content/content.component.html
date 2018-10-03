@@ -1,4 +1,4 @@
-<div class="row content-row" [ngStyle]="{'float': contentItem.float}" *ngFor="let contentItem of contentItems">
+<div class="row content-row" [ngStyle]="{'width': contentItem.style.float === 'unset' ? '100%':'50%', 'float': contentItem.style.float}" [ngStyle]="{'float': contentItem.style.float}" *ngFor="let contentItem of contentItems">
   <!-- <app-fb *ngIf="contentItem.type === 'fb'" [data]="contentItem"></app-fb> -->
   <app-text class="col-md-12" *ngIf="contentItem.type === 'text'" [data]="contentItem"></app-text>
   <app-textimages class="col-md-12" *ngIf="contentItem.type === 'text_and_image'" [data]="contentItem"></app-textimages>

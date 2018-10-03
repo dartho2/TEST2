@@ -37,6 +37,9 @@
                 <h3 [ngClass]="data.style.text_type"  class="fit-p-on-title">{{data.content.title}}</h3>
                 <p [ngClass]="data.style.text_type"  class="lead">
                     {{data.content.text}} </p>
+                    <ul *ngIf="data.content.items">
+                        <li *ngFor="let item of data.content.items">{{item}}</li>
+                      </ul>
                
               </div>
               <div class="col-sm-6 box-news image-box-s" [ngStyle]="{'background-image':'url('+data.content.image+')'}"

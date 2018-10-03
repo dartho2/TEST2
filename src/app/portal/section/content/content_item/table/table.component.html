@@ -1,8 +1,8 @@
 <div class="row justify-content-md-center">
-  <div class="col-md-auto">
+  <div style="width:100%" class="col-md-auto">
     <div *ngIf="data">
-    <table id="{{data.id}}">
-      <thead>
+    <table class="table" id="{{data.id}}">
+      <thead class="thead-dark">
         <th scope="col" *ngFor="let thead of data.content.thead" [attr.colspan]="thead.style.colspan">{{thead.title}}</th>
       </thead>
       <tr *ngFor="let tables of data.content.columns; index as i">

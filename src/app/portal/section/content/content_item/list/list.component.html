@@ -1,4 +1,4 @@
-<div *ngIf="data.list_type === 'normal'">
+<div class="col-md-12" *ngIf="data.list_type === 'normal'">
   <h2 class="featurette-heading" style="padding-left: 1.25rem;padding-top: 1.25rem;">
     {{data.content.title}}</h2>
   <div *ngIf="data.content.text.length > 0">
@@ -9,7 +9,7 @@
   </ul>
 </div>
 
-<div *ngIf="data.list_type !== 'normal'">
+<div class="col-md-12"  *ngIf="data.list_type !== 'normal'">
   <h2 class="featurette-heading" style="padding-left: 1.25rem;padding-top: 1.25rem;">
     {{data.content.title}}</h2>
   <div *ngIf="data.content.text.length > 0">

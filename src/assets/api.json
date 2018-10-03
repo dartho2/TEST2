@@ -5097,11 +5097,17 @@
         "active": "1",
         "data": [{
             "type": "fb",
+            "style":{
+              "float": "unset"
+            },
             "category": "page",
             "float": "left"
           },
           {
             "type": "text",
+            "style":{
+              "float": "unset"
+            },
             "content": {
               "title": "Centrum Treningowe",
               "lead": "",
@@ -5110,10 +5116,11 @@
           },
           {
             "type": "box-link",
-            "data": [{
-              "style": {
-                "order": 1
+            "style": {
+                "float": "unset"
               },
+            "data": [{
+              
               "link": ["price_list","schedule"],
               "color": ["#00b4cb","#76be40"]
             }],
@@ -5124,13 +5131,13 @@
           },
           {
             "type": "box",
+            "style": {
+                "float": "unset"
+              },
             "data": [{
               "type": "table",
               "shared": "types_classes",
-              "class": "schedule",
-              "style": {
-                "order": 1
-              }
+              "class": "schedule"
             }],
             "content": {
               "title": "Nasze Zajęcia:"
@@ -5145,6 +5152,9 @@
         "data": [{
             "type": "list",
             "list_type": "stepper",
+            "style": {
+              "float" : "left"
+            },
             "content": {
               "title": "Oferta obejmuje:",
               "text": "",
@@ -5159,6 +5169,9 @@
           {
             "type": "list",
             "list_type": "stepper",
+            "style": {
+              "float" : "left"
+            },
             "content": {
               "title": "Profil treningowy:",
               "text": "",
@@ -5171,6 +5184,9 @@
           },
           {
             "type": "text",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Ile trwa trening personalny?",
               "lead": "",
@@ -5179,6 +5195,9 @@
           },
           {
             "type": "text",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Jak wygląda trening personalny?",
               "lead": "",
@@ -5187,6 +5206,9 @@
           },
           {
             "type": "text",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Indywidualnie dopasowany program treningowy – co to oznacza?",
               "lead": "",
@@ -5195,6 +5217,9 @@
           },
           {
             "type": "text",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Na czym polega wywiad podczas I spotkania z trenerem personalnym?",
               "lead": "",
@@ -5203,6 +5228,9 @@
           },
           {
             "type": "text",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Czy trener personalny wykonuje jakieś pomiary?",
               "lead": "",
@@ -5211,6 +5239,9 @@
           },
           {
             "type": "text",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Co to są testy kwalifikujące do treningu personalnego?",
               "lead": "",
@@ -5219,6 +5250,9 @@
           },
           {
             "type": "text",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Czy mogę nie zaliczyć testów kwalifikujących do treningu personalnego?",
               "lead": "",
@@ -5227,6 +5261,9 @@
           },
           {
             "type": "text",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Co to jest próbny trening podczas I spotkania?",
               "lead": "",
@@ -5235,6 +5272,9 @@
           },
           {
             "type": "text",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Jak umówić się trening?",
               "lead": "",
@@ -5251,7 +5291,8 @@
             "type": "text_and_image",
             "style": {
               "text_type": "block_box",
-              "order": 1
+              "order": 1,
+              "float" : "unset"
             },
             "content": {
               "title": "Body Space ®",
@@ -5264,7 +5305,8 @@
             "type": "text_and_image",
             "style": {
               "text_type": "block_box",
-              "order": 1
+              "order": 1,
+              "float": "unset"
             },
             "content": {
               "title": "Rollmasaż",
@@ -5277,7 +5319,8 @@
             "type": "text_and_image",
             "style": {
               "text_type": "block_box",
-              "order": 1
+              "order": 1,
+              "float": "unset"
             },
             "content": {
               "title": "Rowerek i bieżnia",
@@ -5290,7 +5333,8 @@
             "type": "text_and_image",
             "style": {
               "text_type": "block_box",
-              "order": 1
+              "order": 1,
+              "float": "unset"
             },
             "content": {
               "title": "Orbitrek",
@@ -5311,7 +5355,8 @@
             "type": "text_and_image",
             "style": {
               "text_type": "block_box",
-              "order": 1
+              "order": 1,
+              "float": "unset"
             },
             "content": {
               "title": "Platforma wibracyjna",
@@ -5324,7 +5369,8 @@
             "type": "text_and_image",
             "style": {
               "text_type": "block_box",
-              "order": 1
+              "order": 1,
+              "float": "unset"
             },
             "content": {
               "title": "Suwnica Smitha",
@@ -5337,7 +5383,8 @@
             "type": "text_and_image",
             "style": {
               "text_type": "block_box",
-              "order": 1
+              "order": 1,
+              "float": "unset"
             },
             "content": {
               "title": "Brama narożna",
@@ -5356,7 +5403,8 @@
             "type": "text_and_image",
             "style": {
               "text_type": "block_box",
-              "order": 1
+              "order": 1,
+              "float": "unset"
             },
             "content": {
               "title": "Interval",
@@ -5370,7 +5418,8 @@
             "type": "text_and_image",
             "style": {
               "text_type": "block_box",
-              "order": 1
+              "order": 1,
+              "float": "unset"
             },
             "content": {
               "title": "Shape",
@@ -5384,7 +5433,8 @@
             "type": "text_and_image",
             "style": {
               "text_type": "block_box",
-              "order": 1
+              "order": 1,
+              "float": "unset"
             },
             "content": {
               "title": "Deep Work",
@@ -5398,7 +5448,8 @@
             "type": "text_and_image",
             "style": {
               "text_type": "block_box",
-              "order": 1
+              "order": 1,
+              "float": "unset"
             },
             "content": {
               "title": "Functional Flow",
@@ -5412,7 +5463,8 @@
             "type": "text_and_image",
             "style": {
               "text_type": "block_box",
-              "order": 1
+              "order": 1,
+              "float": "unset"
             },
             "content": {
               "title": "Pilates & Zdrowy Kręgosłup",
@@ -5426,7 +5478,8 @@
             "type": "text_and_image",
             "style": {
               "text_type": "block_box",
-              "order": 1
+              "order": 1,
+              "float": "unset"
             },
             "content": {
               "title": "Joga",
@@ -5452,6 +5505,9 @@
         "active": "1",
         "data": [{
             "type": "text",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Nasze solarium",
               "lead": "",
@@ -5461,7 +5517,8 @@
           {
             "type": "text_and_image",
             "style": {
-              "order": 1
+              "order": 1,
+              "float": "unset"
             },
             "content": {
               "title": "Czy solarium jest zdrowe?",
@@ -5472,6 +5529,9 @@
           },
           {
             "type": "text",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "",
               "lead": "",
@@ -5487,7 +5547,7 @@
         "data": [{
             "type": "text_and_image",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "Maja Bednarczyk",
@@ -5499,7 +5559,7 @@
           {
             "type": "text_and_image",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "Sylwia Lorenc",
@@ -5516,6 +5576,9 @@
         "active": "1",
         "data": [{
           "type": "gallery",
+          "style":{
+            "float": "unset"
+          },
           "content": {
             "title": "Galeria",
             "images": [{
@@ -5559,11 +5622,12 @@
         "type": "table",
         "active": "1",
         "label": "Cennik",
-        "data": [{
+        "data": [
+          {
             "type": "table",
             "class": "normal",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "CENNIK WEJŚĆ JEDNORAZOWYCH",
@@ -5744,6 +5808,9 @@
           },
           {
             "type": "text",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "",
               "lead": "",
@@ -5753,6 +5820,7 @@
           {
             "type": "table",
             "style": {
+              "float":"unset",
               "order": 1
             },
             "content": {
@@ -5787,7 +5855,7 @@
             "type": "table",
             "class": "normal",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "KARNETY OPEN",
@@ -5976,6 +6044,7 @@
             "type": "table",
             "class": "normal",
             "style": {
+              "float": "unset",
               "order": 1
             },
             "content": {
@@ -6099,6 +6168,7 @@
             "type": "table",
             "class": "normal",
             "style": {
+              "float": "unset",
               "order": 1
             },
             "content": {
@@ -6170,6 +6240,7 @@
             "type": "table",
             "class": "normal",
             "style": {
+              "float": "unset",
               "order": 1
             },
             "content": {
@@ -6301,6 +6372,7 @@
           "class": "schedule",
           "class_shared": "types_classes",
           "style": {
+            "float": "unset",
             "order": 1
           },
           "content": {
@@ -6462,6 +6534,7 @@
         "data": [{
           "type": "contact",
           "style": {
+            "float": "unset",
             "order": 2
           },
           "content": {
@@ -6475,6 +6548,9 @@
         "active": "0",
         "data": [{
           "type": "text",
+          "style": {
+            "float": "unset"
+          },
           "content": {
             "title": "REGULAMIN",
             "lead": "",
