@@ -1,4 +1,4 @@
-<main role="main">
+<!-- <main role="main">
   <app-portal *ngIf="isActivePortalValid()" [portals]='portals'></app-portal>
   <div *ngIf="!isActivePortalValid()">
     <div *ngFor="let portal of portals">
@@ -9,4 +9,48 @@
       </ul>
     </div>
   </div>
-</main>
+</main> -->
+<app-portal *ngIf="isActivePortalValid()" [portals]='portals'></app-portal>
+    <div *ngIf="!isActivePortalValid()" class="container" style="padding: 0px; margin: 0px;">	
+      <div class="center-image" style="position: absolute;
+      z-index: 2;
+      width: 100%;
+      height: 100%;">
+      <div class="center-image-b" style="margin: 0;
+      background: white;
+      /* box-shadow: 0px 0px 26px 22px #ffffff; */
+      position: absolute;
+      top: 50%;
+      border-radius: 100px;
+      height: 200px;
+      width: 200px;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);"></div>
+      
+    </div>
+      <div id="bl-main" class="bl-main">
+				<section style="background-position: center;border: 17px solid white;
+        background-repeat: no-repeat;
+        background-size: cover;"  *ngFor="let portal of portals">
+            <a class="nav-link" routerLink="/{{portal.name}}/{{portal.sections.length > 0 ? portal.sections[0].name : ''}}">
+					<div class="bl-box"><img class="featurette-image img-fluid mx-auto" style="width:50%;padding:3px;" data-src="holder.js/500x500/auto" alt="500x500" src="{{portal.image}}"
+              data-holder-rendered="true"
+             >
+						<!-- <h2 class="bl-icon bl-icon-about"></h2> -->
+					</div>
+					<div class="bl-content">
+              <!-- <img class="featurette-image img-fluid mx-auto" style="width:50%;padding:3px;" data-src="holder.js/500x500/auto" alt="500x500" src="{{portal.image}}"
+              data-holder-rendered="true"
+             > -->
+					</div>
+					<span class="bl-icon bl-icon-close"></span></a>
+				</section>
+			
+				</div>
+			</div>
+	<!-- /container -->
+		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/boxlayout.js"></script> -->
+	
+
