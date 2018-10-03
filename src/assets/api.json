@@ -19,10 +19,9 @@
             "type": "fb",
             "category": "page",
             "float": "left",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "",
               "lead": "",
@@ -31,10 +30,9 @@
           },
           {
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Konsultacje żywieniow",
               "lead": "",
@@ -49,10 +47,9 @@
         "active": "1",
         "data": [{
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "",
               "lead": "",
@@ -61,10 +58,9 @@
           },
           {
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "1. WYWIAD",
               "lead": "",
@@ -73,10 +69,9 @@
           },
           {
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "2. ANKIETA ŻYWIENIOWA",
               "lead": "",
@@ -85,10 +80,9 @@
           },
           {
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "3. TESTY ŻYWIENIOWE",
               "lead": "",
@@ -97,10 +91,9 @@
           },
           {
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "",
               "lead": "",
@@ -115,10 +108,9 @@
         "active": "1",
         "data": [{
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Testy żywieniowe P-DTR",
               "lead": "",
@@ -128,6 +120,9 @@
           {
             "type": "list",
             "list_type": "normal",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Grupy produktów do testów:",
               "text": "",
@@ -148,10 +143,9 @@
           },
           {
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "",
               "lead": "",
@@ -160,6 +154,9 @@
           },
           {
             "type": "gallery",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Przykłady zapakowania produktów:",
               "images": [{
@@ -181,10 +178,9 @@
         "active": "1",
         "data": [{
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "",
               "lead": "",
@@ -194,6 +190,9 @@
           {
             "type": "list",
             "list_type": "normal",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Na co to?",
               "text": "",
@@ -211,7 +210,7 @@
 
             "type": "text_and_image",
             "style": {
-              "order": "1"
+              "float": "unset"
             },
             "content": {
               "title": "",
@@ -230,6 +229,9 @@
         "data": [{
             "type": "list",
             "list_type": "normal",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "MAGNEZ",
               "text": "Niedobór magnezu jest bardzo powszechny na całym świecie - może występować nawet u 70% osób. Niektóre jego objawy to:",
@@ -251,10 +253,9 @@
           },
           {
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "",
               "lead": "",
@@ -264,6 +265,9 @@
           {
             "type": "list",
             "list_type": "normal",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "RTĘĆ I KRÓTKA HISTORIA POWSTAWANIA PASKUDNYCH CHORÓB",
               "text": "Jednym z głównych powodów zapadania na choroby autoimmunizacyjne (rodzaj chorób, w którym ciało atakuje swoje komórki jak np. hashimoto, cukrzyca, astma, reumatoidalne zapalenie stawów, autyzm, atopia) jest zatrucie metalami ciężkimi takimi jak aluminium, kadm, arsen i rtęć. Ten ostatni najczęściej można spotkać w dwóch źródłach:",
@@ -275,10 +279,9 @@
           },
           {
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "",
               "lead": "",
@@ -288,6 +291,9 @@
           {
             "type": "list",
             "list_type": "normal",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "TARCZYCA - 22 SYMPTOMY DYSFUKCYJNEJ PRACY GRUCZOŁU TARCZOWEGO",
               "text": "To jeden z ważnych graczy biorących udział w przemianie materii. Jego hormony wpływają na przyspieszenie spalania wewnątrzkomórkowego (wytwarzanie ciepła), przemianę wodno-mineralną (wydalanie z organizmu wody i soli mineralnych np. jonów sodu) i wiele innych. Zanim wyniki badań hormonów tarczycy z krwi pokażą nieprawidłowości, często objawy dysfunkcji tarczycy są już obecne od dłuższego czasu. Jakie to objawy?",
@@ -313,6 +319,9 @@
           {
             "type": "list",
             "list_type": "normal",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "NADCZYNNOŚĆ TARCZYCY",
               "text": "",
@@ -328,6 +337,9 @@
           },
           {
             "type": "gallery",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "",
               "images": [{
@@ -339,10 +351,9 @@
           {
 
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "LEPTYNOOPORNOŚĆ",
               "lead": "CZYLI DLACZEGO NIE POTRAFIĘ OPANOWAĆ WILCZEGO GŁODU",
@@ -351,8 +362,11 @@
 
           },
           {
-            "type": "list",            
+            "type": "list",
             "list_type": "normal",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Skąd masz wiedzieć czy jesteś leptyooporny?",
               "text": "Jeśli, część z poniższych objawów wydaje Ci się znajoma, może to sugerować, że jesteś oporny na leptynę:",
@@ -376,10 +390,9 @@
           },
           {
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "INSULINOOPORNOŚĆ",
               "lead": "CZYLI DLACZEGO NIE MOGĘ SCHUDNĄĆ?",
@@ -389,6 +402,9 @@
           {
             "type": "list",
             "list_type": "normal",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Jakie są najczęstsze objawy insulinooporności?",
               "text": "",
@@ -413,6 +429,9 @@
           {
             "type": "list",
             "list_type": "normal",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Jaki jest schemat postępowania?",
               "text": "Przyczyną insulinooporności są nieprawidłowe produkty jedzone w nieodpowiednich ilościach, dlatego jedynym słusznym podejściem jest zmiana sposobu odżywiania. Istnieją 2 możliwe schematy postępowania: natychmiastowa redukcja węglowodanów w diecie do ok 50-80 g na dobę i po kilku miesiącach stopniowe zwiększanie lub metoda małych kroków - podaż węglowodanów szacowana na ok 200-250 g ulega zmniejszaniu co miesiąc o 50 g. Dopóki waga spada nie są konieczne dalsze restrykcje. Co jeszcze może pomóc? Unikanie takich produktów lub czynności jak:",
@@ -439,7 +458,7 @@
         "data": [{
           "type": "text_and_image",
           "style": {
-            "order": 1
+            "float": "unset"
           },
           "content": {
             "title": "Maja Bednarczyk",
@@ -458,7 +477,7 @@
             "type": "table",
             "class": "normal",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "CENNIK WEJŚĆ JEDNORAZOWYCH",
@@ -639,6 +658,9 @@
           },
           {
             "type": "text",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "",
               "lead": "",
@@ -648,7 +670,7 @@
           {
             "type": "table",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "CENNIK WEJŚĆ JEDNORAZOWYCH",
@@ -682,7 +704,7 @@
             "type": "table",
             "class": "normal",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "KARNETY OPEN",
@@ -871,7 +893,7 @@
             "type": "table",
             "class": "normal",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "KARNETY ILOŚCIOWE",
@@ -994,7 +1016,7 @@
             "type": "table",
             "class": "normal",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "TRENINGI PERSONALNE",
@@ -1065,7 +1087,7 @@
             "type": "table",
             "class": "normal",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "SOLARIUM",
@@ -1193,7 +1215,7 @@
         "data": [{
           "type": "contact",
           "style": {
-            "order": 2
+            "float": "unset"
           },
           "content": {
             "title": "Napisz Do Nas"
@@ -1206,6 +1228,9 @@
         "active": "0",
         "data": [{
           "type": "text",
+          "style": {
+            "float": "unset"
+          },
           "content": {
             "title": "REGULAMIN",
             "lead": "",
@@ -1236,10 +1261,9 @@
             "type": "fb",
             "category": "page",
             "float": "left",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "",
               "lead": "",
@@ -1248,10 +1272,9 @@
           },
           {
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "P-DTR",
               "lead": "",
@@ -1260,11 +1283,11 @@
           },
           {
             "type": "box",
+            "style": {
+              "float": "unset"
+            },
             "data": [{
-              "shared": "references",
-              "style": {
-                "order": 1
-              }
+              "shared": "references"
             }],
             "content": {
               "title": "Referencje:"
@@ -1279,7 +1302,7 @@
         "data": [{
             "type": "text_and_image",
             "style": {
-              "order": "1"
+              "float": "unset"
             },
             "content": {
               "title": "Jogasutry Patańdżalego",
@@ -1289,8 +1312,11 @@
             }
           },
           {
-            "type": "list",            
+            "type": "list",
             "list_type": "normal",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "",
               "text": "P-DTR to metoda z działu funkcjonalnej neurologii stosowana w fizjoterapii, usprawnianiu sportowców i przywracaniu zdrowia oraz równowagi w organizmie. Jej zastosowanie pomoże w:",
@@ -1307,10 +1333,9 @@
           },
           {
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "",
               "lead": "",
@@ -1319,10 +1344,9 @@
           },
           {
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "",
               "lead": "",
@@ -1331,10 +1355,9 @@
           },
           {
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "",
               "lead": "",
@@ -1349,10 +1372,9 @@
         "active": "1",
         "data": [{
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "",
               "lead": "",
@@ -1363,10 +1385,9 @@
             "type": "fb",
             "float": "unset",
             "category": "video",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "",
               "url": "https://www.facebook.com/250111271792298/videos/1312892432180838/"
@@ -1374,10 +1395,9 @@
           },
           {
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "",
               "lead": "",
@@ -1386,6 +1406,9 @@
           },
           {
             "type": "gallery",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Galeria",
               "images": [{
@@ -1408,7 +1431,7 @@
         "data": [{
             "type": "text_and_image",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "Ewa Brzózka",
@@ -1421,7 +1444,7 @@
           {
             "type": "text_and_image",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "Magda",
@@ -1434,7 +1457,7 @@
           {
             "type": "text_and_image",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "Ilona Mietka",
@@ -1447,7 +1470,7 @@
           {
             "type": "text_and_image",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "Robert",
@@ -1460,7 +1483,7 @@
           {
             "type": "text_and_image",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "Jola",
@@ -1473,7 +1496,7 @@
           {
             "type": "text_and_image",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "Teresa Zdebik",
@@ -1486,7 +1509,7 @@
           {
             "type": "text_and_image",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "Magdalena",
@@ -1499,7 +1522,7 @@
           {
             "type": "text_and_image",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "Agnieszka Głowack",
@@ -1512,7 +1535,7 @@
           {
             "type": "text_and_image",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "Izabela Zdebik",
@@ -1525,7 +1548,7 @@
           {
             "type": "text_and_image",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "Agnieszka Woźnia",
@@ -1538,7 +1561,7 @@
           {
             "type": "text_and_image",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "Jolanta Sorokosz",
@@ -1551,7 +1574,7 @@
           {
             "type": "text_and_image",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "Marta Chmura",
@@ -1570,7 +1593,7 @@
         "data": [{
           "type": "text_and_image",
           "style": {
-            "order": 1
+            "float": "unset"
           },
           "content": {
             "title": "Maja Bednarczyk",
@@ -1589,7 +1612,7 @@
             "type": "table",
             "class": "normal",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "CENNIK WEJŚĆ JEDNORAZOWYCH",
@@ -1770,6 +1793,9 @@
           },
           {
             "type": "text",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "",
               "lead": "",
@@ -1779,7 +1805,7 @@
           {
             "type": "table",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "CENNIK WEJŚĆ JEDNORAZOWYCH",
@@ -1813,7 +1839,7 @@
             "type": "table",
             "class": "normal",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "KARNETY OPEN",
@@ -2002,7 +2028,7 @@
             "type": "table",
             "class": "normal",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "KARNETY ILOŚCIOWE",
@@ -2125,7 +2151,7 @@
             "type": "table",
             "class": "normal",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "TRENINGI PERSONALNE",
@@ -2196,7 +2222,7 @@
             "type": "table",
             "class": "normal",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "SOLARIUM",
@@ -2324,7 +2350,7 @@
         "data": [{
           "type": "contact",
           "style": {
-            "order": 2
+            "float": "unset"
           },
           "content": {
             "title": "Napisz Do Nas"
@@ -2337,6 +2363,9 @@
         "active": "0",
         "data": [{
           "type": "text",
+          "style": {
+            "float": "unset"
+          },
           "content": {
             "title": "REGULAMIN",
             "lead": "",
@@ -2368,10 +2397,9 @@
             "type": "fb",
             "float": "left",
             "category": "page",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "",
               "lead": "",
@@ -2380,10 +2408,9 @@
           },
           {
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Szkoła Jogi",
               "lead": "",
@@ -2399,10 +2426,9 @@
         "data": [{
             "type": "text",
             "float": "",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Czym jest joga?",
               "lead": "",
@@ -2412,7 +2438,7 @@
           {
             "type": "text_and_image",
             "style": {
-              "order": ""
+              "float": "unset"
             },
             "content": {
               "title": "Jogasutry Patańdżalego",
@@ -2424,10 +2450,9 @@
           {
             "type": "text",
             "float": "",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "",
               "lead": "",
@@ -2437,6 +2462,9 @@
           {
             "type": "list",
             "list_type": "normal",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Podstawy ośmiostopniowej ścieżki jogi Patańdżalego",
               "text": "",
@@ -2454,10 +2482,9 @@
           {
             "type": "text",
             "float": "",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Pozycje jogi:",
               "lead": "",
@@ -2467,10 +2494,9 @@
           {
             "type": "text",
             "float": "",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Pozycje stojące",
               "lead": "",
@@ -2480,10 +2506,9 @@
           {
             "type": "text",
             "float": "",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Pozycje siedzące",
               "lead": "",
@@ -2493,10 +2518,9 @@
           {
             "type": "text",
             "float": "",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Wygięcia do przodu",
               "lead": "",
@@ -2506,10 +2530,9 @@
           {
             "type": "text",
             "float": "",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Wygięcia do tyłu",
               "lead": "",
@@ -2519,10 +2542,9 @@
           {
             "type": "text",
             "float": "",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Pozycje odwrócone",
               "lead": "",
@@ -2532,10 +2554,9 @@
           {
             "type": "text",
             "float": "",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Skręty",
               "lead": "",
@@ -2545,10 +2566,9 @@
           {
             "type": "text",
             "float": "",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Pozycje balansujące",
               "lead": "",
@@ -2558,10 +2578,9 @@
           {
             "type": "text",
             "float": "",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Dynamiczne sekwencje",
               "lead": "",
@@ -2571,10 +2590,9 @@
           {
             "type": "text",
             "float": "",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Pozycje leżące",
               "lead": "",
@@ -2584,10 +2602,9 @@
           {
             "type": "text",
             "float": "",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Relaks",
               "lead": "",
@@ -2597,10 +2614,9 @@
           {
             "type": "text",
             "float": "",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Ćwiczenia oddechowe",
               "lead": "",
@@ -2609,6 +2625,9 @@
           },
           {
             "type": "gallery",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "",
               "images": [{
@@ -2620,10 +2639,9 @@
           {
             "type": "text",
             "float": "",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "",
               "lead": "",
@@ -2638,10 +2656,9 @@
         "active": "1",
         "data": [{
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Rodzaje jogi",
               "lead": "",
@@ -2649,8 +2666,11 @@
             }
           },
           {
-            "type": "list", 
+            "type": "list",
             "list_type": "normal",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "",
               "text": "Oferta obejmuje:",
@@ -2659,10 +2679,9 @@
           },
           {
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Joga od podstaw",
               "lead": "",
@@ -2671,10 +2690,9 @@
           },
           {
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Hatha Joga",
               "lead": "",
@@ -2683,10 +2701,9 @@
           },
           {
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Vinyasa Joga",
               "lead": "",
@@ -2695,10 +2712,9 @@
           },
           {
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Jaka jest różnica pomiędzy Hatha a Vinyasa?",
               "lead": "",
@@ -2707,10 +2723,9 @@
           },
           {
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "",
               "lead": "",
@@ -2719,126 +2734,14 @@
           },
           {
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "",
               "lead": "",
               "text": "Stopień trudności jest jednak wyższy w Vinyasa Jodze niż w Hatha. Dlatego ta druga jest polecana dla początkujących, ponieważ łatwiej jest w niej skupić się na prawidłowym wykonywaniu figur, co przecież dla jogi jest bardzo ważne. Technika oddychania jest również tutaj łatwiejsza. Stąd też kiedy dobrze już pozna się Hatha Jogę, można przejść do Vinyasa Jogi, żeby podnieść sobie poprzeczkę, można więc traktować Vinyasę jako zaawansowaną odmianę tradycyjnej jogi."
             }
-          },
-          {
-            "name": "types_yoga",
-            "label": "Rodzaje jogi",
-            "active": "1",
-            "data": [{
-                "type": "text",
-                "styles": [
-                  "image_right",
-                  "image_small"
-                ],
-                "content": {
-                  "title": "",
-                  "lead": "",
-                  "text": "Jest wiele rodzajów jogi. W naszym studio skupiamy się głownie na 3 z nich:"
-                }
-              },
-              {
-                "type": "list",
-                "list_type": "normal",
-                "content": {
-                  "title": "Oferta obejmuje:",
-                  "text": "",
-                  "items": ["Joga od podstaw", "Hatha Joga", "Vinyasa Jog"]
-                }
-              },
-              {
-                "type": "text",
-                "styles": [
-                  "image_right",
-                  "image_small"
-                ],
-                "content": {
-                  "title": "Joga od podstaw",
-                  "lead": "",
-                  "text": "Kurs dla osób początkujących. Program ponad 30 podstawowych asan, relaksacja i nauka świadomego oddechu, terapia ruchem i profilaktyka chorób układu ruchu, dla kobiet i mężczyzn w każdym wieku."
-                }
-              },
-              {
-                "type": "text",
-                "styles": [
-                  "image_right",
-                  "image_small"
-                ],
-                "content": {
-                  "title": "Hatha Joga",
-                  "lead": "",
-                  "text": "Nazwa Hatha wywodzi się z sanskrytu i składa z dwóch słów: „ha”, czyli słońce oraz „tha”, czyli księżyc. Jogini owe słońce i księżyc porównują do dwóch nozdrzy, co ma przypominać o funkcji prawidłowego oddychania podczas ćwiczeń oraz symbolizować pozytywne (słońce) i negatywne (księżyc) emocje, myśli, odczucia i zachowania. W praktyce więc Hatha Joga polega na odpowiednim balansowaniu oddechem w połączeniu z ruchem ciała i stanem umysłu. Przez to właśnie Hatha Joga jest statyczna, figury wykonuje się powoli i dokładnie kontroluje oddech."
-                }
-              },
-              {
-                "type": "text",
-                "styles": [
-                  "image_right",
-                  "image_small"
-                ],
-                "content": {
-                  "title": "Vinyasa Joga",
-                  "lead": "",
-                  "text": "Vinyasa natomiast oznacza dynamiczną, skoncentrowaną postawę. Klasyczne i statyczne asany są tutaj wykonywane dynamicznie wraz z oddechem. Kluczową sprawą w tej odmianie jogi jest więc oddychanie w trakcie wykonywania ćwiczeń. Duży nacisk jest także kładziony na to, co dzieje się pomiędzy figurami, na płynne przejścia od jednej figury do drugiej, podczas gdy w Hatha Jodze liczą się tylko poszczególne figury, bez zwracania uwagi na przejścia. Vinyasa posiada więc sześć figur, które płynnie rozwijają się od pierwszej do ostatniej."
-                }
-              },
-              {
-                "type": "text",
-                "styles": [
-                  "image_right",
-                  "image_small"
-                ],
-                "content": {
-                  "title": "Jaka jest różnica pomiędzy Hatha a Vinyasa?",
-                  "lead": "",
-                  "text": "Hatha Joga powstała dużo wcześniej, natomiast bez niej nie byłoby Vinyasa Jogi, która ewoluowała właśnie z Hatha. Asany jednak oraz sama praktyka przebiega już w obu odmianach inaczej. I mimo, że cel mają ten sam – ćwiczenie ciała i umysłu, to jednak osiągają go innymi drogami."
-                }
-              },
-              {
-                "type": "text",
-                "styles": [
-                  "image_right",
-                  "image_small"
-                ],
-                "content": {
-                  "title": "",
-                  "lead": "",
-                  "text": "Ćwiczenia Vinyasa wykonywane są szybciej, w Hatha wolniej. Statyczna Hatha nie pozwala na płynne przechodzenie z asany do asany, rozwijanie jednej postawy w drugą, Vinyasa jest więc bardzo podobna do tak zwanego „Sun Salutation” Surya Namaskara. Jej niepodważalną zaletą jest też fakt, że system połączonych i szybko wykonywanych ruchów ma zdecydowanie lepszy wpływ na system krążenia, w przeciwieństwie do Hatha Jogi."
-                }
-              },
-              {
-                "type": "text",
-                "styles": [
-                  "image_right",
-                  "image_small"
-                ],
-                "content": {
-                  "title": "",
-                  "lead": "",
-                  "text": "Stopień trudności jest jednak wyższy w Vinyasa Jodze niż w Hatha. Dlatego ta druga jest polecana dla początkujących, ponieważ łatwiej jest w niej skupić się na prawidłowym wykonywaniu figur, co przecież dla jogi jest bardzo ważne. Technika oddychania jest również tutaj łatwiejsza. Stąd też kiedy dobrze już pozna się Hatha Jogę, można przejść do Vinyasa Jogi, żeby podnieść sobie poprzeczkę, można więc traktować Vinyasę jako zaawansowaną odmianę tradycyjnej jogi."
-                }
-              },
-              {
-                "type": "text_and_image",
-                "style": {
-                  "order": 1
-                },
-                "content": {
-                  "title": "Jak joga zmienia Twoje ciało – po zajęciach, miesiącach, latach…?",
-                  "lead": "",
-                  "image": "assets/images/joga/zalety.png",
-                  "text": "Na pewno zastanawiałeś się, jak joga wpływa na funkcjonowanie Twojego organizmu. Ta prosta grafika ułatwi Ci dostrzec natychmiastowe korzyści, które osiągniesz już zaraz po zejściu z maty, jak i efekty dłuższej, regularnej praktyki."
-                }
-              }
-            ]
           }
         ]
       },
@@ -2849,6 +2752,9 @@
         "data": [{
             "type": "list",
             "list_type": "normal",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "W naszej ofercie znajdują się wyłącznie sprawdzone produkty:",
               "text": "",
@@ -2857,10 +2763,9 @@
           },
           {
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "",
               "lead": "",
@@ -2869,6 +2774,9 @@
           },
           {
             "type": "gallery",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "Galeria",
               "images": [{
@@ -2898,10 +2806,9 @@
         "active": "1",
         "data": [{
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "LUDZIE KAPHA",
               "lead": "",
@@ -2910,10 +2817,9 @@
           },
           {
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "PRAKTYKA ASAN",
               "lead": "",
@@ -2922,10 +2828,9 @@
           },
           {
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "LUDZIE PITTA",
               "lead": "",
@@ -2934,10 +2839,9 @@
           },
           {
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "PRAKTYKA JOGI",
               "lead": "",
@@ -2946,10 +2850,9 @@
           },
           {
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "LUDZIE VATA",
               "lead": "",
@@ -2958,10 +2861,9 @@
           },
           {
             "type": "text",
-            "styles": [
-              "image_right",
-              "image_small"
-            ],
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "PRAKTYKA JOGI",
               "lead": "",
@@ -2972,7 +2874,7 @@
             "type": "table",
             "class": "normal",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "",
@@ -3998,6 +3900,9 @@
         "active": "1",
         "data": [{
           "type": "gallery",
+          "style": {
+            "float": "unset"
+          },
           "content": {
             "title": "Galeria",
             "images": [{
@@ -4043,7 +3948,7 @@
         "data": [{
           "type": "text_and_image",
           "style": {
-            "order": 1
+            "float": "unset"
           },
           "content": {
             "title": "Maja Bednarczyk",
@@ -4060,7 +3965,7 @@
         "data": [{
             "type": "text_and_image",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "Interval",
@@ -4073,7 +3978,7 @@
           {
             "type": "text_and_image",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "Shape",
@@ -4086,7 +3991,7 @@
           {
             "type": "text_and_image",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "Deep Work",
@@ -4099,7 +4004,7 @@
           {
             "type": "text_and_image",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "Functional Flow",
@@ -4112,7 +4017,7 @@
           {
             "type": "text_and_image",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "Pilates & Zdrowy Kręgosłup",
@@ -4125,7 +4030,7 @@
           {
             "type": "text_and_image",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "Joga",
@@ -4154,7 +4059,7 @@
             "type": "table",
             "class": "normal",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "CENNIK WEJŚĆ JEDNORAZOWYCH",
@@ -4334,6 +4239,9 @@
           },
           {
             "type": "text",
+            "style": {
+              "float": "unset"
+            },
             "content": {
               "title": "",
               "lead": "",
@@ -4343,7 +4251,7 @@
           {
             "type": "table",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "CENNIK WEJŚĆ JEDNORAZOWYCH",
@@ -4375,10 +4283,10 @@
           },
           {
             "type": "table",
-            "class": "normal",
             "style": {
-              "order": 1
+              "float": "unset"
             },
+            "class": "normal",
             "content": {
               "title": "KARNETY OPEN",
               "lead": "",
@@ -4566,7 +4474,7 @@
             "type": "table",
             "class": "normal",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "KARNETY ILOŚCIOWE",
@@ -4689,7 +4597,7 @@
             "type": "table",
             "class": "normal",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "TRENINGI PERSONALNE",
@@ -4760,7 +4668,7 @@
             "type": "table",
             "class": "normal",
             "style": {
-              "order": 1
+              "float": "unset"
             },
             "content": {
               "title": "SOLARIUM",
@@ -4891,7 +4799,7 @@
           "class": "schedule",
           "class_shared": "types_classes",
           "style": {
-            "order": 1
+            "float": "unset"
           },
           "content": {
             "title": "Grafik",
@@ -5052,7 +4960,7 @@
         "data": [{
           "type": "contact",
           "style": {
-            "order": 2
+            "float": "unset"
           },
           "content": {
             "title": "Napisz Do Nas"
@@ -5097,7 +5005,7 @@
         "active": "1",
         "data": [{
             "type": "fb",
-            "style":{
+            "style": {
               "float": "unset"
             },
             "category": "page",
@@ -5105,7 +5013,7 @@
           },
           {
             "type": "text",
-            "style":{
+            "style": {
               "float": "unset"
             },
             "content": {
@@ -5117,23 +5025,23 @@
           {
             "type": "box-link",
             "style": {
-                "float": "unset"
-              },
+              "float": "unset"
+            },
             "data": [{
-              
-              "link": ["price_list","schedule"],
-              "color": ["#00b4cb","#76be40"]
+
+              "link": ["price_list", "schedule"],
+              "color": ["#00b4cb", "#76be40"]
             }],
             "content": {
               "title": "",
-              "text": ["Aktualny cennik","Aktualny Grafik"]
+              "text": ["Aktualny cennik", "Aktualny Grafik"]
             }
           },
           {
             "type": "box",
             "style": {
-                "float": "unset"
-              },
+              "float": "unset"
+            },
             "data": [{
               "type": "table",
               "shared": "types_classes",
@@ -5153,7 +5061,7 @@
             "type": "list",
             "list_type": "stepper",
             "style": {
-              "float" : "left"
+              "float": "left"
             },
             "content": {
               "title": "Oferta obejmuje:",
@@ -5170,7 +5078,7 @@
             "type": "list",
             "list_type": "stepper",
             "style": {
-              "float" : "left"
+              "float": "left"
             },
             "content": {
               "title": "Profil treningowy:",
@@ -5292,7 +5200,7 @@
             "style": {
               "text_type": "block_box",
               "order": 1,
-              "float" : "unset"
+              "float": "unset"
             },
             "content": {
               "title": "Body Space ®",
@@ -5576,7 +5484,7 @@
         "active": "1",
         "data": [{
           "type": "gallery",
-          "style":{
+          "style": {
             "float": "unset"
           },
           "content": {
@@ -5622,8 +5530,7 @@
         "type": "table",
         "active": "1",
         "label": "Cennik",
-        "data": [
-          {
+        "data": [{
             "type": "table",
             "class": "normal",
             "style": {
@@ -5820,7 +5727,7 @@
           {
             "type": "table",
             "style": {
-              "float":"unset",
+              "float": "unset",
               "order": 1
             },
             "content": {
