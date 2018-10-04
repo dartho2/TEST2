@@ -33,19 +33,27 @@
 				<section [ngStyle]="{'background-image': 'url('+portal.images_top[1]+')'}"style="background-position: center;border: 17px solid white;
         background-repeat: no-repeat;
         background-size: cover;"  *ngFor="let portal of portals">
-            <a class="nav-link" routerLink="/{{portal.name}}/{{portal.sections.length > 0 ? portal.sections[0].name : ''}}">
+            <a class="nav-link" style=" 
+            font-family: OSWALD;   width: 100%;
+            height: 100%;
+            position: relative;
+            background: black;
+            z-index: 2;
+            opacity: 0.7;"routerLink="/{{portal.name}}/{{portal.sections.length > 0 ? portal.sections[0].name : ''}}">
 					<div class="bl-box" style="transition: opacity 0.2s linear 0.5s;
          width: 31%;
     height: 20%;
           border-radius: 74px;
           left: 50%;
           top: 50%;
+          font-size: 50px;
        
           transform: translate(-50%, -50%);
-          background: white;
-     "><img class="featurette-image img-fluid mx-auto" style="" data-src="holder.js/500x500/auto" alt="500x500" src="{{portal.image}}"
+          /* background: white; */
+     ">{{portal.label}}
+     <!-- <img class="featurette-image img-fluid mx-auto" style="" data-src="holder.js/500x500/auto" alt="500x500" src="{{portal.image}}"
               data-holder-rendered="true"
-             >
+             > -->
 						<!-- <h2 class="bl-icon bl-icon-about"></h2> -->
 					</div>
 					<div class="bl-content">
