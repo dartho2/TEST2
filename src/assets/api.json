@@ -1,8 +1,9 @@
-[{
+[
+  {
     "name": "counseling",
     "image": "assets/logo/consulting_logo.png",
-    "images_top": ["assets/images/type_classes/slider5.png"
-
+    "images_top": ["assets/images/type_classes/slider5.png",
+      "assets/images/1.jpg"
     ],
     "label": "Doradztwo żywieniowe",
     "style": {
@@ -1243,7 +1244,8 @@
   {
     "name": "pdtr",
     "image": "assets/logo/pdtr_logo.png",
-    "images_top": ["assets/images/type_classes/slider3.png"
+    "images_top": ["assets/images/type_classes/slider3.png",
+      "assets/images/2.jpg"
 
     ],
     "label": "Gabinet P-DTR",
@@ -2380,7 +2382,7 @@
     "image": "assets/logo/studio_yogi_logo.png",
     "images_top": [
       "assets/images/joga/slider1.png",
-      "assets/images/joga/slider2.png"
+      "assets/images/3.jpg"
     ],
     "label": "Studio jogi",
     "style": {
@@ -4989,8 +4991,7 @@
     "image": "assets/logo/7me_logo.png",
     "images_top": [
       "assets/images/type_classes/slider1.png",
-      "assets/images/type_classes/slider2.png",
-      "assets/images/type_classes/slider3.png"
+      "assets/images/4.jpg"
     ],
     "label": "7mepoty Centrum Treningowe",
     "style": {

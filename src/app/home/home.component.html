@@ -30,17 +30,26 @@
       
     </div>
       <div id="bl-main" class="bl-main">
-				<section style="background-position: center;border: 17px solid white;
+				<section [ngStyle]="{'background-image': 'url('+portal.images_top[1]+')'}"style="background-position: center;border: 17px solid white;
         background-repeat: no-repeat;
         background-size: cover;"  *ngFor="let portal of portals">
             <a class="nav-link" routerLink="/{{portal.name}}/{{portal.sections.length > 0 ? portal.sections[0].name : ''}}">
-					<div class="bl-box"><img class="featurette-image img-fluid mx-auto" style="width:50%;padding:3px;" data-src="holder.js/500x500/auto" alt="500x500" src="{{portal.image}}"
+					<div class="bl-box" style="transition: opacity 0.2s linear 0.5s;
+         width: 31%;
+    height: 20%;
+          border-radius: 74px;
+          left: 50%;
+          top: 50%;
+       
+          transform: translate(-50%, -50%);
+          background: white;
+     "><img class="featurette-image img-fluid mx-auto" style="" data-src="holder.js/500x500/auto" alt="500x500" src="{{portal.image}}"
               data-holder-rendered="true"
              >
 						<!-- <h2 class="bl-icon bl-icon-about"></h2> -->
 					</div>
 					<div class="bl-content">
-              <!-- <img class="featurette-image img-fluid mx-auto" style="width:50%;padding:3px;" data-src="holder.js/500x500/auto" alt="500x500" src="{{portal.image}}"
+              <!-- <img class="featurette-image img-fluid mx-auto" style="width:100%;padding:3px;" data-src="holder.js/500x500/auto" alt="500x500" src="{{portal.images_top[1]}}"
               data-holder-rendered="true"
              > -->
 					</div>
