@@ -5639,24 +5639,6 @@
                 ],
                 [
                   [{
-                      "title": "ROZPISANIE DIETY",
-                      "dialog": 0
-                    },
-                    {
-                      "subtitle": "Indywidualnie dopasowanej w oparciu o wywiad oraz ankietę żywieniową"
-                    }
-                  ],
-                  [{
-                      "title": "99 zł",
-                      "dialog": 0
-                    },
-                    {
-                      "subtitle": ""
-                    }
-                  ]
-                ],
-                [
-                  [{
                       "title": "TRENING PERSONALNY, 1 h.",
                       "dialog": 0
                     },
@@ -5666,42 +5648,6 @@
                   ],
                   [{
                       "title": "70 zł",
-                      "dialog": 0
-                    },
-                    {
-                      "subtitle": ""
-                    }
-                  ]
-                ],
-                [
-                  [{
-                      "title": "TOUCH FOR HEALTH, 45-60 min.",
-                      "dialog": 0
-                    },
-                    {
-                      "subtitle": "Metoda w Kinezjologii Stosowanej przywracająca równowagę ogólnoustrojową"
-                    }
-                  ],
-                  [{
-                      "title": "45 zł",
-                      "dialog": 0
-                    },
-                    {
-                      "subtitle": ""
-                    }
-                  ]
-                ],
-                [
-                  [{
-                      "title": "P-DTR",
-                      "dialog": 0
-                    },
-                    {
-                      "subtitle": "Funkcjonalna analiza układu nerwowego za pomocą testów mięśniowych"
-                    }
-                  ],
-                  [{
-                      "title": "80 zł",
                       "dialog": 0
                     },
                     {
