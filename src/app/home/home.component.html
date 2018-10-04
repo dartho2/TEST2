@@ -12,23 +12,7 @@
 </main> -->
 <app-portal *ngIf="isActivePortalValid()" [portals]='portals'></app-portal>
     <div *ngIf="!isActivePortalValid()" class="container" style="padding: 0px; margin: 0px;">	
-      <div class="center-image" style="position: absolute;
-      z-index: 2;
-      width: 100%;
-      height: 100%;">
-      <div class="center-image-b" style="margin: 0;
-      background: white;
-      /* box-shadow: 0px 0px 26px 22px #ffffff; */
-      position: absolute;
-      top: 50%;
-      border-radius: 100px;
-      height: 200px;
-      width: 200px;
-      left: 50%;
-      margin-right: -50%;
-      transform: translate(-50%, -50%);"></div>
-      
-    </div>
+     
       <div id="bl-main" class="bl-main">
 				<section [ngStyle]="{'background-image': 'url('+portal.images_top[1]+')'}"style="background-position: center;border: 17px solid white;
         background-repeat: no-repeat;
@@ -40,16 +24,9 @@
             background: black;
             z-index: 2;
             opacity: 0.7;"routerLink="/{{portal.name}}/{{portal.sections.length > 0 ? portal.sections[0].name : ''}}">
-					<div class="bl-box" style="transition: opacity 0.2s linear 0.5s;
-         width: 31%;
-    height: 20%;
-          border-radius: 74px;
-          left: 50%;
-          top: 50%;
-          font-size: 50px;
-       
-          transform: translate(-50%, -50%);
-          /* background: white; */
+					<div class="bl-box" style="
+          font-size: 6vmin;
+          text-align: center;
      ">{{portal.label}}
      <!-- <img class="featurette-image img-fluid mx-auto" style="" data-src="holder.js/500x500/auto" alt="500x500" src="{{portal.image}}"
               data-holder-rendered="true"
