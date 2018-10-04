@@ -142,7 +142,11 @@ a#dropdown01 {
     url('/assets/fonts/montserrat-v12-latin-regular.svg#Montserrat') format('svg');
   /* Legacy iOS */
 }
-
+@media screen and (max-width: 768px){
+.row.content-row {
+  width:100% !important;
+}
+}
 .ng-star-inserted {
   /* max-height: 400px; */
 }
