@@ -197,6 +197,9 @@ div#cdk-overlay-0 {
   }
 
 }
+h2 {
+  font-weight: 600;
+}
 
 /* MAT */
 .carousel-caption {
