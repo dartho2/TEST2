@@ -200,6 +200,9 @@ div#cdk-overlay-0 {
 h2 {
   font-weight: 600;
 }
+.block_box.lead {
+  padding: 10px;
+}
 
 /* MAT */
 .carousel-caption {

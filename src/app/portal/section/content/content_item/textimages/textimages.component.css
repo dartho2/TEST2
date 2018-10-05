@@ -116,5 +116,5 @@ p.fit-p-on-image {
 }
 .block_box:nth-child(1n+1).image-box-t {
   /* background:#2c702c; */
-  min-height: 400px;
+  /* min-height: 400px; */
 }
