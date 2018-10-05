@@ -31,12 +31,12 @@
 
 <div class="col-lg-offset-2 col-lg-12">
   <div class="row" style="display:block">
-    <div [ngClass]="data.style.text_type" class="col-sm-12 box-news-content" style="float:left;padding: 0px;border-bottom: 1px solid white;">
+    <div [ngClass]="data.styles.text_type" class="col-sm-12 box-news-content" style="float:left;padding: 0px;border-bottom: 1px solid white;">
  <h2 *ngIf="data.content.title" style="padding-left: 1.25rem;padding-top: 1.25rem; font-weight: 600;"
-          [ngClass]="data.style.text_type" class="fit-p-on-title col-sm-12">{{data.content.title}}</h2>
-      <div [ngClass]="data.style.text_type" class="col-sm-6 box-news image-box-t" style="float:left;width: 100; height: 100%; padding-left: 0px">
+          [ngClass]="data.styles.text_type" class="fit-p-on-title col-sm-12">{{data.content.title}}</h2>
+      <div [ngClass]="data.styles.text_type" class="col-sm-6 box-news image-box-t" style="float:left;width: 100; height: 100%; padding-left: 0px">
        
-        <p [ngClass]="data.style.text_type" class="lead">
+        <p [ngClass]="data.styles.text_type" class="lead">
           {{data.content.text}} </p>
         <ul *ngIf="data.content.items">
           <li *ngFor="let item of data.content.items">{{item}}</li>
