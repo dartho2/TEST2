@@ -1,25 +1,24 @@
 <div class="col-md-12" *ngIf="data.styles.list_type === 'normal'">
-  <h2 *ngIf="data.content.title" class="featurette-heading" style="padding-top: 1.25rem;">
+  <h2 *ngIf="data.content.title" class="featurette-heading">
     {{data.content.title}}</h2>
   <div *ngIf="data.content.text.length > 0">
-    <p class="lead" [ngClass]="data.styles.text_type">{{data.content.text}}</p>
+    <p class="lead">{{data.content.text}}</p>
+    <ul *ngIf="data.content.items.length > 0">
+      <li *ngFor="let item of data.content.items">{{item}}</li>
+    </ul>
   </div>
-  <ul [ngClass]="data.list_type" *ngIf="data.content.items.length > 0">
-    <li *ngFor="let item of data.content.items">{{item}}</li>
-  </ul>
 </div>
 
 <div class="col-md-12" *ngIf="data.styles.list_type !== 'normal'">
   <h2 class="featurette-heading" style=" padding-left: 1.25rem; padding-top: 1.25rem;">
     {{data.content.title}}</h2>
   <div *ngIf="data.content.text.length > 0">
-    <p class="lead" [ngClass]="data.styles.text_type">{{data.content.text}}</p>
+    <p class="lead">{{data.content.text}}</p>
   </div>
-  <div [ngClass]="data.list_type" *ngIf="data.content.items.length > 0">
-    <div [ngClass]="data.list_type" class="center-list" *ngFor="let item of data.content.items; index as i "><i
-        [ngClass]="data.list_type" class="list-progress">
-        <div [ngClass]="data.list_type" class="number-list">{{i+1 }}</div>
+  <div *ngIf="data.content.items.length > 0">
+    <div class="center-list" *ngFor="let item of data.content.items; index as i "><i class="list-progress">
+        <div class="number-list">{{i+1}}</div>
       </i>
-      <span [ngClass]="data.list_type" class="list-span">{{item}}</span></div>
+      <span class="list-span">{{item}}</span></div>
   </div>
 </div>

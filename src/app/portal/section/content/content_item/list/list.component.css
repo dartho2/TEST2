@@ -70,3 +70,6 @@ span.stepper {
   font-weight: 300;
   font-style: normal;
 }
+h2 {
+  padding-left: 1.25rem; padding-top: 1.25rem;
+}

@@ -197,6 +197,10 @@ div#cdk-overlay-0 {
   }
 
 }
+p {
+  margin-top: 1rem;
+  margin-bottom: 0.4rem;
+}
 h2 {
   font-weight: 600;
 }
