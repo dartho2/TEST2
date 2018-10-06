@@ -270,6 +270,9 @@ h2 {
   .navbar-toggle {
     display: none;
   }
+  .fab {
+    display: none;
+  }
 
 }
 
