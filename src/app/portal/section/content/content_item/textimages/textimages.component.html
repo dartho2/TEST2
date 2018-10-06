@@ -1,4 +1,4 @@
-<div class="row" [ngClass]="data.styles.text_type">
+<div class="row" *ngIf="data.styles.text_type === 'block_box'" [ngClass]="data.styles.text_type">
   <img *ngIf="data.content.image" class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
     src="{{data.content.image}}" data-holder-rendered="true">
   <div class="col-sm-12 box-news-content">
@@ -9,6 +9,17 @@
       <ul *ngIf="data.content.items">
         <li *ngFor="let item of data.content.items">{{item}}</li>
       </ul>
+    </div>
+  </div>
+</div>
+
+<div class="" *ngIf="data.styles.text_type === 'block-ref'">
+  <div class="col-md-6" [ngStyle]="{'float': data.styles.float}" style="padding:10px">
+    <img *ngIf="data.content.image" class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
+      src="{{data.content.image}}" data-holder-rendered="true">
+    <div [ngClass]="data.styles.text_type">
+      <h2 *ngIf="data.content.title" class="fit-p-on-title col-sm-12" style="color:white; padding-top: 0rem;">{{data.content.title}}</h2>
+      <p class="lead"> {{data.content.text}} </p>
     </div>
   </div>
 </div>
