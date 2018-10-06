@@ -14,7 +14,7 @@
 </div>
 
 <div class="" *ngIf="data.styles.text_type === 'block-ref'">
-  <div class="col-md-6" [ngStyle]="{'float': data.styles.float}" style="padding:10px; margin-bottom: 38px;">
+  <div class="col-md-12" [ngStyle]="{'float': data.styles.float}" style="padding:10px; margin-bottom: 38px;">
     <div [ngClass]="data.styles.text_type">
       <h2 *ngIf="data.content.title" class="fit-p-on-title col-sm-12">{{data.content.title}}</h2>
       <blockquote>{{data.content.text}}</blockquote>
@@ -26,10 +26,15 @@
     </div>
   </div>
 </div>
+<hr>
 
 
 
 <style>
+  .clearfix::after {
+    content: "";
+    clear: both;
+}
   .fab:hover {
         background:  #1875D0;
         -webkit-transform: scale(0.93);
@@ -85,7 +90,6 @@
   blockquote {
     font-weight: 100;
     font-size: 1rem;
-    max-width: 600px;
     line-height: 1.4;
     position: relative;
     margin: 0;
