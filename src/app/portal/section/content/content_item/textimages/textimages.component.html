@@ -13,92 +13,11 @@
   </div>
 </div>
 
-<div class="" *ngIf="data.styles.text_type === 'block-ref'">
-  <div class="col-md-12" [ngStyle]="{'float': data.styles.float}" style="padding:10px; margin-bottom: 38px;">
-    <div [ngClass]="data.styles.text_type">
-      <h2 *ngIf="data.content.title" class="fit-p-on-title col-sm-12">{{data.content.title}}</h2>
-      <blockquote>{{data.content.text}}</blockquote>
-      <cite>{{data.content.signature}}</cite>
-      <!-- <div class="block-ref-info">
-        <button type="button" class="btn-ref btn btn-outline-info" (click)="openDialog(data)">Zobacz</button>
-      </div> -->
-      <div class="fab"><i class="fa fa-check fa-3x" (click)="openDialog(data)"> </i></div>
-    </div>
+<div *ngIf="data.styles.text_type === 'block-ref'" class="col-md-12" (click)="openDialog(data)" [ngStyle]="{'float': data.styles.float}"
+  style="padding:10px; margin-bottom: 30px; cursor:pointer;">
+  <div [ngClass]="data.styles.text_type">
+    <h2 *ngIf="data.content.title" class="fit-p-on-title col-sm-12">{{data.content.title}}</h2>
+    <blockquote>{{data.content.text}}</blockquote>
+    <cite>{{data.content.signature}}</cite>
   </div>
 </div>
-<hr>
-
-
-
-<style>
-  .clearfix::after {
-    content: "";
-    clear: both;
-}
-  .fab:hover {
-        background:  #1875D0;
-        -webkit-transform: scale(0.93);
-        -moz-transform: scale(0.93);
-        -ms-transform: scale(0.93);
-        transform: scale(0.93);
-       
-
-}
-  .fab{
-  position : absolute;
-  cursor: pointer;
-	right : 50px;
-	bottom : -2px;
-	box-sizing: border-box;
-	padding-top: 18px;
-	background-color : #1875D0;
-	width : 80px;
-	height : 80px;
-	color : white;
-	text-align : center;
-	border-radius : 50%;
-	-webkit-box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.75);
-	box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.75);
-}
-  .block-ref-info {
-    padding-top:2px;
-    padding-bottom: 2px;
-      border-top: 1px solid red;
-      border-bottom: 1px solid red;
-  }
-  .btn-ref {
-  
-    position: relative;
-  }
-
-  blockquote:before {
-    position: absolute;
-    font-family: 'FontAwesome';
-    top: -100px;
-    left: -21px;
-    content: "\f10d";
-    font-size: 200px;
-    color: rgba(0, 0, 0, 0.1);
-
-  }
-
-  .block-ref {
-    text-align: center;
-  }
-
-  blockquote {
-    font-weight: 100;
-    font-size: 1rem;
-    line-height: 1.4;
-    position: relative;
-    margin: 0;
-    padding: .5rem;
-  }
-
-  cite {
-    line-height: 3;
-    text-align: left;
-  }
-
-</style>
