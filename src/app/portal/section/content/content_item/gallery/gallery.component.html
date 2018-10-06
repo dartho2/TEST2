@@ -1,15 +1,10 @@
-<div class="row featurette">
-  <hr class="featurette-divider">
-  <div class="col-md-12">
-    <h2 class="featurette-heading">{{data.content.title}}</h2>
-    <p class="lead">
-      
-    </p>
-  </div>
-  <div class="col-md-6" *ngFor="let image of data.content.images">
-    <img class="featurette-image img-fluid mx-auto" style="width:100%;padding:3px;" data-src="holder.js/500x500/auto" alt="500x500" src="{{image.url}}"
-         data-holder-rendered="true"
-        >
-  </div>
-  <hr>
+<h2 class="featurette-heading">{{data.content.title}}</h2>
+<div class="col-md-6 content-video" [ngStyle]="{'float': data.styles.float}" *ngFor="let videos of data.content.videos">
+  <fb-video *ngIf="videos.url" [href]="videos.url"></fb-video>
+  <p>{{videos.description}}</p>
+</div>
+<div class="col-md-6 content-image" [ngStyle]="{'float': data.styles.float}" *ngFor="let image of data.content.images">
+  <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="{{image.url}}"
+    data-holder-rendered="true">
+    <p>{{image.description}}</p>
 </div>
