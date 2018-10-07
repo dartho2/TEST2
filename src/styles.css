@@ -224,6 +224,7 @@ h1.fit-content-header-label {
   padding: 3px;
 }
 
+
 .content-video {
   margin: 0 auto;
 }
@@ -250,6 +251,9 @@ h2 {
 
 .content-video {
   margin-bottom: 10px;
+}
+.block-o {
+  text-align: justify;
 }
 
 @media screen and (max-width: 767px) {
