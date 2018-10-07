@@ -1,9 +1,11 @@
 <app-header [portal]="portal"></app-header>
-<div class="row content-header" style="color:black; border-bottom:1px solid rgb(212, 208, 212); border-top:1px solid rgb(212, 208, 212)">
+<div class="row content-header" [ngStyle]="{'background': portal.style.colors.primary}">
   <div class="container">
-    <h1 class="fit-content-header">{{portal.name}}
-      > {{activeSection.label}}</h1>
+    <h1 class="fit-content-header-label">{{activeSection.label}}</h1>
   </div>
+  <div class="container">
+        <h1 class="fit-content-header"></h1>
+      </div>
 </div>
 <app-section [section]="activeSection"></app-section>
 <app-footer [portal]="portal"></app-footer>

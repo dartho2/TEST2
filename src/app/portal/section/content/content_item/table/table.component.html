@@ -1,4 +1,4 @@
-<div class="row justify-content-md-center">
+<!-- <div class="row justify-content-md-center">
   <div style="width:100%" class="col-md-auto">
     <div *ngIf="data">
     <table class="table" id="{{data.id}}">
@@ -8,9 +8,9 @@
       <tr *ngFor="let tables of data.content.columns; index as i">
         <td class="table-content" [class]="data.class" *ngFor="let table of data.content.columns[i]; index as c"
           [attr.data-label]="table[0].title ? data.content.thead[c] ? data.content.thead[c].title : '' : ''">
-          <!-- <div class="dialog-button" *ngIf="table[0].dialog > 0"> <button [ngStyle]="{'background-color': table[0].color}"
+          <div class="dialog-button" *ngIf="table[0].dialog > 0"> <button [ngStyle]="{'background-color': table[0].color}"
               class="btn btn-light" 
-              (click)="openDialog(table[0].title)"> -->
+              (click)="openDialog(table[0].title)">
               <div class="dialog-button" *ngIf="table[0].dialog > 0"> <button [ngStyle]="{'background-color': table[0].color}"
                 class="btn btn-light" 
               >
@@ -24,5 +24,25 @@
       </tr>
     </table>
   </div>
+  </div>
+</div> -->
+
+<div class="row justify-content-md-center">
+  <div style="width:100%" class="col-md-auto">
+    <div *ngIf="data">
+      <table class="table">
+        <thead class="thead-dark" *ngIf="data.content.title">
+          <th scope="col" colspan="100%">{{data.content.title}}</th>
+        </thead>
+        <thead class="thead-dark" *ngIf="data.content.headers > 0">
+          <th scope="col" *ngFor="let header of data.content.headers">{{header}}</th>
+        </thead>
+        <tr *ngFor="let row of data.content.data; index as i">
+            <td class="table-content" *ngFor="let cell of row">
+              <app-table-cell [data]="cell"></app-table-cell>
+            </td>
+        </tr>
+      </table>
+    </div>
   </div>
 </div>

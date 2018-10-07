@@ -28,6 +28,7 @@ import {BoxComponent} from './portal/section/content/content_item/box/box.compon
 import {BoxLinkComponent} from './portal/section/content/content_item/box_link/box_link.component';
 import {MatDialogModule} from '@angular/material/dialog';
 import {DialogComponent} from './portal/section/content/content_item/dialog/dialog.component';
+import {TableCellComponent} from './portal/section/content/content_item/table/table-cell.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import {DialogComponent} from './portal/section/content/content_item/dialog/dial
     ContactComponent,
     BoxComponent,
     DialogComponent,
-    BoxLinkComponent
+    BoxLinkComponent,
+    TableCellComponent
   ],
   imports: [
     BrowserModule,
