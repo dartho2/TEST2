@@ -1,18 +1,18 @@
 footer {
-  background: black;
+  background: #25282a;
   margin-top:60px;
-  color: white;
+  color: #e6e6e6;
   font-family: 'robotlight';
     font-weight: normal;
     font-size: 14px;
     font-style: normal;
     text-decoration: none;
 }
-footer a {
-  color: white;
+footer a,p {
+  color: rgba(255, 255, 255, 0.6);
 }
 .text-black-50 {
-  color:white !important;
+  color: rgba(255, 255, 255, 0.6)!important;
 }
 /* .p-hr-s {
 border-left:1px solid white;

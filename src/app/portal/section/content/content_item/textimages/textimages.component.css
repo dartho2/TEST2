@@ -154,4 +154,5 @@ cite {
 }
 .block-ref {
   text-align: center;
+  min-height: 226px;
 }

@@ -23,3 +23,13 @@
     </div>
   </div>
 </div>
+<div [ngClass]="data.styles.text_type" *ngIf="data.styles.text_type === 'block-o'" class="col-md-12">
+  <h2 *ngIf="data.content.title" class="fit-p-on-title col-sm-12">{{data.content.title}}</h2>
+  <div class="col-md-6" [ngStyle]="{'float': data.styles.float}" [ngClass]="data.styles.text_type">
+    {{data.content.text}}
+  </div>
+  <div class="col-md-6" [ngStyle]="{'float': data.styles.float}">
+    <img *ngIf="data.content.image" class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
+      src="{{data.content.image}}" data-holder-rendered="true">
+  </div>
+</div>
