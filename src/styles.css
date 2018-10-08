@@ -212,7 +212,7 @@ h1.fit-content-header-label {
   margin-top: -50px;
   font-size: 34px;
   color: white;
-  background: #0a6996;
+  /* background: #0a6996; */
   font-family: OSWALD;
   padding: 10px;
 }

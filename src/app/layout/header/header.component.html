@@ -96,10 +96,14 @@
           <a class="nav-link dropdown-toggle nav-top-link" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false"> {{portal.label}}</a>
           <div class="dropdown-menu" aria-labelledby="dropdown01">
-            <a *ngFor="let portal of service.portals" class="dropdown-item" href="#" [ngStyle]="portal.hover ? {'background-color': portal.style.colors.primary} : {}"
-              routerLink="/{{portal.name}}/{{portal.sections[0].name}}">{{portal.label}}</a>
-
-          </div>
+          
+                
+              <a *ngFor="let portals of service.portals" class="dropdown-item" href="#" [ngStyle]="portal.hover ? {'background-color': portal.style.colors.primary} : {}"
+              routerLink="/{{portals.name}}/">{{portals.label}}</a>
+              
+           
+      
+            </div>
         </li>
       </ul>
 
@@ -158,7 +162,7 @@
             right: 0px;
             /* height: 100%; */
             top: 0px;
-            opacity: 1;
+            opacity: 1; 
             position: absolute;"
               src="{{portal.image}}" alt=""></h3>
           <!-- <p [ngStyle]="{'color': portal.style.colors.primary}" style="font-family: Oswald;
