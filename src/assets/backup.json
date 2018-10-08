@@ -528,8 +528,8 @@
     {
     "logo": "assets/logo/studio_yogi_logo.png",
     "images_top": [
-    "assets/images/joga/slider1.png",
-    "assets/images/joga/slider2.png"
+    "assets/images/joga/slider2.png",
+    "assets/images/joga/slider1.png"
     ],
     "active": true,
     "sections": [
@@ -598,13 +598,183 @@
     },
     "created_at": "2018-10-08T15:53:35.881Z",
     "updated_at": "2018-10-08T15:53:35.881Z"
+    },
+    {
+    "_id": "5bbb83dbf9288a0013a8e98b",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "Podstawy ośmiostopniowej ścieżki jogi Patańdżalego",
+    "text": "",
+    "items": [
+    "Yamy - uniwersalne przykazania moralne: niekrzywdzenie, prawda, niekradzenie, wstrzemięźliwość, niezachłanność",
+    "Niyamy - zasady postępowania: czystość, zadowolenie, zapał, poznawanie samego siebie, poświęcenie się.",
+    "Asany – pozycje jogi. Przywracają ciało do stanu zdrowia i witalności, rozwijają sprawność i wytrzymałość, wpływają na pracę mięśni, stawów, nerwów i gruczołów wewnętrznych.",
+    "Pranayama – kontrola energii życiowej (prana) poprzez regulację oddechu. Utrzymanie pełnego, stabilnego oddechu pozwala wyciszyć i skoncentrować umysł.",
+    "Pratyahara - wycofanie uwagi ze świata zewnetrznego poprzez rozlużnienie zmysłów i skierowanie uwagi do wnętrza.",
+    "Dharana – stan koncentracji osiągnięty dzięki opanowaniu ciała przez asany, umysłu przez pranayamę, a zmysłów przez pratyaharę.",
+    "Dhyana – kontemplacja, która powstaje w wyniku długotrwałej koncentracji. Ciało, umysł, zmysły, intelekt i ego są zintegrowane z obiektem medytacji.",
+    "Samadhi – ostateczny cel jogi i innych systemów rozwoju. Stan w którym ciało i zmysły odpoczywają jak w śnie głębokim, a władze umysłu i intelektu pozostają w stanie czuwania. Stan ten charakteryzuje się odczuwaniem głębokiego spokoju, totalnej świadomości tego co jest tu i teraz oraz doświadczeniem braku podziałów na “ja” i świat zewnętrzny."
+    ]
+    },
+    "created_at": "2018-10-08T16:20:43.071Z",
+    "updated_at": "2018-10-08T16:20:43.071Z"
+    },
+    {
+    "_id": "5bbb87a7f9288a0013a8e98c",
+    "type": "text",
+    "styles": {
+    "float": "unset",
+    "text_align": "center",
+    "text_type": "block_box"
+    },
+    "content": [
+    {
+    "title": "Pozycje jogi:",
+    "lead": "",
+    "text": ""
+    }
+    ],
+    "created_at": "2018-10-08T16:36:55.309Z",
+    "updated_at": "2018-10-08T16:36:55.309Z"
+    },
+    {
+    "_id": "5bbb8a19f9288a0013a8e98f",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "title": "Pozycje stojące",
+    "lead": "",
+    "image": "assets/images/joga/pozycje/stojaca_.png",
+    "text": "Najważniejsza grupa asan dla osób dopiero zaczynających praktykę, przygotowuje do dalszej praktyki. Sprawiają że stajemy się silniejsi i bardziej elastyczni. Mają bardzo szeroki zakres działania: zwalczają sztywność nóg i bioder, korygują lekkie wady nóg i umożliwiają ich symetryczny rozwój, uśmierzają bóle pleców, tonizują narządy jamy brzusznej, wzmacniają okolicę kostek, dają uziemienie pozycji. Ponadto rozwijają klatkę piersiową, dzięki czemu są pomocne również w pranajamie. Pozycje stojące rozgrzewają ciało na początku ćwiczeń. Często wymagają zaangażowania całego ciała, stabilnej postawy. Pozycje stojące zawierają elementy wszystkich innych pozycji, przygotowują ciało do trudniejszych asan"
+    },
+    "created_at": "2018-10-08T16:47:21.852Z",
+    "updated_at": "2018-10-08T16:47:21.852Z"
+    },
+    {
+    "_id": "5bbb9306f9288a0013a8e991",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "title": "Pozycje siedzące",
+    "lead": "",
+    "image": "assets/images/joga/pozycje/siedzaca.png",
+    "text": "Bardzo często wymagają wcześniejszego przygotowania w pozycjach stojących. Pomagają rozluźnić ciało, zmniejszają napięcie mięśni. Aby wykonać je prawidłowo kręgosłup musi być mocno wyciągnięty do góry. Pozycje te wzmacniają kręgosłup, usprawniają krążenie krwi - ułatwiają dopływ krwi do mózgu co ma istotne znaczenie w praktyce medytacji. A także to że przynoszą spokój, pomagają pozbyć się stresu. Dodatkowo tonizują narządy jamy brzusznej i klatki piersiowej. Są istotne zwłaszcza dla kobiet, gdyż uelastyczniają biodra i mięśnie dna miednicy a co za tym idzie: ułatwiają naturalny poród, zmniejszają napięcia i bóle."
+    },
+    "created_at": "2018-10-08T17:25:26.291Z",
+    "updated_at": "2018-10-08T17:25:26.291Z"
+    },
+    {
+    "_id": "5bbb93c4f9288a0013a8e992",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "image": "assets/images/joga/pozycje/wygiecie_do_przodu.png",
+    "title": "Wygięcia do przodu",
+    "lead": "",
+    "text": "Tonizują narządy brzucha, podnoszą tonus nerek, regenerują kręgosłup i polepszają trawienie, rozciągają tył ciała, wyciszają umysł."
+    },
+    "created_at": "2018-10-08T17:28:36.370Z",
+    "updated_at": "2018-10-08T17:28:36.370Z"
+    },
+    {
+    "_id": "5bbb93faf9288a0013a8e993",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "image": "assets/images/joga/pozycje/wygiecie_do_tylu.png",
+    "title": "Wygięcia do tyłu",
+    "lead": "",
+    "text": "intensywnie otwierają okolicę mostka, rozciągają klatkę piersiową oraz mięśnie brzucha, wzmacniają kręgosłup - plecy stają się mocne i pełne życia, asany te dodają energii i pewności siebie"
+    },
+    "created_at": "2018-10-08T17:29:30.208Z",
+    "updated_at": "2018-10-08T17:29:30.208Z"
+    },
+    {
+    "_id": "5bbb942af9288a0013a8e994",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "image": "assets/images/joga/pozycje/pozycja_odwrocona.png",
+    "title": "Pozycje odwrócone",
+    "lead": "",
+    "text": "To kluczowe pozycje w jodze. Wymagają stabilności ciała i umysłu. Wykonuje się je zwykle pod koniec sesji, kiedy ciało jest już dobrze rozgrzane. Mają szerokie działanie prozdrowotne: zwiększają dopływ czystej, utlenionej krwi do komórek mózgowych, co zwiększa moc intelektu i jasność myślenia. Poprawiają krążenie limfatyczne i żylne. Poprawiają pracę serca, stymulują system immunologiczny. Regulują gospodarkę hormonalną i przemianę materii, wykorzeniają przeziębienia i dolegliwości górnych dróg oddechowych. Leczą astmę i zapalenie zatok. Odmładzają i regenerują skórę twarzy. Umożliwiają samo oczyszczenie się organizmu, pomagają usuwać toksyny. Usuwają bóle głowy. Działają odprężająco na układ nerwowy. Gwarantują dobry sen. Uspokajają, pomagają pozbyć się lęków i depresji, spojrzeć na wszystko z innej stronya jednocześnie energetyzują ciało."
+    },
+    "created_at": "2018-10-08T17:30:18.095Z",
+    "updated_at": "2018-10-08T17:30:18.095Z"
+    },
+    {
+    "_id": "5bbb9443f9288a0013a8e995",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "image": "assets/images/joga/pozycje/skrety.png",
+    "title": "Skręty",
+    "lead": "",
+    "text": "Uelastyczniają i wzmacniają kręgosłup, biodra i barki. Oczyszczają i regenerują wewnętrzne narządy brzucha. Przywracają witalność."
+    },
+    "created_at": "2018-10-08T17:30:43.642Z",
+    "updated_at": "2018-10-08T17:30:43.642Z"
+    },
+    {
+    "_id": "5bbb9979e1a4cd00134e9480",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "image": "assets/images/joga/pozycje/pozycja_balansujaca.png",
+    "title": "Pozycje balansujące",
+    "lead": "",
+    "text": "Przeważnie należą do nich pozycje zaawansowane, dosyć trudne do wykonania dla osoby początkującej. Pozycje te bardzo dobrze wpływają na zdrowie: wzmacniają i uelastyczniają całe ciało. Zapewniają wysoką sprawność fizyczną, dają siłę. Pozycje balansujące wzmacniają ręce i barki. Poprawiają poczucie równowagi. Stymulują do pracy wszystkie narządy jamy brzusznej. Masują komory serca, ćwiczą płuca i klatkę piersiową, zwiększają pobór tlenu. Są to pozycje energetyzujące. Oprócz siły fizycznej, dają również siłę duchową."
+    },
+    "created_at": "2018-10-08T17:52:57.525Z",
+    "updated_at": "2018-10-08T17:52:57.525Z"
+    },
+    {
+    "_id": "5bbb99a8e1a4cd00134e9481",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "image": "assets/images/joga/pozycje/dynamiczne_sekwencje.png",
+    "title": "Dynamiczne sekwencje",
+    "lead": "",
+    "text": "Dają siłę i wytrzymałość. Bardzo szybko ożywiają i rozgrzewają nawet głębokie warstwy ciała."
+    },
+    "created_at": "2018-10-08T17:53:44.341Z",
+    "updated_at": "2018-10-08T17:53:44.341Z"
     }
     ],
     "_id": "5bbb6e11f9288a0013a8e982",
     "name": "what_is_yoga",
     "label": "Czym jest joga?",
     "created_at": "2018-10-08T14:47:45.262Z",
-    "updated_at": "2018-10-08T15:54:22.282Z"
+    "updated_at": "2018-10-08T17:53:56.136Z"
     }
     ],
     "_id": "5bbb5abff9288a0013a8e97e",
@@ -618,6 +788,6 @@
     },
     "description": "a",
     "created_at": "2018-10-08T13:25:19.896Z",
-    "updated_at": "2018-10-08T14:52:13.112Z"
+    "updated_at": "2018-10-08T15:59:38.297Z"
     }
     ]

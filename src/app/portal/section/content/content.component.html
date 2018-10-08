@@ -1,11 +1,11 @@
 <!-- <div class="row content-row" [ngStyle]="{'width': contentItem.styles.float === 'unset' ? '100%':'50%', 'float': contentItem.styles.float}" [ngStyle]="{'float': contentItem.styles.float}" *ngFor="let contentItem of contentItems"> -->
-    <!-- <div class="row content-row" *ngFor="let contentItem of contentItems"> -->
-        <div *ngFor="let contentItem of contentItems">
+<!-- <div class="row content-row" *ngFor="let contentItem of contentItems"> -->
+<div *ngFor="let contentItem of contentItems">
   <!-- <app-fb *ngIf="contentItem.type === 'fb'" [data]="contentItem"></app-fb> -->
   <app-text class="col-md-12" *ngIf="contentItem.type === 'text'" [data]="contentItem"></app-text>
   <app-textimages class="col-md-12" *ngIf="contentItem.type === 'text_and_image'" [data]="contentItem"></app-textimages>
   <app-gallery *ngIf="contentItem.type === 'gallery'" [data]="contentItem"></app-gallery>
-  <app-list class="col-md-12"*ngIf="contentItem.type === 'list'" [data]="contentItem"></app-list>
+  <app-list class="col-md-12" *ngIf="contentItem.type === 'list'" [data]="contentItem"></app-list>
   <app-table class="col-md-12" *ngIf="contentItem.type === 'table'" [data]="contentItem"></app-table>
   <app-contact class="col-md-12" *ngIf="contentItem.type === 'contact'" [data]="contentItem"></app-contact>
   <!-- <app-box-link class="col-md-12" *ngIf="contentItem.type === 'box-link'" [data]="contentItem"></app-box-link>
