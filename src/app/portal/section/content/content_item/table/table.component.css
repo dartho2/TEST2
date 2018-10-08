@@ -1,3 +1,6 @@
+.justify-content-md-center {
+    clear: both;
+}
 @media screen and (max-width: 768px){
   table td::before {
       font-weight: bold;
