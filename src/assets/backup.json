@@ -574,13 +574,13 @@
     },
     "content": [
     {
-    "title": "Czym jest joga?",
+    "title": "",
     "lead": "",
     "text": "Joga to najstarsza gimnastyka świata. Jest praktykowana od wielu tysięcy lat, a jej najważniejszym źródłem są spisane między 3 a 6 wiekiem przed naszą erą Jogasutry autorstwa Patańdżalego, ajurwedyjskiego lekarza. Joga może być rozumiana na dwa sposoby. Może być postrzegana jako system światopoglądowy, filozofię czy nawet religię oraz jako aktywność ruchowa. W cywilizacji zachodniej, dużo częściej jogę kojarzy się z praktyką asan. Również i w naszym studio, joga jest wolna od światopoglądu i jest nauczana tylko i wyłącznie jako aktywność fizyczna. Niezaprzeczalnym faktem jest jednak jej znamienny wpływ na jasność myślenia, uspokojenie umysłu i zharmonizowanie pracy narządów wewnętrznych. Praktyka asan – czyli pozycji jogi - ma charakter terapeutyczny. Ich wykonywanie przynosi ulgę narządowi ruchu i znacząco wpływa na witalność regularnie ćwiczącego"
     }
     ],
     "created_at": "2018-10-08T15:03:20.340Z",
-    "updated_at": "2018-10-08T15:03:20.340Z"
+    "updated_at": "2018-10-08T21:24:47.029Z"
     },
     {
     "_id": "5bbb7d7ff9288a0013a8e98a",
@@ -768,13 +768,307 @@
     },
     "created_at": "2018-10-08T17:53:44.341Z",
     "updated_at": "2018-10-08T17:53:44.341Z"
+    },
+    {
+    "_id": "5bbb99d0d3ad3c001383e471",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "image": "assets/images/joga/pozycje/pozycje_lezace.png",
+    "title": "Pozycje leżące",
+    "lead": "",
+    "text": "Dają ujście stresom i zmęczeniu, ułatwiają spokojny, stabilny oddech. Rozciągają i wzmacniają kończyny dolne. Rozluźniają dolną część pleców, przynoszą ulgę w bólu. Pozycje te otwierają biodra, poprawiają funkcjonowanie organów rozrodczych, poprawiają trawienie. Regenerują i odżywiają ciało."
+    },
+    "created_at": "2018-10-08T17:54:24.827Z",
+    "updated_at": "2018-10-08T17:54:24.827Z"
+    },
+    {
+    "_id": "5bbb99f0d3ad3c001383e472",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "image": "assets/images/joga/pozycje/relaks.png",
+    "title": "Relaks",
+    "lead": "",
+    "text": "Pozwala doświadczyć stanu całkowitego rozluźnienia ciała ( jak w czasie snu głębokiego) przy zachowaniu pełnej świadomości. Daje uwagę i wrażliwość potrzebną do pracy z oddechem."
+    },
+    "created_at": "2018-10-08T17:54:56.242Z",
+    "updated_at": "2018-10-08T17:54:56.242Z"
+    },
+    {
+    "_id": "5bbb9a1bd3ad3c001383e473",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "image": "assets/images/joga/pozycje/cwiczenia_oddechowe.png",
+    "title": "Ćwiczenia oddechowe",
+    "lead": "",
+    "text": "Pełny i świadomy oddech dostarcza organizmowi niezbędnej energii, prowadzi do koncentracji i kontaktu z najgłębszymi pokładami nas samych. Zmiana sposobu oddychania pozytywnie wpływa na stan emocjonalny."
+    },
+    "created_at": "2018-10-08T17:55:39.609Z",
+    "updated_at": "2018-10-08T17:55:39.609Z"
+    },
+    {
+    "_id": "5bbbafa55fc13600135316aa",
+    "type": "text",
+    "styles": {
+    "float": "unset",
+    "text_align": "center",
+    "text_type": "block_box"
+    },
+    "content": [
+    {
+    "title": "Jak joga zmienia Twoje ciało – po zajęciach, miesiącach, latach…?",
+    "lead": "",
+    "text": ""
+    }
+    ],
+    "created_at": "2018-10-08T19:27:33.434Z",
+    "updated_at": "2018-10-08T19:27:33.434Z"
+    },
+    {
+    "_id": "5bbba726d3ad3c001383e475",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-s"
+    },
+    "content": {
+    "title": "",
+    "lead": "",
+    "image": "assets/images/joga/zalety.png",
+    "text": "Na pewno zastanawiałeś się, jak joga wpływa na funkcjonowanie Twojego organizmu. Ta prosta grafika ułatwi Ci dostrzec natychmiastowe korzyści, które osiągniesz już zaraz po zejściu z maty, jak i efekty dłuższej, regularnej praktyki."
+    },
+    "created_at": "2018-10-08T18:51:18.687Z",
+    "updated_at": "2018-10-08T19:55:45.772Z"
     }
     ],
     "_id": "5bbb6e11f9288a0013a8e982",
     "name": "what_is_yoga",
     "label": "Czym jest joga?",
     "created_at": "2018-10-08T14:47:45.262Z",
-    "updated_at": "2018-10-08T17:53:56.136Z"
+    "updated_at": "2018-10-08T19:35:06.601Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bbbc1455fc13600135316ad",
+    "type": "text",
+    "styles": {
+    "float": "unset",
+    "text_type": "block_box",
+    "list_type": "normal"
+    },
+    "content": [
+    {
+    "title": "",
+    "lead": "",
+    "text": "Jest wiele rodzajów jogi. W naszym studio skupiamy się głownie na 3 z nich:"
+    }
+    ],
+    "created_at": "2018-10-08T20:42:45.134Z",
+    "updated_at": "2018-10-08T20:42:45.134Z"
+    },
+    {
+    "_id": "5bbbc21f5fc13600135316ae",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "",
+    "text": "",
+    "items": [
+    "Joga od podstaw",
+    "Hatha Joga",
+    "Vinyasa Jog"
+    ]
+    },
+    "created_at": "2018-10-08T20:46:23.311Z",
+    "updated_at": "2018-10-08T20:46:23.311Z"
+    },
+    {
+    "_id": "5bbbc50a5fc13600135316b1",
+    "type": "text",
+    "styles": {
+    "float": "left",
+    "text_type": "block-t-a"
+    },
+    "content": [
+    {
+    "title": "Joga od podstaw",
+    "lead": "",
+    "text": "Kurs dla osób początkujących. Program ponad 30 podstawowych asan, relaksacja i nauka świadomego oddechu, terapia ruchem i profilaktyka chorób układu ruchu, dla kobiet i mężczyzn w każdym wieku."
+    }
+    ],
+    "created_at": "2018-10-08T20:58:50.464Z",
+    "updated_at": "2018-10-08T20:58:50.464Z"
+    },
+    {
+    "_id": "5bbbc5385fc13600135316b2",
+    "type": "text",
+    "styles": {
+    "float": "left",
+    "text_type": "block-t-t"
+    },
+    "content": [
+    {
+    "title": "Hatha Joga",
+    "lead": "",
+    "text": "Nazwa Hatha wywodzi się z sanskrytu i składa z dwóch słów: „ha”, czyli słońce oraz „tha”, czyli księżyc. Jogini owe słońce i księżyc porównują do dwóch nozdrzy, co ma przypominać o funkcji prawidłowego oddychania podczas ćwiczeń oraz symbolizować pozytywne (słońce) i negatywne (księżyc) emocje, myśli, odczucia i zachowania. W praktyce więc Hatha Joga polega na odpowiednim balansowaniu oddechem w połączeniu z ruchem ciała i stanem umysłu. Przez to właśnie Hatha Joga jest statyczna, figury wykonuje się powoli i dokładnie kontroluje oddech."
+    },
+    {
+    "title": "Vinyasa Joga",
+    "lead": "",
+    "text": "Vinyasa natomiast oznacza dynamiczną, skoncentrowaną postawę. Klasyczne i statyczne asany są tutaj wykonywane dynamicznie wraz z oddechem. Kluczową sprawą w tej odmianie jogi jest więc oddychanie w trakcie wykonywania ćwiczeń. Duży nacisk jest także kładziony na to, co dzieje się pomiędzy figurami, na płynne przejścia od jednej figury do drugiej, podczas gdy w Hatha Jodze liczą się tylko poszczególne figury, bez zwracania uwagi na przejścia. Vinyasa posiada więc sześć figur, które płynnie rozwijają się od pierwszej do ostatniej."
+    }
+    ],
+    "created_at": "2018-10-08T20:59:36.520Z",
+    "updated_at": "2018-10-08T20:59:36.520Z"
+    },
+    {
+    "_id": "5bbbc5435fc13600135316b3",
+    "type": "text",
+    "styles": {
+    "float": "left",
+    "text_type": "block-t-a"
+    },
+    "content": [
+    {
+    "title": "Jaka jest różnica pomiędzy Hatha a Vinyasa?",
+    "lead": "",
+    "text": "Hatha Joga powstała dużo wcześniej, natomiast bez niej nie byłoby Vinyasa Jogi, która ewoluowała właśnie z Hatha. Asany jednak oraz sama praktyka przebiega już w obu odmianach inaczej. I mimo, że cel mają ten sam – ćwiczenie ciała i umysłu, to jednak osiągają go innymi drogami."
+    }
+    ],
+    "created_at": "2018-10-08T20:59:47.951Z",
+    "updated_at": "2018-10-08T20:59:47.951Z"
+    },
+    {
+    "_id": "5bbbc5f35fc13600135316b4",
+    "type": "text",
+    "styles": {
+    "float": "left",
+    "text_type": "block-t-a"
+    },
+    "content": [
+    {
+    "title": "",
+    "lead": "",
+    "text": "Ćwiczenia Vinyasa wykonywane są szybciej, w Hatha wolniej. Statyczna Hatha nie pozwala na płynne przechodzenie z asany do asany, rozwijanie jednej postawy w drugą, Vinyasa jest więc bardzo podobna do tak zwanego „Sun Salutation” Surya Namaskara. Jej niepodważalną zaletą jest też fakt, że system połączonych i szybko wykonywanych ruchów ma zdecydowanie lepszy wpływ na system krążenia, w przeciwieństwie do Hatha Jogi."
+    },
+    {
+    "title": "",
+    "lead": "",
+    "text": "Stopień trudności jest jednak wyższy w Vinyasa Jodze niż w Hatha. Dlatego ta druga jest polecana dla początkujących, ponieważ łatwiej jest w niej skupić się na prawidłowym wykonywaniu figur, co przecież dla jogi jest bardzo ważne. Technika oddychania jest również tutaj łatwiejsza. Stąd też kiedy dobrze już pozna się Hatha Jogę, można przejść do Vinyasa Jogi, żeby podnieść sobie poprzeczkę, można więc traktować Vinyasę jako zaawansowaną odmianę tradycyjnej jogi."
+    }
+    ],
+    "created_at": "2018-10-08T21:02:43.447Z",
+    "updated_at": "2018-10-08T21:02:43.447Z"
+    }
+    ],
+    "_id": "5bbbb8385fc13600135316ab",
+    "name": "types_yoga",
+    "label": "Rodzaje jogi",
+    "created_at": "2018-10-08T20:04:08.908Z",
+    "updated_at": "2018-10-08T21:02:54.209Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bbbc8005fc13600135316b6",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "",
+    "text": "W naszej ofercie znajdują się wyłącznie sprawdzone produkty:",
+    "items": [
+    "profesjonalne maty do jogi,",
+    "pokrowce,",
+    "odzież (skarpety, spodnie, bluzy, biustonosze sportowe itp.)",
+    "i inne akcesoria."
+    ]
+    },
+    "created_at": "2018-10-08T21:11:28.076Z",
+    "updated_at": "2018-10-08T21:17:52.367Z"
+    },
+    {
+    "_id": "5bbbc98f5fc13600135316b7",
+    "type": "text",
+    "styles": {
+    "float": "unset",
+    "text_align": "center",
+    "text_type": "block_box"
+    },
+    "content": [
+    {
+    "title": "Katalog produktów dostępny w recepcji.",
+    "lead": "",
+    "text": ""
+    }
+    ],
+    "created_at": "2018-10-08T21:18:07.847Z",
+    "updated_at": "2018-10-08T21:18:07.847Z"
+    },
+    {
+    "_id": "5bbbca925fc13600135316b8",
+    "type": "gallery",
+    "styles": {
+    "float": "left"
+    },
+    "content": {
+    "title": "",
+    "images": [
+    {
+    "url": "assets/images/joga/buy/1.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/joga/buy/2.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/joga/buy/3.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/joga/buy/4.jpg",
+    "title": ""
+    }
+    ]
+    },
+    "created_at": "2018-10-08T21:22:26.166Z",
+    "updated_at": "2018-10-08T21:23:15.724Z"
+    }
+    ],
+    "_id": "5bbbc73b5fc13600135316b5",
+    "name": "buy",
+    "label": "Do kupienia",
+    "created_at": "2018-10-08T21:08:11.805Z",
+    "updated_at": "2018-10-08T21:22:40.076Z"
+    },
+    {
+    "active": true,
+    "data": [],
+    "_id": "5bbbcb8f5fc13600135316b9",
+    "name": "curiosities",
+    "label": "Ciekawostki",
+    "created_at": "2018-10-08T21:26:39.088Z",
+    "updated_at": "2018-10-08T21:26:39.088Z"
     }
     ],
     "_id": "5bbb5abff9288a0013a8e97e",
@@ -788,6 +1082,6 @@
     },
     "description": "a",
     "created_at": "2018-10-08T13:25:19.896Z",
-    "updated_at": "2018-10-08T15:59:38.297Z"
+    "updated_at": "2018-10-08T21:26:48.639Z"
     }
     ]
