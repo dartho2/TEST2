@@ -1,23 +1,24 @@
-<div *ngIf="data.styles.text_type === 'block_box'">
-    <div class="col-md-12" style="margin:0 auto" *ngFor="let text of data.content">
-      <h2 [ngStyle]="{'text-align': data.styles.text_align,'background': portals.portal.style.colors.primary}" *ngIf="text.title" class="featurette-heading" style="padding-left: 1.25rem;padding-top: 0rem; font-family: OSWALD; color:white; font-weight: 600; text-align: center; clear: both;">{{text.title}}
-        <span class="text-muted">{{text.lead}} </span></h2>
-      <p class="lead" [ngStyle]="{'text-align': data.styles.text_align}">{{text.text}}</p>
-    </div>
+<div class="content-t-i" *ngIf="data.styles.text_type === 'block_box'">
+  <div class="col-md-12" style="margin:0 auto" *ngFor="let text of data.content">
+    <h2 [ngStyle]="{'text-align': data.styles.text_align,'background': portals.portal.style.colors.primary}" *ngIf="text.title"
+      class="featurette-heading" style="padding-left: 1.25rem;padding-top: 0rem; font-family: OSWALD; color:white; font-weight: 600; text-align: center; clear: both;">{{text.title}}
+      <span class="text-muted">{{text.lead}} </span></h2>
+    <p class="lead" [ngStyle]="{'text-align': data.styles.text_align}">{{text.text}}</p>
   </div>
-  
-<div *ngIf="data.styles.text_type === 'block-t-t'">
-    <div class="col-md-6" style="margin:0 auto" [ngStyle]="{'float': data.styles.float}" *ngFor="let text of data.content">
-      <h2 *ngIf="text.title" class="featurette-heading" style="padding-left: 1.25rem;padding-top: 1.25rem; font-weight: 600;">{{text.title}}
-        <span class="text-muted">{{text.lead}} </span></h2>
-      <p class="lead" [ngStyle]="{'text-align': data.styles.text_align}">{{text.text}}</p>
-    </div>
+</div>
+
+<div class="content-t-i" *ngIf="data.styles.text_type === 'block-t-t'">
+  <div class="col-md-6" style="margin:0 auto" [ngStyle]="{'float': data.styles.float}" *ngFor="let text of data.content">
+    <h2 *ngIf="text.title" class="featurette-heading" style="padding-left: 1.25rem;padding-top: 1.25rem; font-weight: 600;">{{text.title}}
+      <span class="text-muted">{{text.lead}} </span></h2>
+    <p class="lead" [ngStyle]="{'text-align': data.styles.text_align}">{{text.text}}</p>
   </div>
-  <div *ngIf="data.styles.text_type === 'block-t-a'">
-      <div class="col-md-12" style="margin:0 auto" [ngStyle]="{'float': data.styles.float}" *ngFor="let text of data.content">
-        <h2 *ngIf="text.title" class="featurette-heading" style="padding-left: 1.25rem;padding-top: 1.25rem; font-weight: 600;">{{text.title}}
-          <span class="text-muted">{{text.lead}} </span></h2>
-        <p class="lead" [ngStyle]="{'text-align': data.styles.text_align}">{{text.text}}</p>
-      </div>
-    </div>
+</div>
+<div class="content-t-i" *ngIf="data.styles.text_type === 'block-t-a'">
+  <div class="col-md-12" style="margin:0 auto" [ngStyle]="{'float': data.styles.float}" *ngFor="let text of data.content">
+    <h2 *ngIf="text.title" class="featurette-heading" style="padding-left: 1.25rem;padding-top: 1.25rem; font-weight: 600;">{{text.title}}
+      <span class="text-muted">{{text.lead}} </span></h2>
+    <p class="lead" [ngStyle]="{'text-align': data.styles.text_align}">{{text.text}}</p>
+  </div>
+</div>
 <!-- <div style="clear: both;"></div> -->
