@@ -3,10 +3,10 @@
     {{data.content.title}}</h2>
   <div *ngIf="data.content.text.length > 0">
     <p class="lead">{{data.content.text}}</p>
+  </div>
     <ul *ngIf="data.content.items.length > 0">
       <li *ngFor="let item of data.content.items">{{item}}</li>
     </ul>
-  </div>
 </div>
 
 <div class="col-md-12" *ngIf="data.styles.list_type !== 'normal'">
@@ -19,6 +19,7 @@
     <div class="center-list" *ngFor="let item of data.content.items; index as i "><i class="list-progress">
         <div class="number-list">{{i+1}}</div>
       </i>
-      <span class="list-span">{{item}}</span></div>
+      <span class="list-span">{{item}}</span>
+    </div>
   </div>
 </div>
