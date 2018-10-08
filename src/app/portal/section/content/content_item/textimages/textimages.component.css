@@ -156,3 +156,6 @@ cite {
   text-align: center;
   min-height: 226px;
 }
+.col-md-6 {
+  padding-left: 0px;
+}
