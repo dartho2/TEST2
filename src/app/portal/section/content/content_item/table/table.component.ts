@@ -20,7 +20,6 @@ export class TableComponent {
     public portals: PortalComponent) { }
   
     openDialog(nameClass) {
-      console.log(nameClass)
       const dialogRef = this.dialog.open(DialogComponent, {
         data: {data: nameClass, type_class: "text"}
     })

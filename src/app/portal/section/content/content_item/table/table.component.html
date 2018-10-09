@@ -82,7 +82,7 @@
         <tr *ngFor="let row of data.content.data; index as i">
           <td class="table-content" *ngFor="let cell of row">
             <div *ngIf="getDataType() === 'content'" class="dialog-button">
-              <button (click)="openDialog(cell.dialog)" *ngIf="cell.background_color" [ngStyle]="{'background-color': cell.background_color}" class="btn btn-light">
+              <button (click)="openDialog(cell.extra_content)" *ngIf="cell.background_color" [ngStyle]="{'background-color': cell.background_color}" class="btn btn-light">
                 <app-table-cell [data]="cell.content"></app-table-cell>
               </button>
               <app-table-cell *ngIf="!cell.background_color" [data]="cell.content"></app-table-cell>
