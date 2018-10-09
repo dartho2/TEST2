@@ -1551,12 +1551,96 @@
     },
     {
     "active": true,
-    "data": [],
+    "data": [
+    {
+    "_id": "5bbc76cb2907890013398ab4",
+    "type": "table",
+    "styles": {
+    "float": "unset",
+    "text_type": "schedule"
+    },
+    "content": {
+    "title": "Grafik",
+    "headers": [
+    "godzina",
+    "poniedziałek",
+    "wtorek",
+    "środa",
+    "czwartek",
+    "piątek"
+    ],
+    "data": [
+    [
+    {
+    "background_color": "",
+    "content": "18:30"
+    },
+    {
+    "background_color": "#eef94d",
+    "extra_content": "Coś tam",
+    "content": "Functional Flow"
+    },
+    {
+    "background_color": "#6849e0",
+    "extra_content": "Coś tam",
+    "content": "Interval"
+    },
+    {
+    "background_color": "#17bd24",
+    "extra_content": "Coś tam",
+    "content": "Pilates & Zdrowy Kręgosłup"
+    },
+    {
+    "background_color": "#de62d5",
+    "extra_content": "Coś tam",
+    "content": "Joga od podstaw"
+    },
+    {
+    "background_color": "#e65f5f",
+    "extra_content": "Coś tam",
+    "content": "Deep Work"
+    }
+    ],
+    [
+    {
+    "background_color": "",
+    "content": "19:30"
+    },
+    {
+    "background_color": "#de62d5",
+    "extra_content": "Coś tam",
+    "content": "Joga"
+    },
+    {
+    "background_color": "",
+    "content": ""
+    },
+    {
+    "background_color": "",
+    "content": ""
+    },
+    {
+    "background_color": "#5fe0e6",
+    "extra_content": "Coś tam",
+    "content": "Shape"
+    },
+    {
+    "background_color": "#de62d5",
+    "extra_content": "Coś tam",
+    "content": "Joga"
+    }
+    ]
+    ]
+    },
+    "created_at": "2018-10-09T09:37:15.766Z",
+    "updated_at": "2018-10-09T12:13:35.006Z"
+    }
+    ],
     "_id": "5bbc75122907890013398ab3",
     "name": "schedule",
     "label": "Grafik",
     "created_at": "2018-10-09T09:29:54.626Z",
-    "updated_at": "2018-10-09T09:29:54.626Z"
+    "updated_at": "2018-10-09T09:39:48.444Z"
     }
     ],
     "_id": "5bbb5abff9288a0013a8e97e",
