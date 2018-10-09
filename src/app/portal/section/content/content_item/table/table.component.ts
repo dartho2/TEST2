@@ -1,15 +1,16 @@
-import {Component, Input} from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 import {MatDialog, MatDialogRef} from '@angular/material';
 import {PortalComponent } from '../../../../portal.component';
 import {DialogComponent} from '../dialog/dialog.component';
-
+declare var jquery:any;
+declare var $ :any;
 
 @Component({
   selector: 'app-table',
   templateUrl: './table.component.html',
   styleUrls: ['./table.component.css']
 })
-export class TableComponent {
+export class TableComponent implements OnInit {
   @Input()
   data;
 
@@ -24,6 +25,7 @@ export class TableComponent {
         data: {data: nameClass, type_class: "text"}
     })
   }
+
   getDataType() {
       if (!this.data) {
         return 'none';
@@ -35,4 +37,15 @@ export class TableComponent {
         return 'string'
       } 
   }
+  ngOnInit() {
+    
+
+    $(document).ready(function () {
+      $('td.table-o-a:not(:first-child)').click(function () {
+        $(this).closest('tr').find('td.table-o-a:not(:first-child)').removeClass('selected');
+        $(this).addClass('selected');
+      });
+    })
+  }
+  
 }

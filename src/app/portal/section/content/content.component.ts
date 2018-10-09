@@ -1,4 +1,4 @@
-import { Component, Input, OnInit, OnChanges } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { PortalComponent } from '../../portal.component';
 
 @Component({
@@ -6,15 +6,11 @@ import { PortalComponent } from '../../portal.component';
   templateUrl: './content.component.html'
 })
 
-export class ContentComponent implements OnChanges {
+export class ContentComponent  {
   @Input()
   contentItems;
 
   constructor(public portals: PortalComponent) {
   }
 
-
-  ngOnChanges(){
-    
-  }
 }

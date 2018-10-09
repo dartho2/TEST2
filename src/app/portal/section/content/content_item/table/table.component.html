@@ -38,7 +38,7 @@
           <th scope="col" *ngFor="let header of data.content.headers">{{header}}</th>
         </thead>
         <tr *ngFor="let row of data.content.data; index as i">
-          <td class="table-content normal" *ngFor="let cell of row; index as c"
+          <td class="table-content normal" [ngClass]="data.styles.text_type" *ngFor="let cell of row; index as c"
             [attr.data-label]="data.content.headers[c] ? data.content.headers[c]: ''">
             <app-table-cell [data]="cell"></app-table-cell>
           </td>
