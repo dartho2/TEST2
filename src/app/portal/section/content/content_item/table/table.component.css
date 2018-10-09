@@ -1,6 +1,31 @@
 .justify-content-md-center {
     clear: both;
 }
+td {
+    color: #999;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  td:hover {
+    background-color: #ddd;
+    }
+  
+  tr {
+    border-bottom: 1px solid transparent;
+  }
+  .selectedtd {
+    color: #000;
+  }
+  .selected {
+    background: #1a581a;
+    color: white;
+
+  }
+  .active {
+    border-bottom-color: #ddd;
+  }
+  
 .content-t-body {
     margin-top:30px;
 }
