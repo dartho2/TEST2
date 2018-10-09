@@ -3,7 +3,9 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 @import "~font-awesome/css/font-awesome.css";
 @import url('https://fonts.googleapis.com/css?family=Poppins');
-
+app-table-cell {
+  text-align: center;
+}
 main {
   background-color: #f3f3f3;
 }
@@ -11,6 +13,8 @@ main {
 li.ng-star-inserted {
   font-size: 17px;
 }
+
+
 
 .col-md-12,
 .col-lg-12 {

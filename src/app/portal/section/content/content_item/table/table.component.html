@@ -56,11 +56,12 @@
         <thead class="thead-dark" *ngIf="data.content.title">
           <th scope="col" colspan="100%">{{data.content.title}}</th>
         </thead>
+        <caption id="">{{data.content.title}}</caption>
         <thead class="thead-dark" *ngIf="data.content.headers">
           <th scope="col" *ngFor="let header of data.content.headers">{{header}}</th>
         </thead>
         <tr *ngFor="let row of data.content.data; index as i">
-          <td class="table-content" *ngFor="let cell of row">
+          <td [attr.data-label]="data.content.headers[a] ? data.content.headers[a]: ''" class="table-content" *ngFor="let cell of row; index as a">
             <app-table-cell [data]="cell"></app-table-cell>
           </td>
         </tr>
@@ -76,11 +77,12 @@
         <thead class="thead-dark" *ngIf="data.content.title">
           <th scope="col" colspan="100%">{{data.content.title}}</th>
         </thead>
+        <caption id="">{{data.content.title}}</caption>
         <thead class="thead-dark" *ngIf="data.content.headers">
           <th scope="col" *ngFor="let header of data.content.headers">{{header}}</th>
         </thead>
         <tr *ngFor="let row of data.content.data; index as i">
-          <td class="table-content" *ngFor="let cell of row">
+          <td [attr.data-label]="data.content.headers[a] ? data.content.headers[a]: a" class="table-content" *ngFor="let cell of row; index as a">
             <div *ngIf="getDataType() === 'content'" class="dialog-button">
               <button (click)="openDialog(cell.extra_content)" *ngIf="cell.background_color" [ngStyle]="{'background-color': cell.background_color}" class="btn btn-light">
                 <app-table-cell [data]="cell.content"></app-table-cell>
