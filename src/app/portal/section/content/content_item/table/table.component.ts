@@ -20,9 +20,9 @@ export class TableComponent {
     public portals: PortalComponent) { }
   
     openDialog(nameClass) {
-      let types = this.portals.portal.sections.filter(sections => sections.name === this.data.class_shared)
+      console.log(nameClass)
       const dialogRef = this.dialog.open(DialogComponent, {
-        data: {data: types, type_class: nameClass}
+        data: {data: nameClass, type_class: "text"}
     })
   }
   getDataType() {

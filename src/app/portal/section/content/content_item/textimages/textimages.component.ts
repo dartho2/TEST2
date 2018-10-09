@@ -17,7 +17,7 @@ export class TextimagesComponent {
   openDialog(data) {
 console.log(data)
     const dialogRef = this.dialog.open(DialogComponent, {
-      data: {data: data}
+      data: {data: data, type_class: "image"}
   })
 }
 }

@@ -1,9 +1,9 @@
 <h2 mat-dialog-title> </h2>
 <mat-dialog-content class="mat-typography">
-  <img *ngIf="data.data.content.image" class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
+  <img *ngIf="data.type_class === 'image'" class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
     src="{{data.data.content.image}}" data-holder-rendered="true">
+    <p *ngIf="data.type_class === 'text'" >{{data.data}}</p>
 </mat-dialog-content>
-
 <mat-dialog-content class="mat-typography">
 
 </mat-dialog-content>
