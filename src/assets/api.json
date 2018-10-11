@@ -1055,13 +1055,13 @@
       }
     ]
   },
-  {
-    "name": "joga",
-    "image": "assets/logo/studio_yogi_logo.png",
-    "images_top": [
-      "assets/images/joga/slider1.png",
-      "assets/images/3.jpg"
-    ],
+    {
+      "name": "joga",
+      "image": "assets/logo/studio_yogi_logo.png",
+      "images_top": [
+        "assets/images/joga/slider1.png",
+        "assets/images/3.jpg"
+      ],
     "label": "Studio jogi",
     "style": {
       "colors": {

@@ -4,9 +4,9 @@
   <div *ngIf="data.content.text.length > 0">
     <p class="lead">{{data.content.text}}</p>
   </div>
-    <ul *ngIf="data.content.items.length > 0">
-      <li *ngFor="let item of data.content.items">{{item}}</li>
-    </ul>
+  <ul *ngIf="data.content.items.length > 0">
+    <li *ngFor="let item of data.content.items">{{item}}</li>
+  </ul>
 </div>
 
 <div class="col-md-12" *ngIf="data.styles.list_type !== 'normal'">

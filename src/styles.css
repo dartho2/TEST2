@@ -13,8 +13,20 @@ main {
 li.ng-star-inserted {
   font-size: 17px;
 }
-
-
+@media screen and (max-width: 768px) {
+.result-test {
+  width: 100%;
+}
+}
+.result-test {
+  color: #fff;
+  background: #1a581a;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 5px 10px;
+  text-align: center;
+  cursor: pointer;
+}
 
 .col-md-12,
 .col-lg-12 {
@@ -619,6 +631,7 @@ table th {
     max-width: none;
   }
 }
+
 
 .cdk-global-overlay-wrapper {
   display: flex;

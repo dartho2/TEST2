@@ -19,7 +19,11 @@ td {
   }
   .selected {
     background: #1a581a;
+    border: 1px solid black;
     color: white;
+  }
+  td.selected:hover {
+    background: #356935;
 
   }
   .active {

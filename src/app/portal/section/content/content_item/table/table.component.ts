@@ -41,12 +41,44 @@ export class TableComponent implements OnInit {
 
 
     $(document).ready(function () {
+       
       $('td.table-o-a:not(:first-child)').click(function () {
         $(this).closest('tr').find('td.table-o-a:not(:first-child)').removeClass('selected');
-        $(this).closest('tr').find('td.table-o-a:not(:first-child)').removeAttr('data-value', 1);
+        $(this).closest('tr').find('td.table-o-a:not(:first-child)').removeAttr('value_test', 1).attr('value_test', 0);
         $(this).addClass('selected');
-        $(this).attr('data-value_test', 1)
+        $(this).attr('value_test', 1)
       });
+      
+      function update_counts() {
+        var result = [];
+        var thead = [];
+       
+        $('table tr').each(function () {
+          $('td.table-o-a:not(:first-child)', this).each(function (index, val) {
+            if (!result[index]) result[index] = 0;
+            result[index] += parseInt($(this).attr("value_test"));
+          });
+        });
+      
+          $('thead[id="table-o-a"]').each(function () {
+            $('th', this).each(function (index, val) {
+            thead[index] = $(this).html()
+            });
+          });
+  
+        $(result, thead).each(function () {
+        $('table tr').last().html('<td data-label='+ thead[0] +' class="result-test">Wynik</td>')
+        .append($('<td data-label='+ thead[1]+ ' class="result-test">').append(result[0]))
+        .append($('<td data-label='+ thead[2]+ ' class="result-test">').append(result[1]))
+        .append($('<td data-label='+ thead[3]+ ' class="result-test">').append(result[2]))
+        });
+  
+      }
+
+      $('td.table-o-a:not(:first-child)').click(function () {  
+        update_counts();
+      });
+      
     })
   }
 
