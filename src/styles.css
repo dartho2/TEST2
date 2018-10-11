@@ -4,7 +4,28 @@
 @import "~font-awesome/css/font-awesome.css";
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 app-table-cell {
-  text-align: center;
+    text-align: center;
+    color: #232323;
+    display: -ms-flexbox;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    font-size: 3;
+    line-height: 16px;
+    line-height: 1.6rem;
+
+}
+.table thead th {
+  line-height: 1.8rem;
+  background-color: #9a9999;
+  padding: 2px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: robotlight, sans-serif;
+  border: 1px solid white;
 }
 main {
   background-color: #f3f3f3;
