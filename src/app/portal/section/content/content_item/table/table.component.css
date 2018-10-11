@@ -1,251 +1,306 @@
 .justify-content-md-center {
-    clear: both;
+  clear: both;
 }
-td {
-    color: #999;
-    padding: 5px 10px;
-    cursor: pointer;
-  }
-  
-  td:hover {
-    background-color: #ddd;
-    }
-  
-  tr {
-    border-bottom: 1px solid transparent;
-  }
-  .selectedtd {
-    color: #000;
-  }
-  .selected {
-    background: #1a581a;
-    border: 1px solid black;
-    color: white;
-  }
-  td.selected:hover {
-    background: #356935;
 
-  }
-  td.table-o-a {
-    color: #000;
-    padding: 5px 10px;
-    border: 1px solid black;
-    cursor: pointer;
-  }
-  td.table-o-a:first-child {
-    background: #505050;
-    color: white;
-  }
-  td.table-content {
-    vertical-align: middle;
-  }
-  th.table-o-a {
-        color: #fff;
-        background-color: #505050;
-        padding: 2px;
-        font-size: 21px;
-        font-family: robotlight;
-        border:1px solid white;
-       
-  }
- 
-  .active {
-    border-bottom-color: #ddd;
-  }
-  
-.content-t-body {
-    margin-top:30px;
+td {
+  color: #999;
+  padding: 5px 10px;
+  cursor: pointer;
 }
+
+td:hover {
+  background-color: #ddd;
+}
+
+tr {
+  border-bottom: 1px solid transparent;
+}
+
+.selectedtd {
+  color: #000;
+}
+
+.selected {
+  background: #1a581a;
+  border: 1px solid black;
+  color: white;
+}
+
+td.selected:hover {
+  background: #356935;
+
+}
+
+td.table-o-a {
+  color: #000;
+  /* padding: 5px 10px; */
+  /* font-size: 12px; */
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  /* font-size: 1.4rem; */
+  line-height: 16px;
+  line-height: 1.6rem;
+  padding: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+td.table-o-a:first-child {
+  background: #505050;
+  color: white;
+}
+
 td.table-content {
-    text-align: center;
-}   
-@media screen and (max-width: 768px){
+  vertical-align: middle;
+}
+
+th.table-o-a {
+  color: #fff;
+  background-color: #505050;
+  padding: 2px;
+  font-size: 13px;
+  font-weight: 100;
+  font-family: robotlight, sans-serif;
+  border:1px solid white;
+
+
+}
+
+.active {
+  border-bottom-color: #ddd;
+}
+
+.content-t-body {
+  margin-top: 30px;
+}
+
+td.table-content {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
   table td::before {
-      font-weight: bold;
-      text-align: center;
-      display: contents;
+    font-weight: bold;
+    text-align: center;
+    display: contents;
     max-width: none;
-      /* margin: auto; */
-      /* clear: both; */
-      text-transform: uppercase;
+    /* margin: auto; */
+    /* clear: both; */
+    text-transform: uppercase;
   }
+
   .first-dialog {
     font-size: 16px;
-}
-td.normal {
-}
+  }
+
+  td.normal {}
+
   td.schedule[_ngcontent-c5] {
     /* padding: 5px; */
     text-align: center;
     padding: none;
     max-width: none;
-}
+  }
+
   td.schedule {
     /* padding: 5px; */
-    
+
     display: initial;
     text-align: center;
     padding: none;
     max-width: none;
-}
-td{
+  }
+
+  td {
     /* padding: 5px; */
     text-align: center;
     width: 100%;
-}
   }
-  td.schedule {
-    /* padding: 5px;
+}
+
+td.schedule {
+  /* padding: 5px;
     text-align: left;
     padding: 16px;
     max-width: 200px; */
-    padding: 5px;
-    text-align: left;
-    /* padding: 16px; */
-    max-width: 140px;
-    height: 100px;
-    /* position: relative; */
-    /* max-height: 209px; */
-}
-th {
-    text-align: center;
-}
-.cdk-overlay-container {
-    position: fixed;
-    bottom: 0px;
-    top: 0px;
-    margin: 0 auto;
-}
-.btn {
-    white-space: normal;
+  padding: 5px;
+  text-align: left;
+  /* padding: 16px; */
+  max-width: 140px;
+  height: 100px;
+  /* position: relative; */
+  /* max-height: 209px; */
 }
 
-.dialog-button{
-    height: 100%;
-    /* display: block; */
+th {
+  text-align: center;
 }
+
+.cdk-overlay-container {
+  position: fixed;
+  bottom: 0px;
+  top: 0px;
+  margin: 0 auto;
+}
+
+.btn {
+  white-space: normal;
+}
+
 .dialog-button {
-    height: 100%;
-    /* display: block; */
+  height: 100%;
+  /* display: block; */
 }
+
+.dialog-button {
+  height: 100%;
+  /* display: block; */
+}
+
 button.btn.btn-light {
-    height: 100%;
-    width: 100%;
-    font-weight: 600;
+  height: 100%;
+  width: 100%;
+  font-weight: 600;
 }
+
 caption {
-    display: none;
+  display: none;
+}
+
+@media screen and (max-width: 37em),
+print and (max-width: 5in) {
+
+  table,
+  tr,
+  td {
+    display: block;
   }
-@media screen and (max-width: 37em), print and (max-width: 5in) {
-    table,
-    tr,
-    td {
-      display: block;
-    }
-    
-    tr:nth-child(even) {
-        background-color: white;
-    }
-    tbody {
-        display: block;
-    }
-    tr {
-      padding: 0.7em 2vw;
-    }
-    th,
-    tr:first-of-type {
-      /* display: none; */
-    }
-    tr:nth-child(even)
-    td::before {
-      display: inline;
-      font-weight: bold;
-    }
-    td {
-      display: grid;
-      grid-template-columns: 4em auto;
-      grid-gap: 1em 0.5em;
-    }
-    caption {
-      font-style: normal;
-      background-color: rgba(0, 0, 0, 0.35);
-      color: #fff;
-      display:block;
-      text-align: center;
-      font-weight: bold;
-    }
-    td:nth-of-type(3) {
-      text-align: left;
-    }
-    td:nth-of-type(4), td:nth-of-type(5) {
-      text-align: right;
-      /* width: 12em; */
-    }
-    td:nth-of-type(4)::before, td:nth-of-type(5)::before {
-      text-align: left;
-    }
-    td:nth-of-type(2)::before {
-      font-style: normal;
-    }
+
+  tr:nth-child(even) {
+    background-color: white;
   }
-  
-  @media print {
-    
-    body {
-      font-size: 6pt;
-      color: #000;
-      background-color: #fff;
-      background-image: none;
-    }
-    tr:nth-child(even) {
-        background-color: white;
-    }
-    tbody {
-        display: block;
-        /* text-align: center; */
-    }
-    body,
-    main {
-      margin: 0;
-      padding: 0;
-      background-color: #fff;
-      border: none;
-    }
-    table {
-      page-break-inside: avoid;
-    }
-    div {
-      overflow: visible;
-    }
-    th {
-      color: #000;
-      background-color: #fff;
-      border-bottom: 1pt solid #000;
-    }
-    tr {
-      border-top: 1pt solid #000;
-    }
-    
+
+  tbody {
+    display: block;
   }
-  
-  @media print and (max-width: 5in) {
-    caption {
-        display: block !important;
-        font-style: normal;
-        background-color: rgba(0, 0, 0, 0.62);
-        color: #fff;
-        width: 100%;
-        text-align: center;
-        font-weight: bold;
-    }
-    tbody {
-        display: block;
-        /* text-align: center; */
-    }
-    table {
-      page-break-inside: auto;
-    }
-    tr {
-      page-break-inside: avoid;
-    }
+
+  tr {
+    padding: 0.7em 2vw;
   }
+
+  th,
+  tr:first-of-type {
+    /* display: none; */
+  }
+
+  tr:nth-child(even) td::before {
+    display: inline;
+    font-weight: bold;
+  }
+
+  td {
+    display: grid;
+    grid-template-columns: 4em auto;
+    grid-gap: 1em 0.5em;
+  }
+
+  caption {
+    font-style: normal;
+    background-color: rgba(0, 0, 0, 0.35);
+    color: #fff;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  td:nth-of-type(3) {
+    text-align: left;
+  }
+
+  td:nth-of-type(4),
+  td:nth-of-type(5) {
+    text-align: right;
+    /* width: 12em; */
+  }
+
+  td:nth-of-type(4)::before,
+  td:nth-of-type(5)::before {
+    text-align: left;
+  }
+
+  td:nth-of-type(2)::before {
+    font-style: normal;
+  }
+}
+
+@media print {
+
+  body {
+    font-size: 6pt;
+    color: #000;
+    background-color: #fff;
+    background-image: none;
+  }
+
+  tr:nth-child(even) {
+    background-color: white;
+  }
+
+  tbody {
+    display: block;
+    /* text-align: center; */
+  }
+
+  body,
+  main {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    border: none;
+  }
+
+  table {
+    page-break-inside: avoid;
+  }
+
+  div {
+    overflow: visible;
+  }
+
+  th {
+    color: #000;
+    background-color: #fff;
+    border-bottom: 1pt solid #000;
+  }
+
+  tr {
+    border-top: 1pt solid #000;
+  }
+
+}
+
+@media print and (max-width: 5in) {
+  caption {
+    display: block !important;
+    font-style: normal;
+    background-color: rgba(0, 0, 0, 0.62);
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  tbody {
+    display: block;
+    /* text-align: center; */
+  }
+
+  table {
+    page-break-inside: auto;
+  }
+
+  tr {
+    page-break-inside: avoid;
+  }
+}
