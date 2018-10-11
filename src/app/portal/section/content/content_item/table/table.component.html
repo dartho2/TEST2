@@ -54,11 +54,11 @@
   <div style="width:100%" class="col-md-auto">
     <div *ngIf="data">
       <table class="table">
-        <thead class="thead-dark" *ngIf="data.content.title">
+        <thead class="" *ngIf="data.content.title">
           <th scope="col" colspan="100%">{{data.content.title}}</th>
         </thead>
         <caption id="">{{data.content.title}}</caption>
-        <thead class="thead-dark" *ngIf="data.content.headers">
+        <thead class="" *ngIf="data.content.headers">
           <th scope="col" *ngFor="let header of data.content.headers">{{header}}</th>
         </thead>
         <tr *ngFor="let row of data.content.data; index as i">
@@ -75,11 +75,11 @@
   <div style="width:100%" class="col-md-auto">
     <div *ngIf="data">
       <table class="table">
-        <thead class="thead-dark" *ngIf="data.content.title">
+        <thead class="" *ngIf="data.content.title">
           <th scope="col" colspan="100%">{{data.content.title}}</th>
         </thead>
         <caption id="">{{data.content.title}}</caption>
-        <thead class="thead-dark" *ngIf="data.content.headers">
+        <thead class="" *ngIf="data.content.headers">
           <th scope="col" *ngFor="let header of data.content.headers">{{header}}</th>
         </thead>
         <tr *ngFor="let row of data.content.data; index as i">

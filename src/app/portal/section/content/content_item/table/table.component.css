@@ -41,13 +41,22 @@ td {
   }
   th.table-o-a {
         color: #fff;
-        background-color: #1a581a;
+        background-color: #505050;
         padding: 2px;
         font-size: 21px;
         font-family: OSWALD;
         border:1px solid white;
        
   }
+  th {
+    color: #fff;
+    background-color: #505050;
+    padding: 2px;
+    font-size: 21px;
+    font-family: OSWALD;
+    border:1px solid white;
+   
+}
   .active {
     border-bottom-color: #ddd;
   }

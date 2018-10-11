@@ -30,6 +30,15 @@ li.ng-star-inserted {
 td.selected {
   color:white !important;
 }
+th {
+  color: #fff;
+  background-color: #505050;
+  padding: 2px;
+  font-size: 21px;
+  font-family: OSWALD;
+  border:1px solid white;
+ 
+}
 .col-md-12,
 .col-lg-12 {
   /* padding-left: 0px;
@@ -592,7 +601,7 @@ table th {
   }
 
   table td:last-child {
-    border-bottom: 0;
+    /* border-bottom: 0; */
   }
 }
 
