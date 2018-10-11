@@ -32,10 +32,10 @@
     <div *ngIf="data">
       <table class="table" >
         <thead class="thead-dark" *ngIf="data.content.title">
-          <th scope="col" colspan="100%">{{data.content.title}}</th>
+          <th scope="col" [ngClass]="data.styles.text_type" colspan="100%">{{data.content.title}}</th>
         </thead>
         <thead class="thead-dark" [id]="data.styles.text_type" *ngIf="data.content.headers">
-          <th scope="col" *ngFor="let header of data.content.headers">{{header}}</th>
+          <th scope="col" [ngClass]="data.styles.text_type" *ngFor="let header of data.content.headers">{{header}}</th>
         </thead>
         <tr *ngFor="let row of data.content.data; index as i">
           <td class="table-content normal" [ngClass]="data.styles.text_type+' '+c" value_test='0' *ngFor="let cell of row; index as c"

@@ -27,7 +27,9 @@ li.ng-star-inserted {
   text-align: center;
   cursor: pointer;
 }
-
+td.selected {
+  color:white !important;
+}
 .col-md-12,
 .col-lg-12 {
   /* padding-left: 0px;

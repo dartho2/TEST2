@@ -26,6 +26,28 @@ td {
     background: #356935;
 
   }
+  td.table-o-a {
+    color: #000;
+    padding: 5px 10px;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  td.table-o-a:first-child {
+    background: #7e9c7e;
+    color: white;
+  }
+  td.table-content {
+    vertical-align: middle;
+  }
+  th.table-o-a {
+        color: #fff;
+        background-color: #1a581a;
+        padding: 2px;
+        font-size: 21px;
+        font-family: OSWALD;
+        border:1px solid white;
+       
+  }
   .active {
     border-bottom-color: #ddd;
   }
