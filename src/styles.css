@@ -27,6 +27,9 @@ app-table-cell {
   font-family: robotlight, sans-serif;
   border: 1px solid white;
 }
+.block-o-t {
+  text-align: justify;
+}
 main {
   background-color: #f3f3f3;
 }
