@@ -28,10 +28,10 @@
 }
 
 .stepper.center-list {
-  display: flex;
+  display: block;
   align-items: center;
-  padding: 13px;
-  max-height: 24px;
+  /* padding: 13px; */
+  /* max-height: 24px; */
 }
 
 .stepper.list-span {
@@ -39,10 +39,10 @@
 }
 
 .center-list {
-  display: flex;
+  display: block;
   align-items: center;
-  padding: 13px;
-  max-height: 24px;
+  /* padding: 13px; */
+  /* max-height: 24px; */
 }
 
 .list-progress {
