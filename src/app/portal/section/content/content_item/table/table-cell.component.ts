@@ -24,4 +24,16 @@ export class TableCellComponent {
         data: {data: types, type_class: nameClass}
     })
   }
+  getDataType() {
+    console.log(this.data)
+    if (!this.data) {
+      return 'none';
+    } else if (Array.isArray(this.data)) {
+      return 'array'
+    } else if (this.data.content) {
+      return 'content'
+    } else {
+      return 'string'
+    }
+  }
 }

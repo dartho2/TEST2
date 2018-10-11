@@ -21,4 +21,9 @@
     <p class="lead" [ngStyle]="{'text-align': data.styles.text_align}">{{text.text}}</p>
   </div>
 </div>
+<div class="content-t-i" *ngIf="data.styles.text_type === 'block_q'">
+    <div class="col-md-12" style="margin:0 auto" [ngStyle]="{'float': data.styles.float}" *ngFor="let text of data.content">
+      <p class="lead" style="font-size: 13px; font-weight: 900;" [ngStyle]="{'text-align': data.styles.text_align}">{{text.quotation}}</p>
+    </div>
+  </div>
 <!-- <div style="clear: both;"></div> -->
