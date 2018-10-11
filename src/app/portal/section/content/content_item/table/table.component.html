@@ -37,10 +37,10 @@
         <thead class="thead-dark" [id]="data.styles.text_type" *ngIf="data.content.headers">
           <th scope="col" [ngClass]="data.styles.text_type" *ngFor="let header of data.content.headers">{{header}}</th>
         </thead>
-        <tr *ngFor="let row of data.content.data; index as i">
+        <tr [ngClass]="data.styles.text_type" *ngFor="let row of data.content.data; index as i">
           <td class="table-content normal" [ngClass]="data.styles.text_type+' '+c" value_test='0' *ngFor="let cell of row; index as c"
-            [attr.data-label]="data.content.headers[c] ? data.content.headers[c]: ''">
-            <app-table-cell [data]="cell"></app-table-cell>
+            [attr.data-label]="data.content.headers[c] ? data.content.headers[c]: ''"><div class ="cell-test">
+            <app-table-cell [data]="cell"></app-table-cell></div>
           </td>
         </tr>
       </table>
