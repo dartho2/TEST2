@@ -105,11 +105,19 @@ p.fit-p-on-image {
   font-weight: 300;
 }
 .fit-p-on-title {
-  color: black;
+  /* color: black;
+ 
+    color: #000;
+    background: #e10886; */
+    padding: 6px;
+    text-align: center;
+    color: white;
+
 }
 .block_box {
   /* color: white; */
   color:black;
+  
 }
 .block_box:nth-child(1n+1).image-box-t {
   /* background:#2c702c; */

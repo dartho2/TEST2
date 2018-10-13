@@ -22,6 +22,7 @@ export class HeaderComponent implements OnInit {
           $(".navbar-collapse").collapse('hide');
       });
     })
+    
   }
 
 }

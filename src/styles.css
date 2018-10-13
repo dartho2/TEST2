@@ -260,14 +260,13 @@ div#cdk-overlay-0 {
 }
 h1.fit-content-header-label {
   position: absolute;
-  margin-top: -28px;
-  font-size: 29px;
-  color: white;
-  /* background: #0a6996; */
+  margin-top: -16px;
+  font-size: 28px;
+  color: #fff;
   font-family: OSWALD;
   min-width: 200px;
   text-align: center;
-  padding: 10px;
+  padding: 3px;
 }
 .row.content-header {
   margin-top: 42px;

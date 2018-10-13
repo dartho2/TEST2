@@ -41,7 +41,6 @@ export class TableComponent implements OnInit {
 
 
     $(document).ready(function () {
-       
       $('td.table-o-a:not(:first-child)').click(function () {
         $(this).closest('tr').find('td.table-o-a:not(:first-child)').removeClass('selected');
         $(this).closest('tr').find('td.table-o-a:not(:first-child)').removeAttr('value_test', 1).attr('value_test', 0);

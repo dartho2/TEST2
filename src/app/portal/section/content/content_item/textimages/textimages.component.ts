@@ -1,6 +1,7 @@
 import {Component, Input} from '@angular/core';
 import { DialogComponent } from '../dialog/dialog.component';
 import { MatDialogRef, MatDialog } from '@angular/material';
+import { PortalComponent } from '../../../../portal.component';
 
 @Component({
   selector: 'app-textimages',
@@ -8,7 +9,9 @@ import { MatDialogRef, MatDialog } from '@angular/material';
   styleUrls: ['./textimages.component.css']
 })
 export class TextimagesComponent {
-  constructor(public dialog: MatDialog) { }
+  constructor(public dialog: MatDialog,
+    public portals: PortalComponent) { }
+  
   
   @Input()
   data;
