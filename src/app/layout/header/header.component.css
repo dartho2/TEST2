@@ -447,7 +447,7 @@ body {
     margin-bottom: -50px;
   } 
   .row.content-header {
-    margin-top: 50px;
+    margin-top: 28px;
 }
   @media screen and (max-width: 767px) {
     .fixed-top {

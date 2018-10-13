@@ -260,15 +260,20 @@ div#cdk-overlay-0 {
 }
 h1.fit-content-header-label {
   position: absolute;
-  margin-top: -50px;
-  font-size: 34px;
+  margin-top: -28px;
+  font-size: 29px;
   color: white;
   /* background: #0a6996; */
   font-family: OSWALD;
+  min-width: 200px;
+  text-align: center;
   padding: 10px;
 }
 .row.content-header {
-  margin-top: 50px;
+  margin-top: 42px;
+  /* z-index: 2; */
+  position: relative;
+  height: 10px;
 }
 .featurette-image {
   width: 100%;
@@ -348,16 +353,10 @@ h2 {
 
 }
 
-/* .carousel-control-prev-icon,
+.carousel-control-prev-icon,
 .carousel-control-next-icon {
-  height: 100px;
-  width: 100px;
-  outline: black;
-  background-size: 100%, 100%;
-  border-radius: 50%;
-  border: 1px solid black;
-  background-image: none;
-} */
+  position: relative;
+}
 
 #news .news-box .news-info {
   float: left !important;

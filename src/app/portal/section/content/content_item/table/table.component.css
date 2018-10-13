@@ -2,14 +2,7 @@
   clear: both;
 }
 
-tr:hover {
-  background-color: #fff !important;
-  box-shadow: 0 5px 38px rgba(0, 0, 0, 0.86);
-  outline: 8px solid #fff;
-  position: relative;
-  border-style: hidden;
-  z-index: 1;
-}
+
 .table thead th {
   line-height: 1.8rem;
   /* color: #fff; */
@@ -142,8 +135,8 @@ td.table-content {
 
   td.schedule {
     /* padding: 5px; */
-
-    display: initial;
+ 
+    /* display: initial; */
     text-align: center;
     padding: none;
     max-width: none;
@@ -155,17 +148,21 @@ td.table-content {
     width: 100%;
   }
 }
+td.table-content.price-l {
+  border: 1px solid #e0dcdc;
 
+}
 td.schedule {
   /* padding: 5px;
     text-align: left;
     padding: 16px;
     max-width: 200px; */
   padding: 5px;
-  text-align: left;
+  border: 1px solid #e0dcdc;
+  /* text-align: left; */
   /* padding: 16px; */
-  max-width: 140px;
-  height: 100px;
+  /* max-width: 140px; */
+  /* height: 100px; */
   /* position: relative; */
   /* max-height: 209px; */
 }
@@ -224,7 +221,7 @@ print and (max-width: 5in) {
 
 
   tr {
-    padding: 0.7em 2vw;
+    /* padding: 0.7em 2vw; */
   }
  
   th,

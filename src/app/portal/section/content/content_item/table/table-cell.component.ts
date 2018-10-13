@@ -19,13 +19,11 @@ export class TableCellComponent {
     public portals: PortalComponent) { }
   
     openDialog(nameClass) {
-      let types = this.portals.portal.sections.filter(sections => sections.name === this.data.class_shared)
       const dialogRef = this.dialog.open(DialogComponent, {
-        data: {data: types, type_class: nameClass}
-    })
-  }
+        data: { data: nameClass, type_class: "text" }
+      })
+    }
   getDataType() {
-    console.log(this.data)
     if (!this.data) {
       return 'none';
     } else if (Array.isArray(this.data)) {

@@ -1,5 +1,7 @@
-import {Component, Input, OnInit} from '@angular/core';
-import {PortalComponent} from '../../portal/portal.component';
+import { Component, Input, OnInit } from '@angular/core';
+import { PortalComponent } from '../../portal/portal.component';
+declare var jquery: any;
+declare var $: any;
 
 @Component({
   selector: 'app-header',
@@ -11,8 +13,15 @@ export class HeaderComponent implements OnInit {
   portal;
   hover;
   service = this.portals;
-  constructor(public portals: PortalComponent) {}
+  constructor(public portals: PortalComponent) { }
 
   ngOnInit() {
+    $(document).ready(function () {
+      $(".navbar-nav li a").click(function (event) {
+        if (!$(this).parent().hasClass('dropdown'))
+          $(".navbar-collapse").collapse('hide');
+      });
+    })
   }
+
 }

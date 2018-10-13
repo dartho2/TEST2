@@ -1,3 +1,16 @@
-{{data}}
-<!-- {{data|json}} -->
+<div *ngIf="getDataType() ==='array'">
+  <div *ngFor="let item of data">{{item}}</div>
+</div>
+<div *ngIf="getDataType() ==='content'">
+  <button (click)="openDialog(data.extra_content)" *ngIf="data.background_color" [ngStyle]="{'background-color': data.background_color, 'width':'100%'}"
+    class="btn btn-light">
+    {{data.content}}
+  </button>
+  <div *ngIf="!data.background_color">
+    {{data.content}}
+  </div>
 
+</div>
+<div *ngIf="getDataType() ==='string'">
+  {{data}}
+</div>

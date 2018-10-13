@@ -1,98 +1,21 @@
-<!-- <div class="row justify-content-md-center">
-  <div style="width:100%" class="col-md-auto">
-    <div *ngIf="data">
-    <table class="table" id="{{data.id}}">
-      <thead class="thead-dark">
-        <th scope="col" *ngFor="let thead of data.content.thead" [attr.colspan]="thead.style.colspan">{{thead.title}}</th>
-      </thead>
-      <tr *ngFor="let tables of data.content.columns; index as i">
-        <td class="table-content" [class]="data.class" *ngFor="let table of data.content.columns[i]; index as c"
-          [attr.data-label]="table[0].title ? data.content.thead[c] ? data.content.thead[c].title : '' : ''">
-          <div class="dialog-button" *ngIf="table[0].dialog > 0"> <button [ngStyle]="{'background-color': table[0].color}"
-              class="btn btn-light" 
-              (click)="openDialog(table[0].title)">
-              <div class="dialog-button" *ngIf="table[0].dialog > 0"> <button [ngStyle]="{'background-color': table[0].color}"
-                class="btn btn-light" 
-              >
-              {{table[0].title}}</button></div>
-          <div class="first-dialog" *ngIf="table[0].dialog == 0">{{table[0].title}} </div>
-          <span *ngIf="table[1].subtitle"><br>{{table[1].subtitle}}</span>
-          <ul *ngIf="table[1].list">
-            <li *ngFor="let item of table[1].list">{{item}}</li>
-          </ul>
-        </td>
-      </tr>
-    </table>
-  </div>
-  </div>
-</div> -->
-
-<div class="content-t-body justify-content-md-center" *ngIf="data.styles.text_type === 'table-o-a'">
-  <div style="width:100%" class="col-md-auto">
-    <div *ngIf="data">
-      <table class="table" >
-        <thead class="" *ngIf="data.content.title">
-          <th scope="col" [ngClass]="data.styles.text_type" colspan="100%">{{data.content.title}}</th>
-        </thead>
-        <thead class="" [id]="data.styles.text_type" *ngIf="data.content.headers">
-          <th scope="col" [ngClass]="data.styles.text_type" *ngFor="let header of data.content.headers">{{header}}</th>
-        </thead>
-        <tr [ngClass]="data.styles.text_type" *ngFor="let row of data.content.data; index as i">
-          <td class="table-content normal" [ngClass]="data.styles.text_type+' '+c" value_test='0' *ngFor="let cell of row; index as c"
-            [attr.data-label]="data.content.headers[c] ? data.content.headers[c]: ''"><div class ="cell-test">
-            <app-table-cell [data]="cell"></app-table-cell></div>
-          </td>
-        </tr>
-      </table>
-    </div>
-  </div>
-<span id="sum"></span>
-</div>
-
-
-<div class="content-t-body justify-content-md-center" *ngIf="data.styles.text_type === 'price-l'">
+<div class="content-t-body justify-content-md-center" *ngIf="(data.styles.text_type === 'price-l') || data.styles.text_type === 'schedule' || data.styles.text_type === 'table-o-a' || data.styles.text_type === 'price-l-n'">
   <div style="width:100%" class="col-md-auto">
     <div *ngIf="data">
       <table class="table">
-        <thead class="" *ngIf="data.content.title">
+        <thead class="data.styles.text_type" *ngIf="data.content.title">
           <th scope="col" colspan="100%">{{data.content.title}}</th>
         </thead>
         <caption id="">{{data.content.title}}</caption>
         <thead class="" *ngIf="data.content.headers">
           <th scope="col" *ngFor="let header of data.content.headers">{{header}}</th>
         </thead>
-        <tr *ngFor="let row of data.content.data; index as i">
-          <td [attr.data-label]="data.content.headers[a] ? data.content.headers[a]: ''" class="table-content" *ngFor="let cell of row; index as a">
+        <tr [ngClass]="data.styles.text_type" *ngFor="let row of data.content.data; index as i">
+          <td [attr.data-label]="data.content.headers[a] ? data.content.headers[a]: ''" class="table-content" value_test='0' [ngClass]="data.styles.text_type" *ngFor="let cell of row; index as a">
             <app-table-cell [data]="cell"></app-table-cell>
           </td>
         </tr>
       </table>
     </div>
   </div>
-</div>
-
-<div class="content-t-body justify-content-md-center" *ngIf="data.styles.text_type === 'schedule'">
-  <div style="width:100%" class="col-md-auto">
-    <div *ngIf="data">
-      <table class="table">
-        <thead class="" *ngIf="data.content.title">
-          <th scope="col" colspan="100%">{{data.content.title}}</th>
-        </thead>
-        <caption id="">{{data.content.title}}</caption>
-        <thead class="" *ngIf="data.content.headers">
-          <th scope="col" *ngFor="let header of data.content.headers">{{header}}</th>
-        </thead>
-        <tr *ngFor="let row of data.content.data; index as i">
-          <td [attr.data-label]="data.content.headers[a] ? data.content.headers[a]: a" class="table-content" *ngFor="let cell of row; index as a">
-            <div *ngIf="getDataType() === 'content'" class="dialog-button">
-              <button (click)="openDialog(cell.extra_content)" *ngIf="cell.background_color" [ngStyle]="{'background-color': cell.background_color}" class="btn btn-light">
-                <app-table-cell [data]="cell.content"></app-table-cell>
-              </button>
-              <app-table-cell *ngIf="!cell.background_color" [data]="cell.content"></app-table-cell>
-            </div>
-          </td>
-        </tr>
-      </table>
-    </div>
-  </div>
+  <span id="sum"></span>
 </div>
