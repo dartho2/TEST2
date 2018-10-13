@@ -18,7 +18,7 @@ td {
   padding: 5px 10px;
   cursor: pointer;
 }
-td.table-o-a {
+td.table-o-a, td.price-l-n {
   border: 1px solid #e2e2e2;
   
 }

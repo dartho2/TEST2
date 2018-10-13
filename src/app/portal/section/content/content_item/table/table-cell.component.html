@@ -1,4 +1,4 @@
-<div *ngIf="getDataType() ==='array'">
+<div style="text-align: left" *ngIf="getDataType() ==='array'">
   <div *ngFor="let item of data">{{item}}</div>
 </div>
 <div *ngIf="getDataType() ==='content'">
@@ -6,7 +6,7 @@
     class="btn btn-light">
     {{data.content}}
   </button>
-  <div *ngIf="!data.background_color">
+  <div  *ngIf="!data.background_color">
     {{data.content}}
   </div>
 
