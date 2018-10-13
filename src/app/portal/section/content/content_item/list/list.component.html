@@ -9,7 +9,20 @@
   </ul>
 </div>
 
-<div class="col-md-12" *ngIf="data.styles.list_type !== 'normal'">
+<div class="col-md-12" *ngIf="data.styles.list_type === 'list-r'">
+    <h2 *ngIf="data.content.title" class="featurette-heading">
+      {{data.content.title}}</h2>
+    <div *ngIf="data.content.text.length > 0">
+      <p class="lead">{{data.content.text}}</p>
+    </div>
+    <ol *ngIf="data.content.items.length > 0">
+      <div *ngFor="let item of data.content.items; index as i"> 
+        <app-ol [data]="item" [index]="i"></app-ol>
+        
+        </div>
+      </ol>
+  </div>
+<div class="col-md-12" *ngIf="data.styles.list_type === 'stepper'">
   <div class="col-md-6" [ngStyle]="{'float': data.styles.float}" *ngFor="let content of data.content">
     <h2 class="featurette-heading" style=" padding-left: 1.25rem; padding-top: 1.25rem;">
       {{content.title}}</h2>

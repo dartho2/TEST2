@@ -32,6 +32,7 @@ import {TableCellComponent} from './portal/section/content/content_item/table/ta
 import {ConnectionService} from './portal/section/content/content_item/contact/connection.service';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material';
+import { OlComponent } from './portal/section/content/content_item/list/ol.components';
 @NgModule({
   declarations: [
     AppComponent,
@@ -51,7 +52,8 @@ import {MatInputModule} from '@angular/material';
     BoxComponent,
     DialogComponent,
     BoxLinkComponent,
-    TableCellComponent
+    TableCellComponent,
+    OlComponent
   ],
   imports: [
     BrowserModule,
