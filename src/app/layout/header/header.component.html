@@ -99,7 +99,7 @@
           
                 
               <a *ngFor="let portals of service.portals" class="dropdown-item" href="#" [ngStyle]="portal.hover ? {'background-color': portal.style.colors.primary} : {}"
-              routerLink="/{{portals.name}}/">{{portals.label}}</a>
+              routerLink="/{{portals.name}}/{{portals.sections[0].name}}">{{portals.label}}</a>
               
            
       

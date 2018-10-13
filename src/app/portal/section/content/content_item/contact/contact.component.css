@@ -4,3 +4,20 @@ textarea, input {
 .ng-star-inserted {
   margin: 0 auto;
 }
+.example-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.example-container > * {
+  width: 100%;
+}
+.mat-input-element {
+  caret-color: white;
+}
+.mat-form-field-appearance-legacy .mat-form-field-label {
+  color: rgb(255, 255, 255);
+}
+.mat-form-field-appearance-legacy .mat-form-field-underline {
+  background-color: rgb(255, 255, 255) !important;
+}

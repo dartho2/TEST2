@@ -18,6 +18,19 @@ app-table-cell {
     line-height: 1.6rem;
 
 }
+
+footer .mat-input-element {
+  caret-color: white;
+}
+footer .mat-form-field-appearance-legacy .mat-form-field-label {
+  color: rgba(255, 255, 255, 0.92);
+}
+footer .mat-form-field-appearance-legacy .mat-form-field-underline {
+  background-color: rgba(255, 255, 255, 0.42);
+}
+footer .mat-form-field.mat-form-field-invalid .mat-form-field-label {
+  color: #ffffff;
+}
 .table thead th {
   line-height: 1.8rem;
   background-color: #9a9999;

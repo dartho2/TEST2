@@ -5,7 +5,7 @@ import {RouterModule} from '@angular/router';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
-import {FormsModule}   from '@angular/forms';
+import {FormsModule, ReactiveFormsModule }   from '@angular/forms';
 import {AppRoutingModule} from './app.routing';
 import {MatStepperModule} from '@angular/material/stepper';
 import {AppComponent} from './app.component';
@@ -29,7 +29,9 @@ import {BoxLinkComponent} from './portal/section/content/content_item/box_link/b
 import {MatDialogModule} from '@angular/material/dialog';
 import {DialogComponent} from './portal/section/content/content_item/dialog/dialog.component';
 import {TableCellComponent} from './portal/section/content/content_item/table/table-cell.component';
-
+import {ConnectionService} from './portal/section/content/content_item/contact/connection.service';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material';
 @NgModule({
   declarations: [
     AppComponent,
@@ -63,13 +65,15 @@ import {TableCellComponent} from './portal/section/content/content_item/table/ta
     FormsModule,
     MatDialogModule,
     HttpClientModule,
-    MatStepperModule,
+    ReactiveFormsModule,
+    MatFormFieldModule,
+    MatInputModule,
     FacebookModule.forRoot()
   ],
   entryComponents: [
     DialogComponent
   ],
-  providers: [],
+  providers: [ConnectionService],
   bootstrap: [AppComponent]
 })
 export class AppModule {

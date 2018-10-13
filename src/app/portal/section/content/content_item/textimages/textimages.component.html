@@ -16,7 +16,7 @@
 <div *ngIf="data.styles.text_type === 'block-ref'" class="col-md-12" (click)="openDialog(data)" [ngStyle]="{'float': data.styles.float}"
   style="padding:10px; margin-bottom: 30px; cursor:pointer;">
   <div [ngClass]="data.styles.text_type">
-    <h2 *ngIf="data.content.title" class="fit-p-on-title col-sm-12">{{data.content.title}}</h2>
+    <h2 style="color:black" *ngIf="data.content.title" class="fit-p-on-title col-sm-12">{{data.content.title}}</h2>
     <blockquote>{{data.content.text}}</blockquote>
     <cite>{{data.content.signature}}</cite>
     <div class="fab">
@@ -44,7 +44,7 @@
 
 
 <div [ngClass]="data.styles.text_type" *ngIf="data.styles.text_type === 'block-o'" class="col-md-12">
-  <h2 *ngIf="data.content.title" class="fit-p-on-title col-sm-12">{{data.content.title}}</h2>
+  <h2 [ngStyle]="{'background': portals.portal.style.colors.primary}" *ngIf="data.content.title" class="fit-p-on-title col-sm-12">{{data.content.title}}</h2>
   <div class="col-md-6" [ngStyle]="{'float': data.styles.float}" [ngClass]="data.styles.text_type">
     {{data.content.text}}
   </div>

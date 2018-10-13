@@ -170,13 +170,46 @@
     },
     "created_at": "2018-10-06T15:59:49.902Z",
     "updated_at": "2018-10-06T15:59:49.902Z"
+    },
+    {
+    "_id": "5bc208ac7d9531001325065a",
+    "type": "gallery",
+    "styles": {
+    "float": "left",
+    "text_type": "block_box",
+    "list_type": "normal"
+    },
+    "content": [
+    {
+    "title": "",
+    "videos": [
+    {
+    "url": "https://www.facebook.com/250111271792298/videos/1312892432180838/",
+    "title": "",
+    "description": "Naszym zadaniem było uśmierzyć ból pojawiający się w czasie wchodzenia i schodzenia ze schodów. Jedna korekcja bazująca na układzie nerwowym znacząco zmieniła jakość ruchu i odczucie bólu naszej Klientki."
+    }
+    ]
+    },
+    {
+    "title": "",
+    "videos": [
+    {
+    "url": "https://www.facebook.com/250111271792298/videos/249687319073542/",
+    "title": "",
+    "description": "Dla ciekawskich, źródłem problemu było pokłosie po przeprowadzonej punkcji wiele lat temu. I fakt, że wydarzenie to jest odległe w czasie nie ma znaczenia dla układu nerwowego, dlatego każdy nasz Podopieczny w czasie wywiadu jest szczegółowo pytany o urazy, wypadki, zabiegi chirurgiczne, nakłucia, zakładane szwy, złamania i inne. Jeśli po podobnym wydarzeniu (i po wygojeniu) Twoje ciało zaczęło się inaczej zachowywać, istnieje duże prawdopodobieństwo, że to właśnie tu znajduje się źródło podrażnień w Twoim układzie nerwowym, uniemożliwiające normalne funkcjonowanie."
+    }
+    ]
+    }
+    ],
+    "created_at": "2018-10-13T15:01:00.387Z",
+    "updated_at": "2018-10-13T15:01:00.387Z"
     }
     ],
     "_id": "5bb8a913ee9810001356e340",
     "name": "gallery",
     "label": "Galeria",
     "created_at": "2018-10-06T12:22:43.971Z",
-    "updated_at": "2018-10-06T19:32:13.388Z"
+    "updated_at": "2018-10-13T15:01:58.277Z"
     },
     {
     "active": true,
@@ -1601,11 +1634,11 @@
     },
     {
     "background_color": "",
-    "content": ""
+    "content": " "
     },
     {
     "background_color": "",
-    "content": ""
+    "content": " "
     },
     {
     "background_color": "#5fe0e6",
@@ -1621,7 +1654,7 @@
     ]
     },
     "created_at": "2018-10-09T09:37:15.766Z",
-    "updated_at": "2018-10-11T15:13:10.309Z"
+    "updated_at": "2018-10-13T10:26:33.101Z"
     }
     ],
     "_id": "5bbc75122907890013398ab3",
@@ -2227,13 +2260,283 @@
     ],
     "created_at": "2018-10-11T21:11:22.705Z",
     "updated_at": "2018-10-12T09:57:10.293Z"
+    },
+    {
+    "_id": "5bc0b9f91ba2b900132b97c4",
+    "type": "table",
+    "styles": {
+    "float": "unset",
+    "text_type": "price-l-n",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "CENNIK WEJŚĆ JEDNORAZOWYCH",
+    "headers": [],
+    "data": [
+    [
+    [
+    "ZAJĘCIA GRUPOWE",
+    "Zajęcia grupowe z instruktorem"
+    ],
+    "25zł"
+    ],
+    [
+    [
+    "SIŁOWNIA",
+    "Jednorazowy wstęp bez ograniczeń czasowych"
+    ],
+    "15zł"
+    ],
+    [
+    [
+    "BODY SPACE (VACU)",
+    "30 minut treningu w kapsule podciśnieniowej"
+    ],
+    "20zł"
+    ],
+    [
+    [
+    "OPEN JEDNORAZOWE",
+    "Wejście 3 w 1 (siłownia, vacu, zajęcia grupowe)"
+    ],
+    "35zł"
+    ]
+    ]
+    },
+    "created_at": "2018-10-12T15:12:57.776Z",
+    "updated_at": "2018-10-13T10:42:48.103Z"
+    },
+    {
+    "_id": "5bc1cb474930dc00133f62aa",
+    "type": "table",
+    "styles": {
+    "float": "unset",
+    "text_type": "price-l-n",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "KARNETY OPEN",
+    "headers": [
+    "",
+    "6 miesięcy",
+    "3 miesiące",
+    "1 miesiąc"
+    ],
+    "data": [
+    [
+    "SIŁOWNIA",
+    "59 zł / msc",
+    "84 zł / msc",
+    "99 zł"
+    ],
+    [
+    "VACU",
+    "65 zł / msc",
+    "92 zł / msc",
+    "109 zł"
+    ],
+    [
+    "SIŁOWNIA + VACU",
+    "83 zł / msc",
+    "118 zł / msc",
+    "139 zł"
+    ],
+    [
+    "ZAJĘCIA GRUPOWE",
+    "83 zł / msc",
+    "118 zł / msc",
+    "139 zł"
+    ]
+    ]
+    },
+    "created_at": "2018-10-13T10:39:03.378Z",
+    "updated_at": "2018-10-13T10:43:46.960Z"
+    },
+    {
+    "_id": "5bc1ccea4930dc00133f62ab",
+    "type": "table",
+    "styles": {
+    "float": "unset",
+    "text_type": "price-l-n",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "KARNETY ILOŚCIOWE",
+    "headers": [
+    "",
+    "CENA",
+    "OKRES OBOWIĄZYWANIA"
+    ],
+    "data": [
+    [
+    "12 WEJŚĆ",
+    "149 zł",
+    "2 miesiące"
+    ],
+    [
+    "8 WEJŚĆ",
+    "115 zł",
+    "1 miesiące"
+    ],
+    [
+    "4 WEJŚĆ",
+    "60 zł",
+    "1 miesiące"
+    ]
+    ]
+    },
+    "created_at": "2018-10-13T10:46:02.775Z",
+    "updated_at": "2018-10-13T10:46:02.775Z"
+    },
+    {
+    "_id": "5bc1cd6c4930dc00133f62ac",
+    "type": "table",
+    "styles": {
+    "float": "unset",
+    "text_type": "price-l-n",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "TRENING PERSONALNY",
+    "headers": [
+    "",
+    "CENA",
+    "OKRES OBOWIĄZYWANIA"
+    ],
+    "data": [
+    [
+    "10 x TRENING PERSONALNY",
+    "700 zł",
+    "6 miesiący"
+    ],
+    [
+    "1 x TRENING PERSONALNY",
+    "80 zł",
+    "1 h"
+    ]
+    ]
+    },
+    "created_at": "2018-10-13T10:48:12.307Z",
+    "updated_at": "2018-10-13T11:39:11.261Z"
+    },
+    {
+    "_id": "5bc1ce6b4930dc00133f62ad",
+    "type": "text",
+    "styles": {
+    "float": "unset",
+    "text_type": "block_box",
+    "list_type": "normal"
+    },
+    "content": [
+    {
+    "title": "",
+    "lead": "",
+    "text": "Przed skorzystaniem z usług, zapoznaj się z regulaminem Klubu. Zanim przystąpisz do ćwiczeń upewnij się, że aktywność fizyczna nie zagraża Twojemu stanu zdrowia."
+    }
+    ],
+    "created_at": "2018-10-13T10:52:27.545Z",
+    "updated_at": "2018-10-13T11:39:52.107Z"
+    },
+    {
+    "_id": "5bc1cedd4930dc00133f62ae",
+    "type": "table",
+    "styles": {
+    "float": "unset",
+    "text_type": "price-l-n",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "SOLARIUM",
+    "headers": [],
+    "data": [
+    [
+    "1 minuta",
+    "1, 30 zł"
+    ]
+    ]
+    },
+    "created_at": "2018-10-13T10:54:21.560Z",
+    "updated_at": "2018-10-13T10:57:27.552Z"
+    },
+    {
+    "_id": "5bc1cf484930dc00133f62af",
+    "type": "table",
+    "styles": {
+    "float": "unset",
+    "text_type": "price-l-n",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "PAKIETY SOLARIUM",
+    "headers": [
+    "",
+    "CENA",
+    "OKRES OBOWIĄZYWANIA"
+    ],
+    "data": [
+    [
+    "200 minut solarium",
+    "200 zł",
+    "6 miesięcy"
+    ],
+    [
+    "120 minut solarium",
+    "132 zł",
+    "3 miesiące"
+    ],
+    [
+    "60 minut solarium",
+    "72 zł",
+    "2 miesiące"
+    ]
+    ]
+    },
+    "created_at": "2018-10-13T10:56:08.626Z",
+    "updated_at": "2018-10-13T10:56:08.626Z"
+    },
+    {
+    "_id": "5bc1d01c4930dc00133f62b0",
+    "type": "text",
+    "styles": {
+    "float": "unset",
+    "text_type": "block_box",
+    "list_type": "normal"
+    },
+    "content": [
+    {
+    "title": "KARTA STAŁEGO KLIENTA SOLARIUM",
+    "lead": "",
+    "text": "Odbierz kartę w recepcji 7mepoty za 0 zł. Zbieraj minuty opalania, a po uzbieraniu określonej liczby minut na swojej karcie wymień je na jeden z poniższych gratisów:"
+    }
+    ],
+    "created_at": "2018-10-13T10:59:40.042Z",
+    "updated_at": "2018-10-13T10:59:40.042Z"
+    },
+    {
+    "_id": "5bc1d07e4930dc00133f62b1",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "",
+    "text": "",
+    "items": [
+    "75 minut - wybrany krem do opalania GRATIS;",
+    "100 minut - dodatkowe 15 minut opalania dla Ciebie - GRATIS;",
+    "500 minut - dodatkowe 150 minut opalania dla Ciebie - GRATIS;"
+    ]
+    },
+    "created_at": "2018-10-13T11:01:18.444Z",
+    "updated_at": "2018-10-13T11:01:18.444Z"
     }
     ],
     "_id": "5bbfb90dac59bb001319bb29",
     "name": "price_list_7me",
     "label": "Cennik",
     "created_at": "2018-10-11T20:56:45.121Z",
-    "updated_at": "2018-10-11T21:11:49.815Z"
+    "updated_at": "2018-10-13T11:01:24.779Z"
     },
     {
     "active": true,
@@ -2299,11 +2602,11 @@
     },
     {
     "background_color": "",
-    "content": ""
+    "content": " "
     },
     {
     "background_color": "",
-    "content": ""
+    "content": " "
     },
     {
     "background_color": "#5fe0e6",
@@ -2319,7 +2622,7 @@
     ]
     },
     "created_at": "2018-10-09T09:37:15.766Z",
-    "updated_at": "2018-10-11T15:13:10.309Z"
+    "updated_at": "2018-10-13T10:26:33.101Z"
     }
     ],
     "_id": "5bc06b6632269d0013c99cd3",
@@ -2573,6 +2876,458 @@
     "label": "Jak się przygotować?",
     "created_at": "2018-10-12T10:03:35.269Z",
     "updated_at": "2018-10-12T10:16:34.920Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bc0750232269d0013c99ce3",
+    "type": "text",
+    "styles": {
+    "float": "left",
+    "text_type": "block-t-a"
+    },
+    "content": [
+    {
+    "title": "",
+    "lead": "",
+    "text": "W naszej ofercie znajdują się również suplementy, które odpowiednio dobrane optymalizują pracę organizmu nasycając potrzebnymi substancjami."
+    }
+    ],
+    "created_at": "2018-10-12T10:18:42.943Z",
+    "updated_at": "2018-10-12T10:18:42.943Z"
+    },
+    {
+    "_id": "5bc0753732269d0013c99ce4",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "Na co to?",
+    "text": "",
+    "items": [
+    "wspomaganie odchudzania,",
+    "wspomaganie przekaźnictwa nerwowego,",
+    "wspomaganie odtruwania metalami ciężkimi,",
+    "regulacja stresu,",
+    "wsparcie snu i procesu regeneracji,",
+    "zachowanie młodości i jasności umysłu.",
+    "Zażywane suplementy lub lekarstwa"
+    ]
+    },
+    "created_at": "2018-10-12T10:19:35.539Z",
+    "updated_at": "2018-10-12T10:19:35.539Z"
+    },
+    {
+    "_id": "5bc0762332269d0013c99ce5",
+    "type": "text",
+    "styles": {
+    "float": "unset",
+    "text_align": "center",
+    "text_type": "block_box"
+    },
+    "content": [
+    {
+    "title": "Zapraszamy na testy za pomocą metody P-DTR, które pozwolą Ci dobrać odpowiednie dla Ciebie suplementy.",
+    "lead": "",
+    "text": ""
+    }
+    ],
+    "created_at": "2018-10-12T10:23:31.784Z",
+    "updated_at": "2018-10-12T10:23:31.784Z"
+    },
+    {
+    "_id": "5bc076a132269d0013c99ce6",
+    "type": "text_and_image",
+    "styles": {
+    "float": "unset",
+    "text_type": "block_box"
+    },
+    "content": {
+    "title": "",
+    "lead": "",
+    "image": "assets/images/counseling/supplements.jpg",
+    "text": ""
+    },
+    "created_at": "2018-10-12T10:25:37.059Z",
+    "updated_at": "2018-10-12T10:25:37.059Z"
+    }
+    ],
+    "_id": "5bc074ba32269d0013c99ce2",
+    "name": "supplements",
+    "label": "Suplementy",
+    "created_at": "2018-10-12T10:17:30.748Z",
+    "updated_at": "2018-10-12T10:25:43.176Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bc0772432269d0013c99ce9",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "MAGNEZ",
+    "text": "Niedobór magnezu jest bardzo powszechny na całym świecie - może występować nawet u 70% osób. Niektóre jego objawy to:",
+    "items": [
+    "problemy ze snem,",
+    "drganie i skurcze mięśni,",
+    "zespół napięcia przedmiesiączkowego,",
+    "zespół niespokojnych nóg,",
+    "kołatanie serca,",
+    "pogorszenie nastroju,",
+    "drażliwość,",
+    "stany lękowe,",
+    "bóle głowy i migreny,",
+    "choroba refluksowa przełyku,",
+    "zaparcia,",
+    "nadwrażliwość na hałasy"
+    ]
+    },
+    "created_at": "2018-10-12T10:27:48.524Z",
+    "updated_at": "2018-10-12T10:27:48.524Z"
+    },
+    {
+    "_id": "5bc0776332269d0013c99cea",
+    "type": "text",
+    "styles": {
+    "float": "left",
+    "text_type": "block-t-a"
+    },
+    "content": [
+    {
+    "title": "",
+    "lead": "",
+    "text": "Magnez to minerał odgrywający również bardzo ważną rolę w usuwaniu toksyn. Jest niezbędny do odtruwania wątroby."
+    }
+    ],
+    "created_at": "2018-10-12T10:28:51.890Z",
+    "updated_at": "2018-10-12T10:28:51.890Z"
+    },
+    {
+    "_id": "5bc077a032269d0013c99ceb",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "RTĘĆ I KRÓTKA HISTORIA POWSTAWANIA PASKUDNYCH CHORÓB",
+    "text": "Jednym z głównych powodów zapadania na choroby autoimmunizacyjne (rodzaj chorób, w którym ciało atakuje swoje komórki jak np. hashimoto, cukrzyca, astma, reumatoidalne zapalenie stawów, autyzm, atopia) jest zatrucie metalami ciężkimi takimi jak aluminium, kadm, arsen i rtęć. Ten ostatni najczęściej można spotkać w dwóch źródłach:",
+    "items": [
+    "Amalgamaty - plomby uzupełniające ubytki w zębach. Amalgamaty możemy wdychać i w tej sytuacji rtęć osiada w płucach i stamtąd przenika do krwi lub możemy połykać - tutaj rtęć wędruje do jelit, gdzie każda postać choroby autoimmunizacyjnej bierze swój początek. Rtęć w jelitach zaburza mikroflorę jelitową co doprowadza do dysbiozy i w konsekwencji do niedoborów witamin z grupy B, które sa produkowane przez zdrową mikroflorę bakterii jelitowych. Jelito cienkie i jego bakteryjne otoczenie decyduje co i ile wątroba może detoksykować. Rtęć w jelicie zrywa komunikację jelito cienkie-wątroba. Nasz organizm traci możliwość detoksykacji i następuje kumulowanie metali ciężkich. Niewydolna wątroba i nieprzyjazne bakterie mobilizują układ odpornościowy do walki produkując przeciwciała, które później krzyżowo wchodzą w reakcje z tkankami naszego ciała.",
+    "Szczepionki zanieczyszczone rtęcią i ponownie blokowanie detoksykacji i zaburzanie metylacji"
+    ]
+    },
+    "created_at": "2018-10-12T10:29:52.895Z",
+    "updated_at": "2018-10-12T10:29:52.895Z"
+    },
+    {
+    "_id": "5bc0781532269d0013c99cec",
+    "type": "text",
+    "styles": {
+    "float": "left",
+    "text_type": "block-t-a"
+    },
+    "content": [
+    {
+    "title": "",
+    "lead": "",
+    "text": "Metale ciężkie są usuwane przez wątrobę. Najważniejszym antyoksydantem eliminującym je jest glutation. Niski poziom glutationu powoduje nadekspresje przeciwciał przyczyniając sie do alergii pokarmowych a później też do problemów autoimmunizacyjnych. Dlaczego jednak tak się dzieję, że tak inteligentny system ludzkiego organizmu pozwala na podatność na zatrucie metalami ciężkimi? Przyczyn tego immunolodzy dopatrują się w zaburzonej mineralizacji. Krótko mówiąc - mamy niedobory minerałów z powodu złej diety lub zespołu złego wchłaniania albo nadmiar stresu zużywa nasz rezurwuar enzymów degradujących działania hormonów stresu. A skoro enzymy, to minerały (zwłaszcza cynk i magnez). Morałem tej krótkiej historii powstawania paskudnych chorób jest jakże banalny przekaz: jedz zdrowo i unikaj stresu, a metale ciężkie będą miały dużo trudniej żeby wniknąć"
+    }
+    ],
+    "created_at": "2018-10-12T10:31:49.791Z",
+    "updated_at": "2018-10-12T10:31:49.791Z"
+    },
+    {
+    "_id": "5bc0784332269d0013c99ced",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "TARCZYCA - 22 SYMPTOMY DYSFUKCYJNEJ PRACY GRUCZOŁU TARCZOWEGO",
+    "text": "To jeden z ważnych graczy biorących udział w przemianie materii. Jego hormony wpływają na przyspieszenie spalania wewnątrzkomórkowego (wytwarzanie ciepła), przemianę wodno-mineralną (wydalanie z organizmu wody i soli mineralnych np. jonów sodu) i wiele innych. Zanim wyniki badań hormonów tarczycy z krwi pokażą nieprawidłowości, często objawy dysfunkcji tarczycy są już obecne od dłuższego czasu. Jakie to objawy?",
+    "items": [
+    "Nadwaga, trudności z rzuceniem wagi",
+    "Potrzeba dłuższego snu",
+    "Płaczliwość, słaba wola, depresja",
+    "Zaparcia",
+    "Płytki oddech",
+    "Bolesne miesiączki",
+    "Zimne dłonie i stopy",
+    "Łamliwe i wypadające włosy",
+    "Łamliwe paznokcie",
+    "Spierzchnięte usta",
+    "Łuszczące się, pękające stopy (pięty) lub dłonie",
+    "Zmniejszona odporność na infekcje",
+    "Kurcze mięśniowe",
+    "Tendencja do zatrzymywania wody",
+    "Przewlekłe zmęczenie, wyczerpane nadnercza"
+    ]
+    },
+    "created_at": "2018-10-12T10:32:35.332Z",
+    "updated_at": "2018-10-12T10:32:35.332Z"
+    },
+    {
+    "_id": "5bc0788a32269d0013c99cee",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "NADCZYNNOŚĆ TARCZYCY",
+    "text": "",
+    "items": [
+    "Problemy z przytyciem, niedowaga",
+    "Pocenie się",
+    "Biegunki, rozwolnienia",
+    "Nerwowość, niepokój, zamartwianie się",
+    "Trudności z zasypianiem, pobudzenie",
+    "Drżenie rąk",
+    "Protruzja gałek ocznych (wytrzeszcz oczu) - w stanach zaawansowanych"
+    ]
+    },
+    "created_at": "2018-10-12T10:33:46.411Z",
+    "updated_at": "2018-10-12T10:33:46.411Z"
+    },
+    {
+    "_id": "5bc078c532269d0013c99cef",
+    "type": "gallery",
+    "styles": {
+    "float": "left"
+    },
+    "content": {
+    "title": "",
+    "images": [
+    {
+    "url": "assets/images/counseling/leptynoopornosc.jpg",
+    "title": ""
+    }
+    ]
+    },
+    "created_at": "2018-10-12T10:34:45.541Z",
+    "updated_at": "2018-10-12T10:34:45.541Z"
+    },
+    {
+    "_id": "5bc0790432269d0013c99cf0",
+    "type": "text",
+    "styles": {
+    "float": "left",
+    "text_type": "block-t-a"
+    },
+    "content": [
+    {
+    "title": "LEPTYNOOPORNOŚĆ",
+    "lead": "CZYLI DLACZEGO NIE POTRAFIĘ OPANOWAĆ WILCZEGO GŁODU",
+    "text": "Leptyna to hormon produkowany w białej tkance tłuszczowej (tak, tej na brzuchu i udach). Najprościej mówiąc, to hormon sytości. Wraz z krwią jest transportowany do podwzgórza, gdzie znajdują się ośrodki koordynujące nasze behawioralne reakcje na głód. A wszystko co związane z głodem to rzecz jasna związane z przetrwaniem. Ważne jest, aby nie tylko znać definicje i pojęcia, ale rozumieć wzajemne relacje i nie opierać się na dosłownych interpretacjach, bo te często prowadzą do działania objawowego (np. dużo cholesterolu? Podajmy statyny, aby go obniżyć! I po co pytać o przyczyny tego stanu...?) Wobec przetrwania wszystko inne jest kwestią drugorzędową, dlatego leptyna w potężny sposób wpływa na nasze emocje, zachowanie i zachcianki i koordynuje metaboliczne oraz hormonalne reakcje na głód. Im więcej posiadamy białej tkanki tłuszczowej, tym więcej wydziela się leptyny. Leptyna docierając do podwzgórza daje sygnał, aby zatrzymać uczucie głodu i przestać jeść. Niestety, taki przewlekły stan doprowadza do podobnej sytuacji, którą opisywaliśmy w poście INSULINOOPORNOŚĆ CZYLI DLACZEGO NIE POTRAFIĘ SCHUDNĄĆ. Organizmy osób z nadmiarem tkanki tłuszczowej, spożywających zbyt dużo pożywienia reagują opornością na produkowany hormon. Sygnał sytości nie dociera! Ciało człowieka zamienia się w maszynę do zaspokajania głodu. Leptyna to prozapalna cytokina, odgrywająca istotną rolę w inicjowaniu procesów zapalnych zachodzących w organizmie. To właśnie dlatego osoby z nadwagą i otyłe są bardziej podatne na powstawanie procesów zapalnych. Następnymi ofiarami leptyny są nadnercza, tarczyca i hormony płciowe. Zaczyna się prawdziwy chaos."
+    }
+    ],
+    "created_at": "2018-10-12T10:35:48.130Z",
+    "updated_at": "2018-10-12T10:35:48.130Z"
+    },
+    {
+    "_id": "5bc0793932269d0013c99cf1",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "Skąd masz wiedzieć czy jesteś leptyooporny?",
+    "text": "Jeśli, część z poniższych objawów wydaje Ci się znajoma, może to sugerować, że jesteś oporny na leptynę:",
+    "items": [
+    "nadwaga,",
+    "zmęczenie po posiłkach,",
+    "\"uchwyty miłości\" – boczki,",
+    "niepohamowany apetyt na jedzenie poprawiające nastrój,",
+    "ciągłe odczuwanie niepokoju i stresu,",
+    "ciągły głód,",
+    "odczucie głodu w godzinach późnonocnych,",
+    "osteoporoza,",
+    "trudnością z utratą wagi i jej utrzymaniem na prawidłowym poziomie,",
+    "pragnienie słodyczy lub stymulantów (kawa),",
+    "tendencja do podjadania po posiłku,",
+    "problem z zasypianiem lub spaniem,",
+    "mimo ćwiczeń, Twoje ciało się nie zmienia,",
+    "wysoki poziom trójglicerydów na czczo."
+    ]
+    },
+    "created_at": "2018-10-12T10:36:41.825Z",
+    "updated_at": "2018-10-12T10:36:41.825Z"
+    },
+    {
+    "_id": "5bc0799532269d0013c99cf2",
+    "type": "text",
+    "styles": {
+    "float": "left",
+    "text_type": "block-t-a"
+    },
+    "content": [
+    {
+    "title": "INSULINOOPORNOŚĆ",
+    "lead": "CZYLI DLACZEGO NIE MOGĘ SCHUDNĄĆ?",
+    "text": "Z insulinoopornością mamy do czynienia wówczas, gdy niebezpiecznie wzrasta poziom insuliny we krwi, całkowicie blokując hormon antagonistyczny glukagon, co w praktyce uniemożliwia schudnięcie. Organizm zmienia się w maszynę do odkładania tkanki tłuszczowej. Insulinooporność pojawia się w odpowiedzi na stany zapalne. Kolejną najczęstszą przyczyną IO jest nadmiar węglowodanów albo białka w diecie i/lub zbyt częste jedzenie."
+    }
+    ],
+    "created_at": "2018-10-12T10:38:13.487Z",
+    "updated_at": "2018-10-12T10:38:13.487Z"
+    },
+    {
+    "_id": "5bc079cd32269d0013c99cf3",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "Jakie są najczęstsze objawy insulinooporności?",
+    "text": "",
+    "items": [
+    "senność po posiłkach,",
+    "spadki cukru,",
+    "drżenie rąk,",
+    "zaburzenia koncentracji,",
+    "zimne poty,",
+    "częste podjadanie,",
+    "otyłość,",
+    "brak efektów treningowych,",
+    "duże ramiona lub uda,",
+    "dysproporcje w budowie sylwetki,",
+    "PCOS - zespół policystycznych jajników,",
+    "hirsuityzm - nadmierne owłosienie u kobiet,",
+    "wysoki poziom testosteronu u kobiet,",
+    "niski poziom testosteronu u mężczyzn,",
+    "biust u mężczyzn"
+    ]
+    },
+    "created_at": "2018-10-12T10:39:09.802Z",
+    "updated_at": "2018-10-12T10:39:09.802Z"
+    },
+    {
+    "_id": "5bc079e632269d0013c99cf4",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "Jaki jest schemat postępowania?",
+    "text": "Przyczyną insulinooporności są nieprawidłowe produkty jedzone w nieodpowiednich ilościach, dlatego jedynym słusznym podejściem jest zmiana sposobu odżywiania. Istnieją 2 możliwe schematy postępowania: natychmiastowa redukcja węglowodanów w diecie do ok 50-80 g na dobę i po kilku miesiącach stopniowe zwiększanie lub metoda małych kroków - podaż węglowodanów szacowana na ok 200-250 g ulega zmniejszaniu co miesiąc o 50 g. Dopóki waga spada nie są konieczne dalsze restrykcje. Co jeszcze może pomóc? Unikanie takich produktów lub czynności jak:",
+    "items": [
+    "śniadania z węglowodanami,",
+    "soki owocowe ,",
+    "smażenie - ze względu na stan zapalny,",
+    "zboża glutenowe,",
+    "alkohol,",
+    "nabiał,",
+    "buraki, dynia, marchewki,",
+    "syrop glukozowo-fruktozowy,",
+    "słodziki,",
+    "słodkości...i wyobraźnia na temat słodkości (efekt placebo)."
+    ]
+    },
+    "created_at": "2018-10-12T10:39:34.692Z",
+    "updated_at": "2018-10-12T10:39:34.692Z"
+    }
+    ],
+    "_id": "5bc076d132269d0013c99ce8",
+    "name": "curiosities_zywienie",
+    "label": "Ciekawostki",
+    "created_at": "2018-10-12T10:26:25.563Z",
+    "updated_at": "2018-10-12T10:39:40.443Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bc07a5132269d0013c99cf6",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "Maja Bednarczyk",
+    "lead": "",
+    "image": "assets/images/treners/Maja.jpg",
+    "text": "Specjalista metody P-DTR, trener personalny z wieloletnim doświadczeniem, dyplomowany nauczyciel jogi, Od lat jestem zainteresowana holistycznym podejściem do zdrowia fizycznego i psychicznego człowieka. Zaowocowało to ukończeniem kilkudziesięciu kursów i szkoleń z zakresu dietetyki, fizjologii, anatomii, systemów treningowych oraz niekonwencjonalnych metod. Pracę z klientem indywidualnym zaczęłam jako trener personalny w 2013 roku prowadząc w większości osoby z problemami zdrowotnymi. W tym samym czasie rozwijałam się na polu nauczyciela jogi o specjalizacji Hatha Yoga, oraz prowadziłam zajęcia grupowe takie jak Zdrowy Kręgosłup, Pilates i Trening Funkcjonalny. Szczególnie mocno skupiłam się w tym czasie na treningach funkcjonalnych i miałam przyjemność stanąć dwukrotnie na Konwencji Fitness jako Prezenter i Szkoleniowiec w Euro Fitness School z Bielska Białej w 2016 roku obok wielu świetnych Trenerów z Polski i z Europy. Rok później podobną współpracę zaczęłam ze Szkołą Instruktorów Fitness w Krakowie. Szkolenie młodych instruktorów fitness sprawiało mi dużą frajdę i dało wiele ciekawych doświadczeń oraz lekcji – tym razem to ja miałam przekazywać wiedzę, a nie ją brać. Ta zmiana perspektywy dużo mnie nauczyła. Po kilku latach pracy w zawodzie trenera personalnego i instruktora fitness, trafiłam przypadkiem na P-DTR czyli proprioceptywną terapię odruchową. Pierwsze wrażenie jakie zrobiła na mnie ta metoda było piorunujące – istna magia na dodatek z natychmiastowym efektem! Parę miesięcy później siedziałam już jako student na pierwszym module rocznego szkolenia u twórcy metody dr Jose Palomara (Meksyk). Sądzę, że już wtedy przeczuwałam, że P-DTR zmieni moje życie. Z bycia trenerem i promotorem zdrowego jedzenia i aktywnego stylu życia, stałam się Praktykiem metody P-DTR na poziomie zaawansowanym, aktywnie zainteresowaną neurologią, psychosomatyką i kinezjologią. Dawne zainteresowania i praca trenera oraz prowadzącego lekcje grupowe zmieniły kontekst i nabrały nowej jakości. Dzisiaj z ogromną przyjemnością dzielę potencjał metody P-DTR ze swoimi Klientami i samodzielnie rozwijam własne narzędzia w poszukiwaniu priorytetowych dysfunkcji receptorów w układzie nerwowym, pomagając w takich dolegliwościach jak: bóle, ograniczenia ruchowe, stany napięciowe pochodzenia emocjonalnego, problemy psychosomatyczne i inne. Prowadzę treningi personalne mając nowe spojrzenie na ludzkie ciało i jego potrzeby, rozpisuję diety indywidualnie dobrane na podstawie testów żywieniowych i uczę jogi na kilku poziomach trudności. Moja droga nie była najkrótszą z możliwych, ale mam wrażenie, że najlepszą z możliwych. Zapraszam serdeczne!"
+    },
+    "created_at": "2018-10-12T10:41:21.497Z",
+    "updated_at": "2018-10-12T10:41:21.497Z"
+    }
+    ],
+    "_id": "5bc07a0732269d0013c99cf5",
+    "name": "treners_zywienie",
+    "label": "Nasz konsultant",
+    "created_at": "2018-10-12T10:40:07.138Z",
+    "updated_at": "2018-10-12T10:41:26.933Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bc206e07d95310013250659",
+    "type": "table",
+    "styles": {
+    "float": "unset",
+    "text_type": "price-l-n",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "CENNIK",
+    "headers": [],
+    "data": [
+    [
+    "ZALECENIA ŻYWIENIOWE / ROZPISANIE DIETY",
+    "99 zł"
+    ],
+    [
+    "TESTY POKARMOWE",
+    "80 zł"
+    ]
+    ]
+    },
+    "created_at": "2018-10-13T14:53:20.448Z",
+    "updated_at": "2018-10-13T14:54:34.701Z"
+    }
+    ],
+    "_id": "5bc07a7632269d0013c99cf7",
+    "name": "price_list_zywienie",
+    "label": "Cennik",
+    "created_at": "2018-10-12T10:41:58.983Z",
+    "updated_at": "2018-10-13T14:53:48.329Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bba756f06ba3f0013edfcde",
+    "type": "contact",
+    "content": [
+    {
+    "title": "Napisz Do Nas",
+    "lead": "",
+    "text": ""
+    }
+    ],
+    "created_at": "2018-10-07T21:06:55.471Z",
+    "updated_at": "2018-10-07T21:06:55.471Z"
+    }
+    ],
+    "_id": "5bba74c206ba3f0013edfcdd",
+    "name": "contact",
+    "label": "Kontakt",
+    "created_at": "2018-10-07T21:04:02.839Z",
+    "updated_at": "2018-10-07T21:10:56.262Z"
     }
     ],
     "_id": "5bc06eaf32269d0013c99cd5",
@@ -2586,6 +3341,6 @@
     },
     "description": "a",
     "created_at": "2018-10-12T09:51:43.916Z",
-    "updated_at": "2018-10-12T10:03:41.498Z"
+    "updated_at": "2018-10-12T10:42:55.478Z"
     }
     ]
