@@ -1,4 +1,4 @@
-<div *ngFor="let content of data.content">
+<div  *ngFor="let content of data.content">
   <h2 class="featurette-heading">{{data.title}}</h2>
   <div class="col-md-6 content-video" [ngStyle]="{'float': data.styles.float}" *ngIf="content.videos">
   <div class="col-md-12  content-video" [ngStyle]="{'float': data.styles.float}" *ngFor="let videos of content.videos">
@@ -8,29 +8,33 @@
 </div>
 <div *ngIf="content.images">
   <div class="col-md-12 content-image" [ngStyle]="{'float': data.styles.float}" *ngIf="content.images.lenght > 0">
-    <div class="col-md-6" [ngStyle]="{'float': data.styles.float}" *ngFor="let image of content.images">
+    <div class="tz-gallery col-md-6 content-image"  [ngStyle]="{'float': data.styles.float}" *ngFor="let image of content.images">
+     <a class="lightbox" routerLink="{{image.url}}">
       <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="{{image.url}}"
         data-holder-rendered="true">
-      <p>{{image.description}}</p>
+      <p>{{image.description}}</p></a>
     </div>
   </div>
-  <div class="col-md-12 content-image" [ngStyle]="{'float': data.styles.float}" *ngIf="content.images.lenght !== 0">
-    <div class="col-md-6" [ngStyle]="{'float': data.styles.float}" *ngFor="let image of content.images">
+  <div class="tz-gallery col-md-12 content-image" [ngStyle]="{'float': data.styles.float}" *ngIf="content.images.lenght !== 0">
+    <div class="col-md-6 content-image" [ngStyle]="{'float': data.styles.float}" *ngFor="let image of content.images">
+        <a class="lightbox" href="{{image.url}}">
       <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="{{image.url}}"
         data-holder-rendered="true">
-      <p>{{image.description}}</p>
-    </div>
+        </a>
+      </div>
   </div>
 
 </div>
 </div>
-<!-- <style>
+<style>
   .content-image:nth-child(odd) {
     float: left !important;
+    clear: initial;
   }
 
   .content-image:nth-child(even) {
     float: right !important;
+    clear: initial;
   }
 
-</style> -->
+</style>

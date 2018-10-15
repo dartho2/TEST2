@@ -6,12 +6,12 @@
     <div class="col-md-6 order-md-1">
         <div class="mx-auto my-auto">
             <h6 class="text-uppercase font-weight-bold text-center">Kontakt</h6>
-            <p><i class="fa fa-home mr-3"></i>32-540 Trzebinia, ul. Leona Kruczkowskiego 10</p>
-            <p><i class="fa fa-envelope mr-3"></i> 7mepoty@gmail.com</p>
-            <p><i class="fa fa-phone mr-3"></i> 530 792 265 </p>
+            <p class="lead-contact"><i class="fa fa-home mr-3"></i>32-540 Trzebinia, ul. Leona Kruczkowskiego 10</p>
+            <p class="lead-contact"><i class="fa fa-envelope mr-3"></i> 7mepoty@gmail.com</p>
+            <p class="lead-contact"><i class="fa fa-phone mr-3"></i> 530 792 265 </p>
           </div>
       <form class="text-center" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
-        <p class="h4 mb-4">Napisz do Nas</p>
+        <p class="lead-contact h4 mb-4">Napisz do Nas</p>
         <mat-form-field class="col-md-12">
           <input matInput type="text" placeholder="Imię" id="defaultContactFormName" formControlName="contactFormName"
             required>

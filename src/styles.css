@@ -3,34 +3,39 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 @import "~font-awesome/css/font-awesome.css";
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+
 app-table-cell {
-    text-align: center;
-    color: #232323;
-    display: -ms-flexbox;
-    -ms-flex: 1 0 auto;
-    flex: 1 0 auto;
-    font-family: sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 13px;
-    font-size: 3;
-    line-height: 16px;
-    line-height: 1.6rem;
+  text-align: center;
+  color: #232323;
+  display: -ms-flexbox;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  font-size: 3;
+  line-height: 16px;
+  line-height: 1.6rem;
 
 }
 
 footer .mat-input-element {
   caret-color: white;
 }
+
 footer .mat-form-field-appearance-legacy .mat-form-field-label {
   color: rgba(255, 255, 255, 0.92);
 }
+
 footer .mat-form-field-appearance-legacy .mat-form-field-underline {
   background-color: rgba(255, 255, 255, 0.42);
 }
+
 footer .mat-form-field.mat-form-field-invalid .mat-form-field-label {
   color: #ffffff;
 }
+
 .table thead th {
   line-height: 1.8rem;
   background-color: #9a9999;
@@ -40,9 +45,11 @@ footer .mat-form-field.mat-form-field-invalid .mat-form-field-label {
   font-family: robotlight, sans-serif;
   border: 1px solid white;
 }
+
 .block-o-t {
   text-align: justify;
 }
+
 main {
   background-color: #f3f3f3;
 }
@@ -50,11 +57,13 @@ main {
 li.ng-star-inserted {
   font-size: 17px;
 }
+
 @media screen and (max-width: 768px) {
-.result-test {
-  width: 100%;
+  .result-test {
+    width: 100%;
+  }
 }
-}
+
 .result-test {
   color: #fff;
   background: #1a581a;
@@ -64,18 +73,21 @@ li.ng-star-inserted {
   text-align: center;
   cursor: pointer;
 }
+
 td.selected {
-  color:white !important;
+  color: white !important;
 }
+
 th {
   color: #fff;
   background-color: #505050;
   padding: 2px;
   font-size: 21px;
   font-family: OSWALD;
-  border:1px solid white;
- 
+  border: 1px solid white;
+
 }
+
 .col-md-12,
 .col-lg-12 {
   /* padding-left: 0px;
@@ -102,10 +114,23 @@ body {
 }
 
 .lead {
-  font-size: 17px;
+  font-family: 'robotlight', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.2px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   text-align: justify;
 }
-
+ul ,ol , dl, p {
+  font-family: 'robotlight', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.2px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-align: justify;
+}
 .card {
 
   background-color: transparent;
@@ -253,9 +278,7 @@ button.button-top-mat.mat-button {
   line-height: 21px;
 }
 
-.cdk-overlay-container {
- 
-}
+.cdk-overlay-container {}
 
 div#cdk-overlay-0 {
   top: 0px !important;
@@ -268,9 +291,11 @@ div#cdk-overlay-0 {
   }
 
 }
+
 .container.marketing {
   margin-top: 50px;
 }
+
 h1.fit-content-header-label {
   position: absolute;
   margin-top: -16px;
@@ -281,12 +306,14 @@ h1.fit-content-header-label {
   text-align: center;
   padding: 3px;
 }
+
 .row.content-header {
   margin-top: 42px;
   /* z-index: 2; */
   position: relative;
   height: 10px;
 }
+
 .featurette-image {
   width: 100%;
   height: 100%;
@@ -321,6 +348,7 @@ h2 {
 .content-video {
   margin-bottom: 10px;
 }
+
 .block-o {
   text-align: justify;
 }
@@ -359,6 +387,7 @@ h2 {
   .navbar-toggle {
     display: none;
   }
+
   .fab {
     display: none;
   }

@@ -29,7 +29,8 @@
 <div [ngClass]="data.styles.text_type" *ngIf="data.styles.text_type === 'block-o-t'" class="col-md-12">
   <h2 [ngStyle]="{'background': portals.portal.style.colors.primary}" *ngIf="data.content.title" class="fit-p-on-title col-sm-12">{{data.content.title}}</h2>
   <div class="col-md-6" [ngStyle]="{'float': data.styles.float}" [ngClass]="data.styles.text_type">
-    {{data.content.text}}
+    <p class="lead">
+      {{data.content.text}} </p>
     <div *ngIf="data.content.items">
         <ul style="padding-left:20px">
           <li *ngFor="let item of data.content.items">{{item}}</li>
@@ -46,7 +47,8 @@
 <div [ngClass]="data.styles.text_type" *ngIf="data.styles.text_type === 'block-o'" class="col-md-12">
   <h2 [ngStyle]="{'background': portals.portal.style.colors.primary}" *ngIf="data.content.title" class="fit-p-on-title col-sm-12">{{data.content.title}}</h2>
   <div class="col-md-6" [ngStyle]="{'float': data.styles.float}" [ngClass]="data.styles.text_type">
-    {{data.content.text}}
+    <p class="lead">
+      {{data.content.text}} </p>
   </div>
   <div class="col-md-6" [ngStyle]="{'float': data.styles.float}">
     <img *ngIf="data.content.image" class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"

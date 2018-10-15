@@ -33,6 +33,8 @@ import {ConnectionService} from './portal/section/content/content_item/contact/c
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material';
 import { OlComponent } from './portal/section/content/content_item/list/ol.components';
+import {AngularFontAwesomeModule} from 'angular-font-awesome';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -70,6 +72,7 @@ import { OlComponent } from './portal/section/content/content_item/list/ol.compo
     ReactiveFormsModule,
     MatFormFieldModule,
     MatInputModule,
+    AngularFontAwesomeModule,
     FacebookModule.forRoot()
   ],
   entryComponents: [
