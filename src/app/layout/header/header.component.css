@@ -303,6 +303,26 @@ body {
     .carousel-control-visible {
       display: none;
     }
+    nav.navbar.navbar-expand-lg.navbar-light.navbar-top.rounded {
+     border-radius: 0px !important;
+      background: #25282a;
+    }
+    span.span-header {
+      color: white;
+  }
+  a#dropdown01 {
+    color: white;
+}
+    ul.navbar-nav.ml-auto {
+        margin: 0; 
+     padding: 0; 
+    display: block; 
+   list-style-type: none;
+  }
+  li.nav-item.nav-li-top {
+    float: left;
+    
+}
   }
   
   .card-inverse .btn {
