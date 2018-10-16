@@ -708,7 +708,17 @@ body {
     padding-right: 5px;
     margin: auto;
   }
-  
+  .slideout-widget-contact:hover {
+    right: -19em;
+}
+.slideout-widget-contact {
+position: fixed;
+    right: -20em;
+    top: 50%;
+    transition: right .4s;
+    width: 19em;
+    z-index: 10;
+  }
   .mat-button {
     background: #ffffff47;
     color: white;
