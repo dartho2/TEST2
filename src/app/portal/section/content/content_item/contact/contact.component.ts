@@ -1,15 +1,18 @@
-import {Component, Input, HostListener} from '@angular/core';
+import {Component, Input, HostListener, OnInit} from '@angular/core';
 import { ConnectionService } from './connection.service';
 import { FormGroup, FormControl, FormBuilder, Validators } from '@angular/forms';
+declare var jquery: any;
+declare var $: any;
 
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.css']
 })
-export class ContactComponent {
+export class ContactComponent implements OnInit{
   @Input()
   data;
+  sender = false;
 
   email = new FormControl('', [Validators.required, Validators.email]);
 
@@ -33,23 +36,32 @@ optionsSelect: Array<any>;
   constructor(private fb: FormBuilder, private connectionService: ConnectionService) {
 
   this.contactForm = fb.group({
-    'contactFormName': ['', Validators.required],
-    'contactFormEmail': ['', Validators.compose([Validators.required, Validators.email])],
-    'contactFormMessage': ['', Validators.required]
+    'name': ['', Validators.required],
+    'from': ['', Validators.compose([Validators.required, Validators.email])],
+    'message': ['', Validators.required]
     });
   }
 
   onSubmit() {
-    console.log(this.contactForm)
     this.connectionService.sendMessage(this.contactForm.value).subscribe(() => {
-      alert('Wiadomość nie została wysłana.');
+      this.sender = true;
+      window.setTimeout(function() {
+        $(".alert").fadeTo(500, 0).slideUp(500, function(){
+            $(this).remove(); 
+        });
+    }, 4000);
       this.contactForm.reset();
       this.disabledSubmitButton = true;
     }, error => {
       console.log('Error', error);
     });
   }
- 
-
+  ngOnInit(){
+    window.setTimeout(function() {
+      $(".alert").fadeTo(500, 0).slideUp(500, function(){
+          $(this).remove(); 
+      });
+  }, 4000);
+  }
   
 }

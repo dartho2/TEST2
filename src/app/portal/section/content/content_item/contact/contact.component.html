@@ -1,3 +1,9 @@
+
+<div *ngIf="sender === true" class="alert alert-success" id="success-alert">
+  <button type="button" class="close" data-dismiss="alert">x</button>
+  <strong>Wiadomość! </strong>
+  Email został wysłany.
+</div>
 <div class="row featurette card">
   <div class="card-body row">
     <div class="col-md-6 order-md-2 row">
@@ -13,20 +19,20 @@
       <form class="text-center" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
         <p class="lead-contact h4 mb-4">Napisz do Nas</p>
         <mat-form-field class="col-md-12">
-          <input matInput type="text" placeholder="Imię" id="defaultContactFormName" formControlName="contactFormName"
+          <input matInput type="text" placeholder="Imię" id="defaultContactFormName" formControlName="name"
             required>
         </mat-form-field>
 
 
         <mat-form-field class="col-md-12">
-          <input  matInput type="email" placeholder="E-mail" id="defaultContactFormEmail" formControlName="contactFormEmail"
+          <input  matInput type="email" placeholder="E-mail" id="defaultContactFormEmail" formControlName="from"
             required>
           <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
         </mat-form-field>
 
         
         <mat-form-field class="col-md-12">
-          <textarea matInput rows="3" placeholder="Wiadomość" formControlName="contactFormMessage" id="exampleFormControlTextarea2"></textarea>
+          <textarea matInput rows="3" placeholder="Wiadomość" formControlName="message" id="exampleFormControlTextarea2"></textarea>
         </mat-form-field>
         <button mat-stroked-button color="primary" color="info" outline="true" block="true" class="z-depth-0 my-4 waves-effect"
            type="submit" [disabled]="disabledSubmitButton">Wyślij</button>

@@ -109,70 +109,22 @@
     "active": true,
     "data": [
     {
-    "_id": "5bb8d460ee9810001356e34c",
-    "type": "gallery",
+    "_id": "5bc25e707d9531001325065e",
+    "type": "text_and_image",
     "styles": {
-    "float": "left",
-    "text_type": "block_box",
-    "list_type": "normal"
+    "float": "unset",
+    "text_type": "block_box"
     },
     "content": {
     "title": "",
-    "videos": [
-    {
-    "url": "https://www.facebook.com/250111271792298/videos/1312892432180838/",
-    "title": "",
-    "description": "Naszym zadaniem było uśmierzyć ból pojawiający się w czasie wchodzenia i schodzenia ze schodów. Jedna korekcja bazująca na układzie nerwowym znacząco zmieniła jakość ruchu i odczucie bólu naszej Klientki."
-    }
-    ]
+    "image": "assets/images/pdtr/gallery/5.jpg",
+    "text": "Elastyczność mięśni to nie tylko efekt ćwiczeń rozciągających, lecz wypadkowa tego jak wydolny jest układ nerwowy i czy obecne są w nim mechanizmy obronne. Na dowód tego przesyłamy Wam 2 zdjęcia zrobione dokładnie w odstępie 8 minut. Pani ze zdjęcia zgłosiła się do nas z powodu bólu kręgosłupa w trakcie schylania się. Z powodu podrażnień w obrębie miednicy jej zakres ruchu w skłonie do przodu wyglądał jak na pierwszym zdjęciu. Po prostej korekcji układu nerwowego w okolicach miednicy, nasza Podopieczna bez problemu dotknęła palcami do podłogi, a jej subiektywna skala bólu z 10 spadła do poziomu między 2 a 3. Należy dodać, że Pani nie uczęszcza na zajęcia sportowe."
     },
-    "created_at": "2018-10-06T15:27:28.919Z",
-    "updated_at": "2018-10-06T15:27:28.919Z"
+    "created_at": "2018-10-13T21:06:56.223Z",
+    "updated_at": "2018-10-13T21:06:56.223Z"
     },
     {
-    "_id": "5bb8d480ee9810001356e34d",
-    "type": "gallery",
-    "styles": {
-    "float": "left",
-    "text_type": "block_box",
-    "list_type": "normal"
-    },
-    "content": {
-    "title": "",
-    "videos": [
-    {
-    "url": "https://www.facebook.com/250111271792298/videos/249687319073542/",
-    "title": "",
-    "description": "Dla ciekawskich, źródłem problemu było pokłosie po przeprowadzonej punkcji wiele lat temu. I fakt, że wydarzenie to jest odległe w czasie nie ma znaczenia dla układu nerwowego, dlatego każdy nasz Podopieczny w czasie wywiadu jest szczegółowo pytany o urazy, wypadki, zabiegi chirurgiczne, nakłucia, zakładane szwy, złamania i inne. Jeśli po podobnym wydarzeniu (i po wygojeniu) Twoje ciało zaczęło się inaczej zachowywać, istnieje duże prawdopodobieństwo, że to właśnie tu znajduje się źródło podrażnień w Twoim układzie nerwowym, uniemożliwiające normalne funkcjonowanie."
-    }
-    ]
-    },
-    "created_at": "2018-10-06T15:28:00.084Z",
-    "updated_at": "2018-10-06T15:28:00.084Z"
-    },
-    {
-    "_id": "5bb8dbf5ee9810001356e34e",
-    "type": "gallery",
-    "styles": {
-    "float": "left",
-    "text_type": "block_box",
-    "list_type": "normal"
-    },
-    "content": {
-    "title": "",
-    "images": [
-    {
-    "url": "assets/images/pdtr/gallery/5.jpg",
-    "title": "",
-    "description": "Elastyczność mięśni to nie tylko efekt ćwiczeń rozciągających, lecz wypadkowa tego jak wydolny jest układ nerwowy i czy obecne są w nim mechanizmy obronne. Na dowód tego przesyłamy Wam 2 zdjęcia zrobione dokładnie w odstępie 8 minut. Pani ze zdjęcia zgłosiła się do nas z powodu bólu kręgosłupa w trakcie schylania się. Z powodu podrażnień w obrębie miednicy jej zakres ruchu w skłonie do przodu wyglądał jak na pierwszym zdjęciu. Po prostej korekcji układu nerwowego w okolicach miednicy, nasza Podopieczna bez problemu dotknęła palcami do podłogi, a jej subiektywna skala bólu z 10 spadła do poziomu między 2 a 3. Należy dodać, że Pani nie uczęszcza na zajęcia sportowe."
-    }
-    ]
-    },
-    "created_at": "2018-10-06T15:59:49.902Z",
-    "updated_at": "2018-10-06T15:59:49.902Z"
-    },
-    {
-    "_id": "5bc208ac7d9531001325065a",
+    "_id": "5bc25f1d7d9531001325065f",
     "type": "gallery",
     "styles": {
     "float": "left",
@@ -201,15 +153,15 @@
     ]
     }
     ],
-    "created_at": "2018-10-13T15:01:00.387Z",
-    "updated_at": "2018-10-13T15:01:00.387Z"
+    "created_at": "2018-10-13T21:09:49.379Z",
+    "updated_at": "2018-10-13T21:09:49.379Z"
     }
     ],
     "_id": "5bb8a913ee9810001356e340",
     "name": "gallery",
     "label": "Galeria",
     "created_at": "2018-10-06T12:22:43.971Z",
-    "updated_at": "2018-10-13T15:01:58.277Z"
+    "updated_at": "2018-10-13T21:10:38.675Z"
     },
     {
     "active": true,
@@ -544,6 +496,58 @@
     "label": "Kontakt",
     "created_at": "2018-10-07T21:04:02.839Z",
     "updated_at": "2018-10-07T21:10:56.262Z"
+    },
+    {
+    "active": false,
+    "data": [
+    {
+    "_id": "5bc2611d7d95310013250660",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "list-r"
+    },
+    "content": {
+    "title": "REGULAMIN",
+    "text": "",
+    "items": [
+    "Każdy klient ma obowiązek zapoznania się z niniejszym regulaminem i jego przestrzegania.",
+    "W związku z rozpoczęciem stosowania z dniem 25 maja 2018 r. Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych, dalej: RODO) informujemy iż:",
+    [
+    "Administratorem Państwa danych osobowych jest RADEAL Radosław Chwast z siedzibą w Nowej Górze 295, 32-065 Krzeszowice, NIP: 5130170364, REGON: 122977430, zwany dalej „Karma Zdrowia”.",
+    "Kontakt z Administratorem możliwy jest na wskazany wyżej adres oraz pod numerem telefonu 500-424-737 i adresem e-mail 7mepoty@gmail.com.",
+    "Przetwarzane przez Administratora dane osobowe to: imię, nazwisko, numer telefonu, data urodzenia.",
+    "Państwa dane osobowe przetwarzane są przez Administratora w celu świadczenia usług związanych z poprawą zdrowia, kondycji fizycznej, doradztwem żywieniowym i/lub solarium oraz w jego własnych celach marketingowych - a podanie danych jest dobrowolne i nie jest niezbędne dla zawarcia i wykonania umów z Administratorem, lecz niezbędne do otrzymywania informacji o aktualnych ofertach i promocjach.",
+    "Dodatkowo, Państwa dane przetwarzane są w celu świadczenia usługi newslettera na podstawie art. 6 ust. 1 lit. a RODO. Newsletter wysyłany jest w formie wiadomości SMS na podany przez Państwa numer telefonu i zawiera informacje dotyczące: wydarzeń w Karma Zdrowia a także akcji promocyjnych przygotowanych przez Karma Zdrowia.",
+    "Państwa dane bez uprzedniego wyrażenia zgody nie są przekazywane osobom trzecim.",
+    "Administrator zobowiązuje się do zabezpieczenia przetwarzanych Państwa danych osobowych przed dostępem osób nieupoważnionych.",
+    "Przysługuje Państwu prawo dostępu do treści danych, prawo do ich sprostowania, usunięcia lub ograniczenia przetwarzania, prawo żądania zaprzestania przetwarzania i prawo przenoszenia danych, a także prawo do wniesienia skargi do organu nadzorczego tj. Prezesa Urzędu Ochrony Danych Osobowych.",
+    "Mogą Państwo wycofać zgodę na przetwarzanie Państwa danych w dowolnym momencie, co nie będzie miało jednak wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie zgody przed jej cofnięciem. Zgodę można wycofać kontaktując się z Administratorem w sposób wskazany w punkcie 2.2.",
+    "Mogą Państwo w dowolnym momencie wnieść sprzeciw wobec przetwarzania Państwa danych na potrzeby marketingu bezpośredniego, a Państwa dane nie będą więcej wykorzystywane w tym celu.",
+    "Dane osobowe będą przetwarzane do czasu cofnięcia przez Państwa udzielonej zgody."
+    ],
+    "Karma Zdrowia jest obiektem świadczącym usługi z zakresu: P-DTR, solarium, siłownia, body space, zajęcia grupowe fitness, zajęcia grupowe jogi, treningi personalne, porady żywieniowe, warsztaty oraz okazjonalne event’y sportowe. Wszystkie wyżej wymienione usługi są ujęte w cenniku klubu.",
+    "Z usług mogą korzystać osoby pełnoletnie lub niepełnoletnie w obecności opiekunów prawnych. Zakaz udostępniania solarium osobom, które nie ukończyły 18. roku życia (art. 5 ust. 1 ustawy z dnia 15 września 2017 r. o ochronie zdrowia przed następstwami korzystania z solarium).",
+    "Dla obsługi obiektu korzystanie z usług sportowych i solarium jest jednoznaczne z tym, iż klient nie ma żadnych przeciwwskazań lekarskich do wykonywaniu wysiłku fizycznego oraz opalania, jest on świadomy swojego stanu zdrowia oraz korzysta z usług z zachowaniem ostrożności i troski o swoje zdrowie. Z tego powodu zalecamy wykonywanie profilaktycznie badań lekarskich przynajmniej raz w roku. Wszelkie bieżące urazy lub stany chorobowe należy niezwłocznie zgłaszać obsłudze oraz trenerom. W przypadku pojawienia się zawrotów głowy lub innych nienormalnych objawów należy to natychmiast sygnalizować i przerwać ćwiczenie. Jeśli stan zdrowia danej osoby budzi wątpliwości obsługi klubu, Karma Zdrowia odmówi zrealizowania usługi do momentu dostarczenia kserokopii oświadczenia lekarskiego ze zgodą na wykonywanie ćwiczeń.",
+    "Każdy klient jest zobowiązany do nienaruszania spokoju i porządku w obiekcie oraz niezakłócania innym klientom możliwości korzystania z usług. Zabrania się na terenie obiektu palenia papierosów i spożywania alkoholu.",
+    "Każdy klient jest zobowiązany do korzystania z pomieszczeń i urządzeń zgodnie z ich przeznaczeniem, nie narażając ich na uszkodzenia. W przypadku spowodowania poważnej wady urządzenia, klient odpowiada finansowo.",
+    "Każdy klient jest zobowiązany do zmiany obuwia z czystą podeszwą przed wejściem na salę ćwiczeń.",
+    "Klub nie ponosi odpowiedzialności za pozostawione rzeczy w szatni, toalecie, przebieralni, poczekalni lub sali ćwiczeń. Prosimy o zachowanie uwagi i pilnowanie przedmiotów cennych.",
+    "Klient ma prawo do dokonania rezerwacji na zajęcia grupowe oraz Body Space. W przypadku nie anulowania rezerwacji i nie pojawienia się na czas wejście zostaje odnotowane, co skutkuje utratą treningu przez klienta. W przypadku powtarzania się takich sytuacji, klient może stracić prawo do rezerwacji miejsca.",
+    "Minimalna ilość osób na zajęciach grupowych wynosi 5. W przypadku nieuzbierania się wystarczającej ilości chętnych, obiekt zastrzega sobie prawo do odwołania zajęć o czym niezwłocznie powiadomi poprzez sms lub rozmowę telefoniczną osoby, które miały dokonaną rezerwację. Podobnie awaria Body Space skutkuje niezwłocznym powiadomieniem.",
+    "Obiekt zastrzega sobie prawo do wykonywania zdjęć i filmów do celów promocyjnych i umieszczaniu ich na stronie internetowej klubu.",
+    "Opłata za karnet/pakiet jest opłatą bezzwrotną. Każdy karnet/pakiet jest przypisany do jednej osoby i upoważnia do korzystania z określonych usług po promocyjnej cenie w określonym terminie ważności."
+    ]
+    },
+    "created_at": "2018-10-13T21:18:21.598Z",
+    "updated_at": "2018-10-13T21:18:21.598Z"
+    }
+    ],
+    "_id": "5bc259fc7d9531001325065c",
+    "name": "regulamin",
+    "label": "Regulamin",
+    "created_at": "2018-10-13T20:47:56.345Z",
+    "updated_at": "2018-10-13T21:23:53.005Z"
     }
     ],
     "_id": "5bb779ec0967770013945972",
@@ -556,7 +560,7 @@
     }
     },
     "created_at": "2018-10-05T14:49:16.556Z",
-    "updated_at": "2018-10-07T22:53:23.693Z"
+    "updated_at": "2018-10-13T21:20:16.970Z"
     },
     {
     "logo": "assets/logo/studio_yogi_logo.png",
@@ -1051,7 +1055,8 @@
     "styles": {
     "float": "left"
     },
-    "content": {
+    "content": [
+    {
     "title": "",
     "images": [
     {
@@ -1071,9 +1076,10 @@
     "title": ""
     }
     ]
-    },
+    }
+    ],
     "created_at": "2018-10-08T21:22:26.166Z",
-    "updated_at": "2018-10-08T21:23:15.724Z"
+    "updated_at": "2018-10-13T15:17:42.108Z"
     }
     ],
     "_id": "5bbbc73b5fc13600135316b5",
@@ -1340,7 +1346,8 @@
     "text_type": "block_box",
     "list_type": "normal"
     },
-    "content": {
+    "content": [
+    {
     "title": "",
     "images": [
     {
@@ -1348,11 +1355,11 @@
     "title": ""
     },
     {
-    "url": "assets/images/joga/gallery/gallery2.jpg",
+    "url": "assets/images/joga/gallery/gallery6.jpg",
     "title": ""
     },
     {
-    "url": "assets/images/joga/gallery/gallery3.jpg",
+    "url": "assets/images/joga/gallery/gallery19.jpg",
     "title": ""
     },
     {
@@ -1360,11 +1367,11 @@
     "title": ""
     },
     {
-    "url": "assets/images/joga/gallery/gallery5.jpg",
+    "url": "assets/images/joga/gallery/gallery2.jpg",
     "title": ""
     },
     {
-    "url": "assets/images/joga/gallery/gallery6.jpg",
+    "url": "assets/images/joga/gallery/gallery5.jpg",
     "title": ""
     },
     {
@@ -1396,11 +1403,11 @@
     "title": ""
     },
     {
-    "url": "assets/images/joga/gallery/gallery14.jpg",
+    "url": "assets/images/joga/gallery/gallery15.jpg",
     "title": ""
     },
     {
-    "url": "assets/images/joga/gallery/gallery15.jpg",
+    "url": "assets/images/joga/gallery/gallery14.jpg",
     "title": ""
     },
     {
@@ -1416,13 +1423,14 @@
     "title": ""
     },
     {
-    "url": "assets/images/joga/gallery/gallery19.jpg",
+    "url": "assets/images/joga/gallery/gallery3.jpg",
     "title": ""
     }
     ]
-    },
+    }
+    ],
     "created_at": "2018-10-08T22:38:29.428Z",
-    "updated_at": "2018-10-09T00:06:58.403Z"
+    "updated_at": "2018-10-15T22:15:25.620Z"
     }
     ],
     "_id": "5bbbdb8d5fc13600135316bd",
@@ -1685,6 +1693,58 @@
     "label": "Kontakt",
     "created_at": "2018-10-07T21:04:02.839Z",
     "updated_at": "2018-10-07T21:10:56.262Z"
+    },
+    {
+    "active": false,
+    "data": [
+    {
+    "_id": "5bc2611d7d95310013250660",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "list-r"
+    },
+    "content": {
+    "title": "REGULAMIN",
+    "text": "",
+    "items": [
+    "Każdy klient ma obowiązek zapoznania się z niniejszym regulaminem i jego przestrzegania.",
+    "W związku z rozpoczęciem stosowania z dniem 25 maja 2018 r. Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych, dalej: RODO) informujemy iż:",
+    [
+    "Administratorem Państwa danych osobowych jest RADEAL Radosław Chwast z siedzibą w Nowej Górze 295, 32-065 Krzeszowice, NIP: 5130170364, REGON: 122977430, zwany dalej „Karma Zdrowia”.",
+    "Kontakt z Administratorem możliwy jest na wskazany wyżej adres oraz pod numerem telefonu 500-424-737 i adresem e-mail 7mepoty@gmail.com.",
+    "Przetwarzane przez Administratora dane osobowe to: imię, nazwisko, numer telefonu, data urodzenia.",
+    "Państwa dane osobowe przetwarzane są przez Administratora w celu świadczenia usług związanych z poprawą zdrowia, kondycji fizycznej, doradztwem żywieniowym i/lub solarium oraz w jego własnych celach marketingowych - a podanie danych jest dobrowolne i nie jest niezbędne dla zawarcia i wykonania umów z Administratorem, lecz niezbędne do otrzymywania informacji o aktualnych ofertach i promocjach.",
+    "Dodatkowo, Państwa dane przetwarzane są w celu świadczenia usługi newslettera na podstawie art. 6 ust. 1 lit. a RODO. Newsletter wysyłany jest w formie wiadomości SMS na podany przez Państwa numer telefonu i zawiera informacje dotyczące: wydarzeń w Karma Zdrowia a także akcji promocyjnych przygotowanych przez Karma Zdrowia.",
+    "Państwa dane bez uprzedniego wyrażenia zgody nie są przekazywane osobom trzecim.",
+    "Administrator zobowiązuje się do zabezpieczenia przetwarzanych Państwa danych osobowych przed dostępem osób nieupoważnionych.",
+    "Przysługuje Państwu prawo dostępu do treści danych, prawo do ich sprostowania, usunięcia lub ograniczenia przetwarzania, prawo żądania zaprzestania przetwarzania i prawo przenoszenia danych, a także prawo do wniesienia skargi do organu nadzorczego tj. Prezesa Urzędu Ochrony Danych Osobowych.",
+    "Mogą Państwo wycofać zgodę na przetwarzanie Państwa danych w dowolnym momencie, co nie będzie miało jednak wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie zgody przed jej cofnięciem. Zgodę można wycofać kontaktując się z Administratorem w sposób wskazany w punkcie 2.2.",
+    "Mogą Państwo w dowolnym momencie wnieść sprzeciw wobec przetwarzania Państwa danych na potrzeby marketingu bezpośredniego, a Państwa dane nie będą więcej wykorzystywane w tym celu.",
+    "Dane osobowe będą przetwarzane do czasu cofnięcia przez Państwa udzielonej zgody."
+    ],
+    "Karma Zdrowia jest obiektem świadczącym usługi z zakresu: P-DTR, solarium, siłownia, body space, zajęcia grupowe fitness, zajęcia grupowe jogi, treningi personalne, porady żywieniowe, warsztaty oraz okazjonalne event’y sportowe. Wszystkie wyżej wymienione usługi są ujęte w cenniku klubu.",
+    "Z usług mogą korzystać osoby pełnoletnie lub niepełnoletnie w obecności opiekunów prawnych. Zakaz udostępniania solarium osobom, które nie ukończyły 18. roku życia (art. 5 ust. 1 ustawy z dnia 15 września 2017 r. o ochronie zdrowia przed następstwami korzystania z solarium).",
+    "Dla obsługi obiektu korzystanie z usług sportowych i solarium jest jednoznaczne z tym, iż klient nie ma żadnych przeciwwskazań lekarskich do wykonywaniu wysiłku fizycznego oraz opalania, jest on świadomy swojego stanu zdrowia oraz korzysta z usług z zachowaniem ostrożności i troski o swoje zdrowie. Z tego powodu zalecamy wykonywanie profilaktycznie badań lekarskich przynajmniej raz w roku. Wszelkie bieżące urazy lub stany chorobowe należy niezwłocznie zgłaszać obsłudze oraz trenerom. W przypadku pojawienia się zawrotów głowy lub innych nienormalnych objawów należy to natychmiast sygnalizować i przerwać ćwiczenie. Jeśli stan zdrowia danej osoby budzi wątpliwości obsługi klubu, Karma Zdrowia odmówi zrealizowania usługi do momentu dostarczenia kserokopii oświadczenia lekarskiego ze zgodą na wykonywanie ćwiczeń.",
+    "Każdy klient jest zobowiązany do nienaruszania spokoju i porządku w obiekcie oraz niezakłócania innym klientom możliwości korzystania z usług. Zabrania się na terenie obiektu palenia papierosów i spożywania alkoholu.",
+    "Każdy klient jest zobowiązany do korzystania z pomieszczeń i urządzeń zgodnie z ich przeznaczeniem, nie narażając ich na uszkodzenia. W przypadku spowodowania poważnej wady urządzenia, klient odpowiada finansowo.",
+    "Każdy klient jest zobowiązany do zmiany obuwia z czystą podeszwą przed wejściem na salę ćwiczeń.",
+    "Klub nie ponosi odpowiedzialności za pozostawione rzeczy w szatni, toalecie, przebieralni, poczekalni lub sali ćwiczeń. Prosimy o zachowanie uwagi i pilnowanie przedmiotów cennych.",
+    "Klient ma prawo do dokonania rezerwacji na zajęcia grupowe oraz Body Space. W przypadku nie anulowania rezerwacji i nie pojawienia się na czas wejście zostaje odnotowane, co skutkuje utratą treningu przez klienta. W przypadku powtarzania się takich sytuacji, klient może stracić prawo do rezerwacji miejsca.",
+    "Minimalna ilość osób na zajęciach grupowych wynosi 5. W przypadku nieuzbierania się wystarczającej ilości chętnych, obiekt zastrzega sobie prawo do odwołania zajęć o czym niezwłocznie powiadomi poprzez sms lub rozmowę telefoniczną osoby, które miały dokonaną rezerwację. Podobnie awaria Body Space skutkuje niezwłocznym powiadomieniem.",
+    "Obiekt zastrzega sobie prawo do wykonywania zdjęć i filmów do celów promocyjnych i umieszczaniu ich na stronie internetowej klubu.",
+    "Opłata za karnet/pakiet jest opłatą bezzwrotną. Każdy karnet/pakiet jest przypisany do jednej osoby i upoważnia do korzystania z określonych usług po promocyjnej cenie w określonym terminie ważności."
+    ]
+    },
+    "created_at": "2018-10-13T21:18:21.598Z",
+    "updated_at": "2018-10-13T21:18:21.598Z"
+    }
+    ],
+    "_id": "5bc259fc7d9531001325065c",
+    "name": "regulamin",
+    "label": "Regulamin",
+    "created_at": "2018-10-13T20:47:56.345Z",
+    "updated_at": "2018-10-13T21:23:53.005Z"
     }
     ],
     "_id": "5bbb5abff9288a0013a8e97e",
@@ -1698,7 +1758,7 @@
     },
     "description": "a",
     "created_at": "2018-10-08T13:25:19.896Z",
-    "updated_at": "2018-10-11T19:03:24.521Z"
+    "updated_at": "2018-10-13T21:20:25.599Z"
     },
     {
     "logo": "assets/logo/7me_logo.png",
@@ -1822,11 +1882,11 @@
     {
     "title": "Jak umówić się trening?",
     "lead": "",
-    "text": "Ustalenie terminu treningu personalnego odbywa się indywidualnie z trenerem. Treningi są prowadzone zarówno w godzinach porannych jak i wieczornych. Aby ustalić termin, skontaktuj się z trenerem telefonicznie dzwoniąc pod numer podany na stronie lub wysyłając sms-a, a odzwonimy do Ciebie z propozycją możliwie najszybciej dostępnego terminu. Jeśli masz pytania dotyczące treningu personalnego, planu treningowego lub planu żywieniowego, możesz bezpłatnie umówić się na konsultacje trenerskie. Odpowiemy na Twoje pytania i chętnie udzielimy rad, które zgodnie z naszą wiedzą i holistycznym podejściem do człowieka pomogą Ci osiągnąć sukces."
+    "text": "Ustalenie terminu treningu personalnego odbywa się indywidualnie z trenerem. Treningi są prowadzone zarówno w godzinach porannych jak i wieczornych. Aby ustalić termin, skontaktuj się z trenerem telefonicznie dzwoniąc pod numer podany na stronie lub wysyłając sms-a, a odzwonimy do Ciebie z propozycją możliwie najszybciej dostępnego terminu. Jeśli masz pytania dotyczące treningu personalnego, planu treningowego lub planu żywieniowego, możesz umówić się na konsultacje trenerskie. Odpowiemy na Twoje pytania i chętnie udzielimy rad, które zgodnie z naszą wiedzą i holistycznym podejściem do człowieka pomogą Ci osiągnąć sukces."
     }
     ],
     "created_at": "2018-10-11T19:52:02.585Z",
-    "updated_at": "2018-10-11T19:52:02.585Z"
+    "updated_at": "2018-10-15T06:12:57.603Z"
     }
     ],
     "_id": "5bbf9faaac59bb001319bb09",
@@ -2193,15 +2253,16 @@
     "styles": {
     "float": "left"
     },
-    "content": {
+    "content": [
+    {
     "title": "",
     "images": [
     {
-    "url": "assets/images/7me_poty/gallery/gallery1.jpg",
+    "url": "assets/images/7me_poty/gallery/gallery2.jpg",
     "title": ""
     },
     {
-    "url": "assets/images/7me_poty/gallery/gallery2.jpg",
+    "url": "assets/images/7me_poty/gallery/gallery1.jpg",
     "title": ""
     },
     {
@@ -2219,19 +2280,12 @@
     {
     "url": "assets/images/7me_poty/gallery/gallery6.jpg",
     "title": ""
-    },
-    {
-    "url": "assets/images/7me_poty/gallery/gallery7.jpg",
-    "title": ""
-    },
-    {
-    "url": "assets/images/7me_poty/gallery/gallery8.jpg",
-    "title": ""
     }
     ]
-    },
+    }
+    ],
     "created_at": "2018-10-11T20:54:38.178Z",
-    "updated_at": "2018-10-11T20:54:38.178Z"
+    "updated_at": "2018-10-15T22:17:31.778Z"
     }
     ],
     "_id": "5bbfb82cac59bb001319bb26",
@@ -2253,13 +2307,13 @@
     },
     "content": [
     {
-    "title": "Konsultacje żywieniow",
+    "title": "Konsultacje żywieniowe",
     "lead": "",
     "text": "Rozpisywanie zaleceń żywieniowych, wsparcie w procesie odchudzania i regulacja zdrowia za pomocą odpowiedniego sposobu odżywiania."
     }
     ],
     "created_at": "2018-10-11T21:11:22.705Z",
-    "updated_at": "2018-10-12T09:57:10.293Z"
+    "updated_at": "2018-10-14T09:36:25.359Z"
     },
     {
     "_id": "5bc0b9f91ba2b900132b97c4",
@@ -2653,6 +2707,58 @@
     "label": "Kontakt",
     "created_at": "2018-10-12T09:39:22.410Z",
     "updated_at": "2018-10-12T09:40:27.001Z"
+    },
+    {
+    "active": false,
+    "data": [
+    {
+    "_id": "5bc2611d7d95310013250660",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "list-r"
+    },
+    "content": {
+    "title": "REGULAMIN",
+    "text": "",
+    "items": [
+    "Każdy klient ma obowiązek zapoznania się z niniejszym regulaminem i jego przestrzegania.",
+    "W związku z rozpoczęciem stosowania z dniem 25 maja 2018 r. Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych, dalej: RODO) informujemy iż:",
+    [
+    "Administratorem Państwa danych osobowych jest RADEAL Radosław Chwast z siedzibą w Nowej Górze 295, 32-065 Krzeszowice, NIP: 5130170364, REGON: 122977430, zwany dalej „Karma Zdrowia”.",
+    "Kontakt z Administratorem możliwy jest na wskazany wyżej adres oraz pod numerem telefonu 500-424-737 i adresem e-mail 7mepoty@gmail.com.",
+    "Przetwarzane przez Administratora dane osobowe to: imię, nazwisko, numer telefonu, data urodzenia.",
+    "Państwa dane osobowe przetwarzane są przez Administratora w celu świadczenia usług związanych z poprawą zdrowia, kondycji fizycznej, doradztwem żywieniowym i/lub solarium oraz w jego własnych celach marketingowych - a podanie danych jest dobrowolne i nie jest niezbędne dla zawarcia i wykonania umów z Administratorem, lecz niezbędne do otrzymywania informacji o aktualnych ofertach i promocjach.",
+    "Dodatkowo, Państwa dane przetwarzane są w celu świadczenia usługi newslettera na podstawie art. 6 ust. 1 lit. a RODO. Newsletter wysyłany jest w formie wiadomości SMS na podany przez Państwa numer telefonu i zawiera informacje dotyczące: wydarzeń w Karma Zdrowia a także akcji promocyjnych przygotowanych przez Karma Zdrowia.",
+    "Państwa dane bez uprzedniego wyrażenia zgody nie są przekazywane osobom trzecim.",
+    "Administrator zobowiązuje się do zabezpieczenia przetwarzanych Państwa danych osobowych przed dostępem osób nieupoważnionych.",
+    "Przysługuje Państwu prawo dostępu do treści danych, prawo do ich sprostowania, usunięcia lub ograniczenia przetwarzania, prawo żądania zaprzestania przetwarzania i prawo przenoszenia danych, a także prawo do wniesienia skargi do organu nadzorczego tj. Prezesa Urzędu Ochrony Danych Osobowych.",
+    "Mogą Państwo wycofać zgodę na przetwarzanie Państwa danych w dowolnym momencie, co nie będzie miało jednak wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie zgody przed jej cofnięciem. Zgodę można wycofać kontaktując się z Administratorem w sposób wskazany w punkcie 2.2.",
+    "Mogą Państwo w dowolnym momencie wnieść sprzeciw wobec przetwarzania Państwa danych na potrzeby marketingu bezpośredniego, a Państwa dane nie będą więcej wykorzystywane w tym celu.",
+    "Dane osobowe będą przetwarzane do czasu cofnięcia przez Państwa udzielonej zgody."
+    ],
+    "Karma Zdrowia jest obiektem świadczącym usługi z zakresu: P-DTR, solarium, siłownia, body space, zajęcia grupowe fitness, zajęcia grupowe jogi, treningi personalne, porady żywieniowe, warsztaty oraz okazjonalne event’y sportowe. Wszystkie wyżej wymienione usługi są ujęte w cenniku klubu.",
+    "Z usług mogą korzystać osoby pełnoletnie lub niepełnoletnie w obecności opiekunów prawnych. Zakaz udostępniania solarium osobom, które nie ukończyły 18. roku życia (art. 5 ust. 1 ustawy z dnia 15 września 2017 r. o ochronie zdrowia przed następstwami korzystania z solarium).",
+    "Dla obsługi obiektu korzystanie z usług sportowych i solarium jest jednoznaczne z tym, iż klient nie ma żadnych przeciwwskazań lekarskich do wykonywaniu wysiłku fizycznego oraz opalania, jest on świadomy swojego stanu zdrowia oraz korzysta z usług z zachowaniem ostrożności i troski o swoje zdrowie. Z tego powodu zalecamy wykonywanie profilaktycznie badań lekarskich przynajmniej raz w roku. Wszelkie bieżące urazy lub stany chorobowe należy niezwłocznie zgłaszać obsłudze oraz trenerom. W przypadku pojawienia się zawrotów głowy lub innych nienormalnych objawów należy to natychmiast sygnalizować i przerwać ćwiczenie. Jeśli stan zdrowia danej osoby budzi wątpliwości obsługi klubu, Karma Zdrowia odmówi zrealizowania usługi do momentu dostarczenia kserokopii oświadczenia lekarskiego ze zgodą na wykonywanie ćwiczeń.",
+    "Każdy klient jest zobowiązany do nienaruszania spokoju i porządku w obiekcie oraz niezakłócania innym klientom możliwości korzystania z usług. Zabrania się na terenie obiektu palenia papierosów i spożywania alkoholu.",
+    "Każdy klient jest zobowiązany do korzystania z pomieszczeń i urządzeń zgodnie z ich przeznaczeniem, nie narażając ich na uszkodzenia. W przypadku spowodowania poważnej wady urządzenia, klient odpowiada finansowo.",
+    "Każdy klient jest zobowiązany do zmiany obuwia z czystą podeszwą przed wejściem na salę ćwiczeń.",
+    "Klub nie ponosi odpowiedzialności za pozostawione rzeczy w szatni, toalecie, przebieralni, poczekalni lub sali ćwiczeń. Prosimy o zachowanie uwagi i pilnowanie przedmiotów cennych.",
+    "Klient ma prawo do dokonania rezerwacji na zajęcia grupowe oraz Body Space. W przypadku nie anulowania rezerwacji i nie pojawienia się na czas wejście zostaje odnotowane, co skutkuje utratą treningu przez klienta. W przypadku powtarzania się takich sytuacji, klient może stracić prawo do rezerwacji miejsca.",
+    "Minimalna ilość osób na zajęciach grupowych wynosi 5. W przypadku nieuzbierania się wystarczającej ilości chętnych, obiekt zastrzega sobie prawo do odwołania zajęć o czym niezwłocznie powiadomi poprzez sms lub rozmowę telefoniczną osoby, które miały dokonaną rezerwację. Podobnie awaria Body Space skutkuje niezwłocznym powiadomieniem.",
+    "Obiekt zastrzega sobie prawo do wykonywania zdjęć i filmów do celów promocyjnych i umieszczaniu ich na stronie internetowej klubu.",
+    "Opłata za karnet/pakiet jest opłatą bezzwrotną. Każdy karnet/pakiet jest przypisany do jednej osoby i upoważnia do korzystania z określonych usług po promocyjnej cenie w określonym terminie ważności."
+    ]
+    },
+    "created_at": "2018-10-13T21:18:21.598Z",
+    "updated_at": "2018-10-13T21:18:21.598Z"
+    }
+    ],
+    "_id": "5bc259fc7d9531001325065c",
+    "name": "regulamin",
+    "label": "Regulamin",
+    "created_at": "2018-10-13T20:47:56.345Z",
+    "updated_at": "2018-10-13T21:23:53.005Z"
     }
     ],
     "_id": "5bbf69bfac59bb001319bb03",
@@ -2660,7 +2766,7 @@
     "label": "7mepoty Centrum Treningowe",
     "description": "a",
     "created_at": "2018-10-11T15:18:23.309Z",
-    "updated_at": "2018-10-12T09:41:52.721Z",
+    "updated_at": "2018-10-13T21:20:33.152Z",
     "style": {
     "colors": {
     "primary": "#e10886",
@@ -2689,13 +2795,13 @@
     },
     "content": [
     {
-    "title": "Konsultacje żywieniow",
+    "title": "Konsultacje żywieniowe",
     "lead": "",
     "text": "Rozpisywanie zaleceń żywieniowych, wsparcie w procesie odchudzania i regulacja zdrowia za pomocą odpowiedniego sposobu odżywiania."
     }
     ],
     "created_at": "2018-10-12T09:58:03.251Z",
-    "updated_at": "2018-10-12T09:58:03.251Z"
+    "updated_at": "2018-10-14T09:37:47.464Z"
     }
     ],
     "_id": "5bc06f9432269d0013c99cd7",
@@ -2854,7 +2960,8 @@
     "styles": {
     "float": "left"
     },
-    "content": {
+    "content": [
+    {
     "title": "",
     "images": [
     {
@@ -2866,9 +2973,10 @@
     "title": ""
     }
     ]
-    },
+    }
+    ],
     "created_at": "2018-10-12T10:16:29.797Z",
-    "updated_at": "2018-10-12T10:16:29.797Z"
+    "updated_at": "2018-10-13T20:42:01.673Z"
     }
     ],
     "_id": "5bc0717732269d0013c99cdc",
@@ -3328,6 +3436,58 @@
     "label": "Kontakt",
     "created_at": "2018-10-07T21:04:02.839Z",
     "updated_at": "2018-10-07T21:10:56.262Z"
+    },
+    {
+    "active": false,
+    "data": [
+    {
+    "_id": "5bc2611d7d95310013250660",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "list-r"
+    },
+    "content": {
+    "title": "REGULAMIN",
+    "text": "",
+    "items": [
+    "Każdy klient ma obowiązek zapoznania się z niniejszym regulaminem i jego przestrzegania.",
+    "W związku z rozpoczęciem stosowania z dniem 25 maja 2018 r. Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych, dalej: RODO) informujemy iż:",
+    [
+    "Administratorem Państwa danych osobowych jest RADEAL Radosław Chwast z siedzibą w Nowej Górze 295, 32-065 Krzeszowice, NIP: 5130170364, REGON: 122977430, zwany dalej „Karma Zdrowia”.",
+    "Kontakt z Administratorem możliwy jest na wskazany wyżej adres oraz pod numerem telefonu 500-424-737 i adresem e-mail 7mepoty@gmail.com.",
+    "Przetwarzane przez Administratora dane osobowe to: imię, nazwisko, numer telefonu, data urodzenia.",
+    "Państwa dane osobowe przetwarzane są przez Administratora w celu świadczenia usług związanych z poprawą zdrowia, kondycji fizycznej, doradztwem żywieniowym i/lub solarium oraz w jego własnych celach marketingowych - a podanie danych jest dobrowolne i nie jest niezbędne dla zawarcia i wykonania umów z Administratorem, lecz niezbędne do otrzymywania informacji o aktualnych ofertach i promocjach.",
+    "Dodatkowo, Państwa dane przetwarzane są w celu świadczenia usługi newslettera na podstawie art. 6 ust. 1 lit. a RODO. Newsletter wysyłany jest w formie wiadomości SMS na podany przez Państwa numer telefonu i zawiera informacje dotyczące: wydarzeń w Karma Zdrowia a także akcji promocyjnych przygotowanych przez Karma Zdrowia.",
+    "Państwa dane bez uprzedniego wyrażenia zgody nie są przekazywane osobom trzecim.",
+    "Administrator zobowiązuje się do zabezpieczenia przetwarzanych Państwa danych osobowych przed dostępem osób nieupoważnionych.",
+    "Przysługuje Państwu prawo dostępu do treści danych, prawo do ich sprostowania, usunięcia lub ograniczenia przetwarzania, prawo żądania zaprzestania przetwarzania i prawo przenoszenia danych, a także prawo do wniesienia skargi do organu nadzorczego tj. Prezesa Urzędu Ochrony Danych Osobowych.",
+    "Mogą Państwo wycofać zgodę na przetwarzanie Państwa danych w dowolnym momencie, co nie będzie miało jednak wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie zgody przed jej cofnięciem. Zgodę można wycofać kontaktując się z Administratorem w sposób wskazany w punkcie 2.2.",
+    "Mogą Państwo w dowolnym momencie wnieść sprzeciw wobec przetwarzania Państwa danych na potrzeby marketingu bezpośredniego, a Państwa dane nie będą więcej wykorzystywane w tym celu.",
+    "Dane osobowe będą przetwarzane do czasu cofnięcia przez Państwa udzielonej zgody."
+    ],
+    "Karma Zdrowia jest obiektem świadczącym usługi z zakresu: P-DTR, solarium, siłownia, body space, zajęcia grupowe fitness, zajęcia grupowe jogi, treningi personalne, porady żywieniowe, warsztaty oraz okazjonalne event’y sportowe. Wszystkie wyżej wymienione usługi są ujęte w cenniku klubu.",
+    "Z usług mogą korzystać osoby pełnoletnie lub niepełnoletnie w obecności opiekunów prawnych. Zakaz udostępniania solarium osobom, które nie ukończyły 18. roku życia (art. 5 ust. 1 ustawy z dnia 15 września 2017 r. o ochronie zdrowia przed następstwami korzystania z solarium).",
+    "Dla obsługi obiektu korzystanie z usług sportowych i solarium jest jednoznaczne z tym, iż klient nie ma żadnych przeciwwskazań lekarskich do wykonywaniu wysiłku fizycznego oraz opalania, jest on świadomy swojego stanu zdrowia oraz korzysta z usług z zachowaniem ostrożności i troski o swoje zdrowie. Z tego powodu zalecamy wykonywanie profilaktycznie badań lekarskich przynajmniej raz w roku. Wszelkie bieżące urazy lub stany chorobowe należy niezwłocznie zgłaszać obsłudze oraz trenerom. W przypadku pojawienia się zawrotów głowy lub innych nienormalnych objawów należy to natychmiast sygnalizować i przerwać ćwiczenie. Jeśli stan zdrowia danej osoby budzi wątpliwości obsługi klubu, Karma Zdrowia odmówi zrealizowania usługi do momentu dostarczenia kserokopii oświadczenia lekarskiego ze zgodą na wykonywanie ćwiczeń.",
+    "Każdy klient jest zobowiązany do nienaruszania spokoju i porządku w obiekcie oraz niezakłócania innym klientom możliwości korzystania z usług. Zabrania się na terenie obiektu palenia papierosów i spożywania alkoholu.",
+    "Każdy klient jest zobowiązany do korzystania z pomieszczeń i urządzeń zgodnie z ich przeznaczeniem, nie narażając ich na uszkodzenia. W przypadku spowodowania poważnej wady urządzenia, klient odpowiada finansowo.",
+    "Każdy klient jest zobowiązany do zmiany obuwia z czystą podeszwą przed wejściem na salę ćwiczeń.",
+    "Klub nie ponosi odpowiedzialności za pozostawione rzeczy w szatni, toalecie, przebieralni, poczekalni lub sali ćwiczeń. Prosimy o zachowanie uwagi i pilnowanie przedmiotów cennych.",
+    "Klient ma prawo do dokonania rezerwacji na zajęcia grupowe oraz Body Space. W przypadku nie anulowania rezerwacji i nie pojawienia się na czas wejście zostaje odnotowane, co skutkuje utratą treningu przez klienta. W przypadku powtarzania się takich sytuacji, klient może stracić prawo do rezerwacji miejsca.",
+    "Minimalna ilość osób na zajęciach grupowych wynosi 5. W przypadku nieuzbierania się wystarczającej ilości chętnych, obiekt zastrzega sobie prawo do odwołania zajęć o czym niezwłocznie powiadomi poprzez sms lub rozmowę telefoniczną osoby, które miały dokonaną rezerwację. Podobnie awaria Body Space skutkuje niezwłocznym powiadomieniem.",
+    "Obiekt zastrzega sobie prawo do wykonywania zdjęć i filmów do celów promocyjnych i umieszczaniu ich na stronie internetowej klubu.",
+    "Opłata za karnet/pakiet jest opłatą bezzwrotną. Każdy karnet/pakiet jest przypisany do jednej osoby i upoważnia do korzystania z określonych usług po promocyjnej cenie w określonym terminie ważności."
+    ]
+    },
+    "created_at": "2018-10-13T21:18:21.598Z",
+    "updated_at": "2018-10-13T21:18:21.598Z"
+    }
+    ],
+    "_id": "5bc259fc7d9531001325065c",
+    "name": "regulamin",
+    "label": "Regulamin",
+    "created_at": "2018-10-13T20:47:56.345Z",
+    "updated_at": "2018-10-13T21:23:53.005Z"
     }
     ],
     "_id": "5bc06eaf32269d0013c99cd5",
@@ -3341,6 +3501,6 @@
     },
     "description": "a",
     "created_at": "2018-10-12T09:51:43.916Z",
-    "updated_at": "2018-10-12T10:42:55.478Z"
+    "updated_at": "2018-10-13T21:20:42.513Z"
     }
     ]
