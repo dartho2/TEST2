@@ -763,6 +763,9 @@ position: fixed;
 .fa-phone:before {
   padding: 10px;
 }
+.fa {
+  padding-left: 9px;
+}
   .navbar-header-bot {
     /* background-color: #f3f3f3; */
     background: #ffffff7a;
