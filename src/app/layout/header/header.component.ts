@@ -16,13 +16,20 @@ export class HeaderComponent implements OnInit {
   constructor(public portals: PortalComponent) { }
 
   ngOnInit() {
-    $(document).ready(function () {
-      $(".navbar-nav li a").click(function (event) {
-        if (!$(this).parent().hasClass('dropdown'))
-          $(".navbar-collapse").collapse('hide');
-      });
-    })
-    
+    this.change();
+  
   }
+  onHiddenMe(){
+    this.change();
+  }
+  change(){
+    $(document).ready(function () {
+    $(".navbar-nav li a").click(function (event) {
+      if (!$(this).parent().hasClass('dropdown'))
+        $(".navbar-collapse").collapse('hide');
+    })
+  });
+  }
+ 
 
 }

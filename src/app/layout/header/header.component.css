@@ -1,3 +1,10 @@
+a.mat-button.btn.mat-button{
+  font-family: 'Oswald',sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
 .navbar-light .navbar-nav .nav-link {
   color: white;
 }
@@ -526,6 +533,12 @@ body {
       z-index: 1035;
   
     }
+    li.nav-item {
+      font-family: 'Oswald',sans-serif;
+      font-size: 14px;
+      font-weight: 200;
+      letter-spacing: 1px;
+    }
   
     .navbar-dark .navbar-nav .nav-link:hover {
       color: white;
@@ -624,7 +637,8 @@ body {
   .widget-facebook .slideout-widget-handler,
   .widget-facebook .slideout-widget-content {
     background: #3c5b9b;
-    border: none;
+    border: 1px solid white;
+    /* border: none; */
   }
   
   .widget-facebook,
@@ -746,7 +760,7 @@ position: fixed;
 
   .navbar-header-bot {
     /* background-color: #f3f3f3; */
-    background: transparent;
+    background: #ffffff7a;
     z-index:1;
   }
   .view {
@@ -762,7 +776,7 @@ position: fixed;
   }
   .carousel {
     position: relative;
-  
+    margin-top: -120px;
 }
   
   
