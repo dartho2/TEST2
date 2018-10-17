@@ -27,7 +27,7 @@
 
 
 <div [ngClass]="data.styles.text_type" *ngIf="data.styles.text_type === 'block-o-t'" class="col-md-12">
-  <h2 [ngStyle]="{'background': portals.portal.style.colors.primary}" *ngIf="data.content.title" class="fit-p-on-title col-sm-12">{{data.content.title}}</h2>
+  <h2  *ngIf="data.content.title" class="fit-p-on-title col-sm-12">{{data.content.title}}</h2>
   <div class="col-md-6" [ngStyle]="{'float': data.styles.float}" [ngClass]="data.styles.text_type">
     <p class="lead">
       {{data.content.text}} </p>
@@ -45,7 +45,7 @@
 
 
 <div [ngClass]="data.styles.text_type" *ngIf="data.styles.text_type === 'block-o'" class="col-md-12">
-  <h2 [ngStyle]="{'background': portals.portal.style.colors.primary}" *ngIf="data.content.title" class="fit-p-on-title col-sm-12">{{data.content.title}}</h2>
+  <h2 *ngIf="data.content.title" class="fit-p-on-title col-sm-12">{{data.content.title}}</h2>
   <div class="col-md-6" [ngStyle]="{'float': data.styles.float}" [ngClass]="data.styles.text_type">
     <p class="lead">
       {{data.content.text}} </p>

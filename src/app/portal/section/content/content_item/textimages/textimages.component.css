@@ -55,7 +55,9 @@ p.fit-p-on-image {
   float: right !important;
 }
 .fit-p-on-title {
-  color:white;
+  /* color:white; */
+  color: black;
+    font-family: OSWALD;
   /* padding: 10px; */
 }
 .fit-p-on-text {
@@ -111,7 +113,7 @@ p.fit-p-on-image {
     background: #e10886; */
     padding: 6px;
     text-align: center;
-    color: white;
+    /* color: white; */
 
 }
 .block_box {
