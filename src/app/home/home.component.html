@@ -1,50 +1,107 @@
-<!-- <main role="main">
-  <app-portal *ngIf="isActivePortalValid()" [portals]='portals'></app-portal>
-  <div *ngIf="!isActivePortalValid()">
-    <div *ngFor="let portal of portals">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/{{portal.name}}/{{portal.sections.length > 0 ? portal.sections[0].name : ''}}">{{portal.label}}</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</main> -->
 <app-portal *ngIf="isActivePortalValid()" [portals]='portals'></app-portal>
-    <div *ngIf="!isActivePortalValid()" class="container" style="padding: 0px; margin: 0px;">	
-     
-      <div id="bl-main" class="bl-main">
-				<section [ngStyle]="{'background-image': 'url('+portal.images_top[1]+')'}"style="background-position: center;border: 17px solid white;
-        background-repeat: no-repeat;
-        background-size: cover;"  *ngFor="let portal of portals">
-            <a class="nav-link" style=" 
-            font-family: OSWALD;   width: 100%;
-            height: 100%;
-            position: relative;
-            background: black;
-            z-index: 2;
-            opacity: 0.7;"routerLink="/{{portal.name}}/{{portal.sections.length > 0 ? portal.sections[0].name : ''}}">
-					<div class="bl-box" style="
-          font-size: 6vmin;
-          text-align: center;
-     ">{{portal.label}}
-     <!-- <img class="featurette-image img-fluid mx-auto" style="" data-src="holder.js/500x500/auto" alt="500x500" src="{{portal.image}}"
-              data-holder-rendered="true"
-             > -->
-						<!-- <h2 class="bl-icon bl-icon-about"></h2> -->
-					</div>
-					<div class="bl-content">
-              <!-- <img class="featurette-image img-fluid mx-auto" style="width:100%;padding:3px;" data-src="holder.js/500x500/auto" alt="500x500" src="{{portal.images_top[1]}}"
-              data-holder-rendered="true"
-             > -->
-					</div>
-					<span class="bl-icon bl-icon-close"></span></a>
-				</section>
-			
-				</div>
-			</div>
-	<!-- /container -->
-		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script src="js/boxlayout.js"></script> -->
-	
+<div *ngIf="!isActivePortalValid()" class="container" style="padding: 0px; margin: 0px;">
 
+  <div id="bl-main" class="bl-main">
+    <section style="background-position: center;border: 1px solid white;
+        background-repeat: no-repeat;
+        background-size: cover;"
+      *ngFor="let portal of portals">
+      <!-- <a class="nav-link" style=" 
+             width: 100%;
+            height: 100%;
+            font-size: 24px;
+    line-height: 44px;
+            position: relative;
+            /* background: black; */
+            z-index: 2;
+            opacity: 0.7;"
+        routerLink="/{{portal.name}}/{{portal.sections.length > 0 ? portal.sections[0].name : ''}}">
+       -->
+      <a class="nav-link" routerLink="/{{portal.name}}/{{portal.sections.length > 0 ? portal.sections[0].name : ''}}">
+
+        <!--   <img class="portal-visible" src="{{portal.logo}}" style="width:50vh">
+          <span class="span-visible" style="color:black; font-family: OSWALD;
+      font-size: 2rem;">{{portal.label}}</span>
+          {{portal.description}} -->
+
+        <div class="box">
+          <svg class="curve1" x="0px" y="0px" viewBox="0 0 400 200">
+            <path d="M398.938,143.806c-24.004,26.063-155.373,104.33-224.724,7.328 C69.626,4.846,0.5,71.583,0.5,71.583V1.5h398.629L398.938,143.806z"></path>
+          </svg>
+          <img src="{{portal.images_top[1]}}" alt="">
+          <div class="" style="
+                          font-size: 6vmin;
+    text-align: center;
+    top: 34%;
+    margin: 0 auto;
+    position: absolute;
+    /* top: 0px; */
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+                     ">{{portal.label}}</div>
+          <div class="box-content">
+            <h3 class="title"><img class="" src="{{portal.logo}}" style="width:20vh;-webkit-filter: unset;
+                                 filter: unset;"></h3>
+            <span class="post" style="font-size:1rem">{{portal.label}}</span>
+            <ul class="icon">
+              <li><a href="#"><i class="fa fa-search"></i></a></li>
+              <li><a href="#"><i class="fa fa-link"></i></a></li>
+            </ul>
+            <span class="post" style="font-size:1rem; text-align: right"> {{portal.description}}</span>
+          </div>
+          <svg class="curve2" x="0px" y="0px" width="150px" height="150px" viewBox="0 0 150 50">
+            <path d="M1.114,7.567C87.544-33.817,150,150.5,150,150.5H1.361L1.114,7.567z"></path>
+          </svg>
+        </div>
+
+        <!-- <div class="box21">
+                          <img class="" src="{{portal.images_top[1]}}" style="">
+                          <div class="box-content">
+                              <h3 class="title">willimson</h3>
+                              <span class="post">web designer</span>
+                          </div>
+                          <ul class="icon">
+                              <li><a href="#"><i class="fa fa-plus"></i></a></li>
+                              <li><a href="#"><i class="fa fa-link"></i></a></li>
+                          </ul>
+                      </div> -->
+
+
+      </a>
+      <!-- </a> -->
+    </section>
+
+  </div>
+</div>
+<!-- <app-portal *ngIf="isActivePortalValid()" [portals]='portals'></app-portal>
+<div *ngIf="!isActivePortalValid()" class="" style="padding: 0px; margin: 0px;">
+<div class="wrapper" id="wrapper" data-reactroot="" data-browser="chrome" data-browser-version="69" data-os="windows">
+  <div class="global-nav-background global-nav-background--open global-nav-background--active"><button aria-hidden="true"
+      class="global-nav__hit-area" tabindex="-1"></button>
+    <div aria-atomic="true" aria-live="off" class="a11y-hint" role="status"></div><button class="h-logo h-logo--opened"
+      id="header-logo-huge" tabindex="0">
+      <div class="a11y-hint">Huge logo. Click to open navigation.</div>
+      <div class="h-logo--wink" style="background-image:url(//images.ctfassets.net/fiz3jwws2um7/57mQrUMgmAQcEiu4mYKECA/46ed674eaf0bb26f396e4eccb64fa691/hwink_sequence.png?h=148)"></div>Karma Zdrowia
+    </button>
+    <div class="global-content-vertical-fix global-content-vertical-fix--shrink">
+      <div class="global-content-wrapper global-content-wrapper--shrink" id="global-content-wrapper"><span>
+      
+          
+        </span></div>
+    </div>
+    <div class="global-nav-wrapper global-nav-wrapper--open">
+      <nav aria-hidden="false" class="global-nav global-nav--open">
+        <a  *ngFor="let portal of portals" class="col-md-6 global-nav-item global-nav-item"
+        routerLink="/{{portal.name}}/{{portal.sections.length > 0 ? portal.sections[0].name : ''}}">
+          <div class="global-nav-item__label">{{portal.label}}</div>
+          <hr class="global-nav-item__rule">
+          <div class="global-nav-item__description"><img src="{{portal.logo}}" style="width:100%"></div>
+        </a>
+        </nav>
+      
+    </div>
+    
+  </div>
+</div>
+</div> -->

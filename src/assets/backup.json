@@ -8,7 +8,7 @@
     "active": true,
     "sections": [
     {
-    "active": true,
+    "active": false,
     "data": [
     {
     "_id": "5bb79662090d79001392f16f",
@@ -31,9 +31,9 @@
     ],
     "_id": "5bb77b765aece300133080fc",
     "name": "news",
-    "label": "Aktualności",
+    "label": "O Nas",
     "created_at": "2018-10-05T14:55:50.208Z",
-    "updated_at": "2018-10-06T19:32:13.388Z"
+    "updated_at": "2018-10-17T09:15:49.760Z"
     },
     {
     "active": true,
@@ -404,10 +404,13 @@
     "title": "Maja Bednarczyk",
     "lead": "",
     "image": "assets/images/treners/Maja.jpg",
-    "text": "Specjalista metody P-DTR, trener personalny z wieloletnim doświadczeniem, dyplomowany nauczyciel jogi, Od lat jestem zainteresowana holistycznym podejściem do zdrowia fizycznego i psychicznego człowieka. Zaowocowało to ukończeniem kilkudziesięciu kursów i szkoleń z zakresu dietetyki, fizjologii, anatomii, systemów treningowych oraz niekonwencjonalnych metod. Pracę z klientem indywidualnym zaczęłam jako trener personalny w 2013 roku prowadząc w większości osoby z problemami zdrowotnymi. W tym samym czasie rozwijałam się na polu nauczyciela jogi o specjalizacji Hatha Yoga, oraz prowadziłam zajęcia grupowe takie jak Zdrowy Kręgosłup, Pilates i Trening Funkcjonalny. Szczególnie mocno skupiłam się w tym czasie na treningach funkcjonalnych i miałam przyjemność stanąć dwukrotnie na Konwencji Fitness jako Prezenter i Szkoleniowiec w Euro Fitness School z Bielska Białej w 2016 roku obok wielu świetnych Trenerów z Polski i z Europy. Rok później podobną współpracę zaczęłam ze Szkołą Instruktorów Fitness w Krakowie. Szkolenie młodych instruktorów fitness sprawiało mi dużą frajdę i dało wiele ciekawych doświadczeń oraz lekcji – tym razem to ja miałam przekazywać wiedzę, a nie ją brać. Ta zmiana perspektywy dużo mnie nauczyła. Po kilku latach pracy w zawodzie trenera personalnego i instruktora fitness, trafiłam przypadkiem na P-DTR czyli proprioceptywną terapię odruchową. Pierwsze wrażenie jakie zrobiła na mnie ta metoda było piorunujące – istna magia na dodatek z natychmiastowym efektem! Parę miesięcy później siedziałam już jako student na pierwszym module rocznego szkolenia u twórcy metody dr Jose Palomara (Meksyk). Sądzę, że już wtedy przeczuwałam, że P-DTR zmieni moje życie. Z bycia trenerem i promotorem zdrowego jedzenia i aktywnego stylu życia, stałam się Praktykiem metody P-DTR na poziomie zaawansowanym, aktywnie zainteresowaną neurologią, psychosomatyką i kinezjologią. Dawne zainteresowania i praca trenera oraz prowadzącego lekcje grupowe zmieniły kontekst i nabrały nowej jakości. Dzisiaj z ogromną przyjemnością dzielę potencjał metody P-DTR ze swoimi Klientami i samodzielnie rozwijam własne narzędzia w poszukiwaniu priorytetowych dysfunkcji receptorów w układzie nerwowym, pomagając w takich dolegliwościach jak: bóle, ograniczenia ruchowe, stany napięciowe pochodzenia emocjonalnego, problemy psychosomatyczne i inne. Prowadzę treningi personalne mając nowe spojrzenie na ludzkie ciało i jego potrzeby, rozpisuję diety indywidualnie dobrane na podstawie testów żywieniowych i uczę jogi na kilku poziomach trudności. Moja droga nie była najkrótszą z możliwych, ale mam wrażenie, że najlepszą z możliwych. Zapraszam serdeczne!"
+    "text": "Specjalista metody P-DTR, trener personalny z wieloletnim doświadczeniem, dyplomowany nauczyciel jogi, Od lat jestem zainteresowana holistycznym podejściem do zdrowia fizycznego i psychicznego człowieka. Zaowocowało to ukończeniem kilkudziesięciu kursów i szkoleń z zakresu dietetyki, fizjologii, anatomii, systemów treningowych oraz niekonwencjonalnych metod. Pracę z klientem indywidualnym zaczęłam jako trener personalny w 2013 roku prowadząc w większości osoby z problemami zdrowotnymi. W tym samym czasie rozwijałam się na polu nauczyciela jogi o specjalizacji Hatha Yoga, oraz prowadziłam zajęcia grupowe takie jak Zdrowy Kręgosłup, Pilates i Trening Funkcjonalny. Szczególnie mocno skupiłam się w tym czasie na treningach funkcjonalnych i miałam przyjemność stanąć dwukrotnie na Konwencji Fitness jako Prezenter i Szkoleniowiec w Euro Fitness School z Bielska Białej w 2016 roku obok wielu świetnych Trenerów z Polski i z Europy. Rok później podobną współpracę zaczęłam ze Szkołą Instruktorów Fitness w Krakowie. Szkolenie młodych instruktorów fitness sprawiało mi dużą frajdę i dało wiele ciekawych doświadczeń oraz lekcji – tym razem to ja miałam przekazywać wiedzę, a nie ją brać. Ta zmiana perspektywy dużo mnie nauczyła. Po kilku latach pracy w zawodzie trenera personalnego i instruktora fitness, trafiłam przypadkiem na P-DTR czyli proprioceptywną terapię odruchową. Pierwsze wrażenie jakie zrobiła na mnie ta metoda było piorunujące – istna magia na dodatek z natychmiastowym efektem! Parę miesięcy później siedziałam już jako student na pierwszym module rocznego szkolenia u twórcy metody dr Jose Palomara (Meksyk). Sądzę, że już wtedy przeczuwałam, że P-DTR zmieni moje życie. Z bycia trenerem i promotorem zdrowego jedzenia i aktywnego stylu życia, stałam się Praktykiem metody P-DTR na poziomie zaawansowanym, aktywnie zainteresowaną neurologią, psychosomatyką i kinezjologią. Dawne zainteresowania i praca trenera oraz prowadzącego lekcje grupowe zmieniły kontekst i nabrały nowej jakości. Dzisiaj z ogromną przyjemnością dzielę potencjał metody P-DTR ze swoimi Klientami i samodzielnie rozwijam własne narzędzia w poszukiwaniu priorytetowych dysfunkcji receptorów w układzie nerwowym, pomagając w takich dolegliwościach jak: bóle, ograniczenia ruchowe, stany napięciowe pochodzenia emocjonalnego, problemy psychosomatyczne i inne. Prowadzę treningi personalne mając nowe spojrzenie na ludzkie ciało i jego potrzeby, rozpisuję diety indywidualnie dobrane na podstawie testów żywieniowych i uczę jogi na kilku poziomach trudności. Moja droga nie była najkrótszą z możliwych, ale mam wrażenie, że najlepszą z możliwych. Zapraszam serdeczne!",
+    "references": "/pdtr/references",
+    "email": "moja_maja@Maja.pl",
+    "phone": "123123123"
     },
     "created_at": "2018-10-06T23:20:35.883Z",
-    "updated_at": "2018-10-06T23:20:35.883Z"
+    "updated_at": "2018-10-17T14:07:48.966Z"
     }
     ],
     "_id": "5bb9311b36bed60013057c86",
@@ -475,7 +478,7 @@
     "updated_at": "2018-10-07T20:59:03.213Z"
     },
     {
-    "active": true,
+    "active": false,
     "data": [
     {
     "_id": "5bba756f06ba3f0013edfcde",
@@ -495,7 +498,7 @@
     "name": "contact",
     "label": "Kontakt",
     "created_at": "2018-10-07T21:04:02.839Z",
-    "updated_at": "2018-10-07T21:10:56.262Z"
+    "updated_at": "2018-10-17T09:13:03.275Z"
     },
     {
     "active": false,
@@ -552,7 +555,7 @@
     ],
     "_id": "5bb779ec0967770013945972",
     "name": "pdtr",
-    "label": "Gabinet P-DTR",
+    "label": "Gabinet P-DTRs",
     "style": {
     "colors": {
     "primary": "#0a6996",
@@ -560,7 +563,7 @@
     }
     },
     "created_at": "2018-10-05T14:49:16.556Z",
-    "updated_at": "2018-10-13T21:20:16.970Z"
+    "updated_at": "2018-10-17T17:32:36.577Z"
     },
     {
     "logo": "assets/logo/studio_yogi_logo.png",
@@ -571,7 +574,7 @@
     "active": true,
     "sections": [
     {
-    "active": true,
+    "active": false,
     "data": [
     {
     "_id": "5bbb6d87f9288a0013a8e981",
@@ -594,9 +597,9 @@
     ],
     "_id": "5bbb6726f9288a0013a8e980",
     "name": "news_y",
-    "label": "Aktualności",
+    "label": "O Nas",
     "created_at": "2018-10-08T14:18:14.666Z",
-    "updated_at": "2018-10-08T14:45:58.914Z"
+    "updated_at": "2018-10-16T22:23:15.751Z"
     },
     {
     "active": true,
@@ -891,9 +894,9 @@
     ],
     "_id": "5bbb6e11f9288a0013a8e982",
     "name": "what_is_yoga",
-    "label": "Czym jest joga?",
+    "label": "O Jodze",
     "created_at": "2018-10-08T14:47:45.262Z",
-    "updated_at": "2018-10-09T00:31:01.123Z"
+    "updated_at": "2018-10-17T09:13:54.960Z"
     },
     {
     "active": true,
@@ -1454,10 +1457,13 @@
     "title": "Maja Bednarczyk",
     "lead": "",
     "image": "assets/images/treners/Maja.jpg",
-    "text": "Specjalista metody P-DTR, trener personalny z wieloletnim doświadczeniem, dyplomowany nauczyciel jogi, Od lat jestem zainteresowana holistycznym podejściem do zdrowia fizycznego i psychicznego człowieka. Zaowocowało to ukończeniem kilkudziesięciu kursów i szkoleń z zakresu dietetyki, fizjologii, anatomii, systemów treningowych oraz niekonwencjonalnych metod. Pracę z klientem indywidualnym zaczęłam jako trener personalny w 2013 roku prowadząc w większości osoby z problemami zdrowotnymi. W tym samym czasie rozwijałam się na polu nauczyciela jogi o specjalizacji Hatha Yoga, oraz prowadziłam zajęcia grupowe takie jak Zdrowy Kręgosłup, Pilates i Trening Funkcjonalny. Szczególnie mocno skupiłam się w tym czasie na treningach funkcjonalnych i miałam przyjemność stanąć dwukrotnie na Konwencji Fitness jako Prezenter i Szkoleniowiec w Euro Fitness School z Bielska Białej w 2016 roku obok wielu świetnych Trenerów z Polski i z Europy. Rok później podobną współpracę zaczęłam ze Szkołą Instruktorów Fitness w Krakowie. Szkolenie młodych instruktorów fitness sprawiało mi dużą frajdę i dało wiele ciekawych doświadczeń oraz lekcji – tym razem to ja miałam przekazywać wiedzę, a nie ją brać. Ta zmiana perspektywy dużo mnie nauczyła. Po kilku latach pracy w zawodzie trenera personalnego i instruktora fitness, trafiłam przypadkiem na P-DTR czyli proprioceptywną terapię odruchową. Pierwsze wrażenie jakie zrobiła na mnie ta metoda było piorunujące – istna magia na dodatek z natychmiastowym efektem! Parę miesięcy później siedziałam już jako student na pierwszym module rocznego szkolenia u twórcy metody dr Jose Palomara (Meksyk). Sądzę, że już wtedy przeczuwałam, że P-DTR zmieni moje życie. Z bycia trenerem i promotorem zdrowego jedzenia i aktywnego stylu życia, stałam się Praktykiem metody P-DTR na poziomie zaawansowanym, aktywnie zainteresowaną neurologią, psychosomatyką i kinezjologią. Dawne zainteresowania i praca trenera oraz prowadzącego lekcje grupowe zmieniły kontekst i nabrały nowej jakości. Dzisiaj z ogromną przyjemnością dzielę potencjał metody P-DTR ze swoimi Klientami i samodzielnie rozwijam własne narzędzia w poszukiwaniu priorytetowych dysfunkcji receptorów w układzie nerwowym, pomagając w takich dolegliwościach jak: bóle, ograniczenia ruchowe, stany napięciowe pochodzenia emocjonalnego, problemy psychosomatyczne i inne. Prowadzę treningi personalne mając nowe spojrzenie na ludzkie ciało i jego potrzeby, rozpisuję diety indywidualnie dobrane na podstawie testów żywieniowych i uczę jogi na kilku poziomach trudności. Moja droga nie była najkrótszą z możliwych, ale mam wrażenie, że najlepszą z możliwych. Zapraszam serdeczne!"
+    "text": "Specjalista metody P-DTR, trener personalny z wieloletnim doświadczeniem, dyplomowany nauczyciel jogi, Od lat jestem zainteresowana holistycznym podejściem do zdrowia fizycznego i psychicznego człowieka. Zaowocowało to ukończeniem kilkudziesięciu kursów i szkoleń z zakresu dietetyki, fizjologii, anatomii, systemów treningowych oraz niekonwencjonalnych metod. Pracę z klientem indywidualnym zaczęłam jako trener personalny w 2013 roku prowadząc w większości osoby z problemami zdrowotnymi. W tym samym czasie rozwijałam się na polu nauczyciela jogi o specjalizacji Hatha Yoga, oraz prowadziłam zajęcia grupowe takie jak Zdrowy Kręgosłup, Pilates i Trening Funkcjonalny. Szczególnie mocno skupiłam się w tym czasie na treningach funkcjonalnych i miałam przyjemność stanąć dwukrotnie na Konwencji Fitness jako Prezenter i Szkoleniowiec w Euro Fitness School z Bielska Białej w 2016 roku obok wielu świetnych Trenerów z Polski i z Europy. Rok później podobną współpracę zaczęłam ze Szkołą Instruktorów Fitness w Krakowie. Szkolenie młodych instruktorów fitness sprawiało mi dużą frajdę i dało wiele ciekawych doświadczeń oraz lekcji – tym razem to ja miałam przekazywać wiedzę, a nie ją brać. Ta zmiana perspektywy dużo mnie nauczyła. Po kilku latach pracy w zawodzie trenera personalnego i instruktora fitness, trafiłam przypadkiem na P-DTR czyli proprioceptywną terapię odruchową. Pierwsze wrażenie jakie zrobiła na mnie ta metoda było piorunujące – istna magia na dodatek z natychmiastowym efektem! Parę miesięcy później siedziałam już jako student na pierwszym module rocznego szkolenia u twórcy metody dr Jose Palomara (Meksyk). Sądzę, że już wtedy przeczuwałam, że P-DTR zmieni moje życie. Z bycia trenerem i promotorem zdrowego jedzenia i aktywnego stylu życia, stałam się Praktykiem metody P-DTR na poziomie zaawansowanym, aktywnie zainteresowaną neurologią, psychosomatyką i kinezjologią. Dawne zainteresowania i praca trenera oraz prowadzącego lekcje grupowe zmieniły kontekst i nabrały nowej jakości. Dzisiaj z ogromną przyjemnością dzielę potencjał metody P-DTR ze swoimi Klientami i samodzielnie rozwijam własne narzędzia w poszukiwaniu priorytetowych dysfunkcji receptorów w układzie nerwowym, pomagając w takich dolegliwościach jak: bóle, ograniczenia ruchowe, stany napięciowe pochodzenia emocjonalnego, problemy psychosomatyczne i inne. Prowadzę treningi personalne mając nowe spojrzenie na ludzkie ciało i jego potrzeby, rozpisuję diety indywidualnie dobrane na podstawie testów żywieniowych i uczę jogi na kilku poziomach trudności. Moja droga nie była najkrótszą z możliwych, ale mam wrażenie, że najlepszą z możliwych. Zapraszam serdeczne!",
+    "references": "/pdtr/references",
+    "email": "moja_maja@Maja.pl",
+    "phone": "123123123"
     },
     "created_at": "2018-10-06T23:20:35.883Z",
-    "updated_at": "2018-10-06T23:20:35.883Z"
+    "updated_at": "2018-10-17T14:07:48.966Z"
     }
     ],
     "_id": "5bbbf51f5fc13600135316c0",
@@ -1672,7 +1678,7 @@
     "updated_at": "2018-10-11T15:12:17.996Z"
     },
     {
-    "active": true,
+    "active": false,
     "data": [
     {
     "_id": "5bba756f06ba3f0013edfcde",
@@ -1692,7 +1698,7 @@
     "name": "contact",
     "label": "Kontakt",
     "created_at": "2018-10-07T21:04:02.839Z",
-    "updated_at": "2018-10-07T21:10:56.262Z"
+    "updated_at": "2018-10-17T09:13:03.275Z"
     },
     {
     "active": false,
@@ -1758,7 +1764,7 @@
     },
     "description": "a",
     "created_at": "2018-10-08T13:25:19.896Z",
-    "updated_at": "2018-10-13T21:20:25.599Z"
+    "updated_at": "2018-10-17T09:10:12.529Z"
     },
     {
     "logo": "assets/logo/7me_logo.png",
@@ -1769,7 +1775,7 @@
     "active": true,
     "sections": [
     {
-    "active": true,
+    "active": false,
     "data": [
     {
     "_id": "5bbf6dfaac59bb001319bb08",
@@ -1792,9 +1798,9 @@
     ],
     "_id": "5bbf6b03ac59bb001319bb05",
     "name": "news_7me",
-    "label": "Aktualności",
+    "label": "O nas",
     "created_at": "2018-10-11T15:23:47.440Z",
-    "updated_at": "2018-10-11T15:37:07.059Z"
+    "updated_at": "2018-10-16T21:59:25.792Z"
     },
     {
     "active": true,
@@ -2021,9 +2027,9 @@
     ],
     "_id": "5bbfad5cac59bb001319bb0e",
     "name": "gym_cardio",
-    "label": "Strefa siłowa & kardio",
+    "label": "Siłownia & Kardio",
     "created_at": "2018-10-11T20:06:52.125Z",
-    "updated_at": "2018-10-11T20:15:31.399Z"
+    "updated_at": "2018-10-17T11:22:00.689Z"
     },
     {
     "active": true,
@@ -2135,9 +2141,9 @@
     ],
     "_id": "5bbfb016ac59bb001319bb16",
     "name": "types_classes",
-    "label": "Rodzaje zajęć",
+    "label": "Zajęcia",
     "created_at": "2018-10-11T20:18:30.884Z",
-    "updated_at": "2018-10-11T20:22:37.571Z"
+    "updated_at": "2018-10-16T22:01:50.583Z"
     },
     {
     "active": true,
@@ -2210,39 +2216,47 @@
     "type": "text_and_image",
     "styles": {
     "float": "left",
-    "text_type": "block-o-t"
+    "text_type": "block-o",
+    "list_type": "normal"
     },
     "content": {
     "title": "Maja Bednarczyk",
     "lead": "",
     "image": "assets/images/treners/Maja.jpg",
-    "text": "Specjalista metody P-DTR, trener personalny z wieloletnim doświadczeniem, dyplomowany nauczyciel jogi, Od lat jestem zainteresowana holistycznym podejściem do zdrowia fizycznego i psychicznego człowieka. Zaowocowało to ukończeniem kilkudziesięciu kursów i szkoleń z zakresu dietetyki, fizjologii, anatomii, systemów treningowych oraz niekonwencjonalnych metod. Pracę z klientem indywidualnym zaczęłam jako trener personalny w 2013 roku prowadząc w większości osoby z problemami zdrowotnymi. W tym samym czasie rozwijałam się na polu nauczyciela jogi o specjalizacji Hatha Yoga, oraz prowadziłam zajęcia grupowe takie jak Zdrowy Kręgosłup, Pilates i Trening Funkcjonalny. Szczególnie mocno skupiłam się w tym czasie na treningach funkcjonalnych i miałam przyjemność stanąć dwukrotnie na Konwencji Fitness jako Prezenter i Szkoleniowiec w Euro Fitness School z Bielska Białej w 2016 roku obok wielu świetnych Trenerów z Polski i z Europy. Rok później podobną współpracę zaczęłam ze Szkołą Instruktorów Fitness w Krakowie. Szkolenie młodych instruktorów fitness sprawiało mi dużą frajdę i dało wiele ciekawych doświadczeń oraz lekcji – tym razem to ja miałam przekazywać wiedzę, a nie ją brać. Ta zmiana perspektywy dużo mnie nauczyła. Po kilku latach pracy w zawodzie trenera personalnego i instruktora fitness, trafiłam przypadkiem na P-DTR czyli proprioceptywną terapię odruchową. Pierwsze wrażenie jakie zrobiła na mnie ta metoda było piorunujące – istna magia na dodatek z natychmiastowym efektem! Parę miesięcy później siedziałam już jako student na pierwszym module rocznego szkolenia u twórcy metody dr Jose Palomara (Meksyk). Sądzę, że już wtedy przeczuwałam, że P-DTR zmieni moje życie. Z bycia trenerem i promotorem zdrowego jedzenia i aktywnego stylu życia, stałam się Praktykiem metody P-DTR na poziomie zaawansowanym, aktywnie zainteresowaną neurologią, psychosomatyką i kinezjologią. Dawne zainteresowania i praca trenera oraz prowadzącego lekcje grupowe zmieniły kontekst i nabrały nowej jakości. Dzisiaj z ogromną przyjemnością dzielę potencjał metody P-DTR ze swoimi Klientami i samodzielnie rozwijam własne narzędzia w poszukiwaniu priorytetowych dysfunkcji receptorów w układzie nerwowym, pomagając w takich dolegliwościach jak: bóle, ograniczenia ruchowe, stany napięciowe pochodzenia emocjonalnego, problemy psychosomatyczne i inne. Prowadzę treningi personalne mając nowe spojrzenie na ludzkie ciało i jego potrzeby, rozpisuję diety indywidualnie dobrane na podstawie testów żywieniowych i uczę jogi na kilku poziomach trudności. Moja droga nie była najkrótszą z możliwych, ale mam wrażenie, że najlepszą z możliwych. Zapraszam serdeczne!"
+    "text": "Specjalista metody P-DTR, trener personalny z wieloletnim doświadczeniem, dyplomowany nauczyciel jogi, Od lat jestem zainteresowana holistycznym podejściem do zdrowia fizycznego i psychicznego człowieka. Zaowocowało to ukończeniem kilkudziesięciu kursów i szkoleń z zakresu dietetyki, fizjologii, anatomii, systemów treningowych oraz niekonwencjonalnych metod. Pracę z klientem indywidualnym zaczęłam jako trener personalny w 2013 roku prowadząc w większości osoby z problemami zdrowotnymi. W tym samym czasie rozwijałam się na polu nauczyciela jogi o specjalizacji Hatha Yoga, oraz prowadziłam zajęcia grupowe takie jak Zdrowy Kręgosłup, Pilates i Trening Funkcjonalny. Szczególnie mocno skupiłam się w tym czasie na treningach funkcjonalnych i miałam przyjemność stanąć dwukrotnie na Konwencji Fitness jako Prezenter i Szkoleniowiec w Euro Fitness School z Bielska Białej w 2016 roku obok wielu świetnych Trenerów z Polski i z Europy. Rok później podobną współpracę zaczęłam ze Szkołą Instruktorów Fitness w Krakowie. Szkolenie młodych instruktorów fitness sprawiało mi dużą frajdę i dało wiele ciekawych doświadczeń oraz lekcji – tym razem to ja miałam przekazywać wiedzę, a nie ją brać. Ta zmiana perspektywy dużo mnie nauczyła. Po kilku latach pracy w zawodzie trenera personalnego i instruktora fitness, trafiłam przypadkiem na P-DTR czyli proprioceptywną terapię odruchową. Pierwsze wrażenie jakie zrobiła na mnie ta metoda było piorunujące – istna magia na dodatek z natychmiastowym efektem! Parę miesięcy później siedziałam już jako student na pierwszym module rocznego szkolenia u twórcy metody dr Jose Palomara (Meksyk). Sądzę, że już wtedy przeczuwałam, że P-DTR zmieni moje życie. Z bycia trenerem i promotorem zdrowego jedzenia i aktywnego stylu życia, stałam się Praktykiem metody P-DTR na poziomie zaawansowanym, aktywnie zainteresowaną neurologią, psychosomatyką i kinezjologią. Dawne zainteresowania i praca trenera oraz prowadzącego lekcje grupowe zmieniły kontekst i nabrały nowej jakości. Dzisiaj z ogromną przyjemnością dzielę potencjał metody P-DTR ze swoimi Klientami i samodzielnie rozwijam własne narzędzia w poszukiwaniu priorytetowych dysfunkcji receptorów w układzie nerwowym, pomagając w takich dolegliwościach jak: bóle, ograniczenia ruchowe, stany napięciowe pochodzenia emocjonalnego, problemy psychosomatyczne i inne. Prowadzę treningi personalne mając nowe spojrzenie na ludzkie ciało i jego potrzeby, rozpisuję diety indywidualnie dobrane na podstawie testów żywieniowych i uczę jogi na kilku poziomach trudności. Moja droga nie była najkrótszą z możliwych, ale mam wrażenie, że najlepszą z możliwych. Zapraszam serdeczne!",
+    "references": "/pdtr/references",
+    "email": "moja_maja@Maja.pl",
+    "phone": "123123123"
     },
     "created_at": "2018-10-11T20:51:51.392Z",
-    "updated_at": "2018-10-11T20:51:51.392Z"
+    "updated_at": "2018-10-17T12:56:13.363Z"
     },
     {
     "_id": "5bbfb7f4ac59bb001319bb24",
     "type": "text_and_image",
     "styles": {
     "float": "left",
-    "text_type": "block-o-t"
+    "text_type": "block-o",
+    "list_type": "normal"
     },
     "content": {
     "title": "Sylwia Lorenc",
     "lead": "",
     "image": "assets/images/treners/Sylwia.jpg",
-    "text": "Absolwentka Akademii Górniczo-Hutniczej w Krakowie. Ze sportem związana od dziecka, w szkole średniej trenująca siatkówkę oraz biegi. Instruktor fitness od 2013 roku, a od 2016 również trener zajęć Pilates. Bierze udział w konwencjach fitness oraz różnego rodzaju szkoleniach i warsztatach, gdzie rozwija swoje umiejętności. Interesuje się zdrowym, świadomym odżywianiem i wpływem pożywienia na samopoczucie i emocje. Głęboko wierzy w myśl, że \" jesteś tym co jesz\". Zapalona podróżniczka, która nie potrafi usiedzieć na miejscu. Miłośniczka włoskiej kawy i dobrego jedzenia. Stale stawia sobie nowe cele, a poprzeczkę podnosi coraz wyżej. Obecnie jej sportowym celem jest przebiec Runmageddon."
+    "text": "Absolwentka Akademii Górniczo-Hutniczej w Krakowie. Ze sportem związana od dziecka, w szkole średniej trenująca siatkówkę oraz biegi. Instruktor fitness od 2013 roku, a od 2016 również trener zajęć Pilates. Bierze udział w konwencjach fitness oraz różnego rodzaju szkoleniach i warsztatach, gdzie rozwija swoje umiejętności. Interesuje się zdrowym, świadomym odżywianiem i wpływem pożywienia na samopoczucie i emocje. Głęboko wierzy w myśl, że \" jesteś tym co jesz\". Zapalona podróżniczka, która nie potrafi usiedzieć na miejscu. Miłośniczka włoskiej kawy i dobrego jedzenia. Stale stawia sobie nowe cele, a poprzeczkę podnosi coraz wyżej. Obecnie jej sportowym celem jest przebiec Runmageddon.",
+    "references": "",
+    "email": "sylwia@sylwia.pl",
+    "phone": "123123123"
     },
     "created_at": "2018-10-11T20:52:04.536Z",
-    "updated_at": "2018-10-11T20:52:04.536Z"
+    "updated_at": "2018-10-17T12:49:37.269Z"
     }
     ],
     "_id": "5bbfb7adac59bb001319bb22",
     "name": "treners_7me",
-    "label": "Nasi Trenerzy",
+    "label": "Trenerzy",
     "created_at": "2018-10-11T20:50:53.303Z",
-    "updated_at": "2018-10-11T20:52:28.396Z"
+    "updated_at": "2018-10-16T22:02:32.605Z"
     },
     {
     "active": true,
@@ -2686,7 +2700,7 @@
     "updated_at": "2018-10-12T09:38:48.627Z"
     },
     {
-    "active": true,
+    "active": false,
     "data": [
     {
     "_id": "5bba756f06ba3f0013edfcde",
@@ -2702,11 +2716,11 @@
     "updated_at": "2018-10-07T21:06:55.471Z"
     }
     ],
-    "_id": "5bc06bca32269d0013c99cd4",
-    "name": "contact_7me",
+    "_id": "5bba74c206ba3f0013edfcdd",
+    "name": "contact",
     "label": "Kontakt",
-    "created_at": "2018-10-12T09:39:22.410Z",
-    "updated_at": "2018-10-12T09:40:27.001Z"
+    "created_at": "2018-10-07T21:04:02.839Z",
+    "updated_at": "2018-10-17T09:13:03.275Z"
     },
     {
     "active": false,
@@ -2766,7 +2780,7 @@
     "label": "7mepoty Centrum Treningowe",
     "description": "a",
     "created_at": "2018-10-11T15:18:23.309Z",
-    "updated_at": "2018-10-13T21:20:33.152Z",
+    "updated_at": "2018-10-17T08:47:55.854Z",
     "style": {
     "colors": {
     "primary": "#e10886",
@@ -2783,7 +2797,7 @@
     "active": true,
     "sections": [
     {
-    "active": true,
+    "active": false,
     "data": [
     {
     "_id": "5bc0702b32269d0013c99cd8",
@@ -2806,9 +2820,9 @@
     ],
     "_id": "5bc06f9432269d0013c99cd7",
     "name": "news_zywienie",
-    "label": "Aktualności",
+    "label": "O Nas",
     "created_at": "2018-10-12T09:55:32.133Z",
-    "updated_at": "2018-10-12T09:58:35.372Z"
+    "updated_at": "2018-10-17T09:17:19.837Z"
     },
     {
     "active": true,
@@ -2905,7 +2919,6 @@
     "Gluten – chleb pszenny, chleb pełnoziarnisty, chleb żytni na zakwasie, makaron pszenny i inne",
     "Nabiał- mleko, jogurt, kefir, ser żółty, ser pleśniowy, ser biały i inne",
     "Orzechy – ziemnie, migdały, nerkowce, laskowe, włoskie, brazylijskie i inne",
-    "Orzechy – ziemnie, migdały, nerkowce, laskowe, włoskie, brazylijskie i inne",
     "Warzywa psiankowate – papryka, ziemniak, pomidor, bakłażan, pieprz",
     "Warzywa i przyprawy – cebula, czosnek, seler, rzodkiewka, koperek, kapusta, oregano, brokuł, sałata i inne.",
     "Ulubione dodatki do potraw – majonez, ketchup, musztarda, gotowe przyprawy i inne.",
@@ -2917,7 +2930,7 @@
     ]
     },
     "created_at": "2018-10-12T10:12:56.142Z",
-    "updated_at": "2018-10-12T10:12:56.142Z"
+    "updated_at": "2018-10-17T11:31:45.576Z"
     },
     {
     "_id": "5bc073f632269d0013c99cdf",
@@ -2983,7 +2996,7 @@
     "name": "how_to_prepare",
     "label": "Jak się przygotować?",
     "created_at": "2018-10-12T10:03:35.269Z",
-    "updated_at": "2018-10-12T10:16:34.920Z"
+    "updated_at": "2018-10-17T09:18:51.259Z"
     },
     {
     "active": true,
@@ -3021,12 +3034,11 @@
     "wspomaganie odtruwania metalami ciężkimi,",
     "regulacja stresu,",
     "wsparcie snu i procesu regeneracji,",
-    "zachowanie młodości i jasności umysłu.",
-    "Zażywane suplementy lub lekarstwa"
+    "zachowanie młodości i jasności umysłu."
     ]
     },
     "created_at": "2018-10-12T10:19:35.539Z",
-    "updated_at": "2018-10-12T10:19:35.539Z"
+    "updated_at": "2018-10-17T13:57:52.356Z"
     },
     {
     "_id": "5bc0762332269d0013c99ce5",
@@ -3067,7 +3079,7 @@
     "name": "supplements",
     "label": "Suplementy",
     "created_at": "2018-10-12T10:17:30.748Z",
-    "updated_at": "2018-10-12T10:25:43.176Z"
+    "updated_at": "2018-10-17T13:58:21.082Z"
     },
     {
     "active": true,
@@ -3367,10 +3379,13 @@
     "title": "Maja Bednarczyk",
     "lead": "",
     "image": "assets/images/treners/Maja.jpg",
-    "text": "Specjalista metody P-DTR, trener personalny z wieloletnim doświadczeniem, dyplomowany nauczyciel jogi, Od lat jestem zainteresowana holistycznym podejściem do zdrowia fizycznego i psychicznego człowieka. Zaowocowało to ukończeniem kilkudziesięciu kursów i szkoleń z zakresu dietetyki, fizjologii, anatomii, systemów treningowych oraz niekonwencjonalnych metod. Pracę z klientem indywidualnym zaczęłam jako trener personalny w 2013 roku prowadząc w większości osoby z problemami zdrowotnymi. W tym samym czasie rozwijałam się na polu nauczyciela jogi o specjalizacji Hatha Yoga, oraz prowadziłam zajęcia grupowe takie jak Zdrowy Kręgosłup, Pilates i Trening Funkcjonalny. Szczególnie mocno skupiłam się w tym czasie na treningach funkcjonalnych i miałam przyjemność stanąć dwukrotnie na Konwencji Fitness jako Prezenter i Szkoleniowiec w Euro Fitness School z Bielska Białej w 2016 roku obok wielu świetnych Trenerów z Polski i z Europy. Rok później podobną współpracę zaczęłam ze Szkołą Instruktorów Fitness w Krakowie. Szkolenie młodych instruktorów fitness sprawiało mi dużą frajdę i dało wiele ciekawych doświadczeń oraz lekcji – tym razem to ja miałam przekazywać wiedzę, a nie ją brać. Ta zmiana perspektywy dużo mnie nauczyła. Po kilku latach pracy w zawodzie trenera personalnego i instruktora fitness, trafiłam przypadkiem na P-DTR czyli proprioceptywną terapię odruchową. Pierwsze wrażenie jakie zrobiła na mnie ta metoda było piorunujące – istna magia na dodatek z natychmiastowym efektem! Parę miesięcy później siedziałam już jako student na pierwszym module rocznego szkolenia u twórcy metody dr Jose Palomara (Meksyk). Sądzę, że już wtedy przeczuwałam, że P-DTR zmieni moje życie. Z bycia trenerem i promotorem zdrowego jedzenia i aktywnego stylu życia, stałam się Praktykiem metody P-DTR na poziomie zaawansowanym, aktywnie zainteresowaną neurologią, psychosomatyką i kinezjologią. Dawne zainteresowania i praca trenera oraz prowadzącego lekcje grupowe zmieniły kontekst i nabrały nowej jakości. Dzisiaj z ogromną przyjemnością dzielę potencjał metody P-DTR ze swoimi Klientami i samodzielnie rozwijam własne narzędzia w poszukiwaniu priorytetowych dysfunkcji receptorów w układzie nerwowym, pomagając w takich dolegliwościach jak: bóle, ograniczenia ruchowe, stany napięciowe pochodzenia emocjonalnego, problemy psychosomatyczne i inne. Prowadzę treningi personalne mając nowe spojrzenie na ludzkie ciało i jego potrzeby, rozpisuję diety indywidualnie dobrane na podstawie testów żywieniowych i uczę jogi na kilku poziomach trudności. Moja droga nie była najkrótszą z możliwych, ale mam wrażenie, że najlepszą z możliwych. Zapraszam serdeczne!"
+    "text": "Specjalista metody P-DTR, trener personalny z wieloletnim doświadczeniem, dyplomowany nauczyciel jogi, Od lat jestem zainteresowana holistycznym podejściem do zdrowia fizycznego i psychicznego człowieka. Zaowocowało to ukończeniem kilkudziesięciu kursów i szkoleń z zakresu dietetyki, fizjologii, anatomii, systemów treningowych oraz niekonwencjonalnych metod. Pracę z klientem indywidualnym zaczęłam jako trener personalny w 2013 roku prowadząc w większości osoby z problemami zdrowotnymi. W tym samym czasie rozwijałam się na polu nauczyciela jogi o specjalizacji Hatha Yoga, oraz prowadziłam zajęcia grupowe takie jak Zdrowy Kręgosłup, Pilates i Trening Funkcjonalny. Szczególnie mocno skupiłam się w tym czasie na treningach funkcjonalnych i miałam przyjemność stanąć dwukrotnie na Konwencji Fitness jako Prezenter i Szkoleniowiec w Euro Fitness School z Bielska Białej w 2016 roku obok wielu świetnych Trenerów z Polski i z Europy. Rok później podobną współpracę zaczęłam ze Szkołą Instruktorów Fitness w Krakowie. Szkolenie młodych instruktorów fitness sprawiało mi dużą frajdę i dało wiele ciekawych doświadczeń oraz lekcji – tym razem to ja miałam przekazywać wiedzę, a nie ją brać. Ta zmiana perspektywy dużo mnie nauczyła. Po kilku latach pracy w zawodzie trenera personalnego i instruktora fitness, trafiłam przypadkiem na P-DTR czyli proprioceptywną terapię odruchową. Pierwsze wrażenie jakie zrobiła na mnie ta metoda było piorunujące – istna magia na dodatek z natychmiastowym efektem! Parę miesięcy później siedziałam już jako student na pierwszym module rocznego szkolenia u twórcy metody dr Jose Palomara (Meksyk). Sądzę, że już wtedy przeczuwałam, że P-DTR zmieni moje życie. Z bycia trenerem i promotorem zdrowego jedzenia i aktywnego stylu życia, stałam się Praktykiem metody P-DTR na poziomie zaawansowanym, aktywnie zainteresowaną neurologią, psychosomatyką i kinezjologią. Dawne zainteresowania i praca trenera oraz prowadzącego lekcje grupowe zmieniły kontekst i nabrały nowej jakości. Dzisiaj z ogromną przyjemnością dzielę potencjał metody P-DTR ze swoimi Klientami i samodzielnie rozwijam własne narzędzia w poszukiwaniu priorytetowych dysfunkcji receptorów w układzie nerwowym, pomagając w takich dolegliwościach jak: bóle, ograniczenia ruchowe, stany napięciowe pochodzenia emocjonalnego, problemy psychosomatyczne i inne. Prowadzę treningi personalne mając nowe spojrzenie na ludzkie ciało i jego potrzeby, rozpisuję diety indywidualnie dobrane na podstawie testów żywieniowych i uczę jogi na kilku poziomach trudności. Moja droga nie była najkrótszą z możliwych, ale mam wrażenie, że najlepszą z możliwych. Zapraszam serdeczne!",
+    "references": "/pdtr/references",
+    "email": "moja_maja@Maja.pl",
+    "phone": "123123123"
     },
     "created_at": "2018-10-12T10:41:21.497Z",
-    "updated_at": "2018-10-12T10:41:21.497Z"
+    "updated_at": "2018-10-17T12:52:34.330Z"
     }
     ],
     "_id": "5bc07a0732269d0013c99cf5",
@@ -3415,7 +3430,7 @@
     "updated_at": "2018-10-13T14:53:48.329Z"
     },
     {
-    "active": true,
+    "active": false,
     "data": [
     {
     "_id": "5bba756f06ba3f0013edfcde",
@@ -3435,7 +3450,7 @@
     "name": "contact",
     "label": "Kontakt",
     "created_at": "2018-10-07T21:04:02.839Z",
-    "updated_at": "2018-10-07T21:10:56.262Z"
+    "updated_at": "2018-10-17T09:13:03.275Z"
     },
     {
     "active": false,
