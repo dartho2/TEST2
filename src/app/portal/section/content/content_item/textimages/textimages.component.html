@@ -46,14 +46,39 @@
 
 <div [ngClass]="data.styles.text_type" *ngIf="data.styles.text_type === 'block-o'" class="col-md-12">
   <h2 *ngIf="data.content.title" class="fit-p-on-title col-sm-12">{{data.content.title}}</h2>
+ 
   <div class="col-md-6" [ngStyle]="{'float': data.styles.float}" [ngClass]="data.styles.text_type">
     <p class="lead">
       {{data.content.text}} </p>
   </div>
+  
   <div class="col-md-6" [ngStyle]="{'float': data.styles.float}">
-    <img *ngIf="data.content.image" class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
-      src="{{data.content.image}}" data-holder-rendered="true">
-  </div>
+    
+      <div class="row mt-30">
+          
+              <div class="box3">
+                  <img *ngIf="data.content.image" class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
+                  src="{{data.content.image}}" data-holder-rendered="true">
+                  <div class="box-content">
+                      <h3 class="title" [ngStyle]="{'color': portals.portal.style.colors.primary}">{{data.content.title}}</h3>
+                      <span class="post">Specjalista</span>
+                      <p class="description">
+                          OPIS 
+                      </p>
+                      <ul class="icon">
+                          <li *ngIf="data.content.references"><a routerLink="/pdtr/references"class="fa fa-file-text-o"[ngStyle]="{'background': portals.portal.style.colors.primary, 'color':'white'}"><span style="color:white">referencje</span></a></li>
+                          <li><a class="fa fa-envelope"[ngStyle]="{'background': portals.portal.style.colors.primary, 'color':'white'}"><span style="color:white">{{data.content.email}}</span></a></li>
+                          <li><a class="fa fa-phone"[ngStyle]="{'background': portals.portal.style.colors.primary, 'color':'white'}"><span style="color:white">{{data.content.phone}}</span></a></li>
+                      </ul>
+                  </div>
+              
+          </div>
+    <ul class="icon" >
+        <li *ngIf="data.content.references"><a routerLink="/pdtr/references" class="fa fa-file-text-o"[ngStyle]="{'background': portals.portal.style.colors.primary, 'color':'white'}"><span style="color:black;font-family: OSWALD;text-transform: uppercase;">referencje</span></a></li>
+        <li><a class="fa fa-envelope" [ngStyle]="{'background': portals.portal.style.colors.primary, 'color':'white'}"><span style="color:black;font-family: OSWALD;text-transform: uppercase;">{{data.content.email}}</span></a></li>
+        <li><a class="fa fa-phone" [ngStyle]="{'background': portals.portal.style.colors.primary, 'color':'white'}"><span style="color:black;font-family: OSWALD;text-transform: uppercase;">{{data.content.phone}}</span></a></li>
+    </ul>
+    </div>
 </div>
 <div class="row" *ngIf="data.styles.text_type === 'block-o-s'" [ngClass]="data.styles.text_type">
     <div class="col-sm-12 box-news-content">
