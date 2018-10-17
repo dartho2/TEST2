@@ -757,7 +757,12 @@ position: fixed;
     background: #25282a;
     z-index:2;
   }
-
+  .fa-envelope:before {
+    padding: 10px;
+}
+.fa-phone:before {
+  padding: 10px;
+}
   .navbar-header-bot {
     /* background-color: #f3f3f3; */
     background: #ffffff7a;
