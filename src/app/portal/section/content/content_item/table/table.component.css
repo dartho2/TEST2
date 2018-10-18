@@ -22,6 +22,12 @@ td.table-o-a, td.price-l-n {
   border: 1px solid #e2e2e2;
   
 }
+table.table-o-a {
+  box-shadow: 0px 4px 23px black;
+}
+table.price-l {
+  box-shadow: 0px 4px 9px black;
+}
 tr.table-o-a:hover {
   background-color: #fff !important;
   box-shadow: 0 5px 38px rgba(0, 0, 0, 0.86);

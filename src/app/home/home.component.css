@@ -731,7 +731,7 @@ a.button:hover {
   color: #000;
   /* font-size:14px; */
   letter-spacing: 1px;
-  text-transform: capitalize;
+  text-transform: none;
   margin: 0 2px 5px 0;
   opacity: 0;
   display: block;
@@ -792,6 +792,37 @@ a.button:hover {
 .box:hover .curve2 {
   opacity: 1;
   bottom: -2px;
+}
+
+
+@media screen and (max-width: 767px) {
+.navbar-nav .dropdown-menu {
+    margin-left: -50px;
+}
+.bl-main > section {
+    position: relative;
+    display: contents;
+    width: 50%;
+    height: 50%;
+}
+img.logo {
+	width: 44vh !important;
+}
+h3.title {
+	text-align: center;
+}
+.bl-main{
+	height:unset ;
+}
+.box {
+margin-bottom: 5px !important;	
+}
+span.post{
+	display: none !important;
+}
+a.nav-link:hover {
+    border: 2px solid !important;
+}
 }
 
 @media only screen and (max-width:990px) {

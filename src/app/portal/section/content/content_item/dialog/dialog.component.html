@@ -1,8 +1,57 @@
-<h2 mat-dialog-title> </h2>
+<!-- <h2 mat-dialog-title> </h2>
 <mat-dialog-content class="mat-typography">
   <img *ngIf="data.type_class === 'image'" class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
     src="{{data.data.content.image}}" data-holder-rendered="true">
-    <p *ngIf="data.type_class === 'text'" >{{data.data}}</p>
+    <div *ngIf="data.type_class === 'text'" >
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#description">Opis</a></li>
+            <li><a data-toggle="tab" href="#trenetrs">Trenerzy</a></li>
+          </ul>
+        
+          <div class="tab-content">
+            <div id="description" class="tab-pane fade in active show">
+              <h3>Opis Zajęć</h3>
+              <p>{{data.data}}</p>
+            </div>
+            <div id="trenetrs" class="tab-pane fade">
+              <h3>Menu 1</h3>
+              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+      </div>
+</mat-dialog-content>
+<mat-dialog-content class="mat-typography">
+
+</mat-dialog-content>
+<hr>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Zamknij</button>
+</mat-dialog-actions> -->
+<mat-dialog-content class="mat-typography">
+  <img *ngIf="data.type_class === 'image'" class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
+    src="{{data.data.content.image}}" data-holder-rendered="true">
+    <div *ngIf="data.type_class === 'text'" >
+        
+        <div class="col-xs-12 ">
+            <nav>
+              <div class="nav nav-tabs nav-fill" id="nav-tab description" role="tablist">
+                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"><i class="fa fa-home" aria-hidden="true"></i></a>
+                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fa fa-user"></i></a>
+                </div>
+            </nav>
+            <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+               <p>{{data.data}}</p> 
+              </div>
+              <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                  <p>Trenerzy</p> 
+                 </div>
+            </div>
+          
+          </div> 
+      
+      </div>
+   
 </mat-dialog-content>
 <mat-dialog-content class="mat-typography">
 
@@ -11,3 +60,38 @@
 <mat-dialog-actions align="end">
   <button mat-button mat-dialog-close>Zamknij</button>
 </mat-dialog-actions>
+<style>
+  .mat-dialog-container {
+background: #c1c3c3;
+  }
+
+a.nav-link {
+  color:#25282a;
+    font-family: OSWALD;
+    font-size: 20px;
+}
+a#nav-home-tab{
+  color: black;
+    font-family: OSWALD;
+    font-size: 20px;
+}
+#tabs h6.section-title{
+    color: #eee;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color:#25282a;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 4px solid !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #eee;
+    font-size: 20px;
+}
+</style>

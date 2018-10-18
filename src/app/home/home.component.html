@@ -22,7 +22,7 @@
 <!-- <div *ngIf="spiner"> -->
   <div *ngIf="spiner">
 <app-portal *ngIf="isActivePortalValid()" [portals]='portals'></app-portal>
-</div>
+
 <div *ngIf="!isActivePortalValid()" class="container" style="padding: 0px; margin: 0px;">
 
   <div id="bl-main" class="bl-main">
@@ -65,7 +65,7 @@
     right: 0px;
                      ">{{portal.label}}</div>
           <div class="box-content">
-            <h3 class="title"><img class="" src="{{portal.logo}}" style="width:20vh;-webkit-filter: unset;
+            <h3 class="title"><img class="logo" src="{{portal.logo}}" style="width:20vh;-webkit-filter: unset;
                                  filter: unset;"></h3>
             <span class="post" style="font-size:1rem"></span>
             
@@ -127,3 +127,4 @@
 </div>
 </div> -->
 <!-- </div> -->
+</div>

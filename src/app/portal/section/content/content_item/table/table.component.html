@@ -1,8 +1,8 @@
 <div class="content-t-body justify-content-md-center" *ngIf="(data.styles.text_type === 'price-l') || data.styles.text_type === 'schedule' || data.styles.text_type === 'table-o-a' || data.styles.text_type === 'price-l-n'">
   <div style="width:100%" class="col-md-auto">
     <div *ngIf="data">
-      <table class="table">
-        <thead class="data.styles.text_type" *ngIf="data.content.title">
+      <table class="table" [ngClass]="data.styles.text_type">
+        <thead [ngClass]="data.styles.text_type" *ngIf="data.content.title">
           <th scope="col" colspan="100%">{{data.content.title}}</th>
         </thead>
         <caption id="">{{data.content.title}}</caption>
