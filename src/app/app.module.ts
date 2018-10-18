@@ -34,6 +34,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material';
 import { OlComponent } from './portal/section/content/content_item/list/ol.components';
 import {AngularFontAwesomeModule} from 'angular-font-awesome';
+import { NgxSpinnerModule } from 'ngx-spinner';
 
 @NgModule({
   declarations: [
@@ -73,6 +74,7 @@ import {AngularFontAwesomeModule} from 'angular-font-awesome';
     MatFormFieldModule,
     MatInputModule,
     AngularFontAwesomeModule,
+    NgxSpinnerModule,
     FacebookModule.forRoot()
   ],
   entryComponents: [

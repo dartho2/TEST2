@@ -1,4 +1,28 @@
+<ngx-spinner
+  bdColor="white"
+  size="medium"
+  color="black"
+  type="ball-clip-rotate">
+  <div style="position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999!important;">
+  <img width="50px" style="top: 50%;
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);"src="assets/images/spinner.png"> <p class="spiner-text">
+  Karma Zdrowia</p>
+ </div>
+ 
+</ngx-spinner>
+<!-- <div *ngIf="spiner"> -->
+  <div *ngIf="spiner">
 <app-portal *ngIf="isActivePortalValid()" [portals]='portals'></app-portal>
+</div>
 <div *ngIf="!isActivePortalValid()" class="container" style="padding: 0px; margin: 0px;">
 
   <div id="bl-main" class="bl-main">
@@ -102,3 +126,4 @@
   </div>
 </div>
 </div> -->
+<!-- </div> -->
