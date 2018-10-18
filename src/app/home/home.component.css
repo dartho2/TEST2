@@ -1,5 +1,80 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 
+.spiner-loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999 !important;
+}
+.head-logo-portals:after{
+content:'';
+  display:block;
+  clear:both;
+ }
+.spiner-image{
+	width: 50px;
+	top: 50%;
+         left: 50%;
+         margin: 0;
+         position: absolute;
+         -webkit-transform: translate(-50%,-50%);
+         transform: translate(-50%,-50%);
+}
+@media screen and (min-width: 768px) {
+	.logo-portals {
+		width: 100px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: -65px;
+    bottom: 0;
+	}
+	.logo-name {
+		display: inline;
+		text-align: center;
+		font-family: OSWALD;
+		font-size: 6vh;
+		vertical-align: middle;
+		margin-top: 25px;
+		display: flex;
+		height: 100%;
+		justify-content: center;
+		align-items: center;
+		vertical-align: middle;
+	}
+.head-logo{
+		width: 100%;
+    height: 100%;
+	}
+	.head-logo-portals {
+		position: absolute;
+    margin: 0 auto;
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+	}
+}
+@media screen and (max-width: 768px) {
+.head-logo {
+	width:80%;
+	margin: 0 auto;
+    text-align: center;
+}
+.logo-name {
+	display: inline;
+    text-align: center;
+    font-family: OSWALD;
+    font-size: 6vh;
+    vertical-align: middle;
+}
+.logo-portals {
+	margin:0 auto;
+	width: 100px
+}
+}
 section {
   background-position: center;
   background-repeat: no-repeat;
@@ -796,33 +871,40 @@ a.button:hover {
 
 
 @media screen and (max-width: 767px) {
-.navbar-nav .dropdown-menu {
+  .navbar-nav .dropdown-menu {
     margin-left: -50px;
-}
-.bl-main > section {
+  }
+
+  .bl-main>section {
     position: relative;
     display: contents;
     width: 50%;
     height: 50%;
-}
-img.logo {
-	width: 44vh !important;
-}
-h3.title {
-	text-align: center;
-}
-.bl-main{
-	height:unset ;
-}
-.box {
-margin-bottom: 5px !important;	
-}
-span.post{
-	display: none !important;
-}
-a.nav-link:hover {
+  }
+
+  img.logo {
+    width: 44vh !important;
+  }
+
+  h3.title {
+    text-align: center;
+  }
+
+  .bl-main {
+    height: unset;
+  }
+
+  .box {
+    margin-bottom: 5px !important;
+  }
+
+  span.post {
+    display: none !important;
+  }
+
+  a.nav-link:hover {
     border: 2px solid !important;
-}
+  }
 }
 
 @media only screen and (max-width:990px) {
