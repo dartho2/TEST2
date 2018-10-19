@@ -5,7 +5,9 @@
 section:nth-child(even) .box .box-content {
 	text-align: left;
 } */
-
+.box {
+    background: black;
+}
 .spiner-loading {
   position: absolute;
   top: 0;
@@ -749,6 +751,7 @@ section.bl-expand .bl-icon-close {
 
 .box:hover {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  background: white;
 }
 
 .box .curve1 {
@@ -776,9 +779,9 @@ section.bl-expand .bl-icon-close {
 a.button {
   display: inline-block;
   padding: 0.35em 1.2em;
-  border: 0.1em solid #FFFFFF;
+  /* border: 0.1em solid #FFFFFF; */
   margin: 0 0.3em 0.3em 0;
-  border-radius: 0.12em;
+  /* border-radius: 0.12em; */
   box-sizing: border-box;
   bottom: 30px;
   right: 5px;
