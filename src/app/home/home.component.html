@@ -17,7 +17,7 @@
         <div class="head-logo-portals" style="width: 100%;margin: 0 auto;">
             <div class="head-logo">
           <img class="logo-portals" src="assets/images/spinner.png" alt="" >
-          <p class="logo-name">Karma Zdrowia</p>
+          <!-- <p class="logo-name">Karma Zdrowia</p> -->
           </div>
           
         </div>
@@ -29,7 +29,7 @@
                <div class="box" style="background: black">
                   <svg class="curve1" x="0px" y="0px" viewBox="0 0 400 1000">
                      <rect height="200%" width="100%" y="0" x="0" 
-                        fill-opacity="0.45" fill="#ffffffb3" />
+                        fill-opacity="" fill="#fff" />
                   </svg>
                   <img src="{{portal.images_top[1]}}" alt="" style="opacity: 0.6;">
                   <div class="span-visible" style="
@@ -44,8 +44,10 @@
                      right: 0px;
                      ">{{portal.label}}</div>
                   <div class="box-content">
-                     <h3 class="title"><img class="logo" src="{{portal.logo}}" style="width:20vh;-webkit-filter: unset;
-                        filter: unset;"></h3>
+                     <h3 class="title" style="width: 100%"><img class="logo" src="{{portal.logo}}" style="min-width: 100px;
+                      -webkit-filter: unset;
+                      height: 100%;
+                      max-width: 40%;"></h3>
                      <span class="post" style="font-size:1rem"></span>
                      <span class="post"> {{portal.description}}</span>
             <a routerLink="/{{portal.name}}/{{portal.sections.length > 0 ? portal.sections[0].name : ''}}" class="button post" style="margin:0 auto;">Przejdz do Strony</a>

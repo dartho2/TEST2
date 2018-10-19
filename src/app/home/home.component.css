@@ -1,4 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+/* .box:nth-child(odd) .box-content {
+	text-align: right;
+}
+section:nth-child(even) .box .box-content {
+	text-align: left;
+} */
 
 .spiner-loading {
   position: absolute;
@@ -8,73 +14,114 @@
   height: 100%;
   z-index: 99999 !important;
 }
-.head-logo-portals:after{
-content:'';
-  display:block;
-  clear:both;
- }
-.spiner-image{
-	width: 50px;
-	top: 50%;
-         left: 50%;
-         margin: 0;
-         position: absolute;
-         -webkit-transform: translate(-50%,-50%);
-         transform: translate(-50%,-50%);
+.head-logo:after {
+	content: '';
+    background: white;
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    margin: auto;
+    /* border-radius: 50% / 20px; */
+    box-shadow: rgba(0, 0, 0, 0.5) 0 8px 8px;
+    /* clip: rect(20px, auto, 50px, 0); */
+    border-radius: 50%;
+    left: 0px;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 0px 0px 36px 13px #000000b5;
+    right: 0;
+    top: -49px;
+    z-index: 8;
+    bottom: 0;
+  }
+
+.head-logo-portals:after {
+  content: '';
+  display: block;
+  clear: both;
 }
+
+.spiner-image {
+  width: 50px;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.img.logo {
+	width: 20vh;
+    -webkit-filter: unset;
+    filter: unset;
+    height: auto;
+  }
+
 @media screen and (min-width: 768px) {
-	.logo-portals {
-		width: 100px;
+  .logo-portals {
+    width: 100px;
     position: absolute;
     margin: auto;
     left: 0;
     right: 0;
     top: -65px;
+    z-index: 9;
     bottom: 0;
-	}
-	.logo-name {
-		display: inline;
-		text-align: center;
-		font-family: OSWALD;
-		font-size: 6vh;
-		vertical-align: middle;
-		margin-top: 25px;
-		display: flex;
-		height: 100%;
-		justify-content: center;
-		align-items: center;
-		vertical-align: middle;
-	}
-.head-logo{
-		width: 100%;
-    height: 100%;
-	}
-	.head-logo-portals {
-		position: absolute;
-    margin: 0 auto;
-    z-index: 99;
-    height: 100%;
-    width: 100%;
-	}
-}
-@media screen and (max-width: 768px) {
-.head-logo {
-	width:80%;
-	margin: 0 auto;
-    text-align: center;
-}
-.logo-name {
-	display: inline;
+  }
+  
+  .logo-name {
+    display: inline;
     text-align: center;
     font-family: OSWALD;
     font-size: 6vh;
     vertical-align: middle;
+    margin-top: 50px;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+  }
+
+  .head-logo {
+    width: 100%;
+    height: 100%;
+  }
+
+  .head-logo-portals {
+    position: absolute;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+  }
+  
 }
-.logo-portals {
-	margin:0 auto;
-	width: 100px
+
+@media screen and (max-width: 768px) {
+  .head-logo {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .head-logo:after {
+	display: none;
+  }
+  .logo-name {
+    display: inline;
+    text-align: center;
+    font-family: OSWALD;
+    font-size: 6vh;
+    vertical-align: middle;
+  }
+
+  .logo-portals {
+    margin: 0 auto;
+    width: 100px
+  }
 }
-}
+
 section {
   background-position: center;
   background-repeat: no-repeat;
@@ -251,11 +298,12 @@ a.nav-link {
   height: 100%;
   position: relative;
   z-index: 2;
+  padding: 0px;
 }
 
-a.nav-link:hover {
+/* a.nav-link:hover {
   border: 12px solid;
-}
+} */
 
 .bl-content,
 div.bl-panel-items>div>div {
@@ -718,8 +766,9 @@ section.bl-expand .bl-icon-close {
 }
 
 .post {
-  font-size: 1.5vw;
+  /* font-size: 1.5vw; */
   text-align: left;
+  font-size: 2.5vh;
   font-family: 'Roboto', sans-serif;
   padding: 0 20px;
 }
@@ -760,6 +809,10 @@ a.button:hover {
   opacity: 0;
   transition: all 0.3s ease-in-out;
 }
+/* section:nth-child(even) .box .title {
+-webkit-transform: translateX(-100%); 
+transform: translateX(-100%);
+} */
 
 .box path {
   fill: rgba(255, 255, 255, 0.8);
@@ -794,6 +847,8 @@ a.button:hover {
 .box .title {
   font-size: 22px;
   font-weight: 600;
+  /* height: ; */
+  min-height: 60px;
   letter-spacing: 1px;
   text-transform: uppercase;
   margin: 0;
@@ -828,7 +883,8 @@ a.button:hover {
 .box:hover .post,
 .box:hover .icon {
   opacity: 1;
-  transform: translateX(0);
+  -webkit-transform: translateX(0) !important;
+    transform: translateX(0) !important;
 }
 
 .box .icon li {
