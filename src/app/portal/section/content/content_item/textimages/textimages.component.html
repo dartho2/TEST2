@@ -63,7 +63,7 @@
     <ul class="icon" >
         <li *ngIf="data.content.references"><a routerLink="/pdtr/references" class="fa fa-file-text-o"[ngStyle]="{'background': portals.portal.style.colors.primary, 'color':'white'}"><span style="color:black;font-family: OSWALD;text-transform: uppercase;">referencje</span></a></li>
         <li *ngIf="data.content.email"><a class="fa fa-envelope" [ngStyle]="{'background': portals.portal.style.colors.primary, 'color':'white'}"><span style="color:black;font-family: OSWALD;text-transform: uppercase;">{{data.content.email}}</span></a></li>
-        <li *ngIf="data.content.phone"><a class="fa fa-phone" [ngStyle]="{'background': portals.portal.style.colors.primary, 'color':'white'}"><span style="color:black;font-family: OSWALD;text-transform: uppercase;">{{data.content.phone}}</span></a></li>
+        <li *ngIf="data.content.phone"><a href="'tel:{{data.content.phone}}" class="fa fa-phone" [ngStyle]="{'background': portals.portal.style.colors.primary, 'color':'white'}"><span style="color:black;font-family: OSWALD;text-transform: uppercase;">{{data.content.phone}}</span></a></li>
     </ul>
     </div>
 </div>
