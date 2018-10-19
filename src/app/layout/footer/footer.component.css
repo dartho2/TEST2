@@ -1,5 +1,18 @@
+a {
+  font-family: 'robotlight', sans-serif;
+  font-weight: 300;
+  line-height: 20.2px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-size: 16px;
+  font-style: normal;
+}
+a:hover {
+  color: white !important;
+}
 footer {
-  background: #25282a;
+  /* background: #25282a; */
+  background: black;
   margin-top:60px;
   color: #e6e6e6;
   font-family: 'robotlight';
@@ -10,6 +23,18 @@ footer {
 }
 footer a,p {
   color: rgba(255, 255, 255, 0.6);
+}
+.footer-copyright {
+  color: white;
+    border-top: 1px solid #ffffff1f;
+    font-size: 10px;
+    padding: 2px !important;
+}
+.footer-copyright a {
+  color: white;
+   
+    font-size: 12px;
+    padding: 2px;
 }
 .text-black-50 {
   color: rgba(255, 255, 255, 0.6)!important;
