@@ -1,6 +1,6 @@
 <ngx-spinner
    bdColor="white"
-   size="medium"
+   size="large"
    color="black"
    type="ball-clip-rotate">
    <div class="spiner-loading">
@@ -49,10 +49,14 @@
                      <h3 class="title" style="width: 100%"><img class="logo" src="{{portal.logo}}" style="min-width: 100px;
                       -webkit-filter: unset;
                       height: 100%;
+                      -webkit-filter: drop-shadow(3px 3px 1px #222222a1);
+                      filter: drop-shadow(3px 3px 1px #222222a1);
                       max-width: 40%;"></h3>
                       <h2 class="title" [ngStyle]="{'color': portal.style.colors.primary}" style="width: 100%; text-align: center;padding-top: 15px;">{{portal.label}}</h2>
-                     <span class="post" style="font-size:1rem"></span>
-                     <span class="post" style="font-size:1vw;font-weight: 300;"> {{portal.description}}</span>
+                     <span class="post" style="font-size:1rem;-webkit-filter: drop-shadow(1px 1px 1px #222222a1);
+                     filter: drop-shadow(1px 1px 1px #222222a1);"></span>
+                     <span class="post" style="font-size:1vw;font-weight: 300;-webkit-filter: drop-shadow(1px 1px 1px #222222a1);
+                     filter: drop-shadow(1px 1px 1px #222222a1);"> {{portal.description}}</span>
             <a routerLink="/{{portal.name}}/{{portal.sections.length > 0 ? portal.sections[0].name : ''}}" class="button post" style="margin:0 auto;">Przejdz do Strony</a>
             </div>
             </div>

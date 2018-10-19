@@ -9,7 +9,10 @@
       margin-left: -50px;
   }
   }
-  
+  @media (min-width: 1200px){
+.container {
+    max-width: 1200px;
+}}
 .loading-text {
   position: absolute;
   top: 0;
@@ -19,13 +22,15 @@
   z-index: 99999!important;
 }
 .spiner-text {
-  font-size: 24px;
+  font-size: 29px;
     font-family: OSWALD;
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-left: -61px;
-    margin-top: 38px;
+    -webkit-filter: drop-shadow(3px 3px 1px #222222a1);
+    filter: drop-shadow(3px 3px 1px #222222a1);
+    margin-left: -80px;
+    margin-top: 47px;
     color: black;
 }
 
@@ -574,10 +579,6 @@ app-table.ng-star-inserted {
   overflow: auto;
 }
 
-nav.navbar.navbar-expand-md.navbar-dark.navbar-header-bot {
-  display: block;
-  padding: 20px;
-}
 
 li.nav-item.ng-star-inserted {
   display: inline-block;
