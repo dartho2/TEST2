@@ -22,12 +22,11 @@
           </div>
           
         </div>
-        {{portals|json}}
          <section style="background-position: center;border: 1px solid white;
             background-repeat: no-repeat;
             background-size: cover;
             background:white;"
-            *ngFor="let portal of portals">
+            *ngFor="let portal of portals; index as i">
             <a class="nav-link" routerLink="/{{portal.name}}/{{portal.sections.length > 0 ? portal.sections[0].name : ''}}">
                <div class="box">
                   <svg class="curve1" x="0px" y="0px" viewBox="0 0 400 1000">
@@ -46,7 +45,7 @@
                      bottom: 0px;
                      left: 0px;
                      right: 0px;
-                     ">{{portal.label}}</div>
+                     ">{{portal.label}} {{i}}</div>
                   <div class="box-content" style="text-align: center;">
                      <h3 class="title" style="width: 100%"><img class="logo" src="{{portal.logo}}" style="min-width: 100px;
                       -webkit-filter: unset;
