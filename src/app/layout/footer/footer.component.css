@@ -10,6 +10,10 @@ a {
 a:hover {
   color: white !important;
 }
+.align-items-center {
+  padding-top:8px!important;
+  padding-bottom:8px!important;
+}
 footer {
   /* background: #25282a; */
   background: black;
@@ -21,8 +25,34 @@ footer {
     font-style: normal;
     text-decoration: none;
 }
+.image-footer-logo {
+  font-size: 20px; 
+  font-family: 'OSWALD';
+}
+.p-hr-f {
+  padding-left:10px;
+  padding-right:10px;
+}
+.logo-portals {
+  position: absolute;
+ z-index: 2;
+ height: 200px;
+ opacity: 0.2;
+ right: 0px;
+}
+.logo-portals-footer {
+  height: 50px;
+}
 footer a,p {
   color: rgba(255, 255, 255, 0.6);
+}
+.fa-time {
+  padding-right: 2px;
+}
+.time-footer {
+  font-weight: 900;
+  text-align: right;
+  float: right;
 }
 .footer-copyright {
   color: white;
