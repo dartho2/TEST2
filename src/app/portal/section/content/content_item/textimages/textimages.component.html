@@ -17,7 +17,7 @@
   style="padding:10px; margin-bottom: 30px; cursor:pointer;">
   <div [ngClass]="data.styles.text_type">
     <h2 style="color:black" *ngIf="data.content.title" class="fit-p-on-title col-sm-12">{{data.content.title}}
-    </h2> <span style="text-align: center" class="ref-l" *ngIf="data.content.data">data: {{data.content.data}}</span>
+    </h2> <span style="text-align: center" class="ref-l" *ngIf="data.content.data">{{data.content.data}}</span>
     <blockquote>{{data.content.text}}</blockquote>
     <cite>{{data.content.signature}}</cite>
 
