@@ -3,8 +3,10 @@
   background-color: transparent;
 }
 
-.mat-vertical-stepper-header {}
 
+ul {
+  margin-bottom: 0px;
+}
 .stepper.list-progress {
   font-family: 'robotlight';
   font-size: 17px;
