@@ -17,6 +17,14 @@ textarea, input {
   display: flex;
   flex-direction: column;
 }
+.logo-portal-contact {
+  height: 29px;
+  margin-left: -15px;
+  padding-right: 10px;
+}
+a.logo-portal-contact-tx {
+  font-weight: 600;
+}
 
 .example-container > * {
   width: 100%;
