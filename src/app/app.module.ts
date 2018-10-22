@@ -36,6 +36,7 @@ import { OlComponent } from './portal/section/content/content_item/list/ol.compo
 import {AngularFontAwesomeModule} from 'angular-font-awesome';
 import { NgxSpinnerModule } from 'ngx-spinner';
 
+
 @NgModule({
   declarations: [
     AppComponent,

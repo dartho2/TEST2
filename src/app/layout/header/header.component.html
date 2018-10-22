@@ -145,13 +145,13 @@
 
 <div *ngIf="service.isActiveSectionMainSection()">
   <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
-    <ol class="carousel-indicators">
+    <!-- <ol class="carousel-indicators">
       <div *ngFor="let p of service.portal.images_top; index as i">
         <div *ngIf="portal.images_top.length > 1">
           <li data-target="#carousel-example-2" data-slide-to="0" class="{{i}}"></li>
         </div>
       </div>
-    </ol>
+    </ol> -->
     <div class="carousel-inner" role="listbox">
       <div *ngFor="let image of service.portal.images_top; index as i" [ngClass]="i == 0 ? 'carousel-item active':'carousel-item'">
         <div class="view">
