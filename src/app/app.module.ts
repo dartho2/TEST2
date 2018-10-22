@@ -7,7 +7,6 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import {FormsModule, ReactiveFormsModule }   from '@angular/forms';
 import {AppRoutingModule} from './app.routing';
-import {MatStepperModule} from '@angular/material/stepper';
 import {AppComponent} from './app.component';
 import {HomeComponent} from './home/home.component';
 import {PortalComponent} from './portal/portal.component';
@@ -24,17 +23,15 @@ import {FbComponent} from '../app/portal/section/content/content_item/fb/fb.comp
 import {FooterComponent} from './layout/footer/footer.component';
 import {HeaderComponent} from './layout/header/header.component';
 import {ContactComponent} from './portal/section/content/content_item/contact/contact.component';
-import {BoxComponent} from './portal/section/content/content_item/box/box.component';
-import {BoxLinkComponent} from './portal/section/content/content_item/box_link/box_link.component';
 import {MatDialogModule} from '@angular/material/dialog';
 import {DialogComponent} from './portal/section/content/content_item/dialog/dialog.component';
 import {TableCellComponent} from './portal/section/content/content_item/table/table-cell.component';
 import {ConnectionService} from './portal/section/content/content_item/contact/connection.service';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material';
-import { OlComponent } from './portal/section/content/content_item/list/ol.components';
+import {OlComponent} from './portal/section/content/content_item/list/ol.components';
 import {AngularFontAwesomeModule} from 'angular-font-awesome';
-import { NgxSpinnerModule } from 'ngx-spinner';
+import {NgxSpinnerModule} from 'ngx-spinner';
 
 
 @NgModule({
@@ -53,9 +50,7 @@ import { NgxSpinnerModule } from 'ngx-spinner';
     FooterComponent,
     HeaderComponent,
     ContactComponent,
-    BoxComponent,
     DialogComponent,
-    BoxLinkComponent,
     TableCellComponent,
     OlComponent
   ],
