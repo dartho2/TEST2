@@ -8,7 +8,7 @@ import { NgxSpinnerService } from 'ngx-spinner';
 export class AppComponent implements OnInit{
   constructor(private spinner: NgxSpinnerService) { }
 
-  title = 'TEST2';
+  title = 'KarmaZdrowia';
   ngOnInit(){
   }
 }
