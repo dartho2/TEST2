@@ -79,6 +79,9 @@ border-right:1px solid white;
 .p-hr-f {
   border-left:1px solid white;
 } */
+p.lead-footer {
+  text-align: left;
+}
 .lead-footer {
   font-family: 'robotlight', sans-serif;
   font-size: 16px;
