@@ -12,8 +12,9 @@
 </ngx-spinner>
 <div *ngIf="spiner">
    <app-portal *ngIf="isActivePortalValid()" [portals]='portals'></app-portal>
+   
    <div *ngIf="!isActivePortalValid()" class="container" style="padding: 0px; margin: 0px;">
-      <div id="bl-main" class="bl-main">
+<div id="bl-main" class="bl-main">
         <div class="head-logo-portals" style="width: 100%;margin: 0 auto;">
             <div class="head-logo">
           <img class="logo-portals" src="assets/images/spinner.png" alt="" >
@@ -21,6 +22,7 @@
           </div>
           
         </div>
+        {{portals|json}}
          <section style="background-position: center;border: 1px solid white;
             background-repeat: no-repeat;
             background-size: cover;
@@ -52,7 +54,7 @@
                       -webkit-filter: drop-shadow(3px 3px 1px #222222a1);
                       filter: drop-shadow(3px 3px 1px #222222a1);
                       max-width: 40%;"></h3>
-                      <h2 class="title" [ngStyle]="{'color': portal.style.colors.primary}" style="width: 100%; text-align: center;padding-top: 15px;">{{portal.label}}</h2>
+                      <!-- <h2 class="title" [ngStyle]="{'color': portal.style.colors.primary}" style="width: 100%; text-align: center;padding-top: 15px;">{{portal.label}}</h2> -->
                      <span class="post" style="font-size:1rem;-webkit-filter: drop-shadow(1px 1px 1px #222222a1);
                      filter: drop-shadow(1px 1px 1px #222222a1);"></span>
                      <span class="post" style="font-size:1vw;font-weight: 300;-webkit-filter: drop-shadow(1px 1px 1px #222222a1);
