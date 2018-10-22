@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 /* .box:nth-child(odd) .box-content {
 	text-align: right;
 }
@@ -77,7 +77,6 @@ section:nth-child(even) .box .box-content {
   }
   
   .logo-name {
-    display: inline;
     text-align: center;
     font-family: OSWALD;
     font-size: 6vh;
@@ -101,10 +100,7 @@ section:nth-child(even) .box .box-content {
     height: 100%;
     width: 100%;
   }
-  .head-logo:hover:after {
-	  /* border:73px solid white; */
-  }
-  
+   
   img.logo-portals:hover {
     height: 90px;
 	width: auto;
@@ -201,24 +197,24 @@ a:hover {
 }
 
 .bl-main>section:nth-child(5) {
-  top: 50%;
-  left: 50%;
+  top: 0;
+  left: 0;
 }
 
 .bl-main>section:nth-child(2) {
   top: 0;
-  left: 0;
+  left: 50%;
 }
 
 .bl-main>section:nth-child(3) {
 
-  top: 0;
-  left: 50%;
+  top: 50%;
+  left: 0;
 }
 
 .bl-main>section:nth-child(4) {
   top: 50%;
-  left: 0;
+  left: 50%;
 }
 
 .bl-box {
@@ -264,7 +260,6 @@ a:hover {
 
 .bl-icon {
   font-family: 'icomoon';
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
