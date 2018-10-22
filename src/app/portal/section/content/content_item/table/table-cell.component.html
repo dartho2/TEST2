@@ -11,6 +11,6 @@
   </div>
 
 </div>
-<div *ngIf="getDataType() ==='string'">
+<div [ngClass]="type_table+'-test'" *ngIf="getDataType() ==='string'">
   {{data}}
 </div>

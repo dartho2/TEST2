@@ -7,10 +7,13 @@ import {DialogComponent} from '../dialog/dialog.component';
 @Component({
   selector: 'app-table-cell',
   templateUrl: './table-cell.component.html',
+  styleUrls: ['./table-cell.component.css']
 })
 export class TableCellComponent {
   @Input()
   data;
+  @Input()
+  type_table;
 
   fileNameDialogRef: MatDialogRef<DialogComponent>;
   
