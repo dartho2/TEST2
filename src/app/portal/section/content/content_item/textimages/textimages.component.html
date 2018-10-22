@@ -12,19 +12,24 @@
     </div>
   </div>
 </div>
-
+<!-- REFERENCJE -->
 <div *ngIf="data.styles.text_type === 'block-ref'" class="col-md-12" (click)="openDialog(data)" [ngStyle]="{'float': data.styles.float}"
   style="padding:10px; margin-bottom: 30px; cursor:pointer;">
   <div [ngClass]="data.styles.text_type">
-    <h2 style="color:black" *ngIf="data.content.title" class="fit-p-on-title col-sm-12">{{data.content.title}}</h2>
+    <h2 style="color:black" *ngIf="data.content.title" class="fit-p-on-title col-sm-12">{{data.content.title}} 
+     </h2> <span style="text-align: center" class="ref-l" *ngIf="data.content.data">data: {{data.content.data}}</span>
     <blockquote>{{data.content.text}}</blockquote>
     <cite>{{data.content.signature}}</cite>
-    <div class="fab">
+   
+    <div class="description-ref" *ngIf="data.content.data || data.content.button"> 
+  <span style="text-align: center" class="ref-r" *ngIf="data.content.button"><button type="button" class="btn btn-xs btn-info">Czytaj więcej</button></span>
+  </div>   
+    <!-- <div class="fab">
       <button type="button" class="btn btn-light" style="width:100%;">Zobacz</button>
-    </div>
+    </div> -->
   </div>
 </div>
-
+<!-- REFERENCJE -->
 
 <div [ngClass]="data.styles.text_type" *ngIf="data.styles.text_type === 'block-o-t'" class="col-md-12">
   <h2  *ngIf="data.content.title" class="fit-p-on-title col-sm-12">{{data.content.title}}</h2>
