@@ -1,7 +1,6 @@
-<div id="{{data.content.title}}" class="container-fluid">
-  
+<div id="{{data.content.title}}">
 <div class="col-md-12" *ngIf="data.styles.list_type === 'normal'">
-  <h2 *ngIf="data.content.title" class="featurette-heading"style="padding-left: 1.25rem;padding-top: 0rem; font-family: OSWALD; color:black; font-weight: 600; text-align: center; clear: both;">
+  <h2 *ngIf="data.content.title" class="featurette-heading" style="padding-left: 1.25rem;padding-top: 2rem; font-family: OSWALD; color:black; font-weight: 600; text-align: center; clear: both;">
     {{data.content.title}}</h2>
   <div *ngIf="data.content.text.length > 0">
     <p class="lead">{{data.content.text}}</p>
@@ -20,7 +19,6 @@
     <ol *ngIf="data.content.items.length > 0">
       <div *ngFor="let item of data.content.items; index as i"> 
         <app-ol [data]="item" [index]="i"></app-ol>
-        
         </div>
       </ol>
   </div>
