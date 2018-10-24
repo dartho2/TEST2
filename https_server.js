@@ -11,6 +11,8 @@ const credentials = {
   cert: certyficate
 }
 
+app.use(express.static('./dist/TEST2'));
+
 app.use(function(req, res, next) {
   if (req.secure) {
       next();
@@ -18,6 +20,7 @@ app.use(function(req, res, next) {
       res.redirect('https://' + req.headers.host + req.url);
   }
 });
+
 const httpServer = http.createServer(app);
 const httpsServer = https.createServer(credentials, app);
 
