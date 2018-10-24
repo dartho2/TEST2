@@ -11,9 +11,7 @@ const credentials = {
   cert: certyficate
 }
 
-app.use(express.static('./dist/TEST2'));
-
-app.use(function(req, res, next) {
+app.use(express.static('./dist/TEST2'), function(req, res, next) {
   if (req.secure) {
       next();
   } else {
