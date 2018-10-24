@@ -3,7 +3,9 @@
   background-color: transparent;
 }
 
-
+.normal {
+  padding:0px;
+}
 ul {
   margin-bottom: 0px;
 }

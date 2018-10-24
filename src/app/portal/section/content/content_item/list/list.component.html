@@ -1,5 +1,4 @@
-<div id="{{data.content.title}}">
-<div class="col-md-12" *ngIf="data.styles.list_type === 'normal'">
+<div class="col-md-12" [ngClass]="data.styles.list_type" *ngIf="data.styles.list_type === 'normal'">
   <h2 *ngIf="data.content.title" class="featurette-heading" style="padding-left: 1.25rem;padding-top: 2rem; font-family: OSWALD; color:black; font-weight: 600; text-align: center; clear: both;">
     {{data.content.title}}</h2>
   <div *ngIf="data.content.text.length > 0">
@@ -11,30 +10,29 @@
 </div>
 
 <div class="col-md-12" *ngIf="data.styles.list_type === 'list-r'">
-    <h2 *ngIf="data.content.title"style="padding-left: 1.25rem;padding-top: 0rem; font-family: OSWALD; color:black; font-weight: 600; text-align: center; clear: both;" class="featurette-heading">
-      {{data.content.title}}</h2>
-    <div *ngIf="data.content.text.length > 0">
-      <p class="lead">{{data.content.text}}</p>
-    </div>
-    <ol *ngIf="data.content.items.length > 0">
-      <div *ngFor="let item of data.content.items; index as i"> 
-        <app-ol [data]="item" [index]="i"></app-ol>
-        </div>
-      </ol>
+  <h2 *ngIf="data.content.title" style="padding-left: 1.25rem;padding-top: 0rem; font-family: OSWALD; color:black; font-weight: 600; text-align: center; clear: both;"
+    class="featurette-heading">
+    {{data.content.title}}</h2>
+  <div *ngIf="data.content.text.length > 0">
+    <p class="lead">{{data.content.text}}</p>
   </div>
+  <ol *ngIf="data.content.items.length > 0">
+    <div *ngFor="let item of data.content.items; index as i">
+      <app-ol [data]="item" [index]="i"></app-ol>
+    </div>
+  </ol>
+</div>
 <div class="col-md-12" *ngIf="data.styles.list_type === 'stepper'">
   <div class="col-md-6" [ngStyle]="{'float': data.styles.float}" *ngFor="let content of data.content">
-    <h2 class="featurette-heading"style="padding-left: 1.25rem;padding-top: 0rem; font-family: OSWALD; color:black; font-weight: 600; text-align: center; clear: both;">
+    <h2 class="featurette-heading" style="padding-left: 1.25rem;padding-top: 0rem; font-family: OSWALD; color:black; font-weight: 600; text-align: center; clear: both;">
       {{content.title}}</h2>
-    <div *ngIf="content.text > 0">
+    <div [ngClass]="data.styles.list_type" *ngIf="content.text > 0">
       <p class="lead">{{content.text}}</p>
     </div>
     <div *ngIf="content.items.length > 0">
-      <ul style="list-style: square inside; padding: 0px;" >
-  
+      <ul style="list-style: square inside; padding: 0px;">
         <li style="padding: 0px;" *ngFor="let item of content.items; index as i ">{{item}}</li>
       </ul>
     </div>
   </div>
-</div>
 </div>
