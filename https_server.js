@@ -11,13 +11,15 @@ const credentials = {
   cert: certyficate
 }
 
-app.use(express.static('./dist/TEST2'), function(req, res, next) {
-  if (req.secure) {
-      next();
-  } else {
-      res.redirect('https://' + req.headers.host + req.url);
-  }
-});
+app.use(express.static('./dist/TEST2'));
+
+// app.use(function(req, res, next) {
+//   if (req.secure) {
+//       next();
+//   } else {
+//       res.redirect('https://' + req.headers.host + req.url);
+//   }
+// });
 
 const httpServer = http.createServer(app);
 const httpsServer = https.createServer(credentials, app);
@@ -26,8 +28,14 @@ app.get('/*', (req, res) => {
   res.sendFile(path.join(__dirname, '/dist/TEST2/index.html'));
 });
 
-httpServer.listen(80, () => {
-  console.log('Server Http started on 80')
+httpServer.listen(80, (req, res, next) => {
+  if (req.secure) {
+    next();
+} else {
+    console.log('changed to 443')
+    res.redirect('https://' + req.headers.host + req.url);
+}
+  
 });
 
 httpsServer.listen(443, () => {
