@@ -17,6 +17,7 @@ const httpsServer = https.createServer(credentials, app);
 
 app.get('/*', (req, res) => {
   res.sendFile(path.join(__dirname, '/dist/TEST2/index.html'));
+  res.redirect('https://' + req.headers.host + req.url);
 });
 
 httpServer.listen(80, () => {
