@@ -13,6 +13,9 @@
 .container {
     max-width: 1200px;
 }}
+.la-ball-clip-rotate.la-3x > div {
+  border-width: 2px !important;
+}
 .loading-text {
   position: absolute;
   top: 0;

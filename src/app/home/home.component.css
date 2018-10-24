@@ -5,6 +5,9 @@
 section:nth-child(even) .box .box-content {
 	text-align: left;
 } */
+.bl-main {
+  background: #f7f7f7;
+}
 .box {
     background: black;
 }
@@ -38,6 +41,21 @@ section:nth-child(even) .box .box-content {
     bottom: 0;
   }
 
+  .black-overlay > div {
+    position: absolute;
+  margin: auto;
+/* -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 4px 1px #222); */
+  left: 0;
+  right: 0;
+  top: -65px;
+  z-index: 9;
+  bottom: 0;
+  }
+  .la-ball-clip-rotate.la-3x > div {
+    border-width: 2px !important;
+  }
+
 .head-logo-portals:after {
   content: '';
   display: block;
@@ -45,15 +63,14 @@ section:nth-child(even) .box .box-content {
 }
 
 .spiner-image {
-  width: 80px;
-  top: 50%;
-  left: 50%;
-  margin: 0;
+  width: 200px;
   position: absolute;
-  -webkit-filter: drop-shadow(3px 3px 1px #222222a1);
-  filter: drop-shadow(3px 3px 1px #222222a1);
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  margin: auto;
+  left: 119px;
+  right: 0;
+  top: 50px;
+  z-index: 9;
+  bottom: 0;
 }
 .img.logo {
 	width: 20vh;
@@ -64,11 +81,11 @@ section:nth-child(even) .box .box-content {
 
 @media screen and (min-width: 768px) {
   .logo-portals {
-    width: 100px;
+    width: 110px;
     position: absolute;
 	margin: auto;
-	-webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter: drop-shadow(5px 4px 1px #222);
+	/* -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 4px 1px #222); */
     left: 0;
     right: 0;
     top: -65px;
@@ -102,7 +119,7 @@ section:nth-child(even) .box .box-content {
   }
    
   img.logo-portals:hover {
-    height: 90px;
+    height: 63px;
 	width: auto;
 	transition: border 5s ease-in;
 }
@@ -128,10 +145,11 @@ section:nth-child(even) .box .box-content {
   }
 
   .logo-portals {
-	margin: 0 auto;
-	-webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter: drop-shadow(5px 4px 1px #222);
-    width: 100px
+    margin: 0 auto;
+    /* -webkit-filter: drop-shadow(5px 5px 5px #222); */
+    /* filter: drop-shadow(5px 4px 1px #222); */
+    width: 150px;
+    margin-bottom: 10px;
   }
 }
 
@@ -761,7 +779,7 @@ section.bl-expand .bl-icon-close {
 }
 
 .box:hover {
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); */
   background: white;
 }
 
