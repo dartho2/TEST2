@@ -11,13 +11,18 @@ const credentials = {
   cert: certyficate
 }
 
-app.use(express.static('./dist/TEST2'));
+app.use(function(req, res, next) {
+  if (req.secure) {
+      next();
+  } else {
+      res.redirect('https://' + req.headers.host + req.url);
+  }
+});
 const httpServer = http.createServer(app);
 const httpsServer = https.createServer(credentials, app);
 
 app.get('/*', (req, res) => {
   res.sendFile(path.join(__dirname, '/dist/TEST2/index.html'));
-  res.redirect('https://' + req.headers.host + req.url);
 });
 
 httpServer.listen(80, () => {
