@@ -1,0 +1,3717 @@
+[
+    {
+    "description": "Prowadzenie lekcji jogi na kilku poziomach trudności adresowane dla adeptów z dłuższym stażem oraz dla osób początkujących. Lekcje jogi obejmują praktykę asan oraz techniki relaksacyjne uwalniające od stresu.",
+    "logo": "assets/logo/studio_yogi_logo.png",
+    "images_top": [
+    "assets/images/joga/slider2.png",
+    "assets/images/joga/slider1.png"
+    ],
+    "active": true,
+    "sections": [
+    {
+    "active": false,
+    "data": [
+    {
+    "_id": "5bbb6d87f9288a0013a8e981",
+    "type": "text",
+    "styles": {
+    "float": "unset",
+    "text_type": "block_box",
+    "list_type": "normal"
+    },
+    "content": [
+    {
+    "title": "Szkoła Jogi",
+    "lead": "",
+    "text": "Prowadzenie lekcji jogi na kilku poziomach trudności adresowane dla adeptów z dłuższym stażem oraz dla osób początkujących. Lekcje jogi obejmują praktykę asan oraz techniki relaksacyjne uwalniające od stresu."
+    }
+    ],
+    "created_at": "2018-10-08T14:45:27.376Z",
+    "updated_at": "2018-10-08T14:45:27.376Z"
+    }
+    ],
+    "_id": "5bbb6726f9288a0013a8e980",
+    "name": "news_y",
+    "label": "O nas",
+    "created_at": "2018-10-08T14:18:14.666Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bbb71b8f9288a0013a8e983",
+    "type": "text",
+    "styles": {
+    "float": "unset",
+    "text_type": "block_box",
+    "list_type": "normal"
+    },
+    "content": [
+    {
+    "title": "",
+    "lead": "",
+    "text": "Joga to najstarsza gimnastyka świata. Jest praktykowana od wielu tysięcy lat, a jej najważniejszym źródłem są spisane między VI a III w. p.n.e. Jogasutry autorstwa Patańdżalego, ajurwedyjskiego lekarza. Joga może być rozumiana na dwa sposoby. Może być postrzegana jako system światopoglądowy, filozofię czy nawet religię oraz jako aktywność ruchową. W cywilizacji zachodniej, dużo częściej jogę kojarzy się z praktyką asan. Również i w naszym studio, joga jest wolna od światopoglądu i jest nauczana tylko i wyłącznie jako aktywność fizyczna. Niezaprzeczalnym faktem jest jednak jej znamienny wpływ na jasność myślenia, uspokojenie umysłu i zharmonizowanie pracy narządów wewnętrznych. Praktyka asan – czyli pozycji jogi - ma charakter terapeutyczny. Ich wykonywanie przynosi ulgę narządowi ruchu i znacząco wpływa na witalność osoby regularnie ćwiczącej"
+    }
+    ],
+    "created_at": "2018-10-08T15:03:20.340Z",
+    "updated_at": "2018-10-22T14:32:20.872Z"
+    },
+    {
+    "_id": "5bbb7d7ff9288a0013a8e98a",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "Jogasutry Patańdżalego",
+    "lead": "",
+    "image": "assets/images/joga/yogasutry.jpg",
+    "text": "System jogi klasycznej został zebrany i opracowany w Jogasutrach powstałych w III w. p.n.e., przypisywanych mędrcowi Patańdżalemu. Jogasutry to pierwszy jednolity tekst o jodze składający się ze 195 sutr - aforyzmów. Stamtąd pochodzą podstawy filozoficzne jogi. Klasyczna joga opisana przez Patańdżalego ma osiem stopni. Dwa pierwsze stopnie są praktykami wstępnymi, przygotowującymi do właściwej praktyki - yamy i niyamy pomagają opanować namiętności i kontrolować emocje, a także zachować harmonię ze wszechświatem. Trzy kolejne związane są z poszukiwaniami zewnętrznymi - asany oddziaływują na ciało, tworząc je silnym i zdrowym, pranayama i pratyahara uczą regulacji oddechu, a przez to kontroli zmysłów i umysłu. Dharana, dhyana oraz samadhi to praktyki wewnętrzne - poszukiwania duszy, pozwalające na odnalezienie harmonii ze sobą i światem."
+    },
+    "created_at": "2018-10-08T15:53:35.881Z",
+    "updated_at": "2018-10-22T14:33:45.847Z"
+    },
+    {
+    "_id": "5bbb83dbf9288a0013a8e98b",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "Podstawy ośmiostopniowej ścieżki jogi Patańdżalego",
+    "text": "",
+    "items": [
+    "Yamy - uniwersalne przykazania moralne: niekrzywdzenie, prawda, niekradzenie, wstrzemięźliwość, niezachłanność",
+    "Niyamy - zasady postępowania: czystość, zadowolenie, zapał, poznawanie samego siebie, poświęcenie się.",
+    "Asany – pozycje jogi. Przywracają ciało do stanu zdrowia i witalności, rozwijają sprawność i wytrzymałość, wpływają na pracę mięśni, stawów, nerwów i gruczołów wewnętrznych.",
+    "Pranayama – kontrola energii życiowej (prana) poprzez regulację oddechu. Utrzymanie pełnego, stabilnego oddechu pozwala wyciszyć i skoncentrować umysł.",
+    "Pratyahara - wycofanie uwagi ze świata zewnetrznego poprzez rozlużnienie zmysłów i skierowanie uwagi do wnętrza.",
+    "Dharana – stan koncentracji osiągnięty dzięki opanowaniu ciała przez asany, umysłu przez pranayamę, a zmysłów przez pratyaharę.",
+    "Dhyana – kontemplacja, która powstaje w wyniku długotrwałej koncentracji. Ciało, umysł, zmysły, intelekt i ego są zintegrowane z obiektem medytacji.",
+    "Samadhi – ostateczny cel jogi i innych systemów rozwoju. Stan w którym ciało i zmysły odpoczywają jak w śnie głębokim, a władze umysłu i intelektu pozostają w stanie czuwania. Stan ten charakteryzuje się odczuwaniem głębokiego spokoju, totalnej świadomości tego co jest tu i teraz oraz doświadczeniem braku podziałów na “ja” i świat zewnętrzny."
+    ]
+    },
+    "created_at": "2018-10-08T16:20:43.071Z",
+    "updated_at": "2018-10-08T16:20:43.071Z"
+    },
+    {
+    "_id": "5bbb87a7f9288a0013a8e98c",
+    "type": "text",
+    "styles": {
+    "float": "unset",
+    "text_align": "center",
+    "text_type": "block_box"
+    },
+    "content": [
+    {
+    "title": "Pozycje jogi:",
+    "lead": "",
+    "text": ""
+    }
+    ],
+    "created_at": "2018-10-08T16:36:55.309Z",
+    "updated_at": "2018-10-08T16:36:55.309Z"
+    },
+    {
+    "_id": "5bbb8a19f9288a0013a8e98f",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "title": "Pozycje stojące",
+    "lead": "",
+    "image": "assets/images/joga/pozycje/stojaca_.png",
+    "text": "Najważniejsza grupa asan dla osób dopiero zaczynających praktykę, przygotowuje do dalszej praktyki. Sprawiają że stajemy się silniejsi i bardziej elastyczni. Mają bardzo szeroki zakres działania: zwalczają sztywność nóg i bioder, korygują lekkie wady nóg i umożliwiają ich symetryczny rozwój, uśmierzają bóle pleców, tonizują narządy jamy brzusznej, wzmacniają okolicę kostek, dają uziemienie pozycji. Ponadto rozwijają klatkę piersiową, dzięki czemu są pomocne również w pranajamie. Pozycje stojące rozgrzewają ciało na początku ćwiczeń. Często wymagają zaangażowania całego ciała, stabilnej postawy. Pozycje stojące zawierają elementy wszystkich innych pozycji, przygotowują ciało do trudniejszych asan"
+    },
+    "created_at": "2018-10-08T16:47:21.852Z",
+    "updated_at": "2018-10-08T16:47:21.852Z"
+    },
+    {
+    "_id": "5bbb9306f9288a0013a8e991",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "title": "Pozycje siedzące",
+    "lead": "",
+    "image": "assets/images/joga/pozycje/siedzaca.png",
+    "text": "Bardzo często wymagają wcześniejszego przygotowania w pozycjach stojących. Pomagają rozluźnić ciało, zmniejszają napięcie mięśni. Aby wykonać je prawidłowo kręgosłup musi być mocno wyciągnięty do góry. Pozycje te wzmacniają kręgosłup, usprawniają krążenie krwi - ułatwiają dopływ krwi do mózgu co ma istotne znaczenie w praktyce medytacji. A także to że przynoszą spokój, pomagają pozbyć się stresu. Dodatkowo tonizują narządy jamy brzusznej i klatki piersiowej. Są istotne zwłaszcza dla kobiet, gdyż uelastyczniają biodra i mięśnie dna miednicy a co za tym idzie: ułatwiają naturalny poród, zmniejszają napięcia i bóle."
+    },
+    "created_at": "2018-10-08T17:25:26.291Z",
+    "updated_at": "2018-10-08T17:25:26.291Z"
+    },
+    {
+    "_id": "5bbb93c4f9288a0013a8e992",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "image": "assets/images/joga/pozycje/wygiecie_do_przodu.png",
+    "title": "Wygięcia do przodu",
+    "lead": "",
+    "text": "Tonizują narządy brzucha, podnoszą tonus nerek, regenerują kręgosłup i polepszają trawienie, rozciągają tył ciała, wyciszają umysł."
+    },
+    "created_at": "2018-10-08T17:28:36.370Z",
+    "updated_at": "2018-10-08T17:28:36.370Z"
+    },
+    {
+    "_id": "5bbb93faf9288a0013a8e993",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "image": "assets/images/joga/pozycje/wygiecie_do_tylu.png",
+    "title": "Wygięcia do tyłu",
+    "lead": "",
+    "text": "intensywnie otwierają okolicę mostka, rozciągają klatkę piersiową oraz mięśnie brzucha, wzmacniają kręgosłup - plecy stają się mocne i pełne życia, asany te dodają energii i pewności siebie"
+    },
+    "created_at": "2018-10-08T17:29:30.208Z",
+    "updated_at": "2018-10-08T17:29:30.208Z"
+    },
+    {
+    "_id": "5bbb942af9288a0013a8e994",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "image": "assets/images/joga/pozycje/pozycja_odwrocona.png",
+    "title": "Pozycje odwrócone",
+    "lead": "",
+    "text": "To kluczowe pozycje w jodze. Wymagają stabilności ciała i umysłu. Wykonuje się je zwykle pod koniec sesji, kiedy ciało jest już dobrze rozgrzane. Mają szerokie działanie prozdrowotne: zwiększają dopływ czystej, utlenionej krwi do komórek mózgowych, co zwiększa moc intelektu i jasność myślenia. Poprawiają krążenie limfatyczne i żylne. Poprawiają pracę serca, stymulują system immunologiczny. Regulują gospodarkę hormonalną i przemianę materii, wykorzeniają przeziębienia i dolegliwości górnych dróg oddechowych. Leczą astmę i zapalenie zatok. Odmładzają i regenerują skórę twarzy. Umożliwiają samo oczyszczenie się organizmu, pomagają usuwać toksyny. Usuwają bóle głowy. Działają odprężająco na układ nerwowy. Gwarantują dobry sen. Uspokajają, pomagają pozbyć się lęków i depresji, spojrzeć na wszystko z innej stronya jednocześnie energetyzują ciało."
+    },
+    "created_at": "2018-10-08T17:30:18.095Z",
+    "updated_at": "2018-10-08T17:30:18.095Z"
+    },
+    {
+    "_id": "5bbb9443f9288a0013a8e995",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "image": "assets/images/joga/pozycje/skrety.png",
+    "title": "Skręty",
+    "lead": "",
+    "text": "Uelastyczniają i wzmacniają kręgosłup, biodra i barki. Oczyszczają i regenerują wewnętrzne narządy brzucha. Przywracają witalność."
+    },
+    "created_at": "2018-10-08T17:30:43.642Z",
+    "updated_at": "2018-10-08T17:30:43.642Z"
+    },
+    {
+    "_id": "5bbb9979e1a4cd00134e9480",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "image": "assets/images/joga/pozycje/pozycja_balansujaca.png",
+    "title": "Pozycje balansujące",
+    "lead": "",
+    "text": "Przeważnie należą do nich pozycje zaawansowane, dosyć trudne do wykonania dla osoby początkującej. Pozycje te bardzo dobrze wpływają na zdrowie: wzmacniają i uelastyczniają całe ciało. Zapewniają wysoką sprawność fizyczną, dają siłę. Pozycje balansujące wzmacniają ręce i barki. Poprawiają poczucie równowagi. Stymulują do pracy wszystkie narządy jamy brzusznej. Masują komory serca, ćwiczą płuca i klatkę piersiową, zwiększają pobór tlenu. Są to pozycje energetyzujące. Oprócz siły fizycznej, dają również siłę duchową."
+    },
+    "created_at": "2018-10-08T17:52:57.525Z",
+    "updated_at": "2018-10-08T17:52:57.525Z"
+    },
+    {
+    "_id": "5bbb99a8e1a4cd00134e9481",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "image": "assets/images/joga/pozycje/dynamiczne_sekwencje.png",
+    "title": "Dynamiczne sekwencje",
+    "lead": "",
+    "text": "Dają siłę i wytrzymałość. Bardzo szybko ożywiają i rozgrzewają nawet głębokie warstwy ciała."
+    },
+    "created_at": "2018-10-08T17:53:44.341Z",
+    "updated_at": "2018-10-08T17:53:44.341Z"
+    },
+    {
+    "_id": "5bbb99d0d3ad3c001383e471",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "image": "assets/images/joga/pozycje/pozycje_lezace.png",
+    "title": "Pozycje leżące",
+    "lead": "",
+    "text": "Dają ujście stresom i zmęczeniu, ułatwiają spokojny, stabilny oddech. Rozciągają i wzmacniają kończyny dolne. Rozluźniają dolną część pleców, przynoszą ulgę w bólu. Pozycje te otwierają biodra, poprawiają funkcjonowanie organów rozrodczych, poprawiają trawienie. Regenerują i odżywiają ciało."
+    },
+    "created_at": "2018-10-08T17:54:24.827Z",
+    "updated_at": "2018-10-08T17:54:24.827Z"
+    },
+    {
+    "_id": "5bbb99f0d3ad3c001383e472",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "image": "assets/images/joga/pozycje/relaks.png",
+    "title": "Relaks",
+    "lead": "",
+    "text": "Pozwala doświadczyć stanu całkowitego rozluźnienia ciała ( jak w czasie snu głębokiego) przy zachowaniu pełnej świadomości. Daje uwagę i wrażliwość potrzebną do pracy z oddechem."
+    },
+    "created_at": "2018-10-08T17:54:56.242Z",
+    "updated_at": "2018-10-08T17:54:56.242Z"
+    },
+    {
+    "_id": "5bbb9a1bd3ad3c001383e473",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "image": "assets/images/joga/pozycje/cwiczenia_oddechowe.png",
+    "title": "Ćwiczenia oddechowe",
+    "lead": "",
+    "text": "Pełny i świadomy oddech dostarcza organizmowi niezbędnej energii, prowadzi do koncentracji i kontaktu z najgłębszymi pokładami nas samych. Zmiana sposobu oddychania pozytywnie wpływa na stan emocjonalny."
+    },
+    "created_at": "2018-10-08T17:55:39.609Z",
+    "updated_at": "2018-10-08T17:55:39.609Z"
+    },
+    {
+    "_id": "5bbbafa55fc13600135316aa",
+    "type": "text",
+    "styles": {
+    "float": "unset",
+    "text_align": "center",
+    "text_type": "block_box"
+    },
+    "content": [
+    {
+    "title": "Jak joga zmienia Twoje ciało – po zajęciach, miesiącach, latach…?",
+    "lead": "",
+    "text": ""
+    }
+    ],
+    "created_at": "2018-10-08T19:27:33.434Z",
+    "updated_at": "2018-10-08T19:27:33.434Z"
+    },
+    {
+    "_id": "5bbba726d3ad3c001383e475",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-s"
+    },
+    "content": {
+    "title": "",
+    "lead": "",
+    "image": "assets/images/joga/zalety.png",
+    "text": "Na pewno zastanawiałeś się, jak joga wpływa na funkcjonowanie Twojego organizmu. Ta prosta grafika ułatwi Ci dostrzec natychmiastowe korzyści, które osiągniesz już zaraz po zejściu z maty, jak i efekty dłuższej, regularnej praktyki."
+    },
+    "created_at": "2018-10-08T18:51:18.687Z",
+    "updated_at": "2018-10-22T14:55:39.184Z"
+    }
+    ],
+    "_id": "5bbb6e11f9288a0013a8e982",
+    "name": "what_is_yoga",
+    "label": "O Jodze",
+    "created_at": "2018-10-08T14:47:45.262Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bbbc1455fc13600135316ad",
+    "type": "text",
+    "styles": {
+    "float": "unset",
+    "text_type": "block_box",
+    "list_type": "normal"
+    },
+    "content": [
+    {
+    "title": "Rodzaje jogi",
+    "lead": "",
+    "text": "W naszym studio skupiamy się na 2 rodzajach jogi:"
+    }
+    ],
+    "created_at": "2018-10-08T20:42:45.134Z",
+    "updated_at": "2018-10-22T15:59:08.440Z"
+    },
+    {
+    "_id": "5bbbc21f5fc13600135316ae",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "",
+    "text": "",
+    "items": [
+    "Joga Klasyczna (Hatha Yoga)",
+    "Joga Dynamiczna (Vinyasa Jog)"
+    ]
+    },
+    "created_at": "2018-10-08T20:46:23.311Z",
+    "updated_at": "2018-10-22T14:59:12.770Z"
+    },
+    {
+    "_id": "5bcde6554dfe0300137f168b",
+    "type": "text",
+    "styles": {
+    "float": "unset",
+    "text_type": "block_box",
+    "list_type": "normal"
+    },
+    "content": [
+    {
+    "title": "",
+    "lead": "",
+    "text": "Zajęcia dedykowane są zarówno dla osób początkujących jak i zaawansowancyh."
+    }
+    ],
+    "created_at": "2018-10-22T15:01:41.847Z",
+    "updated_at": "2018-10-22T15:01:41.847Z"
+    },
+    {
+    "_id": "5bbbc50a5fc13600135316b1",
+    "type": "text",
+    "styles": {
+    "float": "left",
+    "text_type": "block-t-a"
+    },
+    "content": [
+    {
+    "title": "Joga od podstaw",
+    "lead": "",
+    "text": "Kurs dla osób początkujących. Program ponad 30 podstawowych asan, relaksacja i nauka świadomego oddechu, terapia ruchem i profilaktyka chorób układu ruchu, dla kobiet i mężczyzn w każdym wieku."
+    }
+    ],
+    "created_at": "2018-10-08T20:58:50.464Z",
+    "updated_at": "2018-10-08T20:58:50.464Z"
+    },
+    {
+    "_id": "5bbbc5385fc13600135316b2",
+    "type": "text",
+    "styles": {
+    "float": "left",
+    "text_type": "block-t-t"
+    },
+    "content": [
+    {
+    "title": "Hatha Joga",
+    "lead": "",
+    "text": "Nazwa Hatha wywodzi się z sanskrytu i składa z dwóch słów: „ha”, czyli słońce oraz „tha”, czyli księżyc. Jogini owe słońce i księżyc porównują do dwóch nozdrzy, co ma przypominać o funkcji prawidłowego oddychania podczas ćwiczeń oraz symbolizować pozytywne (słońce) i negatywne (księżyc) emocje, myśli, odczucia i zachowania. W praktyce więc Hatha Joga polega na odpowiednim balansowaniu oddechem w połączeniu z ruchem ciała i stanem umysłu. Przez to właśnie Hatha Joga jest statyczna, figury wykonuje się powoli i dokładnie kontroluje oddech."
+    },
+    {
+    "title": "Vinyasa Joga",
+    "lead": "",
+    "text": "Vinyasa natomiast oznacza dynamiczną, skoncentrowaną postawę. Klasyczne i statyczne asany są tutaj wykonywane dynamicznie wraz z oddechem. Kluczową sprawą w tej odmianie jogi jest więc oddychanie w trakcie wykonywania ćwiczeń. Duży nacisk jest także kładziony na to, co dzieje się pomiędzy figurami, na płynne przejścia od jednej figury do drugiej, podczas gdy w Hatha Jodze liczą się tylko poszczególne figury, bez zwracania uwagi na przejścia. Vinyasa posiada więc sześć figur, które płynnie rozwijają się od pierwszej do ostatniej."
+    }
+    ],
+    "created_at": "2018-10-08T20:59:36.520Z",
+    "updated_at": "2018-10-08T20:59:36.520Z"
+    },
+    {
+    "_id": "5bbbc5435fc13600135316b3",
+    "type": "text",
+    "styles": {
+    "float": "left",
+    "text_type": "block-t-a"
+    },
+    "content": [
+    {
+    "title": "Jaka jest różnica pomiędzy Hatha a Vinyasa?",
+    "lead": "",
+    "text": "Hatha Joga powstała dużo wcześniej, natomiast bez niej nie byłoby Vinyasa Jogi, która ewoluowała właśnie z Hatha. Asany jednak oraz sama praktyka przebiega już w obu odmianach inaczej. I mimo, że cel mają ten sam – ćwiczenie ciała i umysłu, to jednak osiągają go innymi drogami."
+    },
+    {
+    "title": "",
+    "lead": "",
+    "text": "Ćwiczenia Vinyasa wykonywane są szybciej, w Hatha wolniej. Statyczna Hatha nie pozwala na płynne przechodzenie z asany do asany, rozwijanie jednej postawy w drugą, Vinyasa jest więc bardzo podobna do tak zwanego „Sun Salutation” Surya Namaskara. Jej niepodważalną zaletą jest też fakt, że system połączonych i szybko wykonywanych ruchów ma zdecydowanie lepszy wpływ na system krążenia, w przeciwieństwie do Hatha Jogi."
+    },
+    {
+    "title": "",
+    "lead": "",
+    "text": "Stopień trudności jest jednak wyższy w Vinyasa Jodze niż w Hatha. Dlatego ta druga jest polecana dla początkujących, ponieważ łatwiej jest w niej skupić się na prawidłowym wykonywaniu figur, co przecież dla jogi jest bardzo ważne. Technika oddychania jest również tutaj łatwiejsza. Stąd też kiedy dobrze już pozna się Hatha Jogę, można przejść do Vinyasa Jogi, żeby podnieść sobie poprzeczkę, można więc traktować Vinyasę jako zaawansowaną odmianę tradycyjnej jogi."
+    }
+    ],
+    "created_at": "2018-10-08T20:59:47.951Z",
+    "updated_at": "2018-10-11T14:41:56.191Z"
+    }
+    ],
+    "_id": "5bbbb8385fc13600135316ab",
+    "name": "types_yoga",
+    "label": "Rodzaje jogi",
+    "created_at": "2018-10-08T20:04:08.908Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bbbc8005fc13600135316b6",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "",
+    "text": "W naszej ofercie znajdują się wyłącznie sprawdzone produkty:",
+    "items": [
+    "profesjonalne maty do jogi,",
+    "pokrowce,",
+    "odzież (skarpety, spodnie, bluzy, biustonosze sportowe itp.)",
+    "i inne akcesoria."
+    ]
+    },
+    "created_at": "2018-10-08T21:11:28.076Z",
+    "updated_at": "2018-10-08T21:17:52.367Z"
+    },
+    {
+    "_id": "5bbbc98f5fc13600135316b7",
+    "type": "text",
+    "styles": {
+    "float": "unset",
+    "text_align": "center",
+    "text_type": "block_box"
+    },
+    "content": [
+    {
+    "title": "Katalog produktów dostępny w recepcji.",
+    "lead": "",
+    "text": ""
+    }
+    ],
+    "created_at": "2018-10-08T21:18:07.847Z",
+    "updated_at": "2018-10-08T21:18:07.847Z"
+    },
+    {
+    "_id": "5bbbca925fc13600135316b8",
+    "type": "gallery",
+    "styles": {
+    "float": "left"
+    },
+    "content": [
+    {
+    "title": "",
+    "images": [
+    {
+    "url": "assets/images/joga/buy/1.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/joga/buy/2.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/joga/buy/3.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/joga/buy/4.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/joga/buy/5.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/joga/buy/6.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/joga/buy/7.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/joga/buy/8.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/joga/buy/9.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/joga/buy/10.jpg",
+    "title": ""
+    }
+    ]
+    }
+    ],
+    "created_at": "2018-10-08T21:22:26.166Z",
+    "updated_at": "2018-10-25T21:19:50.706Z"
+    }
+    ],
+    "_id": "5bbbc73b5fc13600135316b5",
+    "name": "buy",
+    "label": "Do kupienia",
+    "created_at": "2018-10-08T21:08:11.805Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bbbd0465fc13600135316bb",
+    "type": "table",
+    "styles": {
+    "float": "unset",
+    "text_type": "table-o-a"
+    },
+    "content": {
+    "title": "Test na dosze",
+    "headers": [
+    "CECHY",
+    "VATA",
+    "PITTA",
+    "KAPHA"
+    ],
+    "data": [
+    [
+    "Wzrost",
+    "Wysoki albo niski",
+    "Średni",
+    "Zwykle niski, ale może być wysoki"
+    ],
+    [
+    "Budowa",
+    "Szczupła, koścista, mięśnie dobrze widoczne",
+    "Średnia, dobrze rozwinięta muskulatura",
+    "Solidnie, dobrze zbudowany"
+    ],
+    [
+    "Masa ciała",
+    "Niska, trudno przybiera na wadze",
+    "Umiarkowana",
+    "Ciężka, trudno traci na wadze"
+    ],
+    [
+    "Wygląd skóry",
+    "Matowa, ciemna",
+    "Błyszcząca, rumiana",
+    "Jasna, blada"
+    ],
+    [
+    "Oczy",
+    "Małe, nerwowe",
+    "Przeszywające, skłonność do zapaleń",
+    "Wielkie, białe"
+    ],
+    [
+    "Włosy",
+    "Suche, cienkie",
+    "Cienkie, przetłuszczające się",
+    "Grube, falowane, przetłuszczające się"
+    ],
+    [
+    "Zęby",
+    "Nierówne, słabo uformowane",
+    "Umiarkowane, krwawiące dziąsła",
+    "Wielkie, dobrze uformowane"
+    ],
+    [
+    "Paznokcie",
+    "Szorstkie, łamliwe",
+    "Delikatne, różowe",
+    "Delikatne, białe"
+    ],
+    [
+    "Stawy",
+    "Sztywne, strzelające",
+    "Luźne",
+    "Mocne, stabilne, duże"
+    ],
+    [
+    "Apetyt",
+    "Zmienny, nerwowy, emocjonalny",
+    "Duży, nadmierny",
+    "Umiarkowany, ale stały"
+    ],
+    [
+    "Pragnienie",
+    "Niewielkie",
+    "Duże",
+    "Umiarkowane"
+    ],
+    [
+    "Pocenie się",
+    "Słabe",
+    "obfite, nie nadmierne",
+    "Trudne do wywołania, ale obfite"
+    ],
+    [
+    "Stolec",
+    "Twardy, suchy",
+    "Miękki, luźny",
+    "Normalny"
+    ],
+    [
+    "Mocz",
+    "Niewiele",
+    "Obfity, żółty",
+    "Umiarkowany, przejrzysty"
+    ],
+    [
+    "Wrażliwość na",
+    "Zimno, suchość, wiatr",
+    "Gorąco, promienie słoneczne, ogień",
+    "Zimno, wilgoć"
+    ],
+    [
+    "System odpornościowy",
+    "Słaby",
+    "Umiarkowany, wrażliwy na ciepło",
+    "Silny"
+    ],
+    [
+    "Skłonność do chorób",
+    "Ból, zapalenia",
+    "Gorączka, wypryski",
+    "Przekrwienie"
+    ],
+    [
+    "Podatność na choroby",
+    "Układ nerwowy",
+    "Krew, wątroba",
+    "Śluz, płuca"
+    ],
+    [
+    "Aktywność życiowa",
+    "Wysoka, niespokojna",
+    "Umiarkowana",
+    "Niska, powolne poruszanie się"
+    ],
+    [
+    "Wytrzymałość",
+    "Słaba, szybko się męcz",
+    "Umiarkowana, ale skoncentrowana",
+    "Wysoka"
+    ],
+    [
+    "Sen",
+    "Słaby, przerywany",
+    "Zmienny",
+    "Nadmierny"
+    ],
+    [
+    "Marzenia senne",
+    "Częste, kolorowe",
+    "Umiarkowane, romantyczne",
+    "Nieczęste, przerywana"
+    ],
+    [
+    "Pamięć",
+    "Szybko się uczy, ale łatwo zapomina",
+    "Szybko się uczy i dobrze pamięta",
+    "Wolno się uczy, ale długo pamięta"
+    ],
+    [
+    "Mowa",
+    "Szybka, częsta",
+    "Ostra, tnąca",
+    "Wolna, melodyjna"
+    ],
+    [
+    "Temperament",
+    "Nerwowy, zmienny",
+    "Zmotywowany",
+    "Zadowolony, konserwatywny"
+    ],
+    [
+    "Pozytywne emocje",
+    "Łatwość adaptacji",
+    "Odwaga",
+    "Miłość"
+    ],
+    [
+    "Negatywne emocje",
+    "Strach",
+    "Gniew",
+    "Przywiązanie"
+    ],
+    [
+    "Wiara",
+    "Zmienna",
+    "Silna, zdeterminowana",
+    "Stała, trudna do zmiany"
+    ],
+    [
+    "WYNIK",
+    "",
+    "",
+    ""
+    ]
+    ]
+    },
+    "created_at": "2018-10-08T21:46:46.056Z",
+    "updated_at": "2018-10-25T08:50:38.181Z"
+    },
+    {
+    "_id": "5bbbce765fc13600135316ba",
+    "type": "text",
+    "styles": {
+    "float": "left",
+    "text_type": "block-t-a"
+    },
+    "content": [
+    {
+    "title": "LUDZIE VATA",
+    "lead": "",
+    "text": "To osoby szczupłe, o lekkiej budowie. Ich kości są cienkie i długie, a mięśnie, ścięgna i żyły najczęściej bardzo dobrze widoczne. Mogą być albo bardzo wysocy, albo bardzo niscy. Dłonie i stopy są u nich najczęściej zimne. Osoby te mają ogólną tendencję do szybkiego wychładzania organizmu, dlatego źle się czują w chłodnym klimacie, zwłaszcza gdy jest on dodatkowo wietrzny i suchy.Osoby te cechuje zmienny apetyt i zmienne trawienie. Jest jednak jedyny typ konstytucyjny, który może jeść wszystko i nie przybierać na wadze. Ludzie vata wydzielają stosunkowo mało moczu, również stolec nie jest zbyt obfity. Pocą się najmniej ze wszystkich typów konstytucyjnych. Charakterystyczną cechą jest tendencja do zaparć, często chronicznych.Są to ludzie twórczy, czujni i aktywni, a gdy trwają w pełnej równowadze – zawsze radośni, pełni entuzjazmu i energiczni. Szybko mówią, szybko chodzą i szybko się męczą.Charakteryzuje ich zdolność łatwego rozumienia, kojarzenia faktów i zapamiętywania, ale ich pamięć jest krótka. Przy braku równowagi tendencja vata do impulsywności powoduje, że tacy ludzie przepracowują się, podekscytowanie zamienia się w zmęczenie, a następnie w chroniczne wyczerpanie, co najczęściej prowadzi do depresji. Wtedy mogą być nerwowi, nieufni i nieśmiali.Dominanta powietrza i eteru sprawia, że mają bardzo zmienną naturę, dlatego podstawowym zaleceniem dla tego typu jest uregulowany tryb życia, regeneracja i dostateczny wypoczynek na co dzień."
+    },
+    {
+    "title": "",
+    "lead": "PRAKTYKA JOGI",
+    "text": "Osoby typu vata są zazwyczaj elastyczne i zwinne za młodu, jednak często brakuje im energii i wytrzymałości. Z wiekiem ich ciała sztywnieją w związku z czym cierpią z powodu zmian zwyrodnieniowych stawów, mają słabe krążenie i strzelające stawy. Dominanta eteru i powietrzu sprawia, że ludzie vata są nerwowi, wrażliwi i często bojaźliwi co przejawia się zapadnięciem klatki piersiowej i napięciem obręczy barkowej. Mają skłonność do skoliozy.Praktyka asan powinna być rozgrzewająca i ukierunkowana przede wszystkim na miednicę i okolicę okrężnicy – główne umiejscowienie doszy. Należy dążyć do zmniejszenia napięcia i odblokowania stawów w odcinku kręgosłupa lędźwiowego.Korzystne asany: otwarcia bioder, wygięcia do przodu i tyłu, skręty kręgosłupa, zwłaszcza w dolnym kręgosłupie.Niekorzystne asany: pozycje, gdzie występuje duża kompresja na stawy (np. świeca, stanie na głowie) z powodu kruchości kościMedytacja: Koniecznie w savasanie i koniecznie po każdej lekcji jogi. Osoby te mają tendencje do „odlatywania” w czasie medytacji, dlatego powinna być stosowana tzw. medytacja z nasieniem. Chodzi o praktykowanie medytacji z dodatkowym narzędziem w postaci mantry, czy wizualizacji, która pozwoli zająć i uziemić rozedrgany umysł vata. Szczególnie ważnie jest wzmacnianie zdolności koncentracyjnych w asanach i prana jamie, aby słaby układ nerwowy vata był w stanie znieść obciążenie medytacji."
+    },
+    {
+    "title": "LUDZIE PITTA",
+    "lead": "",
+    "text": "To osoby o średniej budowie. Odznaczają się solidniejszą budową niż vata. Ich kości są grubsze, mają więcej tkanki mięśniowej o dość dobrze widocznej rzeźbie. Pitta charakteryzują się stosunkowo dużą siłą fizyczną. Są to ludzie, którym zawsze gorąco, a więc mają prawie zawsze ciepłe dłonie i stopy. Wykazują tendencję do przegrzewania się, dlatego najlepiej się czują, gdy jest chłodno. Gorące lato może być dla nich koszmarem.Mają wilczy apetyt i bardzo dobre trawienie, którego jednak często nadużywają, co prowadzi u nich do problemów gastrycznych. Pitta pocą się obficie i wydzielają dużo moczu, nie miewają kłopotów z wypróżnieniem.To ludzie bardzo inteligentni, szybcy i przedsiębiorczy, często o wielkim talencie oratorskim. Wszystko co robią, starają się wykonać perfekcyjnie, jednak gdy nie są w równowadze mają tendencję do gniewu, impulsywności i nienawiści.Dominanta elementu ognia w tej konstytucji sprawia, że jej główną cechą jest intensywność dlatego podstawowym zaleceniem zdrowotnym dla tej doszy powinno być umiarkowanie w każdej sferze życia."
+    },
+    {
+    "title": "",
+    "lead": "PRAKTYKA JOGI",
+    "text": "Ludzie pitta zazwyczaj mają dobrze rozwiniętą muskulaturę ciała i elastyczność w związku z dobrym krążeniem oraz smarowaniem stawów. Osoby te powinny uważać, aby na skutek zbyt nadmiernej i forsownej praktyki asan nie rozluźnić zbytnio stawów. Ćwicząc jogę, pitta częściej niż inni doprowadzają swoje stawy do hipermobilności, a należy pamiętać iż znacznie łatwiej usunąć jest sztywność niż ustabilizować rozchwiany staw. Pitta mają tendencję do współzawodnictwa, więc element umiaru w praktyce asan jest bardzo ważny.Korzystne asany: świeca, pług (przywracające balans energii), świerszcz, kobra, aktywne wygięcia do tyłu, zgięcia kręgosłupa (działają ochładzająco)Niekorzystne asany: stanie na głowie (z powodu dużej mocy rozgrzewającej)Medytacja: Dzięki niej, osoby pitta mają możliwość rozładować złość i agresję, a także odpuszczenie sobie w tych sprawach, które chcą za wszelką cenę kontrolować. Raczej nie mają problemów z koncentracją i łatwiej im się medytuje niż vata i kapha, jednak muszą zwrócić uwagę, aby nie zamienić medytacji w kolejną formę zawodów i rywalizacji (często z samym sobą). Zaleca się również techniki rozluźniające, które pomogą w akceptacji siebie i świata takim jakimi są. Miłość i akceptacja są tym, co pozwala typom pitta zakończyć medytację spokojnie, z uczuciem przyjemnego schłodzenia na poziomie serca i emocji"
+    },
+    {
+    "title": "LUDZIE KAPHA",
+    "lead": "",
+    "text": "To osoby o solidnej i mocnej budowie ciała. Ich kości są grube i mocne, mają dużo tkanki mięśniowej, ale słabo widocznej lub w ogóle niewidocznej, ponieważ przykrywa je dość obfita tkanka tłuszczowa. Są to osoby najczęściej bardzo silne, ale powolne. Mimo takiej solidnej struktury mogą mieć okresowo chłodne stopy i dłonie, jeśli jest zimno i wilgotno. Źle się czują w okresie jesienno-zimowym (podobnie jak vata), a zwłaszcza gdy jest mokro i wilgotnie, co silnie obciąża ich doszę. Mają raczej dobry apetyt, ale ponieważ trawią powoli, może on się rozregulować, szczególnie gdy się przejadają. Pocą się zazwyczaj umiarkowanie, chyba że cierpią na nadwagę, co stanowi charakterystyczną cechę rozregulowanego kapha. Stolec jest raczej luźny, ale wydalany powoli. Kapha to osoby o największej wytrzymałości i witalności spośród wszystkich typów. Zwykle cechuje ich zrelaksowanie i spokój. Bardzo rzadko wybuchają gniewem. Gdy nie są w równowadze, mają tendencję do zawiści, zachłanności, żądzy, ospałości i lenistwa. Dominanta elementu wody i ziemi sprawia, że jej głównymi cechami jest stałości i stabilność. Tak więc podstawowym zaleceniem zdrowotnym dla tej doszy musi być ruch i aktywność na każdym poziomie, co ludziom kapha doskonale wychodzi na zdrowie."
+    },
+    {
+    "title": "",
+    "lead": "PRAKTYKA JOGI",
+    "text": "Niezależnie od wzrostu, kości kapha są grube i masywne, a także krótsze niż u innych typów konstytucyjnych. Z tego powodu często nie mogą wykonywać asan, które z łatwością wychodzą długonogim vata i elastycznym pitta. Tendencja do odkładania się tkanki tłuszczowej na brzuchu i udach również stanowi czasami ograniczenie w codziennej praktyce. Kapha mają słabą obręcz barkową. Ludzie kapha powinni prowadzić aktywną i intensywniejszą praktykę asan niż pozostałe typy, aby stymulować metabolizm i krążenie. Korzystne asany: pozycje stojące, otwarcia klatki piersiowej, wyprosty kręgosłupa Niekorzystne asany: pozycje siedzące, względnie – skłony do przodu Medytacja: Dzięki medytacji, ludzie kapha mogą pokonać mentalną stagnację i wrodzoną tendencję do przywiązania emocjonalnego. Medytacja jednak przychodzi im z trudem i zmiany zachodzą powoli. Podobnie jak u vaty, wskazana jest medytacja z nasieniem czyli z mantrą lub wizualizacją trenującą koncentrację."
+    }
+    ],
+    "created_at": "2018-10-08T21:39:02.601Z",
+    "updated_at": "2018-10-25T08:45:14.301Z"
+    }
+    ],
+    "_id": "5bbbcb8f5fc13600135316b9",
+    "name": "curiosities",
+    "label": "Ciekawostki",
+    "created_at": "2018-10-08T21:26:39.088Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bbbdc655fc13600135316be",
+    "type": "gallery",
+    "styles": {
+    "float": "left",
+    "text_type": "block_box",
+    "list_type": "normal"
+    },
+    "content": [
+    {
+    "title": "",
+    "images": [
+    {
+    "url": "assets/images/joga/gallery/gallery1.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/joga/gallery/gallery6.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/joga/gallery/gallery19.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/joga/gallery/gallery4.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/joga/gallery/gallery2.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/joga/gallery/gallery5.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/joga/gallery/gallery7.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/joga/gallery/gallery8.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/joga/gallery/gallery9.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/joga/gallery/gallery10.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/joga/gallery/gallery11.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/joga/gallery/gallery12.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/joga/gallery/gallery13.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/joga/gallery/gallery15.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/joga/gallery/gallery14.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/joga/gallery/gallery16.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/joga/gallery/gallery17.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/joga/gallery/gallery18.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/joga/gallery/gallery3.jpg",
+    "title": ""
+    }
+    ]
+    }
+    ],
+    "created_at": "2018-10-08T22:38:29.428Z",
+    "updated_at": "2018-10-15T22:15:25.620Z"
+    }
+    ],
+    "_id": "5bbbdb8d5fc13600135316bd",
+    "name": "gallery_joga",
+    "label": "Galeria",
+    "created_at": "2018-10-08T22:34:53.052Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bb94343fab09a001355d909",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "Maja Bednarczyk",
+    "lead": "",
+    "image": "assets/images/treners/Maja.jpg",
+    "text": "Specjalista metody P-DTR, trener personalny z wieloletnim doświadczeniem, dyplomowany nauczyciel jogi, Od lat jestem zainteresowana holistycznym podejściem do zdrowia fizycznego i psychicznego człowieka. Zaowocowało to ukończeniem kilkudziesięciu kursów i szkoleń z zakresu dietetyki, fizjologii, anatomii, systemów treningowych oraz niekonwencjonalnych metod. Pracę z klientem indywidualnym zaczęłam jako trener personalny w 2013 roku prowadząc w większości osoby z problemami zdrowotnymi. W tym samym czasie rozwijałam się na polu nauczyciela jogi o specjalizacji Hatha Yoga, oraz prowadziłam zajęcia grupowe takie jak Zdrowy Kręgosłup, Pilates i Trening Funkcjonalny. Szczególnie mocno skupiłam się w tym czasie na treningach funkcjonalnych i miałam przyjemność stanąć dwukrotnie na Konwencji Fitness jako Prezenter i Szkoleniowiec w Euro Fitness School z Bielska Białej w 2016 roku obok wielu świetnych Trenerów z Polski i z Europy. Rok później podobną współpracę zaczęłam ze Szkołą Instruktorów Fitness w Krakowie. Szkolenie młodych instruktorów fitness sprawiało mi dużą frajdę i dało wiele ciekawych doświadczeń oraz lekcji – tym razem to ja miałam przekazywać wiedzę, a nie ją brać. Ta zmiana perspektywy dużo mnie nauczyła. Po kilku latach pracy w zawodzie trenera personalnego i instruktora fitness, trafiłam przypadkiem na P-DTR czyli proprioceptywną terapię odruchową. Pierwsze wrażenie jakie zrobiła na mnie ta metoda było piorunujące – istna magia na dodatek z natychmiastowym efektem! Parę miesięcy później siedziałam już jako student na pierwszym module rocznego szkolenia u twórcy metody dr Jose Palomara (Meksyk). Sądzę, że już wtedy przeczuwałam, że P-DTR zmieni moje życie. Z bycia trenerem i promotorem zdrowego jedzenia i aktywnego stylu życia, stałam się Praktykiem metody P-DTR na poziomie zaawansowanym, aktywnie zainteresowaną neurologią, psychosomatyką i kinezjologią. Dawne zainteresowania i praca trenera oraz prowadzącego lekcje grupowe zmieniły kontekst i nabrały nowej jakości. Dzisiaj z ogromną przyjemnością dzielę potencjał metody P-DTR ze swoimi Klientami i samodzielnie rozwijam własne narzędzia w poszukiwaniu priorytetowych dysfunkcji receptorów w układzie nerwowym, pomagając w takich dolegliwościach jak: bóle, ograniczenia ruchowe, stany napięciowe pochodzenia emocjonalnego, problemy psychosomatyczne i inne. Prowadzę treningi personalne mając nowe spojrzenie na ludzkie ciało i jego potrzeby, rozpisuję diety indywidualnie dobrane na podstawie testów żywieniowych i uczę jogi na kilku poziomach trudności. Moja droga nie była najkrótszą z możliwych, ale mam wrażenie, że najlepszą z możliwych. Zapraszam serdeczne!",
+    "references": "/pdtr/references",
+    "email": "karmazdrowia@gmail.com",
+    "phone": "500451216"
+    },
+    "created_at": "2018-10-06T23:20:35.883Z",
+    "updated_at": "2018-10-25T08:33:32.748Z"
+    }
+    ],
+    "_id": "5bbbf51f5fc13600135316c0",
+    "name": "treners_yoga",
+    "label": "O mnie",
+    "created_at": "2018-10-09T00:23:59.732Z",
+    "updated_at": "2018-10-25T21:41:21.302Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bbc71f32907890013398aaf",
+    "type": "table",
+    "styles": {
+    "float": "unset",
+    "text_type": "price-l",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "WEJŚCIE JEDNORAZOWE",
+    "headers": [],
+    "data": [
+    [
+    "1 LEKCJA",
+    "25 zł"
+    ]
+    ]
+    },
+    "created_at": "2018-10-09T09:16:35.923Z",
+    "updated_at": "2018-10-09T09:16:35.923Z"
+    },
+    {
+    "_id": "5bbc72962907890013398ab0",
+    "type": "table",
+    "styles": {
+    "float": "unset",
+    "text_type": "price-l",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "KARNETY ILOŚCIOWE",
+    "headers": [
+    "",
+    "CENA",
+    "OKRES OBOWIĄZYWANIA"
+    ],
+    "data": [
+    [
+    "PAKIET 12 LEKCJI",
+    "149 zł",
+    "2 miesiąc"
+    ],
+    [
+    "PAKIET 8 LEKCJI",
+    "115 zł",
+    "1 miesiąc"
+    ],
+    [
+    "PAKIET 4 LEKCJI",
+    "60 zł",
+    "1 miesiąc"
+    ]
+    ]
+    },
+    "created_at": "2018-10-09T09:19:18.803Z",
+    "updated_at": "2018-10-09T09:19:18.803Z"
+    },
+    {
+    "_id": "5bbc732b2907890013398ab1",
+    "type": "table",
+    "styles": {
+    "float": "unset",
+    "text_type": "price-l",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "KARNET OPEN",
+    "headers": [
+    "6 miesięcy",
+    "3 miesiące",
+    "1 miesiąc "
+    ],
+    "data": [
+    [
+    "83 zł /msc",
+    "118 zł /msc",
+    "139 zł /msc"
+    ]
+    ]
+    },
+    "created_at": "2018-10-09T09:21:47.663Z",
+    "updated_at": "2018-10-09T09:21:47.663Z"
+    },
+    {
+    "_id": "5bbc73852907890013398ab2",
+    "type": "text",
+    "styles": {
+    "float": "unset",
+    "text_type": "block_box",
+    "text_align": "center",
+    "list_type": "normal"
+    },
+    "content": [
+    {
+    "title": "",
+    "lead": "",
+    "text": "Przed skorzystaniem z usług, zapoznaj się z regulaminem Klubu.Zanim przystąpisz do ćwiczeń upewnij się, że aktywność fizyczna nie zagraża Twojemu stanu zdrowia."
+    }
+    ],
+    "created_at": "2018-10-09T09:23:17.547Z",
+    "updated_at": "2018-10-09T09:23:17.547Z"
+    }
+    ],
+    "_id": "5bbbf77e5fc13600135316c2",
+    "name": "price_list_yoga",
+    "label": "Cennik",
+    "created_at": "2018-10-09T00:34:06.414Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bbc76cb2907890013398ab4",
+    "type": "table",
+    "styles": {
+    "float": "unset",
+    "text_type": "schedule"
+    },
+    "content": {
+    "title": "Grafik",
+    "headers": [
+    "godzina",
+    "poniedziałek",
+    "wtorek",
+    "środa",
+    "czwartek",
+    "piątek"
+    ],
+    "data": [
+    [
+    {
+    "background_color": "",
+    "content": "18:30"
+    },
+    {
+    "background_color": "#eef94d",
+    "extra_content": "Functional Flow to zupełnie nowa odsłona treningu funkcjonalnego. Ci którzy oczekują po treningu uczucia przyjemnej wolności i luzu w ciele, nie zawiodą się. Functional Flow zmusza do globalnej pracy mięśnie posturalne, buduje siłę od środka i trenuje zakres ruchu bez przeciążania stawów. To również trening powięzi eliminujący sztywność w ciele, a przy tym bardzo trudno się nie zmęczyć. Spalanie kalorii gwarantowane, a wcale nie trzeba skakać.",
+    "content": "Functional Flow"
+    },
+    {
+    "background_color": "#6849e0",
+    "extra_content": "Interwały to treningi metaboliczne, uchodzące za najbardziej skuteczne w procesie odchudzania. Treningi są intensywne. Zawierają zarówno ćwiczenie siłowe oraz eksplozywne (wszelkie wyskoki i biegi), dlatego interwałom towarzyszy dość długa lista przeciwwskazań, niemniej jednak osobom dobrze do nich przygotowanych, taki trening przyniesie najwięcej korzyści i widocznie przyczyni się do zrzucenia zbędnych kilogramów. Przed przystąpieniem do zajęć, wskazana konsultacja z trenerem.",
+    "content": "Interval"
+    },
+    {
+    "background_color": "#17bd24",
+    "extra_content": "Zajęcia prozdrowotne z nurtu mentalnych. Niegdyś, pilates był stosowany jako forma rehabilitacji, obecnie, jako forma zajęć grupowych, doskonale się sprawdza jako profilaktyka przed dysfunkcjami układu ruchu jak i w niektórych przypadkach leczenia, np. problemy z nietrzymaniem moczu. Pilates korzystnie wpływa na kondycję kręgosłupa, ruchomość stawów, gibkość czy siłę mięśni (zwłaszcza mięśnie tłoczni brzusznej, prostowniki kręgosłupa oraz mięśnie obręczy biodrowej). Na zajęciach zdrowy kręgosłup  głównym zadaniem jest profilaktyka schorzeń kręgosłupa, ale nie należy ich jednak mylić z treningiem pleców. Ćwiczone są wszystkie grupy mięśniowe ciała, ponieważ każda jedna dysfunkcja danej części ciała (np. stopy) może negatywnie oddziaływać na stan kręgosłupa. Zestaw ćwiczeń obejmuje: wzmocnienie, stabilizacje, mobilizację oraz gibkość. Połączenie tych zajęć to najlepszy wybór dla Twojego kręgosłupa! Zajęcia są skierowane dla osób w każdym wieku i o każdym poziomie zaawansowania.",
+    "content": "Pilates & Zdrowy Kręgosłup"
+    },
+    {
+    "background_color": "#de62d5",
+    "extra_content": "Joga to najstarsza gimnastyka świata. Jest praktykowana od wielu tysięcy lat, a jej najważniejszym źródłem są spisane między VI a III w. p.n.e. Jogasutry autorstwa Patańdżalego, ajurwedyjskiego lekarza. Joga może być rozumiana na dwa sposoby. Może być postrzegana jako system światopoglądowy, filozofię czy nawet religię oraz jako aktywność ruchową. W cywilizacji zachodniej, dużo częściej jogę kojarzy się z praktyką asan. Również i w naszym studio, joga jest wolna od światopoglądu i jest nauczana tylko i wyłącznie jako aktywność fizyczna. Niezaprzeczalnym faktem jest jednak jej znamienny wpływ na jasność myślenia, uspokojenie umysłu i zharmonizowanie pracy narządów wewnętrznych. Praktyka asan – czyli pozycji jogi - ma charakter terapeutyczny. Ich wykonywanie przynosi ulgę narządowi ruchu i znacząco wpływa na witalność osoby regularnie ćwiczącej",
+    "content": "Joga od podstaw"
+    },
+    {
+    "background_color": "#e65f5f",
+    "extra_content": "Program treningowy inspirowany filozofią i energetyką Dalekiego Wschodu oparty na koncepcji Yin i Yang. Początek lekcji to subtelne pobudzenie mięśni i stawów przypominające Jogę oraz Body Art. Wchodząc jednak dalej w trening, musisz stawić czoło swoim słabościom i pokonać własne ograniczenia. Deep WORK ® to wyjątkowy trening funkcjonalny, który nie tylko ćwiczy ciało, ale też i umysł. Stworzony przez fachowców najwyższej klasy dla osób lubiących wyzwania i otwartych na nowe koncepty.",
+    "content": "Deep Work"
+    }
+    ],
+    [
+    {
+    "background_color": "",
+    "content": "19:30"
+    },
+    {
+    "background_color": "#de62d5",
+    "extra_content": "Joga to najstarsza gimnastyka świata. Jest praktykowana od wielu tysięcy lat, a jej najważniejszym źródłem są spisane między VI a III w. p.n.e. Jogasutry autorstwa Patańdżalego, ajurwedyjskiego lekarza. Joga może być rozumiana na dwa sposoby. Może być postrzegana jako system światopoglądowy, filozofię czy nawet religię oraz jako aktywność ruchową. W cywilizacji zachodniej, dużo częściej jogę kojarzy się z praktyką asan. Również i w naszym studio, joga jest wolna od światopoglądu i jest nauczana tylko i wyłącznie jako aktywność fizyczna. Niezaprzeczalnym faktem jest jednak jej znamienny wpływ na jasność myślenia, uspokojenie umysłu i zharmonizowanie pracy narządów wewnętrznych. Praktyka asan – czyli pozycji jogi - ma charakter terapeutyczny. Ich wykonywanie przynosi ulgę narządowi ruchu i znacząco wpływa na witalność osoby regularnie ćwiczącej",
+    "content": "Joga"
+    },
+    {
+    "background_color": "",
+    "content": " "
+    },
+    {
+    "background_color": "#5fe0e6",
+    "extra_content": "Ogólnorozwojowy trening kształtujący ciało – brzuch, uda, pośladki, ramiona",
+    "content": "Shape"
+    },
+    {
+    "background_color": "",
+    "content": " "
+    },
+    {
+    "background_color": "#de62d5",
+    "extra_content": "Joga to najstarsza gimnastyka świata. Jest praktykowana od wielu tysięcy lat, a jej najważniejszym źródłem są spisane między VI a III w. p.n.e. Jogasutry autorstwa Patańdżalego, ajurwedyjskiego lekarza. Joga może być rozumiana na dwa sposoby. Może być postrzegana jako system światopoglądowy, filozofię czy nawet religię oraz jako aktywność ruchową. W cywilizacji zachodniej, dużo częściej jogę kojarzy się z praktyką asan. Również i w naszym studio, joga jest wolna od światopoglądu i jest nauczana tylko i wyłącznie jako aktywność fizyczna. Niezaprzeczalnym faktem jest jednak jej znamienny wpływ na jasność myślenia, uspokojenie umysłu i zharmonizowanie pracy narządów wewnętrznych. Praktyka asan – czyli pozycji jogi - ma charakter terapeutyczny. Ich wykonywanie przynosi ulgę narządowi ruchu i znacząco wpływa na witalność osoby regularnie ćwiczącej",
+    "content": "Joga"
+    }
+    ]
+    ]
+    },
+    "created_at": "2018-10-09T09:37:15.766Z",
+    "updated_at": "2018-10-22T22:35:59.477Z"
+    }
+    ],
+    "_id": "5bbc75122907890013398ab3",
+    "name": "schedule",
+    "label": "Grafik",
+    "created_at": "2018-10-09T09:29:54.626Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": false,
+    "data": [
+    {
+    "_id": "5bba756f06ba3f0013edfcde",
+    "type": "contact",
+    "content": [
+    {
+    "title": "Napisz do nas",
+    "lead": "",
+    "text": ""
+    }
+    ],
+    "created_at": "2018-10-07T21:06:55.471Z",
+    "updated_at": "2018-10-22T16:17:15.290Z",
+    "styles": ""
+    }
+    ],
+    "_id": "5bba74c206ba3f0013edfcdd",
+    "name": "contact",
+    "label": "Kontakt",
+    "created_at": "2018-10-07T21:04:02.839Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": false,
+    "data": [
+    {
+    "_id": "5bc2611d7d95310013250660",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "list-r"
+    },
+    "content": {
+    "title": "REGULAMIN",
+    "text": "",
+    "items": [
+    "Każdy klient ma obowiązek zapoznania się z niniejszym regulaminem i jego przestrzegania.",
+    "W związku z rozpoczęciem stosowania z dniem 25 maja 2018 r. Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych, dalej: RODO) informujemy iż:",
+    [
+    "Administratorem Państwa danych osobowych jest RADEAL Radosław Chwast z siedzibą w Nowej Górze 295, 32-065 Krzeszowice, NIP: 5130170364, REGON: 122977430, zwany dalej „Karma Zdrowia”.",
+    "Kontakt z Administratorem możliwy jest na wskazany wyżej adres oraz pod numerem telefonu 500-424-737 i adresem e-mail karmazdrowia@gmail.com.",
+    "Przetwarzane przez Administratora dane osobowe to: imię, nazwisko, numer telefonu, data urodzenia.",
+    "Państwa dane osobowe przetwarzane są przez Administratora w celu świadczenia usług związanych z poprawą zdrowia, kondycji fizycznej, doradztwem żywieniowym i/lub solarium oraz w jego własnych celach marketingowych - a podanie danych jest dobrowolne i nie jest niezbędne dla zawarcia i wykonania umów z Administratorem, lecz niezbędne do otrzymywania informacji o aktualnych ofertach i promocjach.",
+    "Dodatkowo, Państwa dane przetwarzane są w celu świadczenia usługi newslettera na podstawie art. 6 ust. 1 lit. a RODO. Newsletter wysyłany jest w formie wiadomości SMS na podany przez Państwa numer telefonu i zawiera informacje dotyczące: wydarzeń w Karma Zdrowia a także akcji promocyjnych przygotowanych przez Karma Zdrowia.",
+    "Państwa dane bez uprzedniego wyrażenia zgody nie są przekazywane osobom trzecim.",
+    "Administrator zobowiązuje się do zabezpieczenia przetwarzanych Państwa danych osobowych przed dostępem osób nieupoważnionych.",
+    "Przysługuje Państwu prawo dostępu do treści danych, prawo do ich sprostowania, usunięcia lub ograniczenia przetwarzania, prawo żądania zaprzestania przetwarzania i prawo przenoszenia danych, a także prawo do wniesienia skargi do organu nadzorczego tj. Prezesa Urzędu Ochrony Danych Osobowych.",
+    "Mogą Państwo wycofać zgodę na przetwarzanie Państwa danych w dowolnym momencie, co nie będzie miało jednak wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie zgody przed jej cofnięciem. Zgodę można wycofać kontaktując się z Administratorem w sposób wskazany w punkcie 2.2.",
+    "Mogą Państwo w dowolnym momencie wnieść sprzeciw wobec przetwarzania Państwa danych na potrzeby marketingu bezpośredniego, a Państwa dane nie będą więcej wykorzystywane w tym celu.",
+    "Dane osobowe będą przetwarzane do czasu cofnięcia przez Państwa udzielonej zgody."
+    ],
+    "Karma Zdrowia jest obiektem świadczącym usługi z zakresu: P-DTR, solarium, siłownia, body space, zajęcia grupowe fitness, zajęcia grupowe jogi, treningi personalne, porady żywieniowe, warsztaty oraz okazjonalne event’y sportowe. Wszystkie wyżej wymienione usługi są ujęte w cenniku klubu.",
+    "Z usług mogą korzystać osoby pełnoletnie lub niepełnoletnie w obecności opiekunów prawnych. Zakaz udostępniania solarium osobom, które nie ukończyły 18. roku życia (art. 5 ust. 1 ustawy z dnia 15 września 2017 r. o ochronie zdrowia przed następstwami korzystania z solarium).",
+    "Dla obsługi obiektu korzystanie z usług sportowych i solarium jest jednoznaczne z tym, iż klient nie ma żadnych przeciwwskazań lekarskich do wykonywaniu wysiłku fizycznego oraz opalania, jest on świadomy swojego stanu zdrowia oraz korzysta z usług z zachowaniem ostrożności i troski o swoje zdrowie. Z tego powodu zalecamy wykonywanie profilaktycznie badań lekarskich przynajmniej raz w roku. Wszelkie bieżące urazy lub stany chorobowe należy niezwłocznie zgłaszać obsłudze oraz trenerom. W przypadku pojawienia się zawrotów głowy lub innych nienormalnych objawów należy to natychmiast sygnalizować i przerwać ćwiczenie. Jeśli stan zdrowia danej osoby budzi wątpliwości obsługi klubu, Karma Zdrowia odmówi zrealizowania usługi do momentu dostarczenia kserokopii oświadczenia lekarskiego ze zgodą na wykonywanie ćwiczeń.",
+    "Każdy klient jest zobowiązany do nienaruszania spokoju i porządku w obiekcie oraz niezakłócania innym klientom możliwości korzystania z usług. Zabrania się na terenie obiektu palenia papierosów i spożywania alkoholu.",
+    "Każdy klient jest zobowiązany do korzystania z pomieszczeń i urządzeń zgodnie z ich przeznaczeniem, nie narażając ich na uszkodzenia. W przypadku spowodowania poważnej wady urządzenia, klient odpowiada finansowo.",
+    "Każdy klient jest zobowiązany do zmiany obuwia z czystą podeszwą przed wejściem na salę ćwiczeń.",
+    "Klub nie ponosi odpowiedzialności za pozostawione rzeczy w szatni, toalecie, przebieralni, poczekalni lub sali ćwiczeń. Prosimy o zachowanie uwagi i pilnowanie przedmiotów cennych.",
+    "Klient ma prawo do dokonania rezerwacji na zajęcia grupowe oraz Body Space. W przypadku nie anulowania rezerwacji i nie pojawienia się na czas wejście zostaje odnotowane, co skutkuje utratą treningu przez klienta. W przypadku powtarzania się takich sytuacji, klient może stracić prawo do rezerwacji miejsca.",
+    "Minimalna ilość osób na zajęciach grupowych wynosi 5. W przypadku nieuzbierania się wystarczającej ilości chętnych, obiekt zastrzega sobie prawo do odwołania zajęć o czym niezwłocznie powiadomi poprzez sms lub rozmowę telefoniczną osoby, które miały dokonaną rezerwację. Podobnie awaria Body Space skutkuje niezwłocznym powiadomieniem.",
+    "Obiekt zastrzega sobie prawo do wykonywania zdjęć i filmów do celów promocyjnych i umieszczaniu ich na stronie internetowej klubu.",
+    "Opłata za karnet/pakiet jest opłatą bezzwrotną. Każdy karnet/pakiet jest przypisany do jednej osoby i upoważnia do korzystania z określonych usług po promocyjnej cenie w określonym terminie ważności."
+    ]
+    },
+    "created_at": "2018-10-13T21:18:21.598Z",
+    "updated_at": "2018-10-19T14:41:20.432Z"
+    }
+    ],
+    "_id": "5bc259fc7d9531001325065c",
+    "name": "regulamin",
+    "label": "Regulamin",
+    "created_at": "2018-10-13T20:47:56.345Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    }
+    ],
+    "_id": "5bbb5abff9288a0013a8e97e",
+    "label": "Studio jogi",
+    "name": "joga",
+    "style": {
+    "colors": {
+    "primary": "#800080",
+    "secondary": "white"
+    }
+    },
+    "created_at": "2018-10-08T13:25:19.896Z",
+    "updated_at": "2018-10-18T12:11:14.035Z"
+    },
+    {
+    "description": "Treningi personalne, zajęcia fitness pod okiem wykwalifikowanych instruktorów, strefa do samodzielnego treningu w profesjonalnych wnętrzach oferująca również specjalistyczne sprzęty do ujędrniania i wyszczuplania sylwetki.",
+    "logo": "assets/logo/7me_logo.png",
+    "images_top": [
+    "assets/images/7me_poty/slider/slider1.jpg",
+    "assets/images/7me_poty/slider/slider1.jpg"
+    ],
+    "active": true,
+    "sections": [
+    {
+    "active": false,
+    "data": [
+    {
+    "_id": "5bbf6dfaac59bb001319bb08",
+    "type": "text",
+    "styles": {
+    "float": "unset",
+    "text_type": "block_box",
+    "list_type": "normal"
+    },
+    "content": [
+    {
+    "title": "Centrum Treningowe",
+    "lead": "",
+    "text": "Treningi personalne, zajęcia fitness pod okiem wykwalifikowanych instruktorów, strefa do samodzielnego treningu w profesjonalnych wnętrzach oferująca również specjalistyczne sprzęty do ujędrniania i wyszczuplania sylwetki."
+    }
+    ],
+    "created_at": "2018-10-11T15:36:26.317Z",
+    "updated_at": "2018-10-11T15:36:26.317Z"
+    }
+    ],
+    "_id": "5bbf6b03ac59bb001319bb05",
+    "name": "news_7me",
+    "label": "O nas",
+    "created_at": "2018-10-11T15:23:47.440Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bbfa9e2ac59bb001319bb0d",
+    "type": "text",
+    "styles": {
+    "float": "unset",
+    "text_type": "block_box",
+    "list_type": "normal"
+    },
+    "content": [
+    {
+    "title": "Oferta obejmuje:",
+    "lead": "",
+    "text": ""
+    },
+    {
+    "title": "",
+    "lead": "- 55-cio minutowy trening jeden-na-jeden",
+    "text": "Trening personalny podzielony jest na 3 bloki: rozgrzewkę, część właściwą oraz część rozluźniającą. Za program treningu odpowiedzialny jest trener personalny, który indywidualizuje przebieg spotkań w oparciu o oczekiwania Podopiecznego, jego możliwości motoryczne, ocenę zdrowia i wydolność. Trening „jeden-na-jeden” oznacza 100% uwagi trenera personalnego skierowanej na Podopiecznego."
+    },
+    {
+    "title": "",
+    "lead": "- nauka, asysta i progresja ćwiczeń",
+    "text": "W czasie treningu, Podopieczny uczy się jak wykonywać w prawidłowy sposób ćwiczenia oraz optymalnie budować jednostkę treningową odpowiadającą jego potrzebom. Dobór ćwiczeń i ich stopniowa progresja lub urozmaicanie prowokuje układ nerwowo-mięśniowy do rozwoju i poszerzania możliwości ruchowych. Trening, mimo iż jest głównie kojarzony z rozwojem muskulatury i zwinności, jest przede wszystkim ćwiczeniem układu nerwowego. Myślenie staje się bardziej klarowne, obniża się nerwowość, budowana jest odporność na stres i poprawia się samopoczucie."
+    },
+    {
+    "title": "",
+    "lead": "- bezpieczeństwo, dyskrecja i pełna indywidualizacja",
+    "text": "Tylko w atmosferze zaufania i akceptacji, umysł człowieka przyjmuje wyzwania i nowe doświadczenia w sposób optymalny i potrafi się szybko adaptować do nowych warunków. Nastawienie do treningów i poczucie bezpieczeństwa jest warunkiem koniecznym, aby z sukcesem osiągnąć swoje cele i wymienić złe nawyki na dobre. Stawiamy na czynniki miękkie i budowanie przyjaznych relacji."
+    },
+    {
+    "title": "",
+    "lead": "- motywacja",
+    "text": "Jest źródłem wszelkiego działania. Bez odpowiedniej motywacji, zrobienie drobnej rzeczy staje się niemożliwe, czego dobrym przykładem są osoby cierpiące na depresje. Rozmowy na temat motywacji są nieodłącznym elementem treningów personalnych. Bez tej iskry, umysł łatwo może zgubić cel swoich działań i w konsekwencji przestać podejmować wysiłek. Dlatego,"
+    },
+    {
+    "title": "Profil treningowy:",
+    "lead": "",
+    "text": ""
+    },
+    {
+    "title": "",
+    "lead": "1. Fizjoterapeutyczny",
+    "text": "Opcja dedykowana osobom po urazach i chorobach układu ruchu borykających się z dolegliwościami bólowymi oraz ograniczeniami oczekujących od trenera podejścia medycznego i zachowania szczególnych środków ostrożności."
+    },
+    {
+    "title": "",
+    "lead": "",
+    "text": "Fizjoterapeutyczny profil treningowy jest również kierowany do osób stawiających na profilaktykę i utrzymanie dobrego stanu zdrowia układu nerwowo-mięśniowego. Obejmuje takie ćwiczenia, których celem będzie wzmocnienie mięśni głębokich, wzrost gibkości, praca nad prawidłową sekwencją ruchu, rozluźnienie mięśni napiętych i włączenie do pracy oraz wzmocnienie mięśni osłabionych."
+    },
+    {
+    "title": "",
+    "lead": "2. Kształtujący sylwetkę i wydolność",
+    "text": "Trening personalny, którego cele związane są z wyszczupleniem sylwetki, zmianą proporcji ciała oraz poprawą wydolności i kondycji. Jest niezbędnym uzupełnieniem diety redukującej tkankę tłuszczową. W odróżnieniu od profilu fizjoterapeutycznego, prezentuje sportowy charakter. Jest kierowany do osób, który oczekują dużej dawki ruchu obejmującej takie formy treningowe jak:"
+    }
+    ],
+    "created_at": "2018-10-11T19:52:02.585Z",
+    "updated_at": "2018-10-25T21:26:36.843Z"
+    },
+    {
+    "_id": "5bd236191aead80013e28f31",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "",
+    "text": "",
+    "items": [
+    "trening interwałowy",
+    "trening obwodowy",
+    "trening siłowy",
+    "trening funkcjonalny z kettlebells",
+    "trening funkcjonalny z ciężarem własnego ciała"
+    ]
+    },
+    "created_at": "2018-10-25T21:31:05.944Z",
+    "updated_at": "2018-10-25T21:31:05.944Z"
+    },
+    {
+    "_id": "5bd236be1aead80013e28f32",
+    "type": "text",
+    "styles": {
+    "float": "unset",
+    "text_type": "block_box",
+    "list_type": "normal"
+    },
+    "content": [
+    {
+    "title": "Jak umówić się na trening personalny?",
+    "lead": "",
+    "text": "Najprościej - telefonicznie. Od poniedziałku do piątku, w godzinach 9.00 – 20.00 możesz zadzwonić do Mai Bednarczyk, trenera personalnego – nr telefonu: 500 451 216. W sytuacji, kiedy telefon nie będzie odpowiadał, poczekaj aż trener oddzwoni lub zadzwoń do recepcji Klubu (530 792 265) w godzinach jego otwarcia z prośbą o kontakt z trenerem. Termin spotkania zostanie ustalony indywidualnie."
+    },
+    {
+    "title": "Pierwsze spotkanie",
+    "lead": "",
+    "text": "W czasie pierwszego spotkania odbywa się rozmowa w cztery oczy pomiędzy trenerem i Podopiecznym. Przeprowadzany jest wywiad zdrowotny, ankieta treningowa, oraz określone zostają oczekiwania i cele Podopiecznego. W oparciu o wyżej wspomniane komponenty, trener opracuje plan treningowy i zaproponuje rozwiązania, które zmaksymalizują wysiłek, dzięki czemu efekty zostaną osiągnięte szybko."
+    },
+    {
+    "title": "Postępowanie okołotreningowe",
+    "lead": "",
+    "text": "W zależności od wymagań, potrzeb i możliwości fizycznych Podopiecznego, trener może zalecić zmianę nawyków żywieniowych, konsultacje lekarską lub fizjoterapeutyczną czy badania laboratoryjne. Reakcja ciała na trening jest zależna od procesów fizjologicznych (np. metabolizm węglowodanów – insulinooporność, cukrzyca), wydzielania hormonów (np. niedoczynność tarczycy) czy nasycenia minerałami (np. zespoły złego wchłaniania, jelito drażliwe). Skuteczność treningu jest więc wprost proporcjonalna do zdrowia Podopiecznego."
+    },
+    {
+    "title": "Plan treningowy",
+    "lead": "",
+    "text": "Zestaw ćwiczeń ustali trener personalny. Zostanie on dopasowany tak, aby Podopieczny mógł czerpać z niego maksymalne korzyści i satysfakcję. Jeśli Podopieczny dotychczas nie uprawiał żadnej aktywności sportowej, kilka pierwszych treningów będzie miało charakter bardziej instruktażowy, aby nauczyć i przede wszystkim nie zniechęcić do kolejnych treningów. Podopieczny w każdym momencie może powiedzieć, że coś jest za trudne dla niego i wówczas trener odpowiednio zareaguje. Po przejściu okresu „instruktażowego”, Podopieczny powinien samodzielnie wykonać podstawowe ćwiczenia, które były mu zaprezentowane. Od tego etapu, ćwiczenia ulegają progresji w tempie takim, aby rozwój Podopiecznego nie ustawał."
+    },
+    {
+    "title": "Cel treningowy",
+    "lead": "",
+    "text": "Jego określenie jest konieczne do podjęcia treningów personalnych. Podopieczny musi sprecyzować dlaczego chce wprowadzić w swoją tygodniową rutynę kilka godzin treningów personalnych. Troska o zdrowie i profilaktyka, chęć zrzucenia 10-ciu kilogramów w ciągu 3 miesięcy, wyjście z domu i oderwanie się od codziennych obowiązków, aby zrobić coś dobrego dla siebie, poprawa kondycji, aby nie dostawać zadyszki w trakcie zabawy z wnukiem i podobne. Wypowiedzenie głośno celu sprawia, że nie zginie on na horyzoncie i wiadomo o co podjęta została walka."
+    },
+    {
+    "title": "Czy konieczna jest zmiana diety?",
+    "lead": "",
+    "text": "Dieta nie jest tutaj dobrym słowem. Chcielibyśmy, aby posługiwać się raczej sformułowaniem „sposób odżywiania”, ponieważ dieta to termin medyczny i może zostać przepisana z powodów medycznych, np. dieta w cukrzycy. W przypadku treningów sposób odżywiania warunkuje wyniki treningowe, dlatego jeśli cele Podopiecznego są związane z redukcją tkanki tłuszczowej lub zmianą proporcji ciała, należy bliżej się przyjrzeć swojemu dziennemu jadłospisowi, jeśli treningi nie przynoszą oczekiwanych rezultatów."
+    },
+    {
+    "title": "W jakich jednostkach chorobowych nie wolno trenować?",
+    "lead": "",
+    "text": "Ruch jest naturalnym środowiskiem człowieka, choć klimat dzisiejszego świata powoduje, że o tym zapominamy. Każda jednostka chorobowa ma swoje wskazania jak i przeciwwskazania do ruchu. W osteoporozie ważny jest trening z oporem, ale unikać należy ćwiczeń eksplozywnych (skoków). W niedoczynności tarczycy, ciało należy traktować ćwiczeniami uspokajającymi (gimnastyka na świeżym powietrzu, joga), nie należy jednak go stresować treningami siłowymi czy interwałowymi. W cukrzycy, sport normuje poziom cukru we krwi, więc należy odpowiednio wypośrodkować poziom intensywności, żeby sobie pomóc, lecz nie doprowadzić do zbyt mocnego obniżenia cukru. W nietrzymaniu moczu należy pracować nad ciśnieniem wewnątrzbrzusznym i znormotonizowaniem mięśni dna miednicy i brzucha, unikać należy na początku ćwiczeń eksplozywnych. W bólach kręgosłupa z kolei nie dopasujemy odpowiednich ćwiczeń, dopóki nie zidentyfikujemy źródła bólu."
+    }
+    ],
+    "created_at": "2018-10-25T21:33:50.348Z",
+    "updated_at": "2018-10-25T21:38:35.097Z"
+    }
+    ],
+    "_id": "5bbf9faaac59bb001319bb09",
+    "name": "trening",
+    "label": "Trening personalny",
+    "created_at": "2018-10-11T19:08:26.209Z",
+    "updated_at": "2018-10-25T21:37:07.675Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bbfae3aac59bb001319bb0f",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "title": "Body Space ®",
+    "lead": "",
+    "image": "assets/images/gym/body_space.jpg",
+    "text": "Kardio połączone z treningiem próżniowym – efekt już po 2 tygodniach! Zmiana jakości sylwetki i utrata wagi dają jednak tylko systematycznie treningi. Zacznij od 3 seansów w tygodniu, a kiedy ciało zacznie się widocznie zmieniać, możesz – jeśli chcesz – ćwiczyć tylko 2 razy w tygodniu. Nie zapomnij jednak o siłowni! 30 minut pracy w Body Space to dość mało do osiągnięcia spektakularnych efektów, ale jeśli trening przedłużysz o godzinę lub więcej, masz duże szanse, żeby w ciągu miesiąca lub dwóch stracić 2 rozmiary!"
+    },
+    "created_at": "2018-10-11T20:10:34.062Z",
+    "updated_at": "2018-10-11T20:10:34.062Z"
+    },
+    {
+    "_id": "5bbfaee7ac59bb001319bb10",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "title": "Rollmasaż",
+    "lead": "",
+    "image": "assets/images/gym/rollingstars.png",
+    "text": "Po każdym treningu polegającym na pracy koncentryczno-ekscentrycznej, mięśniom należy się krótki relaks i rozluźnienie. Rollmasaż doskonale się do tego nadaje! Zacznij od kończyn dolnych (najlepiej od stóp) i powoli przesuwaj się ku górze. W zależności od pozycji, możesz wymasować każdą cześć ciała. Masz do dyspozycji dwie pufy i silne ramy urządzenia, na których możesz się opierać. Masowanie za pomocą tych bambusowych rolek, nie tylko jest przyjemne, ale też niezwykle zdrowe. Rollmasaż korzystnie wpływa na układ mięśniowy, krwionośny, nerwowy, limfatyczny, rozbija i przyspiesza utratę tkanki tłuszczowej, silnie ujędrnia i uelastycznia ciało. Doskonały jako kuracja antycellulitowa! W naszym centrum treningowym znajduję się tabliczka informująca o prawidłowym przebiegu masażu."
+    },
+    "created_at": "2018-10-11T20:13:27.304Z",
+    "updated_at": "2018-10-11T20:13:27.304Z"
+    },
+    {
+    "_id": "5bbfaef2ac59bb001319bb11",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "title": "Rowerek i bieżnia",
+    "lead": "",
+    "image": "assets/images/gym/bieznia.jpg",
+    "text": "Za utratę tkanki tłuszczowej podczas ćwiczeń odpowiadają tlenowe procesy spalania czyli tzw. aeroby. Już po około 15 minutach jazdy na rowerze lub marszu na bieżni energia zmagazynowana w postaci tkanki tłuszczowej zaczyna być uwalniania. Musisz jednak wiedzieć, że aby wejść w tlenowe procesy spalania nie wolno Ci przekroczyć tętna powyżej 70-75% Twojego HRMax. Jak to obliczyć i co to oznacza? HRMax (heart rate maximum) to Twoje maksymalne dopuszczalne tętno. Żeby je obliczyć odejmij od 220 swój wiek i teraz oblicz 75% z tej wartości. Dla przykładu, HRMax kobiety w wieku 40 lat wynosi 180 uderzeń serca na minutę, a intensywność pracy jej serca nie powinna przekraczać 135 uderzeń na minutę (75%HRMax), jeśli celem naszej przykładowej bohaterki jest utrata wagi.Jeśli masz jakiegokolwiek wątpliwości lub pytania, obsługa 7mych potów (Karmy Zdrowia) z chęcią na nie odpowie."
+    },
+    "created_at": "2018-10-11T20:13:38.175Z",
+    "updated_at": "2018-10-11T20:13:38.175Z"
+    },
+    {
+    "_id": "5bbfaf00ac59bb001319bb12",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "title": "Orbitrek",
+    "lead": "",
+    "image": "assets/images/gym/orbitek.jpg",
+    "text": "Znane jest też pod nazwą: rower eliptyczny, trenażer eliptyczny i cross-trainer. Można go określić jako 3 w 1, bo łączy zalety steppera, bieżni i roweru stacjonarnego. Dlaczego warto wybrać orbit rek? Orbitrek ma wiele zalet, które warto wykorzystać nie tylko dla spalania kalorii, ale także aby poprawić kondycję. Najważniejsze z nich:",
+    "items": [
+    "w czasie ćwiczeń nogi poruszają się ruchem owalnym, co przypomina ruch podczas biegu narciarskiego,",
+    "znacznie zmniejszone są obciążenia – stawy i ścięgna są dużo mniej obciążone niż podczas tradycyjnego biegania,",
+    "spalanie kalorii jest dużo bardziej efektywne niż na bieżni czy rowerku stacjonarnym. Pracuje całe ciało",
+    "ćwiczenia bez rączek pozwalają wzmocnić mięśnie brzucha,",
+    "wzmacniają się i kształtują mięśnie ud i podudzi,",
+    "można ćwiczyć z różną prędkością, co jest szczególnie ważne dla osób, które dopiero rozpoczynają ćwiczenia."
+    ]
+    },
+    "created_at": "2018-10-11T20:13:52.498Z",
+    "updated_at": "2018-10-11T20:13:52.498Z"
+    },
+    {
+    "_id": "5bbfaf12ac59bb001319bb13",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "title": "Platforma wibracyjna",
+    "lead": "",
+    "image": "assets/images/gym/platforma_wibracyjna.jpg",
+    "text": "Treningi na platformie wibracyjnej są idealnym połączeniem przyjemnego z pożytecznym. Zalety treningów z wykorzystaniem platform wibracyjnych są takie, że bez większego wysiłku będziemy w stanie kształtować naszą sylwetkę, budować masę mięśniową czy też spalać niepotrzebny tłuszcz. Standardowy trening wykorzystuje około 50% mięśni, a dzięki temu, że wibracyjne drgania podczas ćwiczeń na platformie pobudzają wszystkie mięśnie do mimowolnego skurczu, sprawia to że wszystkie mięśnie zostają zaangażowane w trening."
+    },
+    "created_at": "2018-10-11T20:14:10.338Z",
+    "updated_at": "2018-10-11T20:14:10.338Z"
+    },
+    {
+    "_id": "5bbfaf1bac59bb001319bb14",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "title": "Suwnica Smitha",
+    "lead": "",
+    "image": "assets/images/gym/suwnica.jpg",
+    "text": "Konstrukcja Suwnicy Smitha wprowadza zupełnie nowe możliwości do treningu siłowego. Dzieje się tak przede wszystkim za sprawą zespolenia mechanizmu przesuwnego z gryfem oraz systemem asekuracji. Zapewnia to stabilność i płynność ruchów użytkownika w obu kierunkach, zarówno w pozycji stojącej, siedzącej, jak i leżącej. Takie rozwiązanie uczyniło suwnicę prawdziwie uniwersalnym urządzeniem, łączącym w sobie zalety ćwiczeń z wolną sztangą i atlasem. Swoboda wyboru pozycji ciała, bezpieczeństwo, pełna kontrola ruchów i komfortu – to efekty tego aliansu. Suwnica uwalnia też użytkownika od konieczności udziału osób trzecich w treningu, aczkolwiek nic nie stoi na przeszkodzie aby ćwiczyć z partnerem. W naszym centrum treningowym znajduję się tabliczka z przykładowymi ćwiczeniami na urządzeniu."
+    },
+    "created_at": "2018-10-11T20:14:19.709Z",
+    "updated_at": "2018-10-11T20:14:19.709Z"
+    },
+    {
+    "_id": "5bbfaf25ac59bb001319bb15",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "title": "Brama narożna",
+    "lead": "",
+    "image": "assets/images/gym/brama.jpg",
+    "text": "Brama Narożna to wszechstronne urządzenie pozwalające na wykonanie bardzo wielu ćwiczeń na wszystkie partie ciała. W naszym centrum treningowym znajduję się tabliczka z przykładowymi ćwiczeniami na urządzeniu."
+    },
+    "created_at": "2018-10-11T20:14:29.264Z",
+    "updated_at": "2018-10-11T20:14:29.264Z"
+    }
+    ],
+    "_id": "5bbfad5cac59bb001319bb0e",
+    "name": "gym_cardio",
+    "label": "Siłownia & Kardio",
+    "created_at": "2018-10-11T20:06:52.125Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bbfb04eac59bb001319bb17",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "title": "Interval",
+    "lead": "",
+    "image": "assets/images/type_classes/interval.jpg",
+    "text": "Interwały to treningi metaboliczne, uchodzące za najbardziej skuteczne w procesie odchudzania. Treningi są intensywne. Zawierają zarówno ćwiczenie siłowe oraz eksplozywne (wszelkie wyskoki i biegi), dlatego interwałom towarzyszy dość długa lista przeciwwskazań, niemniej jednak osobom dobrze do nich przygotowanych, taki trening przyniesie najwięcej korzyści i widocznie przyczyni się do zrzucenia zbędnych kilogramów. Przed przystąpieniem do zajęć, wskazana konsultacja z trenerem."
+    },
+    "created_at": "2018-10-11T20:19:26.087Z",
+    "updated_at": "2018-10-11T20:19:26.087Z"
+    },
+    {
+    "_id": "5bbfb05bac59bb001319bb18",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "title": "Shape",
+    "lead": "",
+    "image": "assets/images/type_classes/shape.jpg",
+    "text": "Ogólnorozwojowy trening kształtujący ciało – brzuch, uda, pośladki, ramiona"
+    },
+    "created_at": "2018-10-11T20:19:39.310Z",
+    "updated_at": "2018-10-11T20:19:39.310Z"
+    },
+    {
+    "_id": "5bbfb068ac59bb001319bb19",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "title": "Deep Work",
+    "lead": "",
+    "image": "assets/images/type_classes/deep_work.jpg",
+    "text": "Program treningowy inspirowany filozofią i energetyką Dalekiego Wschodu oparty na koncepcji Yin i Yang. Początek lekcji to subtelne pobudzenie mięśni i stawów przypominające Jogę oraz Body Art. Wchodząc jednak dalej w trening, musisz stawić czoło swoim słabościom i pokonać własne ograniczenia. Deep WORK ® to wyjątkowy trening funkcjonalny, który nie tylko ćwiczy ciało, ale też i umysł. Stworzony przez fachowców najwyższej klasy dla osób lubiących wyzwania i otwartych na nowe koncepty."
+    },
+    "created_at": "2018-10-11T20:19:52.119Z",
+    "updated_at": "2018-10-11T20:19:52.119Z"
+    },
+    {
+    "_id": "5bbfb074ac59bb001319bb1a",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "title": "Functional Flow",
+    "lead": "",
+    "image": "assets/images/type_classes/flow.png",
+    "text": "Functional Flow to zupełnie nowa odsłona treningu funkcjonalnego. Ci którzy oczekują po treningu uczucia przyjemnej wolności i luzu w ciele, nie zawiodą się. Functional Flow zmusza do globalnej pracy mięśnie posturalne, buduje siłę od środka i trenuje zakres ruchu bez przeciążania stawów. To również trening powięzi eliminujący sztywność w ciele, a przy tym bardzo trudno się nie zmęczyć. Spalanie kalorii gwarantowane, a wcale nie trzeba skakać."
+    },
+    "created_at": "2018-10-11T20:20:04.772Z",
+    "updated_at": "2018-10-11T20:20:04.772Z"
+    },
+    {
+    "_id": "5bbfb082ac59bb001319bb1b",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "title": "Pilates & Zdrowy Kręgosłup",
+    "lead": "",
+    "image": "assets/images/type_classes/pilates.jpg",
+    "text": "Zajęcia prozdrowotne z nurtu mentalnych. Niegdyś, pilates był stosowany jako forma rehabilitacji, obecnie, jako forma zajęć grupowych, doskonale się sprawdza jako profilaktyka przed dysfunkcjami układu ruchu jak i w niektórych przypadkach leczenia, np. problemy z nietrzymaniem moczu. Pilates korzystnie wpływa na kondycję kręgosłupa, ruchomość stawów, gibkość czy siłę mięśni (zwłaszcza mięśnie tłoczni brzusznej, prostowniki kręgosłupa oraz mięśnie obręczy biodrowej). Na zajęciach zdrowy kręgosłup  głównym zadaniem jest profilaktyka schorzeń kręgosłupa, ale nie należy ich jednak mylić z treningiem pleców. Ćwiczone są wszystkie grupy mięśniowe ciała, ponieważ każda jedna dysfunkcja danej części ciała (np. stopy) może negatywnie oddziaływać na stan kręgosłupa. Zestaw ćwiczeń obejmuje: wzmocnienie, stabilizacje, mobilizację oraz gibkość. Połączenie tych zajęć to najlepszy wybór dla Twojego kręgosłupa! Zajęcia są skierowane dla osób w każdym wieku i o każdym poziomie zaawansowania."
+    },
+    "created_at": "2018-10-11T20:20:18.212Z",
+    "updated_at": "2018-10-11T20:20:18.212Z"
+    },
+    {
+    "_id": "5bbfb090ac59bb001319bb1c",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-t"
+    },
+    "content": {
+    "title": "Joga",
+    "lead": "",
+    "image": "assets/images/type_classes/slider1.png",
+    "text": "Joga to najstarsza gimnastyka świata. Jest praktykowana od wielu tysięcy lat, a jej najważniejszym źródłem są spisane między 3 a 6 wiekiem przed naszą erą Jogasutry autorstwa Patańdżalego, ajurwedyjskiego lekarza. Joga może być rozumiana na dwa sposoby. Może być postrzegana jako system światopoglądowy, filozofię czy nawet religię oraz jako aktywność ruchowa. W cywilizacji zachodniej, dużo częściej jogę kojarzy się z praktyką asan. Również i w naszym klubie, joga jest wolna od światopoglądu i jest nauczana tylko i wyłącznie jako aktywność fizyczna. Niezaprzeczalnym faktem jest jednak jej znamienny wpływ na jasność myślenia, uspokojenie umysłu i zharmonizowanie pracy narządów wewnętrznych. Praktyka asan – czyli pozycji jogi - ma charakter terapeutyczny. Ich wykonywanie przynosi ulgę narządowi ruchu i znacząco wpływa na witalność regularnie ćwiczącego. Spośród najbardziej znanych korzyści praktykowania jogi, należy wymienić:",
+    "items": [
+    "spowolnienie procesów starzenia,",
+    "profilaktyka chorób kręgosłupa,",
+    "lepsze radzenie sobie ze stresem,",
+    "spokojny sen,",
+    "uspokojenie układu hormonalnego",
+    "wyższa tolerancja na obciążenie intelektualne."
+    ]
+    },
+    "created_at": "2018-10-11T20:20:32.708Z",
+    "updated_at": "2018-10-11T20:20:32.708Z"
+    }
+    ],
+    "_id": "5bbfb016ac59bb001319bb16",
+    "name": "types_classes",
+    "label": "Zajęcia",
+    "created_at": "2018-10-11T20:18:30.884Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bbfb44cac59bb001319bb1e",
+    "type": "text",
+    "styles": {
+    "float": "unset",
+    "text_type": "block_box",
+    "list_type": "normal"
+    },
+    "content": [
+    {
+    "title": "Nasze solarium",
+    "lead": "",
+    "text": "Tuba Opal Fitness – jest wyposażone w lampy o wysokim współczynniku opalania. Przed każdym seansem skonsultuj się z obsługą, która pomoże dobrać Ci odpowiednią ilość minut i doradzi jaki krem do opalania w solarium będzie dla Ciebie najlepszy. Dbałość o dobrej jakości lampy gwarantuje szybką i głęboką opaleniznę w kolorze słonecznego brązu, pamiętaj jednak, żeby proces opalania w solarium zacząć ostrożnie i dać czas swojej skórze na przyzwyczajenie się do nowego światła. Pomocą będą dla naszych klientów specjalistyczne kremy chroniące przed wysuszeniem i zaopatrujące w dużą dawkę witamin i antyoksydantów, a dla klientów zaawansowanych – specjalne bronzery, które w różnym stopniu przyspieszają opalanie."
+    }
+    ],
+    "created_at": "2018-10-11T20:36:28.947Z",
+    "updated_at": "2018-10-11T20:36:28.947Z"
+    },
+    {
+    "_id": "5bcdede84dfe0300137f168c",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o-s"
+    },
+    "content": {
+    "title": "",
+    "lead": "",
+    "image": "assets/images/solarium/opalo.jpg",
+    "text": ""
+    },
+    "created_at": "2018-10-22T15:34:00.831Z",
+    "updated_at": "2018-10-22T15:34:00.831Z"
+    },
+    {
+    "_id": "5bbfb4edac59bb001319bb20",
+    "type": "text",
+    "styles": {
+    "float": "unset",
+    "text_type": "block_q",
+    "list_type": "normal"
+    },
+    "content": [
+    {
+    "title": "",
+    "lead": "",
+    "text": "",
+    "quotation": "Zakaz udostępniania solarium osobom, które nie ukończyły 18. roku życia (art. 5 ust. 1 ustawy z dnia 15 września 2017 r. o ochronie zdrowia przed następstwami korzystania z solarium)."
+    }
+    ],
+    "created_at": "2018-10-11T20:39:09.284Z",
+    "updated_at": "2018-10-11T20:39:09.284Z"
+    }
+    ],
+    "_id": "5bbfb3f0ac59bb001319bb1d",
+    "name": "solarium",
+    "label": "Solarium",
+    "created_at": "2018-10-11T20:34:56.826Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bbfb7e7ac59bb001319bb23",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "Maja Bednarczyk",
+    "lead": "",
+    "image": "assets/images/treners/Maja.jpg",
+    "text": "Specjalista metody P-DTR, trener personalny z wieloletnim doświadczeniem, dyplomowany nauczyciel jogi, Od lat jestem zainteresowana holistycznym podejściem do zdrowia fizycznego i psychicznego człowieka. Zaowocowało to ukończeniem kilkudziesięciu kursów i szkoleń z zakresu dietetyki, fizjologii, anatomii, systemów treningowych oraz niekonwencjonalnych metod. Pracę z klientem indywidualnym zaczęłam jako trener personalny w 2013 roku prowadząc w większości osoby z problemami zdrowotnymi. W tym samym czasie rozwijałam się na polu nauczyciela jogi o specjalizacji Hatha Yoga, oraz prowadziłam zajęcia grupowe takie jak Zdrowy Kręgosłup, Pilates i Trening Funkcjonalny. Szczególnie mocno skupiłam się w tym czasie na treningach funkcjonalnych i miałam przyjemność stanąć dwukrotnie na Konwencji Fitness jako Prezenter i Szkoleniowiec w Euro Fitness School z Bielska Białej w 2016 roku obok wielu świetnych Trenerów z Polski i z Europy. Rok później podobną współpracę zaczęłam ze Szkołą Instruktorów Fitness w Krakowie. Szkolenie młodych instruktorów fitness sprawiało mi dużą frajdę i dało wiele ciekawych doświadczeń oraz lekcji – tym razem to ja miałam przekazywać wiedzę, a nie ją brać. Ta zmiana perspektywy dużo mnie nauczyła. Po kilku latach pracy w zawodzie trenera personalnego i instruktora fitness, trafiłam przypadkiem na P-DTR czyli proprioceptywną terapię odruchową. Pierwsze wrażenie jakie zrobiła na mnie ta metoda było piorunujące – istna magia na dodatek z natychmiastowym efektem! Parę miesięcy później siedziałam już jako student na pierwszym module rocznego szkolenia u twórcy metody dr Jose Palomara (Meksyk). Sądzę, że już wtedy przeczuwałam, że P-DTR zmieni moje życie. Z bycia trenerem i promotorem zdrowego jedzenia i aktywnego stylu życia, stałam się Praktykiem metody P-DTR na poziomie zaawansowanym, aktywnie zainteresowaną neurologią, psychosomatyką i kinezjologią. Dawne zainteresowania i praca trenera oraz prowadzącego lekcje grupowe zmieniły kontekst i nabrały nowej jakości. Dzisiaj z ogromną przyjemnością dzielę potencjał metody P-DTR ze swoimi Klientami i samodzielnie rozwijam własne narzędzia w poszukiwaniu priorytetowych dysfunkcji receptorów w układzie nerwowym, pomagając w takich dolegliwościach jak: bóle, ograniczenia ruchowe, stany napięciowe pochodzenia emocjonalnego, problemy psychosomatyczne i inne. Prowadzę treningi personalne mając nowe spojrzenie na ludzkie ciało i jego potrzeby, rozpisuję diety indywidualnie dobrane na podstawie testów żywieniowych i uczę jogi na kilku poziomach trudności. Moja droga nie była najkrótszą z możliwych, ale mam wrażenie, że najlepszą z możliwych. Zapraszam serdeczne!",
+    "references": "/pdtr/references",
+    "email": "karmazdrowia@gmail.com",
+    "phone": "500451216"
+    },
+    "created_at": "2018-10-11T20:51:51.392Z",
+    "updated_at": "2018-10-25T08:33:15.263Z"
+    },
+    {
+    "_id": "5bbfb7f4ac59bb001319bb24",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "Sylwia Lorenc",
+    "lead": "",
+    "image": "assets/images/treners/Sylwia.jpg",
+    "text": "Absolwentka Akademii Górniczo-Hutniczej w Krakowie. Ze sportem związana od dziecka, w szkole średniej trenująca siatkówkę oraz biegi. Instruktor fitness od 2013 roku, a od 2016 również trener zajęć Pilates. Bierze udział w konwencjach fitness oraz różnego rodzaju szkoleniach i warsztatach, gdzie rozwija swoje umiejętności. Interesuje się zdrowym, świadomym odżywianiem i wpływem pożywienia na samopoczucie i emocje. Głęboko wierzy w myśl, że \" jesteś tym co jesz\". Zapalona podróżniczka, która nie potrafi usiedzieć na miejscu. Miłośniczka włoskiej kawy i dobrego jedzenia. Stale stawia sobie nowe cele, a poprzeczkę podnosi coraz wyżej. Obecnie jej sportowym celem jest przebiec Runmageddon.",
+    "references": "",
+    "email": "",
+    "phone": ""
+    },
+    "created_at": "2018-10-11T20:52:04.536Z",
+    "updated_at": "2018-10-22T22:18:40.113Z"
+    }
+    ],
+    "_id": "5bbfb7adac59bb001319bb22",
+    "name": "treners_7me",
+    "label": "Trenerzy",
+    "created_at": "2018-10-11T20:50:53.303Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bbfb88eac59bb001319bb27",
+    "type": "gallery",
+    "styles": {
+    "float": "left"
+    },
+    "content": [
+    {
+    "title": "",
+    "images": [
+    {
+    "url": "assets/images/7me_poty/gallery/gallery2.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/7me_poty/gallery/gallery1.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/7me_poty/gallery/gallery3.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/7me_poty/gallery/gallery4.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/7me_poty/gallery/gallery5.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/7me_poty/gallery/gallery6.jpg",
+    "title": ""
+    }
+    ]
+    }
+    ],
+    "created_at": "2018-10-11T20:54:38.178Z",
+    "updated_at": "2018-10-15T22:17:31.778Z"
+    }
+    ],
+    "_id": "5bbfb82cac59bb001319bb26",
+    "name": "gallery_7me",
+    "label": "Galeria",
+    "created_at": "2018-10-11T20:53:00.844Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bbfbc7aac59bb001319bb2a",
+    "type": "table",
+    "styles": {
+    "float": "unset",
+    "text_type": "block_box",
+    "list_type": "normal"
+    },
+    "content": [
+    {
+    "title": "Konsultacje żywieniowe",
+    "lead": "",
+    "text": "Rozpisywanie zaleceń żywieniowych, wsparcie w procesie odchudzania i regulacja zdrowia za pomocą odpowiedniego sposobu odżywiania."
+    }
+    ],
+    "created_at": "2018-10-11T21:11:22.705Z",
+    "updated_at": "2018-10-14T09:36:25.359Z"
+    },
+    {
+    "_id": "5bc0b9f91ba2b900132b97c4",
+    "type": "table",
+    "styles": {
+    "float": "unset",
+    "text_type": "price-l-n",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "CENNIK WEJŚĆ JEDNORAZOWYCH",
+    "headers": [],
+    "data": [
+    [
+    [
+    "ZAJĘCIA GRUPOWE",
+    "Zajęcia grupowe z instruktorem"
+    ],
+    "25zł"
+    ],
+    [
+    [
+    "SIŁOWNIA",
+    "Jednorazowy wstęp bez ograniczeń czasowych"
+    ],
+    "15zł"
+    ],
+    [
+    [
+    "BODY SPACE (VACU)",
+    "30 minut treningu w kapsule podciśnieniowej"
+    ],
+    "20zł"
+    ],
+    [
+    [
+    "OPEN JEDNORAZOWE",
+    "Wejście 3 w 1 (siłownia, vacu, zajęcia grupowe)"
+    ],
+    "35zł"
+    ]
+    ]
+    },
+    "created_at": "2018-10-12T15:12:57.776Z",
+    "updated_at": "2018-10-13T10:42:48.103Z"
+    },
+    {
+    "_id": "5bc1cb474930dc00133f62aa",
+    "type": "table",
+    "styles": {
+    "float": "unset",
+    "text_type": "price-l-n",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "KARNETY OPEN",
+    "headers": [
+    "",
+    "6 miesięcy",
+    "3 miesiące",
+    "1 miesiąc"
+    ],
+    "data": [
+    [
+    "SIŁOWNIA",
+    "59 zł / msc",
+    "84 zł / msc",
+    "99 zł"
+    ],
+    [
+    "VACU",
+    "65 zł / msc",
+    "92 zł / msc",
+    "109 zł"
+    ],
+    [
+    "SIŁOWNIA + VACU",
+    "83 zł / msc",
+    "118 zł / msc",
+    "139 zł"
+    ],
+    [
+    "ZAJĘCIA GRUPOWE",
+    "83 zł / msc",
+    "118 zł / msc",
+    "139 zł"
+    ]
+    ]
+    },
+    "created_at": "2018-10-13T10:39:03.378Z",
+    "updated_at": "2018-10-13T10:43:46.960Z"
+    },
+    {
+    "_id": "5bc1ccea4930dc00133f62ab",
+    "type": "table",
+    "styles": {
+    "float": "unset",
+    "text_type": "price-l-n",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "KARNETY ILOŚCIOWE",
+    "headers": [
+    "",
+    "CENA",
+    "OKRES OBOWIĄZYWANIA"
+    ],
+    "data": [
+    [
+    "12 WEJŚĆ",
+    "149 zł",
+    "2 miesiące"
+    ],
+    [
+    "8 WEJŚĆ",
+    "115 zł",
+    "1 miesiące"
+    ],
+    [
+    "4 WEJŚĆ",
+    "60 zł",
+    "1 miesiące"
+    ]
+    ]
+    },
+    "created_at": "2018-10-13T10:46:02.775Z",
+    "updated_at": "2018-10-13T10:46:02.775Z"
+    },
+    {
+    "_id": "5bc1cd6c4930dc00133f62ac",
+    "type": "table",
+    "styles": {
+    "float": "unset",
+    "text_type": "price-l-n",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "TRENING PERSONALNY",
+    "headers": [
+    "",
+    "CENA",
+    "OKRES OBOWIĄZYWANIA"
+    ],
+    "data": [
+    [
+    "10 x TRENING PERSONALNY",
+    "700 zł",
+    "6 miesiący"
+    ],
+    [
+    "1 x TRENING PERSONALNY",
+    "80 zł",
+    "1 h"
+    ]
+    ]
+    },
+    "created_at": "2018-10-13T10:48:12.307Z",
+    "updated_at": "2018-10-13T11:39:11.261Z"
+    },
+    {
+    "_id": "5bc1ce6b4930dc00133f62ad",
+    "type": "text",
+    "styles": {
+    "float": "unset",
+    "text_type": "block_box",
+    "list_type": "normal"
+    },
+    "content": [
+    {
+    "title": "",
+    "lead": "",
+    "text": "Przed skorzystaniem z usług, zapoznaj się z regulaminem Klubu. Zanim przystąpisz do ćwiczeń upewnij się, że aktywność fizyczna nie zagraża Twojemu stanu zdrowia."
+    }
+    ],
+    "created_at": "2018-10-13T10:52:27.545Z",
+    "updated_at": "2018-10-13T11:39:52.107Z"
+    },
+    {
+    "_id": "5bc1cedd4930dc00133f62ae",
+    "type": "table",
+    "styles": {
+    "float": "unset",
+    "text_type": "price-l-n",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "SOLARIUM",
+    "headers": [],
+    "data": [
+    [
+    "1 minuta",
+    "1, 30 zł"
+    ]
+    ]
+    },
+    "created_at": "2018-10-13T10:54:21.560Z",
+    "updated_at": "2018-10-13T10:57:27.552Z"
+    },
+    {
+    "_id": "5bc1cf484930dc00133f62af",
+    "type": "table",
+    "styles": {
+    "float": "unset",
+    "text_type": "price-l-n",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "PAKIETY SOLARIUM",
+    "headers": [
+    "",
+    "CENA",
+    "OKRES OBOWIĄZYWANIA"
+    ],
+    "data": [
+    [
+    "200 minut solarium",
+    "200 zł",
+    "6 miesięcy"
+    ],
+    [
+    "120 minut solarium",
+    "132 zł",
+    "3 miesiące"
+    ],
+    [
+    "60 minut solarium",
+    "72 zł",
+    "2 miesiące"
+    ]
+    ]
+    },
+    "created_at": "2018-10-13T10:56:08.626Z",
+    "updated_at": "2018-10-13T10:56:08.626Z"
+    },
+    {
+    "_id": "5bc1d01c4930dc00133f62b0",
+    "type": "text",
+    "styles": {
+    "float": "unset",
+    "text_type": "block_box",
+    "list_type": "normal"
+    },
+    "content": [
+    {
+    "title": "KARTA STAŁEGO KLIENTA SOLARIUM",
+    "lead": "",
+    "text": "Odbierz kartę w recepcji 7mepoty za 0 zł. Zbieraj minuty opalania, a po uzbieraniu określonej liczby minut na swojej karcie wymień je na jeden z poniższych gratisów:"
+    }
+    ],
+    "created_at": "2018-10-13T10:59:40.042Z",
+    "updated_at": "2018-10-13T10:59:40.042Z"
+    },
+    {
+    "_id": "5bc1d07e4930dc00133f62b1",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "",
+    "text": "",
+    "items": [
+    "75 minut - wybrany krem do opalania GRATIS;",
+    "100 minut - dodatkowe 15 minut opalania dla Ciebie - GRATIS;",
+    "500 minut - dodatkowe 150 minut opalania dla Ciebie - GRATIS;"
+    ]
+    },
+    "created_at": "2018-10-13T11:01:18.444Z",
+    "updated_at": "2018-10-13T11:01:18.444Z"
+    }
+    ],
+    "_id": "5bbfb90dac59bb001319bb29",
+    "name": "price_list_7me",
+    "label": "Cennik",
+    "created_at": "2018-10-11T20:56:45.121Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bbc76cb2907890013398ab4",
+    "type": "table",
+    "styles": {
+    "float": "unset",
+    "text_type": "schedule"
+    },
+    "content": {
+    "title": "Grafik",
+    "headers": [
+    "godzina",
+    "poniedziałek",
+    "wtorek",
+    "środa",
+    "czwartek",
+    "piątek"
+    ],
+    "data": [
+    [
+    {
+    "background_color": "",
+    "content": "18:30"
+    },
+    {
+    "background_color": "#eef94d",
+    "extra_content": "Functional Flow to zupełnie nowa odsłona treningu funkcjonalnego. Ci którzy oczekują po treningu uczucia przyjemnej wolności i luzu w ciele, nie zawiodą się. Functional Flow zmusza do globalnej pracy mięśnie posturalne, buduje siłę od środka i trenuje zakres ruchu bez przeciążania stawów. To również trening powięzi eliminujący sztywność w ciele, a przy tym bardzo trudno się nie zmęczyć. Spalanie kalorii gwarantowane, a wcale nie trzeba skakać.",
+    "content": "Functional Flow"
+    },
+    {
+    "background_color": "#6849e0",
+    "extra_content": "Interwały to treningi metaboliczne, uchodzące za najbardziej skuteczne w procesie odchudzania. Treningi są intensywne. Zawierają zarówno ćwiczenie siłowe oraz eksplozywne (wszelkie wyskoki i biegi), dlatego interwałom towarzyszy dość długa lista przeciwwskazań, niemniej jednak osobom dobrze do nich przygotowanych, taki trening przyniesie najwięcej korzyści i widocznie przyczyni się do zrzucenia zbędnych kilogramów. Przed przystąpieniem do zajęć, wskazana konsultacja z trenerem.",
+    "content": "Interval"
+    },
+    {
+    "background_color": "#17bd24",
+    "extra_content": "Zajęcia prozdrowotne z nurtu mentalnych. Niegdyś, pilates był stosowany jako forma rehabilitacji, obecnie, jako forma zajęć grupowych, doskonale się sprawdza jako profilaktyka przed dysfunkcjami układu ruchu jak i w niektórych przypadkach leczenia, np. problemy z nietrzymaniem moczu. Pilates korzystnie wpływa na kondycję kręgosłupa, ruchomość stawów, gibkość czy siłę mięśni (zwłaszcza mięśnie tłoczni brzusznej, prostowniki kręgosłupa oraz mięśnie obręczy biodrowej). Na zajęciach zdrowy kręgosłup  głównym zadaniem jest profilaktyka schorzeń kręgosłupa, ale nie należy ich jednak mylić z treningiem pleców. Ćwiczone są wszystkie grupy mięśniowe ciała, ponieważ każda jedna dysfunkcja danej części ciała (np. stopy) może negatywnie oddziaływać na stan kręgosłupa. Zestaw ćwiczeń obejmuje: wzmocnienie, stabilizacje, mobilizację oraz gibkość. Połączenie tych zajęć to najlepszy wybór dla Twojego kręgosłupa! Zajęcia są skierowane dla osób w każdym wieku i o każdym poziomie zaawansowania.",
+    "content": "Pilates & Zdrowy Kręgosłup"
+    },
+    {
+    "background_color": "#de62d5",
+    "extra_content": "Joga to najstarsza gimnastyka świata. Jest praktykowana od wielu tysięcy lat, a jej najważniejszym źródłem są spisane między VI a III w. p.n.e. Jogasutry autorstwa Patańdżalego, ajurwedyjskiego lekarza. Joga może być rozumiana na dwa sposoby. Może być postrzegana jako system światopoglądowy, filozofię czy nawet religię oraz jako aktywność ruchową. W cywilizacji zachodniej, dużo częściej jogę kojarzy się z praktyką asan. Również i w naszym studio, joga jest wolna od światopoglądu i jest nauczana tylko i wyłącznie jako aktywność fizyczna. Niezaprzeczalnym faktem jest jednak jej znamienny wpływ na jasność myślenia, uspokojenie umysłu i zharmonizowanie pracy narządów wewnętrznych. Praktyka asan – czyli pozycji jogi - ma charakter terapeutyczny. Ich wykonywanie przynosi ulgę narządowi ruchu i znacząco wpływa na witalność osoby regularnie ćwiczącej",
+    "content": "Joga od podstaw"
+    },
+    {
+    "background_color": "#e65f5f",
+    "extra_content": "Program treningowy inspirowany filozofią i energetyką Dalekiego Wschodu oparty na koncepcji Yin i Yang. Początek lekcji to subtelne pobudzenie mięśni i stawów przypominające Jogę oraz Body Art. Wchodząc jednak dalej w trening, musisz stawić czoło swoim słabościom i pokonać własne ograniczenia. Deep WORK ® to wyjątkowy trening funkcjonalny, który nie tylko ćwiczy ciało, ale też i umysł. Stworzony przez fachowców najwyższej klasy dla osób lubiących wyzwania i otwartych na nowe koncepty.",
+    "content": "Deep Work"
+    }
+    ],
+    [
+    {
+    "background_color": "",
+    "content": "19:30"
+    },
+    {
+    "background_color": "#de62d5",
+    "extra_content": "Joga to najstarsza gimnastyka świata. Jest praktykowana od wielu tysięcy lat, a jej najważniejszym źródłem są spisane między VI a III w. p.n.e. Jogasutry autorstwa Patańdżalego, ajurwedyjskiego lekarza. Joga może być rozumiana na dwa sposoby. Może być postrzegana jako system światopoglądowy, filozofię czy nawet religię oraz jako aktywność ruchową. W cywilizacji zachodniej, dużo częściej jogę kojarzy się z praktyką asan. Również i w naszym studio, joga jest wolna od światopoglądu i jest nauczana tylko i wyłącznie jako aktywność fizyczna. Niezaprzeczalnym faktem jest jednak jej znamienny wpływ na jasność myślenia, uspokojenie umysłu i zharmonizowanie pracy narządów wewnętrznych. Praktyka asan – czyli pozycji jogi - ma charakter terapeutyczny. Ich wykonywanie przynosi ulgę narządowi ruchu i znacząco wpływa na witalność osoby regularnie ćwiczącej",
+    "content": "Joga"
+    },
+    {
+    "background_color": "",
+    "content": " "
+    },
+    {
+    "background_color": "#5fe0e6",
+    "extra_content": "Ogólnorozwojowy trening kształtujący ciało – brzuch, uda, pośladki, ramiona",
+    "content": "Shape"
+    },
+    {
+    "background_color": "",
+    "content": " "
+    },
+    {
+    "background_color": "#de62d5",
+    "extra_content": "Joga to najstarsza gimnastyka świata. Jest praktykowana od wielu tysięcy lat, a jej najważniejszym źródłem są spisane między VI a III w. p.n.e. Jogasutry autorstwa Patańdżalego, ajurwedyjskiego lekarza. Joga może być rozumiana na dwa sposoby. Może być postrzegana jako system światopoglądowy, filozofię czy nawet religię oraz jako aktywność ruchową. W cywilizacji zachodniej, dużo częściej jogę kojarzy się z praktyką asan. Również i w naszym studio, joga jest wolna od światopoglądu i jest nauczana tylko i wyłącznie jako aktywność fizyczna. Niezaprzeczalnym faktem jest jednak jej znamienny wpływ na jasność myślenia, uspokojenie umysłu i zharmonizowanie pracy narządów wewnętrznych. Praktyka asan – czyli pozycji jogi - ma charakter terapeutyczny. Ich wykonywanie przynosi ulgę narządowi ruchu i znacząco wpływa na witalność osoby regularnie ćwiczącej",
+    "content": "Joga"
+    }
+    ]
+    ]
+    },
+    "created_at": "2018-10-09T09:37:15.766Z",
+    "updated_at": "2018-10-22T22:35:59.477Z"
+    }
+    ],
+    "_id": "5bbc75122907890013398ab3",
+    "name": "schedule",
+    "label": "Grafik",
+    "created_at": "2018-10-09T09:29:54.626Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": false,
+    "data": [
+    {
+    "_id": "5bba756f06ba3f0013edfcde",
+    "type": "contact",
+    "content": [
+    {
+    "title": "Napisz do nas",
+    "lead": "",
+    "text": ""
+    }
+    ],
+    "created_at": "2018-10-07T21:06:55.471Z",
+    "updated_at": "2018-10-22T16:17:15.290Z",
+    "styles": ""
+    }
+    ],
+    "_id": "5bba74c206ba3f0013edfcdd",
+    "name": "contact",
+    "label": "Kontakt",
+    "created_at": "2018-10-07T21:04:02.839Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": false,
+    "data": [
+    {
+    "_id": "5bc2611d7d95310013250660",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "list-r"
+    },
+    "content": {
+    "title": "REGULAMIN",
+    "text": "",
+    "items": [
+    "Każdy klient ma obowiązek zapoznania się z niniejszym regulaminem i jego przestrzegania.",
+    "W związku z rozpoczęciem stosowania z dniem 25 maja 2018 r. Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych, dalej: RODO) informujemy iż:",
+    [
+    "Administratorem Państwa danych osobowych jest RADEAL Radosław Chwast z siedzibą w Nowej Górze 295, 32-065 Krzeszowice, NIP: 5130170364, REGON: 122977430, zwany dalej „Karma Zdrowia”.",
+    "Kontakt z Administratorem możliwy jest na wskazany wyżej adres oraz pod numerem telefonu 500-424-737 i adresem e-mail karmazdrowia@gmail.com.",
+    "Przetwarzane przez Administratora dane osobowe to: imię, nazwisko, numer telefonu, data urodzenia.",
+    "Państwa dane osobowe przetwarzane są przez Administratora w celu świadczenia usług związanych z poprawą zdrowia, kondycji fizycznej, doradztwem żywieniowym i/lub solarium oraz w jego własnych celach marketingowych - a podanie danych jest dobrowolne i nie jest niezbędne dla zawarcia i wykonania umów z Administratorem, lecz niezbędne do otrzymywania informacji o aktualnych ofertach i promocjach.",
+    "Dodatkowo, Państwa dane przetwarzane są w celu świadczenia usługi newslettera na podstawie art. 6 ust. 1 lit. a RODO. Newsletter wysyłany jest w formie wiadomości SMS na podany przez Państwa numer telefonu i zawiera informacje dotyczące: wydarzeń w Karma Zdrowia a także akcji promocyjnych przygotowanych przez Karma Zdrowia.",
+    "Państwa dane bez uprzedniego wyrażenia zgody nie są przekazywane osobom trzecim.",
+    "Administrator zobowiązuje się do zabezpieczenia przetwarzanych Państwa danych osobowych przed dostępem osób nieupoważnionych.",
+    "Przysługuje Państwu prawo dostępu do treści danych, prawo do ich sprostowania, usunięcia lub ograniczenia przetwarzania, prawo żądania zaprzestania przetwarzania i prawo przenoszenia danych, a także prawo do wniesienia skargi do organu nadzorczego tj. Prezesa Urzędu Ochrony Danych Osobowych.",
+    "Mogą Państwo wycofać zgodę na przetwarzanie Państwa danych w dowolnym momencie, co nie będzie miało jednak wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie zgody przed jej cofnięciem. Zgodę można wycofać kontaktując się z Administratorem w sposób wskazany w punkcie 2.2.",
+    "Mogą Państwo w dowolnym momencie wnieść sprzeciw wobec przetwarzania Państwa danych na potrzeby marketingu bezpośredniego, a Państwa dane nie będą więcej wykorzystywane w tym celu.",
+    "Dane osobowe będą przetwarzane do czasu cofnięcia przez Państwa udzielonej zgody."
+    ],
+    "Karma Zdrowia jest obiektem świadczącym usługi z zakresu: P-DTR, solarium, siłownia, body space, zajęcia grupowe fitness, zajęcia grupowe jogi, treningi personalne, porady żywieniowe, warsztaty oraz okazjonalne event’y sportowe. Wszystkie wyżej wymienione usługi są ujęte w cenniku klubu.",
+    "Z usług mogą korzystać osoby pełnoletnie lub niepełnoletnie w obecności opiekunów prawnych. Zakaz udostępniania solarium osobom, które nie ukończyły 18. roku życia (art. 5 ust. 1 ustawy z dnia 15 września 2017 r. o ochronie zdrowia przed następstwami korzystania z solarium).",
+    "Dla obsługi obiektu korzystanie z usług sportowych i solarium jest jednoznaczne z tym, iż klient nie ma żadnych przeciwwskazań lekarskich do wykonywaniu wysiłku fizycznego oraz opalania, jest on świadomy swojego stanu zdrowia oraz korzysta z usług z zachowaniem ostrożności i troski o swoje zdrowie. Z tego powodu zalecamy wykonywanie profilaktycznie badań lekarskich przynajmniej raz w roku. Wszelkie bieżące urazy lub stany chorobowe należy niezwłocznie zgłaszać obsłudze oraz trenerom. W przypadku pojawienia się zawrotów głowy lub innych nienormalnych objawów należy to natychmiast sygnalizować i przerwać ćwiczenie. Jeśli stan zdrowia danej osoby budzi wątpliwości obsługi klubu, Karma Zdrowia odmówi zrealizowania usługi do momentu dostarczenia kserokopii oświadczenia lekarskiego ze zgodą na wykonywanie ćwiczeń.",
+    "Każdy klient jest zobowiązany do nienaruszania spokoju i porządku w obiekcie oraz niezakłócania innym klientom możliwości korzystania z usług. Zabrania się na terenie obiektu palenia papierosów i spożywania alkoholu.",
+    "Każdy klient jest zobowiązany do korzystania z pomieszczeń i urządzeń zgodnie z ich przeznaczeniem, nie narażając ich na uszkodzenia. W przypadku spowodowania poważnej wady urządzenia, klient odpowiada finansowo.",
+    "Każdy klient jest zobowiązany do zmiany obuwia z czystą podeszwą przed wejściem na salę ćwiczeń.",
+    "Klub nie ponosi odpowiedzialności za pozostawione rzeczy w szatni, toalecie, przebieralni, poczekalni lub sali ćwiczeń. Prosimy o zachowanie uwagi i pilnowanie przedmiotów cennych.",
+    "Klient ma prawo do dokonania rezerwacji na zajęcia grupowe oraz Body Space. W przypadku nie anulowania rezerwacji i nie pojawienia się na czas wejście zostaje odnotowane, co skutkuje utratą treningu przez klienta. W przypadku powtarzania się takich sytuacji, klient może stracić prawo do rezerwacji miejsca.",
+    "Minimalna ilość osób na zajęciach grupowych wynosi 5. W przypadku nieuzbierania się wystarczającej ilości chętnych, obiekt zastrzega sobie prawo do odwołania zajęć o czym niezwłocznie powiadomi poprzez sms lub rozmowę telefoniczną osoby, które miały dokonaną rezerwację. Podobnie awaria Body Space skutkuje niezwłocznym powiadomieniem.",
+    "Obiekt zastrzega sobie prawo do wykonywania zdjęć i filmów do celów promocyjnych i umieszczaniu ich na stronie internetowej klubu.",
+    "Opłata za karnet/pakiet jest opłatą bezzwrotną. Każdy karnet/pakiet jest przypisany do jednej osoby i upoważnia do korzystania z określonych usług po promocyjnej cenie w określonym terminie ważności."
+    ]
+    },
+    "created_at": "2018-10-13T21:18:21.598Z",
+    "updated_at": "2018-10-19T14:41:20.432Z"
+    }
+    ],
+    "_id": "5bc259fc7d9531001325065c",
+    "name": "regulamin",
+    "label": "Regulamin",
+    "created_at": "2018-10-13T20:47:56.345Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    }
+    ],
+    "_id": "5bbf69bfac59bb001319bb03",
+    "name": "7mepoty",
+    "label": "7mepoty Centrum Treningowe",
+    "created_at": "2018-10-11T15:18:23.309Z",
+    "updated_at": "2018-10-18T20:35:20.193Z",
+    "style": {
+    "colors": {
+    "primary": "#e10886",
+    "secondary": "white"
+    }
+    }
+    },
+    {
+    "description": "Rozpisywanie zaleceń żywieniowych, wsparcie w procesie odchudzania i regulacja zdrowia za pomocą odpowiedniego sposobu odżywiania.",
+    "logo": "assets/logo/consulting_logo.png",
+    "images_top": [
+    "assets/images/counseling/slider/slider1.jpg",
+    "assets/images/counseling/slider/slider2.jpg"
+    ],
+    "active": true,
+    "sections": [
+    {
+    "active": false,
+    "data": [
+    {
+    "_id": "5bc0702b32269d0013c99cd8",
+    "type": "text",
+    "styles": {
+    "float": "unset",
+    "text_type": "block_box",
+    "list_type": "normal"
+    },
+    "content": [
+    {
+    "title": "Konsultacje żywieniowe",
+    "lead": "",
+    "text": "Rozpisywanie zaleceń żywieniowych, wsparcie w procesie odchudzania i regulacja zdrowia za pomocą odpowiedniego sposobu odżywiania."
+    }
+    ],
+    "created_at": "2018-10-12T09:58:03.251Z",
+    "updated_at": "2018-10-14T09:37:47.464Z"
+    }
+    ],
+    "_id": "5bc06f9432269d0013c99cd7",
+    "name": "news_zywienie",
+    "label": "O nas",
+    "created_at": "2018-10-12T09:55:32.133Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bc070a832269d0013c99cda",
+    "type": "text",
+    "styles": {
+    "float": "unset",
+    "text_type": "block_box",
+    "list_type": "normal"
+    },
+    "content": [
+    {
+    "title": "",
+    "lead": "",
+    "text": "Nasze konsultacje żywieniowe składają się z 3 etapów i są to kolejno: WYWIAD, ANKIETA ŻYWIENIOWA oraz TESTY ŻYWIENIOWE. Po przejściu wszystkich etapów, w terminie do 7 dni, przesyłamy Państwu gotowe zalecenia żywieniowe. Ale po kolei: czego należy się spodziewać w czasie wyżej wymienionych etapów?"
+    }
+    ],
+    "created_at": "2018-10-12T10:00:08.245Z",
+    "updated_at": "2018-10-12T10:00:08.245Z"
+    },
+    {
+    "_id": "5bc0714b32269d0013c99cdb",
+    "type": "text",
+    "styles": {
+    "float": "unset",
+    "text_type": "block_box",
+    "list_type": "normal"
+    },
+    "content": [
+    {
+    "title": "1. WYWIAD",
+    "lead": "",
+    "text": "W czasie trwania wywiadu zostaną zadane pytania dotyczące stanu zdrowia, poziomu aktywności fizycznej, ogólnego zarysu obecnego sposobu odżywiania oraz ewentualnych doświadczeń z dietami w przeszłości, poziomu stresu w życiu zawodowym i prywatnym. Najważniejszą kwestią jest jednak ustalenie oczekiwań i potrzeb Podopiecznego. Jeśli cel zostanie odpowiednio „podlany” dobrą motywacją, połowę sukcesu mamy już za sobą!"
+    },
+    {
+    "title": "2. ANKIETA ŻYWIENIOWA",
+    "lead": "",
+    "text": "To złożony z kilku stron zestaw pytań dotyczących nawyków żywieniowych i preferencji. Jej wypełnienie zajmuje z reguły około 1 godziny. Podopieczny otrzymuje ją do rąk własnych, aby w wolnym czasie i bez pośpiechu odpowiedzieć na pytania. Wypełnioną ankietę dostarcza z reguły na drugim spotkaniu, w czasie którego wykonywane są testy żywieniowe."
+    },
+    {
+    "title": "3. TESTY ŻYWIENIOWE",
+    "lead": "",
+    "text": "Obejmują testy żywieniowe metodą P-DTR kilku grup produktów spożywczych w celu ustalenia obecności produktów powodujących nadwrażliwość pokarmową. Najczęściej są to takie produkty jak pełne ziarna, nabiał, warzywa psiankowate czy orzechy, choć zdarzają się również i takie produkty jak banany, jabłka czy cytrusy, niemniej jednak każdy jest inny i u każdej osoby ten zestaw produktów wygląda inaczej. Dzięki testom przeprowadzonym zgodnie z protokołem P-DTR, produkty, które upośledzaną działanie narządów wewnętrznych zostają zidentyfikowane i wykluczone z diety."
+    },
+    {
+    "title": "",
+    "lead": "",
+    "text": "Po przejściu wszystkich części złożonych na konsultacje żywieniowe, w terminie do 7 dni zostaną przygotowane do odebrania (lub wysłania) zalecenia żywieniowe korespondujące z ankietą i testami."
+    }
+    ],
+    "created_at": "2018-10-12T10:02:51.002Z",
+    "updated_at": "2018-10-12T10:02:51.002Z"
+    }
+    ],
+    "_id": "5bc0706f32269d0013c99cd9",
+    "name": "how_are_we_doing",
+    "label": "Jak działamy ?",
+    "created_at": "2018-10-12T09:59:11.335Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bc0736432269d0013c99cdd",
+    "type": "text",
+    "styles": {
+    "float": "left",
+    "text_type": "block-t-a"
+    },
+    "content": [
+    {
+    "title": "Testy żywieniowe P-DTR",
+    "lead": "",
+    "text": "Testowane produkty zapakuj w osobne opakowania w ilości, która zmieści się w łyżeczce od herbaty. Produktu powinny być w postaci czystej, przygotowanej do spożycia (np. UGOTOWANY makaron) i bez dodatków (np. makaron bez sosu). Zabierz ze sobą butelkę wody do picia."
+    }
+    ],
+    "created_at": "2018-10-12T10:11:48.374Z",
+    "updated_at": "2018-10-12T10:11:48.374Z"
+    },
+    {
+    "_id": "5bc073a832269d0013c99cde",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "Grupy produktów do testów:",
+    "text": "",
+    "items": [
+    "Gluten – chleb pszenny, chleb pełnoziarnisty, chleb żytni na zakwasie, makaron pszenny i inne",
+    "Nabiał- mleko, jogurt, kefir, ser żółty, ser pleśniowy, ser biały i inne",
+    "Orzechy – ziemnie, migdały, nerkowce, laskowe, włoskie, brazylijskie i inne",
+    "Warzywa psiankowate – papryka, ziemniak, pomidor, bakłażan, pieprz",
+    "Warzywa i przyprawy – cebula, czosnek, seler, rzodkiewka, koperek, kapusta, oregano, brokuł, sałata i inne.",
+    "Ulubione dodatki do potraw – majonez, ketchup, musztarda, gotowe przyprawy i inne.",
+    "Owoce- jabłko, pomarańcza, śliwka, brzoskwinia, awokado, winogrono i inne.",
+    "Pseudozboża – ryż, kasza jaglana, gryczana, amarantu, komosa ryżowa i inne.",
+    "Strączki – groszek, fasola, ciecierzyca, soczewica, soja i inne",
+    "Jaja (na twardo)",
+    "Zażywane suplementy lub lekarstwa"
+    ]
+    },
+    "created_at": "2018-10-12T10:12:56.142Z",
+    "updated_at": "2018-10-17T11:31:45.576Z"
+    },
+    {
+    "_id": "5bc073f632269d0013c99cdf",
+    "type": "text",
+    "styles": {
+    "float": "left",
+    "text_type": "block-t-a"
+    },
+    "content": [
+    {
+    "title": "",
+    "lead": "",
+    "text": "Kieruj się zasadą: testuję tylko to, co jem. Jeśli nie jadasz np. orzechów laskowych (bo nie lubisz), nie ma konieczności ich testowania."
+    }
+    ],
+    "created_at": "2018-10-12T10:14:14.745Z",
+    "updated_at": "2018-10-12T10:14:14.745Z"
+    },
+    {
+    "_id": "5bc0745332269d0013c99ce0",
+    "type": "text",
+    "styles": {
+    "float": "unset",
+    "text_align": "center",
+    "text_type": "block_box"
+    },
+    "content": [
+    {
+    "title": "Przykłady zapakowania produktów:",
+    "lead": "",
+    "text": ""
+    }
+    ],
+    "created_at": "2018-10-12T10:15:47.209Z",
+    "updated_at": "2018-10-12T10:15:47.209Z"
+    },
+    {
+    "_id": "5bc0747d32269d0013c99ce1",
+    "type": "gallery",
+    "styles": {
+    "float": "left"
+    },
+    "content": [
+    {
+    "title": "",
+    "images": [
+    {
+    "url": "assets/images/counseling/20180306_083620.jpg",
+    "title": ""
+    },
+    {
+    "url": "assets/images/counseling/20180122_153352.jpg",
+    "title": ""
+    }
+    ]
+    }
+    ],
+    "created_at": "2018-10-12T10:16:29.797Z",
+    "updated_at": "2018-10-13T20:42:01.673Z"
+    }
+    ],
+    "_id": "5bc0717732269d0013c99cdc",
+    "name": "how_to_prepare",
+    "label": "Jak się przygotować?",
+    "created_at": "2018-10-12T10:03:35.269Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bc0750232269d0013c99ce3",
+    "type": "text",
+    "styles": {
+    "float": "left",
+    "text_type": "block-t-a"
+    },
+    "content": [
+    {
+    "title": "",
+    "lead": "",
+    "text": "W naszej ofercie znajdują się również suplementy diety, które odpowiednio dobrane optymalizują pracę organizmu nasycając potrzebnymi substancjami."
+    }
+    ],
+    "created_at": "2018-10-12T10:18:42.943Z",
+    "updated_at": "2018-10-22T15:30:08.070Z"
+    },
+    {
+    "_id": "5bc0753732269d0013c99ce4",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "Wskazania",
+    "text": "",
+    "items": [
+    "wspomaganie odchudzania",
+    "wspomaganie przekaźnictwa nerwowego",
+    "wspomaganie odtruwania metalami ciężkimi",
+    "regulacja stresu",
+    "wsparcie snu i procesu regeneracji",
+    "zachowanie młodości i jasności umysłu"
+    ]
+    },
+    "created_at": "2018-10-12T10:19:35.539Z",
+    "updated_at": "2018-10-22T15:30:57.206Z"
+    },
+    {
+    "_id": "5bc0762332269d0013c99ce5",
+    "type": "text",
+    "styles": {
+    "float": "unset",
+    "text_align": "center",
+    "text_type": "block_box"
+    },
+    "content": [
+    {
+    "title": "Zapraszamy na testy za pomocą metody P-DTR, które pozwolą Ci dobrać odpowiednie dla Ciebie suplementy.",
+    "lead": "",
+    "text": ""
+    }
+    ],
+    "created_at": "2018-10-12T10:23:31.784Z",
+    "updated_at": "2018-10-12T10:23:31.784Z"
+    },
+    {
+    "_id": "5bc076a132269d0013c99ce6",
+    "type": "text_and_image",
+    "styles": {
+    "float": "unset",
+    "text_type": "block_box"
+    },
+    "content": {
+    "title": "",
+    "lead": "",
+    "image": "assets/images/counseling/supplements.jpg",
+    "text": ""
+    },
+    "created_at": "2018-10-12T10:25:37.059Z",
+    "updated_at": "2018-10-12T10:25:37.059Z"
+    }
+    ],
+    "_id": "5bc074ba32269d0013c99ce2",
+    "name": "supplements",
+    "label": "Suplementy",
+    "created_at": "2018-10-12T10:17:30.748Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bc0772432269d0013c99ce9",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "MAGNEZ",
+    "text": "Niedobór magnezu jest bardzo powszechny na całym świecie - może występować nawet u 70% osób. Niektóre jego objawy to:",
+    "items": [
+    "problemy ze snem,",
+    "drganie i skurcze mięśni,",
+    "zespół napięcia przedmiesiączkowego,",
+    "zespół niespokojnych nóg,",
+    "kołatanie serca,",
+    "pogorszenie nastroju,",
+    "drażliwość,",
+    "stany lękowe,",
+    "bóle głowy i migreny,",
+    "choroba refluksowa przełyku,",
+    "zaparcia,",
+    "nadwrażliwość na hałasy"
+    ]
+    },
+    "created_at": "2018-10-12T10:27:48.524Z",
+    "updated_at": "2018-10-12T10:27:48.524Z"
+    },
+    {
+    "_id": "5bc0776332269d0013c99cea",
+    "type": "text",
+    "styles": {
+    "float": "left",
+    "text_type": "block-t-a"
+    },
+    "content": [
+    {
+    "title": "",
+    "lead": "",
+    "text": "Magnez to minerał odgrywający również bardzo ważną rolę w usuwaniu toksyn. Jest niezbędny do odtruwania wątroby."
+    }
+    ],
+    "created_at": "2018-10-12T10:28:51.890Z",
+    "updated_at": "2018-10-12T10:28:51.890Z"
+    },
+    {
+    "_id": "5bc077a032269d0013c99ceb",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "RTĘĆ I KRÓTKA HISTORIA POWSTAWANIA PASKUDNYCH CHORÓB",
+    "text": "Jednym z głównych powodów zapadania na choroby autoimmunizacyjne (rodzaj chorób, w którym ciało atakuje swoje komórki jak np. hashimoto, cukrzyca, astma, reumatoidalne zapalenie stawów, autyzm, atopia) jest zatrucie metalami ciężkimi takimi jak aluminium, kadm, arsen i rtęć. Ten ostatni najczęściej można spotkać w dwóch źródłach:",
+    "items": [
+    "Amalgamaty - plomby uzupełniające ubytki w zębach. Amalgamaty możemy wdychać i w tej sytuacji rtęć osiada w płucach i stamtąd przenika do krwi lub możemy połykać - tutaj rtęć wędruje do jelit, gdzie każda postać choroby autoimmunizacyjnej bierze swój początek. Rtęć w jelitach zaburza mikroflorę jelitową co doprowadza do dysbiozy i w konsekwencji do niedoborów witamin z grupy B, które sa produkowane przez zdrową mikroflorę bakterii jelitowych. Jelito cienkie i jego bakteryjne otoczenie decyduje co i ile wątroba może detoksykować. Rtęć w jelicie zrywa komunikację jelito cienkie-wątroba. Nasz organizm traci możliwość detoksykacji i następuje kumulowanie metali ciężkich. Niewydolna wątroba i nieprzyjazne bakterie mobilizują układ odpornościowy do walki produkując przeciwciała, które później krzyżowo wchodzą w reakcje z tkankami naszego ciała.",
+    "Szczepionki zanieczyszczone rtęcią i ponownie blokowanie detoksykacji i zaburzanie metylacji"
+    ]
+    },
+    "created_at": "2018-10-12T10:29:52.895Z",
+    "updated_at": "2018-10-12T10:29:52.895Z"
+    },
+    {
+    "_id": "5bc0781532269d0013c99cec",
+    "type": "text",
+    "styles": {
+    "float": "left",
+    "text_type": "block-t-a"
+    },
+    "content": [
+    {
+    "title": "",
+    "lead": "",
+    "text": "Metale ciężkie są usuwane przez wątrobę. Najważniejszym antyoksydantem eliminującym je jest glutation. Niski poziom glutationu powoduje nadekspresje przeciwciał przyczyniając sie do alergii pokarmowych a później też do problemów autoimmunizacyjnych. Dlaczego jednak tak się dzieję, że tak inteligentny system ludzkiego organizmu pozwala na podatność na zatrucie metalami ciężkimi? Przyczyn tego immunolodzy dopatrują się w zaburzonej mineralizacji. Krótko mówiąc - mamy niedobory minerałów z powodu złej diety lub zespołu złego wchłaniania albo nadmiar stresu zużywa nasz rezurwuar enzymów degradujących działania hormonów stresu. A skoro enzymy, to minerały (zwłaszcza cynk i magnez). Morałem tej krótkiej historii powstawania paskudnych chorób jest jakże banalny przekaz: jedz zdrowo i unikaj stresu, a metale ciężkie będą miały dużo trudniej żeby wniknąć"
+    }
+    ],
+    "created_at": "2018-10-12T10:31:49.791Z",
+    "updated_at": "2018-10-12T10:31:49.791Z"
+    },
+    {
+    "_id": "5bd06e39220cc00013b598f7",
+    "type": "text",
+    "styles": {
+    "float": "left",
+    "text_type": "block-t-a"
+    },
+    "content": [
+    {
+    "title": "TARCZYCA - 22 SYMPTOMY DYSFUKCYJNEJ PRACY GRUCZOŁU TARCZOWEGO",
+    "lead": "",
+    "text": "To jeden z ważnych graczy biorących udział w przemianie materii. Jego hormony wpływają na przyspieszenie spalania wewnątrzkomórkowego (wytwarzanie ciepła), przemianę wodno-mineralną (wydalanie z organizmu wody i soli mineralnych np. jonów sodu) i wiele innych. Zanim wyniki badań hormonów tarczycy z krwi pokażą nieprawidłowości, często objawy dysfunkcji tarczycy są już obecne od dłuższego czasu. Jakie to objawy?"
+    }
+    ],
+    "created_at": "2018-10-24T13:06:01.862Z",
+    "updated_at": "2018-10-24T13:06:01.862Z"
+    },
+    {
+    "_id": "5bd099b9220cc00013b598f8",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "",
+    "text": "NIEDOCZYNNOŚĆ TARCZYCY",
+    "items": [
+    "problemy ze snem,",
+    "drganie i skurcze mięśni,",
+    "zespół napięcia przedmiesiączkowego,",
+    "zespół niespokojnych nóg,",
+    "kołatanie serca,",
+    "pogorszenie nastroju,",
+    "drażliwość,",
+    "stany lękowe,",
+    "bóle głowy i migreny,",
+    "choroba refluksowa przełyku,",
+    "zaparcia,",
+    "nadwrażliwość na hałasy"
+    ]
+    },
+    "created_at": "2018-10-24T16:11:37.417Z",
+    "updated_at": "2018-10-24T16:11:37.417Z"
+    },
+    {
+    "_id": "5bc0788a32269d0013c99cee",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "",
+    "text": "NADCZYNNOŚĆ TARCZYCY",
+    "items": [
+    "Problemy z przytyciem, niedowaga",
+    "Pocenie się",
+    "Biegunki, rozwolnienia",
+    "Nerwowość, niepokój, zamartwianie się",
+    "Trudności z zasypianiem, pobudzenie",
+    "Drżenie rąk",
+    "Protruzja gałek ocznych (wytrzeszcz oczu) - w stanach zaawansowanych"
+    ]
+    },
+    "created_at": "2018-10-12T10:33:46.411Z",
+    "updated_at": "2018-10-24T12:11:32.494Z"
+    },
+    {
+    "_id": "5bd09ada220cc00013b598f9",
+    "type": "gallery",
+    "styles": {
+    "float": "left"
+    },
+    "content": [
+    {
+    "title": "",
+    "images": [
+    {
+    "url": "assets/images/counseling/leptynoopornosc.jpg",
+    "title": ""
+    }
+    ]
+    }
+    ],
+    "created_at": "2018-10-24T16:16:26.489Z",
+    "updated_at": "2018-10-24T16:16:26.489Z"
+    },
+    {
+    "_id": "5bc0790432269d0013c99cf0",
+    "type": "text",
+    "styles": {
+    "float": "left",
+    "text_type": "block-t-a"
+    },
+    "content": [
+    {
+    "title": "LEPTYNOOPORNOŚĆ",
+    "lead": "CZYLI DLACZEGO NIE POTRAFIĘ OPANOWAĆ WILCZEGO GŁODU",
+    "text": "Leptyna to hormon produkowany w białej tkance tłuszczowej (tak, tej na brzuchu i udach). Najprościej mówiąc, to hormon sytości. Wraz z krwią jest transportowany do podwzgórza, gdzie znajdują się ośrodki koordynujące nasze behawioralne reakcje na głód. A wszystko co związane z głodem to rzecz jasna związane z przetrwaniem. Ważne jest, aby nie tylko znać definicje i pojęcia, ale rozumieć wzajemne relacje i nie opierać się na dosłownych interpretacjach, bo te często prowadzą do działania objawowego (np. dużo cholesterolu? Podajmy statyny, aby go obniżyć! I po co pytać o przyczyny tego stanu...?) Wobec przetrwania wszystko inne jest kwestią drugorzędową, dlatego leptyna w potężny sposób wpływa na nasze emocje, zachowanie i zachcianki i koordynuje metaboliczne oraz hormonalne reakcje na głód. Im więcej posiadamy białej tkanki tłuszczowej, tym więcej wydziela się leptyny. Leptyna docierając do podwzgórza daje sygnał, aby zatrzymać uczucie głodu i przestać jeść. Niestety, taki przewlekły stan doprowadza do podobnej sytuacji, którą opisywaliśmy w poście INSULINOOPORNOŚĆ CZYLI DLACZEGO NIE POTRAFIĘ SCHUDNĄĆ. Organizmy osób z nadmiarem tkanki tłuszczowej, spożywających zbyt dużo pożywienia reagują opornością na produkowany hormon. Sygnał sytości nie dociera! Ciało człowieka zamienia się w maszynę do zaspokajania głodu. Leptyna to prozapalna cytokina, odgrywająca istotną rolę w inicjowaniu procesów zapalnych zachodzących w organizmie. To właśnie dlatego osoby z nadwagą i otyłe są bardziej podatne na powstawanie procesów zapalnych. Następnymi ofiarami leptyny są nadnercza, tarczyca i hormony płciowe. Zaczyna się prawdziwy chaos."
+    }
+    ],
+    "created_at": "2018-10-12T10:35:48.130Z",
+    "updated_at": "2018-10-12T10:35:48.130Z"
+    },
+    {
+    "_id": "5bd0a72f220cc00013b598fb",
+    "type": "text",
+    "styles": {
+    "float": "left",
+    "text_type": "block-t-a"
+    },
+    "content": [
+    {
+    "title": "",
+    "lead": "",
+    "text": "Skąd masz wiedzieć czy jesteś leptyooporny?"
+    }
+    ],
+    "created_at": "2018-10-24T17:09:03.473Z",
+    "updated_at": "2018-10-24T17:15:54.613Z"
+    },
+    {
+    "_id": "5bd0a93c220cc00013b598fc",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "",
+    "text": "Jeśli, część z poniższych objawów wydaje Ci się znajoma, może to sugerować, że jesteś oporny na leptynę:",
+    "items": [
+    "nadwaga,",
+    "zmęczenie po posiłkach,",
+    "\"uchwyty miłości\" – boczki,",
+    "niepohamowany apetyt na jedzenie poprawiające nastrój,",
+    "ciągłe odczuwanie niepokoju i stresu,",
+    "ciągły głód,",
+    "odczucie głodu w godzinach późnonocnych,",
+    "osteoporoza,",
+    "trudnością z utratą wagi i jej utrzymaniem na prawidłowym poziomie,",
+    "pragnienie słodyczy lub stymulantów (kawa),",
+    "tendencja do podjadania po posiłku,",
+    "problem z zasypianiem lub spaniem,",
+    "mimo ćwiczeń, Twoje ciało się nie zmienia,",
+    "wysoki poziom trójglicerydów na czczo."
+    ]
+    },
+    "created_at": "2018-10-24T17:17:48.562Z",
+    "updated_at": "2018-10-24T17:17:48.562Z"
+    },
+    {
+    "_id": "5bc0799532269d0013c99cf2",
+    "type": "text",
+    "styles": {
+    "float": "left",
+    "text_type": "block-t-a"
+    },
+    "content": [
+    {
+    "title": "INSULINOOPORNOŚĆ",
+    "lead": "CZYLI DLACZEGO NIE MOGĘ SCHUDNĄĆ?",
+    "text": "Z insulinoopornością mamy do czynienia wówczas, gdy niebezpiecznie wzrasta poziom insuliny we krwi, całkowicie blokując hormon antagonistyczny glukagon, co w praktyce uniemożliwia schudnięcie. Organizm zmienia się w maszynę do odkładania tkanki tłuszczowej. Insulinooporność pojawia się w odpowiedzi na stany zapalne. Kolejną najczęstszą przyczyną IO jest nadmiar węglowodanów albo białka w diecie i/lub zbyt częste jedzenie."
+    }
+    ],
+    "created_at": "2018-10-12T10:38:13.487Z",
+    "updated_at": "2018-10-12T10:38:13.487Z"
+    },
+    {
+    "_id": "5bc079cd32269d0013c99cf3",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "",
+    "text": "Jakie są najczęstsze objawy insulinooporności?",
+    "items": [
+    "senność po posiłkach,",
+    "spadki cukru,",
+    "drżenie rąk,",
+    "zaburzenia koncentracji,",
+    "zimne poty,",
+    "częste podjadanie,",
+    "otyłość,",
+    "brak efektów treningowych,",
+    "duże ramiona lub uda,",
+    "dysproporcje w budowie sylwetki,",
+    "PCOS - zespół policystycznych jajników,",
+    "hirsuityzm - nadmierne owłosienie u kobiet,",
+    "wysoki poziom testosteronu u kobiet,",
+    "niski poziom testosteronu u mężczyzn,",
+    "biust u mężczyzn"
+    ]
+    },
+    "created_at": "2018-10-12T10:39:09.802Z",
+    "updated_at": "2018-10-24T17:24:48.880Z"
+    },
+    {
+    "_id": "5bd0ab42220cc00013b598fd",
+    "type": "text",
+    "styles": {
+    "float": "left",
+    "text_type": "block-t-a"
+    },
+    "content": [
+    {
+    "title": "",
+    "lead": "",
+    "text": "Jaki jest schemat postępowania?"
+    }
+    ],
+    "created_at": "2018-10-24T17:26:26.839Z",
+    "updated_at": "2018-10-24T17:26:26.839Z"
+    },
+    {
+    "_id": "5bc079e632269d0013c99cf4",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "",
+    "text": "Przyczyną insulinooporności są nieprawidłowe produkty jedzone w nieodpowiednich ilościach, dlatego jedynym słusznym podejściem jest zmiana sposobu odżywiania. Istnieją 2 możliwe schematy postępowania: natychmiastowa redukcja węglowodanów w diecie do ok 50-80 g na dobę i po kilku miesiącach stopniowe zwiększanie lub metoda małych kroków - podaż węglowodanów szacowana na ok 200-250 g ulega zmniejszaniu co miesiąc o 50 g. Dopóki waga spada nie są konieczne dalsze restrykcje. Co jeszcze może pomóc? Unikanie takich produktów lub czynności jak:",
+    "items": [
+    "śniadania z węglowodanami,",
+    "soki owocowe ,",
+    "smażenie - ze względu na stan zapalny,",
+    "zboża glutenowe,",
+    "alkohol,",
+    "nabiał,",
+    "buraki, dynia, marchewki,",
+    "syrop glukozowo-fruktozowy,",
+    "słodziki,",
+    "słodkości...i wyobraźnia na temat słodkości (efekt placebo)."
+    ]
+    },
+    "created_at": "2018-10-12T10:39:34.692Z",
+    "updated_at": "2018-10-24T17:29:25.162Z"
+    }
+    ],
+    "_id": "5bc076d132269d0013c99ce8",
+    "name": "curiosities_zywienie",
+    "label": "Ciekawostki",
+    "created_at": "2018-10-12T10:26:25.563Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bc07a5132269d0013c99cf6",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "Maja Bednarczyk",
+    "lead": "",
+    "image": "assets/images/treners/Maja.jpg",
+    "text": "Specjalista metody P-DTR, trener personalny z wieloletnim doświadczeniem, dyplomowany nauczyciel jogi, Od lat jestem zainteresowana holistycznym podejściem do zdrowia fizycznego i psychicznego człowieka. Zaowocowało to ukończeniem kilkudziesięciu kursów i szkoleń z zakresu dietetyki, fizjologii, anatomii, systemów treningowych oraz niekonwencjonalnych metod. Pracę z klientem indywidualnym zaczęłam jako trener personalny w 2013 roku prowadząc w większości osoby z problemami zdrowotnymi. W tym samym czasie rozwijałam się na polu nauczyciela jogi o specjalizacji Hatha Yoga, oraz prowadziłam zajęcia grupowe takie jak Zdrowy Kręgosłup, Pilates i Trening Funkcjonalny. Szczególnie mocno skupiłam się w tym czasie na treningach funkcjonalnych i miałam przyjemność stanąć dwukrotnie na Konwencji Fitness jako Prezenter i Szkoleniowiec w Euro Fitness School z Bielska Białej w 2016 roku obok wielu świetnych Trenerów z Polski i z Europy. Rok później podobną współpracę zaczęłam ze Szkołą Instruktorów Fitness w Krakowie. Szkolenie młodych instruktorów fitness sprawiało mi dużą frajdę i dało wiele ciekawych doświadczeń oraz lekcji – tym razem to ja miałam przekazywać wiedzę, a nie ją brać. Ta zmiana perspektywy dużo mnie nauczyła. Po kilku latach pracy w zawodzie trenera personalnego i instruktora fitness, trafiłam przypadkiem na P-DTR czyli proprioceptywną terapię odruchową. Pierwsze wrażenie jakie zrobiła na mnie ta metoda było piorunujące – istna magia na dodatek z natychmiastowym efektem! Parę miesięcy później siedziałam już jako student na pierwszym module rocznego szkolenia u twórcy metody dr Jose Palomara (Meksyk). Sądzę, że już wtedy przeczuwałam, że P-DTR zmieni moje życie. Z bycia trenerem i promotorem zdrowego jedzenia i aktywnego stylu życia, stałam się Praktykiem metody P-DTR na poziomie zaawansowanym, aktywnie zainteresowaną neurologią, psychosomatyką i kinezjologią. Dawne zainteresowania i praca trenera oraz prowadzącego lekcje grupowe zmieniły kontekst i nabrały nowej jakości. Dzisiaj z ogromną przyjemnością dzielę potencjał metody P-DTR ze swoimi Klientami i samodzielnie rozwijam własne narzędzia w poszukiwaniu priorytetowych dysfunkcji receptorów w układzie nerwowym, pomagając w takich dolegliwościach jak: bóle, ograniczenia ruchowe, stany napięciowe pochodzenia emocjonalnego, problemy psychosomatyczne i inne. Prowadzę treningi personalne mając nowe spojrzenie na ludzkie ciało i jego potrzeby, rozpisuję diety indywidualnie dobrane na podstawie testów żywieniowych i uczę jogi na kilku poziomach trudności. Moja droga nie była najkrótszą z możliwych, ale mam wrażenie, że najlepszą z możliwych. Zapraszam serdeczne!",
+    "references": "/pdtr/references",
+    "email": "karmazdrowia@gmail.com",
+    "phone": "500451216"
+    },
+    "created_at": "2018-10-12T10:41:21.497Z",
+    "updated_at": "2018-10-25T08:33:22.936Z"
+    }
+    ],
+    "_id": "5bc07a0732269d0013c99cf5",
+    "name": "treners_zywienie",
+    "label": "Nasz konsultant",
+    "created_at": "2018-10-12T10:40:07.138Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bc206e07d95310013250659",
+    "type": "table",
+    "styles": {
+    "float": "unset",
+    "text_type": "price-l-n",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "CENNIK",
+    "headers": [],
+    "data": [
+    [
+    "ZALECENIA ŻYWIENIOWE / ROZPISANIE DIETY",
+    "99 zł"
+    ],
+    [
+    "TESTY POKARMOWE",
+    "80 zł"
+    ]
+    ]
+    },
+    "created_at": "2018-10-13T14:53:20.448Z",
+    "updated_at": "2018-10-13T14:54:34.701Z"
+    }
+    ],
+    "_id": "5bc07a7632269d0013c99cf7",
+    "name": "price_list_zywienie",
+    "label": "Cennik",
+    "created_at": "2018-10-12T10:41:58.983Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": false,
+    "data": [
+    {
+    "_id": "5bba756f06ba3f0013edfcde",
+    "type": "contact",
+    "content": [
+    {
+    "title": "Napisz do nas",
+    "lead": "",
+    "text": ""
+    }
+    ],
+    "created_at": "2018-10-07T21:06:55.471Z",
+    "updated_at": "2018-10-22T16:17:15.290Z",
+    "styles": ""
+    }
+    ],
+    "_id": "5bba74c206ba3f0013edfcdd",
+    "name": "contact",
+    "label": "Kontakt",
+    "created_at": "2018-10-07T21:04:02.839Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": false,
+    "data": [
+    {
+    "_id": "5bc2611d7d95310013250660",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "list-r"
+    },
+    "content": {
+    "title": "REGULAMIN",
+    "text": "",
+    "items": [
+    "Każdy klient ma obowiązek zapoznania się z niniejszym regulaminem i jego przestrzegania.",
+    "W związku z rozpoczęciem stosowania z dniem 25 maja 2018 r. Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych, dalej: RODO) informujemy iż:",
+    [
+    "Administratorem Państwa danych osobowych jest RADEAL Radosław Chwast z siedzibą w Nowej Górze 295, 32-065 Krzeszowice, NIP: 5130170364, REGON: 122977430, zwany dalej „Karma Zdrowia”.",
+    "Kontakt z Administratorem możliwy jest na wskazany wyżej adres oraz pod numerem telefonu 500-424-737 i adresem e-mail karmazdrowia@gmail.com.",
+    "Przetwarzane przez Administratora dane osobowe to: imię, nazwisko, numer telefonu, data urodzenia.",
+    "Państwa dane osobowe przetwarzane są przez Administratora w celu świadczenia usług związanych z poprawą zdrowia, kondycji fizycznej, doradztwem żywieniowym i/lub solarium oraz w jego własnych celach marketingowych - a podanie danych jest dobrowolne i nie jest niezbędne dla zawarcia i wykonania umów z Administratorem, lecz niezbędne do otrzymywania informacji o aktualnych ofertach i promocjach.",
+    "Dodatkowo, Państwa dane przetwarzane są w celu świadczenia usługi newslettera na podstawie art. 6 ust. 1 lit. a RODO. Newsletter wysyłany jest w formie wiadomości SMS na podany przez Państwa numer telefonu i zawiera informacje dotyczące: wydarzeń w Karma Zdrowia a także akcji promocyjnych przygotowanych przez Karma Zdrowia.",
+    "Państwa dane bez uprzedniego wyrażenia zgody nie są przekazywane osobom trzecim.",
+    "Administrator zobowiązuje się do zabezpieczenia przetwarzanych Państwa danych osobowych przed dostępem osób nieupoważnionych.",
+    "Przysługuje Państwu prawo dostępu do treści danych, prawo do ich sprostowania, usunięcia lub ograniczenia przetwarzania, prawo żądania zaprzestania przetwarzania i prawo przenoszenia danych, a także prawo do wniesienia skargi do organu nadzorczego tj. Prezesa Urzędu Ochrony Danych Osobowych.",
+    "Mogą Państwo wycofać zgodę na przetwarzanie Państwa danych w dowolnym momencie, co nie będzie miało jednak wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie zgody przed jej cofnięciem. Zgodę można wycofać kontaktując się z Administratorem w sposób wskazany w punkcie 2.2.",
+    "Mogą Państwo w dowolnym momencie wnieść sprzeciw wobec przetwarzania Państwa danych na potrzeby marketingu bezpośredniego, a Państwa dane nie będą więcej wykorzystywane w tym celu.",
+    "Dane osobowe będą przetwarzane do czasu cofnięcia przez Państwa udzielonej zgody."
+    ],
+    "Karma Zdrowia jest obiektem świadczącym usługi z zakresu: P-DTR, solarium, siłownia, body space, zajęcia grupowe fitness, zajęcia grupowe jogi, treningi personalne, porady żywieniowe, warsztaty oraz okazjonalne event’y sportowe. Wszystkie wyżej wymienione usługi są ujęte w cenniku klubu.",
+    "Z usług mogą korzystać osoby pełnoletnie lub niepełnoletnie w obecności opiekunów prawnych. Zakaz udostępniania solarium osobom, które nie ukończyły 18. roku życia (art. 5 ust. 1 ustawy z dnia 15 września 2017 r. o ochronie zdrowia przed następstwami korzystania z solarium).",
+    "Dla obsługi obiektu korzystanie z usług sportowych i solarium jest jednoznaczne z tym, iż klient nie ma żadnych przeciwwskazań lekarskich do wykonywaniu wysiłku fizycznego oraz opalania, jest on świadomy swojego stanu zdrowia oraz korzysta z usług z zachowaniem ostrożności i troski o swoje zdrowie. Z tego powodu zalecamy wykonywanie profilaktycznie badań lekarskich przynajmniej raz w roku. Wszelkie bieżące urazy lub stany chorobowe należy niezwłocznie zgłaszać obsłudze oraz trenerom. W przypadku pojawienia się zawrotów głowy lub innych nienormalnych objawów należy to natychmiast sygnalizować i przerwać ćwiczenie. Jeśli stan zdrowia danej osoby budzi wątpliwości obsługi klubu, Karma Zdrowia odmówi zrealizowania usługi do momentu dostarczenia kserokopii oświadczenia lekarskiego ze zgodą na wykonywanie ćwiczeń.",
+    "Każdy klient jest zobowiązany do nienaruszania spokoju i porządku w obiekcie oraz niezakłócania innym klientom możliwości korzystania z usług. Zabrania się na terenie obiektu palenia papierosów i spożywania alkoholu.",
+    "Każdy klient jest zobowiązany do korzystania z pomieszczeń i urządzeń zgodnie z ich przeznaczeniem, nie narażając ich na uszkodzenia. W przypadku spowodowania poważnej wady urządzenia, klient odpowiada finansowo.",
+    "Każdy klient jest zobowiązany do zmiany obuwia z czystą podeszwą przed wejściem na salę ćwiczeń.",
+    "Klub nie ponosi odpowiedzialności za pozostawione rzeczy w szatni, toalecie, przebieralni, poczekalni lub sali ćwiczeń. Prosimy o zachowanie uwagi i pilnowanie przedmiotów cennych.",
+    "Klient ma prawo do dokonania rezerwacji na zajęcia grupowe oraz Body Space. W przypadku nie anulowania rezerwacji i nie pojawienia się na czas wejście zostaje odnotowane, co skutkuje utratą treningu przez klienta. W przypadku powtarzania się takich sytuacji, klient może stracić prawo do rezerwacji miejsca.",
+    "Minimalna ilość osób na zajęciach grupowych wynosi 5. W przypadku nieuzbierania się wystarczającej ilości chętnych, obiekt zastrzega sobie prawo do odwołania zajęć o czym niezwłocznie powiadomi poprzez sms lub rozmowę telefoniczną osoby, które miały dokonaną rezerwację. Podobnie awaria Body Space skutkuje niezwłocznym powiadomieniem.",
+    "Obiekt zastrzega sobie prawo do wykonywania zdjęć i filmów do celów promocyjnych i umieszczaniu ich na stronie internetowej klubu.",
+    "Opłata za karnet/pakiet jest opłatą bezzwrotną. Każdy karnet/pakiet jest przypisany do jednej osoby i upoważnia do korzystania z określonych usług po promocyjnej cenie w określonym terminie ważności."
+    ]
+    },
+    "created_at": "2018-10-13T21:18:21.598Z",
+    "updated_at": "2018-10-19T14:41:20.432Z"
+    }
+    ],
+    "_id": "5bc259fc7d9531001325065c",
+    "name": "regulamin",
+    "label": "Regulamin",
+    "created_at": "2018-10-13T20:47:56.345Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    }
+    ],
+    "_id": "5bc06eaf32269d0013c99cd5",
+    "label": "Doradztwo żywieniowe",
+    "name": "counseling",
+    "style": {
+    "colors": {
+    "primary": "#28a745",
+    "secondary": "white"
+    }
+    },
+    "created_at": "2018-10-12T09:51:43.916Z",
+    "updated_at": "2018-10-18T12:45:00.541Z"
+    },
+    {
+    "description": "Uwalnianie od bólu, regulacja pracy mięśni i stawów, wygaszanie napięć fizycznych i psychosomatycznych w przestymulowanym układzie nerwowym za pomocą proprioceptywnej terapii odruchowej – innowacyjne metody pracy z układem nerwowym. Dla dorosłych i dzieci.",
+    "logo": "assets/logo/pdtr_logo.png",
+    "images_top": [
+    "assets/images/pdtr/slider_1.jpg",
+    "assets/images/pdtr/slider_2.jpg"
+    ],
+    "active": true,
+    "sections": [
+    {
+    "active": false,
+    "data": [
+    {
+    "_id": "5bb79662090d79001392f16f",
+    "type": "text",
+    "styles": {
+    "float": "unset",
+    "text_type": "block_box",
+    "list_type": "normal"
+    },
+    "content": [
+    {
+    "title": "P-DTR",
+    "lead": "",
+    "text": "Uwalnianie od bólu, regulacja pracy mięśni i stawów, wygaszanie napięć fizycznych i psychosomatycznych w przestymulowanym układzie nerwowym za pomocą proprioceptywnej terapii odruchowej – innowacyjne metody pracy z układem nerwowym. Dla dorosłych i dzieci.",
+    "reference": "/pdtr/method",
+    "decriptions": "czytaj więcej..."
+    }
+    ],
+    "created_at": "2018-10-05T16:50:42.988Z",
+    "updated_at": "2018-10-22T16:06:13.154Z"
+    }
+    ],
+    "_id": "5bb77b765aece300133080fc",
+    "name": "news",
+    "label": "O nas",
+    "created_at": "2018-10-05T14:55:50.208Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bb8b967ee9810001356e345",
+    "type": "text_and_image",
+    "styles": {
+    "float": "unset",
+    "text_type": "block_box",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "",
+    "lead": "",
+    "image": "assets/images/pdtr/o_metodzie.jpg",
+    "text": "P-DTR to metoda z działu funkcjonalnej neurologii stosowana w fizjoterapii, usprawnianiu sportowców i przywracaniu zdrowia oraz równowagi w organizmie. Jej zastosowanie pomoże w:",
+    "items": [
+    "dolegliwościach bólowych kręgosłupa",
+    "bólach stawowych",
+    "ograniczeniach ruchowych i dysbalansach mięśniowych",
+    "przywracaniu efektywności treningowe",
+    "przywracaniu sprawności pourazowej",
+    "identyfikacji czynników nietolerowanych przez organizm (nietolerancje żywieniowe i chemiczne)",
+    "chronicznym stresie i problemach na tle emocjonalnym"
+    ]
+    },
+    "created_at": "2018-10-06T13:32:23.460Z",
+    "updated_at": "2018-10-22T15:52:24.134Z"
+    },
+    {
+    "_id": "5bb8ba37ee9810001356e346",
+    "type": "text",
+    "styles": {
+    "float": "unset",
+    "text_type": "block_box",
+    "list_type": "normal"
+    },
+    "content": [
+    {
+    "title": "",
+    "lead": "",
+    "text": "Praca metodą P-DTR nie naraża Klientów na nieprzyjemne lub bolesne doświadczenia. Klienci w sposób aktywny uczestniczą w terapii i mają szanse przyjrzeć się reakcjom swojego ciała. Każdej sesji towarzyszą testy diagnostyczne, dzięki którym poznasz faktyczny stan swojego zdrowia."
+    }
+    ],
+    "created_at": "2018-10-06T13:35:51.348Z",
+    "updated_at": "2018-10-22T13:26:55.719Z"
+    },
+    {
+    "_id": "5bb7858c5aece30013308102",
+    "type": "text_and_image",
+    "styles": {
+    "float": "unset",
+    "text_type": "block_box"
+    },
+    "content": {
+    "title": "",
+    "lead": "",
+    "image": "assets/images/pdtr/gallery/3.jpg",
+    "text": "P-DTR to jedna z najskuteczniejszych metod modulacji pracy układu nerwowego opisana przez lekarza chirurga ortopedę, neurologa - Jose Palomara. Jest nieinwazyjna, bezpieczna i najważniejsze - przynosi natychmiastowy efekt. Jej holistyczne podejście do zdrowia i uwzględnienie takich czynników jak wpływ żywienia, chemii czy emocji infekujących ciało zdecydowanie wyróżnia ją na tle innych metod. Jako jedyni w okolicy, działamy w oparciu o protokół metody P-DTR w ramach indywidualnych spotkań i treningów personalnych usprawniając naszych Podopiecznych i realizując ich cele w ekspresowym tempie."
+    },
+    "created_at": "2018-10-05T15:38:52.669Z",
+    "updated_at": "2018-10-22T13:34:31.200Z"
+    },
+    {
+    "_id": "5bcdd22f4dfe0300137f1689",
+    "type": "text",
+    "styles": {
+    "float": "unset",
+    "text_type": "block_box",
+    "list_type": "normal"
+    },
+    "content": [
+    {
+    "title": "",
+    "lead": "",
+    "text": "Ciało człowieka zawiera olbrzymią liczbę receptorów odbierających rozmaite informacje ze świata zewnętrznego. Jedne reagują na ucisk tkanki, inne na temperaturę otoczenia, a kolejne na chemiczne substancje znajdujące się w bliskim kontakcie (np. z pożywienia czy z kremu do rąk, który właśnie nakładasz). Receptory działają jak niewidzialne kamery, które nieustannie monitorują Twoje otoczenie w celu identyfikacji potencjalnych zagrożeń. Są oknem na świat naszego najważniejszego organu - mózgu, który zarządza całym organizmem. Po otrzymaniu informacji zebranych przez receptory, ośrodkowy układ nerwowy (na który składa się mózgowie oraz rdzeń kręgowy) wydaje dyspozycje do układów narządów ciała adekwatne do jakości tychże informacji, sterując takimi mechanizmami jak: napięcie mięśniowe, wydzielanie wewnętrzne, odczuwanie bólu czy nastrój emocjonalny. Dobre informacje na wejściu są gwarancją dobrych reakcji na wyjściu. Ta zasada stanowi fundament metody P-DTR: 95% nieprawidłowych odpowiedzi układu nerwowego, które interpretujemy jako ból czy ograniczenia ruchowe wynika z nieprawidłowej pracy receptorów \"popsutych\" w wyniku wypadku, kontuzji, złych nawyków, odżywiania, chemii, traumy emocjonalnej i chronicznego stresu."
+    }
+    ],
+    "created_at": "2018-10-22T13:35:43.093Z",
+    "updated_at": "2018-10-22T13:44:21.434Z"
+    }
+    ],
+    "_id": "5bb7818d5aece300133080ff",
+    "name": "method",
+    "label": "O metodzie",
+    "created_at": "2018-10-05T15:21:49.690Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bc25e707d9531001325065e",
+    "type": "text_and_image",
+    "styles": {
+    "float": "unset",
+    "text_type": "block_box"
+    },
+    "content": {
+    "title": "",
+    "image": "assets/images/pdtr/gallery/5.jpg",
+    "text": "Elastyczność mięśni to nie tylko efekt ćwiczeń rozciągających, lecz wypadkowa tego jak wydolny jest układ nerwowy i czy obecne są w nim mechanizmy obronne. Na dowód tego przesyłamy Wam 2 zdjęcia zrobione dokładnie w odstępie 8 minut. Pani ze zdjęcia zgłosiła się do nas z powodu bólu kręgosłupa w trakcie schylania się. Z powodu podrażnień w obrębie miednicy jej zakres ruchu w skłonie do przodu wyglądał jak na pierwszym zdjęciu. Po prostej korekcji układu nerwowego w okolicach miednicy, nasza Podopieczna bez problemu dotknęła palcami do podłogi, a jej subiektywna skala bólu z 10 spadła do poziomu między 2 a 3. Należy dodać, że Pani nie uczęszcza na zajęcia sportowe."
+    },
+    "created_at": "2018-10-13T21:06:56.223Z",
+    "updated_at": "2018-10-13T21:06:56.223Z"
+    },
+    {
+    "_id": "5bc25f1d7d9531001325065f",
+    "type": "gallery",
+    "styles": {
+    "float": "left",
+    "text_type": "block_box",
+    "list_type": "normal"
+    },
+    "content": [
+    {
+    "title": "",
+    "videos": [
+    {
+    "url": "https://www.facebook.com/250111271792298/videos/1312892432180838/",
+    "title": "",
+    "description": "Naszym zadaniem było uśmierzyć ból pojawiający się w czasie wchodzenia i schodzenia ze schodów. Jedna korekcja bazująca na układzie nerwowym znacząco zmieniła jakość ruchu i odczucie bólu naszej Klientki."
+    }
+    ]
+    },
+    {
+    "title": "",
+    "videos": [
+    {
+    "url": "https://www.facebook.com/250111271792298/videos/249687319073542/",
+    "title": "",
+    "description": "Dla ciekawskich, źródłem problemu było pokłosie po przeprowadzonej punkcji wiele lat temu. I fakt, że wydarzenie to jest odległe w czasie nie ma znaczenia dla układu nerwowego, dlatego każdy nasz Podopieczny w czasie wywiadu jest szczegółowo pytany o urazy, wypadki, zabiegi chirurgiczne, nakłucia, zakładane szwy, złamania i inne. Jeśli po podobnym wydarzeniu (i po wygojeniu) Twoje ciało zaczęło się inaczej zachowywać, istnieje duże prawdopodobieństwo, że to właśnie tu znajduje się źródło podrażnień w Twoim układzie nerwowym, uniemożliwiające normalne funkcjonowanie."
+    }
+    ]
+    },
+    {
+    "title": "",
+    "videos": [
+    {
+    "url": "https://www.facebook.com/250111271792298/videos/2070757749905845/",
+    "title": "",
+    "description": "W miarę możliwości staramy się dla Was nagrywać efekty, które uzyskujemy pracując metodą P-DTR. Nie wszystko można nagrać, ponieważ bólu nie widać, a z tym zgłaszają się nasi Klienci najczęściej. Kolejnymi tematami, z którymi pracujemy są te dotyczące ilości i jakości ruchu. I właśnie to stanowi materiał dzisiejszego postu. Zgłosił się do nas Klient z dużym ograniczeniem ruchu, będącym konsekwencją urazu. Problem trwał kilka miesięcy i mimo braku bólu, kontrola nad ruchem była taka jak na załączonym obrazku - mocno ograniczona. Po usunięciu dysfunkcji, nasz Klient odzyskał władzę nad ręką i zakresy ruchu zostały przywrócone. A wszystko to tylko dzięki zmianie sygnalizacji nerwowej i pracy z genialnym i niesamowitym układem nerwowym."
+    }
+    ]
+    }
+    ],
+    "created_at": "2018-10-13T21:09:49.379Z",
+    "updated_at": "2018-10-22T09:21:53.940Z"
+    }
+    ],
+    "_id": "5bb8a913ee9810001356e340",
+    "name": "gallery",
+    "label": "Galeria",
+    "created_at": "2018-10-06T12:22:43.971Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bd2322d1aead80013e28f30",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-ref",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "Barbara",
+    "lead": "",
+    "image": "assets/images/pdtr/references/barbara_j.jpg",
+    "text": "\"Maję Bednarczyk poznałam na zajęciach Jogi. Trafiłam do niej na sesję P-DTR jako smutna, nie radząca sobie ze stresem i negatywnymi emocjami. Miało to wpływ na całe moje życie, na moją wagę, kontakty z innymi ludźmi. Już po pierwszej sesji poczułam się lepiej. Po kilku tygodniach poprawa jest zauważalna nie tylko przeze mnie, ale również przez najbliższe mi osoby. Maja ma bardzo dużą wiedzę, jej umiejętności, dobra energia, empatia i sposób pracy są na pewno wyjątkowe. Bardzo się cieszę, że Ją spotkałam i mi pomaga. Dzięki tej metodzie przestał boleć mnie kręgosłup. Korzyści są w kilku płaszczyznach. Oczywiście bardzo polecam – wysoka jakość, zaangażowanie i chęć pomocy – to wszystko jest gwarancją na zadowolenie z każdej sesji P-DTR u Mai Bednarczyk.\"",
+    "signature": "Barbara J.",
+    "button": true,
+    "data": "12-09-2018"
+    },
+    "created_at": "2018-10-25T21:14:21.204Z",
+    "updated_at": "2018-10-25T21:14:21.204Z"
+    },
+    {
+    "_id": "5bb90d7736bed60013057c79",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-ref",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "Ewa",
+    "lead": "",
+    "image": "assets/images/pdtr/references/ewa_b.jpg",
+    "text": "\"Po dwóch długich sesjach P-DTR z p. Mają, dolegliwości moje ustąpiły, jakość mojego poruszania zdecydowanie się polepszyła. Cenę usługi uważam za rozsądną mając w pamięci ceny wizyt u specjalistów, leków i rehabilitacji. Namówiłam na sesję u p. Mai zięcia i kuzyna i na razie po 1 spotkaniu prognozy są obiecujące. Uważam, że p. Maja jest osobą bardzo ciepłą, posiadającą dużą wiedzę, którą potrafi wykorzystać przynosząc ulgę w dolegliwościach bólowych. Polecam!!!\"",
+    "signature": "Ewa Brzózka",
+    "button": true,
+    "data": "29-08-2018"
+    },
+    "created_at": "2018-10-06T19:31:03.296Z",
+    "updated_at": "2018-10-22T11:37:14.758Z"
+    },
+    {
+    "_id": "5bb91bb736bed60013057c7a",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-ref",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "Magdalena",
+    "lead": "",
+    "image": "assets/images/pdtr/references/magda.jpg",
+    "text": "\"...Mam wrażenie, że stąpam lżej po ziemi. Najważniejsze i najbardziej niesamowita była wizyta mojego 6letniego syna, który był wrażliwy na wysokie dźwięki, hałas, głośną muzykę. Już po kilku minutach tańczyliśmy razem do głośnej muzyki z dużym uśmiechem na jego ustach i ze łzami szczęścia w moich oczach. Maja... bardzo Ci dziękujemy za pomoc i do szybkiego zobaczenia. Moja ocena to celujący z \"+\"!\"",
+    "signature": "Magdalena Wrzecionowska",
+    "button": true,
+    "data": "04-08-2017"
+    },
+    "created_at": "2018-10-06T20:31:51.404Z",
+    "updated_at": "2018-10-22T18:38:28.211Z"
+    },
+    {
+    "_id": "5bb91bfa36bed60013057c7b",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-ref",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "Ilona",
+    "lead": "",
+    "image": "assets/images/pdtr/references/ilona_m.jpg",
+    "text": "\"Z problemem bólu szyi i barków walczę od lat. Przyczyna - wypadek, ale i nie tylko, w czym upewniła mnie Pani Maja.(...) Ponieważ moje bóle to złożony problem, dlatego też wymagają wielu sesji. Sesje z P. Mają pomagają mi stopniowo pozbyć się bólu i zwiększyć zakres ruchu, tam gdzie był zablokowany. Spotkania przebywają w miłej atmosferze, aczkolwiek bardzo skupionej ze strony Mai, co tylko świadczy o jej zaangażowaniu i skrupulatności. P. Maja to księga wiedzy budowy i funkcji zarówno ciała jak i ducha. Jest osobą bardzo dyskretną, słuchającą z solidnym warsztatem, który cały czas doskonali dla dobra swoich pacjentów. Nigdy nie mówi, że uleczy, ale że będzie próbować - do tego nie trzeba komentarza. Początkowo do metody P-DTR podchodziłam sceptycznie, ale po kilku sesjach wiem, że to ma sens. Np. pomiędzy naszymi sesjami miałam upadek, który spowodował silny ból stopy (lekkie uszkodzenie). Po sesji P-DTR ból ustąpił - zadziałało od razu (...) Gdy coś boli to spróbuj! Polecam gorąco, a P. Maja jest dla mnie motorem, żeby pomimo mojego słabego ciała i dolegliwości, kiedyś zrobić Lotus Paw jogi i wiem, że przy jej pomocy to mi się uda.\"",
+    "signature": "Ilona Mietka",
+    "button": true,
+    "data": "06-06-2018"
+    },
+    "created_at": "2018-10-06T20:32:58.723Z",
+    "updated_at": "2018-10-22T18:38:50.423Z"
+    },
+    {
+    "_id": "5bb91c2636bed60013057c7c",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-ref",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "Robert",
+    "lead": "",
+    "image": "assets/images/pdtr/references/robert.jpg",
+    "text": "\"(...) zgłosiłem się z wielkim bólem lewej pięty na jedną sesję bezinwazyjnego zabiegu P-DTR. Wystarczyła tylko jedna wizyta, aby następnego dnia stwierdzić z niedowierzaniem, iż moja pięta została \"zaczarowana\" albo raczej uzdrowiona!!!! Kolejna sesja P-DTR była również udana i zakończona sukcesem. Tym razem, dzięki WIELKIM umiejętnościom, a także dużej dawce CIERPLIWOŚCI Mai Bednarczyk, \"zresetowano\" \"winy\" przeszłości. POLECAM GORĄCO Miejsce i WSZYSTKIE OSOBY tam pracujące na czele z Mają Bednarczyk!\"",
+    "signature": "Robert Nalikowski",
+    "button": true,
+    "data": "10-04-2018"
+    },
+    "created_at": "2018-10-06T20:33:42.912Z",
+    "updated_at": "2018-10-22T18:39:06.372Z"
+    },
+    {
+    "_id": "5bb92e3636bed60013057c7e",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-ref",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "Jolanta",
+    "lead": "",
+    "image": "assets/images/pdtr/references/jola.jpg",
+    "text": "\"Do zapisania się na treningi personalne do Mai zachęciła mnie moja zachwycona przyjaciółka! Zdecydowałam się, bo ufam jej ocenom, a ona zna Maję już kilka lat i bardzo ceni! Jakoś w lutym tego roku wykupiłam sobie karnet na spotkania indywidualne i zaczęłam chodzić. Tylko że w taki naturalny sposób nagle spotkania okazały się sesjami P-DTRu, ponieważ Maja posiada ogromną intuicję i wyczucie, co konkretnej osobie, która się do niej zwraca o pomoc jest w danej chwili najbardziej potrzebne i najwłaściwsze do tego by od tego zacząć pracę nad poprawą swojego zdrowia, kondycji, figury czy samopoczucia. P-DTR jest terapią usuwającą z ciała dysfunkcje, blokady, traumy powstałe na skutek urazów fizycznych czy też mentalnych i psychicznych i zgodnie z tym co Maja powtarza - ciało nigdy nie kłamie i można jak z mapy wyczytać z niego co do tej pory nam się przytrafiło i czego doświadczyliśmy. W moim przypadku, ważniejsza niż praca nad konkretnymi fizjoterapeutycznymi ćwiczeniami mającymi polepszyć sprawność okazała się praca nad blokującymi mnie przeżytymi do tej pory urazami psychicznymi. Miałam na przykład problemy z koncentracją i wykonywaniem kilku rzeczy jednocześnie. Bardzo mnie to męczyło i pomimo wysiłków efekt był mało zadowalający. Maja powiedziała mi, że stałam się w wyniku poznanego konkretnego stresu \"jednozadaniowa\" i dzięki zastosowaniu metod P-DTR przywróciła mi \"wielozadaniowość\". Teraz mogę jednocześnie pracować nad czterema zagadnieniami i z piątym jeszcze dawać sobie radę. Nie mam już problemów z koncentracją, dzięki czemu pracuje wydajnie przez co jestem lepiej postrzegana w pracy! A to dopiero wierzchołek góry lodowej pracy, którą wykonałyśmy z Mają. Gorąco polecam tę terapię osobom po przebytych fizycznych urazach, oraz wszystkim tym, którzy doświadczyli traum mentalnych i psychicznych, które nawet w nieświadomy dla nas sposób mogą utrudniać i w negatywny sposób wpływać na nasze zdrowie i sprawność! Terapia P-DTR z Mają to ogromna przyjemność dająca niezwykłe, pozytywne efekty. Gorąco polecam i zachęcam do podjęcia niezwykłej podróży wgłąb siebie pod przewodnictwem Mai bo osiągnięte konkretne efekty są tego warte!\"",
+    "signature": "Jolanta Dąbek",
+    "button": true,
+    "data": "09-04-2018"
+    },
+    "created_at": "2018-10-06T21:50:46.631Z",
+    "updated_at": "2018-10-22T18:39:21.423Z"
+    },
+    {
+    "_id": "5bb92e7e36bed60013057c7f",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-ref",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "Teresa",
+    "lead": "",
+    "image": "assets/images/pdtr/references/teresa_z.jpg",
+    "text": "\"P-DTR - to dla mnie zupełnie innowacyjna metoda leczenia, ale postanowiłam wypróbować treningów personalnych. Moje dolegliwości przed treningami to ogólnie duże ograniczenia ruchowe i problemy z kręgosłupem. Pani Maja podczas P-DTR w dużym stopniu usunęła moje dolegliwości i dlatego gorąco polecam sesje P-DTR - warto!!! Zdrowie jest bezcenne, więc cena za usługę w mojej ocenie jest bardzo przystępna, a pani Maja to ogromnie ciepła, sympatyczna i cierpliwa osoba. Sesje P-DTR to treningi bardzo przyjemne i bezbolesne. Wiedza pani Mai o P-DTR to pełny profesjonalizm.\"",
+    "signature": "Teresa Zdebik",
+    "button": true,
+    "data": "06-04-2018"
+    },
+    "created_at": "2018-10-06T21:51:58.750Z",
+    "updated_at": "2018-10-22T11:51:19.165Z"
+    },
+    {
+    "_id": "5bb92eab36bed60013057c80",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-ref",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "Magdalena",
+    "lead": "",
+    "image": "assets/images/pdtr/references/magdalena.jpg",
+    "text": "\"Trafiłam do prowadzącej treningi personalne Mai Bednarczyk gdy poczułam potrzebę, aby coś zmienić w swoim życiu, poruszać się, nabrać energii i chęci do pracy. Treningi są doskonale dopasowane do moich potrzeb i możliwości, a prowadząca udziela wyczerpujących informacji na wszystkie moje pytania, wykazując się przy tym ogromną wiedzą i zaangażowaniem. Jeśli masz siedzący tryb pracy, zadyszkę przy drobnym wysiłku i odczuwasz ogólne zmęczenie - polecam gorąco - indywidualne podejście, profesjonalizm i przemiła atmosfera treningów to doskonały sposób, aby coś zmienić na lepsze.\"",
+    "signature": "Magdalena G.",
+    "button": true,
+    "data": "04-04-2018"
+    },
+    "created_at": "2018-10-06T21:52:43.326Z",
+    "updated_at": "2018-10-22T19:15:14.733Z"
+    },
+    {
+    "_id": "5bb92eea36bed60013057c81",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-ref",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "Agnieszka",
+    "lead": "",
+    "image": "assets/images/pdtr/references/agnieszka_g.jpg",
+    "text": "\"Jako osoba świadoma swoich potrzeb i pracująca ze sobą chciałam poprawić kontrolę swojego ciała i skorygować jego dysfunkcje na tyle ile to możliwe. Znam Maję Bednarczyk od dawna i w pełni ufam jej wiedzy i metodom. Stąd decyzja o treningach personalnych połączonych z sesjami P-DTR, które są wycelowane w moje konkretne potrzeby i problemy. Podczas spotkań wykonuję trening poszerzony o elementy jogi, functional i organic flow. Sprawia mi to ogromną przyjemność i daje oczekiwane rezultaty w postaci poprawy słabszych partii ciała, występuje jego większa mobilność i zostały uruchomione partie mięśni, które nie pracowały prawidłowo lub wcale. Sesje P-DTR najprościej mówiąc poprawiły komunikację między moim ciałem a umysłem. Profesjonalizm Mai i jej pasja i zaangażowanie oraz otwarcie na potrzeby innych są godne polecenia! Razem z nią każdy znajdzie rozwiązanie swoich problemów na płaszczyźnie fizycznej i mentalnej, a sesje indywidualne są w przystępnej cenie. Polecam Maję każdemu!\"",
+    "signature": "Agnieszka Głowacka",
+    "button": true,
+    "data": "27-03-2018"
+    },
+    "created_at": "2018-10-06T21:53:46.091Z",
+    "updated_at": "2018-10-22T18:39:56.046Z"
+    },
+    {
+    "_id": "5bb92f1f36bed60013057c82",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-ref",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "Izabela",
+    "lead": "",
+    "image": "assets/images/pdtr/references/izabela_z.jpg",
+    "text": "\"Jestem po operacji wszczepienia implantu kręgosłupa szyjnego. Po zabiegu cały czas odczuwałam ból i skurcz ramion i szyji. Mam siedzącą pracę, więc powiedziano mi, że powinnam z niej zrezygnować albo znowu wyląduje na stole operacyjnym lub co gorsze na wózku inwalidzkim. Tak właśnie trafiłam do Pani Mai Bednarczyk na sesje P-DTR. (...) Już po dwóch spotkaniach widziałam ogromną poprawę i napięcie, które towarzyszyło mi przez okres roku po operacji po prostu mijało z dnia na dzień. Było i nadal jest to dla mnie niewiarygodne, dlatego polecam naprawdę szczerze tę metodę każdemu kto ma problemy ze zdrowiem i to nie tylko z kręgosłupem, ale z każdą inną dolegliwością. Ja obecnie jestem po 5 sesjach P-DTR i czuje się rewelacyjnie. Na pytanie czy jestem zadowolona z efektów pracy prowadzącej jak z nowej metody, a naprawdę miałam bardzo sceptyczne podejście :-) mówię głośno TAK!!! Trafiłam na wspaniałą osobę z pasją, niesamowitą wiedzą, indywidualnym podejściem do każdego człowieka. (...) Cena za usługę jaką trzeba zapłacić to naprawdę niewiele w stosunku do jakości jej wykonania, bez bólu i w bardzo miłej atmosferze, a efekty są niemal natychmiastowe. Za poprawę mojego komfortu życia dałabym dużo więcej :) a on poprawił się w 100%. Gorąco polecam! Dziękuje to za mało! Jest Pani Wielka!!!\"",
+    "signature": "Izabela Zdebik",
+    "button": true,
+    "data": "14-02-2018"
+    },
+    "created_at": "2018-10-06T21:54:39.022Z",
+    "updated_at": "2018-10-22T11:57:24.336Z"
+    },
+    {
+    "_id": "5bb92f5836bed60013057c83",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-ref",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "Agnieszka",
+    "lead": "",
+    "image": "assets/images/pdtr/references/agnieszka_w.jpg",
+    "text": "\"Jestem bardzo zadowolona z efektów współpracy z Mają. Byłam też na konsultacji dietetycznej gdzie zostały mi podane wytyczne zdrowego stylu życia. Po trzymanej diecie i ćwiczeniach udało mi się zbić 7 kg. Swoje nawyki żywieniowe będę dalej trzymać i ćwiczyć, ponieważ lepiej się czuję. Maja jest osobą pomocną, otwartą, zawsze udzieli dobrej rady. Polecam każdemu 7mepoty!\"",
+    "signature": "Agnieszka Woźniak",
+    "button": true,
+    "data": "07-11-2016"
+    },
+    "created_at": "2018-10-06T21:55:36.308Z",
+    "updated_at": "2018-10-22T18:40:12.269Z"
+    },
+    {
+    "_id": "5bb92f9536bed60013057c84",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-ref",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "Jolanta",
+    "lead": "",
+    "image": "assets/images/pdtr/references/jolanta_s.jpg",
+    "text": "\"Poprzez zastosowanie wskazówek do diety poleconej przez Panią Maję nabywa się zdrowego sposobu odżywiania co przyczynia się do lepszego samopoczucia jak również do redukcji tkanki tłuszczowej więc moje oczekiwania zostały zaspokojone. Jestem zadowolona ze współpracy. Mogę śmiało polecić to miejsce zarówno pod względem ćwiczeń jak i do otrzymania porad dot. ćwiczeń i porad dietetycznych. Jeśli chodzi o cenę usług to myślę, że jest dobrze wyceniona, a standard i profesjonalizm Pani Mai Bednarczyk jest na wysokim poziomie.\"",
+    "signature": "Jolanta Sorokosz",
+    "button": true,
+    "data": "03-11-2016"
+    },
+    "created_at": "2018-10-06T21:56:37.327Z",
+    "updated_at": "2018-10-22T11:58:30.243Z"
+    },
+    {
+    "_id": "5bb92fbc36bed60013057c85",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-ref",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "Marta",
+    "lead": "",
+    "image": "assets/images/pdtr/references/marta_c.jpg",
+    "text": "\"Moje oczekiwania w stosunku do treningu personalnego zostały w pełni zaspokojone, efekty treningów są widoczne. Treningi sprawiły, że ruch wszedł w nawyk i na pewno nie przestanę przychodzić ćwiczyć we własnym zakresie. Jakość odpowiednia do ceny. Będę polecać Maję znajomym.\"",
+    "signature": "Marta Chmura",
+    "button": true,
+    "data": "28-10-2016"
+    },
+    "created_at": "2018-10-06T21:57:16.538Z",
+    "updated_at": "2018-10-22T11:58:58.988Z"
+    }
+    ],
+    "_id": "5bb8deb9ee9810001356e34f",
+    "name": "references",
+    "label": "Referencje",
+    "created_at": "2018-10-06T16:11:37.710Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bb94343fab09a001355d909",
+    "type": "text_and_image",
+    "styles": {
+    "float": "left",
+    "text_type": "block-o",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "Maja Bednarczyk",
+    "lead": "",
+    "image": "assets/images/treners/Maja.jpg",
+    "text": "Specjalista metody P-DTR, trener personalny z wieloletnim doświadczeniem, dyplomowany nauczyciel jogi, Od lat jestem zainteresowana holistycznym podejściem do zdrowia fizycznego i psychicznego człowieka. Zaowocowało to ukończeniem kilkudziesięciu kursów i szkoleń z zakresu dietetyki, fizjologii, anatomii, systemów treningowych oraz niekonwencjonalnych metod. Pracę z klientem indywidualnym zaczęłam jako trener personalny w 2013 roku prowadząc w większości osoby z problemami zdrowotnymi. W tym samym czasie rozwijałam się na polu nauczyciela jogi o specjalizacji Hatha Yoga, oraz prowadziłam zajęcia grupowe takie jak Zdrowy Kręgosłup, Pilates i Trening Funkcjonalny. Szczególnie mocno skupiłam się w tym czasie na treningach funkcjonalnych i miałam przyjemność stanąć dwukrotnie na Konwencji Fitness jako Prezenter i Szkoleniowiec w Euro Fitness School z Bielska Białej w 2016 roku obok wielu świetnych Trenerów z Polski i z Europy. Rok później podobną współpracę zaczęłam ze Szkołą Instruktorów Fitness w Krakowie. Szkolenie młodych instruktorów fitness sprawiało mi dużą frajdę i dało wiele ciekawych doświadczeń oraz lekcji – tym razem to ja miałam przekazywać wiedzę, a nie ją brać. Ta zmiana perspektywy dużo mnie nauczyła. Po kilku latach pracy w zawodzie trenera personalnego i instruktora fitness, trafiłam przypadkiem na P-DTR czyli proprioceptywną terapię odruchową. Pierwsze wrażenie jakie zrobiła na mnie ta metoda było piorunujące – istna magia na dodatek z natychmiastowym efektem! Parę miesięcy później siedziałam już jako student na pierwszym module rocznego szkolenia u twórcy metody dr Jose Palomara (Meksyk). Sądzę, że już wtedy przeczuwałam, że P-DTR zmieni moje życie. Z bycia trenerem i promotorem zdrowego jedzenia i aktywnego stylu życia, stałam się Praktykiem metody P-DTR na poziomie zaawansowanym, aktywnie zainteresowaną neurologią, psychosomatyką i kinezjologią. Dawne zainteresowania i praca trenera oraz prowadzącego lekcje grupowe zmieniły kontekst i nabrały nowej jakości. Dzisiaj z ogromną przyjemnością dzielę potencjał metody P-DTR ze swoimi Klientami i samodzielnie rozwijam własne narzędzia w poszukiwaniu priorytetowych dysfunkcji receptorów w układzie nerwowym, pomagając w takich dolegliwościach jak: bóle, ograniczenia ruchowe, stany napięciowe pochodzenia emocjonalnego, problemy psychosomatyczne i inne. Prowadzę treningi personalne mając nowe spojrzenie na ludzkie ciało i jego potrzeby, rozpisuję diety indywidualnie dobrane na podstawie testów żywieniowych i uczę jogi na kilku poziomach trudności. Moja droga nie była najkrótszą z możliwych, ale mam wrażenie, że najlepszą z możliwych. Zapraszam serdeczne!",
+    "references": "/pdtr/references",
+    "email": "karmazdrowia@gmail.com",
+    "phone": "500451216"
+    },
+    "created_at": "2018-10-06T23:20:35.883Z",
+    "updated_at": "2018-10-25T08:33:32.748Z"
+    }
+    ],
+    "_id": "5bb9311b36bed60013057c86",
+    "name": "treners",
+    "label": "O mnie",
+    "created_at": "2018-10-06T22:03:07.167Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": true,
+    "data": [
+    {
+    "_id": "5bcdd87e4dfe0300137f168a",
+    "type": "table",
+    "styles": {
+    "float": "unset",
+    "text_type": "price-l-n",
+    "list_type": "normal"
+    },
+    "content": {
+    "title": "Cennik",
+    "headers": [],
+    "data": [
+    [
+    [
+    "PIERWSZA KONSULTACJA"
+    ],
+    "110zł"
+    ],
+    [
+    [
+    "KOLEJNA WIZYTA"
+    ],
+    "90zł"
+    ],
+    [
+    [
+    "PAKIET 4 WIZYT*",
+    "*nie obejmuje pierwszej konsultacji"
+    ],
+    "320zł*"
+    ]
+    ]
+    },
+    "created_at": "2018-10-22T14:02:38.495Z",
+    "updated_at": "2018-10-22T14:02:38.495Z"
+    }
+    ],
+    "_id": "5bb948d9fab09a001355d90c",
+    "name": "price_list",
+    "label": "Cennik",
+    "created_at": "2018-10-06T23:44:25.777Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": false,
+    "data": [
+    {
+    "_id": "5bba756f06ba3f0013edfcde",
+    "type": "contact",
+    "content": [
+    {
+    "title": "Napisz do nas",
+    "lead": "",
+    "text": ""
+    }
+    ],
+    "created_at": "2018-10-07T21:06:55.471Z",
+    "updated_at": "2018-10-22T16:17:15.290Z",
+    "styles": ""
+    }
+    ],
+    "_id": "5bba74c206ba3f0013edfcdd",
+    "name": "contact",
+    "label": "Kontakt",
+    "created_at": "2018-10-07T21:04:02.839Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    },
+    {
+    "active": false,
+    "data": [
+    {
+    "_id": "5bc2611d7d95310013250660",
+    "type": "list",
+    "styles": {
+    "float": "unset",
+    "list_type": "list-r"
+    },
+    "content": {
+    "title": "REGULAMIN",
+    "text": "",
+    "items": [
+    "Każdy klient ma obowiązek zapoznania się z niniejszym regulaminem i jego przestrzegania.",
+    "W związku z rozpoczęciem stosowania z dniem 25 maja 2018 r. Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych, dalej: RODO) informujemy iż:",
+    [
+    "Administratorem Państwa danych osobowych jest RADEAL Radosław Chwast z siedzibą w Nowej Górze 295, 32-065 Krzeszowice, NIP: 5130170364, REGON: 122977430, zwany dalej „Karma Zdrowia”.",
+    "Kontakt z Administratorem możliwy jest na wskazany wyżej adres oraz pod numerem telefonu 500-424-737 i adresem e-mail karmazdrowia@gmail.com.",
+    "Przetwarzane przez Administratora dane osobowe to: imię, nazwisko, numer telefonu, data urodzenia.",
+    "Państwa dane osobowe przetwarzane są przez Administratora w celu świadczenia usług związanych z poprawą zdrowia, kondycji fizycznej, doradztwem żywieniowym i/lub solarium oraz w jego własnych celach marketingowych - a podanie danych jest dobrowolne i nie jest niezbędne dla zawarcia i wykonania umów z Administratorem, lecz niezbędne do otrzymywania informacji o aktualnych ofertach i promocjach.",
+    "Dodatkowo, Państwa dane przetwarzane są w celu świadczenia usługi newslettera na podstawie art. 6 ust. 1 lit. a RODO. Newsletter wysyłany jest w formie wiadomości SMS na podany przez Państwa numer telefonu i zawiera informacje dotyczące: wydarzeń w Karma Zdrowia a także akcji promocyjnych przygotowanych przez Karma Zdrowia.",
+    "Państwa dane bez uprzedniego wyrażenia zgody nie są przekazywane osobom trzecim.",
+    "Administrator zobowiązuje się do zabezpieczenia przetwarzanych Państwa danych osobowych przed dostępem osób nieupoważnionych.",
+    "Przysługuje Państwu prawo dostępu do treści danych, prawo do ich sprostowania, usunięcia lub ograniczenia przetwarzania, prawo żądania zaprzestania przetwarzania i prawo przenoszenia danych, a także prawo do wniesienia skargi do organu nadzorczego tj. Prezesa Urzędu Ochrony Danych Osobowych.",
+    "Mogą Państwo wycofać zgodę na przetwarzanie Państwa danych w dowolnym momencie, co nie będzie miało jednak wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie zgody przed jej cofnięciem. Zgodę można wycofać kontaktując się z Administratorem w sposób wskazany w punkcie 2.2.",
+    "Mogą Państwo w dowolnym momencie wnieść sprzeciw wobec przetwarzania Państwa danych na potrzeby marketingu bezpośredniego, a Państwa dane nie będą więcej wykorzystywane w tym celu.",
+    "Dane osobowe będą przetwarzane do czasu cofnięcia przez Państwa udzielonej zgody."
+    ],
+    "Karma Zdrowia jest obiektem świadczącym usługi z zakresu: P-DTR, solarium, siłownia, body space, zajęcia grupowe fitness, zajęcia grupowe jogi, treningi personalne, porady żywieniowe, warsztaty oraz okazjonalne event’y sportowe. Wszystkie wyżej wymienione usługi są ujęte w cenniku klubu.",
+    "Z usług mogą korzystać osoby pełnoletnie lub niepełnoletnie w obecności opiekunów prawnych. Zakaz udostępniania solarium osobom, które nie ukończyły 18. roku życia (art. 5 ust. 1 ustawy z dnia 15 września 2017 r. o ochronie zdrowia przed następstwami korzystania z solarium).",
+    "Dla obsługi obiektu korzystanie z usług sportowych i solarium jest jednoznaczne z tym, iż klient nie ma żadnych przeciwwskazań lekarskich do wykonywaniu wysiłku fizycznego oraz opalania, jest on świadomy swojego stanu zdrowia oraz korzysta z usług z zachowaniem ostrożności i troski o swoje zdrowie. Z tego powodu zalecamy wykonywanie profilaktycznie badań lekarskich przynajmniej raz w roku. Wszelkie bieżące urazy lub stany chorobowe należy niezwłocznie zgłaszać obsłudze oraz trenerom. W przypadku pojawienia się zawrotów głowy lub innych nienormalnych objawów należy to natychmiast sygnalizować i przerwać ćwiczenie. Jeśli stan zdrowia danej osoby budzi wątpliwości obsługi klubu, Karma Zdrowia odmówi zrealizowania usługi do momentu dostarczenia kserokopii oświadczenia lekarskiego ze zgodą na wykonywanie ćwiczeń.",
+    "Każdy klient jest zobowiązany do nienaruszania spokoju i porządku w obiekcie oraz niezakłócania innym klientom możliwości korzystania z usług. Zabrania się na terenie obiektu palenia papierosów i spożywania alkoholu.",
+    "Każdy klient jest zobowiązany do korzystania z pomieszczeń i urządzeń zgodnie z ich przeznaczeniem, nie narażając ich na uszkodzenia. W przypadku spowodowania poważnej wady urządzenia, klient odpowiada finansowo.",
+    "Każdy klient jest zobowiązany do zmiany obuwia z czystą podeszwą przed wejściem na salę ćwiczeń.",
+    "Klub nie ponosi odpowiedzialności za pozostawione rzeczy w szatni, toalecie, przebieralni, poczekalni lub sali ćwiczeń. Prosimy o zachowanie uwagi i pilnowanie przedmiotów cennych.",
+    "Klient ma prawo do dokonania rezerwacji na zajęcia grupowe oraz Body Space. W przypadku nie anulowania rezerwacji i nie pojawienia się na czas wejście zostaje odnotowane, co skutkuje utratą treningu przez klienta. W przypadku powtarzania się takich sytuacji, klient może stracić prawo do rezerwacji miejsca.",
+    "Minimalna ilość osób na zajęciach grupowych wynosi 5. W przypadku nieuzbierania się wystarczającej ilości chętnych, obiekt zastrzega sobie prawo do odwołania zajęć o czym niezwłocznie powiadomi poprzez sms lub rozmowę telefoniczną osoby, które miały dokonaną rezerwację. Podobnie awaria Body Space skutkuje niezwłocznym powiadomieniem.",
+    "Obiekt zastrzega sobie prawo do wykonywania zdjęć i filmów do celów promocyjnych i umieszczaniu ich na stronie internetowej klubu.",
+    "Opłata za karnet/pakiet jest opłatą bezzwrotną. Każdy karnet/pakiet jest przypisany do jednej osoby i upoważnia do korzystania z określonych usług po promocyjnej cenie w określonym terminie ważności."
+    ]
+    },
+    "created_at": "2018-10-13T21:18:21.598Z",
+    "updated_at": "2018-10-19T14:41:20.432Z"
+    }
+    ],
+    "_id": "5bc259fc7d9531001325065c",
+    "name": "regulamin",
+    "label": "Regulamin",
+    "created_at": "2018-10-13T20:47:56.345Z",
+    "updated_at": "2018-10-25T21:28:28.164Z"
+    }
+    ],
+    "_id": "5bb779ec0967770013945972",
+    "name": "pdtr",
+    "label": "Gabinet P-DTR",
+    "style": {
+    "colors": {
+    "primary": "#0a6996",
+    "secondary": "white"
+    }
+    },
+    "created_at": "2018-10-05T14:49:16.556Z",
+    "updated_at": "2018-10-18T21:52:25.699Z"
+    }
+    ]
