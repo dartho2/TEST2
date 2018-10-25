@@ -66,6 +66,11 @@ footer a,p {
     font-size: 12px;
     padding: 2px;
 }
+.left-ben {
+  float:left;
+  text-align: center;
+  margin:0 auto;
+}
 .text-black-50 {
   color: rgba(255, 255, 255, 0.6)!important;
 }
