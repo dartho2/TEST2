@@ -1,123 +1,30 @@
-<!-- <nav class="navbar navbar-expand-md navbar-dark navbar-header-top" [ngStyle]="{'background-image': 'linear-gradient(to right,'+service.portal.style.colors.secondary+','+service.portal.style.colors.primary+')'}">
-    <div class="container">
-   
-       <a class="fb-ic" >
-          <i class="fa fa-facebook white-text mr-4"> </i>
-        </a>
-     
-        <a class="tw-ic">
-          <i class="fa fa-twitter white-text mr-4"> </i>
-        </a>
-      
-        <a class="gplus-ic">
-          <i class="fa fa-google-plus white-text mr-4"> </i>
-        </a>
-     
-        <a class="li-ic">
-          <i class="fa fa-linkedin white-text mr-4"> </i>
-        </a>
-        <a class="ins-ic">
-          <i class="fa fa-instagram white-text"> </i>
-        </a>
-        <a class="navbar-brand" [ngStyle]="{'color':'white;'}" routerLink="/"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsTop"
-        aria-controls="navbarsTop" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarsTop">
-        <ul class="navbar-nav ml-auto">
-          <span class="span-header">wybierz portal:</span>
-          <button mat-button class="button-top-mat" [matMenuTriggerFor]="menu" (mouseout)="hover =false" (mouseover)="hover =true"
-            [ngStyle]="hover ? {'background-color':portal.style.colors.primary} : {}">{{portal.label}}
-          </button>
-          <mat-menu #menu="matMenu">
-            <a mat-button *ngFor="let portal of service.portals" (mouseout)="portal.hover =false" (mouseover)="portal.hover =true"
-              [ngStyle]="portal.hover ? {'background-color': portal.style.colors.primary} : {}"
-              routerLink="/{{portal.name}}/{{portal.sections[0].name}}">{{portal.label}}</a>
-          </mat-menu>
-        </ul>
-      </div>
-    </div>
-  </nav> -->
-<!-- <nav class="navbar navbar-expand-md navbar-dark navbar-header-top" [ngStyle]="{'background-image': 'linear-gradient(to right,'+service.portal.style.colors.secondary+','+service.portal.style.colors.primary+')'}">
-      <div class="container">
-   
-          <a class="fb-ic" >
-             <i class="fa fa-facebook white-text mr-4"> </i>
-           </a>
-        
-           <a class="tw-ic">
-             <i class="fa fa-twitter white-text mr-4"> </i>
-           </a>
-         
-           <a class="gplus-ic">
-             <i class="fa fa-google-plus white-text mr-4"> </i>
-           </a>
-        
-           <a class="li-ic">
-             <i class="fa fa-linkedin white-text mr-4"> </i>
-           </a>
-           <a class="ins-ic">
-             <i class="fa fa-instagram white-text"> </i>
-           </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsTop"
-        aria-controls="navbarsTop" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="navbar-collapse collapse show" id="navbarsTop" style="">
-        <div class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
-            <ul class="navbar-nav">
-         <span class="span-header">wybierz portal:</span>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle nav-top-link" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> {{portal.label}}</a>
-                  <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a *ngFor="let portal of service.portals" class="dropdown-item" href="#" [ngStyle]="portal.hover ? {'background-color': portal.style.colors.primary} : {}"
-                    routerLink="/{{portal.name}}/{{portal.sections[0].name}}">{{portal.label}}</a>
-                   
-                  </div>
-                </li>
-              </ul>
-        </div>
-       </div>
-      </div>
-    </nav> -->
-    
 <nav class="navbar navbar-expand-lg navbar-light navbar-top rounded">
   <div class="container top ml-md-auto">
     <div class="social-links">
-      <a href="" class="fb-ic" >
-          <i class="fa fa-lg fa-home" aria-hidden="true" style="color:white"><span style="padding-left:2px;font-size: 15px; font-family: OSWALD">Karma Zdrowia</span></i>
+      <a href="" class="fb-ic">
+        <i class="fa fa-lg fa-home" aria-hidden="true" style="color:white"><span style="padding-left:2px;font-size: 15px; font-family: OSWALD">Karma
+            Zdrowia</span></i>
       </a>
-     
-      <!-- <a class="navbar-brand navbar-visible" [ngStyle]="{'color': portal.style.colors.primary}" routerLink="/"><img src="{{portal.logo}}"></a> -->
     </div>
     <div class="collapse show" id="navbarsTop">
-
       <ul class="navbar-nav ml-auto">
         <li class="nav-item nav-li-top  "> <span class="span-header">wybierz portal:</span></li>
         <li class="nav-item nav-li-top dropdown">
           <a class="nav-link dropdown-toggle nav-top-link" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false"> {{portal.label}}</a>
           <div class="dropdown-menu" aria-labelledby="dropdown01">
-
-
             <a *ngFor="let portals of service.portals" class="dropdown-item" href="#" [ngStyle]="portal.hover ? {'background-color': portal.style.colors.primary} : {}"
               routerLink="/{{portals.name}}/{{portals.sections[0].name}}">{{portals.label}}</a>
-
-
-
           </div>
         </li>
       </ul>
-
-
     </div>
   </div>
 </nav>
 <nav class="navbar navbar-expand-md navbar-dark navbar-header-bot">
   <div class="container">
-    <a class="navbar-brand navbar-visible" [ngStyle]="{'color': portal.style.colors.primary}"  routerLink="/{{portal.name}}/{{portal.sections[0].name}}"><img src="{{portal.logo}}"></a>
+    <a class="navbar-brand navbar-visible" [ngStyle]="{'color': portal.style.colors.primary}" routerLink="/{{portal.name}}/{{portal.sections[0].name}}"><img
+        src="{{portal.logo}}"></a>
     <button type="button" [ngStyle]="{'color': portal.style.colors.primary}" class="navbar-toggle" data-toggle="collapse"
       data-target="#navbarsBottom" aria-controls="navbarsBottom" aria-expanded="false" aria-label="Toggle navigation">
       <span class="icon-bar" [ngStyle]="{'background-color': portal.style.colors.primary}"></span>
@@ -128,7 +35,6 @@
       <ul class="navbar-nav nabar-l-menu mr-auto">
         <li class="nav-item nav-items-l" *ngFor="let section of service.portal.sections">
           <div *ngIf="section.active > 0">
-            <!-- {{section.label}} -->
             <a button class="mat-button btn" [ngClass]="{'mat-button:hover' : true}" (click)="onHiddenMe()" (mouseout)="section.hover =false"
               (mouseover)="section.hover =true" [ngStyle]="section.hover || section.name === service.activeSection.name ? {'border-bottom': '1px solid' + portal.style.colors.primary} : {}"
               routerLink="/{{portal.name}}/{{section.name}}">{{section.label}}</a>
@@ -138,20 +44,8 @@
     </div>
   </div>
 </nav>
-
-
-
-
-
 <div *ngIf="service.isActiveSectionMainSection()">
   <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
-    <!-- <ol class="carousel-indicators">
-      <div *ngFor="let p of service.portal.images_top; index as i">
-        <div *ngIf="portal.images_top.length > 1">
-          <li data-target="#carousel-example-2" data-slide-to="0" class="{{i}}"></li>
-        </div>
-      </div>
-    </ol> -->
     <div class="carousel-inner" role="listbox">
       <div *ngFor="let image of service.portal.images_top; index as i" [ngClass]="i == 0 ? 'carousel-item active':'carousel-item'">
         <div class="view">
@@ -159,7 +53,7 @@
           <div class="mask rgba-black-light"></div>
         </div>
         <div class="carousel-caption">
-       
+
           <h3 class="h3-responsive"><img class="d-block w-100 logo" style="    max-width: 300px;
             /* margin: 0 auto; */
             bottom: 0px;
@@ -169,16 +63,7 @@
             opacity: 1; 
             position: absolute;"
               src="{{portal.image}}" alt=""></h3>
-          <!-- <p [ngStyle]="{'color': portal.style.colors.primary}" style="font-family: Oswald;
-          bottom: 0px;
-          text-transform: uppercase;
-          /* left: 0px; */
-          /* right: 0px; */
-          background: rgba(0, 0, 0, 0.32);
-          position: absolute;
-          font-size: 30px;">{{portal.label}}</p> -->
         </div>
-
       </div>
     </div>
   </div>
@@ -198,7 +83,6 @@
     </a>
   </div>
 </div>
-<!-- </div> -->
 <div class="slideout-widget widget-facebook">
   <div class="slideout-widget-handler">
     <a class="fb-ic"><i class="fa fa-2x fa-facebook white-text mr-4"></i></a>
@@ -207,7 +91,6 @@
     <fb-page data-tabs="timeline, events, messages" data-width="290" data-height="400" href="https://www.facebook.com/7mepoty-Centrum-fitness-250111271792298/"></fb-page>
   </div>
 </div>
-
 <div class="slideout-widget-contact widget-facebook" style="top:30%;margin-top: 3.2rem;">
   <div class="slideout-widget-handler" [ngStyle]="{'background':portal.style.colors.primary}">
     <a class="fb-ic" routerLink="/{{portal.name}}/contact" style="writing-mode: vertical-lr;font-family: OSWALD;
@@ -217,3 +100,4 @@
   <div class="slideout-widget-content">
   </div>
 </div>
+

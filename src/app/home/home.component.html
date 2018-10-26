@@ -1,39 +1,31 @@
-<ngx-spinner
-   bdColor="white"
-   size="large"
-   color="black"
-   type="ball-clip-rotate">
-   <div class="spiner-loading">
-      <img class="spiner-image" src="assets/images/logo.png"> 
-      <p class="spiner-text">
-      </p>
-   </div>
-</ngx-spinner>
+<!-- <ngx-spinner bdColor="white" size="large" color="black" type="ball-clip-rotate">
+  <div class="spiner-loading">
+    <img class="spiner-image" src="assets/images/logo.png">
+    <p class="spiner-text">
+    </p>
+  </div>
+</ngx-spinner> -->
 <div *ngIf="spiner">
-   <app-portal *ngIf="isActivePortalValid()" [portals]='portals'></app-portal>
-   
-   <div *ngIf="!isActivePortalValid()" class="container box-model" style="padding: 0px; margin: 0px;">
-<div id="bl-main" class="bl-main">
-        <div class="head-logo-portals" style="width: 100%;margin: 0 auto;">
-            <div class="head-logo">
-          <img class="logo-portals" src="assets/images/logo.png" alt="" >
-          <!-- <p class="logo-name">Karma Zdrowia</p> -->
-          </div>
-          
+  <app-portal *ngIf="isActivePortalValid()" [portals]='portals'></app-portal>
+  <div *ngIf="!isActivePortalValid()" class="container box-model" style="padding: 0px; margin: 0px;">
+    <div id="bl-main" class="bl-main">
+      <div class="head-logo-portals" style="width: 100%;margin: 0 auto;">
+        <div class="head-logo">
+          <img class="logo-portals" src="assets/images/logo.png" alt="">
         </div>
-         <section class="{{i}}" style="background-position: center;border: 1px solid white;
+      </div>
+      <section class="{{i}}" style="background-position: center;border: 1px solid white;
             background-repeat: no-repeat;
             background-size: cover;
             background:white;"
-            *ngFor="let portal of portals; index as i">
-            <a class="nav-link" routerLink="/{{portal.name}}/{{portal.sections.length > 0 ? portal.sections[0].name : ''}}">
-               <div class="box">
-                  <svg class="curve1" x="0px" y="0px" viewBox="0 0 400 1000">
-                     <rect height="200%" width="100%" y="0" x="0" 
-                        fill-opacity="" fill="#fff" />
-                  </svg>
-                  <img src="{{portal.images_top[1]}}" alt="" style="opacity: 0.6;">
-                  <div class="span-visible" style="
+        *ngFor="let portal of portals; index as i">
+        <a class="nav-link" routerLink="/{{portal.name}}/{{portal.sections.length > 0 ? portal.sections[0].name : ''}}">
+          <div class="box">
+            <svg class="curve1" x="0px" y="0px" viewBox="0 0 400 1000">
+              <rect height="200%" width="100%" y="0" x="0" fill-opacity="" fill="#fff" />
+            </svg>
+            <img src="{{portal.images_top[1]}}" alt="" style="opacity: 0.6;">
+            <div class="span-visible" style="
                      font-size: 6vmin;
                      text-align: center;
                      top: 34%;
@@ -45,25 +37,27 @@
                      left: 0px;
                      right: 0px;
                      ">{{portal.label}}</div>
-                  <div class="box-content" style="text-align: center;">
-                     <h3 class="title" style="width: 100%"><img class="logo" src="{{portal.logo}}" style="min-width: 100px;
+            <div class="box-content" style="text-align: center;">
+              <h3 class="title" style="width: 100%"><img class="logo" src="{{portal.logo}}" style="min-width: 100px;
                       -webkit-filter: unset;
                       height: 100%;
                       -webkit-filter: drop-shadow(3px 3px 1px #222222a1);
                       filter: drop-shadow(3px 3px 1px #222222a1);
                       max-width: 40%;"></h3>
-                      <!-- <h2 class="title" [ngStyle]="{'color': portal.style.colors.primary}" style="width: 100%; text-align: center;padding-top: 15px;">{{portal.label}}</h2> -->
-                     <span class="post" style="font-size:1rem;-webkit-filter: drop-shadow(1px 1px 1px #222222a1);
+              <span class="post" style="font-size:1rem;-webkit-filter: drop-shadow(1px 1px 1px #222222a1);
                      filter: drop-shadow(1px 1px 1px #222222a1);"></span>
-                     <span class="post" style="font-size:1vw;font-weight: 300;-webkit-filter: drop-shadow(1px 1px 1px #222222a1);
-                     filter: drop-shadow(1px 1px 1px #222222a1);"> {{portal.description}}</span>
-            <a routerLink="/{{portal.name}}/{{portal.sections.length > 0 ? portal.sections[0].name : ''}}" class="button post" style="margin: 0 auto;
+              <span class="post" style="font-size:1vw;font-weight: 300;-webkit-filter: drop-shadow(1px 1px 1px #222222a1);
+                     filter: drop-shadow(1px 1px 1px #222222a1);">
+                {{portal.description}}</span>
+              <a routerLink="/{{portal.name}}/{{portal.sections.length > 0 ? portal.sections[0].name : ''}}" class="button post"
+                style="margin: 0 auto;
               text-transform: uppercase;
-              font-weight: 600;">Przejdź do Strony</a>
+              font-weight: 600;">Przejdź
+                do Strony</a>
             </div>
-            </div>
-            </a>
-         </section>
-      </div>
-   </div>
+          </div>
+        </a>
+      </section>
+    </div>
+  </div>
 </div>

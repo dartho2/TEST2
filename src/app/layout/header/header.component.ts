@@ -16,8 +16,6 @@ export class HeaderComponent implements OnInit {
   constructor(public portals: PortalComponent) { }
 
   ngOnInit() {
-    this.change();
-  
   }
   onHiddenMe(){
     this.change();

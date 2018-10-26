@@ -41,21 +41,21 @@ export class ContactComponent implements OnInit {
       'message': ['', Validators.required]
     });
   }
-
   onSubmit() {
+    if(this.contactForm.valid) {
     this.connectionService.sendMessage(this.contactForm.value).subscribe(() => {
       this.sender = true;
-
       window.setTimeout(function () {
         $(".alert").fadeTo(500, 0).slideUp(500, function () {
           $(this).remove();
         });
       }, 4000);
-      this.contactForm.reset();
       this.disabledSubmitButton = true;
+      this.contactForm.reset()
     }, error => {
       console.log('Error', error);
     });
+  }
   }
   ngOnInit() {
 

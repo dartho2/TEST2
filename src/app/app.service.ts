@@ -1,11 +1,11 @@
-import { Injectable, OnInit } from '@angular/core';
+import { Injectable,  } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { AppModel } from './app.model';
 import { Observable } from 'rxjs';
 
 
 @Injectable({ providedIn: 'root' })
-export class AppService implements OnInit {
+export class AppService {
 
   constructor(private _http: HttpClient) {
   }
@@ -16,10 +16,6 @@ export class AppService implements OnInit {
 
   setImages(result, portal) {
     const image = result.filter(data => data.name === portal);
-
     return image[0].image_top;
-  }
-  ngOnInit() {
-
   }
 }
