@@ -5,7 +5,6 @@ import {RouterModule} from '@angular/router';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
-import {FormsModule, ReactiveFormsModule }   from '@angular/forms';
 import {AppRoutingModule} from './app.routing';
 import {AppComponent} from './app.component';
 import {HomeComponent} from './home/home.component';
@@ -32,6 +31,7 @@ import {MatInputModule} from '@angular/material';
 import {OlComponent} from './portal/section/content/content_item/list/ol.components';
 import {AngularFontAwesomeModule} from 'angular-font-awesome';
 import {NgxSpinnerModule} from 'ngx-spinner';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -63,7 +63,6 @@ import {NgxSpinnerModule} from 'ngx-spinner';
     MatMenuModule,
     MatButtonModule,
     MatIconModule,
-    FormsModule,
     MatDialogModule,
     HttpClientModule,
     ReactiveFormsModule,
