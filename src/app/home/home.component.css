@@ -63,12 +63,12 @@ section:nth-child(even) .box .box-content {
 }
 
 .spiner-image {
-  width: 200px;
+  width: 90px;
   position: absolute;
   margin: auto;
-  left: 119px;
+  left: 0px;
   right: 0;
-  top: 50px;
+  top: 0px;
   z-index: 9;
   bottom: 0;
 }

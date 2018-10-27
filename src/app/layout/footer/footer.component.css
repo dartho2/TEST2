@@ -29,6 +29,10 @@ footer {
   font-size: 20px; 
   font-family: 'OSWALD';
 }
+.logo-ben {
+  width: 100%;
+  max-width: 150px;
+}
 .p-hr-f {
   padding-left:10px;
   padding-right:10px;

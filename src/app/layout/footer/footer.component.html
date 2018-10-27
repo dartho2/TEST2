@@ -10,20 +10,6 @@
       </div>
     </div>
   </div>
-  <div class="ben-content" [ngStyle]="{'background': 'white'}" *ngIf="portal.name ==='7mepoty' || portal.name ==='joga'">
-    <div class="container">
-      <div class="row py-4 d-flex align-items-center">
-        <div class="col-md-6 col-lg-7 text-center text-md-right" style="margin:0 auto;">
-          <div class="col-md-6 left-ben">
-            <img style="width:200px" class="logo-ben" src="assets/images/logo_ben.png">
-          </div>
-          <div class="col-md-6 left-ben">
-            <img style="width:200px" class="logo-ben" src="assets/images/logo_fit.png">
-          </div>
-       </div>
-      </div>
-    </div>
-  </div>
   <div class="container text-center text-md-left mt-5">
     <div class="row mt-3">
       <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4 p-hr-f">
@@ -53,6 +39,12 @@
         <p class="lead-footer">
           <a routerLink="/{{portal.name}}/regulamin" name="REGULAMIN" target="_self">Regulamin</a>
         </p>
+        <div class="ben-content" style="padding-top: 15px;" *ngIf="portal.name ==='7mepoty' || portal.name ==='joga'">
+            <hr [ngStyle]="{'background': portal.style.colors.primary}">
+        <h6 class="font-weight-bold">Honorujemy:</h6>
+        <img class="logo-ben" src="assets/images/logo_ben.png">
+        <img class="logo-ben" src="assets/images/logo_fit.png">
+      </div>
       </div>
       <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4 p-hr-l">
         <h6 class="font-weight-bold">Godziny otwarcia</h6>
