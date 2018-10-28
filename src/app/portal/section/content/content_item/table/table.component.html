@@ -10,9 +10,11 @@
           <th scope="col" *ngFor="let header of data.content.headers">{{header}}</th>
         </thead>
         <tr [ngClass]="data.styles.text_type" *ngFor="let row of data.content.data; index as i">
-          <td [attr.data-label]="data.content.headers[a] ? data.content.headers[a]: ''" class="table-content" value_test='0' [ngClass]="data.styles.text_type" *ngFor="let cell of row; index as a">
+    
+          <td [attr.data-label]="data.styles.text_type === 'table-o-a' ? '' : data.content.headers[a] ? data.content.headers[a]: ''" class="table-content" value_test='0' [ngClass]="data.styles.text_type" *ngFor="let cell of row; index as a">
             <app-table-cell [data]="cell" [type_table]="data.styles.text_type"></app-table-cell>
           </td>
+        
         </tr>
       </table>
     </div>

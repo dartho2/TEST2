@@ -659,7 +659,13 @@ table th {
     font-size: .8em;
     text-align: right;
   }
-
+  table td.table-o-a::before {
+    display: none;
+    content: none;
+  }
+  .table-o-a td.table-content {
+    display: block;
+}
   table td::before {
     /*
     * aria-label has no advantage, it won't be read inside a table
