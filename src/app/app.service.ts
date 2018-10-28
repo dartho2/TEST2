@@ -11,7 +11,7 @@ export class AppService {
   }
 
   getPortals(): Observable<AppModel[]> {
-    return this._http.get<AppModel[]>('http://77.55.222.131:8080/api/portals');
+    return this._http.get<AppModel[]>('https://yoga-server.herokuapp.com/api/portals');
   }
 
   setImages(result, portal) {
