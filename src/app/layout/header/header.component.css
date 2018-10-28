@@ -317,7 +317,11 @@ section#group {
   border-top: 1px solid rgba(0, 0, 0, .05) !important;
   background: #fff;
 }
-
+@media screen and (max-width: 331px) {
+li.nav-item.nav-li-top {
+  float: unset !important;
+}
+}
 @media screen and (max-width: 767px) {
   .carousel-control-visible {
     display: none;

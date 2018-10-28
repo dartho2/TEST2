@@ -94,6 +94,7 @@ li.ng-star-inserted {
 @media screen and (max-width: 768px) {
   .result-test {
     width: 100%;
+    display: grid;
   }
 }
 

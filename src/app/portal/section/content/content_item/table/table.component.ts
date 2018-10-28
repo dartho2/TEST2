@@ -66,10 +66,10 @@ export class TableComponent implements OnInit {
           });
   
         $(result, thead).each(function () {
-        $('table tr').last().html('<td data-label='+ thead[0] +' class="result-test">Wynik</td>')
-        .append($('<td data-label='+ thead[1]+ ' class="result-test">').append(result[0]))
-        .append($('<td data-label='+ thead[2]+ ' class="result-test">').append(result[1]))
-        .append($('<td data-label='+ thead[3]+ ' class="result-test">').append(result[2]))
+        $('table tr').last().html('<td data-label=""'+' class="result-test">Wynik</td>')
+        .append($('<td data-label="Vata"'+' class="result-test">').append(result[0]))
+        .append($('<td data-label="Pita"'+ ' class="result-test">').append(result[1]))
+        .append($('<td data-label="Kapha"'+ ' class="result-test">').append(result[2]))
         });
   
       }
