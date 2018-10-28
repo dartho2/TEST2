@@ -13,21 +13,19 @@ export class HeaderComponent implements OnInit {
   portal;
   hover;
   service = this.portals;
-  constructor(public portals: PortalComponent) { }
+  constructor(public portals: PortalComponent) {}
 
-  ngOnInit() {
-    this.change();
-  }
+  ngOnInit() {}
+
   onHiddenMe(){
     this.change();
   }
+  
   change(){
-    $(document).ready(function () {
-    $(".navbar-nav li a").click(function (event) {
+    if($(".navbar-nav li a")){
       if (!$(this).parent().hasClass('dropdown'))
-        $(".navbar-collapse").collapse('hide');
-    })
-  });
+      $(".navbar-collapse").collapse('hide');
+    }
   }
  
 
