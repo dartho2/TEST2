@@ -23,4 +23,12 @@ console.log(data)
       data: {data: data, type_class: "image"}
   })
 }
+// NEW
+openDialogImage(data) {
+  console.log(data)
+      const dialogRef = this.dialog.open(DialogComponent, {
+        data: {data, type_class: "referencje"}
+    })
+  }
+// NEW END
 }

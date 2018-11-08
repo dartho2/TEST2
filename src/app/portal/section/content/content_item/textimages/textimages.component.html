@@ -13,7 +13,7 @@
   </div>
 </div>
 <!-- REFERENCJE -->
-<div *ngIf="data.styles.text_type === 'block-ref'" class="col-md-12" (click)="openDialog(data)" [ngStyle]="{'float': data.styles.float}"
+<!-- <div *ngIf="data.styles.text_type === 'block-ref'" class="col-md-12" (click)="openDialog(data)" [ngStyle]="{'float': data.styles.float}"
   style="padding:10px; margin-bottom: 30px; cursor:pointer;">
   <div [ngClass]="data.styles.text_type">
     <h2 style="color:black" *ngIf="data.content.title" class="fit-p-on-title col-sm-12">{{data.content.title}}
@@ -26,7 +26,23 @@
           więcej</button></span>
     </div>
   </div>
+</div> -->
+<!-- NEW -->
+<div *ngIf="data.styles.text_type === 'referencje'" class="col-md-12" style="padding:10px; margin-bottom: 30px;">
+  <div *ngFor="let content of data.content" class="fit-p-on-title col-sm-12">
+    <h2 class="fit-p-on-title col-sm-12">{{content.title}}</h2>
+    <span class="ref-l" *ngIf="content.date">{{content.date}}</span>
+    <blockquote [innerHTML]="content.text">{{content.text}}</blockquote>
+    <cite>{{content.signature}}</cite>
+    <div class="description-ref" *ngIf="content.button">
+      <span style="text-align: center" class="ref-r" *ngIf="content.button">
+        <button type="button" (click)="openDialogImage(content.image)" class="btn btn-xs btn-info">
+          Czytaj więcej</button>
+        </span>
+    </div>
+  </div>
 </div>
+<!-- NEW END -->
 <!-- REFERENCJE -->
 
 <div [ngClass]="data.styles.text_type" *ngIf="data.styles.text_type === 'block-o-t'" class="col-md-12">

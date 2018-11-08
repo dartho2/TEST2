@@ -1,4 +1,4 @@
-<div class="content-t-body justify-content-md-center" *ngIf="(data.styles.text_type === 'price-l') || data.styles.text_type === 'schedule' || data.styles.text_type === 'table-o-a' || data.styles.text_type === 'price-l-n'">
+<!-- <div class="content-t-body justify-content-md-center" *ngIf="(data.styles.text_type === 'price-l') || data.styles.text_type === 'schedule' || data.styles.text_type === 'table-o-a' || data.styles.text_type === 'price-l-n'">
   <div style="width:100%" class="col-md-auto">
     <div *ngIf="data">
       <table class="table" [ngClass]="data.styles.text_type">
@@ -20,4 +20,27 @@
     </div>
   </div>
   <span id="sum"></span>
-</div>
+</div> -->
+ <!-- NEW -->
+ <div class="content-t-body justify-content-md-center" *ngIf="(data.styles.text_type === 'price-l') || data.styles.text_type === 'schedule' || data.styles.text_type === 'table-o-a' || data.styles.text_type === 'price-l-n'">
+    <div style="width:100%" class="col-md-auto">
+        <div *ngFor="let dataTable of data.content">
+        <table class="table" [ngClass]="data.styles.text_type">
+          <thead [ngClass]="data.styles.text_type" *ngIf="dataTable.title">
+            <th scope="col" colspan="100%">{{dataTable.title}}</th>
+          </thead>
+          <caption id="">{{dataTable.title}}</caption>
+          <thead class="" *ngIf="data.content.headers">
+            <th scope="col" *ngFor="let header of dataTable.headers">{{dataTable.header}}</th>
+          </thead>
+          <tr [ngClass]="data.styles.text_type" *ngFor="let row of dataTable.data; index as i">
+            <td [attr.data-label]="data.styles.text_type === 'table-o-a' ? '' : dataTable.headers[a] ? dataTable.headers[a]: ''" class="table-content" value_test='0' [ngClass]="data.styles.text_type" *ngFor="let cell of row; index as a">
+              <app-table-cell [data]="cell" [type_table]="data.styles.text_type"></app-table-cell>
+            </td>
+          </tr>
+        </table>
+      </div> 
+    </div>
+    <span id="sum"></span>
+  </div>
+  <!-- NEW -->

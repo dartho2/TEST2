@@ -1,5 +1,11 @@
 <h2 mat-dialog-title> </h2>
 <mat-dialog-content class="mat-typography">
+  <!-- New -->
+<div *ngIf="data.type_class === 'referencje'">
+    <img *ngFor="let image of data.data" class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
+    src="{{image.url}}" data-holder-rendered="true">
+</div>
+ <!-- NEW END -->
   <img *ngIf="data.type_class === 'image'" class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
     src="{{data.data.content.image}}" data-holder-rendered="true">
     <div *ngIf="data.type_class === 'text'" >       
