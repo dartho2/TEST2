@@ -44,10 +44,9 @@
 </div>
 <!-- NEW END -->
 <!-- REFERENCJE -->
-
-<div [ngClass]="data.styles.text_type" *ngIf="data.styles.text_type === 'block-o-t'" class="col-md-12">
+<div *ngIf="data.styles.text_type === 'block-o-t'">
   <div *ngIf="data.content.length > 0">
-    <div *ngFor="let content of data.content">
+<div [ngClass]="data.styles.text_type" *ngFor="let content of data.content" class="col-md-12 row">
       <h2 *ngIf="content.title" class="fit-p-on-title col-sm-12">{{content.title}}</h2>
       <div class="col-md-6" [ngStyle]="{'float': data.styles.float}" [ngClass]="data.styles.text_type">
         <p class="lead" [innerHTML]="content.text">
@@ -65,7 +64,7 @@
                 </div>
       </div>
     </div>
-
+  
 </div>
   
   <!-- <h2 *ngIf="data.content.title" class="fit-p-on-title col-sm-12">{{data.content.title}}</h2>
