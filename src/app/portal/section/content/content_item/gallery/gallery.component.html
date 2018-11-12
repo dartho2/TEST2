@@ -1,37 +1,33 @@
 <div *ngFor="let content of data.content">
-  <h2 class="featurette-heading">{{data.title}}</h2>
-  <div class="col-md-6 content-video" [ngStyle]="{'float': data.styles.float}" *ngIf="content.videos">
-    <div class="col-md-12  content-video" [ngStyle]="{'float': data.styles.float}" *ngFor="let videos of content.videos">
-      <fb-video *ngIf="videos.url" [href]="videos.url"></fb-video>
-      <p>{{videos.description}}</p>
+  <h2 style="padding-left: 1.25rem;padding-top: 2rem; font-family: OSWALD; color:black; font-weight: 600; text-align: center; clear: both;"
+    *ngIf="content.title">{{content.title}}</h2>
+  <div *ngIf="content.image?.length > 1">
+    <div *ngFor="let image of content.image" class="tz-gallery col-md-6 content-image">
+      <a class="lightbox" href="{{image.url}}">
+        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="{{image.url}}"
+          data-holder-rendered="true">
+      </a>
     </div>
   </div>
-  <div *ngIf="content.images">
-    <!-- <div class="col-md-12 content-image" [ngStyle]="{'float': data.styles.float}" *ngIf="content.images.lenght > 0">
-      <div class="tz-gallery col-md-6 content-image" [ngStyle]="{'float': data.styles.float}" *ngFor="let image of content.images">
-        <a class="lightbox" routerLink="{{image.url}}">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="{{image.url}}"
-            data-holder-rendered="true">
-          <p>{{image.description}}</p>
-        </a>
-      </div>
-    </div> -->
-    <div class="tz-gallery col-md-12 content-image" [ngStyle]="{'float': data.styles.float}" *ngIf="content.images.length > 1">
-      <div class="col-md-6 content-image" [ngStyle]="{'float': data.styles.float}" *ngFor="let image of content.images">
-        <a class="lightbox" href="{{image.url}}">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="{{image.url}}"
-            data-holder-rendered="true">
-        </a>
-      </div>
-    </div>
-    <div class="tz-gallery col-md-12 content-image" [ngStyle]="{'float': data.styles.float}" *ngIf="content.images.length === 1">
-        <div class="col-md-12 content-image" [ngStyle]="{'float': data.styles.float}" *ngFor="let image of content.images">
+  <div *ngIf="content.image?.length === 1">
+    <div *ngFor="let image of content.image">
+      <div *ngIf="image.url">
+        <div class="tz-gallery col-md-12 content-image">
           <a class="lightbox" href="{{image.url}}">
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="{{image.url}}"
               data-holder-rendered="true">
           </a>
         </div>
+        <p class="lead"> {{image.description}} </p>
       </div>
-
+    </div>
+  </div>
+  <div *ngIf="content.videos?.length > 1" class="row">
+    <div *ngFor="let video of content.videos" class="col-md-6 content-video">
+      <div *ngIf="video.url">
+        <fb-video [href]="video.url"></fb-video>
+        <p>{{video.description}}</p>
+      </div>
+    </div>
   </div>
 </div>

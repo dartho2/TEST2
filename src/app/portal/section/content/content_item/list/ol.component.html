@@ -1,6 +1,6 @@
 <li *ngIf="getDataType() === 'string'">{{data}}</li>
 <div *ngIf="getDataType() === 'array'">
-<div *ngFor="let item of data; index as a">
+  <div *ngFor="let item of data; index as a">
     <b>{{index}}.{{a}} </b> {{item}}<br>
-</div>
+  </div>
 </div>

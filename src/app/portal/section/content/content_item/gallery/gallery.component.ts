@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import baguetteBox from 'baguettebox.js';
 declare var jquery: any;
 declare var $: any;
@@ -10,13 +10,12 @@ declare var $: any;
 export class GalleryComponent implements OnInit {
   @Input()
   data;
-ngOnInit(){
-  
-  $(document).ready(function () {
-    console.log("initial")
-  baguetteBox.run('.tz-gallery', {
-    
-});
-  });
-}
+  ngOnInit() {
+
+    $(document).ready(function () {
+      baguetteBox.run('.tz-gallery', {
+
+      });
+    });
+  }
 }

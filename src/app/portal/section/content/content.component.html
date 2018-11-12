@@ -1,7 +1,7 @@
 <div class="row content-body" *ngFor="let contentItem of contentItems">
   <app-text  *ngIf="contentItem.type === 'text'" [data]="contentItem"></app-text>
   <app-textimages *ngIf="contentItem.type === 'text_and_image'" [data]="contentItem"></app-textimages>
-  <app-gallery *ngIf="contentItem.type === 'gallery'" [data]="contentItem"></app-gallery>
+  <app-gallery class="col-md-12" *ngIf="contentItem.type === 'gallery'" [data]="contentItem"></app-gallery>
   <app-list class="col-md-12" *ngIf="contentItem.type === 'list'" [data]="contentItem"></app-list>
   <app-table class="col-md-12" *ngIf="contentItem.type === 'table' || contentItem.type === 'schedule'" [data]="contentItem"></app-table>
   <app-contact class="col-md-12" *ngIf="contentItem.type === 'contact'" [data]="contentItem"></app-contact>

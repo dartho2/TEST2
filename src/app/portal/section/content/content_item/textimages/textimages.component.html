@@ -1,33 +1,24 @@
-<div class="row" *ngIf="data.styles.text_type === 'block_box'" [ngClass]="data.styles.text_type">
-  <img *ngIf="data.content.image" class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
-    src="{{data.content.image}}" data-holder-rendered="true">
-  <div class="col-sm-12 box-news-content">
-    <h2 *ngIf="data.content.title" class="fit-p-on-title col-sm-12">{{data.content.title}}</h2>
-    <div class="col-sm-12 box-news image-box-t">
-      <p class="lead">
-        {{data.content.text}} </p>
-      <ul *ngIf="data.content.items">
-        <li *ngFor="let item of data.content.items">{{item}}</li>
-      </ul>
+<div class="row" *ngIf="data.styles.text_type === 'default'" [ngClass]="data.styles.text_type">
+  <div *ngFor="let content of data.content">
+    <div *ngFor="let image of content.image">
+      <img *ngIf="image.url" class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
+        src="{{image.url}}" data-holder-rendered="true">
+    </div>
+    <div class="col-sm-12 box-news-content">
+      <h2 *ngIf="content.title" class="fit-p-on-title col-sm-12">{{content.title}}</h2>
+      <div class="col-sm-12 box-news image-box-t">
+        <p class="lead">
+          {{content.text}} </p>
+        <p class="lead" *ngIf="content.decriptions" style="font-size: 13px; font-weight: 900;" [ngStyle]="{'text-align': data.styles.text_align}">{{content.decriptions}}</p>
+        <ul *ngIf="content.items?.length">
+          <div *ngFor="let item of content.items">
+            <li *ngIf="item.length > 0">{{item}}</li>
+          </div>
+        </ul>
+      </div>
     </div>
   </div>
 </div>
-<!-- REFERENCJE -->
-<!-- <div *ngIf="data.styles.text_type === 'block-ref'" class="col-md-12" (click)="openDialog(data)" [ngStyle]="{'float': data.styles.float}"
-  style="padding:10px; margin-bottom: 30px; cursor:pointer;">
-  <div [ngClass]="data.styles.text_type">
-    <h2 style="color:black" *ngIf="data.content.title" class="fit-p-on-title col-sm-12">{{data.content.title}}
-    </h2> <span style="text-align: center" class="ref-l" *ngIf="data.content.data">{{data.content.data}}</span>
-    <blockquote>{{data.content.text}}</blockquote>
-    <cite>{{data.content.signature}}</cite>
-
-    <div class="description-ref" *ngIf="data.content.data || data.content.button">
-      <span style="text-align: center" class="ref-r" *ngIf="data.content.button"><button type="button" class="btn btn-xs btn-info">Czytaj
-          więcej</button></span>
-    </div>
-  </div>
-</div> -->
-<!-- NEW -->
 <div *ngIf="data.styles.text_type === 'referencje'" class="col-md-12" style="padding:10px; margin-bottom: 30px;">
   <div *ngFor="let content of data.content" class="fit-p-on-title col-sm-12">
     <h2 class="fit-p-on-title col-sm-12">{{content.title}}</h2>
@@ -38,81 +29,44 @@
       <span style="text-align: center" class="ref-r" *ngIf="content.button">
         <button type="button" (click)="openDialogImage(content.image)" class="btn btn-xs btn-info">
           Czytaj więcej</button>
-        </span>
+      </span>
     </div>
   </div>
 </div>
-<!-- NEW END -->
-<!-- REFERENCJE -->
-<div *ngIf="data.styles.text_type === 'block-o-t'">
-  <div *ngIf="data.content.length > 0">
-<div [ngClass]="data.styles.text_type" *ngFor="let content of data.content" class="col-md-12 row">
-      <h2 *ngIf="content.title" class="fit-p-on-title col-sm-12">{{content.title}}</h2>
-      <div class="col-md-6" [ngStyle]="{'float': data.styles.float}" [ngClass]="data.styles.text_type">
-        <p class="lead" [innerHTML]="content.text">
-          </p>
-        <!-- <div *ngIf="data.content.items">
-          <ul style="padding-left:20px">
-            <li *ngFor="let item of data.content.items">{{item}}</li>
-          </ul>
-        </div> -->
-      </div>
-      <div class="col-md-6" [ngStyle]="{'float': data.styles.float}">
-          <div *ngFor="let image of content.image">
-              <img *ngIf="image.url" class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
-                src="{{image.url}}" data-holder-rendered="true">
-                </div>
-      </div>
-    </div>
-  
-</div>
-  
-  <!-- <h2 *ngIf="data.content.title" class="fit-p-on-title col-sm-12">{{data.content.title}}</h2>
-  <div class="col-md-6" [ngStyle]="{'float': data.styles.float}" [ngClass]="data.styles.text_type">
-    <p class="lead">
-      {{data.content.text}} </p>
-    <div *ngIf="data.content.items">
-      <ul style="padding-left:20px">
-        <li *ngFor="let item of data.content.items">{{item}}</li>
-      </ul>
-    </div>
-  </div>
-  <div class="col-md-6" [ngStyle]="{'float': data.styles.float}">
-    <img *ngIf="data.content.image" class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
-      src="{{data.content.image}}" data-holder-rendered="true">
-  </div> -->
-</div>
-
-
-<div [ngClass]="data.styles.text_type" *ngIf="data.styles.text_type === 'block-o'" class="col-md-12">
-  <h2 *ngIf="data.content.title" class="fit-p-on-title col-sm-12">{{data.content.title}}</h2>
-  <div class="col-md-6" [ngStyle]="{'float': data.styles.float}" [ngClass]="data.styles.text_type">
-    <p class="lead">
-      {{data.content.text}} </p>
-  </div>
-  <div class="col-md-6" [ngStyle]="{'float': data.styles.float}">
-    <div class="row mt-30">
-      <img *ngIf="data.content.image" class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
-        src="{{data.content.image}}" data-holder-rendered="true">
-      <ul class="icon">
-        <li *ngIf="data.content.references"><a routerLink="/pdtr/references" class="fa fa-file-text-o" [ngStyle]="{'background': portals.portal.style.colors.primary, 'color':'white'}"><span
-              style="color:black;font-family: OSWALD;text-transform: uppercase;">referencje</span></a></li>
-        <li *ngIf="data.content.email"><a href="mailto:{{data.content.email}}" class="fa fa-envelope" [ngStyle]="{'background': portals.portal.style.colors.primary, 'color':'white'}"><span
-              style="color:black;font-family: OSWALD;text-transform: uppercase;">{{data.content.email}}</span></a></li>
-        <li *ngIf="data.content.phone"><a class="fa fa-phone" [ngStyle]="{'background': portals.portal.style.colors.primary, 'color':'white'}"><span
-              style="color:black;font-family: OSWALD;text-transform: uppercase;">{{data.content.phone}}</span></a></li>
-      </ul>
-    </div>
-  </div>
-</div>
-<div class="row" *ngIf="data.styles.text_type === 'block-o-s'" [ngClass]="data.styles.text_type">
-  <div class="col-sm-12 box-news-content">
-    <h2 *ngIf="data.content.title" class="fit-p-on-title col-sm-12">{{data.content.title}}</h2>
-    <div class="col-sm-12 box-news image-box-t">
+<div [ngClass]="data.styles.text_type" *ngIf="data.styles.text_type === 'text_image_r'" class="col-md-12">
+  <div *ngFor="let content of data.content" class="row">
+    <h2 *ngIf="content.title" class="fit-p-on-title col-sm-12">{{content.title}}</h2>
+    <div class="col-md-6" [ngStyle]="{'float': data.styles.float}" [ngClass]="data.styles.text_type">
       <p class="lead">
-        {{data.content.text}} </p>
+        {{content.text}}
+      </p>
+      <ul *ngIf="content.items?.length > 1">
+        <div *ngFor="let item of content.items">
+          <li *ngIf="item.length > 0">{{item}}</li>
+        </div>
+      </ul>
     </div>
-    <img *ngIf="data.content.image" class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
-      src="{{data.content.image}}" data-holder-rendered="true">
+    <div class="col-md-6" [ngStyle]="{'float': data.styles.float}">
+      <div class="row mt-30">
+        <div class="col-md-12" [ngStyle]="{'float': data.styles.float}">
+          <div *ngFor="let image of content.image">
+            <img *ngIf="image.url" class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
+              src="{{image.url}}" data-holder-rendered="true">
+          </div>
+        </div>
+        <div *ngFor="let contact of content.contact" class="col-md-12">
+          <div *ngIf="contact.phone?.length  > 1 || contact.email?.length > 1 || contact.reference?.length  > 1">
+            <ul class="icon">
+              <li *ngIf="contact.reference"><a routerLink="{{contact.reference}}" class="fa fa-file-text-o" [ngStyle]="{'background': portals.portal.style.colors.primary, 'color':'white'}"><span
+                    style="color:black;font-family: OSWALD;text-transform: uppercase;">referencje</span></a></li>
+              <li *ngIf="contact.email"><a href="mailto:{{contact.email}}" class="fa fa-envelope" [ngStyle]="{'background': portals.portal.style.colors.primary, 'color':'white'}"><span
+                    style="color:black;font-family: OSWALD;text-transform: uppercase;">{{contact.email}}</span></a></li>
+              <li *ngIf="contact.phone"><a class="fa fa-phone" [ngStyle]="{'background': portals.portal.style.colors.primary, 'color':'white'}"><span
+                    style="color:black;font-family: OSWALD;text-transform: uppercase;">{{contact.phone}}</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
