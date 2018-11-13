@@ -55,7 +55,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     OlComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     RouterModule,
     AppRoutingModule,
     HttpClientModule,
