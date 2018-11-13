@@ -1,6 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {ActivatedRoute} from '@angular/router';
 import {FacebookService, InitParams} from 'ngx-facebook';
+import { AppService } from '../app.service';
 @Component({
   selector: 'app-portal',
   templateUrl: './portal.component.html'
@@ -17,7 +18,7 @@ export class PortalComponent implements OnInit {
     version: 'v3.1'
   };
 
-  constructor(private router: ActivatedRoute,
+  constructor(private router: ActivatedRoute, private portalService: AppService,
     public fb: FacebookService) {
   }
 
@@ -31,6 +32,9 @@ export class PortalComponent implements OnInit {
   
   
   ngOnInit() {
+    this.portalService.getPortals().subscribe(x=> {
+      let seo = x
+    });
     this.router.paramMap.subscribe(params => {
       this.fb.init(this.initParams);
       this.portal = this.portals.find(portal => portal.name === params.get('portal'));

@@ -13,7 +13,28 @@ import {join} from 'path';
 enableProdMode();
 
 // Express server
+// const app = express();
+const express = require('express');
+const path = require('path');
 const app = express();
+const http = require('http');
+const https = require('https');
+const fs = require('fs');
+const privateKey = fs.readFileSync('./cert/2BABF81C34AB39706EA004FE027FF72F.key');
+const certyficate = fs.readFileSync('./cert/2BABF81C34AB39706EA004FE027FF72F.crt');
+const credentials = {
+  key: privateKey,
+  cert: certyficate
+}
+app.use(function(req, res, next) {
+  if (req.secure) {
+      next();
+  } else {
+      res.redirect('https://' + req.headers.host + req.url);
+  }
+});
+const httpServer = http.createServer(app);
+const httpsServer = https.createServer(credentials, app);
 
 const PORT = process.env.PORT || 4000;
 const DIST_FOLDER = join(process.cwd(), 'dist/browser');
@@ -45,6 +66,13 @@ app.get('*', (req, res) => {
 });
 
 // Start up the Node server
-app.listen(PORT, () => {
-  console.log(`Node Express server listening on http://localhost:${PORT}`);
+// app.listen(PORT, () => {
+//   console.log(`Node Express server listening on http://localhost:${PORT}`);
+// });
+httpServer.listen(80, () => {
+  console.log('Server Https started on 80')
+});
+
+httpsServer.listen(443, () => {
+  console.log('Server Https started on 443')
 });
