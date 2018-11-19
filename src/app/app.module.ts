@@ -32,6 +32,7 @@ import {OlComponent} from './portal/section/content/content_item/list/ol.compone
 import {AngularFontAwesomeModule} from 'angular-font-awesome';
 import {NgxSpinnerModule} from 'ngx-spinner';
 import { ReactiveFormsModule } from '@angular/forms';
+import { SafePipe } from './portal/section/content/content_item/safe.pipe';
 
 
 @NgModule({
@@ -52,7 +53,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     ContactComponent,
     DialogComponent,
     TableCellComponent,
-    OlComponent
+    OlComponent,
+    SafePipe
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
