@@ -1,8 +1,7 @@
-import {Component, Input, OnInit, Renderer} from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 import {PortalComponent} from '../../../../portal.component';
-// import { DomSanitizer } from '@angular/platform-browser'
-// import { PipeTransform, Pipe } from "@angular/core";
-// @Pipe({ name: 'safeHtml'})
+import {DomSanitizer} from '@angular/platform-browser';
+
 @Component({
   selector: 'app-text',
   templateUrl: './text.component.html',
@@ -13,16 +12,11 @@ export class TextComponent implements OnInit  {
   @Input()
   data;
   portals = this.portal;
-  constructor(public portal: PortalComponent, public renderer: Renderer) {}
+  constructor(public portal: PortalComponent, public renderer: DomSanitizer) {}
   ngOnInit() {
-    this.appendHTMLSnippetToDOM();
+    this.renderer.bypassSecurityTrustHtml(this.data.text);
   }
 
-  appendHTMLSnippetToDOM()
-  {
-   
-    const fragment = document.createRange().createContextualFragment(this.data.text);
   
-  }
 }
 
