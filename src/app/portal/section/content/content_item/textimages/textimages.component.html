@@ -7,8 +7,7 @@
     <div class="col-sm-12 box-news-content">
       <h2 *ngIf="content.title" class="fit-p-on-title col-sm-12">{{content.title}}</h2>
       <div class="col-sm-12 box-news image-box-t">
-        <p class="lead">
-          {{content.text}} </p>
+        <p class="lead" [innerHTML]="content.text"></p>
         <p class="lead" *ngIf="content.decriptions" style="font-size: 13px; font-weight: 900;" [ngStyle]="{'text-align': data.styles.text_align}">{{content.decriptions}}</p>
         <ul *ngIf="content.items?.length">
           <div *ngFor="let item of content.items">
@@ -23,7 +22,7 @@
   <div *ngFor="let content of data.content" class="fit-p-on-title col-sm-12">
     <h2 class="fit-p-on-title col-sm-12">{{content.title}}</h2>
     <span class="ref-l" *ngIf="content.date">{{content.date}}</span>
-    <blockquote [innerHTML]="content.text">{{content.text}}</blockquote>
+    <blockquote [innerHTML]="content.text"></blockquote>
     <cite>{{content.signature}}</cite>
     <div class="description-ref" *ngIf="content.button">
       <span style="text-align: center" class="ref-r" *ngIf="content.button">
@@ -37,8 +36,8 @@
   <div *ngFor="let content of data.content" class="row">
     <h2 *ngIf="content.title" class="fit-p-on-title col-sm-12">{{content.title}}</h2>
     <div class="col-md-6" [ngStyle]="{'float': data.styles.float}" [ngClass]="data.styles.text_type">
-      <p class="lead">
-        {{content.text}}
+      <p class="lead" [innerHTML]="content.text">
+       
       </p>
       <ul *ngIf="content.items?.length > 1">
         <div *ngFor="let item of content.items">
