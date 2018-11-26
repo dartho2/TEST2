@@ -1,7 +1,5 @@
 <div class="content-t-i" *ngIf="data.styles.text_type === 'default'">
-  <div class="col-md-12" style="margin:0 auto" *ngFor="let text of data.content">
-    <div [innerHTML]="text.text | safe: 'html'">
+    <div class="row" *ngFor="let text of data.content" [innerHTML]="text.text | safe: 'html'">
       <a *ngIf="text.reference && text.decriptions" routerLink="{{text.reference}}"><span>{{text.decriptions}}</span></a>
-    </div>
   </div>
 </div>
