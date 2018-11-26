@@ -1,12 +1,7 @@
 <div class="content-t-i" *ngIf="data.styles.text_type === 'default'">
   <div class="col-md-12" style="margin:0 auto" *ngFor="let text of data.content">
-    <p class="lead" [ngStyle]="{'text-align': data.styles.text_align}" [innerHTML]="text.text | safe: 'html'">{{text.text}}
+    <div [innerHTML]="text.text | safe: 'html'">
       <a *ngIf="text.reference && text.decriptions" routerLink="{{text.reference}}"><span>{{text.decriptions}}</span></a>
-    </p>
-    <ul *ngIf="text.items?.length > 1">
-      <div *ngFor="let item of text.items">
-        <li *ngIf="item.length > 0">{{item}}</li>
-      </div>
-    </ul>
+    </div>
   </div>
 </div>
