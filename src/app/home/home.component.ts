@@ -36,10 +36,10 @@ export class HomeComponent implements OnInit {
       this.meta.addTag({ name: "description", content: 'Treningi personalne, Gabinet P-DTR , Studio Jogi, Centrum Fitness, Doradztwo żywieniowe'})
       }
      
-      setTimeout(() => {
+     
         this.spinner.hide()
         this.spiner = true;
-      }, 3000);
+      
     });
 
   }
