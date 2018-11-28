@@ -12,5 +12,5 @@
 
 </div>
 <div [ngClass]="type_table+'-test'" *ngIf="getDataType() ==='string'">
-  {{data}}
+  <div *ngIf="data.length > 0">{{data}}</div>
 </div>
