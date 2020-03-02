@@ -21,6 +21,13 @@
         <p class="lead-footer" style="padding-left: 32px;line-height: 0px;padding-bottom: 10px;">
          32-540 Trzebinia 
         </p>
+<div *ngIf="(portal.name =='pdtr') || (portal.name == 'counseling')">
+			<p class="lead-footer"><i class="fa fa-home mr-3"></i>Filia Kraków</p>
+			        <p class="lead-footer" style="padding-left: 32px;line-height: 0px;padding-bottom: 10px;">ul. Szlak 28</p>
+				        <p class="lead-footer" style="padding-left: 32px;line-height: 0px;padding-bottom: 10px;">
+					         31-422 Kraków
+						         </p>
+							 		</div>
         <p class="lead-footer">
           <i class="fa fa-envelope mr-3"></i>
           <a [ngStyle]="{'color': portal.style.colors.primary}" href="mailto:karmazdrowia@gmail.com">karmazdrowia@gmail.com</a>
@@ -95,6 +102,10 @@
               facebook
               <span class="time-footer"><a class="time-footer" [ngStyle]="{'color': portal.style.colors.primary}" href="https://www.facebook.com/7mepoty-Centrum-fitness-250111271792298/">link</a></span>
             </p>
+	    <p class="lead-footer"><i [ngStyle]="{'color': portal.style.colors.primary}" class="fa-facebook-official fa fa-clock-o" aria-hidden="true"></i>
+	                  znany-lekarz
+			                <span class="time-footer"><a class="time-footer" [ngStyle]="{'color': portal.style.colors.primary}" href="https://www.znanylekarz.pl/maja-bednarczyk/">link</a></span>
+					            </p>
         </div>
       </div>
       <img class="logo-portals" src="assets/images/spinner_.png">
