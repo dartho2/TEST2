@@ -11,7 +11,7 @@ export class TextComponent implements OnInit  {
   @Input()
   data;
   portals = this.portal;
-  constructor(public portal: PortalComponent, public renderer: DomSanitizer, private dynamicScriptLoader: DynamicScriptLoaderService) {}
+  constructor(public portal: PortalComponent, public renderer: DomSanitizer) {}
   ngOnInit() {
     this.renderer.bypassSecurityTrustHtml(this.data.text);
     
